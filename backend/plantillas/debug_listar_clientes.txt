@@ -1,0 +1,451 @@
+[2025-11-15 22:33:56][MEM: 0.36MB] ========================================
+[2025-11-15 22:33:56][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-15 22:33:56][MEM: 0.36MB] ========================================
+[2025-11-15 22:33:56][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-15 22:33:56][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-15 22:33:56][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-15 22:33:56][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-15 22:33:56][MEM: 0.35MB] ========================================
+[2025-11-15 22:33:56][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-15 22:33:56][MEM: 0.35MB] ========================================
+[2025-11-15 22:33:56][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-15 22:33:56][MEM: 0.35MB] 📨 Método: GET
+[2025-11-15 22:33:56][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-15 22:33:56][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-15 22:33:56][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-15 22:33:56][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-15 22:33:56][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-15 22:33:56][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-15 22:33:56][MEM: 0.39MB] 📋 Parámetros de consulta:
+[2025-11-15 22:33:56][MEM: 0.39MB]    busqueda: NULL
+[2025-11-15 22:33:56][MEM: 0.39MB]    activos_solo: 1
+[2025-11-15 22:33:56][MEM: 0.39MB]    limit: 100
+[2025-11-15 22:33:56][MEM: 0.39MB]    offset: 0
+[2025-11-15 22:33:56][MEM: 0.4MB] 🔍 Query construida
+[2025-11-15 22:33:56][MEM: 0.4MB]    Params: 2
+[2025-11-15 22:33:56][MEM: 0.42MB] ▶️ Ejecutando query...
+[2025-11-15 22:33:56][MEM: 0.43MB] ✅ Query ejecutada
+[2025-11-15 22:33:56][MEM: 0.43MB] 📊 Filas encontradas: 100
+[2025-11-15 22:33:56][MEM: 0.51MB] ✅ Resultados procesados: 100 clientes
+[2025-11-15 22:33:56][MEM: 0.55MB] 📊 Total de clientes únicos: 127
+[2025-11-15 22:33:56][MEM: 0.55MB] 📤 Enviando respuesta...
+[2025-11-15 22:48:28][MEM: 0.36MB] ========================================
+[2025-11-15 22:48:28][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-15 22:48:28][MEM: 0.36MB] ========================================
+[2025-11-15 22:48:28][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-15 22:48:28][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-15 22:48:28][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-15 22:48:28][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-15 22:48:28][MEM: 0.35MB] ========================================
+[2025-11-15 22:48:28][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-15 22:48:28][MEM: 0.35MB] ========================================
+[2025-11-15 22:48:28][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-15 22:48:28][MEM: 0.35MB] 📨 Método: GET
+[2025-11-15 22:48:28][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-15 22:48:28][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-15 22:48:28][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-15 22:48:28][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-15 22:48:28][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-15 22:48:28][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-15 22:48:28][MEM: 0.39MB] 📋 Parámetros de consulta:
+[2025-11-15 22:48:28][MEM: 0.39MB]    busqueda: NULL
+[2025-11-15 22:48:28][MEM: 0.39MB]    activos_solo: 1
+[2025-11-15 22:48:28][MEM: 0.39MB]    limit: 100
+[2025-11-15 22:48:28][MEM: 0.39MB]    offset: 0
+[2025-11-15 22:48:28][MEM: 0.4MB] 🔍 Query construida
+[2025-11-15 22:48:28][MEM: 0.4MB]    Params: 2
+[2025-11-15 22:48:28][MEM: 0.42MB] ▶️ Ejecutando query...
+[2025-11-15 22:48:28][MEM: 0.43MB] ✅ Query ejecutada
+[2025-11-15 22:48:28][MEM: 0.43MB] 📊 Filas encontradas: 100
+[2025-11-15 22:48:28][MEM: 0.51MB] ✅ Resultados procesados: 100 clientes
+[2025-11-15 22:48:28][MEM: 0.55MB] 📊 Total de clientes únicos: 127
+[2025-11-15 22:48:28][MEM: 0.55MB] 📤 Enviando respuesta...
+[2025-11-16 12:43:52][MEM: 0.36MB] ========================================
+[2025-11-16 12:43:52][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-16 12:43:52][MEM: 0.36MB] ========================================
+[2025-11-16 12:43:52][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-16 12:43:52][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-16 12:43:52][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-16 12:43:52][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-16 12:43:53][MEM: 0.35MB] ========================================
+[2025-11-16 12:43:53][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-16 12:43:53][MEM: 0.35MB] ========================================
+[2025-11-16 12:43:53][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 12:43:53][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 12:43:53][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-16 12:43:53][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 12:43:53][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 12:43:53][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-16 12:43:53][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-16 12:43:53][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-16 12:43:53][MEM: 0.39MB] 📋 Parámetros de consulta:
+[2025-11-16 12:43:53][MEM: 0.39MB]    busqueda: NULL
+[2025-11-16 12:43:53][MEM: 0.39MB]    activos_solo: 1
+[2025-11-16 12:43:53][MEM: 0.39MB]    limit: 100
+[2025-11-16 12:43:53][MEM: 0.39MB]    offset: 0
+[2025-11-16 12:43:53][MEM: 0.4MB] 🔍 Query construida
+[2025-11-16 12:43:53][MEM: 0.4MB]    Params: 2
+[2025-11-16 12:43:53][MEM: 0.42MB] ▶️ Ejecutando query...
+[2025-11-16 12:43:53][MEM: 0.43MB] ✅ Query ejecutada
+[2025-11-16 12:43:53][MEM: 0.43MB] 📊 Filas encontradas: 100
+[2025-11-16 12:43:53][MEM: 0.51MB] ✅ Resultados procesados: 100 clientes
+[2025-11-16 12:43:53][MEM: 0.55MB] 📊 Total de clientes únicos: 127
+[2025-11-16 12:43:53][MEM: 0.55MB] 📤 Enviando respuesta...
+[2025-11-16 14:42:03][MEM: 0.36MB] ========================================
+[2025-11-16 14:42:03][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-16 14:42:03][MEM: 0.36MB] ========================================
+[2025-11-16 14:42:03][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-16 14:42:03][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-16 14:42:03][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-16 14:42:03][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-16 14:42:03][MEM: 0.35MB] ========================================
+[2025-11-16 14:42:03][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-16 14:42:03][MEM: 0.35MB] ========================================
+[2025-11-16 14:42:03][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 14:42:03][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 14:42:03][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-16 14:42:03][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 14:42:03][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 14:42:03][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-16 14:42:03][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-16 14:42:03][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-16 14:42:03][MEM: 0.39MB] 📋 Parámetros de consulta:
+[2025-11-16 14:42:03][MEM: 0.39MB]    busqueda: NULL
+[2025-11-16 14:42:03][MEM: 0.39MB]    activos_solo: 1
+[2025-11-16 14:42:03][MEM: 0.39MB]    limit: 100
+[2025-11-16 14:42:03][MEM: 0.39MB]    offset: 0
+[2025-11-16 14:42:03][MEM: 0.4MB] 🔍 Query construida
+[2025-11-16 14:42:03][MEM: 0.4MB]    Params: 2
+[2025-11-16 14:42:03][MEM: 0.42MB] ▶️ Ejecutando query...
+[2025-11-16 14:42:03][MEM: 0.43MB] ✅ Query ejecutada
+[2025-11-16 14:42:03][MEM: 0.43MB] 📊 Filas encontradas: 100
+[2025-11-16 14:42:03][MEM: 0.51MB] ✅ Resultados procesados: 100 clientes
+[2025-11-16 14:42:03][MEM: 0.55MB] 📊 Total de clientes únicos: 127
+[2025-11-16 14:42:03][MEM: 0.55MB] 📤 Enviando respuesta...
+[2025-11-16 16:10:14][MEM: 0.36MB] ========================================
+[2025-11-16 16:10:14][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-16 16:10:14][MEM: 0.36MB] ========================================
+[2025-11-16 16:10:14][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-16 16:10:14][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-16 16:10:14][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-16 16:10:14][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-16 16:10:14][MEM: 0.35MB] ========================================
+[2025-11-16 16:10:14][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-16 16:10:14][MEM: 0.35MB] ========================================
+[2025-11-16 16:10:14][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 16:10:14][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 16:10:14][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-16 16:10:14][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 16:10:14][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 16:10:14][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-16 16:10:14][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-16 16:10:14][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-16 16:10:14][MEM: 0.39MB] 📋 Parámetros de consulta:
+[2025-11-16 16:10:14][MEM: 0.39MB]    busqueda: NULL
+[2025-11-16 16:10:14][MEM: 0.39MB]    activos_solo: 1
+[2025-11-16 16:10:14][MEM: 0.39MB]    limit: 100
+[2025-11-16 16:10:14][MEM: 0.39MB]    offset: 0
+[2025-11-16 16:10:14][MEM: 0.4MB] 🔍 Query construida
+[2025-11-16 16:10:14][MEM: 0.4MB]    Params: 2
+[2025-11-16 16:10:14][MEM: 0.42MB] ▶️ Ejecutando query...
+[2025-11-16 16:10:14][MEM: 0.43MB] ✅ Query ejecutada
+[2025-11-16 16:10:14][MEM: 0.43MB] 📊 Filas encontradas: 100
+[2025-11-16 16:10:14][MEM: 0.51MB] ✅ Resultados procesados: 100 clientes
+[2025-11-16 16:10:14][MEM: 0.55MB] 📊 Total de clientes únicos: 127
+[2025-11-16 16:10:14][MEM: 0.55MB] 📤 Enviando respuesta...
+[2025-11-16 16:20:37][MEM: 0.35MB] ========================================
+[2025-11-16 16:20:37][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-16 16:20:37][MEM: 0.35MB] ========================================
+[2025-11-16 16:20:37][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 16:20:37][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 16:20:37][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-16 16:20:37][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 16:20:37][MEM: 0.36MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 16:20:37][MEM: 0.36MB] ✅ Acceso registrado
+[2025-11-16 16:20:37][MEM: 0.36MB] 📦 Requiriendo conexión...
+[2025-11-16 16:20:37][MEM: 0.4MB] ✅ conexion.php cargado
+[2025-11-16 16:20:37][MEM: 0.4MB] 📋 Parámetros de consulta:
+[2025-11-16 16:20:37][MEM: 0.4MB]    busqueda: NULL
+[2025-11-16 16:20:37][MEM: 0.4MB]    activos_solo: 1
+[2025-11-16 16:20:37][MEM: 0.4MB]    limit: 100
+[2025-11-16 16:20:37][MEM: 0.4MB]    offset: 0
+[2025-11-16 16:20:37][MEM: 0.4MB] 🔍 Query construida
+[2025-11-16 16:20:37][MEM: 0.4MB]    Params: 2
+[2025-11-16 16:20:37][MEM: 0.42MB] ▶️ Ejecutando query...
+[2025-11-16 16:20:37][MEM: 0.44MB] ✅ Query ejecutada
+[2025-11-16 16:20:37][MEM: 0.44MB] 📊 Filas encontradas: 100
+[2025-11-16 16:20:37][MEM: 0.51MB] ✅ Resultados procesados: 100 clientes
+[2025-11-16 16:20:37][MEM: 0.55MB] 📊 Total de clientes únicos: 127
+[2025-11-16 16:20:37][MEM: 0.55MB] 📤 Enviando respuesta...
+[2025-11-16 20:44:22][MEM: 0.36MB] ========================================
+[2025-11-16 20:44:22][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-16 20:44:22][MEM: 0.36MB] ========================================
+[2025-11-16 20:44:22][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-16 20:44:22][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-16 20:44:22][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-16 20:44:22][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-16 20:44:22][MEM: 0.35MB] ========================================
+[2025-11-16 20:44:22][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-16 20:44:22][MEM: 0.35MB] ========================================
+[2025-11-16 20:44:22][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 20:44:22][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 20:44:22][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-16 20:44:22][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 20:44:22][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 20:44:22][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-16 20:44:22][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-16 20:44:22][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-16 20:44:22][MEM: 0.39MB] 📋 Parámetros de consulta:
+[2025-11-16 20:44:22][MEM: 0.39MB]    busqueda: NULL
+[2025-11-16 20:44:22][MEM: 0.39MB]    activos_solo: 1
+[2025-11-16 20:44:22][MEM: 0.39MB]    limit: 100
+[2025-11-16 20:44:22][MEM: 0.39MB]    offset: 0
+[2025-11-16 20:44:22][MEM: 0.4MB] 🔍 Query construida
+[2025-11-16 20:44:22][MEM: 0.4MB]    Params: 2
+[2025-11-16 20:44:22][MEM: 0.42MB] ▶️ Ejecutando query...
+[2025-11-16 20:44:22][MEM: 0.43MB] ✅ Query ejecutada
+[2025-11-16 20:44:22][MEM: 0.43MB] 📊 Filas encontradas: 100
+[2025-11-16 20:44:22][MEM: 0.51MB] ✅ Resultados procesados: 100 clientes
+[2025-11-16 20:44:22][MEM: 0.55MB] 📊 Total de clientes únicos: 127
+[2025-11-16 20:44:22][MEM: 0.55MB] 📤 Enviando respuesta...
+[2025-11-16 22:10:11][MEM: 0.36MB] ========================================
+[2025-11-16 22:10:11][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-16 22:10:11][MEM: 0.36MB] ========================================
+[2025-11-16 22:10:11][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-16 22:10:11][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-16 22:10:11][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-16 22:10:11][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-16 22:10:11][MEM: 0.35MB] ========================================
+[2025-11-16 22:10:11][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-16 22:10:11][MEM: 0.35MB] ========================================
+[2025-11-16 22:10:11][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 22:10:11][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 22:10:11][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-16 22:10:11][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 22:10:11][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 22:10:11][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-16 22:10:11][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-16 22:10:11][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-16 22:10:11][MEM: 0.39MB] 📋 Parámetros de consulta:
+[2025-11-16 22:10:11][MEM: 0.39MB]    busqueda: NULL
+[2025-11-16 22:10:11][MEM: 0.39MB]    activos_solo: 1
+[2025-11-16 22:10:11][MEM: 0.39MB]    limit: 100
+[2025-11-16 22:10:11][MEM: 0.39MB]    offset: 0
+[2025-11-16 22:10:11][MEM: 0.4MB] 🔍 Query construida
+[2025-11-16 22:10:11][MEM: 0.4MB]    Params: 2
+[2025-11-16 22:10:11][MEM: 0.42MB] ▶️ Ejecutando query...
+[2025-11-16 22:10:11][MEM: 0.43MB] ✅ Query ejecutada
+[2025-11-16 22:10:11][MEM: 0.43MB] 📊 Filas encontradas: 100
+[2025-11-16 22:10:11][MEM: 0.51MB] ✅ Resultados procesados: 100 clientes
+[2025-11-16 22:10:11][MEM: 0.55MB] 📊 Total de clientes únicos: 127
+[2025-11-16 22:10:11][MEM: 0.55MB] 📤 Enviando respuesta...
+[2025-11-17 16:47:02][MEM: 0.36MB] ========================================
+[2025-11-17 16:47:02][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-17 16:47:02][MEM: 0.36MB] ========================================
+[2025-11-17 16:47:02][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-17 16:47:02][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-17 16:47:02][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-17 16:47:02][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-17 16:47:02][MEM: 0.35MB] ========================================
+[2025-11-17 16:47:02][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-17 16:47:02][MEM: 0.35MB] ========================================
+[2025-11-17 16:47:02][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-17 16:47:02][MEM: 0.35MB] 📨 Método: GET
+[2025-11-17 16:47:02][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-17 16:47:02][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-17 16:47:02][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 16:47:02][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-17 16:47:02][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-17 16:47:02][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-17 16:47:02][MEM: 0.39MB] 📋 Parámetros de consulta:
+[2025-11-17 16:47:02][MEM: 0.39MB]    busqueda: NULL
+[2025-11-17 16:47:02][MEM: 0.39MB]    activos_solo: 1
+[2025-11-17 16:47:02][MEM: 0.39MB]    limit: 100
+[2025-11-17 16:47:02][MEM: 0.39MB]    offset: 0
+[2025-11-17 16:47:02][MEM: 0.4MB] 🔍 Query construida
+[2025-11-17 16:47:02][MEM: 0.4MB]    Params: 2
+[2025-11-17 16:47:02][MEM: 0.42MB] ▶️ Ejecutando query...
+[2025-11-17 16:47:02][MEM: 0.43MB] ✅ Query ejecutada
+[2025-11-17 16:47:02][MEM: 0.43MB] 📊 Filas encontradas: 100
+[2025-11-17 16:47:02][MEM: 0.51MB] ✅ Resultados procesados: 100 clientes
+[2025-11-17 16:47:02][MEM: 0.55MB] 📊 Total de clientes únicos: 128
+[2025-11-17 16:47:02][MEM: 0.55MB] 📤 Enviando respuesta...
+[2025-11-17 17:56:37][MEM: 0.36MB] ========================================
+[2025-11-17 17:56:37][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-17 17:56:37][MEM: 0.36MB] ========================================
+[2025-11-17 17:56:37][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-17 17:56:37][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-17 17:56:37][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-17 17:56:37][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-17 17:56:37][MEM: 0.35MB] ========================================
+[2025-11-17 17:56:37][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-17 17:56:37][MEM: 0.35MB] ========================================
+[2025-11-17 17:56:37][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-17 17:56:37][MEM: 0.35MB] 📨 Método: GET
+[2025-11-17 17:56:37][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-17 17:56:37][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-17 17:56:37][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 17:56:37][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-17 17:56:37][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-17 17:56:37][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-17 17:56:37][MEM: 0.39MB] 📋 Parámetros de consulta:
+[2025-11-17 17:56:37][MEM: 0.39MB]    busqueda: NULL
+[2025-11-17 17:56:37][MEM: 0.39MB]    activos_solo: 1
+[2025-11-17 17:56:37][MEM: 0.39MB]    limit: 100
+[2025-11-17 17:56:37][MEM: 0.39MB]    offset: 0
+[2025-11-17 17:56:37][MEM: 0.4MB] 🔍 Query construida
+[2025-11-17 17:56:37][MEM: 0.4MB]    Params: 2
+[2025-11-17 17:56:37][MEM: 0.42MB] ▶️ Ejecutando query...
+[2025-11-17 17:56:37][MEM: 0.43MB] ✅ Query ejecutada
+[2025-11-17 17:56:37][MEM: 0.43MB] 📊 Filas encontradas: 100
+[2025-11-17 17:56:37][MEM: 0.51MB] ✅ Resultados procesados: 100 clientes
+[2025-11-17 17:56:37][MEM: 0.55MB] 📊 Total de clientes únicos: 128
+[2025-11-17 17:56:37][MEM: 0.55MB] 📤 Enviando respuesta...
+[2025-11-17 18:24:48][MEM: 0.35MB] ========================================
+[2025-11-17 18:24:48][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-17 18:24:48][MEM: 0.35MB] ========================================
+[2025-11-17 18:24:48][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-17 18:24:48][MEM: 0.35MB] 📨 Método: GET
+[2025-11-17 18:24:48][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-17 18:24:48][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-17 18:24:48][MEM: 0.36MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 18:24:48][MEM: 0.36MB] ✅ Acceso registrado
+[2025-11-17 18:24:48][MEM: 0.36MB] 📦 Requiriendo conexión...
+[2025-11-17 18:24:48][MEM: 0.4MB] ✅ conexion.php cargado
+[2025-11-17 18:24:48][MEM: 0.4MB] 📋 Parámetros de consulta:
+[2025-11-17 18:24:48][MEM: 0.4MB]    busqueda: NULL
+[2025-11-17 18:24:48][MEM: 0.4MB]    activos_solo: 1
+[2025-11-17 18:24:48][MEM: 0.4MB]    limit: 100
+[2025-11-17 18:24:48][MEM: 0.4MB]    offset: 0
+[2025-11-17 18:24:48][MEM: 0.4MB] 🔍 Query construida
+[2025-11-17 18:24:48][MEM: 0.4MB]    Params: 2
+[2025-11-17 18:24:48][MEM: 0.42MB] ▶️ Ejecutando query...
+[2025-11-17 18:24:48][MEM: 0.44MB] ✅ Query ejecutada
+[2025-11-17 18:24:48][MEM: 0.44MB] 📊 Filas encontradas: 100
+[2025-11-17 18:24:48][MEM: 0.51MB] ✅ Resultados procesados: 100 clientes
+[2025-11-17 18:24:48][MEM: 0.55MB] 📊 Total de clientes únicos: 128
+[2025-11-17 18:24:48][MEM: 0.55MB] 📤 Enviando respuesta...
+[2025-11-17 20:31:04][MEM: 0.36MB] ========================================
+[2025-11-17 20:31:04][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-17 20:31:04][MEM: 0.36MB] ========================================
+[2025-11-17 20:31:04][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-17 20:31:04][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-17 20:31:04][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-17 20:31:04][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-17 20:31:04][MEM: 0.35MB] ========================================
+[2025-11-17 20:31:04][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-17 20:31:04][MEM: 0.35MB] ========================================
+[2025-11-17 20:31:04][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-17 20:31:04][MEM: 0.35MB] 📨 Método: GET
+[2025-11-17 20:31:04][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-17 20:31:04][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-17 20:31:04][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 20:31:04][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-17 20:31:04][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-17 20:31:04][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-17 20:31:04][MEM: 0.39MB] 📋 Parámetros de consulta:
+[2025-11-17 20:31:04][MEM: 0.39MB]    busqueda: NULL
+[2025-11-17 20:31:04][MEM: 0.39MB]    activos_solo: 1
+[2025-11-17 20:31:04][MEM: 0.39MB]    limit: 100
+[2025-11-17 20:31:04][MEM: 0.39MB]    offset: 0
+[2025-11-17 20:31:04][MEM: 0.4MB] 🔍 Query construida
+[2025-11-17 20:31:04][MEM: 0.4MB]    Params: 2
+[2025-11-17 20:31:04][MEM: 0.42MB] ▶️ Ejecutando query...
+[2025-11-17 20:31:04][MEM: 0.43MB] ✅ Query ejecutada
+[2025-11-17 20:31:04][MEM: 0.43MB] 📊 Filas encontradas: 100
+[2025-11-17 20:31:04][MEM: 0.51MB] ✅ Resultados procesados: 100 clientes
+[2025-11-17 20:31:04][MEM: 0.55MB] 📊 Total de clientes únicos: 129
+[2025-11-17 20:31:04][MEM: 0.55MB] 📤 Enviando respuesta...
+[2025-11-18 10:00:23][MEM: 0.36MB] ========================================
+[2025-11-18 10:00:23][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-18 10:00:23][MEM: 0.36MB] ========================================
+[2025-11-18 10:00:23][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 10:00:23][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-18 10:00:23][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-18 10:00:23][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 10:00:23][MEM: 0.35MB] ========================================
+[2025-11-18 10:00:23][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-18 10:00:23][MEM: 0.35MB] ========================================
+[2025-11-18 10:00:23][MEM: 0.35MB] 🌐 IP: 167.0.252.80
+[2025-11-18 10:00:23][MEM: 0.35MB] 📨 Método: GET
+[2025-11-18 10:00:23][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-18 10:00:23][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-18 10:00:23][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-18 10:00:23][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-18 10:00:23][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-18 10:00:23][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-18 10:00:23][MEM: 0.39MB] 📋 Parámetros de consulta:
+[2025-11-18 10:00:23][MEM: 0.39MB]    busqueda: NULL
+[2025-11-18 10:00:23][MEM: 0.39MB]    activos_solo: 1
+[2025-11-18 10:00:23][MEM: 0.39MB]    limit: 100
+[2025-11-18 10:00:23][MEM: 0.39MB]    offset: 0
+[2025-11-18 10:00:23][MEM: 0.4MB] 🔍 Query construida
+[2025-11-18 10:00:23][MEM: 0.4MB]    Params: 2
+[2025-11-18 10:00:23][MEM: 0.42MB] ▶️ Ejecutando query...
+[2025-11-18 10:00:23][MEM: 0.43MB] ✅ Query ejecutada
+[2025-11-18 10:00:23][MEM: 0.43MB] 📊 Filas encontradas: 100
+[2025-11-18 10:00:23][MEM: 0.51MB] ✅ Resultados procesados: 100 clientes
+[2025-11-18 10:00:23][MEM: 0.55MB] 📊 Total de clientes únicos: 129
+[2025-11-18 10:00:23][MEM: 0.55MB] 📤 Enviando respuesta...
+[2025-11-18 13:30:11][MEM: 0.36MB] ========================================
+[2025-11-18 13:30:11][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-18 13:30:11][MEM: 0.36MB] ========================================
+[2025-11-18 13:30:11][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 13:30:11][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-18 13:30:11][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-18 13:30:11][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 13:30:11][MEM: 0.35MB] ========================================
+[2025-11-18 13:30:11][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-18 13:30:11][MEM: 0.35MB] ========================================
+[2025-11-18 13:30:11][MEM: 0.35MB] 🌐 IP: 167.0.252.80
+[2025-11-18 13:30:11][MEM: 0.35MB] 📨 Método: GET
+[2025-11-18 13:30:11][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-18 13:30:11][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-18 13:30:11][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-18 13:30:11][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-18 13:30:11][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-18 13:30:11][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-18 13:30:11][MEM: 0.39MB] 📋 Parámetros de consulta:
+[2025-11-18 13:30:11][MEM: 0.39MB]    busqueda: NULL
+[2025-11-18 13:30:11][MEM: 0.39MB]    activos_solo: 1
+[2025-11-18 13:30:11][MEM: 0.39MB]    limit: 100
+[2025-11-18 13:30:11][MEM: 0.39MB]    offset: 0
+[2025-11-18 13:30:11][MEM: 0.4MB] 🔍 Query construida
+[2025-11-18 13:30:11][MEM: 0.4MB]    Params: 2
+[2025-11-18 13:30:11][MEM: 0.42MB] ▶️ Ejecutando query...
+[2025-11-18 13:30:11][MEM: 0.43MB] ✅ Query ejecutada
+[2025-11-18 13:30:11][MEM: 0.43MB] 📊 Filas encontradas: 100
+[2025-11-18 13:30:11][MEM: 0.51MB] ✅ Resultados procesados: 100 clientes
+[2025-11-18 13:30:11][MEM: 0.55MB] 📊 Total de clientes únicos: 129
+[2025-11-18 13:30:11][MEM: 0.55MB] 📤 Enviando respuesta...
+[2025-11-18 14:09:45][MEM: 0.36MB] ========================================
+[2025-11-18 14:09:45][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-18 14:09:45][MEM: 0.36MB] ========================================
+[2025-11-18 14:09:45][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 14:09:45][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-18 14:09:45][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-18 14:09:45][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 14:09:45][MEM: 0.35MB] ========================================
+[2025-11-18 14:09:45][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/listar_clientes
+[2025-11-18 14:09:45][MEM: 0.35MB] ========================================
+[2025-11-18 14:09:45][MEM: 0.35MB] 🌐 IP: 167.0.252.80
+[2025-11-18 14:09:45][MEM: 0.35MB] 📨 Método: GET
+[2025-11-18 14:09:45][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/listar_clientes.php?activos_solo=1&limit=100&offset=0
+[2025-11-18 14:09:45][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-18 14:09:45][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-18 14:09:45][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-18 14:09:45][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-18 14:09:45][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-18 14:09:45][MEM: 0.39MB] 📋 Parámetros de consulta:
+[2025-11-18 14:09:45][MEM: 0.39MB]    busqueda: NULL
+[2025-11-18 14:09:45][MEM: 0.39MB]    activos_solo: 1
+[2025-11-18 14:09:45][MEM: 0.39MB]    limit: 100
+[2025-11-18 14:09:45][MEM: 0.39MB]    offset: 0
+[2025-11-18 14:09:45][MEM: 0.4MB] 🔍 Query construida
+[2025-11-18 14:09:45][MEM: 0.4MB]    Params: 2
+[2025-11-18 14:09:45][MEM: 0.42MB] ▶️ Ejecutando query...
+[2025-11-18 14:09:45][MEM: 0.43MB] ✅ Query ejecutada
+[2025-11-18 14:09:45][MEM: 0.43MB] 📊 Filas encontradas: 100
+[2025-11-18 14:09:45][MEM: 0.51MB] ✅ Resultados procesados: 100 clientes
+[2025-11-18 14:09:45][MEM: 0.55MB] 📊 Total de clientes únicos: 129
+[2025-11-18 14:09:45][MEM: 0.55MB] 📤 Enviando respuesta...

@@ -1,0 +1,21 @@
+[2025-11-07 12:44:37] ========================================
+[2025-11-07 12:44:37] 🆕 ACTUALIZAR USUARIOS v4 - CON AUDITORIA
+[2025-11-07 12:44:37] Usuario: die (ID: 12)
+[2025-11-07 12:44:37] 🔍 Servicio ID: 155
+[2025-11-07 12:44:37] ✅ Servicio verificado
+[2025-11-07 12:44:37] ✅ Detectado: usuario_ids
+[2025-11-07 12:44:37] 📋 IDs a asignar: [21,20,18]
+[2025-11-07 12:44:37] 🔄 Iniciando transacción...
+[2025-11-07 12:44:37] 🗑️ Eliminando asignaciones previas
+[2025-11-07 12:44:37]    ✅ Eliminadas 0 asignaciones
+[2025-11-07 12:44:37] ✅ Insertando 3 nuevas asignaciones
+[2025-11-07 12:44:37]    ✓ Usuario 21 asignado
+[2025-11-07 12:44:37]    ✓ Usuario 20 asignado
+[2025-11-07 12:44:37]    ✓ Usuario 18 asignado
+[2025-11-07 12:44:37]    ✅ Insertadas 3 asignaciones
+[2025-11-07 12:44:37] ✅ Transacción confirmada
+[2025-11-07 12:44:37] 📋 Cargando usuarios asignados...
+[2025-11-07 12:44:37] ✅ 3 usuarios cargados
+[2025-11-07 12:44:37] 📤 Respuesta enviada con 3 usuarios
+[2025-11-07 12:44:37] ========================================
+

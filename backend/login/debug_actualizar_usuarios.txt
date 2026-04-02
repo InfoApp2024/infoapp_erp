@@ -1,0 +1,1971 @@
+[2025-11-06 11:09:42] ========================================
+[2025-11-06 11:09:42] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-06 11:09:42] ========================================
+[2025-11-06 11:09:42] 👤 Usuario: die (ID: 12)
+[2025-11-06 11:09:42] ❌ Método no permitido
+[2025-11-06 11:34:33] ========================================
+[2025-11-06 11:34:33] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-06 11:34:33] ========================================
+[2025-11-06 11:34:33] 👤 Usuario: die (ID: 12)
+[2025-11-06 11:34:33] ❌ Método no permitido
+[2025-11-06 22:53:17] ========================================
+[2025-11-06 22:53:17] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-06 22:53:17] ========================================
+[2025-11-06 22:53:17] 👤 Usuario: die (ID: 12)
+[2025-11-06 22:53:17] ❌ Método no permitido
+[2025-11-06 22:53:42] ========================================
+[2025-11-06 22:53:42] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-06 22:53:42] ========================================
+[2025-11-06 22:53:42] 👤 Usuario: die (ID: 12)
+[2025-11-06 22:53:42] ❌ Método no permitido
+[2025-11-06 23:19:43] ========================================
+[2025-11-06 23:19:43] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-06 23:19:43] ========================================
+[2025-11-06 23:19:43] 👤 Usuario: die (ID: 12)
+[2025-11-06 23:19:43] 📨 Método: POST
+[2025-11-06 23:19:43] ✅ Método HTTP válido
+[2025-11-06 23:19:43] 📥 Leyendo datos JSON...
+[2025-11-06 23:19:43] ❌ JSON inválido
+[2025-11-06 23:19:43] 🔴 Exception: Datos JSON inválidos
+[2025-11-06 23:22:43] ========================================
+[2025-11-06 23:22:43] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-06 23:22:43] ========================================
+[2025-11-06 23:22:43] 👤 Usuario: die (ID: 12)
+[2025-11-06 23:22:43] 📨 Método: POST
+[2025-11-06 23:22:43] ✅ Método HTTP válido
+[2025-11-06 23:22:43] 📥 Leyendo datos...
+[2025-11-06 23:22:43] 📋 Content-Type: application/x-www-form-urlencoded; charset=utf-8
+[2025-11-06 23:22:43] 📥 Parseando como form-urlencoded...
+[2025-11-06 23:22:43] ✅ Datos recibidos: {"id":"21","usuario":"colaboradores","NOMBRE_USER":"colaboradores","correo":"colaborador@gmail.com","rol":"colaborador","TIPO_ROL":"colaborador","estado":"activo","ESTADO_USER":"activo","tipo_identificacion":"Cedula","TIPO_IDENTIFICACION":"Cedula"}
+[2025-11-06 23:22:43] 🔍 Actualizando usuario ID: 21
+[2025-11-06 23:22:43] 🔐 ¿Es admin?: SÍ
+[2025-11-06 23:22:43] ✅ Permisos verificados
+[2025-11-06 23:22:43]    ✏️ TIPO_IDENTIFICACION
+[2025-11-06 23:22:43]    ✏️ TIPO_ROL (admin)
+[2025-11-06 23:22:43]    ✏️ ESTADO_USER (admin)
+[2025-11-06 23:22:43] ✅ Campos a actualizar: 4
+[2025-11-06 23:22:43] 📝 Ejecutando UPDATE...
+[2025-11-06 23:22:43] ✅ Usuario actualizado exitosamente
+[2025-11-06 23:23:01] ========================================
+[2025-11-06 23:23:01] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-06 23:23:01] ========================================
+[2025-11-06 23:23:01] 👤 Usuario: die (ID: 12)
+[2025-11-06 23:23:01] 📨 Método: POST
+[2025-11-06 23:23:01] ✅ Método HTTP válido
+[2025-11-06 23:23:01] 📥 Leyendo datos...
+[2025-11-06 23:23:01] 📋 Content-Type: application/x-www-form-urlencoded; charset=utf-8
+[2025-11-06 23:23:01] 📥 Parseando como form-urlencoded...
+[2025-11-06 23:23:01] ✅ Datos recibidos: {"id":"21","usuario":"colaboradores","NOMBRE_USER":"colaboradores","correo":"colaborador@gmail.com","rol":"colaborador","TIPO_ROL":"colaborador","estado":"activo","ESTADO_USER":"activo","telefono":"30021324","TELEFONO":"30021324","tipo_identificacion":"Cedula","TIPO_IDENTIFICACION":"Cedula"}
+[2025-11-06 23:23:01] 🔍 Actualizando usuario ID: 21
+[2025-11-06 23:23:01] 🔐 ¿Es admin?: SÍ
+[2025-11-06 23:23:01] ✅ Permisos verificados
+[2025-11-06 23:23:01]    ✏️ TELEFONO
+[2025-11-06 23:23:01]    ✏️ TIPO_IDENTIFICACION
+[2025-11-06 23:23:01]    ✏️ TIPO_ROL (admin)
+[2025-11-06 23:23:01]    ✏️ ESTADO_USER (admin)
+[2025-11-06 23:23:01] ✅ Campos a actualizar: 5
+[2025-11-06 23:23:01] 📝 Ejecutando UPDATE...
+[2025-11-06 23:23:01] ✅ Usuario actualizado exitosamente
+[2025-11-06 23:55:12] ========================================
+[2025-11-06 23:55:12] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-06 23:55:12] ========================================
+[2025-11-06 23:55:12] 👤 Usuario: die (ID: 12)
+[2025-11-06 23:55:12] 📨 Método: POST
+[2025-11-06 23:55:12] ✅ Método HTTP válido
+[2025-11-06 23:55:12] 📥 Leyendo datos...
+[2025-11-06 23:55:12] 📋 Content-Type: application/x-www-form-urlencoded; charset=utf-8
+[2025-11-06 23:55:12] 📥 Parseando como form-urlencoded...
+[2025-11-06 23:55:12] ✅ Datos recibidos: {"id":"21","usuario":"colaboradores","NOMBRE_USER":"colaboradores","correo":"colaborador@gmail.com","rol":"colaborador","TIPO_ROL":"colaborador","estado":"activo","ESTADO_USER":"activo","telefono":"30021324","TELEFONO":"30021324","tipo_identificacion":"Cedula","TIPO_IDENTIFICACION":"Cedula","contacto_emergencia_nombre":"Alexa","contacto_emergencia_telefono":"30215456162","direccion":"Cra 5a #35-a47","DIRECCION":"Cra 5a #35-a47","salario":"324343344","SALARIO":"324343344"}
+[2025-11-06 23:55:12] 🔍 Actualizando usuario ID: 21
+[2025-11-06 23:55:12] 🔐 ¿Es admin?: SÍ
+[2025-11-06 23:55:12] ✅ Permisos verificados
+[2025-11-06 23:55:12]    ✏️ TELEFONO
+[2025-11-06 23:55:12]    ✏️ DIRECCION
+[2025-11-06 23:55:12]    ✏️ TIPO_IDENTIFICACION
+[2025-11-06 23:55:12]    ✏️ TIPO_ROL (admin)
+[2025-11-06 23:55:12]    ✏️ ESTADO_USER (admin)
+[2025-11-06 23:55:12]    ✏️ SALARIO (admin) - decimal
+[2025-11-06 23:55:12] ✅ Campos a actualizar: 7
+[2025-11-06 23:55:12] 📝 Ejecutando UPDATE...
+[2025-11-06 23:55:12] 🔴 Exception: Out of range value for column 'SALARIO' at row 1
+[2025-11-06 23:58:00] ========================================
+[2025-11-06 23:58:00] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-06 23:58:00] ========================================
+[2025-11-06 23:58:00] 👤 Usuario: die (ID: 12)
+[2025-11-06 23:58:00] 📨 Método: POST
+[2025-11-06 23:58:00] ✅ Método HTTP válido
+[2025-11-06 23:58:00] 📥 Leyendo datos...
+[2025-11-06 23:58:00] 📋 Content-Type: application/x-www-form-urlencoded; charset=utf-8
+[2025-11-06 23:58:00] 📥 Parseando como form-urlencoded...
+[2025-11-06 23:58:00] ✅ Datos recibidos: {"id":"21","usuario":"colaboradores","NOMBRE_USER":"colaboradores","correo":"colaborador@gmail.com","rol":"colaborador","TIPO_ROL":"colaborador","estado":"activo","ESTADO_USER":"activo","telefono":"30021324","TELEFONO":"30021324","tipo_identificacion":"Cedula","TIPO_IDENTIFICACION":"Cedula","contacto_emergencia_nombre":"Alexa","contacto_emergencia_telefono":"30215456162","direccion":"Cra 5a #35-a47","DIRECCION":"Cra 5a #35-a47","salario":"324343344","SALARIO":"324343344"}
+[2025-11-06 23:58:00] 🔍 Actualizando usuario ID: 21
+[2025-11-06 23:58:00] 🔐 ¿Es admin?: SÍ
+[2025-11-06 23:58:00] ✅ Permisos verificados
+[2025-11-06 23:58:00]    ✏️ TELEFONO
+[2025-11-06 23:58:00]    ✏️ DIRECCION
+[2025-11-06 23:58:00]    ✏️ TIPO_IDENTIFICACION
+[2025-11-06 23:58:00]    ✏️ TIPO_ROL (admin)
+[2025-11-06 23:58:00]    ✏️ ESTADO_USER (admin)
+[2025-11-06 23:58:00]    ✏️ SALARIO (admin) - decimal
+[2025-11-06 23:58:00] ✅ Campos a actualizar: 7
+[2025-11-06 23:58:00] 📝 Ejecutando UPDATE...
+[2025-11-06 23:58:00] ✅ Usuario actualizado exitosamente
+[2025-11-07 00:01:06] ========================================
+[2025-11-07 00:01:06] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 00:01:06] ========================================
+[2025-11-07 00:01:06] 👤 Usuario: die (ID: 12)
+[2025-11-07 00:01:06] 📨 Método: POST
+[2025-11-07 00:01:06] ✅ Método HTTP válido
+[2025-11-07 00:01:06] 📥 Leyendo datos...
+[2025-11-07 00:01:06] 📋 Content-Type: application/x-www-form-urlencoded; charset=utf-8
+[2025-11-07 00:01:06] 📥 Parseando como form-urlencoded...
+[2025-11-07 00:01:06] ✅ Datos recibidos: {"id":"21","usuario":"colaboradores","NOMBRE_USER":"colaboradores","correo":"colaborador@gmail.com","rol":"colaborador","TIPO_ROL":"colaborador","estado":"activo","ESTADO_USER":"activo","telefono":"30021324","TELEFONO":"30021324","tipo_identificacion":"Cedula","TIPO_IDENTIFICACION":"Cedula","numero_identificacion":"213131233424","NUMERO_IDENTIFICACION":"213131233424","fecha_nacimiento":"1989-09-07","contacto_emergencia_nombre":"Alexa","contacto_emergencia_telefono":"30215456162","direccion":"Cra 5a #35-a47","DIRECCION":"Cra 5a #35-a47","fecha_contratacion":"2025-11-06","salario":"324343344","SALARIO":"324343344"}
+[2025-11-07 00:01:06] 🔍 Actualizando usuario ID: 21
+[2025-11-07 00:01:06] 🔐 ¿Es admin?: SÍ
+[2025-11-07 00:01:06] ✅ Permisos verificados
+[2025-11-07 00:01:06]    ✏️ TELEFONO
+[2025-11-07 00:01:06]    ✏️ DIRECCION
+[2025-11-07 00:01:06]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 00:01:06]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-07 00:01:06]    ✏️ TIPO_ROL (admin)
+[2025-11-07 00:01:06]    ✏️ ESTADO_USER (admin)
+[2025-11-07 00:01:06]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 00:01:06] ✅ Campos a actualizar: 8
+[2025-11-07 00:01:06] 📝 Ejecutando UPDATE...
+[2025-11-07 00:01:06] ✅ Usuario actualizado exitosamente
+[2025-11-07 00:01:19] ========================================
+[2025-11-07 00:01:19] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 00:01:19] ========================================
+[2025-11-07 00:01:19] 👤 Usuario: die (ID: 12)
+[2025-11-07 00:01:19] 📨 Método: POST
+[2025-11-07 00:01:19] ✅ Método HTTP válido
+[2025-11-07 00:01:19] 📥 Leyendo datos...
+[2025-11-07 00:01:19] 📋 Content-Type: application/x-www-form-urlencoded; charset=utf-8
+[2025-11-07 00:01:19] 📥 Parseando como form-urlencoded...
+[2025-11-07 00:01:19] ✅ Datos recibidos: {"id":"21","usuario":"colaboradores","NOMBRE_USER":"colaboradores","correo":"colaborador@gmail.com","rol":"colaborador","TIPO_ROL":"colaborador","estado":"activo","ESTADO_USER":"activo","telefono":"30021324","TELEFONO":"30021324","tipo_identificacion":"Cedula","TIPO_IDENTIFICACION":"Cedula","numero_identificacion":"213131233424","NUMERO_IDENTIFICACION":"213131233424","fecha_nacimiento":"1989-09-07","contacto_emergencia_nombre":"Alexa","contacto_emergencia_telefono":"30215456162","direccion":"Cra 5a #35-a47","DIRECCION":"Cra 5a #35-a47","fecha_contratacion":"2025-11-06","salario":"324343344","SALARIO":"324343344"}
+[2025-11-07 00:01:19] 🔍 Actualizando usuario ID: 21
+[2025-11-07 00:01:19] 🔐 ¿Es admin?: SÍ
+[2025-11-07 00:01:19] ✅ Permisos verificados
+[2025-11-07 00:01:19]    ✏️ TELEFONO
+[2025-11-07 00:01:19]    ✏️ DIRECCION
+[2025-11-07 00:01:19]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 00:01:19]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-07 00:01:19]    ✏️ TIPO_ROL (admin)
+[2025-11-07 00:01:19]    ✏️ ESTADO_USER (admin)
+[2025-11-07 00:01:19]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 00:01:19] ✅ Campos a actualizar: 8
+[2025-11-07 00:01:19] 📝 Ejecutando UPDATE...
+[2025-11-07 00:01:19] ✅ Usuario actualizado exitosamente
+[2025-11-07 01:37:47] ========================================
+[2025-11-07 01:37:47] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 01:37:47] ========================================
+[2025-11-07 01:37:47] ========================================
+[2025-11-07 01:37:47] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 01:37:47] ========================================
+[2025-11-07 01:37:47] 👤 Usuario: die (ID: 12)
+[2025-11-07 01:37:47] 📨 Método: GET
+[2025-11-07 01:37:47] ❌ Método no permitido: GET
+[2025-11-07 01:37:47] ========================================
+[2025-11-07 01:37:47] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 01:37:47] ========================================
+[2025-11-07 01:37:47] 👤 Usuario: die (ID: 12)
+[2025-11-07 01:37:47] 📨 Método: POST
+[2025-11-07 01:37:47] ✅ Método HTTP válido
+[2025-11-07 01:37:47] 📥 Leyendo datos...
+[2025-11-07 01:37:47] 📋 Content-Type: application/x-www-form-urlencoded; charset=utf-8
+[2025-11-07 01:37:47] 📥 Parseando como form-urlencoded...
+[2025-11-07 01:37:47] ✅ Datos recibidos: {"id":"21","usuario":"colaborador","NOMBRE_USER":"colaborador","correo":"colaborador@gmail.com","rol":"colaborador","TIPO_ROL":"colaborador","estado":"activo","ESTADO_USER":"activo","telefono":"30021324","TELEFONO":"30021324","tipo_identificacion":"Cedula","TIPO_IDENTIFICACION":"Cedula","numero_identificacion":"213131233424","NUMERO_IDENTIFICACION":"213131233424","direccion":"Cra 5a #35-a47","DIRECCION":"Cra 5a #35-a47","id_posicion":"20","ID_POSICION":"20","id_departamento":"7","ID_DEPARTAMENTO":"7","salario":"324343344","SALARIO":"324343344"}
+[2025-11-07 01:37:47] 🔍 Actualizando usuario ID: 21
+[2025-11-07 01:37:47] 🔐 ¿Es admin?: SÍ
+[2025-11-07 01:37:47] ✅ Permisos verificados
+[2025-11-07 01:37:47]    ✏️ TELEFONO
+[2025-11-07 01:37:47]    ✏️ DIRECCION
+[2025-11-07 01:37:47]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 01:37:47]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-07 01:37:47]    ✏️ TIPO_ROL (admin)
+[2025-11-07 01:37:47]    ✏️ ESTADO_USER (admin)
+[2025-11-07 01:37:47]    ✏️ ID_POSICION (admin) - int
+[2025-11-07 01:37:47]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-07 01:37:47]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 01:37:47] ✅ Campos a actualizar: 10
+[2025-11-07 01:37:47] 📝 Ejecutando UPDATE...
+[2025-11-07 01:37:47] ✅ Usuario actualizado exitosamente
+[2025-11-07 01:45:56] ========================================
+[2025-11-07 01:45:56] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 01:45:56] ========================================
+[2025-11-07 01:45:57] ========================================
+[2025-11-07 01:45:57] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 01:45:57] ========================================
+[2025-11-07 01:45:57] 👤 Usuario: die (ID: 12)
+[2025-11-07 01:45:57] 📨 Método: GET
+[2025-11-07 01:45:57] ❌ Método no permitido: GET
+[2025-11-07 01:45:57] ========================================
+[2025-11-07 01:45:57] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 01:45:57] ========================================
+[2025-11-07 01:45:57] 👤 Usuario: die (ID: 12)
+[2025-11-07 01:45:57] 📨 Método: POST
+[2025-11-07 01:45:57] ✅ Método HTTP válido
+[2025-11-07 01:45:57] 📥 Leyendo datos...
+[2025-11-07 01:45:57] 📋 Content-Type: application/x-www-form-urlencoded; charset=utf-8
+[2025-11-07 01:45:57] 📥 Parseando como form-urlencoded...
+[2025-11-07 01:45:57] ✅ Datos recibidos: {"id":"21","usuario":"colaborador","NOMBRE_USER":"colaborador","correo":"colaborador@gmail.com","rol":"colaborador","TIPO_ROL":"colaborador","estado":"activo","ESTADO_USER":"activo","telefono":"30021324","TELEFONO":"30021324","tipo_identificacion":"Cedula","TIPO_IDENTIFICACION":"Cedula","numero_identificacion":"213131233424","NUMERO_IDENTIFICACION":"213131233424","direccion":"Cra 5a #35-a47","DIRECCION":"Cra 5a #35-a47","id_posicion":"20","ID_POSICION":"20","id_departamento":"7","ID_DEPARTAMENTO":"7","salario":"324343344","SALARIO":"324343344"}
+[2025-11-07 01:45:57] 🔍 Actualizando usuario ID: 21
+[2025-11-07 01:45:57] 🔐 ¿Es admin?: SÍ
+[2025-11-07 01:45:57] ✅ Permisos verificados
+[2025-11-07 01:45:57]    ✏️ TELEFONO
+[2025-11-07 01:45:57]    ✏️ DIRECCION
+[2025-11-07 01:45:57]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 01:45:57]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-07 01:45:57]    ✏️ TIPO_ROL (admin)
+[2025-11-07 01:45:57]    ✏️ ESTADO_USER (admin)
+[2025-11-07 01:45:57]    ✏️ ID_POSICION (admin) - int
+[2025-11-07 01:45:57]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-07 01:45:57]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 01:45:57] ✅ Campos a actualizar: 10
+[2025-11-07 01:45:57] 📝 Ejecutando UPDATE...
+[2025-11-07 01:45:57] ✅ Usuario actualizado exitosamente
+[2025-11-07 01:52:29] ========================================
+[2025-11-07 01:52:29] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 01:52:29] ========================================
+[2025-11-07 01:52:30] ========================================
+[2025-11-07 01:52:30] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 01:52:30] ========================================
+[2025-11-07 01:52:30] 👤 Usuario: die (ID: 12)
+[2025-11-07 01:52:30] 📨 Método: GET
+[2025-11-07 01:52:30] ❌ Método no permitido: GET
+[2025-11-07 01:52:30] ========================================
+[2025-11-07 01:52:30] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 01:52:30] ========================================
+[2025-11-07 01:52:30] 👤 Usuario: die (ID: 12)
+[2025-11-07 01:52:30] 📨 Método: POST
+[2025-11-07 01:52:30] ✅ Método HTTP válido
+[2025-11-07 01:52:30] 📥 Leyendo datos...
+[2025-11-07 01:52:30] 📋 Content-Type: application/x-www-form-urlencoded; charset=utf-8
+[2025-11-07 01:52:30] 📥 Parseando como form-urlencoded...
+[2025-11-07 01:52:30] ✅ Datos recibidos: {"id":"21","usuario":"colaborador","NOMBRE_USER":"colaborador","correo":"colaborador@gmail.com","rol":"colaborador","TIPO_ROL":"colaborador","estado":"activo","ESTADO_USER":"activo","telefono":"30021324","TELEFONO":"30021324","tipo_identificacion":"Cedula","TIPO_IDENTIFICACION":"Cedula","numero_identificacion":"213131233424","NUMERO_IDENTIFICACION":"213131233424","fecha_nacimiento":"2025-11-03","contacto_emergencia_nombre":"pepe","contacto_emergencia_telefono":"2342343243","direccion":"Cra 5a #35-a47","DIRECCION":"Cra 5a #35-a47","fecha_contratacion":"2025-11-06","id_posicion":"20","ID_POSICION":"20","id_departamento":"7","ID_DEPARTAMENTO":"7","salario":"324343344","SALARIO":"324343344"}
+[2025-11-07 01:52:30] 🔍 Actualizando usuario ID: 21
+[2025-11-07 01:52:30] 🔐 ¿Es admin?: SÍ
+[2025-11-07 01:52:30] ✅ Permisos verificados
+[2025-11-07 01:52:30]    ✏️ TELEFONO
+[2025-11-07 01:52:30]    ✏️ DIRECCION
+[2025-11-07 01:52:30]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 01:52:30]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-07 01:52:30]    ✏️ TIPO_ROL (admin)
+[2025-11-07 01:52:30]    ✏️ ESTADO_USER (admin)
+[2025-11-07 01:52:30]    ✏️ ID_POSICION (admin) - int
+[2025-11-07 01:52:30]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-07 01:52:30]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 01:52:30] ✅ Campos a actualizar: 10
+[2025-11-07 01:52:30] 📝 Ejecutando UPDATE...
+[2025-11-07 01:52:30] ✅ Usuario actualizado exitosamente
+[2025-11-07 01:52:36] ========================================
+[2025-11-07 01:52:36] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 01:52:36] ========================================
+[2025-11-07 01:52:36] ========================================
+[2025-11-07 01:52:36] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 01:52:36] ========================================
+[2025-11-07 01:52:36] 👤 Usuario: die (ID: 12)
+[2025-11-07 01:52:36] 📨 Método: GET
+[2025-11-07 01:52:36] ❌ Método no permitido: GET
+[2025-11-07 01:52:37] ========================================
+[2025-11-07 01:52:37] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 01:52:37] ========================================
+[2025-11-07 01:52:37] 👤 Usuario: die (ID: 12)
+[2025-11-07 01:52:37] 📨 Método: POST
+[2025-11-07 01:52:37] ✅ Método HTTP válido
+[2025-11-07 01:52:37] 📥 Leyendo datos...
+[2025-11-07 01:52:37] 📋 Content-Type: application/x-www-form-urlencoded; charset=utf-8
+[2025-11-07 01:52:37] 📥 Parseando como form-urlencoded...
+[2025-11-07 01:52:37] ✅ Datos recibidos: {"id":"21","usuario":"colaborador","NOMBRE_USER":"colaborador","correo":"colaborador@gmail.com","rol":"colaborador","TIPO_ROL":"colaborador","estado":"activo","ESTADO_USER":"activo","telefono":"30021324","TELEFONO":"30021324","tipo_identificacion":"Cedula","TIPO_IDENTIFICACION":"Cedula","numero_identificacion":"213131233424","NUMERO_IDENTIFICACION":"213131233424","fecha_nacimiento":"2025-11-03","contacto_emergencia_nombre":"pepe","contacto_emergencia_telefono":"2342343243","direccion":"Cra 5a #35-a47","DIRECCION":"Cra 5a #35-a47","fecha_contratacion":"2025-11-06","id_posicion":"20","ID_POSICION":"20","id_departamento":"7","ID_DEPARTAMENTO":"7","salario":"324343344","SALARIO":"324343344"}
+[2025-11-07 01:52:37] 🔍 Actualizando usuario ID: 21
+[2025-11-07 01:52:37] 🔐 ¿Es admin?: SÍ
+[2025-11-07 01:52:37] ✅ Permisos verificados
+[2025-11-07 01:52:37]    ✏️ TELEFONO
+[2025-11-07 01:52:37]    ✏️ DIRECCION
+[2025-11-07 01:52:37]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 01:52:37]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-07 01:52:37]    ✏️ TIPO_ROL (admin)
+[2025-11-07 01:52:37]    ✏️ ESTADO_USER (admin)
+[2025-11-07 01:52:37]    ✏️ ID_POSICION (admin) - int
+[2025-11-07 01:52:37]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-07 01:52:37]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 01:52:37] ✅ Campos a actualizar: 10
+[2025-11-07 01:52:37] 📝 Ejecutando UPDATE...
+[2025-11-07 01:52:37] ✅ Usuario actualizado exitosamente
+[2025-11-07 01:52:41] ========================================
+[2025-11-07 01:52:41] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 01:52:41] ========================================
+[2025-11-07 01:52:41] ========================================
+[2025-11-07 01:52:41] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 01:52:41] ========================================
+[2025-11-07 01:52:41] 👤 Usuario: die (ID: 12)
+[2025-11-07 01:52:41] 📨 Método: GET
+[2025-11-07 01:52:41] ❌ Método no permitido: GET
+[2025-11-07 01:52:41] ========================================
+[2025-11-07 01:52:41] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 01:52:41] ========================================
+[2025-11-07 01:52:41] 👤 Usuario: die (ID: 12)
+[2025-11-07 01:52:41] 📨 Método: POST
+[2025-11-07 01:52:41] ✅ Método HTTP válido
+[2025-11-07 01:52:41] 📥 Leyendo datos...
+[2025-11-07 01:52:41] 📋 Content-Type: application/x-www-form-urlencoded; charset=utf-8
+[2025-11-07 01:52:41] 📥 Parseando como form-urlencoded...
+[2025-11-07 01:52:41] ✅ Datos recibidos: {"id":"21","usuario":"colaborador","NOMBRE_USER":"colaborador","correo":"colaborador@gmail.com","rol":"colaborador","TIPO_ROL":"colaborador","estado":"activo","ESTADO_USER":"activo","telefono":"30021324","TELEFONO":"30021324","tipo_identificacion":"Cedula","TIPO_IDENTIFICACION":"Cedula","numero_identificacion":"213131233424","NUMERO_IDENTIFICACION":"213131233424","fecha_nacimiento":"2025-11-03","contacto_emergencia_nombre":"pepe","contacto_emergencia_telefono":"2342343243","direccion":"Cra 5a #35-a47","DIRECCION":"Cra 5a #35-a47","fecha_contratacion":"2025-11-06","id_posicion":"20","ID_POSICION":"20","id_departamento":"7","ID_DEPARTAMENTO":"7","salario":"324343344","SALARIO":"324343344"}
+[2025-11-07 01:52:41] 🔍 Actualizando usuario ID: 21
+[2025-11-07 01:52:41] 🔐 ¿Es admin?: SÍ
+[2025-11-07 01:52:41] ✅ Permisos verificados
+[2025-11-07 01:52:41]    ✏️ TELEFONO
+[2025-11-07 01:52:41]    ✏️ DIRECCION
+[2025-11-07 01:52:41]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 01:52:41]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-07 01:52:41]    ✏️ TIPO_ROL (admin)
+[2025-11-07 01:52:41]    ✏️ ESTADO_USER (admin)
+[2025-11-07 01:52:41]    ✏️ ID_POSICION (admin) - int
+[2025-11-07 01:52:41]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-07 01:52:41]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 01:52:41] ✅ Campos a actualizar: 10
+[2025-11-07 01:52:41] 📝 Ejecutando UPDATE...
+[2025-11-07 01:52:41] ✅ Usuario actualizado exitosamente
+[2025-11-07 02:16:48] ========================================
+[2025-11-07 02:16:48] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 02:16:48] ========================================
+[2025-11-07 02:16:48] 👤 Usuario: die (ID: 12)
+[2025-11-07 02:16:48] 📨 Método: POST
+[2025-11-07 02:16:48] ✅ Método HTTP válido
+[2025-11-07 02:16:48] 📥 Leyendo datos...
+[2025-11-07 02:16:48] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 02:16:48] 📥 Parseando como JSON...
+[2025-11-07 02:16:48] ✅ Datos recibidos: {"id":21,"NOMBRE_USER":"colaborador","CORREO":"colaborador@gmail.com","TIPO_ROL":"colaborador","ESTADO_USER":"activo","TELEFONO":"30021324","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"213131233424","FECHA_NACIMIENTO":"2025-11-03","CONTACTO_EMERGENCIA_NOMBRE":"ytergtesr","CONTACTO_EMERGENCIA_TELEFONO":"75746","DIRECCION":"Cra 5a #35-a47","FECHA_CONTRATACION":"2025-11-06","ID_POSICION":20,"ID_DEPARTAMENTO":7,"SALARIO":324343344}
+[2025-11-07 02:16:48] 🔍 Actualizando usuario ID: 21
+[2025-11-07 02:16:48] 🔐 ¿Es admin?: SÍ
+[2025-11-07 02:16:48] ✅ Permisos verificados
+[2025-11-07 02:16:48]    ✏️ CORREO
+[2025-11-07 02:16:48]    ✏️ TELEFONO
+[2025-11-07 02:16:48]    ✏️ DIRECCION
+[2025-11-07 02:16:48]    ✏️ FECHA_NACIMIENTO
+[2025-11-07 02:16:48]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 02:16:48]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-07 02:16:48]    ✏️ CONTACTO_EMERGENCIA_NOMBRE
+[2025-11-07 02:16:48]    ✏️ CONTACTO_EMERGENCIA_TELEFONO
+[2025-11-07 02:16:48]    ✏️ TIPO_ROL (admin)
+[2025-11-07 02:16:48]    ✏️ ESTADO_USER (admin)
+[2025-11-07 02:16:48]    ✏️ FECHA_CONTRATACION (admin)
+[2025-11-07 02:16:48]    ✏️ ID_POSICION (admin) - int
+[2025-11-07 02:16:48]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-07 02:16:48]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 02:16:48] ✅ Campos a actualizar: 15
+[2025-11-07 02:16:48] 📝 Ejecutando UPDATE...
+[2025-11-07 02:16:48] ✅ Usuario actualizado exitosamente
+[2025-11-07 02:17:25] ========================================
+[2025-11-07 02:17:25] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 02:17:25] ========================================
+[2025-11-07 02:17:25] 👤 Usuario: die (ID: 12)
+[2025-11-07 02:17:25] 📨 Método: POST
+[2025-11-07 02:17:25] ✅ Método HTTP válido
+[2025-11-07 02:17:25] 📥 Leyendo datos...
+[2025-11-07 02:17:25] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 02:17:25] 📥 Parseando como JSON...
+[2025-11-07 02:17:25] ✅ Datos recibidos: {"id":21,"NOMBRE_USER":"colaborador","CORREO":"colaborador@gmail.com","TIPO_ROL":"colaborador","ESTADO_USER":"activo","TELEFONO":"30021324","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"213131233424","FECHA_NACIMIENTO":"2025-11-03","CONTACTO_EMERGENCIA_NOMBRE":"ytergtesr","CONTACTO_EMERGENCIA_TELEFONO":"75746","DIRECCION":"Cra 5a #35-a47","FECHA_CONTRATACION":"2025-11-06","ID_POSICION":20,"ID_DEPARTAMENTO":7,"SALARIO":324343344}
+[2025-11-07 02:17:25] 🔍 Actualizando usuario ID: 21
+[2025-11-07 02:17:25] 🔐 ¿Es admin?: SÍ
+[2025-11-07 02:17:25] ✅ Permisos verificados
+[2025-11-07 02:17:25]    ✏️ CORREO
+[2025-11-07 02:17:25]    ✏️ TELEFONO
+[2025-11-07 02:17:25]    ✏️ DIRECCION
+[2025-11-07 02:17:25]    ✏️ FECHA_NACIMIENTO
+[2025-11-07 02:17:25]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 02:17:25]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-07 02:17:25]    ✏️ CONTACTO_EMERGENCIA_NOMBRE
+[2025-11-07 02:17:25]    ✏️ CONTACTO_EMERGENCIA_TELEFONO
+[2025-11-07 02:17:25]    ✏️ TIPO_ROL (admin)
+[2025-11-07 02:17:25]    ✏️ ESTADO_USER (admin)
+[2025-11-07 02:17:25]    ✏️ FECHA_CONTRATACION (admin)
+[2025-11-07 02:17:25]    ✏️ ID_POSICION (admin) - int
+[2025-11-07 02:17:25]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-07 02:17:25]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 02:17:25] ✅ Campos a actualizar: 15
+[2025-11-07 02:17:25] 📝 Ejecutando UPDATE...
+[2025-11-07 02:17:25] ✅ Usuario actualizado exitosamente
+[2025-11-07 02:18:36] ========================================
+[2025-11-07 02:18:36] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 02:18:36] ========================================
+[2025-11-07 02:18:36] 👤 Usuario: die (ID: 12)
+[2025-11-07 02:18:36] 📨 Método: POST
+[2025-11-07 02:18:36] ✅ Método HTTP válido
+[2025-11-07 02:18:36] 📥 Leyendo datos...
+[2025-11-07 02:18:36] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 02:18:36] 📥 Parseando como JSON...
+[2025-11-07 02:18:36] ✅ Datos recibidos: {"id":21,"NOMBRE_USER":"colaborador","CORREO":"colaborador@gmail.com","TIPO_ROL":"colaborador","ESTADO_USER":"activo","TELEFONO":"30021324","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"213131233424","FECHA_NACIMIENTO":"2025-11-03","CONTACTO_EMERGENCIA_NOMBRE":"ytergtesr","CONTACTO_EMERGENCIA_TELEFONO":"75746","DIRECCION":"Cra 5a #35-a47","FECHA_CONTRATACION":"2025-11-06","ID_POSICION":20,"ID_DEPARTAMENTO":7,"SALARIO":324343344}
+[2025-11-07 02:18:36] 🔍 Actualizando usuario ID: 21
+[2025-11-07 02:18:36] 🔐 ¿Es admin?: SÍ
+[2025-11-07 02:18:36] ✅ Permisos verificados
+[2025-11-07 02:18:36]    ✏️ CORREO
+[2025-11-07 02:18:36]    ✏️ TELEFONO
+[2025-11-07 02:18:36]    ✏️ DIRECCION
+[2025-11-07 02:18:36]    ✏️ FECHA_NACIMIENTO
+[2025-11-07 02:18:36]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 02:18:36]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-07 02:18:36]    ✏️ CONTACTO_EMERGENCIA_NOMBRE
+[2025-11-07 02:18:36]    ✏️ CONTACTO_EMERGENCIA_TELEFONO
+[2025-11-07 02:18:36]    ✏️ TIPO_ROL (admin)
+[2025-11-07 02:18:36]    ✏️ ESTADO_USER (admin)
+[2025-11-07 02:18:36]    ✏️ FECHA_CONTRATACION (admin)
+[2025-11-07 02:18:36]    ✏️ ID_POSICION (admin) - int
+[2025-11-07 02:18:36]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-07 02:18:36]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 02:18:36] ✅ Campos a actualizar: 15
+[2025-11-07 02:18:36] 📝 Ejecutando UPDATE...
+[2025-11-07 02:18:36] ✅ Usuario actualizado exitosamente
+[2025-11-07 02:18:42] ========================================
+[2025-11-07 02:18:42] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 02:18:42] ========================================
+[2025-11-07 02:18:42] 👤 Usuario: die (ID: 12)
+[2025-11-07 02:18:42] 📨 Método: POST
+[2025-11-07 02:18:42] ✅ Método HTTP válido
+[2025-11-07 02:18:42] 📥 Leyendo datos...
+[2025-11-07 02:18:42] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 02:18:42] 📥 Parseando como JSON...
+[2025-11-07 02:18:42] ✅ Datos recibidos: {"id":21,"NOMBRE_USER":"colaborador","CORREO":"colaborador@gmail.com","TIPO_ROL":"colaborador","ESTADO_USER":"activo","TELEFONO":"30021324","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"213131233424","FECHA_NACIMIENTO":"2025-11-03","CONTACTO_EMERGENCIA_NOMBRE":"ytergtesr","CONTACTO_EMERGENCIA_TELEFONO":"75746","DIRECCION":"Cra 5a #35-a47","FECHA_CONTRATACION":"2025-11-06","ID_POSICION":20,"ID_DEPARTAMENTO":7,"SALARIO":324343344}
+[2025-11-07 02:18:42] 🔍 Actualizando usuario ID: 21
+[2025-11-07 02:18:42] 🔐 ¿Es admin?: SÍ
+[2025-11-07 02:18:42] ✅ Permisos verificados
+[2025-11-07 02:18:42]    ✏️ CORREO
+[2025-11-07 02:18:42]    ✏️ TELEFONO
+[2025-11-07 02:18:42]    ✏️ DIRECCION
+[2025-11-07 02:18:42]    ✏️ FECHA_NACIMIENTO
+[2025-11-07 02:18:42]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 02:18:42]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-07 02:18:42]    ✏️ CONTACTO_EMERGENCIA_NOMBRE
+[2025-11-07 02:18:42]    ✏️ CONTACTO_EMERGENCIA_TELEFONO
+[2025-11-07 02:18:42]    ✏️ TIPO_ROL (admin)
+[2025-11-07 02:18:42]    ✏️ ESTADO_USER (admin)
+[2025-11-07 02:18:42]    ✏️ FECHA_CONTRATACION (admin)
+[2025-11-07 02:18:42]    ✏️ ID_POSICION (admin) - int
+[2025-11-07 02:18:42]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-07 02:18:42]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 02:18:42] ✅ Campos a actualizar: 15
+[2025-11-07 02:18:42] 📝 Ejecutando UPDATE...
+[2025-11-07 02:18:42] ✅ Usuario actualizado exitosamente
+[2025-11-07 02:27:03] ========================================
+[2025-11-07 02:27:03] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 02:27:03] ========================================
+[2025-11-07 02:27:03] 👤 Usuario: die (ID: 12)
+[2025-11-07 02:27:03] 📨 Método: POST
+[2025-11-07 02:27:03] ✅ Método HTTP válido
+[2025-11-07 02:27:03] 📥 Leyendo datos...
+[2025-11-07 02:27:03] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 02:27:03] 📥 Parseando como JSON...
+[2025-11-07 02:27:03] ✅ Datos recibidos: {"id":20,"NOMBRE_USER":"Usuario_de_prueba","CORREO":"marcos0610@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula","URL_FOTO":"blob:http:\/\/localhost:63369\/a6f8394e-08ae-49bb-8e99-f446da0bbc52","uri_foto":"blob:http:\/\/localhost:63369\/a6f8394e-08ae-49bb-8e99-f446da0bbc52"}
+[2025-11-07 02:27:03] 🔍 Actualizando usuario ID: 20
+[2025-11-07 02:27:03] 🔐 ¿Es admin?: SÍ
+[2025-11-07 02:27:03] ✅ Permisos verificados
+[2025-11-07 02:27:03] 🔴 Exception: El correo ya está en uso
+[2025-11-07 02:28:22] ========================================
+[2025-11-07 02:28:22] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 02:28:22] ========================================
+[2025-11-07 02:28:22] 👤 Usuario: die (ID: 12)
+[2025-11-07 02:28:22] 📨 Método: POST
+[2025-11-07 02:28:22] ✅ Método HTTP válido
+[2025-11-07 02:28:22] 📥 Leyendo datos...
+[2025-11-07 02:28:22] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 02:28:22] 📥 Parseando como JSON...
+[2025-11-07 02:28:22] ✅ Datos recibidos: {"id":20,"NOMBRE_USER":"Usuario_de_prueba","CORREO":"marcos0610@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula","URL_FOTO":"blob:http:\/\/localhost:63369\/a6f8394e-08ae-49bb-8e99-f446da0bbc52","uri_foto":"blob:http:\/\/localhost:63369\/a6f8394e-08ae-49bb-8e99-f446da0bbc52"}
+[2025-11-07 02:28:22] 🔍 Actualizando usuario ID: 20
+[2025-11-07 02:28:22] 🔐 ¿Es admin?: SÍ
+[2025-11-07 02:28:22] ✅ Permisos verificados
+[2025-11-07 02:28:22] 🔴 Exception: El correo ya está en uso
+[2025-11-07 02:29:23] ========================================
+[2025-11-07 02:29:23] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 02:29:23] ========================================
+[2025-11-07 02:29:23] 👤 Usuario: die (ID: 12)
+[2025-11-07 02:29:23] 📨 Método: POST
+[2025-11-07 02:29:23] ✅ Método HTTP válido
+[2025-11-07 02:29:23] 📥 Leyendo datos...
+[2025-11-07 02:29:23] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 02:29:23] 📥 Parseando como JSON...
+[2025-11-07 02:29:23] ✅ Datos recibidos: {"id":20,"NOMBRE_USER":"Usuario_de_prueba","CORREO":"marcos061@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula","URL_FOTO":"blob:http:\/\/localhost:63369\/a6f8394e-08ae-49bb-8e99-f446da0bbc52","uri_foto":"blob:http:\/\/localhost:63369\/a6f8394e-08ae-49bb-8e99-f446da0bbc52"}
+[2025-11-07 02:29:23] 🔍 Actualizando usuario ID: 20
+[2025-11-07 02:29:23] 🔐 ¿Es admin?: SÍ
+[2025-11-07 02:29:23] ✅ Permisos verificados
+[2025-11-07 02:29:23]    ✏️ CORREO
+[2025-11-07 02:29:23]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 02:29:23]    ✏️ URL_FOTO
+[2025-11-07 02:29:23]    ✏️ TIPO_ROL (admin)
+[2025-11-07 02:29:23]    ✏️ ESTADO_USER (admin)
+[2025-11-07 02:29:23] ✅ Campos a actualizar: 6
+[2025-11-07 02:29:23] 📝 Ejecutando UPDATE...
+[2025-11-07 02:29:23] ✅ Usuario actualizado exitosamente
+[2025-11-07 02:37:45] ========================================
+[2025-11-07 02:37:45] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 02:37:45] ========================================
+[2025-11-07 02:37:45] 👤 Usuario: die (ID: 12)
+[2025-11-07 02:37:45] 📨 Método: POST
+[2025-11-07 02:37:45] ✅ Método HTTP válido
+[2025-11-07 02:37:45] 📥 Leyendo datos...
+[2025-11-07 02:37:45] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 02:37:45] 📥 Parseando como JSON...
+[2025-11-07 02:37:45] ✅ Datos recibidos: {"id":20,"NOMBRE_USER":"Usuario_de_prueba","CORREO":"marcos0610@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula"}
+[2025-11-07 02:37:45] 🔍 Actualizando usuario ID: 20
+[2025-11-07 02:37:45] 🔐 ¿Es admin?: SÍ
+[2025-11-07 02:37:45] ✅ Permisos verificados
+[2025-11-07 02:37:45] 🔴 Exception: El correo ya está en uso
+[2025-11-07 02:43:49] ========================================
+[2025-11-07 02:43:49] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 02:43:49] ========================================
+[2025-11-07 02:43:49] 👤 Usuario: die (ID: 12)
+[2025-11-07 02:43:49] 📨 Método: POST
+[2025-11-07 02:43:49] ✅ Método HTTP válido
+[2025-11-07 02:43:49] 📥 Leyendo datos...
+[2025-11-07 02:43:49] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 02:43:49] 📥 Parseando como JSON...
+[2025-11-07 02:43:49] ✅ Datos recibidos: {"id":20,"NOMBRE_USER":"Usuario_de_prueba","CORREO":"marcos0610@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula","ID_POSICION":7,"ID_DEPARTAMENTO":3}
+[2025-11-07 02:43:49] 🔍 Actualizando usuario ID: 20
+[2025-11-07 02:43:49] 🔐 ¿Es admin?: SÍ
+[2025-11-07 02:43:49] ✅ Permisos verificados
+[2025-11-07 02:43:49] 🔴 Exception: El correo ya está en uso
+[2025-11-07 02:43:59] ========================================
+[2025-11-07 02:43:59] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 02:43:59] ========================================
+[2025-11-07 02:43:59] 👤 Usuario: die (ID: 12)
+[2025-11-07 02:43:59] 📨 Método: POST
+[2025-11-07 02:43:59] ✅ Método HTTP válido
+[2025-11-07 02:43:59] 📥 Leyendo datos...
+[2025-11-07 02:43:59] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 02:43:59] 📥 Parseando como JSON...
+[2025-11-07 02:43:59] ✅ Datos recibidos: {"id":20,"NOMBRE_USER":"Usuario_de_prueba","CORREO":"marcos061@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula","ID_POSICION":7,"ID_DEPARTAMENTO":3}
+[2025-11-07 02:43:59] 🔍 Actualizando usuario ID: 20
+[2025-11-07 02:43:59] 🔐 ¿Es admin?: SÍ
+[2025-11-07 02:43:59] ✅ Permisos verificados
+[2025-11-07 02:43:59]    ✏️ CORREO
+[2025-11-07 02:43:59]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 02:43:59]    ✏️ TIPO_ROL (admin)
+[2025-11-07 02:43:59]    ✏️ ESTADO_USER (admin)
+[2025-11-07 02:43:59]    ✏️ ID_POSICION (admin) - int
+[2025-11-07 02:43:59]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-07 02:43:59] ✅ Campos a actualizar: 7
+[2025-11-07 02:43:59] 📝 Ejecutando UPDATE...
+[2025-11-07 02:43:59] ✅ Usuario actualizado exitosamente
+[2025-11-07 02:58:52] ========================================
+[2025-11-07 02:58:52] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 02:58:52] ========================================
+[2025-11-07 02:58:52] 👤 Usuario: die (ID: 12)
+[2025-11-07 02:58:52] 📨 Método: POST
+[2025-11-07 02:58:52] ✅ Método HTTP válido
+[2025-11-07 02:58:52] 📥 Leyendo datos...
+[2025-11-07 02:58:52] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 02:58:52] 📥 Parseando como JSON...
+[2025-11-07 02:58:52] ✅ Datos recibidos: {"id":20,"NOMBRE_USER":"Usuario_de_prueba","CORREO":"marcos061@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula","ID_POSICION":7,"ID_DEPARTAMENTO":3,"SALARIO":15500000}
+[2025-11-07 02:58:52] 🔍 Actualizando usuario ID: 20
+[2025-11-07 02:58:52] 🔐 ¿Es admin?: SÍ
+[2025-11-07 02:58:52] ✅ Permisos verificados
+[2025-11-07 02:58:52]    ✏️ CORREO
+[2025-11-07 02:58:52]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 02:58:52]    ✏️ TIPO_ROL (admin)
+[2025-11-07 02:58:52]    ✏️ ESTADO_USER (admin)
+[2025-11-07 02:58:52]    ✏️ ID_POSICION (admin) - int
+[2025-11-07 02:58:52]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-07 02:58:52]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 02:58:52] ✅ Campos a actualizar: 8
+[2025-11-07 02:58:52] 📝 Ejecutando UPDATE...
+[2025-11-07 02:58:52] ✅ Usuario actualizado exitosamente
+[2025-11-07 03:03:06] ========================================
+[2025-11-07 03:03:06] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 03:03:06] ========================================
+[2025-11-07 03:03:06] 👤 Usuario: die (ID: 12)
+[2025-11-07 03:03:06] 📨 Método: POST
+[2025-11-07 03:03:06] ✅ Método HTTP válido
+[2025-11-07 03:03:06] 📥 Leyendo datos...
+[2025-11-07 03:03:06] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 03:03:06] 📥 Parseando como JSON...
+[2025-11-07 03:03:06] ✅ Datos recibidos: {"id":20,"NOMBRE_USER":"Usuario_de_prueba","CORREO":"marcos061@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula","URL_FOTO":"blob:http:\/\/localhost:63369\/ea5a8915-f447-4e33-9876-c2503cf80858","uri_foto":"blob:http:\/\/localhost:63369\/ea5a8915-f447-4e33-9876-c2503cf80858","ID_POSICION":7,"ID_DEPARTAMENTO":3,"SALARIO":15500000}
+[2025-11-07 03:03:06] 🔍 Actualizando usuario ID: 20
+[2025-11-07 03:03:06] 🔐 ¿Es admin?: SÍ
+[2025-11-07 03:03:06] ✅ Permisos verificados
+[2025-11-07 03:03:06]    ✏️ CORREO
+[2025-11-07 03:03:06]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 03:03:06]    ✏️ URL_FOTO
+[2025-11-07 03:03:06]    ✏️ TIPO_ROL (admin)
+[2025-11-07 03:03:06]    ✏️ ESTADO_USER (admin)
+[2025-11-07 03:03:06]    ✏️ ID_POSICION (admin) - int
+[2025-11-07 03:03:06]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-07 03:03:06]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 03:03:06] ✅ Campos a actualizar: 9
+[2025-11-07 03:03:06] 📝 Ejecutando UPDATE...
+[2025-11-07 03:03:06] ✅ Usuario actualizado exitosamente
+[2025-11-07 03:15:32] ========================================
+[2025-11-07 03:15:32] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 03:15:32] ========================================
+[2025-11-07 03:15:32] 👤 Usuario: die (ID: 12)
+[2025-11-07 03:15:32] 📨 Método: POST
+[2025-11-07 03:15:32] ✅ Método HTTP válido
+[2025-11-07 03:15:32] 📥 Leyendo datos...
+[2025-11-07 03:15:32] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 03:15:32] 📥 Parseando como JSON...
+[2025-11-07 03:15:32] ✅ Datos recibidos: {"id":20,"NOMBRE_USER":"Usuario_de_prueba","CORREO":"marcos061@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula","URL_FOTO":"blob:http:\/\/localhost:63369\/3813173e-9955-4e8b-befe-bab88084ac0d","uri_foto":"blob:http:\/\/localhost:63369\/3813173e-9955-4e8b-befe-bab88084ac0d","ID_POSICION":7,"ID_DEPARTAMENTO":3,"SALARIO":15500000}
+[2025-11-07 03:15:32] 🔍 Actualizando usuario ID: 20
+[2025-11-07 03:15:32] 🔐 ¿Es admin?: SÍ
+[2025-11-07 03:15:32] ✅ Permisos verificados
+[2025-11-07 03:15:32]    ✏️ CORREO
+[2025-11-07 03:15:32]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 03:15:32]    ✏️ URL_FOTO
+[2025-11-07 03:15:32]    ✏️ TIPO_ROL (admin)
+[2025-11-07 03:15:32]    ✏️ ESTADO_USER (admin)
+[2025-11-07 03:15:32]    ✏️ ID_POSICION (admin) - int
+[2025-11-07 03:15:32]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-07 03:15:32]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 03:15:32] ✅ Campos a actualizar: 9
+[2025-11-07 03:15:32] 📝 Ejecutando UPDATE...
+[2025-11-07 03:15:32] ✅ Usuario actualizado exitosamente
+[2025-11-07 03:16:52] ========================================
+[2025-11-07 03:16:52] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 03:16:52] ========================================
+[2025-11-07 03:16:52] 👤 Usuario: die (ID: 12)
+[2025-11-07 03:16:52] 📨 Método: POST
+[2025-11-07 03:16:52] ✅ Método HTTP válido
+[2025-11-07 03:16:52] 📥 Leyendo datos...
+[2025-11-07 03:16:52] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 03:16:52] 📥 Parseando como JSON...
+[2025-11-07 03:16:52] ✅ Datos recibidos: {"id":20,"NOMBRE_USER":"Usuario_de_prueba","CORREO":"marcos061@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula","URL_FOTO":"blob:http:\/\/localhost:63369\/3813173e-9955-4e8b-befe-bab88084ac0d","uri_foto":"blob:http:\/\/localhost:63369\/3813173e-9955-4e8b-befe-bab88084ac0d","ID_POSICION":7,"ID_DEPARTAMENTO":3,"SALARIO":15500000}
+[2025-11-07 03:16:52] 🔍 Actualizando usuario ID: 20
+[2025-11-07 03:16:52] 🔐 ¿Es admin?: SÍ
+[2025-11-07 03:16:52] ✅ Permisos verificados
+[2025-11-07 03:16:52]    ✏️ CORREO
+[2025-11-07 03:16:52]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 03:16:52]    ✏️ URL_FOTO
+[2025-11-07 03:16:52]    ✏️ TIPO_ROL (admin)
+[2025-11-07 03:16:52]    ✏️ ESTADO_USER (admin)
+[2025-11-07 03:16:52]    ✏️ ID_POSICION (admin) - int
+[2025-11-07 03:16:52]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-07 03:16:52]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 03:16:52] ✅ Campos a actualizar: 9
+[2025-11-07 03:16:52] 📝 Ejecutando UPDATE...
+[2025-11-07 03:16:52] ✅ Usuario actualizado exitosamente
+[2025-11-07 03:17:00] ========================================
+[2025-11-07 03:17:00] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 03:17:00] ========================================
+[2025-11-07 03:17:00] 👤 Usuario: die (ID: 12)
+[2025-11-07 03:17:00] 📨 Método: POST
+[2025-11-07 03:17:00] ✅ Método HTTP válido
+[2025-11-07 03:17:00] 📥 Leyendo datos...
+[2025-11-07 03:17:00] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 03:17:00] 📥 Parseando como JSON...
+[2025-11-07 03:17:00] ✅ Datos recibidos: {"id":20,"NOMBRE_USER":"Usuario_de_prueba","CORREO":"marcos061@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula","URL_FOTO":"blob:http:\/\/localhost:63369\/3813173e-9955-4e8b-befe-bab88084ac0d","uri_foto":"blob:http:\/\/localhost:63369\/3813173e-9955-4e8b-befe-bab88084ac0d","ID_POSICION":7,"ID_DEPARTAMENTO":3,"SALARIO":15500000}
+[2025-11-07 03:17:00] 🔍 Actualizando usuario ID: 20
+[2025-11-07 03:17:00] 🔐 ¿Es admin?: SÍ
+[2025-11-07 03:17:00] ✅ Permisos verificados
+[2025-11-07 03:17:00]    ✏️ CORREO
+[2025-11-07 03:17:00]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 03:17:00]    ✏️ URL_FOTO
+[2025-11-07 03:17:00]    ✏️ TIPO_ROL (admin)
+[2025-11-07 03:17:00]    ✏️ ESTADO_USER (admin)
+[2025-11-07 03:17:00]    ✏️ ID_POSICION (admin) - int
+[2025-11-07 03:17:00]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-07 03:17:00]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 03:17:00] ✅ Campos a actualizar: 9
+[2025-11-07 03:17:00] 📝 Ejecutando UPDATE...
+[2025-11-07 03:17:00] ✅ Usuario actualizado exitosamente
+[2025-11-07 03:19:19] ========================================
+[2025-11-07 03:19:19] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 03:19:19] ========================================
+[2025-11-07 03:19:19] 👤 Usuario: die (ID: 12)
+[2025-11-07 03:19:19] 📨 Método: POST
+[2025-11-07 03:19:19] ✅ Método HTTP válido
+[2025-11-07 03:19:19] 📥 Leyendo datos...
+[2025-11-07 03:19:19] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 03:19:19] 📥 Parseando como JSON...
+[2025-11-07 03:19:19] ✅ Datos recibidos: {"id":21,"CONTRASE\u00d1A":"12345678"}
+[2025-11-07 03:19:19] 🔍 Actualizando usuario ID: 21
+[2025-11-07 03:19:19] 🔐 ¿Es admin?: SÍ
+[2025-11-07 03:19:19] ✅ Permisos verificados
+[2025-11-07 03:19:19]    ✏️ CONTRASEÑA (hasheada)
+[2025-11-07 03:19:19] ✅ Campos a actualizar: 2
+[2025-11-07 03:19:19] 📝 Ejecutando UPDATE...
+[2025-11-07 03:19:19] ✅ Usuario actualizado exitosamente
+[2025-11-07 03:22:45] ========================================
+[2025-11-07 03:22:45] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 03:22:45] ========================================
+[2025-11-07 03:22:45] 👤 Usuario: die (ID: 12)
+[2025-11-07 03:22:45] 📨 Método: POST
+[2025-11-07 03:22:45] ✅ Método HTTP válido
+[2025-11-07 03:22:45] 📥 Leyendo datos...
+[2025-11-07 03:22:45] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 03:22:45] 📥 Parseando como JSON...
+[2025-11-07 03:22:45] ✅ Datos recibidos: {"id":20,"NOMBRE_USER":"Usuario_de_prueba","CORREO":"marcos061@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula","URL_FOTO":"blob:http:\/\/localhost:63369\/92301ab9-5f3a-4509-bffa-41a70ab08ccc","uri_foto":"blob:http:\/\/localhost:63369\/92301ab9-5f3a-4509-bffa-41a70ab08ccc","ID_POSICION":7,"ID_DEPARTAMENTO":3,"SALARIO":15500000}
+[2025-11-07 03:22:45] 🔍 Actualizando usuario ID: 20
+[2025-11-07 03:22:45] 🔐 ¿Es admin?: SÍ
+[2025-11-07 03:22:45] ✅ Permisos verificados
+[2025-11-07 03:22:45]    ✏️ CORREO
+[2025-11-07 03:22:45]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 03:22:45]    ✏️ URL_FOTO
+[2025-11-07 03:22:45]    ✏️ TIPO_ROL (admin)
+[2025-11-07 03:22:45]    ✏️ ESTADO_USER (admin)
+[2025-11-07 03:22:45]    ✏️ ID_POSICION (admin) - int
+[2025-11-07 03:22:45]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-07 03:22:45]    ✏️ SALARIO (admin) - decimal
+[2025-11-07 03:22:45] ✅ Campos a actualizar: 9
+[2025-11-07 03:22:45] 📝 Ejecutando UPDATE...
+[2025-11-07 03:22:45] ✅ Usuario actualizado exitosamente
+[2025-11-07 03:29:21] ========================================
+[2025-11-07 03:29:21] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 03:29:21] ========================================
+[2025-11-07 03:29:21] 👤 Usuario: die (ID: 12)
+[2025-11-07 03:29:21] 📨 Método: POST
+[2025-11-07 03:29:21] ✅ Método HTTP válido
+[2025-11-07 03:29:21] 📥 Leyendo datos...
+[2025-11-07 03:29:21] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 03:29:21] 📥 Parseando como JSON...
+[2025-11-07 03:29:21] ✅ Datos recibidos: {"id":14,"NOMBRE_USER":"Diego Suarez","CORREO":"diego.suarez@hotmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula","URL_FOTO":"blob:http:\/\/localhost:63369\/7179e2d6-6b85-4ac4-8911-af8f1851885d","uri_foto":"blob:http:\/\/localhost:63369\/7179e2d6-6b85-4ac4-8911-af8f1851885d"}
+[2025-11-07 03:29:21] 🔍 Actualizando usuario ID: 14
+[2025-11-07 03:29:21] 🔐 ¿Es admin?: SÍ
+[2025-11-07 03:29:21] ✅ Permisos verificados
+[2025-11-07 03:29:21]    ✏️ CORREO
+[2025-11-07 03:29:21]    ✏️ TIPO_IDENTIFICACION
+[2025-11-07 03:29:21]    ✏️ URL_FOTO
+[2025-11-07 03:29:21]    ✏️ TIPO_ROL (admin)
+[2025-11-07 03:29:21]    ✏️ ESTADO_USER (admin)
+[2025-11-07 03:29:21] ✅ Campos a actualizar: 6
+[2025-11-07 03:29:21] 📝 Ejecutando UPDATE...
+[2025-11-07 03:29:21] ✅ Usuario actualizado exitosamente
+[2025-11-07 03:37:00] ========================================
+[2025-11-07 03:37:00] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 03:37:00] ========================================
+[2025-11-07 03:37:00] 👤 Usuario: die (ID: 12)
+[2025-11-07 03:37:00] 📨 Método: POST
+[2025-11-07 03:37:00] ✅ Método HTTP válido
+[2025-11-07 03:37:00] 📥 Leyendo datos...
+[2025-11-07 03:37:00] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 03:37:00] 📥 Parseando como JSON...
+[2025-11-07 03:37:00] ✅ Datos recibidos: {"id":21,"ESTADO_USER":"activo"}
+[2025-11-07 03:37:00] 🔍 Actualizando usuario ID: 21
+[2025-11-07 03:37:00] 🔐 ¿Es admin?: SÍ
+[2025-11-07 03:37:00] ✅ Permisos verificados
+[2025-11-07 03:37:00]    ✏️ ESTADO_USER (admin)
+[2025-11-07 03:37:00] ✅ Campos a actualizar: 2
+[2025-11-07 03:37:00] 📝 Ejecutando UPDATE...
+[2025-11-07 03:37:00] ✅ Usuario actualizado exitosamente
+[2025-11-07 03:37:01] ========================================
+[2025-11-07 03:37:01] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 03:37:01] ========================================
+[2025-11-07 03:37:01] 👤 Usuario: die (ID: 12)
+[2025-11-07 03:37:01] 📨 Método: POST
+[2025-11-07 03:37:01] ✅ Método HTTP válido
+[2025-11-07 03:37:01] 📥 Leyendo datos...
+[2025-11-07 03:37:01] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 03:37:01] 📥 Parseando como JSON...
+[2025-11-07 03:37:01] ✅ Datos recibidos: {"id":21,"ESTADO_USER":"inactivo"}
+[2025-11-07 03:37:01] 🔍 Actualizando usuario ID: 21
+[2025-11-07 03:37:01] 🔐 ¿Es admin?: SÍ
+[2025-11-07 03:37:01] ✅ Permisos verificados
+[2025-11-07 03:37:01]    ✏️ ESTADO_USER (admin)
+[2025-11-07 03:37:01] ✅ Campos a actualizar: 2
+[2025-11-07 03:37:01] 📝 Ejecutando UPDATE...
+[2025-11-07 03:37:01] ✅ Usuario actualizado exitosamente
+[2025-11-07 03:37:01] ========================================
+[2025-11-07 03:37:01] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 03:37:01] ========================================
+[2025-11-07 03:37:01] 👤 Usuario: die (ID: 12)
+[2025-11-07 03:37:01] 📨 Método: POST
+[2025-11-07 03:37:01] ✅ Método HTTP válido
+[2025-11-07 03:37:01] 📥 Leyendo datos...
+[2025-11-07 03:37:01] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 03:37:01] 📥 Parseando como JSON...
+[2025-11-07 03:37:01] ✅ Datos recibidos: {"id":21,"ESTADO_USER":"activo"}
+[2025-11-07 03:37:01] 🔍 Actualizando usuario ID: 21
+[2025-11-07 03:37:01] 🔐 ¿Es admin?: SÍ
+[2025-11-07 03:37:01] ✅ Permisos verificados
+[2025-11-07 03:37:01]    ✏️ ESTADO_USER (admin)
+[2025-11-07 03:37:01] ✅ Campos a actualizar: 2
+[2025-11-07 03:37:01] 📝 Ejecutando UPDATE...
+[2025-11-07 03:37:01] ✅ Usuario actualizado exitosamente
+[2025-11-07 03:37:06] ========================================
+[2025-11-07 03:37:06] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 03:37:06] ========================================
+[2025-11-07 03:37:06] 👤 Usuario: die (ID: 12)
+[2025-11-07 03:37:06] 📨 Método: POST
+[2025-11-07 03:37:06] ✅ Método HTTP válido
+[2025-11-07 03:37:06] 📥 Leyendo datos...
+[2025-11-07 03:37:06] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 03:37:06] 📥 Parseando como JSON...
+[2025-11-07 03:37:06] ✅ Datos recibidos: {"id":21,"ESTADO_USER":"inactivo"}
+[2025-11-07 03:37:06] 🔍 Actualizando usuario ID: 21
+[2025-11-07 03:37:06] 🔐 ¿Es admin?: SÍ
+[2025-11-07 03:37:06] ✅ Permisos verificados
+[2025-11-07 03:37:06]    ✏️ ESTADO_USER (admin)
+[2025-11-07 03:37:06] ✅ Campos a actualizar: 2
+[2025-11-07 03:37:06] 📝 Ejecutando UPDATE...
+[2025-11-07 03:37:06] ✅ Usuario actualizado exitosamente
+[2025-11-07 03:37:18] ========================================
+[2025-11-07 03:37:18] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 03:37:18] ========================================
+[2025-11-07 03:37:18] 👤 Usuario: die (ID: 12)
+[2025-11-07 03:37:18] 📨 Método: POST
+[2025-11-07 03:37:18] ✅ Método HTTP válido
+[2025-11-07 03:37:18] 📥 Leyendo datos...
+[2025-11-07 03:37:18] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 03:37:18] 📥 Parseando como JSON...
+[2025-11-07 03:37:18] ✅ Datos recibidos: {"id":21,"ESTADO_USER":"activo"}
+[2025-11-07 03:37:18] 🔍 Actualizando usuario ID: 21
+[2025-11-07 03:37:18] 🔐 ¿Es admin?: SÍ
+[2025-11-07 03:37:18] ✅ Permisos verificados
+[2025-11-07 03:37:18]    ✏️ ESTADO_USER (admin)
+[2025-11-07 03:37:18] ✅ Campos a actualizar: 2
+[2025-11-07 03:37:18] 📝 Ejecutando UPDATE...
+[2025-11-07 03:37:18] ✅ Usuario actualizado exitosamente
+[2025-11-07 03:37:30] ========================================
+[2025-11-07 03:37:30] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 03:37:30] ========================================
+[2025-11-07 03:37:30] 👤 Usuario: die (ID: 12)
+[2025-11-07 03:37:30] 📨 Método: POST
+[2025-11-07 03:37:30] ✅ Método HTTP válido
+[2025-11-07 03:37:30] 📥 Leyendo datos...
+[2025-11-07 03:37:30] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 03:37:30] 📥 Parseando como JSON...
+[2025-11-07 03:37:30] ✅ Datos recibidos: {"id":21,"ESTADO_USER":"inactivo"}
+[2025-11-07 03:37:30] 🔍 Actualizando usuario ID: 21
+[2025-11-07 03:37:30] 🔐 ¿Es admin?: SÍ
+[2025-11-07 03:37:30] ✅ Permisos verificados
+[2025-11-07 03:37:30]    ✏️ ESTADO_USER (admin)
+[2025-11-07 03:37:30] ✅ Campos a actualizar: 2
+[2025-11-07 03:37:30] 📝 Ejecutando UPDATE...
+[2025-11-07 03:37:30] ✅ Usuario actualizado exitosamente
+[2025-11-07 03:37:36] ========================================
+[2025-11-07 03:37:36] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-07 03:37:36] ========================================
+[2025-11-07 03:37:36] 👤 Usuario: die (ID: 12)
+[2025-11-07 03:37:36] 📨 Método: POST
+[2025-11-07 03:37:36] ✅ Método HTTP válido
+[2025-11-07 03:37:36] 📥 Leyendo datos...
+[2025-11-07 03:37:36] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-07 03:37:36] 📥 Parseando como JSON...
+[2025-11-07 03:37:36] ✅ Datos recibidos: {"id":21,"ESTADO_USER":"activo"}
+[2025-11-07 03:37:36] 🔍 Actualizando usuario ID: 21
+[2025-11-07 03:37:36] 🔐 ¿Es admin?: SÍ
+[2025-11-07 03:37:36] ✅ Permisos verificados
+[2025-11-07 03:37:36]    ✏️ ESTADO_USER (admin)
+[2025-11-07 03:37:36] ✅ Campos a actualizar: 2
+[2025-11-07 03:37:36] 📝 Ejecutando UPDATE...
+[2025-11-07 03:37:36] ✅ Usuario actualizado exitosamente
+[2025-11-09 11:41:24] ========================================
+[2025-11-09 11:41:24] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 11:41:24] ========================================
+[2025-11-09 11:41:24] 👤 Usuario: die (ID: 12)
+[2025-11-09 11:41:24] 📨 Método: POST
+[2025-11-09 11:41:24] ✅ Método HTTP válido
+[2025-11-09 11:41:24] 📥 Leyendo datos...
+[2025-11-09 11:41:24] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 11:41:24] 📥 Parseando como JSON...
+[2025-11-09 11:41:24] ✅ Datos recibidos: {"id":17,"CONTRASE\u00d1A":"12345678"}
+[2025-11-09 11:41:24] 🔍 Actualizando usuario ID: 17
+[2025-11-09 11:41:24] 🔐 ¿Es admin?: SÍ
+[2025-11-09 11:41:24] ✅ Permisos verificados
+[2025-11-09 11:41:24]    ✏️ CONTRASEÑA (hasheada)
+[2025-11-09 11:41:24] ✅ Campos a actualizar: 2
+[2025-11-09 11:41:24] 📝 Ejecutando UPDATE...
+[2025-11-09 11:41:24] ✅ Usuario actualizado exitosamente
+[2025-11-09 12:17:11] ========================================
+[2025-11-09 12:17:11] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 12:17:11] ========================================
+[2025-11-09 12:17:11] 👤 Usuario: die (ID: 12)
+[2025-11-09 12:17:11] 📨 Método: POST
+[2025-11-09 12:17:11] ✅ Método HTTP válido
+[2025-11-09 12:17:11] 📥 Leyendo datos...
+[2025-11-09 12:17:11] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 12:17:11] 📥 Parseando como JSON...
+[2025-11-09 12:17:11] ✅ Datos recibidos: {"id":22,"TIPO_ROL":"colaborador"}
+[2025-11-09 12:17:11] 🔍 Actualizando usuario ID: 22
+[2025-11-09 12:17:11] 🔐 ¿Es admin?: SÍ
+[2025-11-09 12:17:11] ✅ Permisos verificados
+[2025-11-09 12:17:11]    ✏️ TIPO_ROL (admin)
+[2025-11-09 12:17:11] ✅ Campos a actualizar: 2
+[2025-11-09 12:17:11] 📝 Ejecutando UPDATE...
+[2025-11-09 12:17:11] ✅ Usuario actualizado exitosamente
+[2025-11-09 12:19:31] ========================================
+[2025-11-09 12:19:31] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 12:19:31] ========================================
+[2025-11-09 12:19:31] 👤 Usuario: die (ID: 12)
+[2025-11-09 12:19:31] 📨 Método: POST
+[2025-11-09 12:19:31] ✅ Método HTTP válido
+[2025-11-09 12:19:31] 📥 Leyendo datos...
+[2025-11-09 12:19:31] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 12:19:31] 📥 Parseando como JSON...
+[2025-11-09 12:19:31] ✅ Datos recibidos: {"id":22,"ESTADO_USER":"inactivo"}
+[2025-11-09 12:19:31] 🔍 Actualizando usuario ID: 22
+[2025-11-09 12:19:31] 🔐 ¿Es admin?: SÍ
+[2025-11-09 12:19:31] ✅ Permisos verificados
+[2025-11-09 12:19:31]    ✏️ ESTADO_USER (admin)
+[2025-11-09 12:19:31] ✅ Campos a actualizar: 2
+[2025-11-09 12:19:31] 📝 Ejecutando UPDATE...
+[2025-11-09 12:19:31] ✅ Usuario actualizado exitosamente
+[2025-11-09 13:36:52] ========================================
+[2025-11-09 13:36:52] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 13:36:52] ========================================
+[2025-11-09 13:36:52] 👤 Usuario: die (ID: 12)
+[2025-11-09 13:36:52] 📨 Método: POST
+[2025-11-09 13:36:52] ✅ Método HTTP válido
+[2025-11-09 13:36:52] 📥 Leyendo datos...
+[2025-11-09 13:36:52] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 13:36:52] 📥 Parseando como JSON...
+[2025-11-09 13:36:52] ✅ Datos recibidos: {"id":17,"ESTADO_USER":"inactivo"}
+[2025-11-09 13:36:52] 🔍 Actualizando usuario ID: 17
+[2025-11-09 13:36:52] 🔐 ¿Es admin?: SÍ
+[2025-11-09 13:36:52] ✅ Permisos verificados
+[2025-11-09 13:36:52]    ✏️ ESTADO_USER (admin)
+[2025-11-09 13:36:52] ✅ Campos a actualizar: 2
+[2025-11-09 13:36:52] 📝 Ejecutando UPDATE...
+[2025-11-09 13:36:52] ✅ Usuario actualizado exitosamente
+[2025-11-09 13:37:22] ========================================
+[2025-11-09 13:37:22] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 13:37:22] ========================================
+[2025-11-09 13:37:22] 👤 Usuario: die (ID: 12)
+[2025-11-09 13:37:22] 📨 Método: POST
+[2025-11-09 13:37:22] ✅ Método HTTP válido
+[2025-11-09 13:37:22] 📥 Leyendo datos...
+[2025-11-09 13:37:22] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 13:37:22] 📥 Parseando como JSON...
+[2025-11-09 13:37:22] ✅ Datos recibidos: {"id":17,"TIPO_ROL":"administrador"}
+[2025-11-09 13:37:22] 🔍 Actualizando usuario ID: 17
+[2025-11-09 13:37:22] 🔐 ¿Es admin?: SÍ
+[2025-11-09 13:37:22] ✅ Permisos verificados
+[2025-11-09 13:37:22]    ✏️ TIPO_ROL (admin)
+[2025-11-09 13:37:22] ✅ Campos a actualizar: 2
+[2025-11-09 13:37:22] 📝 Ejecutando UPDATE...
+[2025-11-09 13:37:22] ✅ Usuario actualizado exitosamente
+[2025-11-09 13:37:57] ========================================
+[2025-11-09 13:37:57] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 13:37:57] ========================================
+[2025-11-09 13:37:57] 👤 Usuario: die (ID: 12)
+[2025-11-09 13:37:57] 📨 Método: POST
+[2025-11-09 13:37:57] ✅ Método HTTP válido
+[2025-11-09 13:37:57] 📥 Leyendo datos...
+[2025-11-09 13:37:57] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 13:37:57] 📥 Parseando como JSON...
+[2025-11-09 13:37:57] ✅ Datos recibidos: {"id":17,"ESTADO_USER":"activo"}
+[2025-11-09 13:37:57] 🔍 Actualizando usuario ID: 17
+[2025-11-09 13:37:57] 🔐 ¿Es admin?: SÍ
+[2025-11-09 13:37:57] ✅ Permisos verificados
+[2025-11-09 13:37:57]    ✏️ ESTADO_USER (admin)
+[2025-11-09 13:37:57] ✅ Campos a actualizar: 2
+[2025-11-09 13:37:57] 📝 Ejecutando UPDATE...
+[2025-11-09 13:37:57] ✅ Usuario actualizado exitosamente
+[2025-11-09 13:38:54] ========================================
+[2025-11-09 13:38:54] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 13:38:54] ========================================
+[2025-11-09 13:38:54] 👤 Usuario: alexa (ID: 17)
+[2025-11-09 13:38:54] 📨 Método: POST
+[2025-11-09 13:38:54] ✅ Método HTTP válido
+[2025-11-09 13:38:54] 📥 Leyendo datos...
+[2025-11-09 13:38:54] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 13:38:54] 📥 Parseando como JSON...
+[2025-11-09 13:38:54] ✅ Datos recibidos: {"id":22,"ESTADO_USER":"activo"}
+[2025-11-09 13:38:54] 🔍 Actualizando usuario ID: 22
+[2025-11-09 13:38:54] 🔐 ¿Es admin?: SÍ
+[2025-11-09 13:38:54] ✅ Permisos verificados
+[2025-11-09 13:38:54]    ✏️ ESTADO_USER (admin)
+[2025-11-09 13:38:54] ✅ Campos a actualizar: 2
+[2025-11-09 13:38:54] 📝 Ejecutando UPDATE...
+[2025-11-09 13:38:54] ✅ Usuario actualizado exitosamente
+[2025-11-09 15:11:47] ========================================
+[2025-11-09 15:11:47] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 15:11:47] ========================================
+[2025-11-09 15:11:47] 👤 Usuario: die (ID: 12)
+[2025-11-09 15:11:47] 📨 Método: POST
+[2025-11-09 15:11:47] ✅ Método HTTP válido
+[2025-11-09 15:11:47] 📥 Leyendo datos...
+[2025-11-09 15:11:47] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 15:11:47] 📥 Parseando como JSON...
+[2025-11-09 15:11:47] ✅ Datos recibidos: {"id":21,"TIPO_ROL":"administrador"}
+[2025-11-09 15:11:47] 🔍 Actualizando usuario ID: 21
+[2025-11-09 15:11:47] 🔐 ¿Es admin?: SÍ
+[2025-11-09 15:11:47] ✅ Permisos verificados
+[2025-11-09 15:11:47]    ✏️ TIPO_ROL (admin)
+[2025-11-09 15:11:47] ✅ Campos a actualizar: 2
+[2025-11-09 15:11:47] 📝 Ejecutando UPDATE...
+[2025-11-09 15:11:47] ✅ Usuario actualizado exitosamente
+[2025-11-09 22:28:33] ========================================
+[2025-11-09 22:28:33] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 22:28:33] ========================================
+[2025-11-09 22:28:33] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 22:28:33] 📨 Método: POST
+[2025-11-09 22:28:33] ✅ Método HTTP válido
+[2025-11-09 22:28:33] 📥 Leyendo datos...
+[2025-11-09 22:28:33] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 22:28:33] 📥 Parseando como JSON...
+[2025-11-09 22:28:33] ✅ Datos recibidos: {"id":15,"TIPO_ROL":"administrador"}
+[2025-11-09 22:28:33] 🔍 Actualizando usuario ID: 15
+[2025-11-09 22:28:33] 🔐 ¿Es admin?: SÍ
+[2025-11-09 22:28:33] ✅ Permisos verificados
+[2025-11-09 22:28:33]    ✏️ TIPO_ROL (admin)
+[2025-11-09 22:28:33] ✅ Campos a actualizar: 2
+[2025-11-09 22:28:33] 📝 Ejecutando UPDATE...
+[2025-11-09 22:28:33] ✅ Usuario actualizado exitosamente
+[2025-11-09 22:28:39] ========================================
+[2025-11-09 22:28:39] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 22:28:39] ========================================
+[2025-11-09 22:28:39] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 22:28:39] 📨 Método: POST
+[2025-11-09 22:28:39] ✅ Método HTTP válido
+[2025-11-09 22:28:39] 📥 Leyendo datos...
+[2025-11-09 22:28:39] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 22:28:39] 📥 Parseando como JSON...
+[2025-11-09 22:28:39] ✅ Datos recibidos: {"id":15,"ESTADO_USER":"inactivo"}
+[2025-11-09 22:28:39] 🔍 Actualizando usuario ID: 15
+[2025-11-09 22:28:39] 🔐 ¿Es admin?: SÍ
+[2025-11-09 22:28:39] ✅ Permisos verificados
+[2025-11-09 22:28:39]    ✏️ ESTADO_USER (admin)
+[2025-11-09 22:28:39] ✅ Campos a actualizar: 2
+[2025-11-09 22:28:39] 📝 Ejecutando UPDATE...
+[2025-11-09 22:28:39] ✅ Usuario actualizado exitosamente
+[2025-11-09 22:28:39] ========================================
+[2025-11-09 22:28:39] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 22:28:39] ========================================
+[2025-11-09 22:28:39] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 22:28:39] 📨 Método: POST
+[2025-11-09 22:28:39] ✅ Método HTTP válido
+[2025-11-09 22:28:39] 📥 Leyendo datos...
+[2025-11-09 22:28:39] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 22:28:39] 📥 Parseando como JSON...
+[2025-11-09 22:28:39] ✅ Datos recibidos: {"id":15,"ESTADO_USER":"activo"}
+[2025-11-09 22:28:39] 🔍 Actualizando usuario ID: 15
+[2025-11-09 22:28:39] 🔐 ¿Es admin?: SÍ
+[2025-11-09 22:28:39] ✅ Permisos verificados
+[2025-11-09 22:28:39]    ✏️ ESTADO_USER (admin)
+[2025-11-09 22:28:39] ✅ Campos a actualizar: 2
+[2025-11-09 22:28:39] 📝 Ejecutando UPDATE...
+[2025-11-09 22:28:39] ✅ Usuario actualizado exitosamente
+[2025-11-09 22:29:17] ========================================
+[2025-11-09 22:29:17] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 22:29:17] ========================================
+[2025-11-09 22:29:17] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 22:29:17] 📨 Método: POST
+[2025-11-09 22:29:17] ✅ Método HTTP válido
+[2025-11-09 22:29:17] 📥 Leyendo datos...
+[2025-11-09 22:29:17] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 22:29:17] 📥 Parseando como JSON...
+[2025-11-09 22:29:17] ✅ Datos recibidos: {"id":21,"TIPO_ROL":"administrador"}
+[2025-11-09 22:29:17] 🔍 Actualizando usuario ID: 21
+[2025-11-09 22:29:17] 🔐 ¿Es admin?: SÍ
+[2025-11-09 22:29:17] ✅ Permisos verificados
+[2025-11-09 22:29:17]    ✏️ TIPO_ROL (admin)
+[2025-11-09 22:29:17] ✅ Campos a actualizar: 2
+[2025-11-09 22:29:17] 📝 Ejecutando UPDATE...
+[2025-11-09 22:29:17] ✅ Usuario actualizado exitosamente
+[2025-11-09 22:29:59] ========================================
+[2025-11-09 22:29:59] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 22:29:59] ========================================
+[2025-11-09 22:29:59] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 22:29:59] 📨 Método: POST
+[2025-11-09 22:29:59] ✅ Método HTTP válido
+[2025-11-09 22:29:59] 📥 Leyendo datos...
+[2025-11-09 22:29:59] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 22:29:59] 📥 Parseando como JSON...
+[2025-11-09 22:29:59] ✅ Datos recibidos: {"id":22,"ESTADO_USER":"inactivo"}
+[2025-11-09 22:29:59] 🔍 Actualizando usuario ID: 22
+[2025-11-09 22:29:59] 🔐 ¿Es admin?: SÍ
+[2025-11-09 22:29:59] ✅ Permisos verificados
+[2025-11-09 22:29:59]    ✏️ ESTADO_USER (admin)
+[2025-11-09 22:29:59] ✅ Campos a actualizar: 2
+[2025-11-09 22:29:59] 📝 Ejecutando UPDATE...
+[2025-11-09 22:29:59] ✅ Usuario actualizado exitosamente
+[2025-11-09 22:30:05] ========================================
+[2025-11-09 22:30:05] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 22:30:05] ========================================
+[2025-11-09 22:30:05] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 22:30:05] 📨 Método: POST
+[2025-11-09 22:30:05] ✅ Método HTTP válido
+[2025-11-09 22:30:05] 📥 Leyendo datos...
+[2025-11-09 22:30:05] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 22:30:05] 📥 Parseando como JSON...
+[2025-11-09 22:30:05] ✅ Datos recibidos: {"id":19,"ESTADO_USER":"inactivo"}
+[2025-11-09 22:30:05] 🔍 Actualizando usuario ID: 19
+[2025-11-09 22:30:05] 🔐 ¿Es admin?: SÍ
+[2025-11-09 22:30:05] ✅ Permisos verificados
+[2025-11-09 22:30:05]    ✏️ ESTADO_USER (admin)
+[2025-11-09 22:30:05] ✅ Campos a actualizar: 2
+[2025-11-09 22:30:05] 📝 Ejecutando UPDATE...
+[2025-11-09 22:30:05] ✅ Usuario actualizado exitosamente
+[2025-11-09 22:30:06] ========================================
+[2025-11-09 22:30:06] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 22:30:06] ========================================
+[2025-11-09 22:30:06] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 22:30:06] 📨 Método: POST
+[2025-11-09 22:30:06] ✅ Método HTTP válido
+[2025-11-09 22:30:06] 📥 Leyendo datos...
+[2025-11-09 22:30:06] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 22:30:06] 📥 Parseando como JSON...
+[2025-11-09 22:30:06] ✅ Datos recibidos: {"id":18,"ESTADO_USER":"inactivo"}
+[2025-11-09 22:30:06] 🔍 Actualizando usuario ID: 18
+[2025-11-09 22:30:06] 🔐 ¿Es admin?: SÍ
+[2025-11-09 22:30:06] ✅ Permisos verificados
+[2025-11-09 22:30:06]    ✏️ ESTADO_USER (admin)
+[2025-11-09 22:30:06] ✅ Campos a actualizar: 2
+[2025-11-09 22:30:06] 📝 Ejecutando UPDATE...
+[2025-11-09 22:30:06] ✅ Usuario actualizado exitosamente
+[2025-11-09 22:30:52] ========================================
+[2025-11-09 22:30:52] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 22:30:52] ========================================
+[2025-11-09 22:30:52] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 22:30:52] 📨 Método: POST
+[2025-11-09 22:30:52] ✅ Método HTTP válido
+[2025-11-09 22:30:52] 📥 Leyendo datos...
+[2025-11-09 22:30:52] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 22:30:52] 📥 Parseando como JSON...
+[2025-11-09 22:30:52] ✅ Datos recibidos: {"id":17,"ESTADO_USER":"inactivo"}
+[2025-11-09 22:30:52] 🔍 Actualizando usuario ID: 17
+[2025-11-09 22:30:52] 🔐 ¿Es admin?: SÍ
+[2025-11-09 22:30:52] ✅ Permisos verificados
+[2025-11-09 22:30:52]    ✏️ ESTADO_USER (admin)
+[2025-11-09 22:30:52] ✅ Campos a actualizar: 2
+[2025-11-09 22:30:52] 📝 Ejecutando UPDATE...
+[2025-11-09 22:30:52] ✅ Usuario actualizado exitosamente
+[2025-11-09 22:30:58] ========================================
+[2025-11-09 22:30:58] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 22:30:58] ========================================
+[2025-11-09 22:30:58] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 22:30:58] 📨 Método: POST
+[2025-11-09 22:30:58] ✅ Método HTTP válido
+[2025-11-09 22:30:58] 📥 Leyendo datos...
+[2025-11-09 22:30:58] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 22:30:58] 📥 Parseando como JSON...
+[2025-11-09 22:30:58] ✅ Datos recibidos: {"id":14,"ESTADO_USER":"inactivo"}
+[2025-11-09 22:30:58] 🔍 Actualizando usuario ID: 14
+[2025-11-09 22:30:58] 🔐 ¿Es admin?: SÍ
+[2025-11-09 22:30:58] ✅ Permisos verificados
+[2025-11-09 22:30:58]    ✏️ ESTADO_USER (admin)
+[2025-11-09 22:30:58] ✅ Campos a actualizar: 2
+[2025-11-09 22:30:58] 📝 Ejecutando UPDATE...
+[2025-11-09 22:30:58] ✅ Usuario actualizado exitosamente
+[2025-11-09 22:31:01] ========================================
+[2025-11-09 22:31:01] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-09 22:31:01] ========================================
+[2025-11-09 22:31:01] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 22:31:01] 📨 Método: POST
+[2025-11-09 22:31:01] ✅ Método HTTP válido
+[2025-11-09 22:31:01] 📥 Leyendo datos...
+[2025-11-09 22:31:01] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 22:31:01] 📥 Parseando como JSON...
+[2025-11-09 22:31:01] ✅ Datos recibidos: {"id":13,"ESTADO_USER":"inactivo"}
+[2025-11-09 22:31:01] 🔍 Actualizando usuario ID: 13
+[2025-11-09 22:31:01] 🔐 ¿Es admin?: SÍ
+[2025-11-09 22:31:01] ✅ Permisos verificados
+[2025-11-09 22:31:01]    ✏️ ESTADO_USER (admin)
+[2025-11-09 22:31:01] ✅ Campos a actualizar: 2
+[2025-11-09 22:31:01] 📝 Ejecutando UPDATE...
+[2025-11-09 22:31:01] ✅ Usuario actualizado exitosamente
+[2025-11-11 17:37:11] ========================================
+[2025-11-11 17:37:11] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-11 17:37:11] ========================================
+[2025-11-11 17:37:11] 👤 Usuario: colaborador (ID: 21)
+[2025-11-11 17:37:11] 📨 Método: POST
+[2025-11-11 17:37:11] ✅ Método HTTP válido
+[2025-11-11 17:37:11] 📥 Leyendo datos...
+[2025-11-11 17:37:11] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-11 17:37:11] 📥 Parseando como JSON...
+[2025-11-11 17:37:11] ✅ Datos recibidos: {"id":16,"ESTADO_USER":"inactivo"}
+[2025-11-11 17:37:11] 🔍 Actualizando usuario ID: 16
+[2025-11-11 17:37:11] 🔐 ¿Es admin?: SÍ
+[2025-11-11 17:37:11] ✅ Permisos verificados
+[2025-11-11 17:37:11]    ✏️ ESTADO_USER (admin)
+[2025-11-11 17:37:11] ✅ Campos a actualizar: 2
+[2025-11-11 17:37:11] 📝 Ejecutando UPDATE...
+[2025-11-11 17:37:11] ✅ Usuario actualizado exitosamente
+[2025-11-17 13:36:23] ========================================
+[2025-11-17 13:36:23] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-17 13:36:23] ========================================
+[2025-11-17 13:36:23] 👤 Usuario: colaborador (ID: 21)
+[2025-11-17 13:36:23] 📨 Método: POST
+[2025-11-17 13:36:23] ✅ Método HTTP válido
+[2025-11-17 13:36:23] 📥 Leyendo datos...
+[2025-11-17 13:36:23] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-17 13:36:23] 📥 Parseando como JSON...
+[2025-11-17 13:36:23] ✅ Datos recibidos: {"id":20,"NOMBRE_USER":"Marcos Suarez","CORREO":"marcos0610@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"18469372","ID_POSICION":7,"ID_DEPARTAMENTO":3,"SALARIO":15500000}
+[2025-11-17 13:36:23] 🔍 Actualizando usuario ID: 20
+[2025-11-17 13:36:23] 🔐 ¿Es admin?: SÍ
+[2025-11-17 13:36:23] ✅ Permisos verificados
+[2025-11-17 13:36:23] 🔴 Exception: El correo ya está en uso
+[2025-11-17 13:37:00] ========================================
+[2025-11-17 13:37:00] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-17 13:37:00] ========================================
+[2025-11-17 13:37:00] 👤 Usuario: colaborador (ID: 21)
+[2025-11-17 13:37:00] 📨 Método: POST
+[2025-11-17 13:37:00] ✅ Método HTTP válido
+[2025-11-17 13:37:00] 📥 Leyendo datos...
+[2025-11-17 13:37:00] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-17 13:37:00] 📥 Parseando como JSON...
+[2025-11-17 13:37:00] ✅ Datos recibidos: {"id":16,"NOMBRE_USER":"Marcos Suarez","CORREO":"marcos0610@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"inactivo","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"18469372"}
+[2025-11-17 13:37:00] 🔍 Actualizando usuario ID: 16
+[2025-11-17 13:37:00] 🔐 ¿Es admin?: SÍ
+[2025-11-17 13:37:00] ✅ Permisos verificados
+[2025-11-17 13:37:00] 🔴 Exception: El correo ya está en uso
+[2025-11-17 13:37:03] ========================================
+[2025-11-17 13:37:03] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-17 13:37:03] ========================================
+[2025-11-17 13:37:03] 👤 Usuario: colaborador (ID: 21)
+[2025-11-17 13:37:03] 📨 Método: POST
+[2025-11-17 13:37:03] ✅ Método HTTP válido
+[2025-11-17 13:37:03] 📥 Leyendo datos...
+[2025-11-17 13:37:03] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-17 13:37:03] 📥 Parseando como JSON...
+[2025-11-17 13:37:03] ✅ Datos recibidos: {"id":16,"NOMBRE_USER":"Marcos Suarez","CORREO":"marcos0610@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"inactivo","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"18469372"}
+[2025-11-17 13:37:03] 🔍 Actualizando usuario ID: 16
+[2025-11-17 13:37:03] 🔐 ¿Es admin?: SÍ
+[2025-11-17 13:37:03] ✅ Permisos verificados
+[2025-11-17 13:37:03] 🔴 Exception: El correo ya está en uso
+[2025-11-17 13:37:21] ========================================
+[2025-11-17 13:37:21] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-17 13:37:21] ========================================
+[2025-11-17 13:37:21] 👤 Usuario: colaborador (ID: 21)
+[2025-11-17 13:37:21] 📨 Método: POST
+[2025-11-17 13:37:21] ✅ Método HTTP válido
+[2025-11-17 13:37:21] 📥 Leyendo datos...
+[2025-11-17 13:37:21] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-17 13:37:21] 📥 Parseando como JSON...
+[2025-11-17 13:37:21] ✅ Datos recibidos: {"id":15,"NOMBRE_USER":"MarcosSuarez","CORREO":"marcos0610@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula"}
+[2025-11-17 13:37:21] 🔍 Actualizando usuario ID: 15
+[2025-11-17 13:37:21] 🔐 ¿Es admin?: SÍ
+[2025-11-17 13:37:21] ✅ Permisos verificados
+[2025-11-17 13:37:21] 🔴 Exception: El correo ya está en uso
+[2025-11-17 13:44:31] ========================================
+[2025-11-17 13:44:31] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-17 13:44:31] ========================================
+[2025-11-17 13:44:31] 👤 Usuario: colaborador (ID: 21)
+[2025-11-17 13:44:31] 📨 Método: POST
+[2025-11-17 13:44:31] ✅ Método HTTP válido
+[2025-11-17 13:44:31] 📥 Leyendo datos...
+[2025-11-17 13:44:31] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-17 13:44:31] 📥 Parseando como JSON...
+[2025-11-17 13:44:31] ✅ Datos recibidos: {"id":15,"NOMBRE_USER":"MarcosSuarez","CORREO":"marcos0610@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TELEFONO":"3147797396","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"18469372"}
+[2025-11-17 13:44:31] 🔍 Actualizando usuario ID: 15
+[2025-11-17 13:44:31] 🔐 ¿Es admin?: SÍ
+[2025-11-17 13:44:31] ✅ Permisos verificados
+[2025-11-17 13:44:31] 🔴 Exception: El correo ya está en uso
+[2025-11-17 13:45:38] ========================================
+[2025-11-17 13:45:38] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-17 13:45:38] ========================================
+[2025-11-17 13:45:38] 👤 Usuario: colaborador (ID: 21)
+[2025-11-17 13:45:38] 📨 Método: POST
+[2025-11-17 13:45:38] ✅ Método HTTP válido
+[2025-11-17 13:45:38] 📥 Leyendo datos...
+[2025-11-17 13:45:38] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-17 13:45:38] 📥 Parseando como JSON...
+[2025-11-17 13:45:38] ✅ Datos recibidos: {"id":15,"NOMBRE_USER":"MarcosSuarez","CORREO":"marcos0610@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TELEFONO":"314773796","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"18469372"}
+[2025-11-17 13:45:38] 🔍 Actualizando usuario ID: 15
+[2025-11-17 13:45:38] 🔐 ¿Es admin?: SÍ
+[2025-11-17 13:45:38] ✅ Permisos verificados
+[2025-11-17 13:45:38] 🔴 Exception: El correo ya está en uso
+[2025-11-17 17:28:46] ========================================
+[2025-11-17 17:28:46] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-17 17:28:46] ========================================
+[2025-11-17 17:28:46] 👤 Usuario: colaborador (ID: 21)
+[2025-11-17 17:28:46] 📨 Método: POST
+[2025-11-17 17:28:46] ✅ Método HTTP válido
+[2025-11-17 17:28:46] 📥 Leyendo datos...
+[2025-11-17 17:28:46] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-17 17:28:46] 📥 Parseando como JSON...
+[2025-11-17 17:28:46] ✅ Datos recibidos: {"id":21,"ESTADO_USER":"inactivo"}
+[2025-11-17 17:28:46] 🔍 Actualizando usuario ID: 21
+[2025-11-17 17:28:46] 🔐 ¿Es admin?: SÍ
+[2025-11-17 17:28:46] ✅ Permisos verificados
+[2025-11-17 17:28:46]    ✏️ ESTADO_USER (admin)
+[2025-11-17 17:28:46] ✅ Campos a actualizar: 2
+[2025-11-17 17:28:46] 📝 Ejecutando UPDATE...
+[2025-11-17 17:28:46] ✅ Usuario actualizado exitosamente
+[2025-11-17 17:28:48] ========================================
+[2025-11-17 17:28:48] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-17 17:28:48] ========================================
+[2025-11-17 17:28:48] 👤 Usuario: colaborador (ID: 21)
+[2025-11-17 17:28:48] 📨 Método: POST
+[2025-11-17 17:28:48] ✅ Método HTTP válido
+[2025-11-17 17:28:48] 📥 Leyendo datos...
+[2025-11-17 17:28:48] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-17 17:28:48] 📥 Parseando como JSON...
+[2025-11-17 17:28:48] ✅ Datos recibidos: {"id":21,"ESTADO_USER":"activo"}
+[2025-11-17 17:28:48] 🔍 Actualizando usuario ID: 21
+[2025-11-17 17:28:48] 🔐 ¿Es admin?: SÍ
+[2025-11-17 17:28:48] ✅ Permisos verificados
+[2025-11-17 17:28:48]    ✏️ ESTADO_USER (admin)
+[2025-11-17 17:28:48] ✅ Campos a actualizar: 2
+[2025-11-17 17:28:48] 📝 Ejecutando UPDATE...
+[2025-11-17 17:28:48] ✅ Usuario actualizado exitosamente
+[2025-11-18 18:12:38] ========================================
+[2025-11-18 18:12:38] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-18 18:12:38] ========================================
+[2025-11-18 18:12:38] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-18 18:12:38] 📨 Método: POST
+[2025-11-18 18:12:38] ✅ Método HTTP válido
+[2025-11-18 18:12:38] 📥 Leyendo datos...
+[2025-11-18 18:12:38] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-18 18:12:38] 📥 Parseando como JSON...
+[2025-11-18 18:12:38] ✅ Datos recibidos: {"id":20,"NOMBRE_USER":"Usuario_de_prueba","CORREO":"marcos061@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"inactivo","TIPO_IDENTIFICACION":"Cedula","ID_POSICION":7,"ID_DEPARTAMENTO":3,"SALARIO":15500000}
+[2025-11-18 18:12:38] 🔍 Actualizando usuario ID: 20
+[2025-11-18 18:12:38] 🔐 ¿Es admin?: SÍ
+[2025-11-18 18:12:38] ✅ Permisos verificados
+[2025-11-18 18:12:38]    ✏️ CORREO
+[2025-11-18 18:12:38]    ✏️ TIPO_IDENTIFICACION
+[2025-11-18 18:12:38]    ✏️ TIPO_ROL (admin)
+[2025-11-18 18:12:38]    ✏️ ESTADO_USER (admin)
+[2025-11-18 18:12:38]    ✏️ ID_POSICION (admin) - int
+[2025-11-18 18:12:38]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-18 18:12:38]    ✏️ SALARIO (admin) - decimal
+[2025-11-18 18:12:38] ✅ Campos a actualizar: 8
+[2025-11-18 18:12:38] 📝 Ejecutando UPDATE...
+[2025-11-18 18:12:38] ✅ Usuario actualizado exitosamente
+[2025-11-18 18:29:16] ========================================
+[2025-11-18 18:29:16] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-18 18:29:16] ========================================
+[2025-11-18 18:29:16] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-18 18:29:16] 📨 Método: POST
+[2025-11-18 18:29:16] ✅ Método HTTP válido
+[2025-11-18 18:29:16] 📥 Leyendo datos...
+[2025-11-18 18:29:16] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-18 18:29:16] 📥 Parseando como JSON...
+[2025-11-18 18:29:16] ✅ Datos recibidos: {"id":16,"NOMBRE_USER":"Jefe de Taller","CORREO":"marcos0610@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"inactivo","TELEFONO":"3147797396","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"18469372"}
+[2025-11-18 18:29:16] 🔍 Actualizando usuario ID: 16
+[2025-11-18 18:29:16] 🔐 ¿Es admin?: SÍ
+[2025-11-18 18:29:16] ✅ Permisos verificados
+[2025-11-18 18:29:16] 🔴 Exception: El correo ya está en uso
+[2025-11-18 18:29:40] ========================================
+[2025-11-18 18:29:40] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-18 18:29:40] ========================================
+[2025-11-18 18:29:40] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-18 18:29:40] 📨 Método: POST
+[2025-11-18 18:29:40] ✅ Método HTTP válido
+[2025-11-18 18:29:40] 📥 Leyendo datos...
+[2025-11-18 18:29:40] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-18 18:29:40] 📥 Parseando como JSON...
+[2025-11-18 18:29:40] ✅ Datos recibidos: {"id":16,"NOMBRE_USER":"Jefe de Taller","CORREO":"marcsua@live.com","TIPO_ROL":"administrador","ESTADO_USER":"inactivo","TELEFONO":"3147797396","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"18469372"}
+[2025-11-18 18:29:40] 🔍 Actualizando usuario ID: 16
+[2025-11-18 18:29:40] 🔐 ¿Es admin?: SÍ
+[2025-11-18 18:29:40] ✅ Permisos verificados
+[2025-11-18 18:29:40]    ✏️ CORREO
+[2025-11-18 18:29:40]    ✏️ TELEFONO
+[2025-11-18 18:29:40]    ✏️ TIPO_IDENTIFICACION
+[2025-11-18 18:29:40]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-18 18:29:40]    ✏️ TIPO_ROL (admin)
+[2025-11-18 18:29:40]    ✏️ ESTADO_USER (admin)
+[2025-11-18 18:29:40] ✅ Campos a actualizar: 7
+[2025-11-18 18:29:40] 📝 Ejecutando UPDATE...
+[2025-11-18 18:29:40] ✅ Usuario actualizado exitosamente
+[2025-11-18 18:29:48] ========================================
+[2025-11-18 18:29:48] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-18 18:29:48] ========================================
+[2025-11-18 18:29:48] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-18 18:29:48] 📨 Método: POST
+[2025-11-18 18:29:48] ✅ Método HTTP válido
+[2025-11-18 18:29:48] 📥 Leyendo datos...
+[2025-11-18 18:29:48] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-18 18:29:48] 📥 Parseando como JSON...
+[2025-11-18 18:29:48] ✅ Datos recibidos: {"id":16,"TIPO_ROL":"colaborador"}
+[2025-11-18 18:29:48] 🔍 Actualizando usuario ID: 16
+[2025-11-18 18:29:48] 🔐 ¿Es admin?: SÍ
+[2025-11-18 18:29:48] ✅ Permisos verificados
+[2025-11-18 18:29:48]    ✏️ TIPO_ROL (admin)
+[2025-11-18 18:29:48] ✅ Campos a actualizar: 2
+[2025-11-18 18:29:48] 📝 Ejecutando UPDATE...
+[2025-11-18 18:29:48] ✅ Usuario actualizado exitosamente
+[2025-11-18 18:29:50] ========================================
+[2025-11-18 18:29:50] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-18 18:29:50] ========================================
+[2025-11-18 18:29:50] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-18 18:29:50] 📨 Método: POST
+[2025-11-18 18:29:50] ✅ Método HTTP válido
+[2025-11-18 18:29:50] 📥 Leyendo datos...
+[2025-11-18 18:29:50] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-18 18:29:50] 📥 Parseando como JSON...
+[2025-11-18 18:29:50] ✅ Datos recibidos: {"id":16,"NOMBRE_USER":"Jefe de Taller","CORREO":"marcsua@live.com","TIPO_ROL":"administrador","ESTADO_USER":"inactivo","TELEFONO":"3147797396","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"18469372"}
+[2025-11-18 18:29:50] 🔍 Actualizando usuario ID: 16
+[2025-11-18 18:29:50] 🔐 ¿Es admin?: SÍ
+[2025-11-18 18:29:50] ✅ Permisos verificados
+[2025-11-18 18:29:50]    ✏️ CORREO
+[2025-11-18 18:29:50]    ✏️ TELEFONO
+[2025-11-18 18:29:50]    ✏️ TIPO_IDENTIFICACION
+[2025-11-18 18:29:50]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-18 18:29:50]    ✏️ TIPO_ROL (admin)
+[2025-11-18 18:29:50]    ✏️ ESTADO_USER (admin)
+[2025-11-18 18:29:50] ✅ Campos a actualizar: 7
+[2025-11-18 18:29:50] 📝 Ejecutando UPDATE...
+[2025-11-18 18:29:50] ✅ Usuario actualizado exitosamente
+[2025-11-18 18:29:54] ========================================
+[2025-11-18 18:29:54] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-18 18:29:54] ========================================
+[2025-11-18 18:29:54] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-18 18:29:54] 📨 Método: POST
+[2025-11-18 18:29:54] ✅ Método HTTP válido
+[2025-11-18 18:29:54] 📥 Leyendo datos...
+[2025-11-18 18:29:54] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-18 18:29:54] 📥 Parseando como JSON...
+[2025-11-18 18:29:54] ✅ Datos recibidos: {"id":16,"TIPO_ROL":"colaborador"}
+[2025-11-18 18:29:54] 🔍 Actualizando usuario ID: 16
+[2025-11-18 18:29:54] 🔐 ¿Es admin?: SÍ
+[2025-11-18 18:29:54] ✅ Permisos verificados
+[2025-11-18 18:29:54]    ✏️ TIPO_ROL (admin)
+[2025-11-18 18:29:54] ✅ Campos a actualizar: 2
+[2025-11-18 18:29:54] 📝 Ejecutando UPDATE...
+[2025-11-18 18:29:54] ✅ Usuario actualizado exitosamente
+[2025-11-18 18:30:01] ========================================
+[2025-11-18 18:30:01] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-18 18:30:01] ========================================
+[2025-11-18 18:30:01] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-18 18:30:01] 📨 Método: POST
+[2025-11-18 18:30:01] ✅ Método HTTP válido
+[2025-11-18 18:30:01] 📥 Leyendo datos...
+[2025-11-18 18:30:01] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-18 18:30:01] 📥 Parseando como JSON...
+[2025-11-18 18:30:01] ✅ Datos recibidos: {"id":16,"NOMBRE_USER":"Jefe de Taller","CORREO":"marcsua@live.com","TIPO_ROL":"colaborador","ESTADO_USER":"inactivo","TELEFONO":"3147797396","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"18469372"}
+[2025-11-18 18:30:01] 🔍 Actualizando usuario ID: 16
+[2025-11-18 18:30:01] 🔐 ¿Es admin?: SÍ
+[2025-11-18 18:30:01] ✅ Permisos verificados
+[2025-11-18 18:30:01]    ✏️ CORREO
+[2025-11-18 18:30:01]    ✏️ TELEFONO
+[2025-11-18 18:30:01]    ✏️ TIPO_IDENTIFICACION
+[2025-11-18 18:30:01]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-18 18:30:01]    ✏️ TIPO_ROL (admin)
+[2025-11-18 18:30:01]    ✏️ ESTADO_USER (admin)
+[2025-11-18 18:30:01] ✅ Campos a actualizar: 7
+[2025-11-18 18:30:01] 📝 Ejecutando UPDATE...
+[2025-11-18 18:30:01] ✅ Usuario actualizado exitosamente
+[2025-11-18 18:30:34] ========================================
+[2025-11-18 18:30:34] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-18 18:30:34] ========================================
+[2025-11-18 18:30:34] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-18 18:30:34] 📨 Método: POST
+[2025-11-18 18:30:34] ✅ Método HTTP válido
+[2025-11-18 18:30:34] 📥 Leyendo datos...
+[2025-11-18 18:30:34] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-18 18:30:34] 📥 Parseando como JSON...
+[2025-11-18 18:30:34] ✅ Datos recibidos: {"id":16,"NOMBRE_USER":"Jefe Taller","CORREO":"marcsua@live.com","TIPO_ROL":"colaborador","ESTADO_USER":"inactivo","TELEFONO":"3147797396","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"18469372"}
+[2025-11-18 18:30:34] 🔍 Actualizando usuario ID: 16
+[2025-11-18 18:30:34] 🔐 ¿Es admin?: SÍ
+[2025-11-18 18:30:34] ✅ Permisos verificados
+[2025-11-18 18:30:34]    ✏️ CORREO
+[2025-11-18 18:30:34]    ✏️ TELEFONO
+[2025-11-18 18:30:34]    ✏️ TIPO_IDENTIFICACION
+[2025-11-18 18:30:34]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-18 18:30:34]    ✏️ TIPO_ROL (admin)
+[2025-11-18 18:30:34]    ✏️ ESTADO_USER (admin)
+[2025-11-18 18:30:34] ✅ Campos a actualizar: 7
+[2025-11-18 18:30:34] 📝 Ejecutando UPDATE...
+[2025-11-18 18:30:34] ✅ Usuario actualizado exitosamente
+[2025-11-18 19:07:36] ========================================
+[2025-11-18 19:07:36] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-18 19:07:36] ========================================
+[2025-11-18 19:07:36] 👤 Usuario: colaborador (ID: 21)
+[2025-11-18 19:07:36] 📨 Método: POST
+[2025-11-18 19:07:36] ✅ Método HTTP válido
+[2025-11-18 19:07:36] 📥 Leyendo datos...
+[2025-11-18 19:07:36] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-18 19:07:36] 📥 Parseando como JSON...
+[2025-11-18 19:07:36] ✅ Datos recibidos: {"id":20,"NOMBRE_USER":"Usuario_de_pruebas","CORREO":"marcos061@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"inactivo","TIPO_IDENTIFICACION":"Cedula","ID_POSICION":7,"ID_DEPARTAMENTO":3,"SALARIO":15500000}
+[2025-11-18 19:07:36] 🔍 Actualizando usuario ID: 20
+[2025-11-18 19:07:36] 🔐 ¿Es admin?: SÍ
+[2025-11-18 19:07:36] ✅ Permisos verificados
+[2025-11-18 19:07:36]    ✏️ CORREO
+[2025-11-18 19:07:36]    ✏️ TIPO_IDENTIFICACION
+[2025-11-18 19:07:36]    ✏️ TIPO_ROL (admin)
+[2025-11-18 19:07:36]    ✏️ ESTADO_USER (admin)
+[2025-11-18 19:07:36]    ✏️ ID_POSICION (admin) - int
+[2025-11-18 19:07:36]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-18 19:07:36]    ✏️ SALARIO (admin) - decimal
+[2025-11-18 19:07:36] ✅ Campos a actualizar: 8
+[2025-11-18 19:07:36] 📝 Ejecutando UPDATE...
+[2025-11-18 19:07:36] ✅ Usuario actualizado exitosamente
+[2025-11-24 03:08:13] ========================================
+[2025-11-24 03:08:13] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:08:13] ========================================
+[2025-11-24 03:08:13] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:08:13] 📨 Método: POST
+[2025-11-24 03:08:13] ✅ Método HTTP válido
+[2025-11-24 03:08:13] 📥 Leyendo datos...
+[2025-11-24 03:08:13] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:08:13] 📥 Parseando como JSON...
+[2025-11-24 03:08:13] ✅ Datos recibidos: {"id":21,"NOMBRE_USER":"Diego Suarez","CORREO":"fercho0989@hotmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TELEFONO":"30021324","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"213131233424","FECHA_NACIMIENTO":"2025-11-03","CONTACTO_EMERGENCIA_NOMBRE":"ytergtesr","CONTACTO_EMERGENCIA_TELEFONO":"75746","DIRECCION":"Cra 5a #35-a47","FECHA_CONTRATACION":"2025-11-06","ID_POSICION":20,"ID_DEPARTAMENTO":7,"SALARIO":324343344}
+[2025-11-24 03:08:13] 🔍 Actualizando usuario ID: 21
+[2025-11-24 03:08:13] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:08:13] ✅ Permisos verificados
+[2025-11-24 03:08:13] 🔴 Exception: El correo ya está en uso
+[2025-11-24 03:08:51] ========================================
+[2025-11-24 03:08:51] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:08:51] ========================================
+[2025-11-24 03:08:51] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:08:51] 📨 Método: POST
+[2025-11-24 03:08:51] ✅ Método HTTP válido
+[2025-11-24 03:08:51] 📥 Leyendo datos...
+[2025-11-24 03:08:51] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:08:51] 📥 Parseando como JSON...
+[2025-11-24 03:08:51] ✅ Datos recibidos: {"id":21,"NOMBRE_USER":"Diego Suarez","CORREO":"fercho0989@hotmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TELEFONO":"30021324","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"213131233424","FECHA_NACIMIENTO":"2025-11-03","CONTACTO_EMERGENCIA_NOMBRE":"ytergtesr","CONTACTO_EMERGENCIA_TELEFONO":"75746","DIRECCION":"Cra 5a #35-a47","FECHA_CONTRATACION":"2025-11-06","ID_POSICION":20,"ID_DEPARTAMENTO":7,"SALARIO":324343344}
+[2025-11-24 03:08:51] 🔍 Actualizando usuario ID: 21
+[2025-11-24 03:08:51] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:08:51] ✅ Permisos verificados
+[2025-11-24 03:08:51] 🔴 Exception: El correo ya está en uso
+[2025-11-24 03:09:13] ========================================
+[2025-11-24 03:09:13] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:09:13] ========================================
+[2025-11-24 03:09:13] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:09:13] 📨 Método: POST
+[2025-11-24 03:09:13] ✅ Método HTTP válido
+[2025-11-24 03:09:13] 📥 Leyendo datos...
+[2025-11-24 03:09:13] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:09:13] 📥 Parseando como JSON...
+[2025-11-24 03:09:13] ✅ Datos recibidos: {"id":21,"NOMBRE_USER":"Diego Suarez","CORREO":"fercho0989@hotmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TELEFONO":"30021324","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"213131233424","FECHA_NACIMIENTO":"2025-11-03","CONTACTO_EMERGENCIA_NOMBRE":"ytergtesr","CONTACTO_EMERGENCIA_TELEFONO":"75746","DIRECCION":"Cra 5a #35-a47","FECHA_CONTRATACION":"2025-11-06","ID_POSICION":20,"ID_DEPARTAMENTO":7,"SALARIO":324343344}
+[2025-11-24 03:09:13] 🔍 Actualizando usuario ID: 21
+[2025-11-24 03:09:13] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:09:13] ✅ Permisos verificados
+[2025-11-24 03:09:13]    ✏️ CORREO
+[2025-11-24 03:09:13]    ✏️ TELEFONO
+[2025-11-24 03:09:13]    ✏️ DIRECCION
+[2025-11-24 03:09:13]    ✏️ FECHA_NACIMIENTO
+[2025-11-24 03:09:13]    ✏️ TIPO_IDENTIFICACION
+[2025-11-24 03:09:13]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-24 03:09:13]    ✏️ CONTACTO_EMERGENCIA_NOMBRE
+[2025-11-24 03:09:13]    ✏️ CONTACTO_EMERGENCIA_TELEFONO
+[2025-11-24 03:09:13]    ✏️ TIPO_ROL (admin)
+[2025-11-24 03:09:13]    ✏️ ESTADO_USER (admin)
+[2025-11-24 03:09:13]    ✏️ FECHA_CONTRATACION (admin)
+[2025-11-24 03:09:13]    ✏️ ID_POSICION (admin) - int
+[2025-11-24 03:09:13]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-24 03:09:13]    ✏️ SALARIO (admin) - decimal
+[2025-11-24 03:09:13] ✅ Campos a actualizar: 15
+[2025-11-24 03:09:13] 📝 Ejecutando UPDATE...
+[2025-11-24 03:09:13] ✅ Usuario actualizado exitosamente
+[2025-11-24 03:09:32] ========================================
+[2025-11-24 03:09:32] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:09:32] ========================================
+[2025-11-24 03:09:32] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:09:32] 📨 Método: POST
+[2025-11-24 03:09:32] ✅ Método HTTP válido
+[2025-11-24 03:09:32] 📥 Leyendo datos...
+[2025-11-24 03:09:32] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:09:32] 📥 Parseando como JSON...
+[2025-11-24 03:09:32] ✅ Datos recibidos: {"id":22,"NOMBRE_USER":"Ivan Marquez","CORREO":"ivanm@gmail.com","TIPO_ROL":"colaborador","ESTADO_USER":"inactivo","TELEFONO":"442424","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"1231312"}
+[2025-11-24 03:09:32] 🔍 Actualizando usuario ID: 22
+[2025-11-24 03:09:32] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:09:32] ✅ Permisos verificados
+[2025-11-24 03:09:32]    ✏️ CORREO
+[2025-11-24 03:09:32]    ✏️ TELEFONO
+[2025-11-24 03:09:32]    ✏️ TIPO_IDENTIFICACION
+[2025-11-24 03:09:32]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-24 03:09:32]    ✏️ TIPO_ROL (admin)
+[2025-11-24 03:09:32]    ✏️ ESTADO_USER (admin)
+[2025-11-24 03:09:32] ✅ Campos a actualizar: 7
+[2025-11-24 03:09:32] 📝 Ejecutando UPDATE...
+[2025-11-24 03:09:32] ✅ Usuario actualizado exitosamente
+[2025-11-24 03:11:10] ========================================
+[2025-11-24 03:11:10] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:11:10] ========================================
+[2025-11-24 03:11:10] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:11:10] 📨 Método: POST
+[2025-11-24 03:11:10] ✅ Método HTTP válido
+[2025-11-24 03:11:10] 📥 Leyendo datos...
+[2025-11-24 03:11:10] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:11:10] 📥 Parseando como JSON...
+[2025-11-24 03:11:10] ✅ Datos recibidos: {"id":20,"NOMBRE_USER":"Wilbert Avila","CORREO":"wavila@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"inactivo","TIPO_IDENTIFICACION":"Cedula","ID_POSICION":7,"ID_DEPARTAMENTO":3,"SALARIO":15500000}
+[2025-11-24 03:11:10] 🔍 Actualizando usuario ID: 20
+[2025-11-24 03:11:10] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:11:10] ✅ Permisos verificados
+[2025-11-24 03:11:10]    ✏️ CORREO
+[2025-11-24 03:11:10]    ✏️ TIPO_IDENTIFICACION
+[2025-11-24 03:11:10]    ✏️ TIPO_ROL (admin)
+[2025-11-24 03:11:10]    ✏️ ESTADO_USER (admin)
+[2025-11-24 03:11:10]    ✏️ ID_POSICION (admin) - int
+[2025-11-24 03:11:10]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-24 03:11:10]    ✏️ SALARIO (admin) - decimal
+[2025-11-24 03:11:10] ✅ Campos a actualizar: 8
+[2025-11-24 03:11:10] 📝 Ejecutando UPDATE...
+[2025-11-24 03:11:10] ✅ Usuario actualizado exitosamente
+[2025-11-24 03:12:24] ========================================
+[2025-11-24 03:12:24] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:12:24] ========================================
+[2025-11-24 03:12:24] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:12:24] 📨 Método: POST
+[2025-11-24 03:12:24] ✅ Método HTTP válido
+[2025-11-24 03:12:24] 📥 Leyendo datos...
+[2025-11-24 03:12:24] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:12:24] 📥 Parseando como JSON...
+[2025-11-24 03:12:24] ✅ Datos recibidos: {"id":21,"NOMBRE_USER":"diego.suarez","CORREO":"fercho0989@hotmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TELEFONO":"30021324","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"213131233424","FECHA_NACIMIENTO":"2025-11-03","CONTACTO_EMERGENCIA_NOMBRE":"ytergtesr","CONTACTO_EMERGENCIA_TELEFONO":"75746","DIRECCION":"Cra 5a #35-a47","FECHA_CONTRATACION":"2025-11-06","ID_POSICION":20,"ID_DEPARTAMENTO":7,"SALARIO":324343344}
+[2025-11-24 03:12:24] 🔍 Actualizando usuario ID: 21
+[2025-11-24 03:12:24] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:12:24] ✅ Permisos verificados
+[2025-11-24 03:12:24]    ✏️ CORREO
+[2025-11-24 03:12:24]    ✏️ TELEFONO
+[2025-11-24 03:12:24]    ✏️ DIRECCION
+[2025-11-24 03:12:24]    ✏️ FECHA_NACIMIENTO
+[2025-11-24 03:12:24]    ✏️ TIPO_IDENTIFICACION
+[2025-11-24 03:12:24]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-24 03:12:24]    ✏️ CONTACTO_EMERGENCIA_NOMBRE
+[2025-11-24 03:12:24]    ✏️ CONTACTO_EMERGENCIA_TELEFONO
+[2025-11-24 03:12:24]    ✏️ TIPO_ROL (admin)
+[2025-11-24 03:12:24]    ✏️ ESTADO_USER (admin)
+[2025-11-24 03:12:24]    ✏️ FECHA_CONTRATACION (admin)
+[2025-11-24 03:12:24]    ✏️ ID_POSICION (admin) - int
+[2025-11-24 03:12:24]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-24 03:12:24]    ✏️ SALARIO (admin) - decimal
+[2025-11-24 03:12:24] ✅ Campos a actualizar: 15
+[2025-11-24 03:12:24] 📝 Ejecutando UPDATE...
+[2025-11-24 03:12:24] ✅ Usuario actualizado exitosamente
+[2025-11-24 03:18:09] ========================================
+[2025-11-24 03:18:09] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:18:09] ========================================
+[2025-11-24 03:18:09] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:18:09] 📨 Método: POST
+[2025-11-24 03:18:09] ✅ Método HTTP válido
+[2025-11-24 03:18:09] 📥 Leyendo datos...
+[2025-11-24 03:18:09] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:18:09] 📥 Parseando como JSON...
+[2025-11-24 03:18:09] ✅ Datos recibidos: {"id":22,"NOMBRE_USER":"pepes","CORREO":"ivanm@gmail.com","TIPO_ROL":"colaborador","ESTADO_USER":"inactivo","TELEFONO":"442424","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"1231312"}
+[2025-11-24 03:18:09] 🔍 Actualizando usuario ID: 22
+[2025-11-24 03:18:09] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:18:09] ✅ Permisos verificados
+[2025-11-24 03:18:09]    ✏️ CORREO
+[2025-11-24 03:18:09]    ✏️ TELEFONO
+[2025-11-24 03:18:09]    ✏️ TIPO_IDENTIFICACION
+[2025-11-24 03:18:09]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-24 03:18:09]    ✏️ TIPO_ROL (admin)
+[2025-11-24 03:18:09]    ✏️ ESTADO_USER (admin)
+[2025-11-24 03:18:09] ✅ Campos a actualizar: 7
+[2025-11-24 03:18:09] 📝 Ejecutando UPDATE...
+[2025-11-24 03:18:09] ✅ Usuario actualizado exitosamente
+[2025-11-24 03:20:10] ========================================
+[2025-11-24 03:20:10] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:20:10] ========================================
+[2025-11-24 03:20:10] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:20:10] 📨 Método: POST
+[2025-11-24 03:20:10] ✅ Método HTTP válido
+[2025-11-24 03:20:10] 📥 Leyendo datos...
+[2025-11-24 03:20:10] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:20:10] 📥 Parseando como JSON...
+[2025-11-24 03:20:10] ✅ Datos recibidos: {"id":22,"NOMBRE_USER":"pepes","CORREO":"ivanm@gmail.com","TIPO_ROL":"colaborador","ESTADO_USER":"inactivo","TELEFONO":"442424","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"1231312"}
+[2025-11-24 03:20:10] 🔍 Actualizando usuario ID: 22
+[2025-11-24 03:20:10] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:20:10] ✅ Permisos verificados
+[2025-11-24 03:20:10]    ✏️ CORREO
+[2025-11-24 03:20:10]    ✏️ TELEFONO
+[2025-11-24 03:20:10]    ✏️ TIPO_IDENTIFICACION
+[2025-11-24 03:20:10]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-24 03:20:10]    ✏️ TIPO_ROL (admin)
+[2025-11-24 03:20:10]    ✏️ ESTADO_USER (admin)
+[2025-11-24 03:20:10] ✅ Campos a actualizar: 7
+[2025-11-24 03:20:10] 📝 Ejecutando UPDATE...
+[2025-11-24 03:20:10] 📝 SQL: UPDATE usuarios SET CORREO = ?, TELEFONO = ?, TIPO_IDENTIFICACION = ?, NUMERO_IDENTIFICACION = ?, TIPO_ROL = ?, ESTADO_USER = ?, USUARIO_ACTUALIZACION = ? WHERE id = ?
+[2025-11-24 03:20:10] 📝 Tipos: ssssssii | Total parámetros: 8
+[2025-11-24 03:20:10] ✅ Usuario actualizado exitosamente
+[2025-11-24 03:20:42] ========================================
+[2025-11-24 03:20:42] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:20:42] ========================================
+[2025-11-24 03:20:42] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:20:42] 📨 Método: POST
+[2025-11-24 03:20:42] ✅ Método HTTP válido
+[2025-11-24 03:20:42] 📥 Leyendo datos...
+[2025-11-24 03:20:42] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:20:42] 📥 Parseando como JSON...
+[2025-11-24 03:20:42] ✅ Datos recibidos: {"id":22,"NOMBRE_USER":"pepessss","CORREO":"ivanm@gmail.com","TIPO_ROL":"colaborador","ESTADO_USER":"inactivo","TELEFONO":"442424","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"1231312"}
+[2025-11-24 03:20:42] 🔍 Actualizando usuario ID: 22
+[2025-11-24 03:20:42] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:20:42] ✅ Permisos verificados
+[2025-11-24 03:20:42]    ✏️ CORREO
+[2025-11-24 03:20:42]    ✏️ TELEFONO
+[2025-11-24 03:20:42]    ✏️ TIPO_IDENTIFICACION
+[2025-11-24 03:20:42]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-24 03:20:42]    ✏️ TIPO_ROL (admin)
+[2025-11-24 03:20:42]    ✏️ ESTADO_USER (admin)
+[2025-11-24 03:20:42] ✅ Campos a actualizar: 7
+[2025-11-24 03:20:42] 📝 Ejecutando UPDATE...
+[2025-11-24 03:20:42] 📝 SQL: UPDATE usuarios SET CORREO = ?, TELEFONO = ?, TIPO_IDENTIFICACION = ?, NUMERO_IDENTIFICACION = ?, TIPO_ROL = ?, ESTADO_USER = ?, USUARIO_ACTUALIZACION = ? WHERE id = ?
+[2025-11-24 03:20:42] 📝 Tipos: ssssssii | Total parámetros: 8
+[2025-11-24 03:20:42] ✅ Usuario actualizado exitosamente
+[2025-11-24 03:21:19] ========================================
+[2025-11-24 03:21:19] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:21:19] ========================================
+[2025-11-24 03:21:19] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:21:19] 📨 Método: POST
+[2025-11-24 03:21:19] ✅ Método HTTP válido
+[2025-11-24 03:21:19] 📥 Leyendo datos...
+[2025-11-24 03:21:19] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:21:19] 📥 Parseando como JSON...
+[2025-11-24 03:21:19] ✅ Datos recibidos: {"id":22,"NOMBRE_USER":"pepexxx","CORREO":"ivanm@gmail.com","TIPO_ROL":"colaborador","ESTADO_USER":"inactivo","TELEFONO":"442424","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"1231312"}
+[2025-11-24 03:21:19] 🔍 Actualizando usuario ID: 22
+[2025-11-24 03:21:19] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:21:19] ✅ Permisos verificados
+[2025-11-24 03:21:19]    ✏️ CORREO
+[2025-11-24 03:21:19]    ✏️ TELEFONO
+[2025-11-24 03:21:19]    ✏️ TIPO_IDENTIFICACION
+[2025-11-24 03:21:19]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-24 03:21:19]    ✏️ TIPO_ROL (admin)
+[2025-11-24 03:21:19]    ✏️ ESTADO_USER (admin)
+[2025-11-24 03:21:19] ✅ Campos a actualizar: 7
+[2025-11-24 03:21:19] 📝 Ejecutando UPDATE...
+[2025-11-24 03:21:19] 📝 SQL: UPDATE usuarios SET CORREO = ?, TELEFONO = ?, TIPO_IDENTIFICACION = ?, NUMERO_IDENTIFICACION = ?, TIPO_ROL = ?, ESTADO_USER = ?, USUARIO_ACTUALIZACION = ? WHERE id = ?
+[2025-11-24 03:21:19] 📝 Tipos: ssssssii | Total parámetros: 8
+[2025-11-24 03:21:19] ✅ Usuario actualizado exitosamente
+[2025-11-24 03:22:56] ========================================
+[2025-11-24 03:22:56] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:22:56] ========================================
+[2025-11-24 03:22:56] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:22:56] 📨 Método: POST
+[2025-11-24 03:22:56] ✅ Método HTTP válido
+[2025-11-24 03:22:56] 📥 Leyendo datos...
+[2025-11-24 03:22:56] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:22:56] 📥 Parseando como JSON...
+[2025-11-24 03:22:56] ✅ Datos recibidos: {"id":21,"NOMBRE_USER":"diego.suarez","CORREO":"fercho0989@hotmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TELEFONO":"30021324","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"213131233424","FECHA_NACIMIENTO":"2025-11-03","CONTACTO_EMERGENCIA_NOMBRE":"ytergtesr","CONTACTO_EMERGENCIA_TELEFONO":"75746","DIRECCION":"Cra 5a #35-a47","FECHA_CONTRATACION":"2025-11-06","ID_POSICION":20,"ID_DEPARTAMENTO":7,"SALARIO":324343344}
+[2025-11-24 03:22:56] 🔍 Actualizando usuario ID: 21
+[2025-11-24 03:22:56] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:22:56] ✅ Permisos verificados
+[2025-11-24 03:22:56]    ✏️ CORREO
+[2025-11-24 03:22:56]    ✏️ TELEFONO
+[2025-11-24 03:22:56]    ✏️ DIRECCION
+[2025-11-24 03:22:56]    ✏️ FECHA_NACIMIENTO
+[2025-11-24 03:22:56]    ✏️ TIPO_IDENTIFICACION
+[2025-11-24 03:22:56]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-24 03:22:56]    ✏️ CONTACTO_EMERGENCIA_NOMBRE
+[2025-11-24 03:22:56]    ✏️ CONTACTO_EMERGENCIA_TELEFONO
+[2025-11-24 03:22:56]    ✏️ TIPO_ROL (admin)
+[2025-11-24 03:22:56]    ✏️ ESTADO_USER (admin)
+[2025-11-24 03:22:56]    ✏️ FECHA_CONTRATACION (admin)
+[2025-11-24 03:22:56]    ✏️ ID_POSICION (admin) - int
+[2025-11-24 03:22:56]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-24 03:22:56]    ✏️ SALARIO (admin) - decimal
+[2025-11-24 03:22:56] ✅ Campos a actualizar: 15
+[2025-11-24 03:22:56] 📝 Ejecutando UPDATE...
+[2025-11-24 03:22:56] 📝 SQL: UPDATE usuarios SET CORREO = ?, TELEFONO = ?, DIRECCION = ?, FECHA_NACIMIENTO = ?, TIPO_IDENTIFICACION = ?, NUMERO_IDENTIFICACION = ?, CONTACTO_EMERGENCIA_NOMBRE = ?, CONTACTO_EMERGENCIA_TELEFONO = ?, TIPO_ROL = ?, ESTADO_USER = ?, FECHA_CONTRATACION = ?, ID_POSICION = ?, ID_DEPARTAMENTO = ?, SALARIO = ?, USUARIO_ACTUALIZACION = ? WHERE id = ?
+[2025-11-24 03:22:56] 📝 Tipos: sssssssssssiidii | Total parámetros: 16
+[2025-11-24 03:22:56] ✅ Usuario actualizado exitosamente
+[2025-11-24 03:26:02] ========================================
+[2025-11-24 03:26:02] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:26:02] ========================================
+[2025-11-24 03:26:02] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:26:02] 📨 Método: POST
+[2025-11-24 03:26:02] ✅ Método HTTP válido
+[2025-11-24 03:26:02] 📥 Leyendo datos...
+[2025-11-24 03:26:02] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:26:02] 📥 Parseando como JSON...
+[2025-11-24 03:26:02] ✅ Datos recibidos: {"id":21,"NOMBRE_USER":"diego.suarez","CORREO":"fercho0989@hotmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TELEFONO":"30021324","TIPO_IDENTIFICACION":"Cedula","NUMERO_IDENTIFICACION":"213131233424","FECHA_NACIMIENTO":"2025-11-03","CONTACTO_EMERGENCIA_NOMBRE":"ytergtesr","CONTACTO_EMERGENCIA_TELEFONO":"75746","DIRECCION":"Cra 5a #35-a47","FECHA_CONTRATACION":"2025-11-06","ID_POSICION":20,"ID_DEPARTAMENTO":7,"SALARIO":324343344}
+[2025-11-24 03:26:02] 🔍 Actualizando usuario ID: 21
+[2025-11-24 03:26:02] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:26:02] ✅ Permisos verificados
+[2025-11-24 03:26:02]    ✏️ CORREO
+[2025-11-24 03:26:02]    ✏️ TELEFONO
+[2025-11-24 03:26:02]    ✏️ DIRECCION
+[2025-11-24 03:26:02]    ✏️ FECHA_NACIMIENTO
+[2025-11-24 03:26:02]    ✏️ TIPO_IDENTIFICACION
+[2025-11-24 03:26:02]    ✏️ NUMERO_IDENTIFICACION
+[2025-11-24 03:26:02]    ✏️ CONTACTO_EMERGENCIA_NOMBRE
+[2025-11-24 03:26:02]    ✏️ CONTACTO_EMERGENCIA_TELEFONO
+[2025-11-24 03:26:02]    ✏️ TIPO_ROL (admin)
+[2025-11-24 03:26:02]    ✏️ ESTADO_USER (admin)
+[2025-11-24 03:26:02]    ✏️ FECHA_CONTRATACION (admin)
+[2025-11-24 03:26:02]    ✏️ ID_POSICION (admin) - int
+[2025-11-24 03:26:02]    ✏️ ID_DEPARTAMENTO (admin) - int
+[2025-11-24 03:26:02]    ✏️ SALARIO (admin) - decimal
+[2025-11-24 03:26:02] ✅ Campos a actualizar: 15
+[2025-11-24 03:26:02] 📝 Ejecutando UPDATE...
+[2025-11-24 03:26:02] 📝 SQL: UPDATE usuarios SET CORREO = ?, TELEFONO = ?, DIRECCION = ?, FECHA_NACIMIENTO = ?, TIPO_IDENTIFICACION = ?, NUMERO_IDENTIFICACION = ?, CONTACTO_EMERGENCIA_NOMBRE = ?, CONTACTO_EMERGENCIA_TELEFONO = ?, TIPO_ROL = ?, ESTADO_USER = ?, FECHA_CONTRATACION = ?, ID_POSICION = ?, ID_DEPARTAMENTO = ?, SALARIO = ?, USUARIO_ACTUALIZACION = ? WHERE id = ?
+[2025-11-24 03:26:02] 📝 Tipos: sssssssssssiidii | Total parámetros: 16
+[2025-11-24 03:26:02] ✅ Usuario actualizado exitosamente
+[2025-11-24 03:35:07] ========================================
+[2025-11-24 03:35:07] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:35:07] ========================================
+[2025-11-24 03:35:07] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:35:07] 📨 Método: POST
+[2025-11-24 03:35:07] ✅ Método HTTP válido
+[2025-11-24 03:35:07] 📥 Leyendo datos...
+[2025-11-24 03:35:07] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:35:07] 📥 Parseando como JSON...
+[2025-11-24 03:35:07] ✅ Datos recibidos: {"id":24,"ESTADO_USER":"inactivo"}
+[2025-11-24 03:35:07] 🔍 Actualizando usuario ID: 24
+[2025-11-24 03:35:07] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:35:07] ✅ Permisos verificados
+[2025-11-24 03:35:07]    ✏️ ESTADO_USER (admin)
+[2025-11-24 03:35:07] ✅ Campos a actualizar: 2
+[2025-11-24 03:35:07] 📝 Ejecutando UPDATE...
+[2025-11-24 03:35:07] 📝 SQL: UPDATE usuarios SET ESTADO_USER = ?, USUARIO_ACTUALIZACION = ? WHERE id = ?
+[2025-11-24 03:35:07] 📝 Tipos: sii | Total parámetros: 3
+[2025-11-24 03:35:07] ✅ Usuario actualizado exitosamente
+[2025-11-24 03:35:08] ========================================
+[2025-11-24 03:35:08] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:35:08] ========================================
+[2025-11-24 03:35:08] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:35:08] 📨 Método: POST
+[2025-11-24 03:35:08] ✅ Método HTTP válido
+[2025-11-24 03:35:08] 📥 Leyendo datos...
+[2025-11-24 03:35:08] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:35:08] 📥 Parseando como JSON...
+[2025-11-24 03:35:08] ✅ Datos recibidos: {"id":24,"ESTADO_USER":"activo"}
+[2025-11-24 03:35:08] 🔍 Actualizando usuario ID: 24
+[2025-11-24 03:35:08] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:35:08] ✅ Permisos verificados
+[2025-11-24 03:35:08]    ✏️ ESTADO_USER (admin)
+[2025-11-24 03:35:08] ✅ Campos a actualizar: 2
+[2025-11-24 03:35:08] 📝 Ejecutando UPDATE...
+[2025-11-24 03:35:08] 📝 SQL: UPDATE usuarios SET ESTADO_USER = ?, USUARIO_ACTUALIZACION = ? WHERE id = ?
+[2025-11-24 03:35:08] 📝 Tipos: sii | Total parámetros: 3
+[2025-11-24 03:35:08] ✅ Usuario actualizado exitosamente
+[2025-11-24 03:35:08] ========================================
+[2025-11-24 03:35:08] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:35:08] ========================================
+[2025-11-24 03:35:08] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:35:08] 📨 Método: POST
+[2025-11-24 03:35:08] ✅ Método HTTP válido
+[2025-11-24 03:35:08] 📥 Leyendo datos...
+[2025-11-24 03:35:08] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:35:08] 📥 Parseando como JSON...
+[2025-11-24 03:35:08] ✅ Datos recibidos: {"id":24,"ESTADO_USER":"inactivo"}
+[2025-11-24 03:35:08] 🔍 Actualizando usuario ID: 24
+[2025-11-24 03:35:08] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:35:08] ✅ Permisos verificados
+[2025-11-24 03:35:08]    ✏️ ESTADO_USER (admin)
+[2025-11-24 03:35:08] ✅ Campos a actualizar: 2
+[2025-11-24 03:35:08] 📝 Ejecutando UPDATE...
+[2025-11-24 03:35:08] 📝 SQL: UPDATE usuarios SET ESTADO_USER = ?, USUARIO_ACTUALIZACION = ? WHERE id = ?
+[2025-11-24 03:35:08] 📝 Tipos: sii | Total parámetros: 3
+[2025-11-24 03:35:08] ✅ Usuario actualizado exitosamente
+[2025-11-24 03:35:53] ========================================
+[2025-11-24 03:35:53] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:35:53] ========================================
+[2025-11-24 03:35:53] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:35:53] 📨 Método: POST
+[2025-11-24 03:35:53] ✅ Método HTTP válido
+[2025-11-24 03:35:53] 📥 Leyendo datos...
+[2025-11-24 03:35:53] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:35:53] 📥 Parseando como JSON...
+[2025-11-24 03:35:53] ✅ Datos recibidos: {"id":24,"ESTADO_USER":"activo"}
+[2025-11-24 03:35:53] 🔍 Actualizando usuario ID: 24
+[2025-11-24 03:35:53] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:35:53] ✅ Permisos verificados
+[2025-11-24 03:35:53]    ✏️ ESTADO_USER (admin)
+[2025-11-24 03:35:53] ✅ Campos a actualizar: 2
+[2025-11-24 03:35:53] 📝 Ejecutando UPDATE...
+[2025-11-24 03:35:53] 📝 SQL: UPDATE usuarios SET ESTADO_USER = ?, USUARIO_ACTUALIZACION = ? WHERE id = ?
+[2025-11-24 03:35:53] 📝 Tipos: sii | Total parámetros: 3
+[2025-11-24 03:35:53] ✅ Usuario actualizado exitosamente
+[2025-11-24 03:38:00] ========================================
+[2025-11-24 03:38:00] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:38:00] ========================================
+[2025-11-24 03:38:00] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:38:00] 📨 Método: POST
+[2025-11-24 03:38:00] ✅ Método HTTP válido
+[2025-11-24 03:38:00] 📥 Leyendo datos...
+[2025-11-24 03:38:00] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:38:00] 📥 Parseando como JSON...
+[2025-11-24 03:38:00] ✅ Datos recibidos: {"id":24,"TIPO_ROL":"administrador"}
+[2025-11-24 03:38:00] 🔍 Actualizando usuario ID: 24
+[2025-11-24 03:38:00] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:38:00] ✅ Permisos verificados
+[2025-11-24 03:38:00]    ✏️ TIPO_ROL (admin)
+[2025-11-24 03:38:00] ✅ Campos a actualizar: 2
+[2025-11-24 03:38:00] 📝 Ejecutando UPDATE...
+[2025-11-24 03:38:00] 📝 SQL: UPDATE usuarios SET TIPO_ROL = ?, USUARIO_ACTUALIZACION = ? WHERE id = ?
+[2025-11-24 03:38:00] 📝 Tipos: sii | Total parámetros: 3
+[2025-11-24 03:38:00] ✅ Usuario actualizado exitosamente
+[2025-11-24 03:40:43] ========================================
+[2025-11-24 03:40:43] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:40:43] ========================================
+[2025-11-24 03:40:43] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:40:43] 📨 Método: POST
+[2025-11-24 03:40:43] ✅ Método HTTP válido
+[2025-11-24 03:40:43] 📥 Leyendo datos...
+[2025-11-24 03:40:43] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:40:43] 📥 Parseando como JSON...
+[2025-11-24 03:40:43] ✅ Datos recibidos: {"id":15,"NOMBRE_USER":"Prueba2","CORREO":"marcos0610@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula"}
+[2025-11-24 03:40:43] 🔍 Actualizando usuario ID: 15
+[2025-11-24 03:40:43] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:40:43] ✅ Permisos verificados
+[2025-11-24 03:40:43] 🔴 Exception: El correo ya está en uso
+[2025-11-24 03:40:52] ========================================
+[2025-11-24 03:40:52] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 03:40:52] ========================================
+[2025-11-24 03:40:52] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:40:52] 📨 Método: POST
+[2025-11-24 03:40:52] ✅ Método HTTP válido
+[2025-11-24 03:40:52] 📥 Leyendo datos...
+[2025-11-24 03:40:52] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:40:52] 📥 Parseando como JSON...
+[2025-11-24 03:40:52] ✅ Datos recibidos: {"id":15,"NOMBRE_USER":"Prueba2","CORREO":"prueba@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula"}
+[2025-11-24 03:40:52] 🔍 Actualizando usuario ID: 15
+[2025-11-24 03:40:52] 🔐 ¿Es admin?: SÍ
+[2025-11-24 03:40:52] ✅ Permisos verificados
+[2025-11-24 03:40:52]    ✏️ CORREO
+[2025-11-24 03:40:52]    ✏️ TIPO_IDENTIFICACION
+[2025-11-24 03:40:52]    ✏️ TIPO_ROL (admin)
+[2025-11-24 03:40:52]    ✏️ ESTADO_USER (admin)
+[2025-11-24 03:40:52] ✅ Campos a actualizar: 5
+[2025-11-24 03:40:52] 📝 Ejecutando UPDATE...
+[2025-11-24 03:40:52] 📝 SQL: UPDATE usuarios SET CORREO = ?, TIPO_IDENTIFICACION = ?, TIPO_ROL = ?, ESTADO_USER = ?, USUARIO_ACTUALIZACION = ? WHERE id = ?
+[2025-11-24 03:40:52] 📝 Tipos: ssssii | Total parámetros: 6
+[2025-11-24 03:40:52] ✅ Usuario actualizado exitosamente
+[2025-11-24 12:02:21] ========================================
+[2025-11-24 12:02:21] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 12:02:21] ========================================
+[2025-11-24 12:02:21] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 12:02:21] 📨 Método: POST
+[2025-11-24 12:02:21] ✅ Método HTTP válido
+[2025-11-24 12:02:21] 📥 Leyendo datos...
+[2025-11-24 12:02:21] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 12:02:21] 📥 Parseando como JSON...
+[2025-11-24 12:02:21] ✅ Datos recibidos: {"id":26,"ESTADO_USER":"inactivo"}
+[2025-11-24 12:02:21] 🔍 Actualizando usuario ID: 26
+[2025-11-24 12:02:21] 🔐 ¿Es admin?: SÍ
+[2025-11-24 12:02:21] ✅ Permisos verificados
+[2025-11-24 12:02:21]    ✏️ ESTADO_USER (admin)
+[2025-11-24 12:02:21] ✅ Campos a actualizar: 2
+[2025-11-24 12:02:21] 📝 Ejecutando UPDATE...
+[2025-11-24 12:02:21] 📝 SQL: UPDATE usuarios SET ESTADO_USER = ?, USUARIO_ACTUALIZACION = ? WHERE id = ?
+[2025-11-24 12:02:21] 📝 Tipos: sii | Total parámetros: 3
+[2025-11-24 12:02:21] ✅ Usuario actualizado exitosamente
+[2025-11-24 12:03:14] ========================================
+[2025-11-24 12:03:14] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 12:03:14] ========================================
+[2025-11-24 12:03:14] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 12:03:14] 📨 Método: POST
+[2025-11-24 12:03:14] ✅ Método HTTP válido
+[2025-11-24 12:03:14] 📥 Leyendo datos...
+[2025-11-24 12:03:14] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 12:03:14] 📥 Parseando como JSON...
+[2025-11-24 12:03:14] ✅ Datos recibidos: {"id":26,"ESTADO_USER":"activo"}
+[2025-11-24 12:03:14] 🔍 Actualizando usuario ID: 26
+[2025-11-24 12:03:14] 🔐 ¿Es admin?: SÍ
+[2025-11-24 12:03:14] ✅ Permisos verificados
+[2025-11-24 12:03:14]    ✏️ ESTADO_USER (admin)
+[2025-11-24 12:03:14] ✅ Campos a actualizar: 2
+[2025-11-24 12:03:14] 📝 Ejecutando UPDATE...
+[2025-11-24 12:03:14] 📝 SQL: UPDATE usuarios SET ESTADO_USER = ?, USUARIO_ACTUALIZACION = ? WHERE id = ?
+[2025-11-24 12:03:14] 📝 Tipos: sii | Total parámetros: 3
+[2025-11-24 12:03:14] ✅ Usuario actualizado exitosamente
+[2025-11-24 12:03:25] ========================================
+[2025-11-24 12:03:25] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 12:03:25] ========================================
+[2025-11-24 12:03:25] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 12:03:25] 📨 Método: POST
+[2025-11-24 12:03:25] ✅ Método HTTP válido
+[2025-11-24 12:03:25] 📥 Leyendo datos...
+[2025-11-24 12:03:25] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 12:03:25] 📥 Parseando como JSON...
+[2025-11-24 12:03:25] ✅ Datos recibidos: {"id":26,"TIPO_ROL":"administrador"}
+[2025-11-24 12:03:25] 🔍 Actualizando usuario ID: 26
+[2025-11-24 12:03:25] 🔐 ¿Es admin?: SÍ
+[2025-11-24 12:03:25] ✅ Permisos verificados
+[2025-11-24 12:03:25]    ✏️ TIPO_ROL (admin)
+[2025-11-24 12:03:25] ✅ Campos a actualizar: 2
+[2025-11-24 12:03:25] 📝 Ejecutando UPDATE...
+[2025-11-24 12:03:25] 📝 SQL: UPDATE usuarios SET TIPO_ROL = ?, USUARIO_ACTUALIZACION = ? WHERE id = ?
+[2025-11-24 12:03:25] 📝 Tipos: sii | Total parámetros: 3
+[2025-11-24 12:03:25] ✅ Usuario actualizado exitosamente
+[2025-11-24 12:22:30] ========================================
+[2025-11-24 12:22:30] 🆕 NUEVA REQUEST - ACTUALIZAR USUARIO
+[2025-11-24 12:22:30] ========================================
+[2025-11-24 12:22:30] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 12:22:30] 📨 Método: POST
+[2025-11-24 12:22:30] ✅ Método HTTP válido
+[2025-11-24 12:22:30] 📥 Leyendo datos...
+[2025-11-24 12:22:30] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 12:22:30] 📥 Parseando como JSON...
+[2025-11-24 12:22:30] ✅ Datos recibidos: {"id":26,"NOMBRE_USER":"prueba5","CORREO":"p4@gmail.com","TIPO_ROL":"administrador","ESTADO_USER":"activo","TIPO_IDENTIFICACION":"Cedula"}
+[2025-11-24 12:22:30] 🔍 Actualizando usuario ID: 26
+[2025-11-24 12:22:30] 🔐 ¿Es admin?: SÍ
+[2025-11-24 12:22:30] ✅ Permisos verificados
+[2025-11-24 12:22:30]    ✏️ CORREO
+[2025-11-24 12:22:30]    ✏️ TIPO_IDENTIFICACION
+[2025-11-24 12:22:30]    ✏️ TIPO_ROL (admin)
+[2025-11-24 12:22:30]    ✏️ ESTADO_USER (admin)
+[2025-11-24 12:22:30] ✅ Campos a actualizar: 5
+[2025-11-24 12:22:30] 📝 Ejecutando UPDATE...
+[2025-11-24 12:22:30] 📝 SQL: UPDATE usuarios SET CORREO = ?, TIPO_IDENTIFICACION = ?, TIPO_ROL = ?, ESTADO_USER = ?, USUARIO_ACTUALIZACION = ? WHERE id = ?
+[2025-11-24 12:22:30] 📝 Tipos: ssssii | Total parámetros: 6
+[2025-11-24 12:22:30] ✅ Usuario actualizado exitosamente

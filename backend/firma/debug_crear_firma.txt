@@ -1,0 +1,1609 @@
+[2025-10-05 23:35:38][MEM: 0.38MB] ========================================
+[2025-10-05 23:35:38][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2025-10-05 23:35:38][MEM: 0.38MB] ========================================
+[2025-10-05 23:35:38][MEM: 0.38MB] IP: 186.98.209.199
+[2025-10-05 23:35:38][MEM: 0.38MB] Método: POST
+[2025-10-05 23:35:38][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-10-05 23:35:38][MEM: 0.38MB] auth_middleware cargado
+[2025-10-05 23:35:38][MEM: 0.38MB] Usuario autenticado: die (ID: 12)
+[2025-10-05 23:35:38][MEM: 0.38MB] Acceso registrado
+[2025-10-05 23:35:38][MEM: 0.38MB] Requiriendo conexión...
+[2025-10-05 23:35:38][MEM: 0.42MB] conexion.php cargado
+[2025-10-05 23:35:38][MEM: 0.43MB] Raw input length: 6147
+[2025-10-05 23:35:38][MEM: 0.44MB] JSON decodificado correctamente
+[2025-10-05 23:35:38][MEM: 0.44MB] Variables extraídas:
+[2025-10-05 23:35:38][MEM: 0.44MB]    id_servicio: 130
+[2025-10-05 23:35:38][MEM: 0.44MB]    id_staff_entrega: 3
+[2025-10-05 23:35:38][MEM: 0.44MB]    id_funcionario_recibe: 17
+[2025-10-05 23:35:38][MEM: 0.44MB]    firma_staff_base64 length: 2574
+[2025-10-05 23:35:38][MEM: 0.44MB]    firma_funcionario_base64 length: 3358
+[2025-10-05 23:35:38][MEM: 0.44MB]    nota_entrega: Prueba 1
+[2025-10-05 23:35:38][MEM: 0.44MB]    nota_recepcion: prueba 2
+[2025-10-05 23:35:38][MEM: 0.44MB] Validación de campos obligatorios OK
+[2025-10-05 23:35:38][MEM: 0.44MB] Validando servicio ID: 130
+[2025-10-05 23:35:38][MEM: 0.47MB] Servicio encontrado - o_servicio: 1114
+[2025-10-05 23:35:38][MEM: 0.47MB] Validando staff ID: 3
+[2025-10-05 23:35:38][MEM: 0.47MB] Staff encontrado: Carlos Sebastián Martínez Ruiz
+[2025-10-05 23:35:38][MEM: 0.47MB] Validando funcionario ID: 17
+[2025-10-05 23:35:38][MEM: 0.47MB] Funcionario encontrado: diego pruebas
+[2025-10-05 23:35:38][MEM: 0.47MB] Verificando firmas existentes para servicio: 130
+[2025-10-05 23:35:38][MEM: 0.47MB] No hay firmas previas para este servicio
+[2025-10-05 23:35:38][MEM: 0.47MB] SQL preparado
+[2025-10-05 23:35:38][MEM: 0.47MB] Preparando statement...
+[2025-10-05 23:35:38][MEM: 0.46MB] Statement preparado correctamente
+[2025-10-05 23:35:38][MEM: 0.46MB] Binding params con tipo: iiisssss (8 params)
+[2025-10-05 23:35:38][MEM: 0.46MB] Parámetros a bindear:
+[2025-10-05 23:35:38][MEM: 0.46MB]    1. id_servicio (i): 130
+[2025-10-05 23:35:38][MEM: 0.46MB]    2. id_staff_entrega (i): 3
+[2025-10-05 23:35:38][MEM: 0.46MB]    3. id_funcionario_recibe (i): 17
+[2025-10-05 23:35:38][MEM: 0.46MB]    4. firma_staff_base64 (s): 2574 chars
+[2025-10-05 23:35:38][MEM: 0.46MB]    5. firma_funcionario_base64 (s): 3358 chars
+[2025-10-05 23:35:38][MEM: 0.46MB]    6. nota_entrega (s): Prueba 1
+[2025-10-05 23:35:38][MEM: 0.46MB]    7. nota_recepcion (s): prueba 2
+[2025-10-05 23:35:38][MEM: 0.46MB]    8. participantes_servicio (s): NULL
+[2025-10-05 23:35:38][MEM: 0.46MB] bind_param resultado: TRUE
+[2025-10-05 23:35:38][MEM: 0.46MB] Bind exitoso
+[2025-10-05 23:35:38][MEM: 0.46MB] Ejecutando INSERT...
+[2025-10-05 23:35:38][MEM: 0.46MB] INSERT EXITOSO!
+[2025-10-05 23:35:38][MEM: 0.46MB] Firma creada con ID: 1
+[2025-10-05 23:35:38][MEM: 0.46MB] Preparando respuesta JSON...
+[2025-10-05 23:35:38][MEM: 0.46MB] Respuesta preparada (size: 340 bytes)
+[2025-10-05 23:35:38][MEM: 0.46MB] Enviando respuesta JSON...
+[2025-10-05 23:46:44][MEM: 0.37MB] ========================================
+[2025-10-05 23:46:44][MEM: 0.37MB] NUEVA REQUEST CREAR FIRMA
+[2025-10-05 23:46:44][MEM: 0.37MB] ========================================
+[2025-10-05 23:46:44][MEM: 0.37MB] IP: 186.98.209.199
+[2025-10-05 23:46:44][MEM: 0.37MB] Método: POST
+[2025-10-05 23:46:44][MEM: 0.37MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-10-05 23:46:44][MEM: 0.37MB] auth_middleware cargado
+[2025-10-05 23:46:44][MEM: 0.38MB] Usuario autenticado: die (ID: 12)
+[2025-10-05 23:46:44][MEM: 0.38MB] Acceso registrado
+[2025-10-05 23:46:44][MEM: 0.38MB] Requiriendo conexión...
+[2025-10-05 23:46:44][MEM: 0.42MB] conexion.php cargado
+[2025-10-05 23:46:44][MEM: 0.42MB] Raw input length: 3708
+[2025-10-05 23:46:44][MEM: 0.42MB] JSON decodificado correctamente
+[2025-10-05 23:46:44][MEM: 0.42MB] Variables extraídas:
+[2025-10-05 23:46:44][MEM: 0.42MB]    id_servicio: 128
+[2025-10-05 23:46:44][MEM: 0.42MB]    id_staff_entrega: 16
+[2025-10-05 23:46:44][MEM: 0.42MB]    id_funcionario_recibe: 15
+[2025-10-05 23:46:44][MEM: 0.42MB]    firma_staff_base64 length: 1818
+[2025-10-05 23:46:44][MEM: 0.42MB]    firma_funcionario_base64 length: 1686
+[2025-10-05 23:46:44][MEM: 0.42MB]    nota_entrega: NULL
+[2025-10-05 23:46:44][MEM: 0.42MB]    nota_recepcion: NULL
+[2025-10-05 23:46:44][MEM: 0.42MB] Validación de campos obligatorios OK
+[2025-10-05 23:46:44][MEM: 0.42MB] Validando servicio ID: 128
+[2025-10-05 23:46:44][MEM: 0.46MB] Servicio encontrado - o_servicio: 1112
+[2025-10-05 23:46:44][MEM: 0.46MB] Validando staff ID: 16
+[2025-10-05 23:46:44][MEM: 0.46MB] Staff encontrado: diego suarez
+[2025-10-05 23:46:44][MEM: 0.46MB] Validando funcionario ID: 15
+[2025-10-05 23:46:44][MEM: 0.46MB] Funcionario encontrado: ANDRES PRUEBAS
+[2025-10-05 23:46:44][MEM: 0.46MB] Verificando firmas existentes para servicio: 128
+[2025-10-05 23:46:44][MEM: 0.46MB] No hay firmas previas para este servicio
+[2025-10-05 23:46:44][MEM: 0.46MB] SQL preparado
+[2025-10-05 23:46:44][MEM: 0.46MB] Preparando statement...
+[2025-10-05 23:46:44][MEM: 0.45MB] Statement preparado correctamente
+[2025-10-05 23:46:44][MEM: 0.45MB] Binding params con tipo: iiisssss (8 params)
+[2025-10-05 23:46:44][MEM: 0.45MB] Parámetros a bindear:
+[2025-10-05 23:46:44][MEM: 0.45MB]    1. id_servicio (i): 128
+[2025-10-05 23:46:44][MEM: 0.45MB]    2. id_staff_entrega (i): 16
+[2025-10-05 23:46:44][MEM: 0.45MB]    3. id_funcionario_recibe (i): 15
+[2025-10-05 23:46:44][MEM: 0.45MB]    4. firma_staff_base64 (s): 1818 chars
+[2025-10-05 23:46:44][MEM: 0.45MB]    5. firma_funcionario_base64 (s): 1686 chars
+[2025-10-05 23:46:44][MEM: 0.45MB]    6. nota_entrega (s): NULL
+[2025-10-05 23:46:44][MEM: 0.45MB]    7. nota_recepcion (s): NULL
+[2025-10-05 23:46:44][MEM: 0.45MB]    8. participantes_servicio (s): NULL
+[2025-10-05 23:46:44][MEM: 0.45MB] bind_param resultado: TRUE
+[2025-10-05 23:46:44][MEM: 0.45MB] Bind exitoso
+[2025-10-05 23:46:44][MEM: 0.45MB] Ejecutando INSERT...
+[2025-10-05 23:46:44][MEM: 0.45MB] INSERT EXITOSO!
+[2025-10-05 23:46:44][MEM: 0.45MB] Firma creada con ID: 2
+[2025-10-05 23:46:44][MEM: 0.45MB] Preparando respuesta JSON...
+[2025-10-05 23:46:44][MEM: 0.45MB] Respuesta preparada (size: 302 bytes)
+[2025-10-05 23:46:44][MEM: 0.45MB] Enviando respuesta JSON...
+[2025-10-05 23:56:19][MEM: 0.37MB] ========================================
+[2025-10-05 23:56:19][MEM: 0.37MB] NUEVA REQUEST CREAR FIRMA
+[2025-10-05 23:56:19][MEM: 0.37MB] ========================================
+[2025-10-05 23:56:19][MEM: 0.37MB] IP: 186.98.209.199
+[2025-10-05 23:56:19][MEM: 0.37MB] Método: POST
+[2025-10-05 23:56:19][MEM: 0.37MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-10-05 23:56:19][MEM: 0.37MB] auth_middleware cargado
+[2025-10-05 23:56:19][MEM: 0.38MB] Usuario autenticado: die (ID: 12)
+[2025-10-05 23:56:19][MEM: 0.38MB] Acceso registrado
+[2025-10-05 23:56:19][MEM: 0.38MB] Requiriendo conexión...
+[2025-10-05 23:56:19][MEM: 0.42MB] conexion.php cargado
+[2025-10-05 23:56:19][MEM: 0.42MB] Raw input length: 3960
+[2025-10-05 23:56:19][MEM: 0.42MB] JSON decodificado correctamente
+[2025-10-05 23:56:19][MEM: 0.42MB] Variables extraídas:
+[2025-10-05 23:56:19][MEM: 0.42MB]    id_servicio: 128
+[2025-10-05 23:56:19][MEM: 0.42MB]    id_staff_entrega: 23
+[2025-10-05 23:56:19][MEM: 0.42MB]    id_funcionario_recibe: 15
+[2025-10-05 23:56:19][MEM: 0.42MB]    firma_staff_base64 length: 1786
+[2025-10-05 23:56:19][MEM: 0.42MB]    firma_funcionario_base64 length: 1970
+[2025-10-05 23:56:19][MEM: 0.42MB]    nota_entrega: NULL
+[2025-10-05 23:56:19][MEM: 0.42MB]    nota_recepcion: NULL
+[2025-10-05 23:56:19][MEM: 0.42MB] Validación de campos obligatorios OK
+[2025-10-05 23:56:19][MEM: 0.42MB] Validando servicio ID: 128
+[2025-10-05 23:56:19][MEM: 0.46MB] Servicio encontrado - o_servicio: 1112
+[2025-10-05 23:56:19][MEM: 0.46MB] Validando staff ID: 23
+[2025-10-05 23:56:19][MEM: 0.46MB] Staff encontrado: Alexa Altamar
+[2025-10-05 23:56:19][MEM: 0.46MB] Validando funcionario ID: 15
+[2025-10-05 23:56:19][MEM: 0.46MB] Funcionario encontrado: ANDRES PRUEBAS
+[2025-10-05 23:56:19][MEM: 0.46MB] Verificando firmas existentes para servicio: 128
+[2025-10-05 23:56:19][MEM: 0.46MB] Ya existe una firma para este servicio (ID: 2)
+[2025-10-05 23:58:31][MEM: 0.36MB] ========================================
+[2025-10-05 23:58:31][MEM: 0.36MB] NUEVA REQUEST CREAR FIRMA
+[2025-10-05 23:58:31][MEM: 0.36MB] ========================================
+[2025-10-05 23:58:31][MEM: 0.36MB] IP: 186.98.209.199
+[2025-10-05 23:58:31][MEM: 0.36MB] Método: POST
+[2025-10-05 23:58:31][MEM: 0.36MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-10-05 23:58:31][MEM: 0.36MB] auth_middleware cargado
+[2025-10-05 23:58:31][MEM: 0.36MB] Usuario autenticado: die (ID: 12)
+[2025-10-05 23:58:31][MEM: 0.36MB] Acceso registrado
+[2025-10-05 23:58:31][MEM: 0.36MB] Requiriendo conexión...
+[2025-10-05 23:58:31][MEM: 0.4MB] conexion.php cargado
+[2025-10-05 23:58:31][MEM: 0.4MB] Raw input length: 2824
+[2025-10-05 23:58:31][MEM: 0.4MB] JSON decodificado correctamente
+[2025-10-05 23:58:31][MEM: 0.4MB] Variables extraídas:
+[2025-10-05 23:58:31][MEM: 0.4MB]    id_servicio: 113
+[2025-10-05 23:58:31][MEM: 0.4MB]    id_staff_entrega: 17
+[2025-10-05 23:58:31][MEM: 0.4MB]    id_funcionario_recibe: 17
+[2025-10-05 23:58:31][MEM: 0.4MB]    firma_staff_base64 length: 1222
+[2025-10-05 23:58:31][MEM: 0.4MB]    firma_funcionario_base64 length: 1398
+[2025-10-05 23:58:31][MEM: 0.4MB]    nota_entrega: NULL
+[2025-10-05 23:58:31][MEM: 0.4MB]    nota_recepcion: NULL
+[2025-10-05 23:58:31][MEM: 0.4MB] Validación de campos obligatorios OK
+[2025-10-05 23:58:31][MEM: 0.4MB] Validando servicio ID: 113
+[2025-10-05 23:58:31][MEM: 0.44MB] Servicio encontrado - o_servicio: 1097
+[2025-10-05 23:58:31][MEM: 0.44MB] Validando staff ID: 17
+[2025-10-05 23:58:31][MEM: 0.44MB] Staff encontrado: alexa altamar
+[2025-10-05 23:58:31][MEM: 0.44MB] Validando funcionario ID: 17
+[2025-10-05 23:58:31][MEM: 0.44MB] Funcionario encontrado: diego pruebas
+[2025-10-05 23:58:31][MEM: 0.44MB] Verificando firmas existentes para servicio: 113
+[2025-10-05 23:58:31][MEM: 0.44MB] No hay firmas previas para este servicio
+[2025-10-05 23:58:31][MEM: 0.44MB] SQL preparado
+[2025-10-05 23:58:31][MEM: 0.44MB] Preparando statement...
+[2025-10-05 23:58:31][MEM: 0.43MB] Statement preparado correctamente
+[2025-10-05 23:58:31][MEM: 0.43MB] Binding params con tipo: iiisssss (8 params)
+[2025-10-05 23:58:31][MEM: 0.43MB] Parámetros a bindear:
+[2025-10-05 23:58:31][MEM: 0.43MB]    1. id_servicio (i): 113
+[2025-10-05 23:58:31][MEM: 0.43MB]    2. id_staff_entrega (i): 17
+[2025-10-05 23:58:31][MEM: 0.43MB]    3. id_funcionario_recibe (i): 17
+[2025-10-05 23:58:31][MEM: 0.43MB]    4. firma_staff_base64 (s): 1222 chars
+[2025-10-05 23:58:31][MEM: 0.43MB]    5. firma_funcionario_base64 (s): 1398 chars
+[2025-10-05 23:58:31][MEM: 0.43MB]    6. nota_entrega (s): NULL
+[2025-10-05 23:58:31][MEM: 0.43MB]    7. nota_recepcion (s): NULL
+[2025-10-05 23:58:31][MEM: 0.43MB]    8. participantes_servicio (s): NULL
+[2025-10-05 23:58:31][MEM: 0.43MB] bind_param resultado: TRUE
+[2025-10-05 23:58:31][MEM: 0.43MB] Bind exitoso
+[2025-10-05 23:58:31][MEM: 0.43MB] Ejecutando INSERT...
+[2025-10-05 23:58:31][MEM: 0.43MB] INSERT EXITOSO!
+[2025-10-05 23:58:31][MEM: 0.43MB] Firma creada con ID: 3
+[2025-10-05 23:58:31][MEM: 0.43MB] Preparando respuesta JSON...
+[2025-10-05 23:58:31][MEM: 0.43MB] Respuesta preparada (size: 302 bytes)
+[2025-10-05 23:58:31][MEM: 0.43MB] Enviando respuesta JSON...
+[2025-10-06 01:21:39][MEM: 0.38MB] ========================================
+[2025-10-06 01:21:39][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2025-10-06 01:21:39][MEM: 0.38MB] ========================================
+[2025-10-06 01:21:39][MEM: 0.38MB] IP: 186.98.209.199
+[2025-10-06 01:21:39][MEM: 0.38MB] Método: POST
+[2025-10-06 01:21:39][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-10-06 01:21:39][MEM: 0.38MB] auth_middleware cargado
+[2025-10-06 01:21:39][MEM: 0.38MB] Usuario autenticado: die (ID: 12)
+[2025-10-06 01:21:39][MEM: 0.38MB] Acceso registrado
+[2025-10-06 01:21:39][MEM: 0.38MB] Requiriendo conexión...
+[2025-10-06 01:21:39][MEM: 0.42MB] conexion.php cargado
+[2025-10-06 01:21:39][MEM: 0.42MB] Raw input length: 3824
+[2025-10-06 01:21:39][MEM: 0.43MB] JSON decodificado correctamente
+[2025-10-06 01:21:39][MEM: 0.43MB] Variables extraídas:
+[2025-10-06 01:21:39][MEM: 0.43MB]    id_servicio: 132
+[2025-10-06 01:21:39][MEM: 0.43MB]    id_staff_entrega: 23
+[2025-10-06 01:21:39][MEM: 0.43MB]    id_funcionario_recibe: 15
+[2025-10-06 01:21:39][MEM: 0.43MB]    firma_staff_base64 length: 1486
+[2025-10-06 01:21:39][MEM: 0.43MB]    firma_funcionario_base64 length: 2134
+[2025-10-06 01:21:39][MEM: 0.43MB]    nota_entrega: NULL
+[2025-10-06 01:21:39][MEM: 0.43MB]    nota_recepcion: NULL
+[2025-10-06 01:21:39][MEM: 0.43MB] Validación de campos obligatorios OK
+[2025-10-06 01:21:39][MEM: 0.43MB] Validando servicio ID: 132
+[2025-10-06 01:21:39][MEM: 0.46MB] Servicio encontrado - o_servicio: 1116
+[2025-10-06 01:21:39][MEM: 0.46MB] Validando staff ID: 23
+[2025-10-06 01:21:39][MEM: 0.46MB] Staff encontrado: Alexa Altamar
+[2025-10-06 01:21:39][MEM: 0.46MB] Validando funcionario ID: 15
+[2025-10-06 01:21:39][MEM: 0.46MB] Funcionario encontrado: ANDRES PRUEBAS
+[2025-10-06 01:21:39][MEM: 0.46MB] Verificando firmas existentes para servicio: 132
+[2025-10-06 01:21:39][MEM: 0.46MB] No hay firmas previas para este servicio
+[2025-10-06 01:21:39][MEM: 0.46MB] SQL preparado
+[2025-10-06 01:21:39][MEM: 0.46MB] Preparando statement...
+[2025-10-06 01:21:39][MEM: 0.45MB] Statement preparado correctamente
+[2025-10-06 01:21:39][MEM: 0.45MB] Binding params con tipo: iiisssss (8 params)
+[2025-10-06 01:21:39][MEM: 0.45MB] Parámetros a bindear:
+[2025-10-06 01:21:39][MEM: 0.45MB]    1. id_servicio (i): 132
+[2025-10-06 01:21:39][MEM: 0.45MB]    2. id_staff_entrega (i): 23
+[2025-10-06 01:21:39][MEM: 0.45MB]    3. id_funcionario_recibe (i): 15
+[2025-10-06 01:21:39][MEM: 0.45MB]    4. firma_staff_base64 (s): 1486 chars
+[2025-10-06 01:21:39][MEM: 0.45MB]    5. firma_funcionario_base64 (s): 2134 chars
+[2025-10-06 01:21:39][MEM: 0.45MB]    6. nota_entrega (s): NULL
+[2025-10-06 01:21:39][MEM: 0.45MB]    7. nota_recepcion (s): NULL
+[2025-10-06 01:21:39][MEM: 0.45MB]    8. participantes_servicio (s): NULL
+[2025-10-06 01:21:39][MEM: 0.45MB] bind_param resultado: TRUE
+[2025-10-06 01:21:39][MEM: 0.45MB] Bind exitoso
+[2025-10-06 01:21:39][MEM: 0.45MB] Ejecutando INSERT...
+[2025-10-06 01:21:39][MEM: 0.45MB] INSERT EXITOSO!
+[2025-10-06 01:21:39][MEM: 0.45MB] Firma creada con ID: 4
+[2025-10-06 01:21:39][MEM: 0.45MB] Preparando respuesta JSON...
+[2025-10-06 01:21:39][MEM: 0.45MB] Respuesta preparada (size: 303 bytes)
+[2025-10-06 01:21:39][MEM: 0.45MB] Enviando respuesta JSON...
+[2025-10-06 02:21:06][MEM: 0.38MB] ========================================
+[2025-10-06 02:21:06][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2025-10-06 02:21:06][MEM: 0.38MB] ========================================
+[2025-10-06 02:21:06][MEM: 0.38MB] IP: 179.19.189.191
+[2025-10-06 02:21:06][MEM: 0.38MB] Método: POST
+[2025-10-06 02:21:06][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-10-06 02:21:06][MEM: 0.38MB] auth_middleware cargado
+[2025-10-06 02:21:06][MEM: 0.38MB] Usuario autenticado: die (ID: 12)
+[2025-10-06 02:21:06][MEM: 0.38MB] Acceso registrado
+[2025-10-06 02:21:06][MEM: 0.38MB] Requiriendo conexión...
+[2025-10-06 02:21:06][MEM: 0.42MB] conexion.php cargado
+[2025-10-06 02:21:06][MEM: 0.43MB] Raw input length: 4523
+[2025-10-06 02:21:06][MEM: 0.43MB] JSON decodificado correctamente
+[2025-10-06 02:21:06][MEM: 0.43MB] Variables extraídas:
+[2025-10-06 02:21:06][MEM: 0.43MB]    id_servicio: 131
+[2025-10-06 02:21:06][MEM: 0.43MB]    id_staff_entrega: 14
+[2025-10-06 02:21:06][MEM: 0.43MB]    id_funcionario_recibe: 8
+[2025-10-06 02:21:06][MEM: 0.43MB]    firma_staff_base64 length: 1998
+[2025-10-06 02:21:06][MEM: 0.43MB]    firma_funcionario_base64 length: 2278
+[2025-10-06 02:21:06][MEM: 0.43MB]    nota_entrega: prueba firma servicio 1115 tec
+[2025-10-06 02:21:06][MEM: 0.43MB]    nota_recepcion: firma ser 1115 fun
+[2025-10-06 02:21:06][MEM: 0.43MB] Validación de campos obligatorios OK
+[2025-10-06 02:21:06][MEM: 0.43MB] Validando servicio ID: 131
+[2025-10-06 02:21:06][MEM: 0.47MB] Servicio encontrado - o_servicio: 1115
+[2025-10-06 02:21:06][MEM: 0.47MB] Validando staff ID: 14
+[2025-10-06 02:21:06][MEM: 0.47MB] Staff encontrado: Santiago José Quintero Parra
+[2025-10-06 02:21:06][MEM: 0.47MB] Validando funcionario ID: 8
+[2025-10-06 02:21:06][MEM: 0.47MB] Funcionario encontrado: pepepe
+[2025-10-06 02:21:06][MEM: 0.47MB] Verificando firmas existentes para servicio: 131
+[2025-10-06 02:21:06][MEM: 0.47MB] No hay firmas previas para este servicio
+[2025-10-06 02:21:06][MEM: 0.47MB] SQL preparado
+[2025-10-06 02:21:06][MEM: 0.47MB] Preparando statement...
+[2025-10-06 02:21:07][MEM: 0.45MB] Statement preparado correctamente
+[2025-10-06 02:21:07][MEM: 0.45MB] Binding params con tipo: iiisssss (8 params)
+[2025-10-06 02:21:07][MEM: 0.45MB] Parámetros a bindear:
+[2025-10-06 02:21:07][MEM: 0.45MB]    1. id_servicio (i): 131
+[2025-10-06 02:21:07][MEM: 0.45MB]    2. id_staff_entrega (i): 14
+[2025-10-06 02:21:07][MEM: 0.45MB]    3. id_funcionario_recibe (i): 8
+[2025-10-06 02:21:07][MEM: 0.45MB]    4. firma_staff_base64 (s): 1998 chars
+[2025-10-06 02:21:07][MEM: 0.45MB]    5. firma_funcionario_base64 (s): 2278 chars
+[2025-10-06 02:21:07][MEM: 0.45MB]    6. nota_entrega (s): prueba firma servicio 1115 tec
+[2025-10-06 02:21:07][MEM: 0.45MB]    7. nota_recepcion (s): firma ser 1115 fun
+[2025-10-06 02:21:07][MEM: 0.45MB]    8. participantes_servicio (s): NULL
+[2025-10-06 02:21:07][MEM: 0.45MB] bind_param resultado: TRUE
+[2025-10-06 02:21:07][MEM: 0.45MB] Bind exitoso
+[2025-10-06 02:21:07][MEM: 0.45MB] Ejecutando INSERT...
+[2025-10-06 02:21:07][MEM: 0.45MB] INSERT EXITOSO!
+[2025-10-06 02:21:07][MEM: 0.45MB] Firma creada con ID: 5
+[2025-10-06 02:21:07][MEM: 0.45MB] Preparando respuesta JSON...
+[2025-10-06 02:21:07][MEM: 0.46MB] Respuesta preparada (size: 358 bytes)
+[2025-10-06 02:21:07][MEM: 0.46MB] Enviando respuesta JSON...
+[2025-10-07 03:30:33][MEM: 0.38MB] ========================================
+[2025-10-07 03:30:33][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2025-10-07 03:30:33][MEM: 0.38MB] ========================================
+[2025-10-07 03:30:33][MEM: 0.38MB] IP: 186.98.209.199
+[2025-10-07 03:30:33][MEM: 0.38MB] Método: POST
+[2025-10-07 03:30:33][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-10-07 03:30:33][MEM: 0.38MB] auth_middleware cargado
+[2025-10-07 03:30:33][MEM: 0.38MB] Usuario autenticado: die (ID: 12)
+[2025-10-07 03:30:33][MEM: 0.38MB] Acceso registrado
+[2025-10-07 03:30:33][MEM: 0.38MB] Requiriendo conexión...
+[2025-10-07 03:30:33][MEM: 0.42MB] conexion.php cargado
+[2025-10-07 03:30:33][MEM: 0.43MB] Raw input length: 5532
+[2025-10-07 03:30:33][MEM: 0.43MB] JSON decodificado correctamente
+[2025-10-07 03:30:33][MEM: 0.43MB] Variables extraídas:
+[2025-10-07 03:30:33][MEM: 0.43MB]    id_servicio: 138
+[2025-10-07 03:30:33][MEM: 0.43MB]    id_staff_entrega: 16
+[2025-10-07 03:30:33][MEM: 0.43MB]    id_funcionario_recibe: 15
+[2025-10-07 03:30:33][MEM: 0.43MB]    firma_staff_base64 length: 2426
+[2025-10-07 03:30:33][MEM: 0.43MB]    firma_funcionario_base64 length: 2890
+[2025-10-07 03:30:33][MEM: 0.43MB]    nota_entrega: Mathias te amo
+[2025-10-07 03:30:33][MEM: 0.43MB]    nota_recepcion: NULL
+[2025-10-07 03:30:33][MEM: 0.43MB] Validación de campos obligatorios OK
+[2025-10-07 03:30:33][MEM: 0.43MB] Validando servicio ID: 138
+[2025-10-07 03:30:33][MEM: 0.47MB] Servicio encontrado - o_servicio: 1122
+[2025-10-07 03:30:33][MEM: 0.47MB] Validando staff ID: 16
+[2025-10-07 03:30:33][MEM: 0.47MB] Staff encontrado: diego suarez
+[2025-10-07 03:30:33][MEM: 0.47MB] Validando funcionario ID: 15
+[2025-10-07 03:30:33][MEM: 0.47MB] Funcionario encontrado: ANDRES PRUEBAS
+[2025-10-07 03:30:33][MEM: 0.47MB] Verificando firmas existentes para servicio: 138
+[2025-10-07 03:30:33][MEM: 0.47MB] No hay firmas previas para este servicio
+[2025-10-07 03:30:33][MEM: 0.47MB] SQL preparado
+[2025-10-07 03:30:33][MEM: 0.47MB] Preparando statement...
+[2025-10-07 03:30:33][MEM: 0.46MB] Statement preparado correctamente
+[2025-10-07 03:30:33][MEM: 0.46MB] Binding params con tipo: iiisssss (8 params)
+[2025-10-07 03:30:33][MEM: 0.46MB] Parámetros a bindear:
+[2025-10-07 03:30:33][MEM: 0.46MB]    1. id_servicio (i): 138
+[2025-10-07 03:30:33][MEM: 0.46MB]    2. id_staff_entrega (i): 16
+[2025-10-07 03:30:33][MEM: 0.46MB]    3. id_funcionario_recibe (i): 15
+[2025-10-07 03:30:33][MEM: 0.46MB]    4. firma_staff_base64 (s): 2426 chars
+[2025-10-07 03:30:33][MEM: 0.46MB]    5. firma_funcionario_base64 (s): 2890 chars
+[2025-10-07 03:30:33][MEM: 0.46MB]    6. nota_entrega (s): Mathias te amo
+[2025-10-07 03:30:33][MEM: 0.46MB]    7. nota_recepcion (s): NULL
+[2025-10-07 03:30:33][MEM: 0.46MB]    8. participantes_servicio (s): NULL
+[2025-10-07 03:30:33][MEM: 0.46MB] bind_param resultado: TRUE
+[2025-10-07 03:30:33][MEM: 0.46MB] Bind exitoso
+[2025-10-07 03:30:33][MEM: 0.46MB] Ejecutando INSERT...
+[2025-10-07 03:30:33][MEM: 0.46MB] INSERT EXITOSO!
+[2025-10-07 03:30:33][MEM: 0.46MB] Firma creada con ID: 6
+[2025-10-07 03:30:33][MEM: 0.46MB] Preparando respuesta JSON...
+[2025-10-07 03:30:33][MEM: 0.46MB] Respuesta preparada (size: 314 bytes)
+[2025-10-07 03:30:33][MEM: 0.46MB] Enviando respuesta JSON...
+[2025-10-08 03:38:27][MEM: 0.38MB] ========================================
+[2025-10-08 03:38:27][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2025-10-08 03:38:27][MEM: 0.38MB] ========================================
+[2025-10-08 03:38:27][MEM: 0.38MB] IP: 179.19.197.14
+[2025-10-08 03:38:27][MEM: 0.38MB] Método: POST
+[2025-10-08 03:38:27][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-10-08 03:38:27][MEM: 0.38MB] auth_middleware cargado
+[2025-10-08 03:38:27][MEM: 0.38MB] Usuario autenticado: die (ID: 12)
+[2025-10-08 03:38:27][MEM: 0.38MB] Acceso registrado
+[2025-10-08 03:38:27][MEM: 0.38MB] Requiriendo conexión...
+[2025-10-08 03:38:27][MEM: 0.42MB] conexion.php cargado
+[2025-10-08 03:38:27][MEM: 0.43MB] Raw input length: 6756
+[2025-10-08 03:38:27][MEM: 0.44MB] JSON decodificado correctamente
+[2025-10-08 03:38:27][MEM: 0.44MB] Variables extraídas:
+[2025-10-08 03:38:27][MEM: 0.44MB]    id_servicio: 143
+[2025-10-08 03:38:27][MEM: 0.44MB]    id_staff_entrega: 21
+[2025-10-08 03:38:27][MEM: 0.44MB]    id_funcionario_recibe: 12
+[2025-10-08 03:38:27][MEM: 0.44MB]    firma_staff_base64 length: 3106
+[2025-10-08 03:38:27][MEM: 0.44MB]    firma_funcionario_base64 length: 3434
+[2025-10-08 03:38:27][MEM: 0.44MB]    nota_entrega: prueba 1
+[2025-10-08 03:38:27][MEM: 0.44MB]    nota_recepcion: prueba 2
+[2025-10-08 03:38:27][MEM: 0.44MB] Validación de campos obligatorios OK
+[2025-10-08 03:38:27][MEM: 0.44MB] Validando servicio ID: 143
+[2025-10-08 03:38:27][MEM: 0.47MB] Servicio encontrado - o_servicio: 1127
+[2025-10-08 03:38:27][MEM: 0.47MB] Validando staff ID: 21
+[2025-10-08 03:38:27][MEM: 0.47MB] Staff encontrado: Pepito Perez
+[2025-10-08 03:38:27][MEM: 0.47MB] Validando funcionario ID: 12
+[2025-10-08 03:38:27][MEM: 0.47MB] Funcionario encontrado: prueba 2
+[2025-10-08 03:38:27][MEM: 0.47MB] Verificando firmas existentes para servicio: 143
+[2025-10-08 03:38:27][MEM: 0.47MB] No hay firmas previas para este servicio
+[2025-10-08 03:38:27][MEM: 0.47MB] SQL preparado
+[2025-10-08 03:38:27][MEM: 0.47MB] Preparando statement...
+[2025-10-08 03:38:27][MEM: 0.46MB] Statement preparado correctamente
+[2025-10-08 03:38:27][MEM: 0.46MB] Binding params con tipo: iiisssss (8 params)
+[2025-10-08 03:38:27][MEM: 0.46MB] Parámetros a bindear:
+[2025-10-08 03:38:27][MEM: 0.46MB]    1. id_servicio (i): 143
+[2025-10-08 03:38:27][MEM: 0.46MB]    2. id_staff_entrega (i): 21
+[2025-10-08 03:38:27][MEM: 0.46MB]    3. id_funcionario_recibe (i): 12
+[2025-10-08 03:38:27][MEM: 0.46MB]    4. firma_staff_base64 (s): 3106 chars
+[2025-10-08 03:38:27][MEM: 0.46MB]    5. firma_funcionario_base64 (s): 3434 chars
+[2025-10-08 03:38:27][MEM: 0.46MB]    6. nota_entrega (s): prueba 1
+[2025-10-08 03:38:27][MEM: 0.46MB]    7. nota_recepcion (s): prueba 2
+[2025-10-08 03:38:27][MEM: 0.46MB]    8. participantes_servicio (s): NULL
+[2025-10-08 03:38:27][MEM: 0.46MB] bind_param resultado: TRUE
+[2025-10-08 03:38:27][MEM: 0.46MB] Bind exitoso
+[2025-10-08 03:38:27][MEM: 0.46MB] Ejecutando INSERT...
+[2025-10-08 03:38:27][MEM: 0.46MB] INSERT EXITOSO!
+[2025-10-08 03:38:27][MEM: 0.46MB] Firma creada con ID: 7
+[2025-10-08 03:38:27][MEM: 0.46MB] Preparando respuesta JSON...
+[2025-10-08 03:38:27][MEM: 0.46MB] Respuesta preparada (size: 308 bytes)
+[2025-10-08 03:38:27][MEM: 0.46MB] Enviando respuesta JSON...
+[2025-10-08 15:40:47][MEM: 0.38MB] ========================================
+[2025-10-08 15:40:47][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2025-10-08 15:40:47][MEM: 0.38MB] ========================================
+[2025-10-08 15:40:47][MEM: 0.38MB] IP: 186.98.209.199
+[2025-10-08 15:40:47][MEM: 0.38MB] Método: POST
+[2025-10-08 15:40:47][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-10-08 15:40:47][MEM: 0.38MB] auth_middleware cargado
+[2025-10-08 15:40:47][MEM: 0.38MB] Usuario autenticado: die (ID: 12)
+[2025-10-08 15:40:47][MEM: 0.38MB] Acceso registrado
+[2025-10-08 15:40:47][MEM: 0.38MB] Requiriendo conexión...
+[2025-10-08 15:40:47][MEM: 0.42MB] conexion.php cargado
+[2025-10-08 15:40:47][MEM: 0.43MB] Raw input length: 5275
+[2025-10-08 15:40:47][MEM: 0.43MB] JSON decodificado correctamente
+[2025-10-08 15:40:47][MEM: 0.43MB] Variables extraídas:
+[2025-10-08 15:40:47][MEM: 0.43MB]    id_servicio: 144
+[2025-10-08 15:40:47][MEM: 0.43MB]    id_staff_entrega: 22
+[2025-10-08 15:40:47][MEM: 0.43MB]    id_funcionario_recibe: 15
+[2025-10-08 15:40:47][MEM: 0.43MB]    firma_staff_base64 length: 2194
+[2025-10-08 15:40:47][MEM: 0.43MB]    firma_funcionario_base64 length: 2862
+[2025-10-08 15:40:47][MEM: 0.43MB]    nota_entrega: prueba firma
+[2025-10-08 15:40:47][MEM: 0.43MB]    nota_recepcion: recibe 
+[2025-10-08 15:40:47][MEM: 0.43MB] Validación de campos obligatorios OK
+[2025-10-08 15:40:47][MEM: 0.43MB] Validando servicio ID: 144
+[2025-10-08 15:40:47][MEM: 0.47MB] Servicio encontrado - o_servicio: 1128
+[2025-10-08 15:40:47][MEM: 0.47MB] Validando staff ID: 22
+[2025-10-08 15:40:47][MEM: 0.47MB] Staff encontrado: Diegos SuarezR
+[2025-10-08 15:40:47][MEM: 0.47MB] Validando funcionario ID: 15
+[2025-10-08 15:40:47][MEM: 0.47MB] Funcionario encontrado: ANDRES PRUEBAS
+[2025-10-08 15:40:47][MEM: 0.47MB] Verificando firmas existentes para servicio: 144
+[2025-10-08 15:40:47][MEM: 0.47MB] No hay firmas previas para este servicio
+[2025-10-08 15:40:47][MEM: 0.47MB] SQL preparado
+[2025-10-08 15:40:47][MEM: 0.47MB] Preparando statement...
+[2025-10-08 15:40:47][MEM: 0.46MB] Statement preparado correctamente
+[2025-10-08 15:40:47][MEM: 0.46MB] Binding params con tipo: iiisssss (8 params)
+[2025-10-08 15:40:47][MEM: 0.46MB] Parámetros a bindear:
+[2025-10-08 15:40:47][MEM: 0.46MB]    1. id_servicio (i): 144
+[2025-10-08 15:40:47][MEM: 0.46MB]    2. id_staff_entrega (i): 22
+[2025-10-08 15:40:47][MEM: 0.46MB]    3. id_funcionario_recibe (i): 15
+[2025-10-08 15:40:47][MEM: 0.46MB]    4. firma_staff_base64 (s): 2194 chars
+[2025-10-08 15:40:47][MEM: 0.46MB]    5. firma_funcionario_base64 (s): 2862 chars
+[2025-10-08 15:40:47][MEM: 0.46MB]    6. nota_entrega (s): prueba firma
+[2025-10-08 15:40:47][MEM: 0.46MB]    7. nota_recepcion (s): recibe 
+[2025-10-08 15:40:47][MEM: 0.46MB]    8. participantes_servicio (s): NULL
+[2025-10-08 15:40:47][MEM: 0.46MB] bind_param resultado: TRUE
+[2025-10-08 15:40:47][MEM: 0.46MB] Bind exitoso
+[2025-10-08 15:40:47][MEM: 0.46MB] Ejecutando INSERT...
+[2025-10-08 15:40:47][MEM: 0.46MB] INSERT EXITOSO!
+[2025-10-08 15:40:47][MEM: 0.46MB] Firma creada con ID: 8
+[2025-10-08 15:40:47][MEM: 0.46MB] Preparando respuesta JSON...
+[2025-10-08 15:40:47][MEM: 0.46MB] Respuesta preparada (size: 319 bytes)
+[2025-10-08 15:40:47][MEM: 0.46MB] Enviando respuesta JSON...
+[2025-10-08 18:10:30][MEM: 0.38MB] ========================================
+[2025-10-08 18:10:30][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2025-10-08 18:10:30][MEM: 0.38MB] ========================================
+[2025-10-08 18:10:30][MEM: 0.38MB] IP: 186.98.209.199
+[2025-10-08 18:10:30][MEM: 0.38MB] Método: POST
+[2025-10-08 18:10:30][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-10-08 18:10:30][MEM: 0.38MB] auth_middleware cargado
+[2025-10-08 18:10:30][MEM: 0.38MB] Usuario autenticado: die (ID: 12)
+[2025-10-08 18:10:30][MEM: 0.38MB] Acceso registrado
+[2025-10-08 18:10:30][MEM: 0.38MB] Requiriendo conexión...
+[2025-10-08 18:10:30][MEM: 0.42MB] conexion.php cargado
+[2025-10-08 18:10:30][MEM: 0.43MB] Raw input length: 10436
+[2025-10-08 18:10:30][MEM: 0.45MB] JSON decodificado correctamente
+[2025-10-08 18:10:30][MEM: 0.45MB] Variables extraídas:
+[2025-10-08 18:10:30][MEM: 0.45MB]    id_servicio: 146
+[2025-10-08 18:10:30][MEM: 0.45MB]    id_staff_entrega: 16
+[2025-10-08 18:10:30][MEM: 0.45MB]    id_funcionario_recibe: 16
+[2025-10-08 18:10:30][MEM: 0.45MB]    firma_staff_base64 length: 4842
+[2025-10-08 18:10:30][MEM: 0.45MB]    firma_funcionario_base64 length: 5370
+[2025-10-08 18:10:30][MEM: 0.45MB]    nota_entrega: prueba firma
+[2025-10-08 18:10:30][MEM: 0.45MB]    nota_recepcion: otro prueba 
+[2025-10-08 18:10:30][MEM: 0.45MB] Validación de campos obligatorios OK
+[2025-10-08 18:10:30][MEM: 0.45MB] Validando servicio ID: 146
+[2025-10-08 18:10:30][MEM: 0.49MB] Servicio encontrado - o_servicio: 1130
+[2025-10-08 18:10:30][MEM: 0.49MB] Validando staff ID: 16
+[2025-10-08 18:10:30][MEM: 0.49MB] Staff encontrado: diego suarez
+[2025-10-08 18:10:30][MEM: 0.49MB] Validando funcionario ID: 16
+[2025-10-08 18:10:30][MEM: 0.49MB] Funcionario encontrado: Funcionario de prueba
+[2025-10-08 18:10:30][MEM: 0.49MB] Verificando firmas existentes para servicio: 146
+[2025-10-08 18:10:30][MEM: 0.49MB] No hay firmas previas para este servicio
+[2025-10-08 18:10:30][MEM: 0.49MB] SQL preparado
+[2025-10-08 18:10:30][MEM: 0.49MB] Preparando statement...
+[2025-10-08 18:10:30][MEM: 0.47MB] Statement preparado correctamente
+[2025-10-08 18:10:30][MEM: 0.47MB] Binding params con tipo: iiisssss (8 params)
+[2025-10-08 18:10:30][MEM: 0.47MB] Parámetros a bindear:
+[2025-10-08 18:10:30][MEM: 0.47MB]    1. id_servicio (i): 146
+[2025-10-08 18:10:30][MEM: 0.47MB]    2. id_staff_entrega (i): 16
+[2025-10-08 18:10:30][MEM: 0.47MB]    3. id_funcionario_recibe (i): 16
+[2025-10-08 18:10:30][MEM: 0.47MB]    4. firma_staff_base64 (s): 4842 chars
+[2025-10-08 18:10:30][MEM: 0.47MB]    5. firma_funcionario_base64 (s): 5370 chars
+[2025-10-08 18:10:30][MEM: 0.47MB]    6. nota_entrega (s): prueba firma
+[2025-10-08 18:10:30][MEM: 0.47MB]    7. nota_recepcion (s): otro prueba 
+[2025-10-08 18:10:30][MEM: 0.47MB]    8. participantes_servicio (s): NULL
+[2025-10-08 18:10:30][MEM: 0.47MB] bind_param resultado: TRUE
+[2025-10-08 18:10:30][MEM: 0.47MB] Bind exitoso
+[2025-10-08 18:10:30][MEM: 0.47MB] Ejecutando INSERT...
+[2025-10-08 18:10:30][MEM: 0.47MB] INSERT EXITOSO!
+[2025-10-08 18:10:30][MEM: 0.47MB] Firma creada con ID: 9
+[2025-10-08 18:10:30][MEM: 0.47MB] Preparando respuesta JSON...
+[2025-10-08 18:10:30][MEM: 0.47MB] Respuesta preparada (size: 329 bytes)
+[2025-10-08 18:10:30][MEM: 0.47MB] Enviando respuesta JSON...
+[2025-10-11 19:31:18][MEM: 0.38MB] ========================================
+[2025-10-11 19:31:18][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2025-10-11 19:31:18][MEM: 0.38MB] ========================================
+[2025-10-11 19:31:18][MEM: 0.38MB] IP: 152.204.167.121
+[2025-10-11 19:31:18][MEM: 0.38MB] Método: POST
+[2025-10-11 19:31:18][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-10-11 19:31:18][MEM: 0.38MB] auth_middleware cargado
+[2025-10-11 19:31:18][MEM: 0.38MB] Usuario autenticado: die (ID: 12)
+[2025-10-11 19:31:18][MEM: 0.38MB] Acceso registrado
+[2025-10-11 19:31:18][MEM: 0.38MB] Requiriendo conexión...
+[2025-10-11 19:31:18][MEM: 0.42MB] conexion.php cargado
+[2025-10-11 19:31:18][MEM: 0.43MB] Raw input length: 6514
+[2025-10-11 19:31:18][MEM: 0.44MB] JSON decodificado correctamente
+[2025-10-11 19:31:18][MEM: 0.44MB] Variables extraídas:
+[2025-10-11 19:31:18][MEM: 0.44MB]    id_servicio: 145
+[2025-10-11 19:31:18][MEM: 0.44MB]    id_staff_entrega: 7
+[2025-10-11 19:31:18][MEM: 0.44MB]    id_funcionario_recibe: 11
+[2025-10-11 19:31:18][MEM: 0.44MB]    firma_staff_base64 length: 3290
+[2025-10-11 19:31:18][MEM: 0.44MB]    firma_funcionario_base64 length: 2970
+[2025-10-11 19:31:18][MEM: 0.44MB]    nota_entrega: Este comentario es de prueba
+[2025-10-11 19:31:18][MEM: 0.44MB]    nota_recepcion: otro comentario de prueba 2
+[2025-10-11 19:31:18][MEM: 0.44MB] Validación de campos obligatorios OK
+[2025-10-11 19:31:18][MEM: 0.44MB] Validando servicio ID: 145
+[2025-10-11 19:31:18][MEM: 0.47MB] Servicio encontrado - o_servicio: 1129
+[2025-10-11 19:31:18][MEM: 0.47MB] Validando staff ID: 7
+[2025-10-11 19:31:18][MEM: 0.47MB] Staff encontrado: Andrea Milena López Vargas
+[2025-10-11 19:31:18][MEM: 0.47MB] Validando funcionario ID: 11
+[2025-10-11 19:31:18][MEM: 0.47MB] Funcionario encontrado: Prueba 1
+[2025-10-11 19:31:18][MEM: 0.47MB] Verificando firmas existentes para servicio: 145
+[2025-10-11 19:31:18][MEM: 0.47MB] No hay firmas previas para este servicio
+[2025-10-11 19:31:18][MEM: 0.47MB] SQL preparado
+[2025-10-11 19:31:18][MEM: 0.47MB] Preparando statement...
+[2025-10-11 19:31:18][MEM: 0.46MB] Statement preparado correctamente
+[2025-10-11 19:31:18][MEM: 0.46MB] Binding params con tipo: iiisssss (8 params)
+[2025-10-11 19:31:18][MEM: 0.46MB] Parámetros a bindear:
+[2025-10-11 19:31:18][MEM: 0.46MB]    1. id_servicio (i): 145
+[2025-10-11 19:31:18][MEM: 0.46MB]    2. id_staff_entrega (i): 7
+[2025-10-11 19:31:18][MEM: 0.46MB]    3. id_funcionario_recibe (i): 11
+[2025-10-11 19:31:18][MEM: 0.46MB]    4. firma_staff_base64 (s): 3290 chars
+[2025-10-11 19:31:18][MEM: 0.46MB]    5. firma_funcionario_base64 (s): 2970 chars
+[2025-10-11 19:31:18][MEM: 0.46MB]    6. nota_entrega (s): Este comentario es de prueba
+[2025-10-11 19:31:18][MEM: 0.46MB]    7. nota_recepcion (s): otro comentario de prueba 2
+[2025-10-11 19:31:18][MEM: 0.46MB]    8. participantes_servicio (s): NULL
+[2025-10-11 19:31:18][MEM: 0.46MB] bind_param resultado: TRUE
+[2025-10-11 19:31:18][MEM: 0.46MB] Bind exitoso
+[2025-10-11 19:31:18][MEM: 0.46MB] Ejecutando INSERT...
+[2025-10-11 19:31:18][MEM: 0.46MB] INSERT EXITOSO!
+[2025-10-11 19:31:18][MEM: 0.46MB] Firma creada con ID: 10
+[2025-10-11 19:31:18][MEM: 0.46MB] Preparando respuesta JSON...
+[2025-10-11 19:31:18][MEM: 0.46MB] Respuesta preparada (size: 367 bytes)
+[2025-10-11 19:31:18][MEM: 0.46MB] Enviando respuesta JSON...
+[2025-11-04 04:21:19][MEM: 0.38MB] ========================================
+[2025-11-04 04:21:19][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2025-11-04 04:21:19][MEM: 0.38MB] ========================================
+[2025-11-04 04:21:19][MEM: 0.38MB] IP: 167.0.221.145
+[2025-11-04 04:21:19][MEM: 0.38MB] Método: POST
+[2025-11-04 04:21:19][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-11-04 04:21:19][MEM: 0.38MB] auth_middleware cargado
+[2025-11-04 04:21:19][MEM: 0.38MB] Usuario autenticado: die (ID: 12)
+[2025-11-04 04:21:19][MEM: 0.38MB] Acceso registrado
+[2025-11-04 04:21:19][MEM: 0.38MB] Requiriendo conexión...
+[2025-11-04 04:21:19][MEM: 0.42MB] conexion.php cargado
+[2025-11-04 04:21:19][MEM: 0.43MB] Raw input length: 4796
+[2025-11-04 04:21:19][MEM: 0.43MB] JSON decodificado correctamente
+[2025-11-04 04:21:19][MEM: 0.43MB] Variables extraídas:
+[2025-11-04 04:21:19][MEM: 0.43MB]    id_servicio: 152
+[2025-11-04 04:21:19][MEM: 0.43MB]    id_staff_entrega: 18
+[2025-11-04 04:21:19][MEM: 0.43MB]    id_funcionario_recibe: 18
+[2025-11-04 04:21:19][MEM: 0.43MB]    firma_staff_base64 length: 1866
+[2025-11-04 04:21:19][MEM: 0.43MB]    firma_funcionario_base64 length: 2726
+[2025-11-04 04:21:19][MEM: 0.43MB]    nota_entrega: NULL
+[2025-11-04 04:21:19][MEM: 0.43MB]    nota_recepcion: NULL
+[2025-11-04 04:21:19][MEM: 0.43MB] Validación de campos obligatorios OK
+[2025-11-04 04:21:19][MEM: 0.43MB] Validando servicio ID: 152
+[2025-11-04 04:21:19][MEM: 0.47MB] Servicio encontrado - o_servicio: 1136
+[2025-11-04 04:21:19][MEM: 0.47MB] Validando staff ID: 18
+[2025-11-04 04:21:19][MEM: 0.47MB] Staff encontrado: mathias suarez
+[2025-11-04 04:21:19][MEM: 0.47MB] Validando funcionario ID: 18
+[2025-11-04 04:21:19][MEM: 0.47MB] Funcionario encontrado: Pepito Perez
+[2025-11-04 04:21:19][MEM: 0.47MB] Verificando firmas existentes para servicio: 152
+[2025-11-04 04:21:19][MEM: 0.47MB] No hay firmas previas para este servicio
+[2025-11-04 04:21:19][MEM: 0.47MB] SQL preparado
+[2025-11-04 04:21:19][MEM: 0.47MB] Preparando statement...
+[2025-11-04 04:21:19][MEM: 0.45MB] Statement preparado correctamente
+[2025-11-04 04:21:19][MEM: 0.45MB] Binding params con tipo: iiisssss (8 params)
+[2025-11-04 04:21:19][MEM: 0.45MB] Parámetros a bindear:
+[2025-11-04 04:21:19][MEM: 0.46MB]    1. id_servicio (i): 152
+[2025-11-04 04:21:19][MEM: 0.46MB]    2. id_staff_entrega (i): 18
+[2025-11-04 04:21:19][MEM: 0.46MB]    3. id_funcionario_recibe (i): 18
+[2025-11-04 04:21:19][MEM: 0.46MB]    4. firma_staff_base64 (s): 1866 chars
+[2025-11-04 04:21:19][MEM: 0.46MB]    5. firma_funcionario_base64 (s): 2726 chars
+[2025-11-04 04:21:19][MEM: 0.46MB]    6. nota_entrega (s): NULL
+[2025-11-04 04:21:19][MEM: 0.46MB]    7. nota_recepcion (s): NULL
+[2025-11-04 04:21:19][MEM: 0.46MB]    8. participantes_servicio (s): NULL
+[2025-11-04 04:21:19][MEM: 0.46MB] bind_param resultado: TRUE
+[2025-11-04 04:21:19][MEM: 0.46MB] Bind exitoso
+[2025-11-04 04:21:19][MEM: 0.46MB] Ejecutando INSERT...
+[2025-11-04 04:21:19][MEM: 0.46MB] INSERT EXITOSO!
+[2025-11-04 04:21:19][MEM: 0.46MB] Firma creada con ID: 11
+[2025-11-04 04:21:19][MEM: 0.46MB] Preparando respuesta JSON...
+[2025-11-04 04:21:19][MEM: 0.46MB] Respuesta preparada (size: 304 bytes)
+[2025-11-04 04:21:19][MEM: 0.46MB] Enviando respuesta JSON...
+[2025-11-11 20:31:10][MEM: 0.37MB] Petición OPTIONS - Respondiendo con headers CORS
+[2025-11-11 20:31:10][MEM: 0.36MB] ========================================
+[2025-11-11 20:31:10][MEM: 0.36MB] NUEVA REQUEST CREAR FIRMA
+[2025-11-11 20:31:10][MEM: 0.36MB] ========================================
+[2025-11-11 20:31:10][MEM: 0.36MB] IP: 167.0.221.145
+[2025-11-11 20:31:10][MEM: 0.36MB] Método: POST
+[2025-11-11 20:31:10][MEM: 0.36MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-11-11 20:31:10][MEM: 0.36MB] auth_middleware cargado
+[2025-11-11 20:31:10][MEM: 0.36MB] Usuario autenticado: colaborador (ID: 21)
+[2025-11-11 20:31:10][MEM: 0.36MB] Acceso registrado
+[2025-11-11 20:31:10][MEM: 0.36MB] Requiriendo conexión...
+[2025-11-11 20:31:10][MEM: 0.4MB] conexion.php cargado
+[2025-11-11 20:31:10][MEM: 0.41MB] Raw input length: 4345
+[2025-11-11 20:31:10][MEM: 0.42MB] JSON decodificado correctamente
+[2025-11-11 20:31:10][MEM: 0.42MB] Variables extraídas:
+[2025-11-11 20:31:10][MEM: 0.42MB]    id_servicio: 150
+[2025-11-11 20:31:10][MEM: 0.42MB]    id_staff_entrega: 21
+[2025-11-11 20:31:10][MEM: 0.42MB]    id_funcionario_recibe: 15
+[2025-11-11 20:31:10][MEM: 0.42MB]    firma_staff_base64 length: 2602
+[2025-11-11 20:31:10][MEM: 0.42MB]    firma_funcionario_base64 length: 1534
+[2025-11-11 20:31:10][MEM: 0.42MB]    nota_entrega: prueba 
+[2025-11-11 20:31:10][MEM: 0.42MB]    nota_recepcion: NULL
+[2025-11-11 20:31:10][MEM: 0.42MB] Validación de campos obligatorios OK
+[2025-11-11 20:31:10][MEM: 0.42MB] Validando servicio ID: 150
+[2025-11-11 20:31:10][MEM: 0.45MB] Servicio encontrado - o_servicio: 1134
+[2025-11-11 20:31:10][MEM: 0.45MB] Validando staff ID: 21
+[2025-11-11 20:31:10][MEM: 0.45MB] Staff encontrado: Pepito Perez
+[2025-11-11 20:31:10][MEM: 0.45MB] Validando funcionario ID: 15
+[2025-11-11 20:31:10][MEM: 0.45MB] Funcionario encontrado: ANDRES PRUEBAS
+[2025-11-11 20:31:10][MEM: 0.45MB] Verificando firmas existentes para servicio: 150
+[2025-11-11 20:31:10][MEM: 0.45MB] No hay firmas previas para este servicio
+[2025-11-11 20:31:10][MEM: 0.45MB] SQL preparado
+[2025-11-11 20:31:10][MEM: 0.45MB] Preparando statement...
+[2025-11-11 20:31:10][MEM: 0.44MB] Statement preparado correctamente
+[2025-11-11 20:31:10][MEM: 0.44MB] Binding params con tipo: iiisssss (8 params)
+[2025-11-11 20:31:10][MEM: 0.44MB] Parámetros a bindear:
+[2025-11-11 20:31:10][MEM: 0.44MB]    1. id_servicio (i): 150
+[2025-11-11 20:31:10][MEM: 0.44MB]    2. id_staff_entrega (i): 21
+[2025-11-11 20:31:10][MEM: 0.44MB]    3. id_funcionario_recibe (i): 15
+[2025-11-11 20:31:10][MEM: 0.44MB]    4. firma_staff_base64 (s): 2602 chars
+[2025-11-11 20:31:10][MEM: 0.44MB]    5. firma_funcionario_base64 (s): 1534 chars
+[2025-11-11 20:31:10][MEM: 0.44MB]    6. nota_entrega (s): prueba 
+[2025-11-11 20:31:10][MEM: 0.44MB]    7. nota_recepcion (s): NULL
+[2025-11-11 20:31:10][MEM: 0.44MB]    8. participantes_servicio (s): NULL
+[2025-11-11 20:31:10][MEM: 0.44MB] bind_param resultado: TRUE
+[2025-11-11 20:31:10][MEM: 0.44MB] Bind exitoso
+[2025-11-11 20:31:10][MEM: 0.44MB] Ejecutando INSERT...
+[2025-11-11 20:31:10][MEM: 0.44MB] INSERT EXITOSO!
+[2025-11-11 20:31:10][MEM: 0.44MB] Firma creada con ID: 12
+[2025-11-11 20:31:10][MEM: 0.44MB] Preparando respuesta JSON...
+[2025-11-11 20:31:10][MEM: 0.44MB] Respuesta preparada (size: 309 bytes)
+[2025-11-11 20:31:10][MEM: 0.44MB] Enviando respuesta JSON...
+[2025-11-11 20:51:13][MEM: 0.36MB] ========================================
+[2025-11-11 20:51:13][MEM: 0.36MB] NUEVA REQUEST CREAR FIRMA
+[2025-11-11 20:51:13][MEM: 0.36MB] ========================================
+[2025-11-11 20:51:13][MEM: 0.36MB] IP: 167.0.221.145
+[2025-11-11 20:51:13][MEM: 0.36MB] Método: POST
+[2025-11-11 20:51:13][MEM: 0.36MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-11-11 20:51:13][MEM: 0.36MB] auth_middleware cargado
+[2025-11-11 20:51:13][MEM: 0.36MB] Usuario autenticado: colaborador (ID: 21)
+[2025-11-11 20:51:13][MEM: 0.36MB] Acceso registrado
+[2025-11-11 20:51:13][MEM: 0.36MB] Requiriendo conexión...
+[2025-11-11 20:51:13][MEM: 0.4MB] conexion.php cargado
+[2025-11-11 20:51:13][MEM: 0.41MB] Raw input length: 4983
+[2025-11-11 20:51:13][MEM: 0.42MB] JSON decodificado correctamente
+[2025-11-11 20:51:13][MEM: 0.42MB] Variables extraídas:
+[2025-11-11 20:51:13][MEM: 0.42MB]    id_servicio: 149
+[2025-11-11 20:51:13][MEM: 0.42MB]    id_staff_entrega: 20
+[2025-11-11 20:51:13][MEM: 0.42MB]    id_funcionario_recibe: 4
+[2025-11-11 20:51:13][MEM: 0.42MB]    firma_staff_base64 length: 2446
+[2025-11-11 20:51:13][MEM: 0.42MB]    firma_funcionario_base64 length: 2306
+[2025-11-11 20:51:13][MEM: 0.42MB]    nota_entrega: se entrega a satisfacion 
+[2025-11-11 20:51:13][MEM: 0.42MB]    nota_recepcion: recibo 
+[2025-11-11 20:51:13][MEM: 0.42MB] Validación de campos obligatorios OK
+[2025-11-11 20:51:13][MEM: 0.42MB] Validando servicio ID: 149
+[2025-11-11 20:51:13][MEM: 0.45MB] Servicio encontrado - o_servicio: 1133
+[2025-11-11 20:51:13][MEM: 0.45MB] Validando staff ID: 20
+[2025-11-11 20:51:13][MEM: 0.45MB] Staff encontrado: diegofdos real
+[2025-11-11 20:51:13][MEM: 0.45MB] Validando funcionario ID: 4
+[2025-11-11 20:51:13][MEM: 0.45MB] Funcionario encontrado: alexa altamar g
+[2025-11-11 20:51:13][MEM: 0.45MB] Verificando firmas existentes para servicio: 149
+[2025-11-11 20:51:13][MEM: 0.45MB] No hay firmas previas para este servicio
+[2025-11-11 20:51:13][MEM: 0.45MB] SQL preparado
+[2025-11-11 20:51:13][MEM: 0.45MB] Preparando statement...
+[2025-11-11 20:51:13][MEM: 0.44MB] Statement preparado correctamente
+[2025-11-11 20:51:13][MEM: 0.44MB] Binding params con tipo: iiisssss (8 params)
+[2025-11-11 20:51:13][MEM: 0.44MB] Parámetros a bindear:
+[2025-11-11 20:51:13][MEM: 0.44MB]    1. id_servicio (i): 149
+[2025-11-11 20:51:13][MEM: 0.44MB]    2. id_staff_entrega (i): 20
+[2025-11-11 20:51:13][MEM: 0.44MB]    3. id_funcionario_recibe (i): 4
+[2025-11-11 20:51:13][MEM: 0.44MB]    4. firma_staff_base64 (s): 2446 chars
+[2025-11-11 20:51:13][MEM: 0.44MB]    5. firma_funcionario_base64 (s): 2306 chars
+[2025-11-11 20:51:13][MEM: 0.44MB]    6. nota_entrega (s): se entrega a satisfacion 
+[2025-11-11 20:51:13][MEM: 0.44MB]    7. nota_recepcion (s): recibo 
+[2025-11-11 20:51:13][MEM: 0.44MB]    8. participantes_servicio (s): NULL
+[2025-11-11 20:51:13][MEM: 0.44MB] bind_param resultado: TRUE
+[2025-11-11 20:51:13][MEM: 0.44MB] Bind exitoso
+[2025-11-11 20:51:13][MEM: 0.44MB] Ejecutando INSERT...
+[2025-11-11 20:51:13][MEM: 0.44MB] INSERT EXITOSO!
+[2025-11-11 20:51:13][MEM: 0.44MB] Firma creada con ID: 13
+[2025-11-11 20:51:13][MEM: 0.44MB] Preparando respuesta JSON...
+[2025-11-11 20:51:13][MEM: 0.44MB] Respuesta preparada (size: 334 bytes)
+[2025-11-11 20:51:13][MEM: 0.44MB] Enviando respuesta JSON...
+[2025-11-15 21:58:53][MEM: 0.37MB] Petición OPTIONS - Respondiendo con headers CORS
+[2025-11-15 21:58:53][MEM: 0.36MB] ========================================
+[2025-11-15 21:58:53][MEM: 0.36MB] NUEVA REQUEST CREAR FIRMA
+[2025-11-15 21:58:53][MEM: 0.36MB] ========================================
+[2025-11-15 21:58:53][MEM: 0.36MB] IP: 167.0.221.145
+[2025-11-15 21:58:53][MEM: 0.36MB] Método: POST
+[2025-11-15 21:58:53][MEM: 0.36MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-11-15 21:58:53][MEM: 0.36MB] auth_middleware cargado
+[2025-11-15 21:58:53][MEM: 0.36MB] Usuario autenticado: colaborador (ID: 21)
+[2025-11-15 21:58:53][MEM: 0.36MB] Acceso registrado
+[2025-11-15 21:58:53][MEM: 0.36MB] Requiriendo conexión...
+[2025-11-15 21:58:53][MEM: 0.4MB] conexion.php cargado
+[2025-11-15 21:58:53][MEM: 0.4MB] Raw input length: 3826
+[2025-11-15 21:58:53][MEM: 0.41MB] JSON decodificado correctamente
+[2025-11-15 21:58:53][MEM: 0.41MB] Variables extraídas:
+[2025-11-15 21:58:53][MEM: 0.41MB]    id_servicio: 162
+[2025-11-15 21:58:53][MEM: 0.41MB]    id_staff_entrega: 21
+[2025-11-15 21:58:53][MEM: 0.41MB]    id_funcionario_recibe: 4
+[2025-11-15 21:58:53][MEM: 0.41MB]    firma_staff_base64 length: 2366
+[2025-11-15 21:58:53][MEM: 0.41MB]    firma_funcionario_base64 length: 1174
+[2025-11-15 21:58:53][MEM: 0.41MB]    nota_entrega: Se entrega el servicio con todos los puntos requeridos
+[2025-11-15 21:58:53][MEM: 0.41MB]    nota_recepcion: Recibo el servicio a satisfación
+[2025-11-15 21:58:53][MEM: 0.41MB] Validación de campos obligatorios OK
+[2025-11-15 21:58:53][MEM: 0.41MB] Validando servicio ID: 162
+[2025-11-15 21:58:53][MEM: 0.44MB] Servicio encontrado - o_servicio: 1146
+[2025-11-15 21:58:53][MEM: 0.44MB] Validando staff ID: 21
+[2025-11-15 21:58:53][MEM: 0.44MB] Staff encontrado: Pepito Perez
+[2025-11-15 21:58:53][MEM: 0.44MB] Validando funcionario ID: 4
+[2025-11-15 21:58:53][MEM: 0.45MB] Funcionario encontrado: alexa altamar g
+[2025-11-15 21:58:53][MEM: 0.45MB] Verificando firmas existentes para servicio: 162
+[2025-11-15 21:58:53][MEM: 0.44MB] No hay firmas previas para este servicio
+[2025-11-15 21:58:53][MEM: 0.44MB] SQL preparado
+[2025-11-15 21:58:53][MEM: 0.44MB] Preparando statement...
+[2025-11-15 21:58:53][MEM: 0.43MB] Statement preparado correctamente
+[2025-11-15 21:58:53][MEM: 0.43MB] Binding params con tipo: iiisssss (8 params)
+[2025-11-15 21:58:53][MEM: 0.43MB] Parámetros a bindear:
+[2025-11-15 21:58:53][MEM: 0.43MB]    1. id_servicio (i): 162
+[2025-11-15 21:58:53][MEM: 0.43MB]    2. id_staff_entrega (i): 21
+[2025-11-15 21:58:53][MEM: 0.43MB]    3. id_funcionario_recibe (i): 4
+[2025-11-15 21:58:53][MEM: 0.43MB]    4. firma_staff_base64 (s): 2366 chars
+[2025-11-15 21:58:53][MEM: 0.43MB]    5. firma_funcionario_base64 (s): 1174 chars
+[2025-11-15 21:58:53][MEM: 0.43MB]    6. nota_entrega (s): Se entrega el servicio con todos los puntos requeridos
+[2025-11-15 21:58:53][MEM: 0.43MB]    7. nota_recepcion (s): Recibo el servicio a satisfación
+[2025-11-15 21:58:53][MEM: 0.43MB]    8. participantes_servicio (s): NULL
+[2025-11-15 21:58:53][MEM: 0.43MB] bind_param resultado: TRUE
+[2025-11-15 21:58:53][MEM: 0.43MB] Bind exitoso
+[2025-11-15 21:58:53][MEM: 0.43MB] Ejecutando INSERT...
+[2025-11-15 21:58:53][MEM: 0.43MB] INSERT EXITOSO!
+[2025-11-15 21:58:53][MEM: 0.43MB] Firma creada con ID: 14
+[2025-11-15 21:58:53][MEM: 0.43MB] Preparando respuesta JSON...
+[2025-11-15 21:58:53][MEM: 0.43MB] Respuesta preparada (size: 391 bytes)
+[2025-11-15 21:58:53][MEM: 0.43MB] Enviando respuesta JSON...
+[2025-11-16 12:41:17][MEM: 0.37MB] ========================================
+[2025-11-16 12:41:17][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2025-11-16 12:41:17][MEM: 0.38MB] ========================================
+[2025-11-16 12:41:17][MEM: 0.38MB] IP: 167.0.221.145
+[2025-11-16 12:41:17][MEM: 0.38MB] Método: POST
+[2025-11-16 12:41:17][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-11-16 12:41:17][MEM: 0.38MB] auth_middleware cargado
+[2025-11-16 12:41:17][MEM: 0.38MB] Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 12:41:17][MEM: 0.38MB] Acceso registrado
+[2025-11-16 12:41:17][MEM: 0.38MB] Requiriendo conexión...
+[2025-11-16 12:41:17][MEM: 0.42MB] conexion.php cargado
+[2025-11-16 12:41:17][MEM: 0.42MB] Raw input length: 3616
+[2025-11-16 12:41:17][MEM: 0.43MB] JSON decodificado correctamente
+[2025-11-16 12:41:17][MEM: 0.43MB] Variables extraídas:
+[2025-11-16 12:41:17][MEM: 0.43MB]    id_servicio: 155
+[2025-11-16 12:41:17][MEM: 0.43MB]    id_staff_entrega: 15
+[2025-11-16 12:41:17][MEM: 0.43MB]    id_funcionario_recibe: 4
+[2025-11-16 12:41:17][MEM: 0.43MB]    firma_staff_base64 length: 1534
+[2025-11-16 12:41:17][MEM: 0.43MB]    firma_funcionario_base64 length: 1854
+[2025-11-16 12:41:17][MEM: 0.43MB]    nota_entrega: Prueba con marcos
+[2025-11-16 12:41:17][MEM: 0.43MB]    nota_recepcion: prueba alexa
+[2025-11-16 12:41:17][MEM: 0.43MB] Validación de campos obligatorios OK
+[2025-11-16 12:41:17][MEM: 0.43MB] Validando servicio ID: 155
+[2025-11-16 12:41:17][MEM: 0.46MB] Servicio encontrado - o_servicio: 1139
+[2025-11-16 12:41:17][MEM: 0.46MB] Validando staff ID: 15
+[2025-11-16 12:41:17][MEM: 0.46MB] Staff encontrado: Natalia Carolina Ospina Restrepo
+[2025-11-16 12:41:17][MEM: 0.46MB] Validando funcionario ID: 4
+[2025-11-16 12:41:17][MEM: 0.46MB] Funcionario encontrado: alexa altamar g
+[2025-11-16 12:41:17][MEM: 0.46MB] Verificando firmas existentes para servicio: 155
+[2025-11-16 12:41:17][MEM: 0.46MB] No hay firmas previas para este servicio
+[2025-11-16 12:41:17][MEM: 0.46MB] SQL preparado
+[2025-11-16 12:41:17][MEM: 0.46MB] Preparando statement...
+[2025-11-16 12:41:17][MEM: 0.45MB] Statement preparado correctamente
+[2025-11-16 12:41:17][MEM: 0.45MB] Binding params con tipo: iiisssss (8 params)
+[2025-11-16 12:41:17][MEM: 0.45MB] Parámetros a bindear:
+[2025-11-16 12:41:17][MEM: 0.45MB]    1. id_servicio (i): 155
+[2025-11-16 12:41:17][MEM: 0.45MB]    2. id_staff_entrega (i): 15
+[2025-11-16 12:41:17][MEM: 0.45MB]    3. id_funcionario_recibe (i): 4
+[2025-11-16 12:41:17][MEM: 0.45MB]    4. firma_staff_base64 (s): 1534 chars
+[2025-11-16 12:41:17][MEM: 0.45MB]    5. firma_funcionario_base64 (s): 1854 chars
+[2025-11-16 12:41:17][MEM: 0.45MB]    6. nota_entrega (s): Prueba con marcos
+[2025-11-16 12:41:17][MEM: 0.45MB]    7. nota_recepcion (s): prueba alexa
+[2025-11-16 12:41:17][MEM: 0.45MB]    8. participantes_servicio (s): NULL
+[2025-11-16 12:41:17][MEM: 0.45MB] bind_param resultado: TRUE
+[2025-11-16 12:41:17][MEM: 0.45MB] Bind exitoso
+[2025-11-16 12:41:17][MEM: 0.45MB] Ejecutando INSERT...
+[2025-11-16 12:41:17][MEM: 0.45MB] INSERT EXITOSO!
+[2025-11-16 12:41:17][MEM: 0.45MB] Firma creada con ID: 15
+[2025-11-16 12:41:17][MEM: 0.45MB] Preparando respuesta JSON...
+[2025-11-16 12:41:17][MEM: 0.45MB] Respuesta preparada (size: 349 bytes)
+[2025-11-16 12:41:17][MEM: 0.45MB] Enviando respuesta JSON...
+[2025-11-16 13:14:39][MEM: 0.37MB] ========================================
+[2025-11-16 13:14:39][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2025-11-16 13:14:39][MEM: 0.38MB] ========================================
+[2025-11-16 13:14:39][MEM: 0.38MB] IP: 167.0.221.145
+[2025-11-16 13:14:39][MEM: 0.38MB] Método: POST
+[2025-11-16 13:14:39][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-11-16 13:14:39][MEM: 0.38MB] auth_middleware cargado
+[2025-11-16 13:14:39][MEM: 0.38MB] Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 13:14:39][MEM: 0.38MB] Acceso registrado
+[2025-11-16 13:14:39][MEM: 0.38MB] Requiriendo conexión...
+[2025-11-16 13:14:39][MEM: 0.42MB] conexion.php cargado
+[2025-11-16 13:14:39][MEM: 0.42MB] Raw input length: 3807
+[2025-11-16 13:14:39][MEM: 0.43MB] JSON decodificado correctamente
+[2025-11-16 13:14:39][MEM: 0.43MB] Variables extraídas:
+[2025-11-16 13:14:39][MEM: 0.43MB]    id_servicio: 155
+[2025-11-16 13:14:39][MEM: 0.43MB]    id_staff_entrega: 20
+[2025-11-16 13:14:39][MEM: 0.43MB]    id_funcionario_recibe: 15
+[2025-11-16 13:14:39][MEM: 0.43MB]    firma_staff_base64 length: 1650
+[2025-11-16 13:14:39][MEM: 0.43MB]    firma_funcionario_base64 length: 1938
+[2025-11-16 13:14:39][MEM: 0.43MB]    nota_entrega: marcos
+[2025-11-16 13:14:39][MEM: 0.43MB]    nota_recepcion: andres prueba
+[2025-11-16 13:14:39][MEM: 0.43MB] Validación de campos obligatorios OK
+[2025-11-16 13:14:39][MEM: 0.43MB] Validando servicio ID: 155
+[2025-11-16 13:14:39][MEM: 0.46MB] Servicio encontrado - o_servicio: 1139
+[2025-11-16 13:14:39][MEM: 0.46MB] Validando staff ID: 20
+[2025-11-16 13:14:39][MEM: 0.46MB] Staff encontrado: diegofdos real
+[2025-11-16 13:14:39][MEM: 0.46MB] Validando funcionario ID: 15
+[2025-11-16 13:14:39][MEM: 0.46MB] Funcionario encontrado: ANDRES PRUEBAS
+[2025-11-16 13:14:39][MEM: 0.46MB] Verificando firmas existentes para servicio: 155
+[2025-11-16 13:14:39][MEM: 0.46MB] Ya existe una firma para este servicio (ID: 15)
+[2025-11-16 13:15:20][MEM: 0.36MB] ========================================
+[2025-11-16 13:15:20][MEM: 0.36MB] NUEVA REQUEST CREAR FIRMA
+[2025-11-16 13:15:20][MEM: 0.36MB] ========================================
+[2025-11-16 13:15:20][MEM: 0.36MB] IP: 167.0.221.145
+[2025-11-16 13:15:20][MEM: 0.36MB] Método: POST
+[2025-11-16 13:15:20][MEM: 0.36MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-11-16 13:15:20][MEM: 0.36MB] auth_middleware cargado
+[2025-11-16 13:15:20][MEM: 0.36MB] Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 13:15:20][MEM: 0.36MB] Acceso registrado
+[2025-11-16 13:15:20][MEM: 0.36MB] Requiriendo conexión...
+[2025-11-16 13:15:20][MEM: 0.4MB] conexion.php cargado
+[2025-11-16 13:15:20][MEM: 0.4MB] Raw input length: 3807
+[2025-11-16 13:15:20][MEM: 0.41MB] JSON decodificado correctamente
+[2025-11-16 13:15:20][MEM: 0.41MB] Variables extraídas:
+[2025-11-16 13:15:20][MEM: 0.41MB]    id_servicio: 155
+[2025-11-16 13:15:20][MEM: 0.41MB]    id_staff_entrega: 20
+[2025-11-16 13:15:20][MEM: 0.41MB]    id_funcionario_recibe: 15
+[2025-11-16 13:15:20][MEM: 0.41MB]    firma_staff_base64 length: 1650
+[2025-11-16 13:15:20][MEM: 0.41MB]    firma_funcionario_base64 length: 1938
+[2025-11-16 13:15:20][MEM: 0.41MB]    nota_entrega: marcos
+[2025-11-16 13:15:20][MEM: 0.41MB]    nota_recepcion: andres prueba
+[2025-11-16 13:15:20][MEM: 0.41MB] Validación de campos obligatorios OK
+[2025-11-16 13:15:20][MEM: 0.41MB] Validando servicio ID: 155
+[2025-11-16 13:15:20][MEM: 0.45MB] Servicio encontrado - o_servicio: 1139
+[2025-11-16 13:15:20][MEM: 0.45MB] Validando staff ID: 20
+[2025-11-16 13:15:20][MEM: 0.45MB] Staff encontrado: diegofdos real
+[2025-11-16 13:15:20][MEM: 0.45MB] Validando funcionario ID: 15
+[2025-11-16 13:15:20][MEM: 0.45MB] Funcionario encontrado: ANDRES PRUEBAS
+[2025-11-16 13:15:20][MEM: 0.45MB] Verificando firmas existentes para servicio: 155
+[2025-11-16 13:15:20][MEM: 0.45MB] No hay firmas previas para este servicio
+[2025-11-16 13:15:20][MEM: 0.45MB] SQL preparado
+[2025-11-16 13:15:20][MEM: 0.45MB] Preparando statement...
+[2025-11-16 13:15:20][MEM: 0.43MB] Statement preparado correctamente
+[2025-11-16 13:15:20][MEM: 0.43MB] Binding params con tipo: iiisssss (8 params)
+[2025-11-16 13:15:20][MEM: 0.43MB] Parámetros a bindear:
+[2025-11-16 13:15:20][MEM: 0.43MB]    1. id_servicio (i): 155
+[2025-11-16 13:15:20][MEM: 0.43MB]    2. id_staff_entrega (i): 20
+[2025-11-16 13:15:20][MEM: 0.43MB]    3. id_funcionario_recibe (i): 15
+[2025-11-16 13:15:20][MEM: 0.43MB]    4. firma_staff_base64 (s): 1650 chars
+[2025-11-16 13:15:20][MEM: 0.43MB]    5. firma_funcionario_base64 (s): 1938 chars
+[2025-11-16 13:15:20][MEM: 0.43MB]    6. nota_entrega (s): marcos
+[2025-11-16 13:15:20][MEM: 0.43MB]    7. nota_recepcion (s): andres prueba
+[2025-11-16 13:15:20][MEM: 0.43MB]    8. participantes_servicio (s): NULL
+[2025-11-16 13:15:20][MEM: 0.43MB] bind_param resultado: TRUE
+[2025-11-16 13:15:20][MEM: 0.43MB] Bind exitoso
+[2025-11-16 13:15:20][MEM: 0.43MB] Ejecutando INSERT...
+[2025-11-16 13:15:20][MEM: 0.43MB] INSERT EXITOSO!
+[2025-11-16 13:15:20][MEM: 0.43MB] Firma creada con ID: 16
+[2025-11-16 13:15:20][MEM: 0.43MB] Preparando respuesta JSON...
+[2025-11-16 13:15:20][MEM: 0.43MB] Respuesta preparada (size: 321 bytes)
+[2025-11-16 13:15:20][MEM: 0.43MB] Enviando respuesta JSON...
+[2025-11-17 19:39:03][MEM: 0.38MB] ========================================
+[2025-11-17 19:39:03][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2025-11-17 19:39:03][MEM: 0.38MB] ========================================
+[2025-11-17 19:39:03][MEM: 0.38MB] IP: 181.235.94.136
+[2025-11-17 19:39:03][MEM: 0.38MB] Método: POST
+[2025-11-17 19:39:03][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-11-17 19:39:03][MEM: 0.38MB] auth_middleware cargado
+[2025-11-17 19:39:03][MEM: 0.38MB] Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 19:39:03][MEM: 0.38MB] Acceso registrado
+[2025-11-17 19:39:03][MEM: 0.38MB] Requiriendo conexión...
+[2025-11-17 19:39:03][MEM: 0.42MB] conexion.php cargado
+[2025-11-17 19:39:03][MEM: 0.44MB] Raw input length: 8893
+[2025-11-17 19:39:03][MEM: 0.45MB] JSON decodificado correctamente
+[2025-11-17 19:39:03][MEM: 0.45MB] Variables extraídas:
+[2025-11-17 19:39:03][MEM: 0.45MB]    id_servicio: 164
+[2025-11-17 19:39:03][MEM: 0.45MB]    id_staff_entrega: 15
+[2025-11-17 19:39:03][MEM: 0.45MB]    id_funcionario_recibe: 15
+[2025-11-17 19:39:03][MEM: 0.45MB]    firma_staff_base64 length: 4498
+[2025-11-17 19:39:03][MEM: 0.45MB]    firma_funcionario_base64 length: 4158
+[2025-11-17 19:39:03][MEM: 0.45MB]    nota_entrega: NULL
+[2025-11-17 19:39:03][MEM: 0.45MB]    nota_recepcion: Se recibe el servicio a conformidad
+[2025-11-17 19:39:03][MEM: 0.45MB] Validación de campos obligatorios OK
+[2025-11-17 19:39:03][MEM: 0.45MB] Validando servicio ID: 164
+[2025-11-17 19:39:03][MEM: 0.49MB] Servicio encontrado - o_servicio: 1148
+[2025-11-17 19:39:03][MEM: 0.49MB] Validando usuario (staff_entrega) ID: 15
+[2025-11-17 19:39:03][MEM: 0.49MB] Usuario (staff_entrega) encontrado: MarcosSuarez
+[2025-11-17 19:39:03][MEM: 0.49MB] Validando funcionario (funcionario_recibe) ID: 15
+[2025-11-17 19:39:03][MEM: 0.49MB] Funcionario (funcionario_recibe) encontrado: ANDRES PRUEBAS
+[2025-11-17 19:39:03][MEM: 0.49MB] Verificando firmas existentes para servicio: 164
+[2025-11-17 19:39:03][MEM: 0.49MB] No hay firmas previas para este servicio
+[2025-11-17 19:39:03][MEM: 0.49MB] SQL preparado
+[2025-11-17 19:39:03][MEM: 0.49MB] Preparando statement...
+[2025-11-17 19:39:03][MEM: 0.48MB] Statement preparado correctamente
+[2025-11-17 19:39:03][MEM: 0.48MB] Binding params con tipo: iiisssss (8 params)
+[2025-11-17 19:39:03][MEM: 0.48MB] Parámetros a bindear:
+[2025-11-17 19:39:03][MEM: 0.48MB]    1. id_servicio (i): 164
+[2025-11-17 19:39:03][MEM: 0.48MB]    2. id_staff_entrega (i): 15
+[2025-11-17 19:39:03][MEM: 0.48MB]    3. id_funcionario_recibe (i): 15
+[2025-11-17 19:39:03][MEM: 0.48MB]    4. firma_staff_base64 (s): 4498 chars
+[2025-11-17 19:39:03][MEM: 0.48MB]    5. firma_funcionario_base64 (s): 4158 chars
+[2025-11-17 19:39:03][MEM: 0.48MB]    6. nota_entrega (s): NULL
+[2025-11-17 19:39:03][MEM: 0.48MB]    7. nota_recepcion (s): Se recibe el servicio a conformidad
+[2025-11-17 19:39:03][MEM: 0.48MB]    8. participantes_servicio (s): NULL
+[2025-11-17 19:39:03][MEM: 0.48MB] bind_param resultado: TRUE
+[2025-11-17 19:39:03][MEM: 0.48MB] Bind exitoso
+[2025-11-17 19:39:03][MEM: 0.48MB] Ejecutando INSERT...
+[2025-11-17 19:39:03][MEM: 0.48MB] INSERT EXITOSO!
+[2025-11-17 19:39:03][MEM: 0.48MB] Firma creada con ID: 17
+[2025-11-17 19:39:03][MEM: 0.48MB] Preparando respuesta JSON...
+[2025-11-17 19:39:03][MEM: 0.48MB] Respuesta preparada (size: 337 bytes)
+[2025-11-17 19:39:03][MEM: 0.48MB] Enviando respuesta JSON...
+[2025-11-24 03:53:52][MEM: 0.38MB] ========================================
+[2025-11-24 03:53:52][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2025-11-24 03:53:52][MEM: 0.38MB] ========================================
+[2025-11-24 03:53:52][MEM: 0.38MB] IP: 181.236.112.66
+[2025-11-24 03:53:52][MEM: 0.38MB] Método: POST
+[2025-11-24 03:53:52][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-11-24 03:53:52][MEM: 0.38MB] auth_middleware cargado
+[2025-11-24 03:53:52][MEM: 0.38MB] Usuario autenticado: colaborador (ID: 21)
+[2025-11-24 03:53:52][MEM: 0.38MB] Acceso registrado
+[2025-11-24 03:53:52][MEM: 0.38MB] Requiriendo conexión...
+[2025-11-24 03:53:52][MEM: 0.42MB] conexion.php cargado
+[2025-11-24 03:53:52][MEM: 0.43MB] Raw input length: 4185
+[2025-11-24 03:53:52][MEM: 0.43MB] JSON decodificado correctamente
+[2025-11-24 03:53:52][MEM: 0.43MB] Variables extraídas:
+[2025-11-24 03:53:52][MEM: 0.43MB]    id_servicio: 168
+[2025-11-24 03:53:52][MEM: 0.43MB]    id_staff_entrega: 25
+[2025-11-24 03:53:52][MEM: 0.43MB]    id_funcionario_recibe: 14
+[2025-11-24 03:53:52][MEM: 0.43MB]    firma_staff_base64 length: 1966
+[2025-11-24 03:53:52][MEM: 0.43MB]    firma_funcionario_base64 length: 2006
+[2025-11-24 03:53:52][MEM: 0.43MB]    nota_entrega: nota prueba
+[2025-11-24 03:53:52][MEM: 0.43MB]    nota_recepcion: NULL
+[2025-11-24 03:53:52][MEM: 0.43MB] Validación de campos obligatorios OK
+[2025-11-24 03:53:52][MEM: 0.43MB] Validando servicio ID: 168
+[2025-11-24 03:53:52][MEM: 0.47MB] Servicio encontrado - o_servicio: 1152
+[2025-11-24 03:53:52][MEM: 0.47MB] Validando usuario (staff_entrega) ID: 25
+[2025-11-24 03:53:52][MEM: 0.47MB] Usuario (staff_entrega) encontrado: prueba3
+[2025-11-24 03:53:52][MEM: 0.47MB] Validando funcionario (funcionario_recibe) ID: 14
+[2025-11-24 03:53:52][MEM: 0.47MB] Funcionario (funcionario_recibe) encontrado: DIEGO REALPE SUAREZ
+[2025-11-24 03:53:52][MEM: 0.47MB] Verificando firmas existentes para servicio: 168
+[2025-11-24 03:53:52][MEM: 0.47MB] No hay firmas previas para este servicio
+[2025-11-24 03:53:52][MEM: 0.47MB] SQL preparado
+[2025-11-24 03:53:52][MEM: 0.47MB] Preparando statement...
+[2025-11-24 03:53:52][MEM: 0.46MB] Statement preparado correctamente
+[2025-11-24 03:53:52][MEM: 0.46MB] Binding params con tipo: iiisssss (8 params)
+[2025-11-24 03:53:52][MEM: 0.46MB] Parámetros a bindear:
+[2025-11-24 03:53:52][MEM: 0.46MB]    1. id_servicio (i): 168
+[2025-11-24 03:53:52][MEM: 0.46MB]    2. id_staff_entrega (i): 25
+[2025-11-24 03:53:52][MEM: 0.46MB]    3. id_funcionario_recibe (i): 14
+[2025-11-24 03:53:52][MEM: 0.46MB]    4. firma_staff_base64 (s): 1966 chars
+[2025-11-24 03:53:52][MEM: 0.46MB]    5. firma_funcionario_base64 (s): 2006 chars
+[2025-11-24 03:53:52][MEM: 0.46MB]    6. nota_entrega (s): nota prueba
+[2025-11-24 03:53:52][MEM: 0.46MB]    7. nota_recepcion (s): NULL
+[2025-11-24 03:53:52][MEM: 0.46MB]    8. participantes_servicio (s): NULL
+[2025-11-24 03:53:52][MEM: 0.46MB] bind_param resultado: TRUE
+[2025-11-24 03:53:52][MEM: 0.46MB] Bind exitoso
+[2025-11-24 03:53:52][MEM: 0.46MB] Ejecutando INSERT...
+[2025-11-24 03:53:52][MEM: 0.46MB] EXCEPTION CAPTURADA
+[2025-11-24 03:53:52][MEM: 0.46MB] Mensaje: Cannot add or update a child row: a foreign key constraint fails (`u342171239_InfoApp_Test`.`firmas`, CONSTRAINT `fk_firmas_to_staff` FOREIGN KEY (`id_staff_entrega`) REFERENCES `staff` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+[2025-11-24 03:53:52][MEM: 0.46MB] Archivo: /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/crear_firma.php
+[2025-11-24 03:53:52][MEM: 0.46MB] Línea: 250
+[2025-11-24 03:53:52][MEM: 0.46MB] Trace: #0 /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/crear_firma.php(250): mysqli_stmt->execute()
+#1 {main}
+[2025-11-24 03:53:52][MEM: 0.46MB] Enviando error response...
+[2025-11-24 03:54:06][MEM: 0.36MB] ========================================
+[2025-11-24 03:54:06][MEM: 0.36MB] NUEVA REQUEST CREAR FIRMA
+[2025-11-24 03:54:06][MEM: 0.36MB] ========================================
+[2025-11-24 03:54:06][MEM: 0.36MB] IP: 181.236.112.66
+[2025-11-24 03:54:06][MEM: 0.36MB] Método: POST
+[2025-11-24 03:54:06][MEM: 0.36MB] URI: /API_Infoapp/firma/crear_firma.php
+[2025-11-24 03:54:06][MEM: 0.36MB] auth_middleware cargado
+[2025-11-24 03:54:06][MEM: 0.36MB] Usuario autenticado: colaborador (ID: 21)
+[2025-11-24 03:54:06][MEM: 0.36MB] Acceso registrado
+[2025-11-24 03:54:06][MEM: 0.36MB] Requiriendo conexión...
+[2025-11-24 03:54:06][MEM: 0.4MB] conexion.php cargado
+[2025-11-24 03:54:06][MEM: 0.41MB] Raw input length: 4185
+[2025-11-24 03:54:06][MEM: 0.42MB] JSON decodificado correctamente
+[2025-11-24 03:54:06][MEM: 0.42MB] Variables extraídas:
+[2025-11-24 03:54:06][MEM: 0.42MB]    id_servicio: 168
+[2025-11-24 03:54:06][MEM: 0.42MB]    id_staff_entrega: 25
+[2025-11-24 03:54:06][MEM: 0.42MB]    id_funcionario_recibe: 14
+[2025-11-24 03:54:06][MEM: 0.42MB]    firma_staff_base64 length: 1966
+[2025-11-24 03:54:06][MEM: 0.42MB]    firma_funcionario_base64 length: 2006
+[2025-11-24 03:54:06][MEM: 0.42MB]    nota_entrega: nota prueba
+[2025-11-24 03:54:06][MEM: 0.42MB]    nota_recepcion: NULL
+[2025-11-24 03:54:06][MEM: 0.42MB] Validación de campos obligatorios OK
+[2025-11-24 03:54:06][MEM: 0.42MB] Validando servicio ID: 168
+[2025-11-24 03:54:06][MEM: 0.45MB] Servicio encontrado - o_servicio: 1152
+[2025-11-24 03:54:06][MEM: 0.45MB] Validando usuario (staff_entrega) ID: 25
+[2025-11-24 03:54:06][MEM: 0.45MB] Usuario (staff_entrega) encontrado: prueba3
+[2025-11-24 03:54:06][MEM: 0.45MB] Validando funcionario (funcionario_recibe) ID: 14
+[2025-11-24 03:54:06][MEM: 0.46MB] Funcionario (funcionario_recibe) encontrado: DIEGO REALPE SUAREZ
+[2025-11-24 03:54:06][MEM: 0.46MB] Verificando firmas existentes para servicio: 168
+[2025-11-24 03:54:06][MEM: 0.45MB] No hay firmas previas para este servicio
+[2025-11-24 03:54:06][MEM: 0.45MB] SQL preparado
+[2025-11-24 03:54:06][MEM: 0.45MB] Preparando statement...
+[2025-11-24 03:54:06][MEM: 0.44MB] Statement preparado correctamente
+[2025-11-24 03:54:06][MEM: 0.44MB] Binding params con tipo: iiisssss (8 params)
+[2025-11-24 03:54:06][MEM: 0.44MB] Parámetros a bindear:
+[2025-11-24 03:54:06][MEM: 0.44MB]    1. id_servicio (i): 168
+[2025-11-24 03:54:06][MEM: 0.44MB]    2. id_staff_entrega (i): 25
+[2025-11-24 03:54:06][MEM: 0.44MB]    3. id_funcionario_recibe (i): 14
+[2025-11-24 03:54:06][MEM: 0.44MB]    4. firma_staff_base64 (s): 1966 chars
+[2025-11-24 03:54:06][MEM: 0.44MB]    5. firma_funcionario_base64 (s): 2006 chars
+[2025-11-24 03:54:06][MEM: 0.44MB]    6. nota_entrega (s): nota prueba
+[2025-11-24 03:54:06][MEM: 0.44MB]    7. nota_recepcion (s): NULL
+[2025-11-24 03:54:06][MEM: 0.44MB]    8. participantes_servicio (s): NULL
+[2025-11-24 03:54:06][MEM: 0.44MB] bind_param resultado: TRUE
+[2025-11-24 03:54:06][MEM: 0.44MB] Bind exitoso
+[2025-11-24 03:54:06][MEM: 0.44MB] Ejecutando INSERT...
+[2025-11-24 03:54:06][MEM: 0.44MB] EXCEPTION CAPTURADA
+[2025-11-24 03:54:06][MEM: 0.44MB] Mensaje: Cannot add or update a child row: a foreign key constraint fails (`u342171239_InfoApp_Test`.`firmas`, CONSTRAINT `fk_firmas_to_staff` FOREIGN KEY (`id_staff_entrega`) REFERENCES `staff` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+[2025-11-24 03:54:06][MEM: 0.44MB] Archivo: /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/crear_firma.php
+[2025-11-24 03:54:06][MEM: 0.44MB] Línea: 250
+[2025-11-24 03:54:06][MEM: 0.44MB] Trace: #0 /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/crear_firma.php(250): mysqli_stmt->execute()
+#1 {main}
+[2025-11-24 03:54:06][MEM: 0.44MB] Enviando error response...
+[2026-01-07 20:23:46][MEM: 0.37MB] ========================================
+[2026-01-07 20:23:46][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2026-01-07 20:23:46][MEM: 0.38MB] ========================================
+[2026-01-07 20:23:46][MEM: 0.38MB] IP: 181.236.101.252
+[2026-01-07 20:23:46][MEM: 0.38MB] Método: POST
+[2026-01-07 20:23:46][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2026-01-07 20:23:46][MEM: 0.38MB] auth_middleware cargado
+[2026-01-07 20:23:46][MEM: 0.38MB] Usuario autenticado: colaborador (ID: 21)
+[2026-01-07 20:23:46][MEM: 0.38MB] Acceso registrado
+[2026-01-07 20:23:46][MEM: 0.38MB] Requiriendo conexión...
+[2026-01-07 20:23:46][MEM: 0.42MB] conexion.php cargado
+[2026-01-07 20:23:46][MEM: 0.43MB] Raw input length: 6839
+[2026-01-07 20:23:46][MEM: 0.43MB] JSON decodificado correctamente
+[2026-01-07 20:23:46][MEM: 0.43MB] Variables extraídas:
+[2026-01-07 20:23:46][MEM: 0.43MB]    id_servicio: 169
+[2026-01-07 20:23:46][MEM: 0.43MB]    id_staff_entrega: 24
+[2026-01-07 20:23:46][MEM: 0.43MB]    id_funcionario_recibe: 4
+[2026-01-07 20:23:46][MEM: 0.43MB]    firma_staff_base64 length: 3586
+[2026-01-07 20:23:46][MEM: 0.43MB]    firma_funcionario_base64 length: 3050
+[2026-01-07 20:23:46][MEM: 0.43MB]    nota_entrega: NULL
+[2026-01-07 20:23:46][MEM: 0.43MB]    nota_recepcion: NULL
+[2026-01-07 20:23:46][MEM: 0.43MB] Validación de campos obligatorios OK
+[2026-01-07 20:23:46][MEM: 0.43MB] Validando servicio ID: 169
+[2026-01-07 20:23:46][MEM: 0.47MB] Servicio encontrado - o_servicio: 1153
+[2026-01-07 20:23:46][MEM: 0.47MB] Validando usuario (staff_entrega) ID: 24
+[2026-01-07 20:23:46][MEM: 0.47MB] Usuario (staff_entrega) encontrado: nuevo_usuario
+[2026-01-07 20:23:46][MEM: 0.47MB] Validando funcionario (funcionario_recibe) ID: 4
+[2026-01-07 20:23:46][MEM: 0.47MB] Funcionario (funcionario_recibe) encontrado: alexa altamar g
+[2026-01-07 20:23:46][MEM: 0.47MB] Verificando firmas existentes para servicio: 169
+[2026-01-07 20:23:46][MEM: 0.47MB] No hay firmas previas para este servicio
+[2026-01-07 20:23:46][MEM: 0.47MB] SQL preparado
+[2026-01-07 20:23:46][MEM: 0.47MB] Preparando statement...
+[2026-01-07 20:23:46][MEM: 0.46MB] Statement preparado correctamente
+[2026-01-07 20:23:46][MEM: 0.46MB] Binding params con tipo: iiisssss (8 params)
+[2026-01-07 20:23:46][MEM: 0.46MB] Parámetros a bindear:
+[2026-01-07 20:23:46][MEM: 0.46MB]    1. id_servicio (i): 169
+[2026-01-07 20:23:46][MEM: 0.46MB]    2. id_staff_entrega (i): 24
+[2026-01-07 20:23:46][MEM: 0.46MB]    3. id_funcionario_recibe (i): 4
+[2026-01-07 20:23:46][MEM: 0.46MB]    4. firma_staff_base64 (s): 3586 chars
+[2026-01-07 20:23:46][MEM: 0.46MB]    5. firma_funcionario_base64 (s): 3050 chars
+[2026-01-07 20:23:46][MEM: 0.46MB]    6. nota_entrega (s): NULL
+[2026-01-07 20:23:46][MEM: 0.46MB]    7. nota_recepcion (s): NULL
+[2026-01-07 20:23:46][MEM: 0.46MB]    8. participantes_servicio (s): NULL
+[2026-01-07 20:23:46][MEM: 0.46MB] bind_param resultado: TRUE
+[2026-01-07 20:23:46][MEM: 0.46MB] Bind exitoso
+[2026-01-07 20:23:46][MEM: 0.46MB] Ejecutando INSERT...
+[2026-01-07 20:23:46][MEM: 0.46MB] INSERT EXITOSO!
+[2026-01-07 20:23:46][MEM: 0.46MB] Firma creada con ID: 20
+[2026-01-07 20:23:46][MEM: 0.46MB] Preparando respuesta JSON...
+[2026-01-07 20:23:46][MEM: 0.46MB] Respuesta preparada (size: 305 bytes)
+[2026-01-07 20:23:46][MEM: 0.46MB] Enviando respuesta JSON...
+[2026-01-07 20:24:18][MEM: 0.36MB] ========================================
+[2026-01-07 20:24:18][MEM: 0.36MB] NUEVA REQUEST CREAR FIRMA
+[2026-01-07 20:24:18][MEM: 0.36MB] ========================================
+[2026-01-07 20:24:18][MEM: 0.36MB] IP: 181.236.101.252
+[2026-01-07 20:24:18][MEM: 0.36MB] Método: POST
+[2026-01-07 20:24:18][MEM: 0.36MB] URI: /API_Infoapp/firma/crear_firma.php
+[2026-01-07 20:24:18][MEM: 0.36MB] auth_middleware cargado
+[2026-01-07 20:24:18][MEM: 0.36MB] Usuario autenticado: colaborador (ID: 21)
+[2026-01-07 20:24:18][MEM: 0.36MB] Acceso registrado
+[2026-01-07 20:24:18][MEM: 0.36MB] Requiriendo conexión...
+[2026-01-07 20:24:18][MEM: 0.4MB] conexion.php cargado
+[2026-01-07 20:24:18][MEM: 0.41MB] Raw input length: 6996
+[2026-01-07 20:24:18][MEM: 0.42MB] JSON decodificado correctamente
+[2026-01-07 20:24:18][MEM: 0.42MB] Variables extraídas:
+[2026-01-07 20:24:18][MEM: 0.42MB]    id_servicio: 168
+[2026-01-07 20:24:18][MEM: 0.42MB]    id_staff_entrega: 26
+[2026-01-07 20:24:18][MEM: 0.42MB]    id_funcionario_recibe: 15
+[2026-01-07 20:24:18][MEM: 0.42MB]    firma_staff_base64 length: 3718
+[2026-01-07 20:24:18][MEM: 0.42MB]    firma_funcionario_base64 length: 3074
+[2026-01-07 20:24:18][MEM: 0.42MB]    nota_entrega: NULL
+[2026-01-07 20:24:18][MEM: 0.42MB]    nota_recepcion: NULL
+[2026-01-07 20:24:18][MEM: 0.42MB] Validación de campos obligatorios OK
+[2026-01-07 20:24:18][MEM: 0.42MB] Validando servicio ID: 168
+[2026-01-07 20:24:18][MEM: 0.45MB] Servicio encontrado - o_servicio: 1152
+[2026-01-07 20:24:18][MEM: 0.45MB] Validando usuario (staff_entrega) ID: 26
+[2026-01-07 20:24:18][MEM: 0.45MB] Usuario (staff_entrega) encontrado: prueba4
+[2026-01-07 20:24:18][MEM: 0.45MB] Validando funcionario (funcionario_recibe) ID: 15
+[2026-01-07 20:24:18][MEM: 0.45MB] Funcionario (funcionario_recibe) encontrado: ANDRES PRUEBAS
+[2026-01-07 20:24:18][MEM: 0.45MB] Verificando firmas existentes para servicio: 168
+[2026-01-07 20:24:18][MEM: 0.45MB] No hay firmas previas para este servicio
+[2026-01-07 20:24:18][MEM: 0.45MB] SQL preparado
+[2026-01-07 20:24:18][MEM: 0.45MB] Preparando statement...
+[2026-01-07 20:24:18][MEM: 0.44MB] Statement preparado correctamente
+[2026-01-07 20:24:18][MEM: 0.44MB] Binding params con tipo: iiisssss (8 params)
+[2026-01-07 20:24:18][MEM: 0.44MB] Parámetros a bindear:
+[2026-01-07 20:24:18][MEM: 0.44MB]    1. id_servicio (i): 168
+[2026-01-07 20:24:18][MEM: 0.44MB]    2. id_staff_entrega (i): 26
+[2026-01-07 20:24:18][MEM: 0.44MB]    3. id_funcionario_recibe (i): 15
+[2026-01-07 20:24:18][MEM: 0.44MB]    4. firma_staff_base64 (s): 3718 chars
+[2026-01-07 20:24:18][MEM: 0.44MB]    5. firma_funcionario_base64 (s): 3074 chars
+[2026-01-07 20:24:18][MEM: 0.44MB]    6. nota_entrega (s): NULL
+[2026-01-07 20:24:18][MEM: 0.44MB]    7. nota_recepcion (s): NULL
+[2026-01-07 20:24:18][MEM: 0.44MB]    8. participantes_servicio (s): NULL
+[2026-01-07 20:24:18][MEM: 0.44MB] bind_param resultado: TRUE
+[2026-01-07 20:24:18][MEM: 0.44MB] Bind exitoso
+[2026-01-07 20:24:18][MEM: 0.44MB] Ejecutando INSERT...
+[2026-01-07 20:24:18][MEM: 0.44MB] EXCEPTION CAPTURADA
+[2026-01-07 20:24:18][MEM: 0.44MB] Mensaje: Cannot add or update a child row: a foreign key constraint fails (`u342171239_InfoApp_Test`.`firmas`, CONSTRAINT `fk_firmas_to_staff` FOREIGN KEY (`id_staff_entrega`) REFERENCES `staff` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+[2026-01-07 20:24:18][MEM: 0.44MB] Archivo: /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/crear_firma.php
+[2026-01-07 20:24:18][MEM: 0.44MB] Línea: 250
+[2026-01-07 20:24:18][MEM: 0.44MB] Trace: #0 /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/crear_firma.php(250): mysqli_stmt->execute()
+#1 {main}
+[2026-01-07 20:24:18][MEM: 0.44MB] Enviando error response...
+[2026-01-07 20:26:14][MEM: 0.35MB] Petición OPTIONS - Respondiendo con headers CORS
+[2026-01-07 20:26:14][MEM: 0.36MB] ========================================
+[2026-01-07 20:26:14][MEM: 0.36MB] NUEVA REQUEST CREAR FIRMA
+[2026-01-07 20:26:14][MEM: 0.36MB] ========================================
+[2026-01-07 20:26:14][MEM: 0.36MB] IP: 181.236.101.252
+[2026-01-07 20:26:14][MEM: 0.36MB] Método: POST
+[2026-01-07 20:26:14][MEM: 0.36MB] URI: /API_Infoapp/firma/crear_firma.php
+[2026-01-07 20:26:14][MEM: 0.36MB] auth_middleware cargado
+[2026-01-07 20:26:14][MEM: 0.37MB] Usuario autenticado: colaborador (ID: 21)
+[2026-01-07 20:26:14][MEM: 0.37MB] Acceso registrado
+[2026-01-07 20:26:14][MEM: 0.37MB] Requiriendo conexión...
+[2026-01-07 20:26:14][MEM: 0.41MB] conexion.php cargado
+[2026-01-07 20:26:14][MEM: 0.42MB] Raw input length: 9603
+[2026-01-07 20:26:14][MEM: 0.43MB] JSON decodificado correctamente
+[2026-01-07 20:26:14][MEM: 0.43MB] Variables extraídas:
+[2026-01-07 20:26:14][MEM: 0.43MB]    id_servicio: 168
+[2026-01-07 20:26:14][MEM: 0.43MB]    id_staff_entrega: 24
+[2026-01-07 20:26:14][MEM: 0.43MB]    id_funcionario_recibe: 4
+[2026-01-07 20:26:14][MEM: 0.43MB]    firma_staff_base64 length: 4314
+[2026-01-07 20:26:14][MEM: 0.43MB]    firma_funcionario_base64 length: 5086
+[2026-01-07 20:26:14][MEM: 0.43MB]    nota_entrega: NULL
+[2026-01-07 20:26:14][MEM: 0.43MB]    nota_recepcion: NULL
+[2026-01-07 20:26:14][MEM: 0.43MB] Validación de campos obligatorios OK
+[2026-01-07 20:26:14][MEM: 0.43MB] Validando servicio ID: 168
+[2026-01-07 20:26:14][MEM: 0.47MB] Servicio encontrado - o_servicio: 1152
+[2026-01-07 20:26:14][MEM: 0.47MB] Validando usuario (staff_entrega) ID: 24
+[2026-01-07 20:26:14][MEM: 0.47MB] Usuario (staff_entrega) encontrado: nuevo_usuario
+[2026-01-07 20:26:14][MEM: 0.47MB] Validando funcionario (funcionario_recibe) ID: 4
+[2026-01-07 20:26:14][MEM: 0.47MB] Funcionario (funcionario_recibe) encontrado: alexa altamar g
+[2026-01-07 20:26:14][MEM: 0.47MB] Verificando firmas existentes para servicio: 168
+[2026-01-07 20:26:14][MEM: 0.47MB] No hay firmas previas para este servicio
+[2026-01-07 20:26:14][MEM: 0.47MB] SQL preparado
+[2026-01-07 20:26:14][MEM: 0.47MB] Preparando statement...
+[2026-01-07 20:26:14][MEM: 0.46MB] Statement preparado correctamente
+[2026-01-07 20:26:14][MEM: 0.46MB] Binding params con tipo: iiisssss (8 params)
+[2026-01-07 20:26:14][MEM: 0.46MB] Parámetros a bindear:
+[2026-01-07 20:26:14][MEM: 0.46MB]    1. id_servicio (i): 168
+[2026-01-07 20:26:14][MEM: 0.46MB]    2. id_staff_entrega (i): 24
+[2026-01-07 20:26:14][MEM: 0.46MB]    3. id_funcionario_recibe (i): 4
+[2026-01-07 20:26:14][MEM: 0.46MB]    4. firma_staff_base64 (s): 4314 chars
+[2026-01-07 20:26:14][MEM: 0.46MB]    5. firma_funcionario_base64 (s): 5086 chars
+[2026-01-07 20:26:14][MEM: 0.46MB]    6. nota_entrega (s): NULL
+[2026-01-07 20:26:14][MEM: 0.46MB]    7. nota_recepcion (s): NULL
+[2026-01-07 20:26:14][MEM: 0.46MB]    8. participantes_servicio (s): NULL
+[2026-01-07 20:26:14][MEM: 0.46MB] bind_param resultado: TRUE
+[2026-01-07 20:26:14][MEM: 0.46MB] Bind exitoso
+[2026-01-07 20:26:14][MEM: 0.46MB] Ejecutando INSERT...
+[2026-01-07 20:26:14][MEM: 0.46MB] INSERT EXITOSO!
+[2026-01-07 20:26:14][MEM: 0.46MB] Firma creada con ID: 22
+[2026-01-07 20:26:14][MEM: 0.46MB] Preparando respuesta JSON...
+[2026-01-07 20:26:14][MEM: 0.46MB] Respuesta preparada (size: 305 bytes)
+[2026-01-07 20:26:14][MEM: 0.46MB] Enviando respuesta JSON...
+[2026-01-07 20:28:08][MEM: 0.36MB] ========================================
+[2026-01-07 20:28:08][MEM: 0.36MB] NUEVA REQUEST CREAR FIRMA
+[2026-01-07 20:28:08][MEM: 0.36MB] ========================================
+[2026-01-07 20:28:08][MEM: 0.36MB] IP: 181.236.101.252
+[2026-01-07 20:28:08][MEM: 0.36MB] Método: POST
+[2026-01-07 20:28:08][MEM: 0.36MB] URI: /API_Infoapp/firma/crear_firma.php
+[2026-01-07 20:28:08][MEM: 0.36MB] auth_middleware cargado
+[2026-01-07 20:28:08][MEM: 0.36MB] Usuario autenticado: colaborador (ID: 21)
+[2026-01-07 20:28:08][MEM: 0.36MB] Acceso registrado
+[2026-01-07 20:28:08][MEM: 0.36MB] Requiriendo conexión...
+[2026-01-07 20:28:08][MEM: 0.4MB] conexion.php cargado
+[2026-01-07 20:28:08][MEM: 0.42MB] Raw input length: 8211
+[2026-01-07 20:28:08][MEM: 0.43MB] JSON decodificado correctamente
+[2026-01-07 20:28:08][MEM: 0.43MB] Variables extraídas:
+[2026-01-07 20:28:08][MEM: 0.43MB]    id_servicio: 151
+[2026-01-07 20:28:08][MEM: 0.43MB]    id_staff_entrega: 26
+[2026-01-07 20:28:08][MEM: 0.43MB]    id_funcionario_recibe: 20
+[2026-01-07 20:28:08][MEM: 0.43MB]    firma_staff_base64 length: 4514
+[2026-01-07 20:28:08][MEM: 0.43MB]    firma_funcionario_base64 length: 3482
+[2026-01-07 20:28:08][MEM: 0.43MB]    nota_entrega: móvil 
+[2026-01-07 20:28:08][MEM: 0.43MB]    nota_recepcion: móvil,2
+[2026-01-07 20:28:08][MEM: 0.43MB] Validación de campos obligatorios OK
+[2026-01-07 20:28:08][MEM: 0.43MB] Validando servicio ID: 151
+[2026-01-07 20:28:08][MEM: 0.47MB] Servicio encontrado - o_servicio: 1135
+[2026-01-07 20:28:08][MEM: 0.47MB] Validando usuario (staff_entrega) ID: 26
+[2026-01-07 20:28:08][MEM: 0.47MB] Usuario (staff_entrega) encontrado: prueba4
+[2026-01-07 20:28:08][MEM: 0.47MB] Validando funcionario (funcionario_recibe) ID: 20
+[2026-01-07 20:28:08][MEM: 0.47MB] Funcionario (funcionario_recibe) encontrado: Pedro Perez
+[2026-01-07 20:28:08][MEM: 0.47MB] Verificando firmas existentes para servicio: 151
+[2026-01-07 20:28:08][MEM: 0.47MB] No hay firmas previas para este servicio
+[2026-01-07 20:28:08][MEM: 0.47MB] SQL preparado
+[2026-01-07 20:28:08][MEM: 0.47MB] Preparando statement...
+[2026-01-07 20:28:08][MEM: 0.45MB] Statement preparado correctamente
+[2026-01-07 20:28:08][MEM: 0.45MB] Binding params con tipo: iiisssss (8 params)
+[2026-01-07 20:28:08][MEM: 0.45MB] Parámetros a bindear:
+[2026-01-07 20:28:08][MEM: 0.45MB]    1. id_servicio (i): 151
+[2026-01-07 20:28:08][MEM: 0.45MB]    2. id_staff_entrega (i): 26
+[2026-01-07 20:28:08][MEM: 0.45MB]    3. id_funcionario_recibe (i): 20
+[2026-01-07 20:28:08][MEM: 0.45MB]    4. firma_staff_base64 (s): 4514 chars
+[2026-01-07 20:28:08][MEM: 0.45MB]    5. firma_funcionario_base64 (s): 3482 chars
+[2026-01-07 20:28:08][MEM: 0.45MB]    6. nota_entrega (s): móvil 
+[2026-01-07 20:28:08][MEM: 0.45MB]    7. nota_recepcion (s): móvil,2
+[2026-01-07 20:28:08][MEM: 0.45MB]    8. participantes_servicio (s): NULL
+[2026-01-07 20:28:08][MEM: 0.45MB] bind_param resultado: TRUE
+[2026-01-07 20:28:08][MEM: 0.45MB] Bind exitoso
+[2026-01-07 20:28:08][MEM: 0.45MB] Ejecutando INSERT...
+[2026-01-07 20:28:08][MEM: 0.45MB] EXCEPTION CAPTURADA
+[2026-01-07 20:28:08][MEM: 0.45MB] Mensaje: Cannot add or update a child row: a foreign key constraint fails (`u342171239_InfoApp_Test`.`firmas`, CONSTRAINT `fk_firmas_to_staff` FOREIGN KEY (`id_staff_entrega`) REFERENCES `staff` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+[2026-01-07 20:28:08][MEM: 0.45MB] Archivo: /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/crear_firma.php
+[2026-01-07 20:28:08][MEM: 0.45MB] Línea: 250
+[2026-01-07 20:28:08][MEM: 0.45MB] Trace: #0 /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/crear_firma.php(250): mysqli_stmt->execute()
+#1 {main}
+[2026-01-07 20:28:08][MEM: 0.45MB] Enviando error response...
+[2026-01-07 20:28:33][MEM: 0.36MB] ========================================
+[2026-01-07 20:28:33][MEM: 0.36MB] NUEVA REQUEST CREAR FIRMA
+[2026-01-07 20:28:33][MEM: 0.36MB] ========================================
+[2026-01-07 20:28:33][MEM: 0.36MB] IP: 181.236.101.252
+[2026-01-07 20:28:33][MEM: 0.36MB] Método: POST
+[2026-01-07 20:28:33][MEM: 0.36MB] URI: /API_Infoapp/firma/crear_firma.php
+[2026-01-07 20:28:33][MEM: 0.36MB] auth_middleware cargado
+[2026-01-07 20:28:33][MEM: 0.36MB] Usuario autenticado: colaborador (ID: 21)
+[2026-01-07 20:28:33][MEM: 0.36MB] Acceso registrado
+[2026-01-07 20:28:33][MEM: 0.36MB] Requiriendo conexión...
+[2026-01-07 20:28:33][MEM: 0.4MB] conexion.php cargado
+[2026-01-07 20:28:33][MEM: 0.42MB] Raw input length: 8211
+[2026-01-07 20:28:33][MEM: 0.43MB] JSON decodificado correctamente
+[2026-01-07 20:28:33][MEM: 0.43MB] Variables extraídas:
+[2026-01-07 20:28:33][MEM: 0.43MB]    id_servicio: 151
+[2026-01-07 20:28:33][MEM: 0.43MB]    id_staff_entrega: 26
+[2026-01-07 20:28:33][MEM: 0.43MB]    id_funcionario_recibe: 20
+[2026-01-07 20:28:33][MEM: 0.43MB]    firma_staff_base64 length: 4514
+[2026-01-07 20:28:33][MEM: 0.43MB]    firma_funcionario_base64 length: 3482
+[2026-01-07 20:28:33][MEM: 0.43MB]    nota_entrega: móvil 
+[2026-01-07 20:28:33][MEM: 0.43MB]    nota_recepcion: móvil,2
+[2026-01-07 20:28:33][MEM: 0.43MB] Validación de campos obligatorios OK
+[2026-01-07 20:28:33][MEM: 0.43MB] Validando servicio ID: 151
+[2026-01-07 20:28:33][MEM: 0.47MB] Servicio encontrado - o_servicio: 1135
+[2026-01-07 20:28:33][MEM: 0.47MB] Validando usuario (staff_entrega) ID: 26
+[2026-01-07 20:28:33][MEM: 0.47MB] Usuario (staff_entrega) encontrado: prueba4
+[2026-01-07 20:28:33][MEM: 0.47MB] Validando funcionario (funcionario_recibe) ID: 20
+[2026-01-07 20:28:33][MEM: 0.47MB] Funcionario (funcionario_recibe) encontrado: Pedro Perez
+[2026-01-07 20:28:33][MEM: 0.47MB] Verificando firmas existentes para servicio: 151
+[2026-01-07 20:28:33][MEM: 0.47MB] No hay firmas previas para este servicio
+[2026-01-07 20:28:33][MEM: 0.47MB] SQL preparado
+[2026-01-07 20:28:33][MEM: 0.47MB] Preparando statement...
+[2026-01-07 20:28:33][MEM: 0.45MB] Statement preparado correctamente
+[2026-01-07 20:28:33][MEM: 0.45MB] Binding params con tipo: iiisssss (8 params)
+[2026-01-07 20:28:33][MEM: 0.45MB] Parámetros a bindear:
+[2026-01-07 20:28:33][MEM: 0.45MB]    1. id_servicio (i): 151
+[2026-01-07 20:28:33][MEM: 0.45MB]    2. id_staff_entrega (i): 26
+[2026-01-07 20:28:33][MEM: 0.45MB]    3. id_funcionario_recibe (i): 20
+[2026-01-07 20:28:33][MEM: 0.45MB]    4. firma_staff_base64 (s): 4514 chars
+[2026-01-07 20:28:33][MEM: 0.45MB]    5. firma_funcionario_base64 (s): 3482 chars
+[2026-01-07 20:28:33][MEM: 0.45MB]    6. nota_entrega (s): móvil 
+[2026-01-07 20:28:33][MEM: 0.45MB]    7. nota_recepcion (s): móvil,2
+[2026-01-07 20:28:33][MEM: 0.45MB]    8. participantes_servicio (s): NULL
+[2026-01-07 20:28:33][MEM: 0.45MB] bind_param resultado: TRUE
+[2026-01-07 20:28:33][MEM: 0.45MB] Bind exitoso
+[2026-01-07 20:28:33][MEM: 0.45MB] Ejecutando INSERT...
+[2026-01-07 20:28:33][MEM: 0.45MB] EXCEPTION CAPTURADA
+[2026-01-07 20:28:33][MEM: 0.45MB] Mensaje: Cannot add or update a child row: a foreign key constraint fails (`u342171239_InfoApp_Test`.`firmas`, CONSTRAINT `fk_firmas_to_staff` FOREIGN KEY (`id_staff_entrega`) REFERENCES `staff` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+[2026-01-07 20:28:33][MEM: 0.45MB] Archivo: /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/crear_firma.php
+[2026-01-07 20:28:33][MEM: 0.45MB] Línea: 250
+[2026-01-07 20:28:33][MEM: 0.45MB] Trace: #0 /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/crear_firma.php(250): mysqli_stmt->execute()
+#1 {main}
+[2026-01-07 20:28:33][MEM: 0.45MB] Enviando error response...
+[2026-01-07 20:30:58][MEM: 0.35MB] ========================================
+[2026-01-07 20:30:58][MEM: 0.35MB] NUEVA REQUEST CREAR FIRMA
+[2026-01-07 20:30:58][MEM: 0.35MB] ========================================
+[2026-01-07 20:30:58][MEM: 0.35MB] IP: 181.236.101.252
+[2026-01-07 20:30:58][MEM: 0.35MB] Método: POST
+[2026-01-07 20:30:58][MEM: 0.35MB] URI: /API_Infoapp/firma/crear_firma.php
+[2026-01-07 20:30:58][MEM: 0.35MB] auth_middleware cargado
+[2026-01-07 20:30:58][MEM: 0.35MB] Usuario autenticado: colaborador (ID: 21)
+[2026-01-07 20:30:58][MEM: 0.35MB] Acceso registrado
+[2026-01-07 20:30:58][MEM: 0.35MB] Requiriendo conexión...
+[2026-01-07 20:30:58][MEM: 0.39MB] conexion.php cargado
+[2026-01-07 20:30:58][MEM: 0.45MB] Raw input length: 45791
+[2026-01-07 20:30:58][MEM: 0.5MB] JSON decodificado correctamente
+[2026-01-07 20:30:58][MEM: 0.5MB] Variables extraídas:
+[2026-01-07 20:30:58][MEM: 0.5MB]    id_servicio: 151
+[2026-01-07 20:30:58][MEM: 0.5MB]    id_staff_entrega: 24
+[2026-01-07 20:30:58][MEM: 0.5MB]    id_funcionario_recibe: 7
+[2026-01-07 20:30:58][MEM: 0.5MB]    firma_staff_base64 length: 29018
+[2026-01-07 20:30:58][MEM: 0.5MB]    firma_funcionario_base64 length: 16554
+[2026-01-07 20:30:58][MEM: 0.5MB]    nota_entrega: prueba web
+[2026-01-07 20:30:58][MEM: 0.5MB]    nota_recepcion: prueba web
+[2026-01-07 20:30:58][MEM: 0.5MB] Validación de campos obligatorios OK
+[2026-01-07 20:30:58][MEM: 0.5MB] Validando servicio ID: 151
+[2026-01-07 20:30:58][MEM: 0.54MB] Servicio encontrado - o_servicio: 1135
+[2026-01-07 20:30:58][MEM: 0.54MB] Validando usuario (staff_entrega) ID: 24
+[2026-01-07 20:30:58][MEM: 0.54MB] Usuario (staff_entrega) encontrado: nuevo_usuario
+[2026-01-07 20:30:58][MEM: 0.54MB] Validando funcionario (funcionario_recibe) ID: 7
+[2026-01-07 20:30:58][MEM: 0.54MB] Funcionario (funcionario_recibe) encontrado: pepe perez p
+[2026-01-07 20:30:58][MEM: 0.54MB] Verificando firmas existentes para servicio: 151
+[2026-01-07 20:30:58][MEM: 0.54MB] No hay firmas previas para este servicio
+[2026-01-07 20:30:58][MEM: 0.54MB] SQL preparado
+[2026-01-07 20:30:58][MEM: 0.54MB] Preparando statement...
+[2026-01-07 20:30:58][MEM: 0.52MB] Statement preparado correctamente
+[2026-01-07 20:30:58][MEM: 0.52MB] Binding params con tipo: iiisssss (8 params)
+[2026-01-07 20:30:58][MEM: 0.52MB] Parámetros a bindear:
+[2026-01-07 20:30:58][MEM: 0.52MB]    1. id_servicio (i): 151
+[2026-01-07 20:30:58][MEM: 0.52MB]    2. id_staff_entrega (i): 24
+[2026-01-07 20:30:58][MEM: 0.52MB]    3. id_funcionario_recibe (i): 7
+[2026-01-07 20:30:58][MEM: 0.52MB]    4. firma_staff_base64 (s): 29018 chars
+[2026-01-07 20:30:58][MEM: 0.52MB]    5. firma_funcionario_base64 (s): 16554 chars
+[2026-01-07 20:30:58][MEM: 0.52MB]    6. nota_entrega (s): prueba web
+[2026-01-07 20:30:58][MEM: 0.52MB]    7. nota_recepcion (s): prueba web
+[2026-01-07 20:30:58][MEM: 0.52MB]    8. participantes_servicio (s): NULL
+[2026-01-07 20:30:58][MEM: 0.52MB] bind_param resultado: TRUE
+[2026-01-07 20:30:58][MEM: 0.52MB] Bind exitoso
+[2026-01-07 20:30:58][MEM: 0.52MB] Ejecutando INSERT...
+[2026-01-07 20:30:58][MEM: 0.52MB] INSERT EXITOSO!
+[2026-01-07 20:30:58][MEM: 0.52MB] Firma creada con ID: 25
+[2026-01-07 20:30:58][MEM: 0.52MB] Preparando respuesta JSON...
+[2026-01-07 20:30:58][MEM: 0.53MB] Respuesta preparada (size: 318 bytes)
+[2026-01-07 20:30:58][MEM: 0.53MB] Enviando respuesta JSON...
+[2026-01-07 20:32:39][MEM: 0.36MB] ========================================
+[2026-01-07 20:32:39][MEM: 0.36MB] NUEVA REQUEST CREAR FIRMA
+[2026-01-07 20:32:39][MEM: 0.36MB] ========================================
+[2026-01-07 20:32:39][MEM: 0.36MB] IP: 181.236.101.252
+[2026-01-07 20:32:39][MEM: 0.36MB] Método: POST
+[2026-01-07 20:32:39][MEM: 0.36MB] URI: /API_Infoapp/firma/crear_firma.php
+[2026-01-07 20:32:39][MEM: 0.36MB] auth_middleware cargado
+[2026-01-07 20:32:39][MEM: 0.36MB] Usuario autenticado: colaborador (ID: 21)
+[2026-01-07 20:32:39][MEM: 0.36MB] Acceso registrado
+[2026-01-07 20:32:39][MEM: 0.36MB] Requiriendo conexión...
+[2026-01-07 20:32:39][MEM: 0.4MB] conexion.php cargado
+[2026-01-07 20:32:39][MEM: 0.41MB] Raw input length: 7726
+[2026-01-07 20:32:39][MEM: 0.42MB] JSON decodificado correctamente
+[2026-01-07 20:32:39][MEM: 0.42MB] Variables extraídas:
+[2026-01-07 20:32:39][MEM: 0.42MB]    id_servicio: 129
+[2026-01-07 20:32:39][MEM: 0.42MB]    id_staff_entrega: 26
+[2026-01-07 20:32:39][MEM: 0.42MB]    id_funcionario_recibe: 14
+[2026-01-07 20:32:39][MEM: 0.42MB]    firma_staff_base64 length: 4114
+[2026-01-07 20:32:39][MEM: 0.42MB]    firma_funcionario_base64 length: 3402
+[2026-01-07 20:32:39][MEM: 0.42MB]    nota_entrega: ok movil
+[2026-01-07 20:32:39][MEM: 0.42MB]    nota_recepcion: ok
+[2026-01-07 20:32:39][MEM: 0.42MB] Validación de campos obligatorios OK
+[2026-01-07 20:32:39][MEM: 0.42MB] Validando servicio ID: 129
+[2026-01-07 20:32:39][MEM: 0.46MB] Servicio encontrado - o_servicio: 1113
+[2026-01-07 20:32:39][MEM: 0.46MB] Validando usuario (staff_entrega) ID: 26
+[2026-01-07 20:32:39][MEM: 0.46MB] Usuario (staff_entrega) encontrado: prueba4
+[2026-01-07 20:32:39][MEM: 0.46MB] Validando funcionario (funcionario_recibe) ID: 14
+[2026-01-07 20:32:39][MEM: 0.46MB] Funcionario (funcionario_recibe) encontrado: DIEGO REALPE SUAREZ
+[2026-01-07 20:32:39][MEM: 0.46MB] Verificando firmas existentes para servicio: 129
+[2026-01-07 20:32:39][MEM: 0.46MB] No hay firmas previas para este servicio
+[2026-01-07 20:32:39][MEM: 0.46MB] SQL preparado
+[2026-01-07 20:32:39][MEM: 0.46MB] Preparando statement...
+[2026-01-07 20:32:39][MEM: 0.44MB] Statement preparado correctamente
+[2026-01-07 20:32:39][MEM: 0.44MB] Binding params con tipo: iiisssss (8 params)
+[2026-01-07 20:32:39][MEM: 0.44MB] Parámetros a bindear:
+[2026-01-07 20:32:39][MEM: 0.44MB]    1. id_servicio (i): 129
+[2026-01-07 20:32:39][MEM: 0.44MB]    2. id_staff_entrega (i): 26
+[2026-01-07 20:32:39][MEM: 0.44MB]    3. id_funcionario_recibe (i): 14
+[2026-01-07 20:32:39][MEM: 0.44MB]    4. firma_staff_base64 (s): 4114 chars
+[2026-01-07 20:32:39][MEM: 0.44MB]    5. firma_funcionario_base64 (s): 3402 chars
+[2026-01-07 20:32:39][MEM: 0.44MB]    6. nota_entrega (s): ok movil
+[2026-01-07 20:32:39][MEM: 0.44MB]    7. nota_recepcion (s): ok
+[2026-01-07 20:32:39][MEM: 0.44MB]    8. participantes_servicio (s): NULL
+[2026-01-07 20:32:39][MEM: 0.44MB] bind_param resultado: TRUE
+[2026-01-07 20:32:39][MEM: 0.44MB] Bind exitoso
+[2026-01-07 20:32:39][MEM: 0.44MB] Ejecutando INSERT...
+[2026-01-07 20:32:39][MEM: 0.44MB] EXCEPTION CAPTURADA
+[2026-01-07 20:32:39][MEM: 0.44MB] Mensaje: Cannot add or update a child row: a foreign key constraint fails (`u342171239_InfoApp_Test`.`firmas`, CONSTRAINT `fk_firmas_to_staff` FOREIGN KEY (`id_staff_entrega`) REFERENCES `staff` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+[2026-01-07 20:32:39][MEM: 0.44MB] Archivo: /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/crear_firma.php
+[2026-01-07 20:32:39][MEM: 0.44MB] Línea: 250
+[2026-01-07 20:32:39][MEM: 0.44MB] Trace: #0 /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/crear_firma.php(250): mysqli_stmt->execute()
+#1 {main}
+[2026-01-07 20:32:39][MEM: 0.44MB] Enviando error response...
+[2026-01-07 20:43:37][MEM: 0.37MB] ========================================
+[2026-01-07 20:43:37][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2026-01-07 20:43:37][MEM: 0.38MB] ========================================
+[2026-01-07 20:43:37][MEM: 0.38MB] IP: 181.236.101.252
+[2026-01-07 20:43:37][MEM: 0.38MB] Método: POST
+[2026-01-07 20:43:37][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2026-01-07 20:43:37][MEM: 0.38MB] auth_middleware cargado
+[2026-01-07 20:43:37][MEM: 0.38MB] Usuario autenticado: colaborador (ID: 21)
+[2026-01-07 20:43:37][MEM: 0.38MB] Acceso registrado
+[2026-01-07 20:43:37][MEM: 0.38MB] Requiriendo conexión...
+[2026-01-07 20:43:37][MEM: 0.42MB] conexion.php cargado
+[2026-01-07 20:43:37][MEM: 0.43MB] Raw input length: 7270
+[2026-01-07 20:43:37][MEM: 0.43MB] JSON decodificado correctamente
+[2026-01-07 20:43:37][MEM: 0.43MB] Variables extraídas:
+[2026-01-07 20:43:37][MEM: 0.43MB]    id_servicio: 81
+[2026-01-07 20:43:37][MEM: 0.43MB]    id_staff_entrega: 26
+[2026-01-07 20:43:37][MEM: 0.43MB]    id_funcionario_recibe: 4
+[2026-01-07 20:43:37][MEM: 0.43MB]    firma_staff_base64 length: 3430
+[2026-01-07 20:43:37][MEM: 0.43MB]    firma_funcionario_base64 length: 3638
+[2026-01-07 20:43:37][MEM: 0.43MB]    nota_entrega: ok
+[2026-01-07 20:43:37][MEM: 0.43MB]    nota_recepcion: ok
+[2026-01-07 20:43:37][MEM: 0.43MB] Validación de campos obligatorios OK
+[2026-01-07 20:43:37][MEM: 0.43MB] Validando servicio ID: 81
+[2026-01-07 20:43:37][MEM: 0.47MB] Servicio encontrado - o_servicio: 1065
+[2026-01-07 20:43:37][MEM: 0.47MB] Validando usuario (staff_entrega) ID: 26
+[2026-01-07 20:43:37][MEM: 0.47MB] Usuario (staff_entrega) encontrado: prueba4
+[2026-01-07 20:43:37][MEM: 0.47MB] Validando funcionario (funcionario_recibe) ID: 4
+[2026-01-07 20:43:37][MEM: 0.47MB] Funcionario (funcionario_recibe) encontrado: alexa altamar g
+[2026-01-07 20:43:37][MEM: 0.47MB] Verificando firmas existentes para servicio: 81
+[2026-01-07 20:43:37][MEM: 0.47MB] No hay firmas previas para este servicio
+[2026-01-07 20:43:37][MEM: 0.47MB] SQL preparado
+[2026-01-07 20:43:37][MEM: 0.47MB] Preparando statement...
+[2026-01-07 20:43:37][MEM: 0.46MB] Statement preparado correctamente
+[2026-01-07 20:43:37][MEM: 0.46MB] Binding params con tipo: iiisssss (8 params)
+[2026-01-07 20:43:37][MEM: 0.46MB] Parámetros a bindear:
+[2026-01-07 20:43:37][MEM: 0.46MB]    1. id_servicio (i): 81
+[2026-01-07 20:43:37][MEM: 0.46MB]    2. id_staff_entrega (i): 26
+[2026-01-07 20:43:37][MEM: 0.46MB]    3. id_funcionario_recibe (i): 4
+[2026-01-07 20:43:37][MEM: 0.46MB]    4. firma_staff_base64 (s): 3430 chars
+[2026-01-07 20:43:37][MEM: 0.46MB]    5. firma_funcionario_base64 (s): 3638 chars
+[2026-01-07 20:43:37][MEM: 0.46MB]    6. nota_entrega (s): ok
+[2026-01-07 20:43:37][MEM: 0.46MB]    7. nota_recepcion (s): ok
+[2026-01-07 20:43:37][MEM: 0.46MB]    8. participantes_servicio (s): NULL
+[2026-01-07 20:43:37][MEM: 0.46MB] bind_param resultado: TRUE
+[2026-01-07 20:43:37][MEM: 0.46MB] Bind exitoso
+[2026-01-07 20:43:37][MEM: 0.46MB] Ejecutando INSERT...
+[2026-01-07 20:43:37][MEM: 0.46MB] EXCEPTION CAPTURADA
+[2026-01-07 20:43:37][MEM: 0.46MB] Mensaje: Cannot add or update a child row: a foreign key constraint fails (`u342171239_InfoApp_Test`.`firmas`, CONSTRAINT `fk_firmas_to_staff` FOREIGN KEY (`id_staff_entrega`) REFERENCES `staff` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+[2026-01-07 20:43:37][MEM: 0.46MB] Archivo: /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/crear_firma.php
+[2026-01-07 20:43:37][MEM: 0.46MB] Línea: 250
+[2026-01-07 20:43:37][MEM: 0.46MB] Trace: #0 /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/crear_firma.php(250): mysqli_stmt->execute()
+#1 {main}
+[2026-01-07 20:43:37][MEM: 0.46MB] Enviando error response...
+[2026-01-07 20:45:13][MEM: 0.35MB] ========================================
+[2026-01-07 20:45:13][MEM: 0.35MB] NUEVA REQUEST CREAR FIRMA
+[2026-01-07 20:45:13][MEM: 0.35MB] ========================================
+[2026-01-07 20:45:13][MEM: 0.35MB] IP: 181.236.101.252
+[2026-01-07 20:45:13][MEM: 0.35MB] Método: POST
+[2026-01-07 20:45:13][MEM: 0.35MB] URI: /API_Infoapp/firma/crear_firma.php
+[2026-01-07 20:45:13][MEM: 0.35MB] auth_middleware cargado
+[2026-01-07 20:45:13][MEM: 0.35MB] Usuario autenticado: colaborador (ID: 21)
+[2026-01-07 20:45:13][MEM: 0.35MB] Acceso registrado
+[2026-01-07 20:45:13][MEM: 0.35MB] Requiriendo conexión...
+[2026-01-07 20:45:13][MEM: 0.39MB] conexion.php cargado
+[2026-01-07 20:45:13][MEM: 0.42MB] Raw input length: 17168
+[2026-01-07 20:45:13][MEM: 0.44MB] JSON decodificado correctamente
+[2026-01-07 20:45:13][MEM: 0.44MB] Variables extraídas:
+[2026-01-07 20:45:13][MEM: 0.44MB]    id_servicio: 81
+[2026-01-07 20:45:13][MEM: 0.44MB]    id_staff_entrega: 26
+[2026-01-07 20:45:13][MEM: 0.44MB]    id_funcionario_recibe: 4
+[2026-01-07 20:45:13][MEM: 0.44MB]    firma_staff_base64 length: 9702
+[2026-01-07 20:45:13][MEM: 0.44MB]    firma_funcionario_base64 length: 7262
+[2026-01-07 20:45:13][MEM: 0.44MB]    nota_entrega: NULL
+[2026-01-07 20:45:13][MEM: 0.44MB]    nota_recepcion: okis
+[2026-01-07 20:45:13][MEM: 0.44MB] Validación de campos obligatorios OK
+[2026-01-07 20:45:13][MEM: 0.44MB] Validando servicio ID: 81
+[2026-01-07 20:45:13][MEM: 0.48MB] Servicio encontrado - o_servicio: 1065
+[2026-01-07 20:45:13][MEM: 0.48MB] Validando usuario (staff_entrega) ID: 26
+[2026-01-07 20:45:13][MEM: 0.48MB] Usuario (staff_entrega) encontrado: prueba4
+[2026-01-07 20:45:13][MEM: 0.48MB] Validando funcionario (funcionario_recibe) ID: 4
+[2026-01-07 20:45:13][MEM: 0.48MB] Funcionario (funcionario_recibe) encontrado: alexa altamar g
+[2026-01-07 20:45:13][MEM: 0.48MB] Verificando firmas existentes para servicio: 81
+[2026-01-07 20:45:13][MEM: 0.48MB] No hay firmas previas para este servicio
+[2026-01-07 20:45:13][MEM: 0.48MB] SQL preparado
+[2026-01-07 20:45:13][MEM: 0.48MB] Preparando statement...
+[2026-01-07 20:45:13][MEM: 0.46MB] Statement preparado correctamente
+[2026-01-07 20:45:13][MEM: 0.46MB] Binding params con tipo: iiisssss (8 params)
+[2026-01-07 20:45:13][MEM: 0.46MB] Parámetros a bindear:
+[2026-01-07 20:45:13][MEM: 0.46MB]    1. id_servicio (i): 81
+[2026-01-07 20:45:13][MEM: 0.46MB]    2. id_staff_entrega (i): 26
+[2026-01-07 20:45:13][MEM: 0.46MB]    3. id_funcionario_recibe (i): 4
+[2026-01-07 20:45:13][MEM: 0.46MB]    4. firma_staff_base64 (s): 9702 chars
+[2026-01-07 20:45:13][MEM: 0.46MB]    5. firma_funcionario_base64 (s): 7262 chars
+[2026-01-07 20:45:13][MEM: 0.46MB]    6. nota_entrega (s): NULL
+[2026-01-07 20:45:13][MEM: 0.46MB]    7. nota_recepcion (s): okis
+[2026-01-07 20:45:13][MEM: 0.46MB]    8. participantes_servicio (s): NULL
+[2026-01-07 20:45:13][MEM: 0.47MB] bind_param resultado: TRUE
+[2026-01-07 20:45:13][MEM: 0.47MB] Bind exitoso
+[2026-01-07 20:45:13][MEM: 0.47MB] Ejecutando INSERT...
+[2026-01-07 20:45:13][MEM: 0.47MB] EXCEPTION CAPTURADA
+[2026-01-07 20:45:13][MEM: 0.47MB] Mensaje: Cannot add or update a child row: a foreign key constraint fails (`u342171239_InfoApp_Test`.`firmas`, CONSTRAINT `fk_firmas_to_staff` FOREIGN KEY (`id_staff_entrega`) REFERENCES `staff` (`id`) ON DELETE SET NULL ON UPDATE CASCADE)
+[2026-01-07 20:45:13][MEM: 0.47MB] Archivo: /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/crear_firma.php
+[2026-01-07 20:45:13][MEM: 0.47MB] Línea: 250
+[2026-01-07 20:45:13][MEM: 0.47MB] Trace: #0 /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/crear_firma.php(250): mysqli_stmt->execute()
+#1 {main}
+[2026-01-07 20:45:13][MEM: 0.47MB] Enviando error response...
+[2026-01-07 20:59:10][MEM: 0.37MB] ========================================
+[2026-01-07 20:59:10][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2026-01-07 20:59:10][MEM: 0.38MB] ========================================
+[2026-01-07 20:59:10][MEM: 0.38MB] IP: 181.236.101.252
+[2026-01-07 20:59:10][MEM: 0.38MB] Método: POST
+[2026-01-07 20:59:10][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2026-01-07 20:59:10][MEM: 0.38MB] auth_middleware cargado
+[2026-01-07 20:59:10][MEM: 0.38MB] Usuario autenticado: colaborador (ID: 21)
+[2026-01-07 20:59:10][MEM: 0.38MB] Acceso registrado
+[2026-01-07 20:59:10][MEM: 0.38MB] Requiriendo conexión...
+[2026-01-07 20:59:10][MEM: 0.42MB] conexion.php cargado
+[2026-01-07 20:59:10][MEM: 0.43MB] Raw input length: 7270
+[2026-01-07 20:59:10][MEM: 0.44MB] JSON decodificado correctamente
+[2026-01-07 20:59:10][MEM: 0.44MB] Variables extraídas:
+[2026-01-07 20:59:10][MEM: 0.44MB]    id_servicio: 81
+[2026-01-07 20:59:10][MEM: 0.44MB]    id_staff_entrega: 26
+[2026-01-07 20:59:10][MEM: 0.44MB]    id_funcionario_recibe: 4
+[2026-01-07 20:59:10][MEM: 0.44MB]    firma_staff_base64 length: 3430
+[2026-01-07 20:59:10][MEM: 0.44MB]    firma_funcionario_base64 length: 3638
+[2026-01-07 20:59:10][MEM: 0.44MB]    nota_entrega: ok
+[2026-01-07 20:59:10][MEM: 0.44MB]    nota_recepcion: ok
+[2026-01-07 20:59:10][MEM: 0.44MB] Validación de campos obligatorios OK
+[2026-01-07 20:59:10][MEM: 0.44MB] Validando servicio ID: 81
+[2026-01-07 20:59:10][MEM: 0.47MB] Servicio encontrado - o_servicio: 1065
+[2026-01-07 20:59:10][MEM: 0.47MB] Validando usuario (staff_entrega) ID: 26
+[2026-01-07 20:59:10][MEM: 0.47MB] Usuario (staff_entrega) encontrado: prueba4
+[2026-01-07 20:59:10][MEM: 0.47MB] Validando funcionario (funcionario_recibe) ID: 4
+[2026-01-07 20:59:10][MEM: 0.47MB] Funcionario (funcionario_recibe) encontrado: alexa altamar g
+[2026-01-07 20:59:10][MEM: 0.47MB] Verificando firmas existentes para servicio: 81
+[2026-01-07 20:59:10][MEM: 0.47MB] No hay firmas previas para este servicio
+[2026-01-07 20:59:10][MEM: 0.47MB] SQL preparado
+[2026-01-07 20:59:10][MEM: 0.47MB] Preparando statement...
+[2026-01-07 20:59:10][MEM: 0.46MB] Statement preparado correctamente
+[2026-01-07 20:59:10][MEM: 0.46MB] Binding params con tipo: iiisssss (8 params)
+[2026-01-07 20:59:10][MEM: 0.46MB] Parámetros a bindear:
+[2026-01-07 20:59:10][MEM: 0.46MB]    1. id_servicio (i): 81
+[2026-01-07 20:59:10][MEM: 0.46MB]    2. id_staff_entrega (i): 26
+[2026-01-07 20:59:10][MEM: 0.46MB]    3. id_funcionario_recibe (i): 4
+[2026-01-07 20:59:10][MEM: 0.46MB]    4. firma_staff_base64 (s): 3430 chars
+[2026-01-07 20:59:10][MEM: 0.46MB]    5. firma_funcionario_base64 (s): 3638 chars
+[2026-01-07 20:59:10][MEM: 0.46MB]    6. nota_entrega (s): ok
+[2026-01-07 20:59:10][MEM: 0.46MB]    7. nota_recepcion (s): ok
+[2026-01-07 20:59:10][MEM: 0.46MB]    8. participantes_servicio (s): NULL
+[2026-01-07 20:59:10][MEM: 0.46MB] bind_param resultado: TRUE
+[2026-01-07 20:59:10][MEM: 0.46MB] Bind exitoso
+[2026-01-07 20:59:10][MEM: 0.46MB] Ejecutando INSERT...
+[2026-01-07 20:59:10][MEM: 0.46MB] INSERT EXITOSO!
+[2026-01-07 20:59:10][MEM: 0.46MB] Firma creada con ID: 29
+[2026-01-07 20:59:10][MEM: 0.46MB] Preparando respuesta JSON...
+[2026-01-07 20:59:10][MEM: 0.46MB] Respuesta preparada (size: 298 bytes)
+[2026-01-07 20:59:10][MEM: 0.46MB] Enviando respuesta JSON...
+[2026-01-08 02:45:54][MEM: 0.38MB] ========================================
+[2026-01-08 02:45:54][MEM: 0.38MB] NUEVA REQUEST CREAR FIRMA
+[2026-01-08 02:45:54][MEM: 0.38MB] ========================================
+[2026-01-08 02:45:54][MEM: 0.38MB] IP: 181.236.101.252
+[2026-01-08 02:45:54][MEM: 0.38MB] Método: POST
+[2026-01-08 02:45:54][MEM: 0.38MB] URI: /API_Infoapp/firma/crear_firma.php
+[2026-01-08 02:45:54][MEM: 0.38MB] auth_middleware cargado
+[2026-01-08 02:45:54][MEM: 0.39MB] Usuario autenticado: colaborador (ID: 21)
+[2026-01-08 02:45:54][MEM: 0.38MB] Acceso registrado
+[2026-01-08 02:45:54][MEM: 0.38MB] Requiriendo conexión...
+[2026-01-08 02:45:54][MEM: 0.43MB] conexion.php cargado
+[2026-01-08 02:45:54][MEM: 0.44MB] Raw input length: 13178
+[2026-01-08 02:45:54][MEM: 0.46MB] JSON decodificado correctamente
+[2026-01-08 02:45:54][MEM: 0.46MB] Variables extraídas:
+[2026-01-08 02:45:54][MEM: 0.46MB]    id_servicio: 167
+[2026-01-08 02:45:54][MEM: 0.46MB]    id_staff_entrega: 21
+[2026-01-08 02:45:54][MEM: 0.46MB]    id_funcionario_recibe: 7
+[2026-01-08 02:45:54][MEM: 0.46MB]    firma_staff_base64 length: 5934
+[2026-01-08 02:45:54][MEM: 0.46MB]    firma_funcionario_base64 length: 7006
+[2026-01-08 02:45:54][MEM: 0.46MB]    nota_entrega: comentario personal 
+[2026-01-08 02:45:54][MEM: 0.46MB]    nota_recepcion: comentario cliente 
+[2026-01-08 02:45:54][MEM: 0.46MB] Validación de campos obligatorios OK
+[2026-01-08 02:45:54][MEM: 0.46MB] Validando servicio ID: 167
+[2026-01-08 02:45:54][MEM: 0.49MB] Servicio encontrado - o_servicio: 1151
+[2026-01-08 02:45:54][MEM: 0.49MB] Validando usuario (staff_entrega) ID: 21
+[2026-01-08 02:45:54][MEM: 0.5MB] Usuario (staff_entrega) encontrado: colaborador
+[2026-01-08 02:45:54][MEM: 0.5MB] Validando funcionario (funcionario_recibe) ID: 7
+[2026-01-08 02:45:54][MEM: 0.5MB] Funcionario (funcionario_recibe) encontrado: pepe perez p
+[2026-01-08 02:45:54][MEM: 0.5MB] Verificando firmas existentes para servicio: 167
+[2026-01-08 02:45:54][MEM: 0.5MB] No hay firmas previas para este servicio
+[2026-01-08 02:45:54][MEM: 0.5MB] SQL preparado
+[2026-01-08 02:45:54][MEM: 0.5MB] Preparando statement...
+[2026-01-08 02:45:54][MEM: 0.48MB] Statement preparado correctamente
+[2026-01-08 02:45:54][MEM: 0.48MB] Binding params con tipo: iiisssss (8 params)
+[2026-01-08 02:45:54][MEM: 0.48MB] Parámetros a bindear:
+[2026-01-08 02:45:54][MEM: 0.48MB]    1. id_servicio (i): 167
+[2026-01-08 02:45:54][MEM: 0.48MB]    2. id_staff_entrega (i): 21
+[2026-01-08 02:45:54][MEM: 0.48MB]    3. id_funcionario_recibe (i): 7
+[2026-01-08 02:45:54][MEM: 0.48MB]    4. firma_staff_base64 (s): 5934 chars
+[2026-01-08 02:45:54][MEM: 0.48MB]    5. firma_funcionario_base64 (s): 7006 chars
+[2026-01-08 02:45:54][MEM: 0.48MB]    6. nota_entrega (s): comentario personal 
+[2026-01-08 02:45:54][MEM: 0.48MB]    7. nota_recepcion (s): comentario cliente 
+[2026-01-08 02:45:54][MEM: 0.48MB]    8. participantes_servicio (s): NULL
+[2026-01-08 02:45:54][MEM: 0.48MB] bind_param resultado: TRUE
+[2026-01-08 02:45:54][MEM: 0.48MB] Bind exitoso
+[2026-01-08 02:45:54][MEM: 0.48MB] Ejecutando INSERT...
+[2026-01-08 02:45:54][MEM: 0.48MB] INSERT EXITOSO!
+[2026-01-08 02:45:54][MEM: 0.48MB] Firma creada con ID: 30
+[2026-01-08 02:45:54][MEM: 0.48MB] Preparando respuesta JSON...
+[2026-01-08 02:45:54][MEM: 0.48MB] Respuesta preparada (size: 335 bytes)
+[2026-01-08 02:45:54][MEM: 0.48MB] Enviando respuesta JSON...

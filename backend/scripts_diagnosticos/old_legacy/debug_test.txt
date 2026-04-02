@@ -1,0 +1,97 @@
+🚀 Iniciando prueba de generación de PDF para servicio 1155
+🚀 Iniciando prueba de generación de PDF (MOCK DATA) para servicio 1155
+📄 Cargando plantilla...
+❌ Error cargando plantilla_base_mejorada.html
+🚀 Iniciando prueba de generación de PDF (MOCK DATA) para servicio 1155
+📄 Cargando plantilla...
+🔄 Procesando tags...
+🎨 Simulando inyección de Branding...
+🖼️ Simulando resolución de rutas de imágenes...
+
+🔍 --- RESULTADOS DE VALIDACIÓN ---
+✅ Responsable encontrado en HTML: Juan Pérez (Técnico)
+❌ Logo NO inyectado correctamente
+✅ Tags de firma reemplazados
+❌ No se detectaron rutas file:/// (Fallo en resolución de imágenes)
+❌ Repuestos NO encontrados
+❌ Campos adicionales NO encontrados
+🚀 Iniciando prueba de generación de PDF (MOCK DATA) para servicio 1155
+📄 Cargando plantilla...
+🔄 Procesando tags...
+🎨 Simulando inyección de Branding...
+🖼️ Simulando resolución de rutas de imágenes...
+   🔄 Reemplazando ../: src="../uploads/foto_antes.jpg" -> src="file:///C:/Users/ferch/Documents/uploads/foto_antes.jpg"
+   🔄 Reemplazando /: src="/uploads/foto_despues.jpg" -> src="file:///C:/Users/ferch/Documents/uploads/foto_despues.jpg"
+
+🔍 --- RESULTADOS DE VALIDACIÓN ---
+✅ Responsable encontrado en HTML: Juan Pérez (Técnico)
+✅ Logo inyectado (data URI presente)
+✅ Tags de firma reemplazados
+✅ Rutas de archivos locales (file:///) detectadas
+   ✅ Rutas apuntan a las imágenes esperadas
+✅ Repuestos encontrados en la tabla
+✅ Campos adicionales dinámicos encontrados
+🚀 Iniciando prueba de generación de PDF (MOCK DATA) para servicio 1155
+📄 Cargando plantilla...
+🔄 Procesando tags...
+🎨 Simulando inyección de Branding...
+🖼️ Simulando resolución de rutas de imágenes...
+   🔄 Reemplazando ../: src="../uploads/foto_antes.jpg" -> src="file:///C:/Users/ferch/Documents/uploads/foto_antes.jpg"
+   🔄 Reemplazando /: src="/uploads/foto_despues.jpg" -> src="file:///C:/Users/ferch/Documents/uploads/foto_despues.jpg"
+
+🔍 --- RESULTADOS DE VALIDACIÓN ---
+✅ Responsable encontrado en HTML: Juan Pérez (Técnico)
+✅ Logo inyectado (data URI presente)
+✅ Tags de firma reemplazados
+✅ Rutas de archivos locales (file:///) detectadas
+   ✅ Rutas apuntan a las imágenes esperadas
+✅ Repuestos encontrados en la tabla
+✅ Campos adicionales dinámicos encontrados
+🚀 Iniciando prueba de generación de PDF (MOCK DATA) para servicio 1155
+📄 Cargando plantilla...
+🔄 Procesando tags...
+🎨 Simulando inyección de Branding...
+🖼️ Simulando resolución de rutas de imágenes...
+   🔄 Reemplazando ../: src="../uploads/foto_antes.jpg" -> src="file:///C:/Users/ferch/Documents/uploads/foto_antes.jpg"
+   🔄 Reemplazando /: src="/uploads/foto_despues.jpg" -> src="file:///C:/Users/ferch/Documents/uploads/foto_despues.jpg"
+
+🔍 --- RESULTADOS DE VALIDACIÓN ---
+✅ Responsable encontrado en HTML: Juan Pérez (Técnico)
+✅ Logo inyectado (data URI presente)
+✅ Tags de firma reemplazados
+✅ Rutas de archivos locales (file:///) detectadas
+   ✅ Rutas apuntan a las imágenes esperadas
+✅ Repuestos encontrados en la tabla
+✅ Campos adicionales dinámicos encontrados
+🚀 Iniciando prueba de generación de PDF (MOCK DATA) para servicio 1155
+📄 Cargando plantilla...
+🔄 Procesando tags...
+🎨 Simulando inyección de Branding...
+🖼️ Simulando resolución de rutas de imágenes...
+   🔄 Reemplazando ../: src="../uploads/foto_antes.jpg" -> src="file:///C:/Users/ferch/Documents/uploads/foto_antes.jpg"
+   🔄 Reemplazando /: src="/uploads/foto_despues.jpg" -> src="file:///C:/Users/ferch/Documents/uploads/foto_despues.jpg"
+
+🔍 --- RESULTADOS DE VALIDACIÓN ---
+✅ Responsable encontrado en HTML: Juan Pérez (Técnico)
+✅ Logo inyectado (data URI presente)
+✅ Tags de firma reemplazados
+✅ Rutas de archivos locales (file:///) detectadas
+   ✅ Rutas apuntan a las imágenes esperadas
+✅ Repuestos encontrados en la tabla
+✅ Campos adicionales dinámicos encontrados
+🚀 Iniciando prueba de generación de PDF (MOCK DATA) para servicio 1155
+📄 Cargando plantilla...
+🔄 Procesando tags...
+🎨 Simulando inyección de Branding...
+🖼️ Simulando resolución de rutas de imágenes...
+   🔄 Reemplazando ../: src="../uploads/foto_antes.jpg" -> src="file:///C:/Users/ferch/Documents/uploads/foto_antes.jpg"
+   🔄 Reemplazando /: src="/uploads/foto_despues.jpg" -> src="file:///C:/Users/ferch/Documents/uploads/foto_despues.jpg"
+
+🔍 --- RESULTADOS DE VALIDACIÓN ---
+✅ Responsable encontrado en HTML: Juan Pérez (Técnico)
+✅ Logo inyectado (data URI presente)
+✅ Tags de firma reemplazados
+✅ Rutas de archivos locales (file:///) detectadas
+   ✅ Rutas apuntan a las imágenes esperadas
+✅ Repuestos encontrados en la tabla
+✅ Campos adicionales dinámicos encontrados

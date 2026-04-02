@@ -1,0 +1,1095 @@
+[2025-11-09 14:56:40] ========================================
+[2025-11-09 14:56:40] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 14:56:40] 👤 Usuario: die (ID: 12)
+[2025-11-09 14:56:40] 📝 user_id: 22, permissions: [{"module":"usuarios","action":"listar","allowed":true},{"module":"usuarios","action":"crear","allowed":true},{"module":"usuarios","action":"actualizar","allowed":true},{"module":"usuarios","action":"eliminar","allowed":true},{"module":"usuarios","action":"ver","allowed":true},{"module":"usuarios","action":"exportar","allowed":true}]
+[2025-11-09 14:56:40] ✅ Validaciones OK
+[2025-11-09 14:56:40] 🔄 Iniciando transacción...
+[2025-11-09 14:56:40] 🗑️  Eliminando permisos existentes para user_id: 22
+[2025-11-09 14:56:40] ✅ Permisos existentes eliminados
+[2025-11-09 14:56:40] ➕ Insertando nuevos permisos...
+[2025-11-09 14:56:40] ⚠️  Módulo inválido o acciones no es array: 0
+[2025-11-09 14:56:40] ⚠️  Módulo inválido o acciones no es array: 1
+[2025-11-09 14:56:40] ⚠️  Módulo inválido o acciones no es array: 2
+[2025-11-09 14:56:40] ⚠️  Módulo inválido o acciones no es array: 3
+[2025-11-09 14:56:40] ⚠️  Módulo inválido o acciones no es array: 4
+[2025-11-09 14:56:40] ⚠️  Módulo inválido o acciones no es array: 5
+[2025-11-09 14:56:40] ✅ Total de permisos insertados: 0
+[2025-11-09 14:56:40] ✅ Transacción confirmada
+[2025-11-09 14:58:29] ========================================
+[2025-11-09 14:58:29] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 14:58:29] 👤 Usuario: die (ID: 12)
+[2025-11-09 14:58:29] 📝 user_id: 22, permissions: [{"module":"usuarios","action":"listar","allowed":true},{"module":"usuarios","action":"crear","allowed":true},{"module":"usuarios","action":"actualizar","allowed":true},{"module":"usuarios","action":"eliminar","allowed":true},{"module":"usuarios","action":"ver","allowed":true}]
+[2025-11-09 14:58:29] ✅ Validaciones OK
+[2025-11-09 14:58:29] 🔄 Iniciando transacción...
+[2025-11-09 14:58:29] 🗑️  Eliminando permisos existentes para user_id: 22
+[2025-11-09 14:58:29] ✅ Permisos existentes eliminados
+[2025-11-09 14:58:29] ➕ Insertando nuevos permisos...
+[2025-11-09 14:58:29] ⚠️  Módulo inválido o acciones no es array: 0
+[2025-11-09 14:58:29] ⚠️  Módulo inválido o acciones no es array: 1
+[2025-11-09 14:58:29] ⚠️  Módulo inválido o acciones no es array: 2
+[2025-11-09 14:58:29] ⚠️  Módulo inválido o acciones no es array: 3
+[2025-11-09 14:58:29] ⚠️  Módulo inválido o acciones no es array: 4
+[2025-11-09 14:58:29] ✅ Total de permisos insertados: 0
+[2025-11-09 14:58:29] ✅ Transacción confirmada
+[2025-11-09 15:03:38] ========================================
+[2025-11-09 15:03:38] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 15:03:38] 👤 Usuario: die (ID: 12)
+[2025-11-09 15:03:38] 📝 user_id: 22, permissions: {"usuarios":["listar","crear","actualizar","eliminar","ver","exportar"]}
+[2025-11-09 15:03:38] ✅ Validaciones OK
+[2025-11-09 15:03:38] 🔄 Iniciando transacción...
+[2025-11-09 15:03:38] 🗑️  Eliminando permisos existentes para user_id: 22
+[2025-11-09 15:03:38] ✅ Permisos existentes eliminados
+[2025-11-09 15:03:38] ➕ Insertando nuevos permisos...
+[2025-11-09 15:03:38]   ✓ Insertado: usuarios -> listar
+[2025-11-09 15:03:38]   ✓ Insertado: usuarios -> crear
+[2025-11-09 15:03:38]   ✓ Insertado: usuarios -> actualizar
+[2025-11-09 15:03:38]   ✓ Insertado: usuarios -> eliminar
+[2025-11-09 15:03:38]   ✓ Insertado: usuarios -> ver
+[2025-11-09 15:03:38]   ✓ Insertado: usuarios -> exportar
+[2025-11-09 15:03:38] ✅ Total de permisos insertados: 6
+[2025-11-09 15:03:38] ✅ Transacción confirmada
+[2025-11-09 15:08:21] ========================================
+[2025-11-09 15:08:21] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 15:08:21] 👤 Usuario: die (ID: 12)
+[2025-11-09 15:08:21] 📝 user_id: 22, permissions: {"usuarios":["listar","actualizar"]}
+[2025-11-09 15:08:21] ✅ Validaciones OK
+[2025-11-09 15:08:21] 🔄 Iniciando transacción...
+[2025-11-09 15:08:21] 🗑️  Eliminando permisos existentes para user_id: 22
+[2025-11-09 15:08:21] ✅ Permisos existentes eliminados
+[2025-11-09 15:08:21] ➕ Insertando nuevos permisos...
+[2025-11-09 15:08:21]   ✓ Insertado: usuarios -> listar
+[2025-11-09 15:08:21]   ✓ Insertado: usuarios -> actualizar
+[2025-11-09 15:08:21] ✅ Total de permisos insertados: 2
+[2025-11-09 15:08:21] ✅ Transacción confirmada
+[2025-11-09 15:29:02] ========================================
+[2025-11-09 15:29:02] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 15:29:02] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 15:29:02] 📝 user_id: 21, permissions: {"usuarios":["actualizar","listar"]}
+[2025-11-09 15:29:02] ✅ Validaciones OK
+[2025-11-09 15:29:02] 🔄 Iniciando transacción...
+[2025-11-09 15:29:02] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 15:29:02] ✅ Permisos existentes eliminados
+[2025-11-09 15:29:02] ➕ Insertando nuevos permisos...
+[2025-11-09 15:29:02]   ✓ Insertado: usuarios -> actualizar
+[2025-11-09 15:29:02]   ✓ Insertado: usuarios -> listar
+[2025-11-09 15:29:02] ✅ Total de permisos insertados: 2
+[2025-11-09 15:29:02] ✅ Transacción confirmada
+[2025-11-09 15:30:48] ========================================
+[2025-11-09 15:30:48] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 15:30:48] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 15:30:48] 📝 user_id: 21, permissions: {"usuarios":["listar","actualizar","crear"]}
+[2025-11-09 15:30:48] ✅ Validaciones OK
+[2025-11-09 15:30:48] 🔄 Iniciando transacción...
+[2025-11-09 15:30:48] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 15:30:48] ✅ Permisos existentes eliminados
+[2025-11-09 15:30:48] ➕ Insertando nuevos permisos...
+[2025-11-09 15:30:48]   ✓ Insertado: usuarios -> listar
+[2025-11-09 15:30:48]   ✓ Insertado: usuarios -> actualizar
+[2025-11-09 15:30:48]   ✓ Insertado: usuarios -> crear
+[2025-11-09 15:30:48] ✅ Total de permisos insertados: 3
+[2025-11-09 15:30:48] ✅ Transacción confirmada
+[2025-11-09 15:42:31] ========================================
+[2025-11-09 15:42:31] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 15:42:31] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 15:42:31] 📝 user_id: 21, permissions: {"usuarios":["listar","actualizar","crear"]}
+[2025-11-09 15:42:31] ✅ Validaciones OK
+[2025-11-09 15:42:31] 🔄 Iniciando transacción...
+[2025-11-09 15:42:31] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 15:42:31] ✅ Permisos existentes eliminados
+[2025-11-09 15:42:31] ➕ Insertando nuevos permisos...
+[2025-11-09 15:42:31]   ✓ Insertado: usuarios -> listar
+[2025-11-09 15:42:31]   ✓ Insertado: usuarios -> actualizar
+[2025-11-09 15:42:31]   ✓ Insertado: usuarios -> crear
+[2025-11-09 15:42:31] ✅ Total de permisos insertados: 3
+[2025-11-09 15:42:31] ✅ Transacción confirmada
+[2025-11-09 15:49:57] ========================================
+[2025-11-09 15:49:57] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 15:49:57] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 15:49:57] 📝 user_id: 21, permissions: {"usuarios":["listar","crear","actualizar","eliminar","ver","exportar"]}
+[2025-11-09 15:49:57] ✅ Validaciones OK
+[2025-11-09 15:49:57] 🔄 Iniciando transacción...
+[2025-11-09 15:49:57] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 15:49:57] ✅ Permisos existentes eliminados
+[2025-11-09 15:49:57] ➕ Insertando nuevos permisos...
+[2025-11-09 15:49:57]   ✓ Insertado: usuarios -> listar
+[2025-11-09 15:49:57]   ✓ Insertado: usuarios -> crear
+[2025-11-09 15:49:57]   ✓ Insertado: usuarios -> actualizar
+[2025-11-09 15:49:57]   ✓ Insertado: usuarios -> eliminar
+[2025-11-09 15:49:57]   ✓ Insertado: usuarios -> ver
+[2025-11-09 15:49:57]   ✓ Insertado: usuarios -> exportar
+[2025-11-09 15:49:57] ✅ Total de permisos insertados: 6
+[2025-11-09 15:49:57] ✅ Transacción confirmada
+[2025-11-09 15:58:05] ========================================
+[2025-11-09 15:58:05] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 15:58:05] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 15:58:05] 📝 user_id: 21, permissions: {"usuarios":[],"servicios":["crear","listar","actualizar"]}
+[2025-11-09 15:58:05] ✅ Validaciones OK
+[2025-11-09 15:58:05] 🔄 Iniciando transacción...
+[2025-11-09 15:58:05] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 15:58:05] ✅ Permisos existentes eliminados
+[2025-11-09 15:58:05] ➕ Insertando nuevos permisos...
+[2025-11-09 15:58:05]   ✓ Insertado: servicios -> crear
+[2025-11-09 15:58:05]   ✓ Insertado: servicios -> listar
+[2025-11-09 15:58:05]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 15:58:05] ✅ Total de permisos insertados: 3
+[2025-11-09 15:58:05] ✅ Transacción confirmada
+[2025-11-09 15:58:51] ========================================
+[2025-11-09 15:58:51] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 15:58:51] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 15:58:51] 📝 user_id: 21, permissions: {"servicios":["listar","crear","actualizar","eliminar","ver","exportar"]}
+[2025-11-09 15:58:51] ✅ Validaciones OK
+[2025-11-09 15:58:51] 🔄 Iniciando transacción...
+[2025-11-09 15:58:51] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 15:58:51] ✅ Permisos existentes eliminados
+[2025-11-09 15:58:51] ➕ Insertando nuevos permisos...
+[2025-11-09 15:58:51]   ✓ Insertado: servicios -> listar
+[2025-11-09 15:58:51]   ✓ Insertado: servicios -> crear
+[2025-11-09 15:58:51]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 15:58:51]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 15:58:51]   ✓ Insertado: servicios -> ver
+[2025-11-09 15:58:51]   ✓ Insertado: servicios -> exportar
+[2025-11-09 15:58:51] ✅ Total de permisos insertados: 6
+[2025-11-09 15:58:51] ✅ Transacción confirmada
+[2025-11-09 15:59:03] ========================================
+[2025-11-09 15:59:03] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 15:59:03] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 15:59:03] 📝 user_id: 22, permissions: {"usuarios":[]}
+[2025-11-09 15:59:03] ✅ Validaciones OK
+[2025-11-09 15:59:03] 🔄 Iniciando transacción...
+[2025-11-09 15:59:03] 🗑️  Eliminando permisos existentes para user_id: 22
+[2025-11-09 15:59:03] ✅ Permisos existentes eliminados
+[2025-11-09 15:59:03] ➕ Insertando nuevos permisos...
+[2025-11-09 15:59:03] ✅ Total de permisos insertados: 0
+[2025-11-09 15:59:03] ✅ Transacción confirmada
+[2025-11-09 16:10:43] ========================================
+[2025-11-09 16:10:43] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 16:10:43] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 16:10:43] 📝 user_id: 21, permissions: {"servicios":[]}
+[2025-11-09 16:10:43] ✅ Validaciones OK
+[2025-11-09 16:10:43] 🔄 Iniciando transacción...
+[2025-11-09 16:10:43] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 16:10:43] ✅ Permisos existentes eliminados
+[2025-11-09 16:10:43] ➕ Insertando nuevos permisos...
+[2025-11-09 16:10:43] ✅ Total de permisos insertados: 0
+[2025-11-09 16:10:43] ✅ Transacción confirmada
+[2025-11-09 16:15:57] ========================================
+[2025-11-09 16:15:57] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 16:15:57] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 16:15:57] 📝 user_id: 21, permissions: {"servicios":["listar","crear","actualizar","eliminar","ver","exportar"]}
+[2025-11-09 16:15:57] ✅ Validaciones OK
+[2025-11-09 16:15:57] 🔄 Iniciando transacción...
+[2025-11-09 16:15:57] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 16:15:57] ✅ Permisos existentes eliminados
+[2025-11-09 16:15:57] ➕ Insertando nuevos permisos...
+[2025-11-09 16:15:57]   ✓ Insertado: servicios -> listar
+[2025-11-09 16:15:57]   ✓ Insertado: servicios -> crear
+[2025-11-09 16:15:57]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 16:15:57]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 16:15:57]   ✓ Insertado: servicios -> ver
+[2025-11-09 16:15:57]   ✓ Insertado: servicios -> exportar
+[2025-11-09 16:15:57] ✅ Total de permisos insertados: 6
+[2025-11-09 16:15:57] ✅ Transacción confirmada
+[2025-11-09 16:22:42] ========================================
+[2025-11-09 16:22:42] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 16:22:42] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 16:22:42] 📝 user_id: 21, permissions: {"servicios":["listar","crear","actualizar","eliminar","ver","exportar"],"usuarios":["listar","crear","actualizar","eliminar","ver","exportar"]}
+[2025-11-09 16:22:42] ✅ Validaciones OK
+[2025-11-09 16:22:42] 🔄 Iniciando transacción...
+[2025-11-09 16:22:42] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 16:22:42] ✅ Permisos existentes eliminados
+[2025-11-09 16:22:42] ➕ Insertando nuevos permisos...
+[2025-11-09 16:22:42]   ✓ Insertado: servicios -> listar
+[2025-11-09 16:22:42]   ✓ Insertado: servicios -> crear
+[2025-11-09 16:22:42]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 16:22:42]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 16:22:42]   ✓ Insertado: servicios -> ver
+[2025-11-09 16:22:42]   ✓ Insertado: servicios -> exportar
+[2025-11-09 16:22:42]   ✓ Insertado: usuarios -> listar
+[2025-11-09 16:22:42]   ✓ Insertado: usuarios -> crear
+[2025-11-09 16:22:42]   ✓ Insertado: usuarios -> actualizar
+[2025-11-09 16:22:42]   ✓ Insertado: usuarios -> eliminar
+[2025-11-09 16:22:42]   ✓ Insertado: usuarios -> ver
+[2025-11-09 16:22:42]   ✓ Insertado: usuarios -> exportar
+[2025-11-09 16:22:42] ✅ Total de permisos insertados: 12
+[2025-11-09 16:22:42] ✅ Transacción confirmada
+[2025-11-09 16:23:14] ========================================
+[2025-11-09 16:23:14] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 16:23:14] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 16:23:14] 📝 user_id: 21, permissions: {"servicios":["crear","actualizar","eliminar","ver","exportar"],"usuarios":["listar","crear","actualizar","eliminar","ver","exportar"]}
+[2025-11-09 16:23:14] ✅ Validaciones OK
+[2025-11-09 16:23:14] 🔄 Iniciando transacción...
+[2025-11-09 16:23:14] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 16:23:14] ✅ Permisos existentes eliminados
+[2025-11-09 16:23:14] ➕ Insertando nuevos permisos...
+[2025-11-09 16:23:14]   ✓ Insertado: servicios -> crear
+[2025-11-09 16:23:14]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 16:23:14]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 16:23:14]   ✓ Insertado: servicios -> ver
+[2025-11-09 16:23:14]   ✓ Insertado: servicios -> exportar
+[2025-11-09 16:23:14]   ✓ Insertado: usuarios -> listar
+[2025-11-09 16:23:14]   ✓ Insertado: usuarios -> crear
+[2025-11-09 16:23:14]   ✓ Insertado: usuarios -> actualizar
+[2025-11-09 16:23:14]   ✓ Insertado: usuarios -> eliminar
+[2025-11-09 16:23:14]   ✓ Insertado: usuarios -> ver
+[2025-11-09 16:23:14]   ✓ Insertado: usuarios -> exportar
+[2025-11-09 16:23:14] ✅ Total de permisos insertados: 11
+[2025-11-09 16:23:14] ✅ Transacción confirmada
+[2025-11-09 16:23:18] ========================================
+[2025-11-09 16:23:18] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 16:23:18] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 16:23:18] 📝 user_id: 21, permissions: {"servicios":["crear","actualizar","eliminar","ver","exportar","listar"],"usuarios":["listar","crear","actualizar","eliminar","ver","exportar"]}
+[2025-11-09 16:23:18] ✅ Validaciones OK
+[2025-11-09 16:23:18] 🔄 Iniciando transacción...
+[2025-11-09 16:23:18] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 16:23:18] ✅ Permisos existentes eliminados
+[2025-11-09 16:23:18] ➕ Insertando nuevos permisos...
+[2025-11-09 16:23:18]   ✓ Insertado: servicios -> crear
+[2025-11-09 16:23:18]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 16:23:18]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 16:23:18]   ✓ Insertado: servicios -> ver
+[2025-11-09 16:23:18]   ✓ Insertado: servicios -> exportar
+[2025-11-09 16:23:18]   ✓ Insertado: servicios -> listar
+[2025-11-09 16:23:18]   ✓ Insertado: usuarios -> listar
+[2025-11-09 16:23:18]   ✓ Insertado: usuarios -> crear
+[2025-11-09 16:23:18]   ✓ Insertado: usuarios -> actualizar
+[2025-11-09 16:23:18]   ✓ Insertado: usuarios -> eliminar
+[2025-11-09 16:23:18]   ✓ Insertado: usuarios -> ver
+[2025-11-09 16:23:18]   ✓ Insertado: usuarios -> exportar
+[2025-11-09 16:23:18] ✅ Total de permisos insertados: 12
+[2025-11-09 16:23:18] ✅ Transacción confirmada
+[2025-11-09 16:31:53] ========================================
+[2025-11-09 16:31:53] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 16:31:53] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 16:31:53] 📝 user_id: 21, permissions: {"servicios":["listar","actualizar","eliminar"],"usuarios":[]}
+[2025-11-09 16:31:53] ✅ Validaciones OK
+[2025-11-09 16:31:53] 🔄 Iniciando transacción...
+[2025-11-09 16:31:53] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 16:31:53] ✅ Permisos existentes eliminados
+[2025-11-09 16:31:53] ➕ Insertando nuevos permisos...
+[2025-11-09 16:31:53]   ✓ Insertado: servicios -> listar
+[2025-11-09 16:31:53]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 16:31:53]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 16:31:53] ✅ Total de permisos insertados: 3
+[2025-11-09 16:31:53] ✅ Transacción confirmada
+[2025-11-09 16:45:01] ========================================
+[2025-11-09 16:45:01] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 16:45:01] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 16:45:01] 📝 user_id: 21, permissions: {"servicios":["listar","actualizar","eliminar"],"servicios_autorizado_por":["crear","actualizar","eliminar","exportar"],"servicios_actividades":["crear","actualizar","eliminar","exportar"]}
+[2025-11-09 16:45:01] ✅ Validaciones OK
+[2025-11-09 16:45:01] 🔄 Iniciando transacción...
+[2025-11-09 16:45:01] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 16:45:01] ✅ Permisos existentes eliminados
+[2025-11-09 16:45:01] ➕ Insertando nuevos permisos...
+[2025-11-09 16:45:01]   ✓ Insertado: servicios -> listar
+[2025-11-09 16:45:01]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 16:45:01]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 16:45:01]   ✓ Insertado: servicios_autorizado_por -> crear
+[2025-11-09 16:45:01]   ✓ Insertado: servicios_autorizado_por -> actualizar
+[2025-11-09 16:45:01]   ✓ Insertado: servicios_autorizado_por -> eliminar
+[2025-11-09 16:45:01]   ✓ Insertado: servicios_autorizado_por -> exportar
+[2025-11-09 16:45:01]   ✓ Insertado: servicios_actividades -> crear
+[2025-11-09 16:45:01]   ✓ Insertado: servicios_actividades -> actualizar
+[2025-11-09 16:45:01]   ✓ Insertado: servicios_actividades -> eliminar
+[2025-11-09 16:45:01]   ✓ Insertado: servicios_actividades -> exportar
+[2025-11-09 16:45:01] ✅ Total de permisos insertados: 11
+[2025-11-09 16:45:01] ✅ Transacción confirmada
+[2025-11-09 17:07:46] ========================================
+[2025-11-09 17:07:46] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 17:07:46] 👤 Usuario: die (ID: 12)
+[2025-11-09 17:07:46] 📝 user_id: 21, permissions: {"servicios":["listar","actualizar","eliminar"],"servicios_actividades":[],"servicios_autorizado_por":[]}
+[2025-11-09 17:07:46] ✅ Validaciones OK
+[2025-11-09 17:07:46] 🔄 Iniciando transacción...
+[2025-11-09 17:07:46] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 17:07:46] ✅ Permisos existentes eliminados
+[2025-11-09 17:07:46] ➕ Insertando nuevos permisos...
+[2025-11-09 17:07:46]   ✓ Insertado: servicios -> listar
+[2025-11-09 17:07:46]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 17:07:46]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 17:07:46] ✅ Total de permisos insertados: 3
+[2025-11-09 17:07:46] ✅ Transacción confirmada
+[2025-11-09 17:10:32] ========================================
+[2025-11-09 17:10:32] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 17:10:32] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 17:10:32] 📝 user_id: 21, permissions: {"servicios":["listar","actualizar","eliminar"]}
+[2025-11-09 17:10:32] ✅ Validaciones OK
+[2025-11-09 17:10:32] 🔄 Iniciando transacción...
+[2025-11-09 17:10:32] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 17:10:32] ✅ Permisos existentes eliminados
+[2025-11-09 17:10:32] ➕ Insertando nuevos permisos...
+[2025-11-09 17:10:32]   ✓ Insertado: servicios -> listar
+[2025-11-09 17:10:32]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 17:10:32]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 17:10:32] ✅ Total de permisos insertados: 3
+[2025-11-09 17:10:32] ✅ Transacción confirmada
+[2025-11-09 17:22:56] ========================================
+[2025-11-09 17:22:56] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 17:22:56] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 17:22:56] 📝 user_id: 21, permissions: {"servicios":["listar","actualizar","eliminar"],"servicios_actividades":["listar","crear","actualizar","eliminar","ver","exportar"]}
+[2025-11-09 17:22:56] ✅ Validaciones OK
+[2025-11-09 17:22:56] 🔄 Iniciando transacción...
+[2025-11-09 17:22:56] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 17:22:56] ✅ Permisos existentes eliminados
+[2025-11-09 17:22:56] ➕ Insertando nuevos permisos...
+[2025-11-09 17:22:56]   ✓ Insertado: servicios -> listar
+[2025-11-09 17:22:56]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 17:22:56]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 17:22:56]   ✓ Insertado: servicios_actividades -> listar
+[2025-11-09 17:22:56]   ✓ Insertado: servicios_actividades -> crear
+[2025-11-09 17:22:56]   ✓ Insertado: servicios_actividades -> actualizar
+[2025-11-09 17:22:56]   ✓ Insertado: servicios_actividades -> eliminar
+[2025-11-09 17:22:56]   ✓ Insertado: servicios_actividades -> ver
+[2025-11-09 17:22:56]   ✓ Insertado: servicios_actividades -> exportar
+[2025-11-09 17:22:56] ✅ Total de permisos insertados: 9
+[2025-11-09 17:22:56] ✅ Transacción confirmada
+[2025-11-09 17:32:52] ========================================
+[2025-11-09 17:32:52] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 17:32:52] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 17:32:52] 📝 user_id: 21, permissions: {"servicios":["listar","actualizar","eliminar"],"servicios_actividades":[]}
+[2025-11-09 17:32:52] ✅ Validaciones OK
+[2025-11-09 17:32:52] 🔄 Iniciando transacción...
+[2025-11-09 17:32:52] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 17:32:52] ✅ Permisos existentes eliminados
+[2025-11-09 17:32:52] ➕ Insertando nuevos permisos...
+[2025-11-09 17:32:52]   ✓ Insertado: servicios -> listar
+[2025-11-09 17:32:52]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 17:32:52]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 17:32:52] ✅ Total de permisos insertados: 3
+[2025-11-09 17:32:52] ✅ Transacción confirmada
+[2025-11-09 17:35:28] ========================================
+[2025-11-09 17:35:28] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 17:35:28] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 17:35:28] 📝 user_id: 21, permissions: {"servicios":["listar","actualizar","eliminar"],"servicios_autorizado_por":["listar","crear","actualizar","eliminar","ver","exportar"]}
+[2025-11-09 17:35:28] ✅ Validaciones OK
+[2025-11-09 17:35:28] 🔄 Iniciando transacción...
+[2025-11-09 17:35:28] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 17:35:28] ✅ Permisos existentes eliminados
+[2025-11-09 17:35:28] ➕ Insertando nuevos permisos...
+[2025-11-09 17:35:28]   ✓ Insertado: servicios -> listar
+[2025-11-09 17:35:28]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 17:35:28]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 17:35:28]   ✓ Insertado: servicios_autorizado_por -> listar
+[2025-11-09 17:35:28]   ✓ Insertado: servicios_autorizado_por -> crear
+[2025-11-09 17:35:28]   ✓ Insertado: servicios_autorizado_por -> actualizar
+[2025-11-09 17:35:28]   ✓ Insertado: servicios_autorizado_por -> eliminar
+[2025-11-09 17:35:28]   ✓ Insertado: servicios_autorizado_por -> ver
+[2025-11-09 17:35:28]   ✓ Insertado: servicios_autorizado_por -> exportar
+[2025-11-09 17:35:28] ✅ Total de permisos insertados: 9
+[2025-11-09 17:35:28] ✅ Transacción confirmada
+[2025-11-09 17:38:45] ========================================
+[2025-11-09 17:38:45] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 17:38:45] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 17:38:45] 📝 user_id: 21, permissions: {"servicios":["listar","actualizar","eliminar"],"servicios_autorizado_por":[]}
+[2025-11-09 17:38:45] ✅ Validaciones OK
+[2025-11-09 17:38:45] 🔄 Iniciando transacción...
+[2025-11-09 17:38:45] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 17:38:45] ✅ Permisos existentes eliminados
+[2025-11-09 17:38:45] ➕ Insertando nuevos permisos...
+[2025-11-09 17:38:45]   ✓ Insertado: servicios -> listar
+[2025-11-09 17:38:45]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 17:38:45]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 17:38:45] ✅ Total de permisos insertados: 3
+[2025-11-09 17:38:45] ✅ Transacción confirmada
+[2025-11-09 17:38:55] ========================================
+[2025-11-09 17:38:55] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 17:38:55] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 17:38:55] 📝 user_id: 21, permissions: {"servicios":["listar","actualizar","eliminar","ver"],"servicios_autorizado_por":[]}
+[2025-11-09 17:38:55] ✅ Validaciones OK
+[2025-11-09 17:38:55] 🔄 Iniciando transacción...
+[2025-11-09 17:38:55] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 17:38:55] ✅ Permisos existentes eliminados
+[2025-11-09 17:38:55] ➕ Insertando nuevos permisos...
+[2025-11-09 17:38:55]   ✓ Insertado: servicios -> listar
+[2025-11-09 17:38:55]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 17:38:55]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 17:38:55]   ✓ Insertado: servicios -> ver
+[2025-11-09 17:38:55] ✅ Total de permisos insertados: 4
+[2025-11-09 17:38:55] ✅ Transacción confirmada
+[2025-11-09 17:40:58] ========================================
+[2025-11-09 17:40:58] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 17:40:58] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 17:40:58] 📝 user_id: 21, permissions: {"servicios":["listar","actualizar","eliminar","ver"],"servicios_actividades":["listar","crear","actualizar","eliminar","ver","exportar"]}
+[2025-11-09 17:40:58] ✅ Validaciones OK
+[2025-11-09 17:40:58] 🔄 Iniciando transacción...
+[2025-11-09 17:40:58] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 17:40:58] ✅ Permisos existentes eliminados
+[2025-11-09 17:40:58] ➕ Insertando nuevos permisos...
+[2025-11-09 17:40:58]   ✓ Insertado: servicios -> listar
+[2025-11-09 17:40:58]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 17:40:58]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 17:40:58]   ✓ Insertado: servicios -> ver
+[2025-11-09 17:40:58]   ✓ Insertado: servicios_actividades -> listar
+[2025-11-09 17:40:58]   ✓ Insertado: servicios_actividades -> crear
+[2025-11-09 17:40:58]   ✓ Insertado: servicios_actividades -> actualizar
+[2025-11-09 17:40:58]   ✓ Insertado: servicios_actividades -> eliminar
+[2025-11-09 17:40:58]   ✓ Insertado: servicios_actividades -> ver
+[2025-11-09 17:40:58]   ✓ Insertado: servicios_actividades -> exportar
+[2025-11-09 17:40:58] ✅ Total de permisos insertados: 10
+[2025-11-09 17:40:58] ✅ Transacción confirmada
+[2025-11-09 18:16:08] ========================================
+[2025-11-09 18:16:08] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 18:16:08] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 18:16:08] 📝 user_id: 21, permissions: {"servicios":["listar","actualizar","eliminar","ver"],"servicios_actividades":[]}
+[2025-11-09 18:16:08] ✅ Validaciones OK
+[2025-11-09 18:16:08] 🔄 Iniciando transacción...
+[2025-11-09 18:16:08] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 18:16:08] ✅ Permisos existentes eliminados
+[2025-11-09 18:16:08] ➕ Insertando nuevos permisos...
+[2025-11-09 18:16:08]   ✓ Insertado: servicios -> listar
+[2025-11-09 18:16:08]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 18:16:08]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 18:16:08]   ✓ Insertado: servicios -> ver
+[2025-11-09 18:16:08] ✅ Total de permisos insertados: 4
+[2025-11-09 18:16:08] ✅ Transacción confirmada
+[2025-11-09 18:18:20] ========================================
+[2025-11-09 18:18:20] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 18:18:20] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 18:18:20] 📝 user_id: 21, permissions: {"servicios":["listar","actualizar","eliminar","ver"],"servicios_repuestos":["listar","actualizar"],"servicios_personal":["crear"]}
+[2025-11-09 18:18:20] ✅ Validaciones OK
+[2025-11-09 18:18:20] 🔄 Iniciando transacción...
+[2025-11-09 18:18:20] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 18:18:20] ✅ Permisos existentes eliminados
+[2025-11-09 18:18:20] ➕ Insertando nuevos permisos...
+[2025-11-09 18:18:20]   ✓ Insertado: servicios -> listar
+[2025-11-09 18:18:20]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 18:18:20]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 18:18:20]   ✓ Insertado: servicios -> ver
+[2025-11-09 18:18:20]   ✓ Insertado: servicios_repuestos -> listar
+[2025-11-09 18:18:20]   ✓ Insertado: servicios_repuestos -> actualizar
+[2025-11-09 18:18:20]   ✓ Insertado: servicios_personal -> crear
+[2025-11-09 18:18:20] ✅ Total de permisos insertados: 7
+[2025-11-09 18:18:20] ✅ Transacción confirmada
+[2025-11-09 19:23:20] ========================================
+[2025-11-09 19:23:20] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 19:23:20] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 19:23:20] 📝 user_id: 12, permissions: {"usuarios":["listar"]}
+[2025-11-09 19:23:20] ✅ Validaciones OK
+[2025-11-09 19:23:20] 🔄 Iniciando transacción...
+[2025-11-09 19:23:20] 🗑️  Eliminando permisos existentes para user_id: 12
+[2025-11-09 19:23:20] ✅ Permisos existentes eliminados
+[2025-11-09 19:23:20] ➕ Insertando nuevos permisos...
+[2025-11-09 19:23:20]   ✓ Insertado: usuarios -> listar
+[2025-11-09 19:23:20] ✅ Total de permisos insertados: 1
+[2025-11-09 19:23:20] ✅ Transacción confirmada
+[2025-11-09 19:42:01] ========================================
+[2025-11-09 19:42:01] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 19:42:01] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 19:42:01] 📝 user_id: 22, permissions: []
+[2025-11-09 19:42:01] ✅ Validaciones OK
+[2025-11-09 19:42:01] 🔄 Iniciando transacción...
+[2025-11-09 19:42:01] 🗑️  Eliminando permisos existentes para user_id: 22
+[2025-11-09 19:42:01] ✅ Permisos existentes eliminados
+[2025-11-09 19:42:01] ➕ Insertando nuevos permisos...
+[2025-11-09 19:42:01] ✅ Total de permisos insertados: 0
+[2025-11-09 19:42:01] ✅ Transacción confirmada
+[2025-11-09 20:10:47] ========================================
+[2025-11-09 20:10:47] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 20:10:47] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 20:10:47] 📝 user_id: 21, permissions: {"servicios":["listar","actualizar","eliminar","ver"],"servicios_personal":["crear"],"servicios_repuestos":["listar","actualizar"],"usuarios":["listar","crear","actualizar","eliminar","ver"],"equipos":["listar","ver","crear","actualizar"]}
+[2025-11-09 20:10:47] ✅ Validaciones OK
+[2025-11-09 20:10:47] 🔄 Iniciando transacción...
+[2025-11-09 20:10:47] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 20:10:47] ✅ Permisos existentes eliminados
+[2025-11-09 20:10:47] ➕ Insertando nuevos permisos...
+[2025-11-09 20:10:47]   ✓ Insertado: servicios -> listar
+[2025-11-09 20:10:47]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 20:10:47]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 20:10:47]   ✓ Insertado: servicios -> ver
+[2025-11-09 20:10:47]   ✓ Insertado: servicios_personal -> crear
+[2025-11-09 20:10:47]   ✓ Insertado: servicios_repuestos -> listar
+[2025-11-09 20:10:47]   ✓ Insertado: servicios_repuestos -> actualizar
+[2025-11-09 20:10:47]   ✓ Insertado: usuarios -> listar
+[2025-11-09 20:10:47]   ✓ Insertado: usuarios -> crear
+[2025-11-09 20:10:47]   ✓ Insertado: usuarios -> actualizar
+[2025-11-09 20:10:47]   ✓ Insertado: usuarios -> eliminar
+[2025-11-09 20:10:47]   ✓ Insertado: usuarios -> ver
+[2025-11-09 20:10:47]   ✓ Insertado: equipos -> listar
+[2025-11-09 20:10:47]   ✓ Insertado: equipos -> ver
+[2025-11-09 20:10:47]   ✓ Insertado: equipos -> crear
+[2025-11-09 20:10:47]   ✓ Insertado: equipos -> actualizar
+[2025-11-09 20:10:47] ✅ Total de permisos insertados: 16
+[2025-11-09 20:10:47] ✅ Transacción confirmada
+[2025-11-09 20:10:54] ========================================
+[2025-11-09 20:10:54] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 20:10:54] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 20:10:54] 📝 user_id: 21, permissions: {"servicios":["listar","actualizar","eliminar","ver"],"servicios_personal":["crear"],"servicios_repuestos":["listar","actualizar"],"usuarios":["listar","crear","actualizar","eliminar","ver"],"equipos":["listar","ver","crear","actualizar"],"inventario":["listar","ver","crear","actualizar","eliminar"]}
+[2025-11-09 20:10:54] ✅ Validaciones OK
+[2025-11-09 20:10:54] 🔄 Iniciando transacción...
+[2025-11-09 20:10:54] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 20:10:54] ✅ Permisos existentes eliminados
+[2025-11-09 20:10:54] ➕ Insertando nuevos permisos...
+[2025-11-09 20:10:54]   ✓ Insertado: servicios -> listar
+[2025-11-09 20:10:54]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 20:10:54]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 20:10:54]   ✓ Insertado: servicios -> ver
+[2025-11-09 20:10:54]   ✓ Insertado: servicios_personal -> crear
+[2025-11-09 20:10:54]   ✓ Insertado: servicios_repuestos -> listar
+[2025-11-09 20:10:54]   ✓ Insertado: servicios_repuestos -> actualizar
+[2025-11-09 20:10:54]   ✓ Insertado: usuarios -> listar
+[2025-11-09 20:10:54]   ✓ Insertado: usuarios -> crear
+[2025-11-09 20:10:54]   ✓ Insertado: usuarios -> actualizar
+[2025-11-09 20:10:54]   ✓ Insertado: usuarios -> eliminar
+[2025-11-09 20:10:54]   ✓ Insertado: usuarios -> ver
+[2025-11-09 20:10:54]   ✓ Insertado: equipos -> listar
+[2025-11-09 20:10:54]   ✓ Insertado: equipos -> ver
+[2025-11-09 20:10:54]   ✓ Insertado: equipos -> crear
+[2025-11-09 20:10:54]   ✓ Insertado: equipos -> actualizar
+[2025-11-09 20:10:54]   ✓ Insertado: inventario -> listar
+[2025-11-09 20:10:54]   ✓ Insertado: inventario -> ver
+[2025-11-09 20:10:54]   ✓ Insertado: inventario -> crear
+[2025-11-09 20:10:54]   ✓ Insertado: inventario -> actualizar
+[2025-11-09 20:10:54]   ✓ Insertado: inventario -> eliminar
+[2025-11-09 20:10:54] ✅ Total de permisos insertados: 21
+[2025-11-09 20:10:54] ✅ Transacción confirmada
+[2025-11-09 20:23:13] ========================================
+[2025-11-09 20:23:13] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 20:23:13] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 20:23:13] 📝 user_id: 21, permissions: {"equipos":["listar","actualizar","ver"],"inventario":["listar","crear","actualizar","eliminar","ver"],"servicios":["listar","actualizar","eliminar","ver"],"servicios_personal":["crear"],"servicios_repuestos":["listar","actualizar"],"usuarios":["listar","crear","actualizar","eliminar","ver"]}
+[2025-11-09 20:23:13] ✅ Validaciones OK
+[2025-11-09 20:23:13] 🔄 Iniciando transacción...
+[2025-11-09 20:23:13] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 20:23:13] ✅ Permisos existentes eliminados
+[2025-11-09 20:23:13] ➕ Insertando nuevos permisos...
+[2025-11-09 20:23:13]   ✓ Insertado: equipos -> listar
+[2025-11-09 20:23:13]   ✓ Insertado: equipos -> actualizar
+[2025-11-09 20:23:13]   ✓ Insertado: equipos -> ver
+[2025-11-09 20:23:13]   ✓ Insertado: inventario -> listar
+[2025-11-09 20:23:13]   ✓ Insertado: inventario -> crear
+[2025-11-09 20:23:13]   ✓ Insertado: inventario -> actualizar
+[2025-11-09 20:23:13]   ✓ Insertado: inventario -> eliminar
+[2025-11-09 20:23:13]   ✓ Insertado: inventario -> ver
+[2025-11-09 20:23:13]   ✓ Insertado: servicios -> listar
+[2025-11-09 20:23:13]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 20:23:13]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 20:23:13]   ✓ Insertado: servicios -> ver
+[2025-11-09 20:23:13]   ✓ Insertado: servicios_personal -> crear
+[2025-11-09 20:23:13]   ✓ Insertado: servicios_repuestos -> listar
+[2025-11-09 20:23:13]   ✓ Insertado: servicios_repuestos -> actualizar
+[2025-11-09 20:23:13]   ✓ Insertado: usuarios -> listar
+[2025-11-09 20:23:13]   ✓ Insertado: usuarios -> crear
+[2025-11-09 20:23:13]   ✓ Insertado: usuarios -> actualizar
+[2025-11-09 20:23:13]   ✓ Insertado: usuarios -> eliminar
+[2025-11-09 20:23:13]   ✓ Insertado: usuarios -> ver
+[2025-11-09 20:23:13] ✅ Total de permisos insertados: 20
+[2025-11-09 20:23:13] ✅ Transacción confirmada
+[2025-11-09 20:23:26] ========================================
+[2025-11-09 20:23:26] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-09 20:23:26] 👤 Usuario: colaborador (ID: 21)
+[2025-11-09 20:23:26] 📝 user_id: 21, permissions: {"equipos":["listar","ver"],"inventario":["listar","crear","actualizar","eliminar","ver"],"servicios":["listar","actualizar","eliminar","ver"],"servicios_personal":["crear"],"servicios_repuestos":["listar","actualizar"],"usuarios":["listar","crear","actualizar","eliminar","ver"]}
+[2025-11-09 20:23:26] ✅ Validaciones OK
+[2025-11-09 20:23:26] 🔄 Iniciando transacción...
+[2025-11-09 20:23:26] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-09 20:23:26] ✅ Permisos existentes eliminados
+[2025-11-09 20:23:26] ➕ Insertando nuevos permisos...
+[2025-11-09 20:23:26]   ✓ Insertado: equipos -> listar
+[2025-11-09 20:23:26]   ✓ Insertado: equipos -> ver
+[2025-11-09 20:23:26]   ✓ Insertado: inventario -> listar
+[2025-11-09 20:23:26]   ✓ Insertado: inventario -> crear
+[2025-11-09 20:23:26]   ✓ Insertado: inventario -> actualizar
+[2025-11-09 20:23:26]   ✓ Insertado: inventario -> eliminar
+[2025-11-09 20:23:26]   ✓ Insertado: inventario -> ver
+[2025-11-09 20:23:26]   ✓ Insertado: servicios -> listar
+[2025-11-09 20:23:26]   ✓ Insertado: servicios -> actualizar
+[2025-11-09 20:23:26]   ✓ Insertado: servicios -> eliminar
+[2025-11-09 20:23:26]   ✓ Insertado: servicios -> ver
+[2025-11-09 20:23:26]   ✓ Insertado: servicios_personal -> crear
+[2025-11-09 20:23:26]   ✓ Insertado: servicios_repuestos -> listar
+[2025-11-09 20:23:26]   ✓ Insertado: servicios_repuestos -> actualizar
+[2025-11-09 20:23:26]   ✓ Insertado: usuarios -> listar
+[2025-11-09 20:23:26]   ✓ Insertado: usuarios -> crear
+[2025-11-09 20:23:26]   ✓ Insertado: usuarios -> actualizar
+[2025-11-09 20:23:26]   ✓ Insertado: usuarios -> eliminar
+[2025-11-09 20:23:26]   ✓ Insertado: usuarios -> ver
+[2025-11-09 20:23:26] ✅ Total de permisos insertados: 19
+[2025-11-09 20:23:26] ✅ Transacción confirmada
+[2025-11-10 02:48:26] ========================================
+[2025-11-10 02:48:26] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-10 02:48:26] 👤 Usuario: colaborador (ID: 21)
+[2025-11-10 02:48:26] 📝 user_id: 21, permissions: {"equipos":["listar","ver"],"inventario":["listar","crear","actualizar","eliminar","ver"],"servicios":["listar","actualizar","eliminar","ver","crear","exportar"],"servicios_personal":["crear"],"servicios_repuestos":["listar","actualizar"],"usuarios":["listar","crear","actualizar","eliminar","ver"]}
+[2025-11-10 02:48:26] ✅ Validaciones OK
+[2025-11-10 02:48:26] 🔄 Iniciando transacción...
+[2025-11-10 02:48:26] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-10 02:48:26] ✅ Permisos existentes eliminados
+[2025-11-10 02:48:26] ➕ Insertando nuevos permisos...
+[2025-11-10 02:48:26]   ✓ Insertado: equipos -> listar
+[2025-11-10 02:48:26]   ✓ Insertado: equipos -> ver
+[2025-11-10 02:48:26]   ✓ Insertado: inventario -> listar
+[2025-11-10 02:48:26]   ✓ Insertado: inventario -> crear
+[2025-11-10 02:48:26]   ✓ Insertado: inventario -> actualizar
+[2025-11-10 02:48:26]   ✓ Insertado: inventario -> eliminar
+[2025-11-10 02:48:26]   ✓ Insertado: inventario -> ver
+[2025-11-10 02:48:26]   ✓ Insertado: servicios -> listar
+[2025-11-10 02:48:26]   ✓ Insertado: servicios -> actualizar
+[2025-11-10 02:48:26]   ✓ Insertado: servicios -> eliminar
+[2025-11-10 02:48:26]   ✓ Insertado: servicios -> ver
+[2025-11-10 02:48:26]   ✓ Insertado: servicios -> crear
+[2025-11-10 02:48:26]   ✓ Insertado: servicios -> exportar
+[2025-11-10 02:48:26]   ✓ Insertado: servicios_personal -> crear
+[2025-11-10 02:48:26]   ✓ Insertado: servicios_repuestos -> listar
+[2025-11-10 02:48:26]   ✓ Insertado: servicios_repuestos -> actualizar
+[2025-11-10 02:48:26]   ✓ Insertado: usuarios -> listar
+[2025-11-10 02:48:26]   ✓ Insertado: usuarios -> crear
+[2025-11-10 02:48:26]   ✓ Insertado: usuarios -> actualizar
+[2025-11-10 02:48:26]   ✓ Insertado: usuarios -> eliminar
+[2025-11-10 02:48:26]   ✓ Insertado: usuarios -> ver
+[2025-11-10 02:48:26] ✅ Total de permisos insertados: 21
+[2025-11-10 02:48:26] ✅ Transacción confirmada
+[2025-11-11 09:46:54] ========================================
+[2025-11-11 09:46:54] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-11 09:46:54] 👤 Usuario: colaborador (ID: 21)
+[2025-11-11 09:46:54] 📝 user_id: 21, permissions: {"equipos":["listar","ver"],"inventario":["listar","crear","actualizar","eliminar","ver"],"servicios":["listar","crear","actualizar","eliminar","ver","exportar"],"servicios_personal":["crear"],"servicios_repuestos":[],"usuarios":["listar","crear","actualizar","eliminar","ver"]}
+[2025-11-11 09:46:54] ✅ Validaciones OK
+[2025-11-11 09:46:54] 🔄 Iniciando transacción...
+[2025-11-11 09:46:54] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-11 09:46:54] ✅ Permisos existentes eliminados
+[2025-11-11 09:46:54] ➕ Insertando nuevos permisos...
+[2025-11-11 09:46:54]   ✓ Insertado: equipos -> listar
+[2025-11-11 09:46:54]   ✓ Insertado: equipos -> ver
+[2025-11-11 09:46:54]   ✓ Insertado: inventario -> listar
+[2025-11-11 09:46:54]   ✓ Insertado: inventario -> crear
+[2025-11-11 09:46:54]   ✓ Insertado: inventario -> actualizar
+[2025-11-11 09:46:54]   ✓ Insertado: inventario -> eliminar
+[2025-11-11 09:46:54]   ✓ Insertado: inventario -> ver
+[2025-11-11 09:46:54]   ✓ Insertado: servicios -> listar
+[2025-11-11 09:46:54]   ✓ Insertado: servicios -> crear
+[2025-11-11 09:46:54]   ✓ Insertado: servicios -> actualizar
+[2025-11-11 09:46:54]   ✓ Insertado: servicios -> eliminar
+[2025-11-11 09:46:54]   ✓ Insertado: servicios -> ver
+[2025-11-11 09:46:54]   ✓ Insertado: servicios -> exportar
+[2025-11-11 09:46:54]   ✓ Insertado: servicios_personal -> crear
+[2025-11-11 09:46:54]   ✓ Insertado: usuarios -> listar
+[2025-11-11 09:46:54]   ✓ Insertado: usuarios -> crear
+[2025-11-11 09:46:54]   ✓ Insertado: usuarios -> actualizar
+[2025-11-11 09:46:54]   ✓ Insertado: usuarios -> eliminar
+[2025-11-11 09:46:54]   ✓ Insertado: usuarios -> ver
+[2025-11-11 09:46:54] ✅ Total de permisos insertados: 19
+[2025-11-11 09:46:54] ✅ Transacción confirmada
+[2025-11-11 10:07:38] ========================================
+[2025-11-11 10:07:38] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-11 10:07:38] 👤 Usuario: colaborador (ID: 21)
+[2025-11-11 10:07:38] 📝 user_id: 21, permissions: {"equipos":["listar","ver"],"inventario":["listar","crear","actualizar","eliminar","ver"],"servicios":["listar","crear","actualizar","eliminar","ver","exportar"],"servicios_personal":["crear","listar","actualizar"],"usuarios":["listar","ver","crear","actualizar","eliminar"]}
+[2025-11-11 10:07:38] ✅ Validaciones OK
+[2025-11-11 10:07:38] 🔄 Iniciando transacción...
+[2025-11-11 10:07:38] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-11 10:07:38] ✅ Permisos existentes eliminados
+[2025-11-11 10:07:38] ➕ Insertando nuevos permisos...
+[2025-11-11 10:07:38]   ✓ Insertado: equipos -> listar
+[2025-11-11 10:07:38]   ✓ Insertado: equipos -> ver
+[2025-11-11 10:07:38]   ✓ Insertado: inventario -> listar
+[2025-11-11 10:07:38]   ✓ Insertado: inventario -> crear
+[2025-11-11 10:07:38]   ✓ Insertado: inventario -> actualizar
+[2025-11-11 10:07:38]   ✓ Insertado: inventario -> eliminar
+[2025-11-11 10:07:38]   ✓ Insertado: inventario -> ver
+[2025-11-11 10:07:38]   ✓ Insertado: servicios -> listar
+[2025-11-11 10:07:38]   ✓ Insertado: servicios -> crear
+[2025-11-11 10:07:38]   ✓ Insertado: servicios -> actualizar
+[2025-11-11 10:07:38]   ✓ Insertado: servicios -> eliminar
+[2025-11-11 10:07:38]   ✓ Insertado: servicios -> ver
+[2025-11-11 10:07:38]   ✓ Insertado: servicios -> exportar
+[2025-11-11 10:07:38]   ✓ Insertado: servicios_personal -> crear
+[2025-11-11 10:07:38]   ✓ Insertado: servicios_personal -> listar
+[2025-11-11 10:07:38]   ✓ Insertado: servicios_personal -> actualizar
+[2025-11-11 10:07:38]   ✓ Insertado: usuarios -> listar
+[2025-11-11 10:07:38]   ✓ Insertado: usuarios -> ver
+[2025-11-11 10:07:38]   ✓ Insertado: usuarios -> crear
+[2025-11-11 10:07:38]   ✓ Insertado: usuarios -> actualizar
+[2025-11-11 10:07:38]   ✓ Insertado: usuarios -> eliminar
+[2025-11-11 10:07:38] ✅ Total de permisos insertados: 21
+[2025-11-11 10:07:38] ✅ Transacción confirmada
+[2025-11-11 10:08:17] ========================================
+[2025-11-11 10:08:17] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-11 10:08:17] 👤 Usuario: colaborador (ID: 21)
+[2025-11-11 10:08:17] 📝 user_id: 21, permissions: {"equipos":["listar","ver"],"inventario":["listar","crear","actualizar","eliminar","ver"],"servicios":["listar","crear","actualizar","eliminar","ver","exportar"],"servicios_personal":["crear"],"usuarios":["listar","ver","crear","actualizar","eliminar"]}
+[2025-11-11 10:08:17] ✅ Validaciones OK
+[2025-11-11 10:08:17] 🔄 Iniciando transacción...
+[2025-11-11 10:08:17] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-11 10:08:17] ✅ Permisos existentes eliminados
+[2025-11-11 10:08:17] ➕ Insertando nuevos permisos...
+[2025-11-11 10:08:17]   ✓ Insertado: equipos -> listar
+[2025-11-11 10:08:17]   ✓ Insertado: equipos -> ver
+[2025-11-11 10:08:17]   ✓ Insertado: inventario -> listar
+[2025-11-11 10:08:17]   ✓ Insertado: inventario -> crear
+[2025-11-11 10:08:17]   ✓ Insertado: inventario -> actualizar
+[2025-11-11 10:08:17]   ✓ Insertado: inventario -> eliminar
+[2025-11-11 10:08:17]   ✓ Insertado: inventario -> ver
+[2025-11-11 10:08:17]   ✓ Insertado: servicios -> listar
+[2025-11-11 10:08:17]   ✓ Insertado: servicios -> crear
+[2025-11-11 10:08:17]   ✓ Insertado: servicios -> actualizar
+[2025-11-11 10:08:17]   ✓ Insertado: servicios -> eliminar
+[2025-11-11 10:08:17]   ✓ Insertado: servicios -> ver
+[2025-11-11 10:08:17]   ✓ Insertado: servicios -> exportar
+[2025-11-11 10:08:17]   ✓ Insertado: servicios_personal -> crear
+[2025-11-11 10:08:17]   ✓ Insertado: usuarios -> listar
+[2025-11-11 10:08:17]   ✓ Insertado: usuarios -> ver
+[2025-11-11 10:08:17]   ✓ Insertado: usuarios -> crear
+[2025-11-11 10:08:17]   ✓ Insertado: usuarios -> actualizar
+[2025-11-11 10:08:17]   ✓ Insertado: usuarios -> eliminar
+[2025-11-11 10:08:17] ✅ Total de permisos insertados: 19
+[2025-11-11 10:08:17] ✅ Transacción confirmada
+[2025-11-11 11:20:47] ========================================
+[2025-11-11 11:20:47] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-11 11:20:47] 👤 Usuario: colaborador (ID: 21)
+[2025-11-11 11:20:47] 📝 user_id: 21, permissions: {"equipos":["listar","ver"],"inventario":["listar","crear","actualizar","eliminar","ver"],"servicios":["listar","crear","actualizar","eliminar","ver","exportar"],"servicios_personal":["crear","listar"],"usuarios":["listar","crear","actualizar","eliminar","ver"]}
+[2025-11-11 11:20:47] ✅ Validaciones OK
+[2025-11-11 11:20:47] 🔄 Iniciando transacción...
+[2025-11-11 11:20:47] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-11 11:20:47] ✅ Permisos existentes eliminados
+[2025-11-11 11:20:47] ➕ Insertando nuevos permisos...
+[2025-11-11 11:20:47]   ✓ Insertado: equipos -> listar
+[2025-11-11 11:20:47]   ✓ Insertado: equipos -> ver
+[2025-11-11 11:20:47]   ✓ Insertado: inventario -> listar
+[2025-11-11 11:20:47]   ✓ Insertado: inventario -> crear
+[2025-11-11 11:20:47]   ✓ Insertado: inventario -> actualizar
+[2025-11-11 11:20:47]   ✓ Insertado: inventario -> eliminar
+[2025-11-11 11:20:47]   ✓ Insertado: inventario -> ver
+[2025-11-11 11:20:47]   ✓ Insertado: servicios -> listar
+[2025-11-11 11:20:47]   ✓ Insertado: servicios -> crear
+[2025-11-11 11:20:47]   ✓ Insertado: servicios -> actualizar
+[2025-11-11 11:20:47]   ✓ Insertado: servicios -> eliminar
+[2025-11-11 11:20:47]   ✓ Insertado: servicios -> ver
+[2025-11-11 11:20:47]   ✓ Insertado: servicios -> exportar
+[2025-11-11 11:20:47]   ✓ Insertado: servicios_personal -> crear
+[2025-11-11 11:20:47]   ✓ Insertado: servicios_personal -> listar
+[2025-11-11 11:20:47]   ✓ Insertado: usuarios -> listar
+[2025-11-11 11:20:47]   ✓ Insertado: usuarios -> crear
+[2025-11-11 11:20:47]   ✓ Insertado: usuarios -> actualizar
+[2025-11-11 11:20:47]   ✓ Insertado: usuarios -> eliminar
+[2025-11-11 11:20:47]   ✓ Insertado: usuarios -> ver
+[2025-11-11 11:20:47] ✅ Total de permisos insertados: 20
+[2025-11-11 11:20:47] ✅ Transacción confirmada
+[2025-11-11 11:40:13] ========================================
+[2025-11-11 11:40:13] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-11 11:40:13] 👤 Usuario: colaborador (ID: 21)
+[2025-11-11 11:40:13] 📝 user_id: 21, permissions: {"equipos":["listar","ver"],"inventario":["listar","crear","actualizar","eliminar","ver"],"servicios":["listar","crear","actualizar","eliminar","ver","exportar"],"servicios_personal":["listar","crear","ver"],"usuarios":["listar","crear","actualizar","eliminar","ver"]}
+[2025-11-11 11:40:13] ✅ Validaciones OK
+[2025-11-11 11:40:15] 🔄 Iniciando transacción...
+[2025-11-11 11:40:15] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-11 11:40:15] ✅ Permisos existentes eliminados
+[2025-11-11 11:40:15] ➕ Insertando nuevos permisos...
+[2025-11-11 11:40:16]   ✓ Insertado: equipos -> listar
+[2025-11-11 11:40:16]   ✓ Insertado: equipos -> ver
+[2025-11-11 11:40:16]   ✓ Insertado: inventario -> listar
+[2025-11-11 11:40:16]   ✓ Insertado: inventario -> crear
+[2025-11-11 11:40:16]   ✓ Insertado: inventario -> actualizar
+[2025-11-11 11:40:16]   ✓ Insertado: inventario -> eliminar
+[2025-11-11 11:40:16]   ✓ Insertado: inventario -> ver
+[2025-11-11 11:40:16]   ✓ Insertado: servicios -> listar
+[2025-11-11 11:40:16]   ✓ Insertado: servicios -> crear
+[2025-11-11 11:40:16]   ✓ Insertado: servicios -> actualizar
+[2025-11-11 11:40:16]   ✓ Insertado: servicios -> eliminar
+[2025-11-11 11:40:16]   ✓ Insertado: servicios -> ver
+[2025-11-11 11:40:16]   ✓ Insertado: servicios -> exportar
+[2025-11-11 11:40:16]   ✓ Insertado: servicios_personal -> listar
+[2025-11-11 11:40:16]   ✓ Insertado: servicios_personal -> crear
+[2025-11-11 11:40:16]   ✓ Insertado: servicios_personal -> ver
+[2025-11-11 11:40:16]   ✓ Insertado: usuarios -> listar
+[2025-11-11 11:40:16]   ✓ Insertado: usuarios -> crear
+[2025-11-11 11:40:16]   ✓ Insertado: usuarios -> actualizar
+[2025-11-11 11:40:16]   ✓ Insertado: usuarios -> eliminar
+[2025-11-11 11:40:16]   ✓ Insertado: usuarios -> ver
+[2025-11-11 11:40:16] ✅ Total de permisos insertados: 21
+[2025-11-11 11:40:16] ✅ Transacción confirmada
+[2025-11-11 11:42:04] ========================================
+[2025-11-11 11:42:04] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-11 11:42:04] 👤 Usuario: colaborador (ID: 21)
+[2025-11-11 11:42:04] 📝 user_id: 21, permissions: {"equipos":["listar","ver"],"inventario":["listar","crear","actualizar","eliminar","ver"],"servicios":["listar","crear","actualizar","eliminar","ver","exportar"],"servicios_personal":["listar","crear","ver","actualizar"],"usuarios":["listar","crear","actualizar","eliminar","ver"]}
+[2025-11-11 11:42:04] ✅ Validaciones OK
+[2025-11-11 11:42:04] 🔄 Iniciando transacción...
+[2025-11-11 11:42:04] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-11 11:42:04] ✅ Permisos existentes eliminados
+[2025-11-11 11:42:04] ➕ Insertando nuevos permisos...
+[2025-11-11 11:42:04]   ✓ Insertado: equipos -> listar
+[2025-11-11 11:42:04]   ✓ Insertado: equipos -> ver
+[2025-11-11 11:42:04]   ✓ Insertado: inventario -> listar
+[2025-11-11 11:42:04]   ✓ Insertado: inventario -> crear
+[2025-11-11 11:42:04]   ✓ Insertado: inventario -> actualizar
+[2025-11-11 11:42:04]   ✓ Insertado: inventario -> eliminar
+[2025-11-11 11:42:04]   ✓ Insertado: inventario -> ver
+[2025-11-11 11:42:04]   ✓ Insertado: servicios -> listar
+[2025-11-11 11:42:04]   ✓ Insertado: servicios -> crear
+[2025-11-11 11:42:04]   ✓ Insertado: servicios -> actualizar
+[2025-11-11 11:42:04]   ✓ Insertado: servicios -> eliminar
+[2025-11-11 11:42:04]   ✓ Insertado: servicios -> ver
+[2025-11-11 11:42:04]   ✓ Insertado: servicios -> exportar
+[2025-11-11 11:42:04]   ✓ Insertado: servicios_personal -> listar
+[2025-11-11 11:42:04]   ✓ Insertado: servicios_personal -> crear
+[2025-11-11 11:42:04]   ✓ Insertado: servicios_personal -> ver
+[2025-11-11 11:42:04]   ✓ Insertado: servicios_personal -> actualizar
+[2025-11-11 11:42:04]   ✓ Insertado: usuarios -> listar
+[2025-11-11 11:42:04]   ✓ Insertado: usuarios -> crear
+[2025-11-11 11:42:04]   ✓ Insertado: usuarios -> actualizar
+[2025-11-11 11:42:04]   ✓ Insertado: usuarios -> eliminar
+[2025-11-11 11:42:04]   ✓ Insertado: usuarios -> ver
+[2025-11-11 11:42:04] ✅ Total de permisos insertados: 22
+[2025-11-11 11:42:04] ✅ Transacción confirmada
+[2025-11-11 22:57:37] ========================================
+[2025-11-11 22:57:37] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-11 22:57:37] 👤 Usuario: colaborador (ID: 21)
+[2025-11-11 22:57:37] 📝 user_id: 21, permissions: {"equipos":["listar","ver"],"inventario":["listar","crear","actualizar","eliminar","ver"],"servicios":["listar","crear","actualizar","eliminar","ver","exportar"],"servicios_personal":["listar","crear","actualizar","ver"],"usuarios":["listar","crear","actualizar","eliminar","ver"],"servicios_repuestos":["listar","actualizar","ver"]}
+[2025-11-11 22:57:37] ✅ Validaciones OK
+[2025-11-11 22:57:37] 🔄 Iniciando transacción...
+[2025-11-11 22:57:37] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-11 22:57:37] ✅ Permisos existentes eliminados
+[2025-11-11 22:57:37] ➕ Insertando nuevos permisos...
+[2025-11-11 22:57:37]   ✓ Insertado: equipos -> listar
+[2025-11-11 22:57:37]   ✓ Insertado: equipos -> ver
+[2025-11-11 22:57:37]   ✓ Insertado: inventario -> listar
+[2025-11-11 22:57:37]   ✓ Insertado: inventario -> crear
+[2025-11-11 22:57:37]   ✓ Insertado: inventario -> actualizar
+[2025-11-11 22:57:37]   ✓ Insertado: inventario -> eliminar
+[2025-11-11 22:57:37]   ✓ Insertado: inventario -> ver
+[2025-11-11 22:57:37]   ✓ Insertado: servicios -> listar
+[2025-11-11 22:57:37]   ✓ Insertado: servicios -> crear
+[2025-11-11 22:57:37]   ✓ Insertado: servicios -> actualizar
+[2025-11-11 22:57:37]   ✓ Insertado: servicios -> eliminar
+[2025-11-11 22:57:37]   ✓ Insertado: servicios -> ver
+[2025-11-11 22:57:37]   ✓ Insertado: servicios -> exportar
+[2025-11-11 22:57:37]   ✓ Insertado: servicios_personal -> listar
+[2025-11-11 22:57:37]   ✓ Insertado: servicios_personal -> crear
+[2025-11-11 22:57:37]   ✓ Insertado: servicios_personal -> actualizar
+[2025-11-11 22:57:37]   ✓ Insertado: servicios_personal -> ver
+[2025-11-11 22:57:37]   ✓ Insertado: usuarios -> listar
+[2025-11-11 22:57:37]   ✓ Insertado: usuarios -> crear
+[2025-11-11 22:57:37]   ✓ Insertado: usuarios -> actualizar
+[2025-11-11 22:57:37]   ✓ Insertado: usuarios -> eliminar
+[2025-11-11 22:57:37]   ✓ Insertado: usuarios -> ver
+[2025-11-11 22:57:37]   ✓ Insertado: servicios_repuestos -> listar
+[2025-11-11 22:57:37]   ✓ Insertado: servicios_repuestos -> actualizar
+[2025-11-11 22:57:37]   ✓ Insertado: servicios_repuestos -> ver
+[2025-11-11 22:57:37] ✅ Total de permisos insertados: 25
+[2025-11-11 22:57:37] ✅ Transacción confirmada
+[2025-11-15 21:06:02] ========================================
+[2025-11-15 21:06:02] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-15 21:06:02] 👤 Usuario: colaborador (ID: 21)
+[2025-11-15 21:06:02] 📝 user_id: 21, permissions: {"equipos":["listar","ver","crear","actualizar","eliminar","exportar"],"inventario":["listar","ver","crear","actualizar","eliminar","exportar"],"servicios":["listar","crear","actualizar","eliminar","ver","exportar"],"servicios_personal":["listar","crear","actualizar","ver"],"servicios_repuestos":["listar","actualizar","ver"],"usuarios":["listar","crear","actualizar","eliminar","ver"],"servicios_actividades":["listar","ver","crear","actualizar","eliminar"],"servicios_autorizado_por":["listar","ver","crear","actualizar","eliminar","exportar"],"branding":["ver","actualizar"],"campos_adicionales":["listar","crear","actualizar","eliminar","ver","exportar"],"estados_transiciones":["listar","crear","actualizar","eliminar","ver","exportar"],"plantillas":["listar","ver","crear","actualizar","eliminar"]}
+[2025-11-15 21:06:02] ✅ Validaciones OK
+[2025-11-15 21:06:02] 🔄 Iniciando transacción...
+[2025-11-15 21:06:02] 🗑️  Eliminando permisos existentes para user_id: 21
+[2025-11-15 21:06:02] ✅ Permisos existentes eliminados
+[2025-11-15 21:06:02] ➕ Insertando nuevos permisos...
+[2025-11-15 21:06:02]   ✓ Insertado: equipos -> listar
+[2025-11-15 21:06:02]   ✓ Insertado: equipos -> ver
+[2025-11-15 21:06:02]   ✓ Insertado: equipos -> crear
+[2025-11-15 21:06:02]   ✓ Insertado: equipos -> actualizar
+[2025-11-15 21:06:02]   ✓ Insertado: equipos -> eliminar
+[2025-11-15 21:06:02]   ✓ Insertado: equipos -> exportar
+[2025-11-15 21:06:02]   ✓ Insertado: inventario -> listar
+[2025-11-15 21:06:02]   ✓ Insertado: inventario -> ver
+[2025-11-15 21:06:02]   ✓ Insertado: inventario -> crear
+[2025-11-15 21:06:02]   ✓ Insertado: inventario -> actualizar
+[2025-11-15 21:06:02]   ✓ Insertado: inventario -> eliminar
+[2025-11-15 21:06:02]   ✓ Insertado: inventario -> exportar
+[2025-11-15 21:06:02]   ✓ Insertado: servicios -> listar
+[2025-11-15 21:06:02]   ✓ Insertado: servicios -> crear
+[2025-11-15 21:06:02]   ✓ Insertado: servicios -> actualizar
+[2025-11-15 21:06:02]   ✓ Insertado: servicios -> eliminar
+[2025-11-15 21:06:02]   ✓ Insertado: servicios -> ver
+[2025-11-15 21:06:02]   ✓ Insertado: servicios -> exportar
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_personal -> listar
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_personal -> crear
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_personal -> actualizar
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_personal -> ver
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_repuestos -> listar
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_repuestos -> actualizar
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_repuestos -> ver
+[2025-11-15 21:06:02]   ✓ Insertado: usuarios -> listar
+[2025-11-15 21:06:02]   ✓ Insertado: usuarios -> crear
+[2025-11-15 21:06:02]   ✓ Insertado: usuarios -> actualizar
+[2025-11-15 21:06:02]   ✓ Insertado: usuarios -> eliminar
+[2025-11-15 21:06:02]   ✓ Insertado: usuarios -> ver
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_actividades -> listar
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_actividades -> ver
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_actividades -> crear
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_actividades -> actualizar
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_actividades -> eliminar
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_autorizado_por -> listar
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_autorizado_por -> ver
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_autorizado_por -> crear
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_autorizado_por -> actualizar
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_autorizado_por -> eliminar
+[2025-11-15 21:06:02]   ✓ Insertado: servicios_autorizado_por -> exportar
+[2025-11-15 21:06:02]   ✓ Insertado: branding -> ver
+[2025-11-15 21:06:02]   ✓ Insertado: branding -> actualizar
+[2025-11-15 21:06:02]   ✓ Insertado: campos_adicionales -> listar
+[2025-11-15 21:06:02]   ✓ Insertado: campos_adicionales -> crear
+[2025-11-15 21:06:02]   ✓ Insertado: campos_adicionales -> actualizar
+[2025-11-15 21:06:02]   ✓ Insertado: campos_adicionales -> eliminar
+[2025-11-15 21:06:02]   ✓ Insertado: campos_adicionales -> ver
+[2025-11-15 21:06:02]   ✓ Insertado: campos_adicionales -> exportar
+[2025-11-15 21:06:02]   ✓ Insertado: estados_transiciones -> listar
+[2025-11-15 21:06:02]   ✓ Insertado: estados_transiciones -> crear
+[2025-11-15 21:06:02]   ✓ Insertado: estados_transiciones -> actualizar
+[2025-11-15 21:06:02]   ✓ Insertado: estados_transiciones -> eliminar
+[2025-11-15 21:06:02]   ✓ Insertado: estados_transiciones -> ver
+[2025-11-15 21:06:02]   ✓ Insertado: estados_transiciones -> exportar
+[2025-11-15 21:06:02]   ✓ Insertado: plantillas -> listar
+[2025-11-15 21:06:02]   ✓ Insertado: plantillas -> ver
+[2025-11-15 21:06:02]   ✓ Insertado: plantillas -> crear
+[2025-11-15 21:06:02]   ✓ Insertado: plantillas -> actualizar
+[2025-11-15 21:06:02]   ✓ Insertado: plantillas -> eliminar
+[2025-11-15 21:06:02] ✅ Total de permisos insertados: 60
+[2025-11-15 21:06:02] ✅ Transacción confirmada
+[2025-11-18 18:08:29] ========================================
+[2025-11-18 18:08:29] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-18 18:08:29] 👤 Usuario: colaborador (ID: 21)
+[2025-11-18 18:08:29] 📝 user_id: 15, permissions: {"usuarios":["listar","ver","crear","actualizar","eliminar"],"servicios":["listar","crear","actualizar","eliminar","ver","exportar"],"estados_transiciones":["listar","crear","actualizar","eliminar","ver","exportar"],"campos_adicionales":["listar","crear","actualizar","eliminar","ver","exportar"],"branding":["ver","actualizar"],"servicios_autorizado_por":["listar","ver","crear","actualizar","eliminar","exportar"],"servicios_actividades":["listar","ver","crear","actualizar","eliminar"],"servicios_repuestos":["listar","ver","actualizar"],"servicios_personal":["listar","ver","actualizar"],"plantillas":["listar","ver","crear","actualizar","eliminar"],"inventario":["listar","ver","crear","eliminar","actualizar","exportar"],"equipos":["listar","ver","crear","actualizar","eliminar","exportar"]}
+[2025-11-18 18:08:29] ✅ Validaciones OK
+[2025-11-18 18:08:29] 🔄 Iniciando transacción...
+[2025-11-18 18:08:29] 🗑️  Eliminando permisos existentes para user_id: 15
+[2025-11-18 18:08:29] ✅ Permisos existentes eliminados
+[2025-11-18 18:08:29] ➕ Insertando nuevos permisos...
+[2025-11-18 18:08:29]   ✓ Insertado: usuarios -> listar
+[2025-11-18 18:08:29]   ✓ Insertado: usuarios -> ver
+[2025-11-18 18:08:29]   ✓ Insertado: usuarios -> crear
+[2025-11-18 18:08:29]   ✓ Insertado: usuarios -> actualizar
+[2025-11-18 18:08:29]   ✓ Insertado: usuarios -> eliminar
+[2025-11-18 18:08:29]   ✓ Insertado: servicios -> listar
+[2025-11-18 18:08:29]   ✓ Insertado: servicios -> crear
+[2025-11-18 18:08:29]   ✓ Insertado: servicios -> actualizar
+[2025-11-18 18:08:29]   ✓ Insertado: servicios -> eliminar
+[2025-11-18 18:08:29]   ✓ Insertado: servicios -> ver
+[2025-11-18 18:08:29]   ✓ Insertado: servicios -> exportar
+[2025-11-18 18:08:29]   ✓ Insertado: estados_transiciones -> listar
+[2025-11-18 18:08:29]   ✓ Insertado: estados_transiciones -> crear
+[2025-11-18 18:08:29]   ✓ Insertado: estados_transiciones -> actualizar
+[2025-11-18 18:08:29]   ✓ Insertado: estados_transiciones -> eliminar
+[2025-11-18 18:08:29]   ✓ Insertado: estados_transiciones -> ver
+[2025-11-18 18:08:29]   ✓ Insertado: estados_transiciones -> exportar
+[2025-11-18 18:08:29]   ✓ Insertado: campos_adicionales -> listar
+[2025-11-18 18:08:29]   ✓ Insertado: campos_adicionales -> crear
+[2025-11-18 18:08:29]   ✓ Insertado: campos_adicionales -> actualizar
+[2025-11-18 18:08:29]   ✓ Insertado: campos_adicionales -> eliminar
+[2025-11-18 18:08:29]   ✓ Insertado: campos_adicionales -> ver
+[2025-11-18 18:08:29]   ✓ Insertado: campos_adicionales -> exportar
+[2025-11-18 18:08:29]   ✓ Insertado: branding -> ver
+[2025-11-18 18:08:29]   ✓ Insertado: branding -> actualizar
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_autorizado_por -> listar
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_autorizado_por -> ver
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_autorizado_por -> crear
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_autorizado_por -> actualizar
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_autorizado_por -> eliminar
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_autorizado_por -> exportar
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_actividades -> listar
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_actividades -> ver
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_actividades -> crear
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_actividades -> actualizar
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_actividades -> eliminar
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_repuestos -> listar
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_repuestos -> ver
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_repuestos -> actualizar
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_personal -> listar
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_personal -> ver
+[2025-11-18 18:08:29]   ✓ Insertado: servicios_personal -> actualizar
+[2025-11-18 18:08:29]   ✓ Insertado: plantillas -> listar
+[2025-11-18 18:08:29]   ✓ Insertado: plantillas -> ver
+[2025-11-18 18:08:29]   ✓ Insertado: plantillas -> crear
+[2025-11-18 18:08:29]   ✓ Insertado: plantillas -> actualizar
+[2025-11-18 18:08:29]   ✓ Insertado: plantillas -> eliminar
+[2025-11-18 18:08:29]   ✓ Insertado: inventario -> listar
+[2025-11-18 18:08:29]   ✓ Insertado: inventario -> ver
+[2025-11-18 18:08:29]   ✓ Insertado: inventario -> crear
+[2025-11-18 18:08:29]   ✓ Insertado: inventario -> eliminar
+[2025-11-18 18:08:29]   ✓ Insertado: inventario -> actualizar
+[2025-11-18 18:08:29]   ✓ Insertado: inventario -> exportar
+[2025-11-18 18:08:29]   ✓ Insertado: equipos -> listar
+[2025-11-18 18:08:29]   ✓ Insertado: equipos -> ver
+[2025-11-18 18:08:29]   ✓ Insertado: equipos -> crear
+[2025-11-18 18:08:29]   ✓ Insertado: equipos -> actualizar
+[2025-11-18 18:08:29]   ✓ Insertado: equipos -> eliminar
+[2025-11-18 18:08:29]   ✓ Insertado: equipos -> exportar
+[2025-11-18 18:08:29] ✅ Total de permisos insertados: 59
+[2025-11-18 18:08:29] ✅ Transacción confirmada
+[2025-11-18 18:26:40] ========================================
+[2025-11-18 18:26:40] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-18 18:26:40] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-18 18:26:40] 📝 user_id: 16, permissions: {"usuarios":["listar","ver"],"servicios":["listar","crear","actualizar","ver","exportar"],"estados_transiciones":["listar","ver","exportar","actualizar"],"campos_adicionales":["listar","actualizar","ver","exportar"],"branding":["ver"],"servicios_autorizado_por":["listar","ver","crear","actualizar","exportar"],"servicios_actividades":["listar","ver","crear","actualizar"],"servicios_repuestos":["listar","ver","actualizar"],"servicios_personal":["listar","ver","actualizar"],"plantillas":["listar","ver","actualizar"],"inventario":["listar","ver","crear","actualizar","exportar"],"equipos":["listar","ver","crear","actualizar","exportar"]}
+[2025-11-18 18:26:40] ✅ Validaciones OK
+[2025-11-18 18:26:40] 🔄 Iniciando transacción...
+[2025-11-18 18:26:40] 🗑️  Eliminando permisos existentes para user_id: 16
+[2025-11-18 18:26:40] ✅ Permisos existentes eliminados
+[2025-11-18 18:26:40] ➕ Insertando nuevos permisos...
+[2025-11-18 18:26:40]   ✓ Insertado: usuarios -> listar
+[2025-11-18 18:26:40]   ✓ Insertado: usuarios -> ver
+[2025-11-18 18:26:40]   ✓ Insertado: servicios -> listar
+[2025-11-18 18:26:40]   ✓ Insertado: servicios -> crear
+[2025-11-18 18:26:40]   ✓ Insertado: servicios -> actualizar
+[2025-11-18 18:26:40]   ✓ Insertado: servicios -> ver
+[2025-11-18 18:26:40]   ✓ Insertado: servicios -> exportar
+[2025-11-18 18:26:40]   ✓ Insertado: estados_transiciones -> listar
+[2025-11-18 18:26:40]   ✓ Insertado: estados_transiciones -> ver
+[2025-11-18 18:26:40]   ✓ Insertado: estados_transiciones -> exportar
+[2025-11-18 18:26:40]   ✓ Insertado: estados_transiciones -> actualizar
+[2025-11-18 18:26:40]   ✓ Insertado: campos_adicionales -> listar
+[2025-11-18 18:26:40]   ✓ Insertado: campos_adicionales -> actualizar
+[2025-11-18 18:26:40]   ✓ Insertado: campos_adicionales -> ver
+[2025-11-18 18:26:40]   ✓ Insertado: campos_adicionales -> exportar
+[2025-11-18 18:26:40]   ✓ Insertado: branding -> ver
+[2025-11-18 18:26:40]   ✓ Insertado: servicios_autorizado_por -> listar
+[2025-11-18 18:26:40]   ✓ Insertado: servicios_autorizado_por -> ver
+[2025-11-18 18:26:40]   ✓ Insertado: servicios_autorizado_por -> crear
+[2025-11-18 18:26:40]   ✓ Insertado: servicios_autorizado_por -> actualizar
+[2025-11-18 18:26:40]   ✓ Insertado: servicios_autorizado_por -> exportar
+[2025-11-18 18:26:40]   ✓ Insertado: servicios_actividades -> listar
+[2025-11-18 18:26:40]   ✓ Insertado: servicios_actividades -> ver
+[2025-11-18 18:26:40]   ✓ Insertado: servicios_actividades -> crear
+[2025-11-18 18:26:40]   ✓ Insertado: servicios_actividades -> actualizar
+[2025-11-18 18:26:40]   ✓ Insertado: servicios_repuestos -> listar
+[2025-11-18 18:26:40]   ✓ Insertado: servicios_repuestos -> ver
+[2025-11-18 18:26:40]   ✓ Insertado: servicios_repuestos -> actualizar
+[2025-11-18 18:26:40]   ✓ Insertado: servicios_personal -> listar
+[2025-11-18 18:26:40]   ✓ Insertado: servicios_personal -> ver
+[2025-11-18 18:26:40]   ✓ Insertado: servicios_personal -> actualizar
+[2025-11-18 18:26:40]   ✓ Insertado: plantillas -> listar
+[2025-11-18 18:26:40]   ✓ Insertado: plantillas -> ver
+[2025-11-18 18:26:40]   ✓ Insertado: plantillas -> actualizar
+[2025-11-18 18:26:40]   ✓ Insertado: inventario -> listar
+[2025-11-18 18:26:40]   ✓ Insertado: inventario -> ver
+[2025-11-18 18:26:40]   ✓ Insertado: inventario -> crear
+[2025-11-18 18:26:40]   ✓ Insertado: inventario -> actualizar
+[2025-11-18 18:26:40]   ✓ Insertado: inventario -> exportar
+[2025-11-18 18:26:40]   ✓ Insertado: equipos -> listar
+[2025-11-18 18:26:40]   ✓ Insertado: equipos -> ver
+[2025-11-18 18:26:40]   ✓ Insertado: equipos -> crear
+[2025-11-18 18:26:40]   ✓ Insertado: equipos -> actualizar
+[2025-11-18 18:26:40]   ✓ Insertado: equipos -> exportar
+[2025-11-18 18:26:40] ✅ Total de permisos insertados: 44
+[2025-11-18 18:26:40] ✅ Transacción confirmada
+[2025-11-24 03:36:27] ========================================
+[2025-11-24 03:36:27] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-24 03:36:27] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:36:27] 📝 user_id: 24, permissions: {"servicios":["listar","crear","actualizar","eliminar","ver","exportar"]}
+[2025-11-24 03:36:27] ✅ Validaciones OK
+[2025-11-24 03:36:27] 🔄 Iniciando transacción...
+[2025-11-24 03:36:27] 🗑️  Eliminando permisos existentes para user_id: 24
+[2025-11-24 03:36:27] ✅ Permisos existentes eliminados
+[2025-11-24 03:36:27] ➕ Insertando nuevos permisos...
+[2025-11-24 03:36:27]   ✓ Insertado: servicios -> listar
+[2025-11-24 03:36:27]   ✓ Insertado: servicios -> crear
+[2025-11-24 03:36:27]   ✓ Insertado: servicios -> actualizar
+[2025-11-24 03:36:27]   ✓ Insertado: servicios -> eliminar
+[2025-11-24 03:36:27]   ✓ Insertado: servicios -> ver
+[2025-11-24 03:36:27]   ✓ Insertado: servicios -> exportar
+[2025-11-24 03:36:27] ✅ Total de permisos insertados: 6
+[2025-11-24 03:36:27] ✅ Transacción confirmada
+[2025-11-24 12:05:28] ========================================
+[2025-11-24 12:05:28] 🔄 REQUEST - UPDATE USER PERMISSIONS
+[2025-11-24 12:05:28] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 12:05:28] 📝 user_id: 26, permissions: {"servicios":["listar","crear","actualizar","eliminar","ver","exportar"],"equipos":["listar","ver","crear","actualizar","eliminar","exportar"]}
+[2025-11-24 12:05:28] ✅ Validaciones OK
+[2025-11-24 12:05:28] 🔄 Iniciando transacción...
+[2025-11-24 12:05:28] 🗑️  Eliminando permisos existentes para user_id: 26
+[2025-11-24 12:05:28] ✅ Permisos existentes eliminados
+[2025-11-24 12:05:28] ➕ Insertando nuevos permisos...
+[2025-11-24 12:05:28]   ✓ Insertado: servicios -> listar
+[2025-11-24 12:05:28]   ✓ Insertado: servicios -> crear
+[2025-11-24 12:05:28]   ✓ Insertado: servicios -> actualizar
+[2025-11-24 12:05:28]   ✓ Insertado: servicios -> eliminar
+[2025-11-24 12:05:28]   ✓ Insertado: servicios -> ver
+[2025-11-24 12:05:28]   ✓ Insertado: servicios -> exportar
+[2025-11-24 12:05:28]   ✓ Insertado: equipos -> listar
+[2025-11-24 12:05:28]   ✓ Insertado: equipos -> ver
+[2025-11-24 12:05:28]   ✓ Insertado: equipos -> crear
+[2025-11-24 12:05:28]   ✓ Insertado: equipos -> actualizar
+[2025-11-24 12:05:28]   ✓ Insertado: equipos -> eliminar
+[2025-11-24 12:05:28]   ✓ Insertado: equipos -> exportar
+[2025-11-24 12:05:28] ✅ Total de permisos insertados: 12
+[2025-11-24 12:05:28] ✅ Transacción confirmada

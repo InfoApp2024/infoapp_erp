@@ -1,0 +1,613 @@
+[2025-10-05 23:35:38][MEM: 0.36MB] ========================================
+[2025-10-05 23:35:38][MEM: 0.36MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-10-05 23:35:38][MEM: 0.36MB] ========================================
+[2025-10-05 23:35:38][MEM: 0.36MB] IP: 186.98.209.199
+[2025-10-05 23:35:38][MEM: 0.36MB] Método: OPTIONS
+[2025-10-05 23:35:38][MEM: 0.36MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-10-05 23:35:38][MEM: 0.36MB] auth_middleware cargado
+[2025-10-05 23:35:38][MEM: 0.35MB] ========================================
+[2025-10-05 23:35:38][MEM: 0.35MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-10-05 23:35:38][MEM: 0.35MB] ========================================
+[2025-10-05 23:35:38][MEM: 0.35MB] IP: 186.98.209.199
+[2025-10-05 23:35:38][MEM: 0.35MB] Método: GET
+[2025-10-05 23:35:38][MEM: 0.35MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-10-05 23:35:38][MEM: 0.35MB] auth_middleware cargado
+[2025-10-05 23:35:38][MEM: 0.35MB] Usuario autenticado: die (ID: 12)
+[2025-10-05 23:35:38][MEM: 0.35MB] Acceso registrado
+[2025-10-05 23:35:38][MEM: 0.35MB] Requiriendo conexión...
+[2025-10-05 23:35:38][MEM: 0.39MB] conexion.php cargado
+[2025-10-05 23:35:38][MEM: 0.39MB] Parámetros recibidos:
+[2025-10-05 23:35:38][MEM: 0.39MB]    id_servicio: NULL
+[2025-10-05 23:35:38][MEM: 0.39MB]    fecha_desde: NULL
+[2025-10-05 23:35:38][MEM: 0.39MB]    fecha_hasta: NULL
+[2025-10-05 23:35:38][MEM: 0.39MB]    limite: 50
+[2025-10-05 23:35:38][MEM: 0.39MB]    offset: 0
+[2025-10-05 23:35:38][MEM: 0.4MB] Query construido
+[2025-10-05 23:35:38][MEM: 0.4MB] Preparando statement...
+[2025-10-05 23:35:38][MEM: 0.42MB] Statement preparado correctamente
+[2025-10-05 23:35:38][MEM: 0.42MB] Binding 2 params con tipos: ii
+[2025-10-05 23:35:38][MEM: 0.42MB] Ejecutando query...
+[2025-10-05 23:35:38][MEM: 0.43MB] Firmas encontradas: 1
+[2025-10-05 23:35:38][MEM: 0.47MB] Total de registros: 1
+[2025-10-05 23:35:38][MEM: 0.47MB] Preparando respuesta JSON...
+[2025-10-05 23:35:38][MEM: 0.47MB] Respuesta preparada (size: 641 bytes)
+[2025-10-05 23:46:44][MEM: 0.36MB] ========================================
+[2025-10-05 23:46:44][MEM: 0.36MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-10-05 23:46:44][MEM: 0.36MB] ========================================
+[2025-10-05 23:46:44][MEM: 0.36MB] IP: 186.98.209.199
+[2025-10-05 23:46:44][MEM: 0.36MB] Método: OPTIONS
+[2025-10-05 23:46:44][MEM: 0.36MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-10-05 23:46:44][MEM: 0.36MB] auth_middleware cargado
+[2025-10-05 23:46:45][MEM: 0.35MB] ========================================
+[2025-10-05 23:46:45][MEM: 0.35MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-10-05 23:46:45][MEM: 0.35MB] ========================================
+[2025-10-05 23:46:45][MEM: 0.35MB] IP: 186.98.209.199
+[2025-10-05 23:46:45][MEM: 0.35MB] Método: GET
+[2025-10-05 23:46:45][MEM: 0.35MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-10-05 23:46:45][MEM: 0.35MB] auth_middleware cargado
+[2025-10-05 23:46:45][MEM: 0.35MB] Usuario autenticado: die (ID: 12)
+[2025-10-05 23:46:45][MEM: 0.35MB] Acceso registrado
+[2025-10-05 23:46:45][MEM: 0.35MB] Requiriendo conexión...
+[2025-10-05 23:46:45][MEM: 0.39MB] conexion.php cargado
+[2025-10-05 23:46:45][MEM: 0.39MB] Parámetros recibidos:
+[2025-10-05 23:46:45][MEM: 0.39MB]    id_servicio: NULL
+[2025-10-05 23:46:45][MEM: 0.39MB]    fecha_desde: NULL
+[2025-10-05 23:46:45][MEM: 0.39MB]    fecha_hasta: NULL
+[2025-10-05 23:46:45][MEM: 0.39MB]    limite: 50
+[2025-10-05 23:46:45][MEM: 0.39MB]    offset: 0
+[2025-10-05 23:46:45][MEM: 0.4MB] Query construido
+[2025-10-05 23:46:45][MEM: 0.4MB] Preparando statement...
+[2025-10-05 23:46:45][MEM: 0.42MB] Statement preparado correctamente
+[2025-10-05 23:46:45][MEM: 0.42MB] Binding 2 params con tipos: ii
+[2025-10-05 23:46:45][MEM: 0.42MB] Ejecutando query...
+[2025-10-05 23:46:45][MEM: 0.44MB] Firmas encontradas: 2
+[2025-10-05 23:46:45][MEM: 0.47MB] Total de registros: 2
+[2025-10-05 23:46:45][MEM: 0.47MB] Preparando respuesta JSON...
+[2025-10-05 23:46:45][MEM: 0.47MB] Respuesta preparada (size: 1155 bytes)
+[2025-10-05 23:58:31][MEM: 0.36MB] ========================================
+[2025-10-05 23:58:31][MEM: 0.36MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-10-05 23:58:31][MEM: 0.36MB] ========================================
+[2025-10-05 23:58:31][MEM: 0.36MB] IP: 186.98.209.199
+[2025-10-05 23:58:31][MEM: 0.36MB] Método: OPTIONS
+[2025-10-05 23:58:31][MEM: 0.36MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-10-05 23:58:31][MEM: 0.36MB] auth_middleware cargado
+[2025-10-05 23:58:32][MEM: 0.35MB] ========================================
+[2025-10-05 23:58:32][MEM: 0.35MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-10-05 23:58:32][MEM: 0.35MB] ========================================
+[2025-10-05 23:58:32][MEM: 0.35MB] IP: 186.98.209.199
+[2025-10-05 23:58:32][MEM: 0.35MB] Método: GET
+[2025-10-05 23:58:32][MEM: 0.35MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-10-05 23:58:32][MEM: 0.35MB] auth_middleware cargado
+[2025-10-05 23:58:32][MEM: 0.35MB] Usuario autenticado: die (ID: 12)
+[2025-10-05 23:58:32][MEM: 0.35MB] Acceso registrado
+[2025-10-05 23:58:32][MEM: 0.35MB] Requiriendo conexión...
+[2025-10-05 23:58:32][MEM: 0.39MB] conexion.php cargado
+[2025-10-05 23:58:32][MEM: 0.39MB] Parámetros recibidos:
+[2025-10-05 23:58:32][MEM: 0.39MB]    id_servicio: NULL
+[2025-10-05 23:58:32][MEM: 0.39MB]    fecha_desde: NULL
+[2025-10-05 23:58:32][MEM: 0.39MB]    fecha_hasta: NULL
+[2025-10-05 23:58:32][MEM: 0.39MB]    limite: 50
+[2025-10-05 23:58:32][MEM: 0.39MB]    offset: 0
+[2025-10-05 23:58:32][MEM: 0.4MB] Query construido
+[2025-10-05 23:58:32][MEM: 0.4MB] Preparando statement...
+[2025-10-05 23:58:32][MEM: 0.42MB] Statement preparado correctamente
+[2025-10-05 23:58:32][MEM: 0.42MB] Binding 2 params con tipos: ii
+[2025-10-05 23:58:32][MEM: 0.42MB] Ejecutando query...
+[2025-10-05 23:58:32][MEM: 0.44MB] Firmas encontradas: 3
+[2025-10-05 23:58:32][MEM: 0.48MB] Total de registros: 3
+[2025-10-05 23:58:32][MEM: 0.48MB] Preparando respuesta JSON...
+[2025-10-05 23:58:32][MEM: 0.48MB] Respuesta preparada (size: 1662 bytes)
+[2025-10-06 01:21:40][MEM: 0.37MB] ========================================
+[2025-10-06 01:21:40][MEM: 0.37MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-10-06 01:21:40][MEM: 0.37MB] ========================================
+[2025-10-06 01:21:40][MEM: 0.37MB] IP: 186.98.209.199
+[2025-10-06 01:21:40][MEM: 0.37MB] Método: GET
+[2025-10-06 01:21:40][MEM: 0.37MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-10-06 01:21:40][MEM: 0.37MB] auth_middleware cargado
+[2025-10-06 01:21:40][MEM: 0.37MB] Usuario autenticado: die (ID: 12)
+[2025-10-06 01:21:40][MEM: 0.37MB] Acceso registrado
+[2025-10-06 01:21:40][MEM: 0.37MB] Requiriendo conexión...
+[2025-10-06 01:21:40][MEM: 0.41MB] conexion.php cargado
+[2025-10-06 01:21:40][MEM: 0.41MB] Parámetros recibidos:
+[2025-10-06 01:21:40][MEM: 0.41MB]    id_servicio: NULL
+[2025-10-06 01:21:40][MEM: 0.41MB]    fecha_desde: NULL
+[2025-10-06 01:21:40][MEM: 0.41MB]    fecha_hasta: NULL
+[2025-10-06 01:21:40][MEM: 0.41MB]    limite: 50
+[2025-10-06 01:21:40][MEM: 0.41MB]    offset: 0
+[2025-10-06 01:21:40][MEM: 0.41MB] Query construido
+[2025-10-06 01:21:40][MEM: 0.41MB] Preparando statement...
+[2025-10-06 01:21:40][MEM: 0.43MB] Statement preparado correctamente
+[2025-10-06 01:21:40][MEM: 0.43MB] Binding 2 params con tipos: ii
+[2025-10-06 01:21:40][MEM: 0.43MB] Ejecutando query...
+[2025-10-06 01:21:40][MEM: 0.46MB] Firmas encontradas: 4
+[2025-10-06 01:21:40][MEM: 0.49MB] Total de registros: 4
+[2025-10-06 01:21:40][MEM: 0.49MB] Preparando respuesta JSON...
+[2025-10-06 01:21:40][MEM: 0.49MB] Respuesta preparada (size: 2177 bytes)
+[2025-10-06 02:21:08][MEM: 0.36MB] ========================================
+[2025-10-06 02:21:08][MEM: 0.36MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-10-06 02:21:08][MEM: 0.36MB] ========================================
+[2025-10-06 02:21:08][MEM: 0.36MB] IP: 179.19.189.191
+[2025-10-06 02:21:08][MEM: 0.36MB] Método: GET
+[2025-10-06 02:21:08][MEM: 0.36MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-10-06 02:21:08][MEM: 0.37MB] auth_middleware cargado
+[2025-10-06 02:21:08][MEM: 0.37MB] Usuario autenticado: die (ID: 12)
+[2025-10-06 02:21:08][MEM: 0.37MB] Acceso registrado
+[2025-10-06 02:21:08][MEM: 0.37MB] Requiriendo conexión...
+[2025-10-06 02:21:08][MEM: 0.41MB] conexion.php cargado
+[2025-10-06 02:21:08][MEM: 0.41MB] Parámetros recibidos:
+[2025-10-06 02:21:08][MEM: 0.41MB]    id_servicio: NULL
+[2025-10-06 02:21:08][MEM: 0.41MB]    fecha_desde: NULL
+[2025-10-06 02:21:08][MEM: 0.41MB]    fecha_hasta: NULL
+[2025-10-06 02:21:08][MEM: 0.41MB]    limite: 50
+[2025-10-06 02:21:08][MEM: 0.41MB]    offset: 0
+[2025-10-06 02:21:08][MEM: 0.41MB] Query construido
+[2025-10-06 02:21:08][MEM: 0.41MB] Preparando statement...
+[2025-10-06 02:21:08][MEM: 0.43MB] Statement preparado correctamente
+[2025-10-06 02:21:08][MEM: 0.43MB] Binding 2 params con tipos: ii
+[2025-10-06 02:21:08][MEM: 0.43MB] Ejecutando query...
+[2025-10-06 02:21:08][MEM: 0.46MB] Firmas encontradas: 5
+[2025-10-06 02:21:08][MEM: 0.49MB] Total de registros: 5
+[2025-10-06 02:21:08][MEM: 0.49MB] Preparando respuesta JSON...
+[2025-10-06 02:21:08][MEM: 0.49MB] Respuesta preparada (size: 2760 bytes)
+[2025-10-07 03:30:33][MEM: 0.36MB] ========================================
+[2025-10-07 03:30:33][MEM: 0.36MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-10-07 03:30:33][MEM: 0.36MB] ========================================
+[2025-10-07 03:30:33][MEM: 0.36MB] IP: 186.98.209.199
+[2025-10-07 03:30:33][MEM: 0.36MB] Método: GET
+[2025-10-07 03:30:33][MEM: 0.36MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-10-07 03:30:33][MEM: 0.37MB] auth_middleware cargado
+[2025-10-07 03:30:33][MEM: 0.37MB] Usuario autenticado: die (ID: 12)
+[2025-10-07 03:30:33][MEM: 0.37MB] Acceso registrado
+[2025-10-07 03:30:33][MEM: 0.37MB] Requiriendo conexión...
+[2025-10-07 03:30:33][MEM: 0.41MB] conexion.php cargado
+[2025-10-07 03:30:33][MEM: 0.41MB] Parámetros recibidos:
+[2025-10-07 03:30:33][MEM: 0.41MB]    id_servicio: NULL
+[2025-10-07 03:30:33][MEM: 0.41MB]    fecha_desde: NULL
+[2025-10-07 03:30:33][MEM: 0.41MB]    fecha_hasta: NULL
+[2025-10-07 03:30:33][MEM: 0.41MB]    limite: 50
+[2025-10-07 03:30:33][MEM: 0.41MB]    offset: 0
+[2025-10-07 03:30:33][MEM: 0.41MB] Query construido
+[2025-10-07 03:30:33][MEM: 0.41MB] Preparando statement...
+[2025-10-07 03:30:33][MEM: 0.43MB] Statement preparado correctamente
+[2025-10-07 03:30:33][MEM: 0.43MB] Binding 2 params con tipos: ii
+[2025-10-07 03:30:33][MEM: 0.43MB] Ejecutando query...
+[2025-10-07 03:30:33][MEM: 0.46MB] Firmas encontradas: 6
+[2025-10-07 03:30:33][MEM: 0.49MB] Total de registros: 6
+[2025-10-07 03:30:33][MEM: 0.49MB] Preparando respuesta JSON...
+[2025-10-07 03:30:33][MEM: 0.49MB] Respuesta preparada (size: 3281 bytes)
+[2025-10-08 03:38:27][MEM: 0.36MB] ========================================
+[2025-10-08 03:38:27][MEM: 0.36MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-10-08 03:38:27][MEM: 0.36MB] ========================================
+[2025-10-08 03:38:27][MEM: 0.36MB] IP: 179.19.197.14
+[2025-10-08 03:38:27][MEM: 0.36MB] Método: GET
+[2025-10-08 03:38:27][MEM: 0.36MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-10-08 03:38:27][MEM: 0.37MB] auth_middleware cargado
+[2025-10-08 03:38:27][MEM: 0.37MB] Usuario autenticado: die (ID: 12)
+[2025-10-08 03:38:27][MEM: 0.37MB] Acceso registrado
+[2025-10-08 03:38:27][MEM: 0.37MB] Requiriendo conexión...
+[2025-10-08 03:38:27][MEM: 0.41MB] conexion.php cargado
+[2025-10-08 03:38:27][MEM: 0.41MB] Parámetros recibidos:
+[2025-10-08 03:38:27][MEM: 0.41MB]    id_servicio: NULL
+[2025-10-08 03:38:27][MEM: 0.41MB]    fecha_desde: NULL
+[2025-10-08 03:38:27][MEM: 0.41MB]    fecha_hasta: NULL
+[2025-10-08 03:38:27][MEM: 0.41MB]    limite: 50
+[2025-10-08 03:38:27][MEM: 0.41MB]    offset: 0
+[2025-10-08 03:38:27][MEM: 0.41MB] Query construido
+[2025-10-08 03:38:27][MEM: 0.41MB] Preparando statement...
+[2025-10-08 03:38:27][MEM: 0.43MB] Statement preparado correctamente
+[2025-10-08 03:38:27][MEM: 0.43MB] Binding 2 params con tipos: ii
+[2025-10-08 03:38:27][MEM: 0.43MB] Ejecutando query...
+[2025-10-08 03:38:27][MEM: 0.46MB] Firmas encontradas: 7
+[2025-10-08 03:38:27][MEM: 0.5MB] Total de registros: 7
+[2025-10-08 03:38:27][MEM: 0.5MB] Preparando respuesta JSON...
+[2025-10-08 03:38:27][MEM: 0.5MB] Respuesta preparada (size: 3802 bytes)
+[2025-10-08 15:40:47][MEM: 0.37MB] ========================================
+[2025-10-08 15:40:47][MEM: 0.37MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-10-08 15:40:47][MEM: 0.37MB] ========================================
+[2025-10-08 15:40:47][MEM: 0.37MB] IP: 186.98.209.199
+[2025-10-08 15:40:47][MEM: 0.37MB] Método: GET
+[2025-10-08 15:40:47][MEM: 0.37MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-10-08 15:40:47][MEM: 0.37MB] auth_middleware cargado
+[2025-10-08 15:40:47][MEM: 0.37MB] Usuario autenticado: die (ID: 12)
+[2025-10-08 15:40:47][MEM: 0.37MB] Acceso registrado
+[2025-10-08 15:40:47][MEM: 0.37MB] Requiriendo conexión...
+[2025-10-08 15:40:47][MEM: 0.41MB] conexion.php cargado
+[2025-10-08 15:40:47][MEM: 0.41MB] Parámetros recibidos:
+[2025-10-08 15:40:47][MEM: 0.41MB]    id_servicio: NULL
+[2025-10-08 15:40:47][MEM: 0.41MB]    fecha_desde: NULL
+[2025-10-08 15:40:47][MEM: 0.41MB]    fecha_hasta: NULL
+[2025-10-08 15:40:47][MEM: 0.41MB]    limite: 50
+[2025-10-08 15:40:47][MEM: 0.41MB]    offset: 0
+[2025-10-08 15:40:47][MEM: 0.41MB] Query construido
+[2025-10-08 15:40:47][MEM: 0.41MB] Preparando statement...
+[2025-10-08 15:40:47][MEM: 0.43MB] Statement preparado correctamente
+[2025-10-08 15:40:47][MEM: 0.43MB] Binding 2 params con tipos: ii
+[2025-10-08 15:40:47][MEM: 0.43MB] Ejecutando query...
+[2025-10-08 15:40:47][MEM: 0.46MB] Firmas encontradas: 8
+[2025-10-08 15:40:47][MEM: 0.5MB] Total de registros: 8
+[2025-10-08 15:40:47][MEM: 0.5MB] Preparando respuesta JSON...
+[2025-10-08 15:40:47][MEM: 0.5MB] Respuesta preparada (size: 4339 bytes)
+[2025-10-08 18:10:31][MEM: 0.36MB] ========================================
+[2025-10-08 18:10:31][MEM: 0.36MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-10-08 18:10:31][MEM: 0.36MB] ========================================
+[2025-10-08 18:10:31][MEM: 0.36MB] IP: 186.98.209.199
+[2025-10-08 18:10:31][MEM: 0.36MB] Método: GET
+[2025-10-08 18:10:31][MEM: 0.36MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-10-08 18:10:31][MEM: 0.36MB] auth_middleware cargado
+[2025-10-08 18:10:31][MEM: 0.37MB] Usuario autenticado: die (ID: 12)
+[2025-10-08 18:10:31][MEM: 0.37MB] Acceso registrado
+[2025-10-08 18:10:31][MEM: 0.37MB] Requiriendo conexión...
+[2025-10-08 18:10:31][MEM: 0.41MB] conexion.php cargado
+[2025-10-08 18:10:31][MEM: 0.41MB] Parámetros recibidos:
+[2025-10-08 18:10:31][MEM: 0.41MB]    id_servicio: NULL
+[2025-10-08 18:10:31][MEM: 0.41MB]    fecha_desde: NULL
+[2025-10-08 18:10:31][MEM: 0.41MB]    fecha_hasta: NULL
+[2025-10-08 18:10:31][MEM: 0.41MB]    limite: 50
+[2025-10-08 18:10:31][MEM: 0.41MB]    offset: 0
+[2025-10-08 18:10:31][MEM: 0.41MB] Query construido
+[2025-10-08 18:10:31][MEM: 0.41MB] Preparando statement...
+[2025-10-08 18:10:31][MEM: 0.43MB] Statement preparado correctamente
+[2025-10-08 18:10:31][MEM: 0.43MB] Binding 2 params con tipos: ii
+[2025-10-08 18:10:31][MEM: 0.43MB] Ejecutando query...
+[2025-10-08 18:10:31][MEM: 0.46MB] Firmas encontradas: 9
+[2025-10-08 18:10:31][MEM: 0.5MB] Total de registros: 9
+[2025-10-08 18:10:31][MEM: 0.5MB] Preparando respuesta JSON...
+[2025-10-08 18:10:31][MEM: 0.5MB] Respuesta preparada (size: 4876 bytes)
+[2025-10-11 19:31:18][MEM: 0.37MB] ========================================
+[2025-10-11 19:31:18][MEM: 0.37MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-10-11 19:31:18][MEM: 0.37MB] ========================================
+[2025-10-11 19:31:18][MEM: 0.37MB] IP: 152.204.167.121
+[2025-10-11 19:31:18][MEM: 0.37MB] Método: GET
+[2025-10-11 19:31:18][MEM: 0.37MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-10-11 19:31:18][MEM: 0.37MB] auth_middleware cargado
+[2025-10-11 19:31:18][MEM: 0.37MB] Usuario autenticado: die (ID: 12)
+[2025-10-11 19:31:18][MEM: 0.37MB] Acceso registrado
+[2025-10-11 19:31:18][MEM: 0.37MB] Requiriendo conexión...
+[2025-10-11 19:31:18][MEM: 0.41MB] conexion.php cargado
+[2025-10-11 19:31:18][MEM: 0.41MB] Parámetros recibidos:
+[2025-10-11 19:31:18][MEM: 0.41MB]    id_servicio: NULL
+[2025-10-11 19:31:18][MEM: 0.41MB]    fecha_desde: NULL
+[2025-10-11 19:31:18][MEM: 0.41MB]    fecha_hasta: NULL
+[2025-10-11 19:31:18][MEM: 0.41MB]    limite: 50
+[2025-10-11 19:31:18][MEM: 0.41MB]    offset: 0
+[2025-10-11 19:31:18][MEM: 0.41MB] Query construido
+[2025-10-11 19:31:18][MEM: 0.41MB] Preparando statement...
+[2025-10-11 19:31:18][MEM: 0.43MB] Statement preparado correctamente
+[2025-10-11 19:31:18][MEM: 0.43MB] Binding 2 params con tipos: ii
+[2025-10-11 19:31:18][MEM: 0.43MB] Ejecutando query...
+[2025-10-11 19:31:18][MEM: 0.47MB] Firmas encontradas: 10
+[2025-10-11 19:31:18][MEM: 0.5MB] Total de registros: 10
+[2025-10-11 19:31:18][MEM: 0.51MB] Preparando respuesta JSON...
+[2025-10-11 19:31:18][MEM: 0.51MB] Respuesta preparada (size: 5462 bytes)
+[2025-11-04 04:21:19][MEM: 0.36MB] ========================================
+[2025-11-04 04:21:19][MEM: 0.36MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-11-04 04:21:19][MEM: 0.36MB] ========================================
+[2025-11-04 04:21:19][MEM: 0.36MB] IP: 167.0.221.145
+[2025-11-04 04:21:19][MEM: 0.36MB] Método: GET
+[2025-11-04 04:21:19][MEM: 0.36MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-11-04 04:21:19][MEM: 0.37MB] auth_middleware cargado
+[2025-11-04 04:21:19][MEM: 0.37MB] Usuario autenticado: die (ID: 12)
+[2025-11-04 04:21:19][MEM: 0.37MB] Acceso registrado
+[2025-11-04 04:21:19][MEM: 0.37MB] Requiriendo conexión...
+[2025-11-04 04:21:19][MEM: 0.41MB] conexion.php cargado
+[2025-11-04 04:21:19][MEM: 0.41MB] Parámetros recibidos:
+[2025-11-04 04:21:19][MEM: 0.41MB]    id_servicio: NULL
+[2025-11-04 04:21:19][MEM: 0.41MB]    fecha_desde: NULL
+[2025-11-04 04:21:19][MEM: 0.41MB]    fecha_hasta: NULL
+[2025-11-04 04:21:19][MEM: 0.41MB]    limite: 50
+[2025-11-04 04:21:19][MEM: 0.41MB]    offset: 0
+[2025-11-04 04:21:19][MEM: 0.41MB] Query construido
+[2025-11-04 04:21:19][MEM: 0.41MB] Preparando statement...
+[2025-11-04 04:21:19][MEM: 0.43MB] Statement preparado correctamente
+[2025-11-04 04:21:19][MEM: 0.43MB] Binding 2 params con tipos: ii
+[2025-11-04 04:21:19][MEM: 0.43MB] Ejecutando query...
+[2025-11-04 04:21:19][MEM: 0.47MB] Firmas encontradas: 11
+[2025-11-04 04:21:19][MEM: 0.5MB] Total de registros: 11
+[2025-11-04 04:21:19][MEM: 0.51MB] Preparando respuesta JSON...
+[2025-11-04 04:21:19][MEM: 0.51MB] Respuesta preparada (size: 6007 bytes)
+[2025-11-11 20:31:12][MEM: 0.36MB] ========================================
+[2025-11-11 20:31:12][MEM: 0.36MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-11-11 20:31:12][MEM: 0.36MB] ========================================
+[2025-11-11 20:31:12][MEM: 0.36MB] IP: 167.0.221.145
+[2025-11-11 20:31:12][MEM: 0.36MB] Método: OPTIONS
+[2025-11-11 20:31:12][MEM: 0.36MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-11-11 20:31:12][MEM: 0.36MB] Petición OPTIONS - Respondiendo con headers CORS
+[2025-11-11 20:31:12][MEM: 0.35MB] ========================================
+[2025-11-11 20:31:12][MEM: 0.35MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-11-11 20:31:12][MEM: 0.35MB] ========================================
+[2025-11-11 20:31:12][MEM: 0.35MB] IP: 167.0.221.145
+[2025-11-11 20:31:12][MEM: 0.35MB] Método: GET
+[2025-11-11 20:31:12][MEM: 0.35MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-11-11 20:31:12][MEM: 0.35MB] auth_middleware cargado
+[2025-11-11 20:31:12][MEM: 0.35MB] Usuario autenticado: colaborador (ID: 21)
+[2025-11-11 20:31:12][MEM: 0.35MB] Acceso registrado
+[2025-11-11 20:31:12][MEM: 0.35MB] Requiriendo conexión...
+[2025-11-11 20:31:12][MEM: 0.39MB] conexion.php cargado
+[2025-11-11 20:31:12][MEM: 0.39MB] Parámetros recibidos:
+[2025-11-11 20:31:12][MEM: 0.39MB]    id_servicio: NULL
+[2025-11-11 20:31:12][MEM: 0.39MB]    fecha_desde: NULL
+[2025-11-11 20:31:12][MEM: 0.39MB]    fecha_hasta: NULL
+[2025-11-11 20:31:12][MEM: 0.39MB]    limite: 50
+[2025-11-11 20:31:12][MEM: 0.39MB]    offset: 0
+[2025-11-11 20:31:12][MEM: 0.4MB] Query construido
+[2025-11-11 20:31:12][MEM: 0.4MB] Preparando statement...
+[2025-11-11 20:31:12][MEM: 0.42MB] Statement preparado correctamente
+[2025-11-11 20:31:12][MEM: 0.42MB] Binding 2 params con tipos: ii
+[2025-11-11 20:31:12][MEM: 0.42MB] Ejecutando query...
+[2025-11-11 20:31:12][MEM: 0.46MB] Firmas encontradas: 12
+[2025-11-11 20:31:12][MEM: 0.49MB] Total de registros: 12
+[2025-11-11 20:31:12][MEM: 0.49MB] Preparando respuesta JSON...
+[2025-11-11 20:31:12][MEM: 0.49MB] Respuesta preparada (size: 6525 bytes)
+[2025-11-11 20:51:14][MEM: 0.35MB] ========================================
+[2025-11-11 20:51:14][MEM: 0.35MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-11-11 20:51:14][MEM: 0.35MB] ========================================
+[2025-11-11 20:51:14][MEM: 0.35MB] IP: 167.0.221.145
+[2025-11-11 20:51:14][MEM: 0.35MB] Método: GET
+[2025-11-11 20:51:14][MEM: 0.35MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-11-11 20:51:14][MEM: 0.35MB] auth_middleware cargado
+[2025-11-11 20:51:14][MEM: 0.35MB] Usuario autenticado: colaborador (ID: 21)
+[2025-11-11 20:51:14][MEM: 0.35MB] Acceso registrado
+[2025-11-11 20:51:14][MEM: 0.35MB] Requiriendo conexión...
+[2025-11-11 20:51:14][MEM: 0.39MB] conexion.php cargado
+[2025-11-11 20:51:14][MEM: 0.39MB] Parámetros recibidos:
+[2025-11-11 20:51:14][MEM: 0.39MB]    id_servicio: NULL
+[2025-11-11 20:51:14][MEM: 0.39MB]    fecha_desde: NULL
+[2025-11-11 20:51:14][MEM: 0.39MB]    fecha_hasta: NULL
+[2025-11-11 20:51:14][MEM: 0.39MB]    limite: 50
+[2025-11-11 20:51:14][MEM: 0.39MB]    offset: 0
+[2025-11-11 20:51:14][MEM: 0.4MB] Query construido
+[2025-11-11 20:51:14][MEM: 0.4MB] Preparando statement...
+[2025-11-11 20:51:14][MEM: 0.42MB] Statement preparado correctamente
+[2025-11-11 20:51:14][MEM: 0.42MB] Binding 2 params con tipos: ii
+[2025-11-11 20:51:14][MEM: 0.42MB] Ejecutando query...
+[2025-11-11 20:51:14][MEM: 0.46MB] Firmas encontradas: 13
+[2025-11-11 20:51:14][MEM: 0.5MB] Total de registros: 13
+[2025-11-11 20:51:14][MEM: 0.5MB] Preparando respuesta JSON...
+[2025-11-11 20:51:14][MEM: 0.5MB] Respuesta preparada (size: 7068 bytes)
+[2025-11-15 21:58:54][MEM: 0.36MB] ========================================
+[2025-11-15 21:58:54][MEM: 0.36MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-11-15 21:58:54][MEM: 0.36MB] ========================================
+[2025-11-15 21:58:54][MEM: 0.36MB] IP: 167.0.221.145
+[2025-11-15 21:58:54][MEM: 0.36MB] Método: OPTIONS
+[2025-11-15 21:58:54][MEM: 0.36MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-11-15 21:58:54][MEM: 0.36MB] Petición OPTIONS - Respondiendo con headers CORS
+[2025-11-15 21:58:54][MEM: 0.35MB] ========================================
+[2025-11-15 21:58:54][MEM: 0.35MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-11-15 21:58:54][MEM: 0.35MB] ========================================
+[2025-11-15 21:58:54][MEM: 0.35MB] IP: 167.0.221.145
+[2025-11-15 21:58:54][MEM: 0.35MB] Método: GET
+[2025-11-15 21:58:54][MEM: 0.35MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-11-15 21:58:54][MEM: 0.35MB] auth_middleware cargado
+[2025-11-15 21:58:54][MEM: 0.35MB] Usuario autenticado: colaborador (ID: 21)
+[2025-11-15 21:58:54][MEM: 0.35MB] Acceso registrado
+[2025-11-15 21:58:54][MEM: 0.35MB] Requiriendo conexión...
+[2025-11-15 21:58:54][MEM: 0.39MB] conexion.php cargado
+[2025-11-15 21:58:54][MEM: 0.39MB] Parámetros recibidos:
+[2025-11-15 21:58:54][MEM: 0.39MB]    id_servicio: NULL
+[2025-11-15 21:58:54][MEM: 0.39MB]    fecha_desde: NULL
+[2025-11-15 21:58:54][MEM: 0.39MB]    fecha_hasta: NULL
+[2025-11-15 21:58:54][MEM: 0.39MB]    limite: 50
+[2025-11-15 21:58:54][MEM: 0.39MB]    offset: 0
+[2025-11-15 21:58:54][MEM: 0.4MB] Query construido
+[2025-11-15 21:58:54][MEM: 0.4MB] Preparando statement...
+[2025-11-15 21:58:54][MEM: 0.42MB] Statement preparado correctamente
+[2025-11-15 21:58:54][MEM: 0.42MB] Binding 2 params con tipos: ii
+[2025-11-15 21:58:54][MEM: 0.42MB] Ejecutando query...
+[2025-11-15 21:58:54][MEM: 0.46MB] Firmas encontradas: 14
+[2025-11-15 21:58:54][MEM: 0.5MB] Total de registros: 14
+[2025-11-15 21:58:54][MEM: 0.5MB] Preparando respuesta JSON...
+[2025-11-15 21:58:54][MEM: 0.5MB] Respuesta preparada (size: 7673 bytes)
+[2025-11-16 12:41:18][MEM: 0.37MB] ========================================
+[2025-11-16 12:41:18][MEM: 0.37MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-11-16 12:41:18][MEM: 0.37MB] ========================================
+[2025-11-16 12:41:18][MEM: 0.37MB] IP: 167.0.221.145
+[2025-11-16 12:41:18][MEM: 0.37MB] Método: GET
+[2025-11-16 12:41:18][MEM: 0.37MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-11-16 12:41:18][MEM: 0.37MB] auth_middleware cargado
+[2025-11-16 12:41:18][MEM: 0.37MB] Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 12:41:18][MEM: 0.37MB] Acceso registrado
+[2025-11-16 12:41:18][MEM: 0.37MB] Requiriendo conexión...
+[2025-11-16 12:41:18][MEM: 0.41MB] conexion.php cargado
+[2025-11-16 12:41:18][MEM: 0.41MB] Parámetros recibidos:
+[2025-11-16 12:41:18][MEM: 0.41MB]    id_servicio: NULL
+[2025-11-16 12:41:18][MEM: 0.41MB]    fecha_desde: NULL
+[2025-11-16 12:41:18][MEM: 0.41MB]    fecha_hasta: NULL
+[2025-11-16 12:41:18][MEM: 0.41MB]    limite: 50
+[2025-11-16 12:41:18][MEM: 0.41MB]    offset: 0
+[2025-11-16 12:41:18][MEM: 0.41MB] Query construido
+[2025-11-16 12:41:18][MEM: 0.41MB] Preparando statement...
+[2025-11-16 12:41:18][MEM: 0.43MB] Statement preparado correctamente
+[2025-11-16 12:41:18][MEM: 0.43MB] Binding 2 params con tipos: ii
+[2025-11-16 12:41:18][MEM: 0.43MB] Ejecutando query...
+[2025-11-16 12:41:18][MEM: 0.48MB] Firmas encontradas: 15
+[2025-11-16 12:41:18][MEM: 0.52MB] Total de registros: 15
+[2025-11-16 12:41:18][MEM: 0.52MB] Preparando respuesta JSON...
+[2025-11-16 12:41:18][MEM: 0.52MB] Respuesta preparada (size: 8241 bytes)
+[2025-11-16 13:15:21][MEM: 0.37MB] ========================================
+[2025-11-16 13:15:21][MEM: 0.37MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-11-16 13:15:21][MEM: 0.37MB] ========================================
+[2025-11-16 13:15:21][MEM: 0.37MB] IP: 167.0.221.145
+[2025-11-16 13:15:21][MEM: 0.37MB] Método: GET
+[2025-11-16 13:15:21][MEM: 0.37MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-11-16 13:15:21][MEM: 0.37MB] auth_middleware cargado
+[2025-11-16 13:15:21][MEM: 0.37MB] Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 13:15:21][MEM: 0.37MB] Acceso registrado
+[2025-11-16 13:15:21][MEM: 0.37MB] Requiriendo conexión...
+[2025-11-16 13:15:21][MEM: 0.41MB] conexion.php cargado
+[2025-11-16 13:15:21][MEM: 0.41MB] Parámetros recibidos:
+[2025-11-16 13:15:21][MEM: 0.41MB]    id_servicio: NULL
+[2025-11-16 13:15:21][MEM: 0.41MB]    fecha_desde: NULL
+[2025-11-16 13:15:21][MEM: 0.41MB]    fecha_hasta: NULL
+[2025-11-16 13:15:21][MEM: 0.41MB]    limite: 50
+[2025-11-16 13:15:21][MEM: 0.41MB]    offset: 0
+[2025-11-16 13:15:21][MEM: 0.41MB] Query construido
+[2025-11-16 13:15:21][MEM: 0.41MB] Preparando statement...
+[2025-11-16 13:15:21][MEM: 0.41MB] EXCEPTION CAPTURADA
+[2025-11-16 13:15:21][MEM: 0.41MB] Mensaje: Unknown column 'ue.nombre' in 'SELECT'
+[2025-11-16 13:15:21][MEM: 0.41MB] Archivo: /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/listar_firmas.php
+[2025-11-16 13:15:21][MEM: 0.41MB] Línea: 150
+[2025-11-16 13:15:21][MEM: 0.41MB] Trace: #0 /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/firma/listar_firmas.php(150): mysqli->prepare()
+#1 {main}
+[2025-11-17 19:39:03][MEM: 0.37MB] ========================================
+[2025-11-17 19:39:03][MEM: 0.37MB] NUEVA REQUEST LISTAR FIRMAS
+[2025-11-17 19:39:03][MEM: 0.37MB] ========================================
+[2025-11-17 19:39:03][MEM: 0.37MB] IP: 181.235.94.136
+[2025-11-17 19:39:03][MEM: 0.37MB] Método: GET
+[2025-11-17 19:39:03][MEM: 0.37MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2025-11-17 19:39:03][MEM: 0.37MB] auth_middleware cargado
+[2025-11-17 19:39:03][MEM: 0.37MB] Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 19:39:03][MEM: 0.37MB] Acceso registrado
+[2025-11-17 19:39:03][MEM: 0.37MB] Requiriendo conexión...
+[2025-11-17 19:39:03][MEM: 0.41MB] conexion.php cargado
+[2025-11-17 19:39:03][MEM: 0.41MB] Parámetros recibidos:
+[2025-11-17 19:39:03][MEM: 0.41MB]    id_servicio: NULL
+[2025-11-17 19:39:03][MEM: 0.41MB]    fecha_desde: NULL
+[2025-11-17 19:39:03][MEM: 0.41MB]    fecha_hasta: NULL
+[2025-11-17 19:39:03][MEM: 0.41MB]    limite: 50
+[2025-11-17 19:39:03][MEM: 0.41MB]    offset: 0
+[2025-11-17 19:39:03][MEM: 0.41MB] Query construido
+[2025-11-17 19:39:03][MEM: 0.41MB] Preparando statement...
+[2025-11-17 19:39:03][MEM: 0.43MB] Statement preparado correctamente
+[2025-11-17 19:39:03][MEM: 0.43MB] Binding 2 params con tipos: ii
+[2025-11-17 19:39:03][MEM: 0.43MB] Ejecutando query...
+[2025-11-17 19:39:03][MEM: 0.48MB] Firmas encontradas: 16
+[2025-11-17 19:39:03][MEM: 0.52MB] Total de registros: 16
+[2025-11-17 19:39:03][MEM: 0.52MB] Preparando respuesta JSON...
+[2025-11-17 19:39:03][MEM: 0.52MB] Respuesta preparada (size: 8743 bytes)
+[2026-01-07 20:23:46][MEM: 0.36MB] ========================================
+[2026-01-07 20:23:46][MEM: 0.36MB] NUEVA REQUEST LISTAR FIRMAS
+[2026-01-07 20:23:46][MEM: 0.36MB] ========================================
+[2026-01-07 20:23:46][MEM: 0.36MB] IP: 181.236.101.252
+[2026-01-07 20:23:46][MEM: 0.36MB] Método: GET
+[2026-01-07 20:23:46][MEM: 0.36MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2026-01-07 20:23:46][MEM: 0.36MB] auth_middleware cargado
+[2026-01-07 20:23:46][MEM: 0.37MB] Usuario autenticado: colaborador (ID: 21)
+[2026-01-07 20:23:46][MEM: 0.37MB] Acceso registrado
+[2026-01-07 20:23:46][MEM: 0.37MB] Requiriendo conexión...
+[2026-01-07 20:23:46][MEM: 0.41MB] conexion.php cargado
+[2026-01-07 20:23:46][MEM: 0.41MB] Parámetros recibidos:
+[2026-01-07 20:23:46][MEM: 0.41MB]    id_servicio: NULL
+[2026-01-07 20:23:46][MEM: 0.41MB]    fecha_desde: NULL
+[2026-01-07 20:23:46][MEM: 0.41MB]    fecha_hasta: NULL
+[2026-01-07 20:23:46][MEM: 0.41MB]    limite: 50
+[2026-01-07 20:23:46][MEM: 0.41MB]    offset: 0
+[2026-01-07 20:23:46][MEM: 0.41MB] Query construido
+[2026-01-07 20:23:46][MEM: 0.41MB] Preparando statement...
+[2026-01-07 20:23:46][MEM: 0.43MB] Statement preparado correctamente
+[2026-01-07 20:23:46][MEM: 0.43MB] Binding 2 params con tipos: ii
+[2026-01-07 20:23:46][MEM: 0.43MB] Ejecutando query...
+[2026-01-07 20:23:46][MEM: 0.48MB] Firmas encontradas: 17
+[2026-01-07 20:23:46][MEM: 0.52MB] Total de registros: 17
+[2026-01-07 20:23:46][MEM: 0.52MB] Preparando respuesta JSON...
+[2026-01-07 20:23:46][MEM: 0.52MB] Respuesta preparada (size: 9257 bytes)
+[2026-01-07 20:26:14][MEM: 0.35MB] ========================================
+[2026-01-07 20:26:14][MEM: 0.35MB] NUEVA REQUEST LISTAR FIRMAS
+[2026-01-07 20:26:14][MEM: 0.35MB] ========================================
+[2026-01-07 20:26:14][MEM: 0.35MB] IP: 181.236.101.252
+[2026-01-07 20:26:14][MEM: 0.35MB] Método: OPTIONS
+[2026-01-07 20:26:14][MEM: 0.35MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2026-01-07 20:26:14][MEM: 0.35MB] Petición OPTIONS - Respondiendo con headers CORS
+[2026-01-07 20:26:14][MEM: 0.35MB] ========================================
+[2026-01-07 20:26:14][MEM: 0.35MB] NUEVA REQUEST LISTAR FIRMAS
+[2026-01-07 20:26:14][MEM: 0.35MB] ========================================
+[2026-01-07 20:26:14][MEM: 0.35MB] IP: 181.236.101.252
+[2026-01-07 20:26:14][MEM: 0.35MB] Método: GET
+[2026-01-07 20:26:14][MEM: 0.35MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2026-01-07 20:26:14][MEM: 0.35MB] auth_middleware cargado
+[2026-01-07 20:26:14][MEM: 0.35MB] Usuario autenticado: colaborador (ID: 21)
+[2026-01-07 20:26:14][MEM: 0.35MB] Acceso registrado
+[2026-01-07 20:26:14][MEM: 0.35MB] Requiriendo conexión...
+[2026-01-07 20:26:14][MEM: 0.39MB] conexion.php cargado
+[2026-01-07 20:26:14][MEM: 0.39MB] Parámetros recibidos:
+[2026-01-07 20:26:14][MEM: 0.39MB]    id_servicio: NULL
+[2026-01-07 20:26:14][MEM: 0.39MB]    fecha_desde: NULL
+[2026-01-07 20:26:14][MEM: 0.39MB]    fecha_hasta: NULL
+[2026-01-07 20:26:14][MEM: 0.39MB]    limite: 50
+[2026-01-07 20:26:14][MEM: 0.39MB]    offset: 0
+[2026-01-07 20:26:14][MEM: 0.4MB] Query construido
+[2026-01-07 20:26:14][MEM: 0.4MB] Preparando statement...
+[2026-01-07 20:26:14][MEM: 0.42MB] Statement preparado correctamente
+[2026-01-07 20:26:14][MEM: 0.42MB] Binding 2 params con tipos: ii
+[2026-01-07 20:26:14][MEM: 0.42MB] Ejecutando query...
+[2026-01-07 20:26:14][MEM: 0.47MB] Firmas encontradas: 18
+[2026-01-07 20:26:14][MEM: 0.51MB] Total de registros: 18
+[2026-01-07 20:26:14][MEM: 0.51MB] Preparando respuesta JSON...
+[2026-01-07 20:26:14][MEM: 0.51MB] Respuesta preparada (size: 9779 bytes)
+[2026-01-07 20:31:01][MEM: 0.35MB] ========================================
+[2026-01-07 20:31:01][MEM: 0.35MB] NUEVA REQUEST LISTAR FIRMAS
+[2026-01-07 20:31:01][MEM: 0.35MB] ========================================
+[2026-01-07 20:31:01][MEM: 0.35MB] IP: 181.236.101.252
+[2026-01-07 20:31:01][MEM: 0.35MB] Método: GET
+[2026-01-07 20:31:01][MEM: 0.35MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2026-01-07 20:31:01][MEM: 0.35MB] auth_middleware cargado
+[2026-01-07 20:31:01][MEM: 0.35MB] Usuario autenticado: colaborador (ID: 21)
+[2026-01-07 20:31:01][MEM: 0.35MB] Acceso registrado
+[2026-01-07 20:31:01][MEM: 0.35MB] Requiriendo conexión...
+[2026-01-07 20:31:01][MEM: 0.39MB] conexion.php cargado
+[2026-01-07 20:31:01][MEM: 0.39MB] Parámetros recibidos:
+[2026-01-07 20:31:01][MEM: 0.39MB]    id_servicio: NULL
+[2026-01-07 20:31:01][MEM: 0.39MB]    fecha_desde: NULL
+[2026-01-07 20:31:01][MEM: 0.39MB]    fecha_hasta: NULL
+[2026-01-07 20:31:01][MEM: 0.39MB]    limite: 50
+[2026-01-07 20:31:01][MEM: 0.39MB]    offset: 0
+[2026-01-07 20:31:01][MEM: 0.4MB] Query construido
+[2026-01-07 20:31:01][MEM: 0.4MB] Preparando statement...
+[2026-01-07 20:31:01][MEM: 0.42MB] Statement preparado correctamente
+[2026-01-07 20:31:01][MEM: 0.42MB] Binding 2 params con tipos: ii
+[2026-01-07 20:31:01][MEM: 0.42MB] Ejecutando query...
+[2026-01-07 20:31:01][MEM: 0.47MB] Firmas encontradas: 19
+[2026-01-07 20:31:01][MEM: 0.51MB] Total de registros: 19
+[2026-01-07 20:31:01][MEM: 0.51MB] Preparando respuesta JSON...
+[2026-01-07 20:31:01][MEM: 0.51MB] Respuesta preparada (size: 10306 bytes)
+[2026-01-07 20:59:11][MEM: 0.36MB] ========================================
+[2026-01-07 20:59:11][MEM: 0.36MB] NUEVA REQUEST LISTAR FIRMAS
+[2026-01-07 20:59:11][MEM: 0.36MB] ========================================
+[2026-01-07 20:59:11][MEM: 0.36MB] IP: 181.236.101.252
+[2026-01-07 20:59:11][MEM: 0.36MB] Método: GET
+[2026-01-07 20:59:11][MEM: 0.36MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2026-01-07 20:59:11][MEM: 0.36MB] auth_middleware cargado
+[2026-01-07 20:59:11][MEM: 0.37MB] Usuario autenticado: colaborador (ID: 21)
+[2026-01-07 20:59:11][MEM: 0.37MB] Acceso registrado
+[2026-01-07 20:59:11][MEM: 0.37MB] Requiriendo conexión...
+[2026-01-07 20:59:11][MEM: 0.41MB] conexion.php cargado
+[2026-01-07 20:59:11][MEM: 0.41MB] Parámetros recibidos:
+[2026-01-07 20:59:11][MEM: 0.41MB]    id_servicio: NULL
+[2026-01-07 20:59:11][MEM: 0.41MB]    fecha_desde: NULL
+[2026-01-07 20:59:11][MEM: 0.41MB]    fecha_hasta: NULL
+[2026-01-07 20:59:11][MEM: 0.41MB]    limite: 50
+[2026-01-07 20:59:11][MEM: 0.41MB]    offset: 0
+[2026-01-07 20:59:11][MEM: 0.41MB] Query construido
+[2026-01-07 20:59:11][MEM: 0.41MB] Preparando statement...
+[2026-01-07 20:59:11][MEM: 0.43MB] Statement preparado correctamente
+[2026-01-07 20:59:11][MEM: 0.43MB] Binding 2 params con tipos: ii
+[2026-01-07 20:59:11][MEM: 0.43MB] Ejecutando query...
+[2026-01-07 20:59:11][MEM: 0.49MB] Firmas encontradas: 20
+[2026-01-07 20:59:11][MEM: 0.52MB] Total de registros: 20
+[2026-01-07 20:59:11][MEM: 0.52MB] Preparando respuesta JSON...
+[2026-01-07 20:59:11][MEM: 0.52MB] Respuesta preparada (size: 10818 bytes)
+[2026-01-08 02:45:54][MEM: 0.36MB] ========================================
+[2026-01-08 02:45:54][MEM: 0.36MB] NUEVA REQUEST LISTAR FIRMAS
+[2026-01-08 02:45:54][MEM: 0.36MB] ========================================
+[2026-01-08 02:45:54][MEM: 0.36MB] IP: 181.236.101.252
+[2026-01-08 02:45:54][MEM: 0.36MB] Método: GET
+[2026-01-08 02:45:54][MEM: 0.36MB] URI: /API_Infoapp/firma/listar_firmas.php?limite=50&offset=0
+[2026-01-08 02:45:54][MEM: 0.36MB] auth_middleware cargado
+[2026-01-08 02:45:54][MEM: 0.37MB] Usuario autenticado: colaborador (ID: 21)
+[2026-01-08 02:45:54][MEM: 0.37MB] Acceso registrado
+[2026-01-08 02:45:54][MEM: 0.37MB] Requiriendo conexión...
+[2026-01-08 02:45:54][MEM: 0.41MB] conexion.php cargado
+[2026-01-08 02:45:54][MEM: 0.41MB] Parámetros recibidos:
+[2026-01-08 02:45:54][MEM: 0.41MB]    id_servicio: NULL
+[2026-01-08 02:45:54][MEM: 0.41MB]    fecha_desde: NULL
+[2026-01-08 02:45:54][MEM: 0.41MB]    fecha_hasta: NULL
+[2026-01-08 02:45:54][MEM: 0.41MB]    limite: 50
+[2026-01-08 02:45:54][MEM: 0.41MB]    offset: 0
+[2026-01-08 02:45:54][MEM: 0.41MB] Query construido
+[2026-01-08 02:45:54][MEM: 0.41MB] Preparando statement...
+[2026-01-08 02:45:54][MEM: 0.43MB] Statement preparado correctamente
+[2026-01-08 02:45:54][MEM: 0.43MB] Binding 2 params con tipos: ii
+[2026-01-08 02:45:54][MEM: 0.43MB] Ejecutando query...
+[2026-01-08 02:45:54][MEM: 0.49MB] Firmas encontradas: 21
+[2026-01-08 02:45:54][MEM: 0.52MB] Total de registros: 21
+[2026-01-08 02:45:54][MEM: 0.52MB] Preparando respuesta JSON...
+[2026-01-08 02:45:54][MEM: 0.52MB] Respuesta preparada (size: 11373 bytes)

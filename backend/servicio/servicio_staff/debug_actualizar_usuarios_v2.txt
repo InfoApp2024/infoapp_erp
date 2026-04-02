@@ -1,0 +1,308 @@
+[2025-11-07 11:14:26] ========================================
+[2025-11-07 11:14:26] 🆕 ACTUALIZAR USUARIOS - V2 MEJORADA
+[2025-11-07 11:14:26] Usuario: die
+[2025-11-07 11:14:26] Método: POST
+[2025-11-07 11:14:26] 📥 Input recibido (JSON): {"servicio_id":154,"usuario_ids":[20],"staff_ids":[]}...
+[2025-11-07 11:14:26] ✅ Datos recibidos completos
+[2025-11-07 11:14:26] 🔍 Servicio ID: 154
+[2025-11-07 11:14:26] ✅ Servicio verificado
+[2025-11-07 11:14:26] ✅ Detectado: usuario_ids (nuevo formato)
+[2025-11-07 11:14:26]    IDs: [20]
+[2025-11-07 11:14:26] 🔄 Iniciando transacción...
+[2025-11-07 11:14:26] 🗑️ Eliminando asignaciones previas
+[2025-11-07 11:14:26]    ✅ Eliminadas 1 asignaciones
+[2025-11-07 11:14:26] ✅ Insertando 1 nuevas asignaciones
+[2025-11-07 11:14:26]    ✓ Usuarios encontrados: 1 / 1
+[2025-11-07 11:14:26]    ✅ Insertadas 1 nuevas asignaciones
+[2025-11-07 11:14:26] ✅ Transacción confirmada
+[2025-11-07 11:14:26] 📋 Cargando usuarios asignados...
+[2025-11-07 11:14:26] ✅ 1 usuarios cargados
+[2025-11-07 11:14:26] ✅ Respuesta preparada: 1 usuarios
+[2025-11-07 11:14:26] ========================================
+
+[2025-11-07 11:15:04] ========================================
+[2025-11-07 11:15:04] 🆕 ACTUALIZAR USUARIOS - V2 MEJORADA
+[2025-11-07 11:15:04] Usuario: die
+[2025-11-07 11:15:04] Método: POST
+[2025-11-07 11:15:04] 📥 Input recibido (JSON): {"servicio_id":154,"usuario_ids":[20]}...
+[2025-11-07 11:15:04] ✅ Datos recibidos completos
+[2025-11-07 11:15:04] 🔍 Servicio ID: 154
+[2025-11-07 11:15:04] ✅ Servicio verificado
+[2025-11-07 11:15:04] ✅ Detectado: usuario_ids (nuevo formato)
+[2025-11-07 11:15:04]    IDs: [20]
+[2025-11-07 11:15:04] 🔄 Iniciando transacción...
+[2025-11-07 11:15:04] 🗑️ Eliminando asignaciones previas
+[2025-11-07 11:15:04]    ✅ Eliminadas 1 asignaciones
+[2025-11-07 11:15:04] ✅ Insertando 1 nuevas asignaciones
+[2025-11-07 11:15:04]    ✓ Usuarios encontrados: 1 / 1
+[2025-11-07 11:15:04]    ✅ Insertadas 1 nuevas asignaciones
+[2025-11-07 11:15:04] ✅ Transacción confirmada
+[2025-11-07 11:15:04] 📋 Cargando usuarios asignados...
+[2025-11-07 11:15:04] ✅ 1 usuarios cargados
+[2025-11-07 11:15:04] ✅ Respuesta preparada: 1 usuarios
+[2025-11-07 11:15:04] ========================================
+
+[2025-11-07 11:18:33] ========================================
+[2025-11-07 11:18:33] 🆕 ACTUALIZAR USUARIOS - V2 MEJORADA
+[2025-11-07 11:18:33] Usuario: die
+[2025-11-07 11:18:33] Método: POST
+[2025-11-07 11:18:33] 📥 Input recibido (JSON): {"servicio_id":154,"usuario_ids":[20,19]}...
+[2025-11-07 11:18:33] ✅ Datos recibidos completos
+[2025-11-07 11:18:33] 🔍 Servicio ID: 154
+[2025-11-07 11:18:33] ✅ Servicio verificado
+[2025-11-07 11:18:33] ✅ Detectado: usuario_ids (nuevo formato)
+[2025-11-07 11:18:33]    IDs: [20,19]
+[2025-11-07 11:18:33] 🔄 Iniciando transacción...
+[2025-11-07 11:18:33] 🗑️ Eliminando asignaciones previas
+[2025-11-07 11:18:33]    ✅ Eliminadas 1 asignaciones
+[2025-11-07 11:18:33] ✅ Insertando 2 nuevas asignaciones
+[2025-11-07 11:18:33]    ✓ Usuarios encontrados: 2 / 2
+[2025-11-07 11:18:33]    ✅ Insertadas 2 nuevas asignaciones
+[2025-11-07 11:18:33] ✅ Transacción confirmada
+[2025-11-07 11:18:33] 📋 Cargando usuarios asignados...
+[2025-11-07 11:18:33] ✅ 2 usuarios cargados
+[2025-11-07 11:18:33] ✅ Respuesta preparada: 2 usuarios
+[2025-11-07 11:18:33] ========================================
+
+[2025-11-07 11:20:38] ========================================
+[2025-11-07 11:20:38] 🆕 ACTUALIZAR USUARIOS - V2 MEJORADA
+[2025-11-07 11:20:38] Usuario: die
+[2025-11-07 11:20:38] Método: POST
+[2025-11-07 11:20:38] 📥 Input recibido (JSON): {"servicio_id":154,"usuario_ids":[19]}...
+[2025-11-07 11:20:38] ✅ Datos recibidos completos
+[2025-11-07 11:20:38] 🔍 Servicio ID: 154
+[2025-11-07 11:20:38] ✅ Servicio verificado
+[2025-11-07 11:20:38] ✅ Detectado: usuario_ids (nuevo formato)
+[2025-11-07 11:20:38]    IDs: [19]
+[2025-11-07 11:20:38] 🔄 Iniciando transacción...
+[2025-11-07 11:20:38] 🗑️ Eliminando asignaciones previas
+[2025-11-07 11:20:38]    ✅ Eliminadas 2 asignaciones
+[2025-11-07 11:20:38] ✅ Insertando 1 nuevas asignaciones
+[2025-11-07 11:20:38]    ✓ Usuarios encontrados: 1 / 1
+[2025-11-07 11:20:38]    ✅ Insertadas 1 nuevas asignaciones
+[2025-11-07 11:20:38] ✅ Transacción confirmada
+[2025-11-07 11:20:38] 📋 Cargando usuarios asignados...
+[2025-11-07 11:20:38] ✅ 1 usuarios cargados
+[2025-11-07 11:20:38] ✅ Respuesta preparada: 1 usuarios
+[2025-11-07 11:20:38] ========================================
+
+[2025-11-07 11:23:44] ========================================
+[2025-11-07 11:23:44] 🆕 ACTUALIZAR USUARIOS - V2 MEJORADA
+[2025-11-07 11:23:44] Usuario: die
+[2025-11-07 11:23:44] Método: POST
+[2025-11-07 11:23:44] 📥 Input recibido (JSON): {"servicio_id":154,"usuario_ids":[21]}...
+[2025-11-07 11:23:44] ✅ Datos recibidos completos
+[2025-11-07 11:23:44] 🔍 Servicio ID: 154
+[2025-11-07 11:23:44] ✅ Servicio verificado
+[2025-11-07 11:23:44] ✅ Detectado: usuario_ids (nuevo formato)
+[2025-11-07 11:23:44]    IDs: [21]
+[2025-11-07 11:23:44] 🔄 Iniciando transacción...
+[2025-11-07 11:23:44] 🗑️ Eliminando asignaciones previas
+[2025-11-07 11:23:44]    ✅ Eliminadas 1 asignaciones
+[2025-11-07 11:23:44] ✅ Insertando 1 nuevas asignaciones
+[2025-11-07 11:23:44]    ✓ Usuarios encontrados: 1 / 1
+[2025-11-07 11:23:44]    ✅ Insertadas 1 nuevas asignaciones
+[2025-11-07 11:23:44] ✅ Transacción confirmada
+[2025-11-07 11:23:44] 📋 Cargando usuarios asignados...
+[2025-11-07 11:23:44] ✅ 1 usuarios cargados
+[2025-11-07 11:23:44] ✅ Respuesta preparada: 1 usuarios
+[2025-11-07 11:23:44] ========================================
+
+[2025-11-07 11:43:51] ========================================
+[2025-11-07 11:43:51] 🆕 ACTUALIZAR USUARIOS - V2 MEJORADA
+[2025-11-07 11:43:51] Usuario: die
+[2025-11-07 11:43:51] Método: POST
+[2025-11-07 11:43:51] 📥 Input recibido (JSON): {"servicio_id":154,"usuario_ids":[14]}...
+[2025-11-07 11:43:51] ✅ Datos recibidos completos
+[2025-11-07 11:43:51] 🔍 Servicio ID: 154
+[2025-11-07 11:43:51] ✅ Servicio verificado
+[2025-11-07 11:43:51] ✅ Detectado: usuario_ids (nuevo formato)
+[2025-11-07 11:43:51]    IDs: [14]
+[2025-11-07 11:43:51] 🔄 Iniciando transacción...
+[2025-11-07 11:43:51] 🗑️ Eliminando asignaciones previas
+[2025-11-07 11:43:51]    ✅ Eliminadas 1 asignaciones
+[2025-11-07 11:43:51] ✅ Insertando 1 nuevas asignaciones
+[2025-11-07 11:43:51]    ✓ Usuarios encontrados: 1 / 1
+[2025-11-07 11:43:51]    ✅ Insertadas 1 nuevas asignaciones
+[2025-11-07 11:43:51] ✅ Transacción confirmada
+[2025-11-07 11:43:51] 📋 Cargando usuarios asignados...
+[2025-11-07 11:43:51] ✅ 1 usuarios cargados
+[2025-11-07 11:43:51] ✅ Respuesta preparada: 1 usuarios
+[2025-11-07 11:43:51] ========================================
+
+[2025-11-07 11:46:47] ========================================
+[2025-11-07 11:46:47] 🆕 ACTUALIZAR USUARIOS - V2 MEJORADA
+[2025-11-07 11:46:47] Usuario: die
+[2025-11-07 11:46:47] Método: POST
+[2025-11-07 11:46:47] 📥 Input recibido (JSON): {"servicio_id":154,"usuario_ids":[19]}...
+[2025-11-07 11:46:47] ✅ Datos recibidos completos
+[2025-11-07 11:46:47] 🔍 Servicio ID: 154
+[2025-11-07 11:46:47] ✅ Servicio verificado
+[2025-11-07 11:46:47] ✅ Detectado: usuario_ids (nuevo formato)
+[2025-11-07 11:46:47]    IDs: [19]
+[2025-11-07 11:46:47] 🔄 Iniciando transacción...
+[2025-11-07 11:46:47] 🗑️ Eliminando asignaciones previas
+[2025-11-07 11:46:47]    ✅ Eliminadas 1 asignaciones
+[2025-11-07 11:46:47] ✅ Insertando 1 nuevas asignaciones
+[2025-11-07 11:46:47]    ✓ Usuarios encontrados: 1 / 1
+[2025-11-07 11:46:47]    ✅ Insertadas 1 nuevas asignaciones
+[2025-11-07 11:46:47] ✅ Transacción confirmada
+[2025-11-07 11:46:47] 📋 Cargando usuarios asignados...
+[2025-11-07 11:46:47] ✅ 1 usuarios cargados
+[2025-11-07 11:46:47] ✅ Respuesta preparada: 1 usuarios
+[2025-11-07 11:46:47] ========================================
+
+[2025-11-07 12:00:57] ========================================
+[2025-11-07 12:00:57] 🆕 ACTUALIZAR USUARIOS - V2 MEJORADA
+[2025-11-07 12:00:57] Usuario: die
+[2025-11-07 12:00:57] Método: POST
+[2025-11-07 12:00:57] 📥 Input recibido (JSON): {"servicio_id":154,"usuario_ids":[20,19]}...
+[2025-11-07 12:00:57] ✅ Datos recibidos completos
+[2025-11-07 12:00:57] 🔍 Servicio ID: 154
+[2025-11-07 12:00:57] ✅ Servicio verificado
+[2025-11-07 12:00:57] ✅ Detectado: usuario_ids (nuevo formato)
+[2025-11-07 12:00:57]    IDs: [20,19]
+[2025-11-07 12:00:57] 🔄 Iniciando transacción...
+[2025-11-07 12:00:57] 🗑️ Eliminando asignaciones previas
+[2025-11-07 12:00:57]    ✅ Eliminadas 1 asignaciones
+[2025-11-07 12:00:57] ✅ Insertando 2 nuevas asignaciones
+[2025-11-07 12:00:57]    ✓ Usuarios encontrados: 2 / 2
+[2025-11-07 12:00:57]    ✅ Insertadas 2 nuevas asignaciones
+[2025-11-07 12:00:57] ✅ Transacción confirmada
+[2025-11-07 12:00:57] 📋 Cargando usuarios asignados...
+[2025-11-07 12:00:57] ✅ 2 usuarios cargados
+[2025-11-07 12:00:57] ✅ Respuesta preparada: 2 usuarios
+[2025-11-07 12:00:57] ========================================
+
+[2025-11-07 12:07:51] ========================================
+[2025-11-07 12:07:51] 🆕 ACTUALIZAR USUARIOS - V2 MEJORADA
+[2025-11-07 12:07:51] Usuario: die
+[2025-11-07 12:07:51] Método: POST
+[2025-11-07 12:07:51] 📥 Input recibido (JSON): {"servicio_id":154,"usuario_ids":[13]}...
+[2025-11-07 12:07:51] ✅ Datos recibidos completos
+[2025-11-07 12:07:51] 🔍 Servicio ID: 154
+[2025-11-07 12:07:51] ✅ Servicio verificado
+[2025-11-07 12:07:51] ✅ Detectado: usuario_ids (nuevo formato)
+[2025-11-07 12:07:51]    IDs: [13]
+[2025-11-07 12:07:51] 🔄 Iniciando transacción...
+[2025-11-07 12:07:51] 🗑️ Eliminando asignaciones previas
+[2025-11-07 12:07:51]    ✅ Eliminadas 2 asignaciones
+[2025-11-07 12:07:51] ✅ Insertando 1 nuevas asignaciones
+[2025-11-07 12:07:51]    ✓ Usuarios encontrados: 1 / 1
+[2025-11-07 12:07:51]    ✅ Insertadas 1 nuevas asignaciones
+[2025-11-07 12:07:51] ✅ Transacción confirmada
+[2025-11-07 12:07:51] 📋 Cargando usuarios asignados...
+[2025-11-07 12:07:51] ✅ 1 usuarios cargados
+[2025-11-07 12:07:51] ✅ Respuesta preparada: 1 usuarios
+[2025-11-07 12:07:51] ========================================
+
+[2025-11-07 12:15:53] ========================================
+[2025-11-07 12:15:53] 🆕 ACTUALIZAR USUARIOS - V2 MEJORADA
+[2025-11-07 12:15:53] Usuario: die
+[2025-11-07 12:15:53] Método: POST
+[2025-11-07 12:15:53] 📥 Input recibido (JSON): {"servicio_id":154,"usuario_ids":[13]}...
+[2025-11-07 12:15:53] ✅ Datos recibidos completos
+[2025-11-07 12:15:53] 🔍 Servicio ID: 154
+[2025-11-07 12:15:53] ✅ Servicio verificado
+[2025-11-07 12:15:53] ✅ Detectado: usuario_ids (nuevo formato)
+[2025-11-07 12:15:53]    IDs: [13]
+[2025-11-07 12:15:53] 🔄 Iniciando transacción...
+[2025-11-07 12:15:53] 🗑️ Eliminando asignaciones previas
+[2025-11-07 12:15:53]    ✅ Eliminadas 1 asignaciones
+[2025-11-07 12:15:53] ✅ Insertando 1 nuevas asignaciones
+[2025-11-07 12:15:53]    ✓ Usuarios encontrados: 1 / 1
+[2025-11-07 12:15:53]    ✅ Insertadas 1 nuevas asignaciones
+[2025-11-07 12:15:53] ✅ Transacción confirmada
+[2025-11-07 12:15:53] 📋 Cargando usuarios asignados...
+[2025-11-07 12:15:53] ✅ 1 usuarios cargados
+[2025-11-07 12:15:53] ✅ Respuesta preparada: 1 usuarios
+[2025-11-07 12:15:53] ========================================
+
+[2025-11-07 12:16:00] ========================================
+[2025-11-07 12:16:00] 🆕 ACTUALIZAR USUARIOS - V2 MEJORADA
+[2025-11-07 12:16:00] Usuario: die
+[2025-11-07 12:16:00] Método: POST
+[2025-11-07 12:16:00] 📥 Input recibido (JSON): {"servicio_id":154,"usuario_ids":[18]}...
+[2025-11-07 12:16:00] ✅ Datos recibidos completos
+[2025-11-07 12:16:00] 🔍 Servicio ID: 154
+[2025-11-07 12:16:00] ✅ Servicio verificado
+[2025-11-07 12:16:00] ✅ Detectado: usuario_ids (nuevo formato)
+[2025-11-07 12:16:00]    IDs: [18]
+[2025-11-07 12:16:00] 🔄 Iniciando transacción...
+[2025-11-07 12:16:00] 🗑️ Eliminando asignaciones previas
+[2025-11-07 12:16:00]    ✅ Eliminadas 1 asignaciones
+[2025-11-07 12:16:00] ✅ Insertando 1 nuevas asignaciones
+[2025-11-07 12:16:00]    ✓ Usuarios encontrados: 1 / 1
+[2025-11-07 12:16:00]    ✅ Insertadas 1 nuevas asignaciones
+[2025-11-07 12:16:00] ✅ Transacción confirmada
+[2025-11-07 12:16:00] 📋 Cargando usuarios asignados...
+[2025-11-07 12:16:00] ✅ 1 usuarios cargados
+[2025-11-07 12:16:00] ✅ Respuesta preparada: 1 usuarios
+[2025-11-07 12:16:00] ========================================
+
+[2025-11-07 12:23:27] ========================================
+[2025-11-07 12:23:27] 🆕 ACTUALIZAR USUARIOS - V2 MEJORADA
+[2025-11-07 12:23:27] Usuario: die
+[2025-11-07 12:23:27] Método: POST
+[2025-11-07 12:23:27] 📥 Input recibido (JSON): {"servicio_id":154,"usuario_ids":[19,18]}...
+[2025-11-07 12:23:27] ✅ Datos recibidos completos
+[2025-11-07 12:23:27] 🔍 Servicio ID: 154
+[2025-11-07 12:23:27] ✅ Servicio verificado
+[2025-11-07 12:23:27] ✅ Detectado: usuario_ids (nuevo formato)
+[2025-11-07 12:23:27]    IDs: [19,18]
+[2025-11-07 12:23:27] 🔄 Iniciando transacción...
+[2025-11-07 12:23:27] 🗑️ Eliminando asignaciones previas
+[2025-11-07 12:23:27]    ✅ Eliminadas 1 asignaciones
+[2025-11-07 12:23:27] ✅ Insertando 2 nuevas asignaciones
+[2025-11-07 12:23:27]    ✓ Usuarios encontrados: 2 / 2
+[2025-11-07 12:23:27]    ✅ Insertadas 2 nuevas asignaciones
+[2025-11-07 12:23:27] ✅ Transacción confirmada
+[2025-11-07 12:23:27] 📋 Cargando usuarios asignados...
+[2025-11-07 12:23:27] ✅ 2 usuarios cargados
+[2025-11-07 12:23:27] ✅ Respuesta preparada: 2 usuarios
+[2025-11-07 12:23:27] ========================================
+
+[2025-11-07 12:25:27] ========================================
+[2025-11-07 12:25:27] 🆕 ACTUALIZAR USUARIOS - V2 MEJORADA
+[2025-11-07 12:25:27] Usuario: die
+[2025-11-07 12:25:27] Método: POST
+[2025-11-07 12:25:27] 📥 Input recibido (JSON): {"servicio_id":154,"usuario_ids":[19]}...
+[2025-11-07 12:25:27] ✅ Datos recibidos completos
+[2025-11-07 12:25:27] 🔍 Servicio ID: 154
+[2025-11-07 12:25:27] ✅ Servicio verificado
+[2025-11-07 12:25:27] ✅ Detectado: usuario_ids (nuevo formato)
+[2025-11-07 12:25:27]    IDs: [19]
+[2025-11-07 12:25:27] 🔄 Iniciando transacción...
+[2025-11-07 12:25:27] 🗑️ Eliminando asignaciones previas
+[2025-11-07 12:25:27]    ✅ Eliminadas 2 asignaciones
+[2025-11-07 12:25:27] ✅ Insertando 1 nuevas asignaciones
+[2025-11-07 12:25:27]    ✓ Usuarios encontrados: 1 / 1
+[2025-11-07 12:25:27]    ✅ Insertadas 1 nuevas asignaciones
+[2025-11-07 12:25:27] ✅ Transacción confirmada
+[2025-11-07 12:25:27] 📋 Cargando usuarios asignados...
+[2025-11-07 12:25:27] ✅ 1 usuarios cargados
+[2025-11-07 12:25:27] ✅ Respuesta preparada: 1 usuarios
+[2025-11-07 12:25:27] ========================================
+
+[2025-11-07 12:25:42] ========================================
+[2025-11-07 12:25:42] 🆕 ACTUALIZAR USUARIOS - V2 MEJORADA
+[2025-11-07 12:25:42] Usuario: die
+[2025-11-07 12:25:42] Método: POST
+[2025-11-07 12:25:42] 📥 Input recibido (JSON): {"servicio_id":154,"usuario_ids":[19,17]}...
+[2025-11-07 12:25:42] ✅ Datos recibidos completos
+[2025-11-07 12:25:42] 🔍 Servicio ID: 154
+[2025-11-07 12:25:42] ✅ Servicio verificado
+[2025-11-07 12:25:42] ✅ Detectado: usuario_ids (nuevo formato)
+[2025-11-07 12:25:42]    IDs: [19,17]
+[2025-11-07 12:25:42] 🔄 Iniciando transacción...
+[2025-11-07 12:25:42] 🗑️ Eliminando asignaciones previas
+[2025-11-07 12:25:42]    ✅ Eliminadas 1 asignaciones
+[2025-11-07 12:25:42] ✅ Insertando 2 nuevas asignaciones
+[2025-11-07 12:25:42]    ✓ Usuarios encontrados: 2 / 2
+[2025-11-07 12:25:42]    ✅ Insertadas 2 nuevas asignaciones
+[2025-11-07 12:25:42] ✅ Transacción confirmada
+[2025-11-07 12:25:42] 📋 Cargando usuarios asignados...
+[2025-11-07 12:25:42] ✅ 2 usuarios cargados
+[2025-11-07 12:25:42] ✅ Respuesta preparada: 2 usuarios
+[2025-11-07 12:25:42] ========================================
+

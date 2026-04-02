@@ -1,0 +1,28 @@
+=== INICIO TEST (MOCK) ===
+17:20:42 ✅ Funciones cargadas
+17:20:42 🎯 Datos Mockeados creados
+17:20:42 ✅ Archivos dummy creados en: C:\Users\ferch\Documents\infoapp\backend/uploads/servicios
+DEBUG: 🔄 Iniciando procesamiento de tags...
+DEBUG: 📋 Procesando tags de servicio...
+DEBUG: 📋 Procesando tags de equipo...
+DEBUG: 📋 Procesando tags de cliente...
+DEBUG: 📋 Procesando tags de fotos...
+DEBUG:    📸 Fotos antes: 1
+DEBUG:    📸 Fotos después: 1
+DEBUG:    ✓ Tag reemplazado: {{foto_antes}}
+DEBUG:    ✓ Tag reemplazado: {{foto_despues}}
+DEBUG: 📋 Procesando tags de personal...
+DEBUG:    👤 Personal encontrado: 1
+DEBUG:    ⚠️ No hay repuestos en los datos
+DEBUG:    ⚠️ No hay firmas en los datos
+DEBUG: ✅ Procesamiento completado. Tags reemplazados: 2
+17:20:42 ✅ Tags procesados
+17:20:42 🔍 URLs generadas por procesarTags:
+17:20:42    - https://migracion-infoapp.novatechdevelopment.com/API_Infoapp/uploads/servicios/foto1.jpg
+17:20:42    - https://migracion-infoapp.novatechdevelopment.com/API_Infoapp/uploads/servicios/foto2.jpg
+17:20:42 📂 Directorio base local: C:/Users/ferch/Documents/infoapp/backend
+17:20:42 🛠️ Reemplazando dominio: https://migracion-infoapp.novatechdevelopment.com/API_Infoapp/
+17:20:42 🔍 Rutas finales tras corrección:
+17:20:42    - C:/Users/ferch/Documents/infoapp/backend/uploads/servicios/foto1.jpg | Existe en disco: SI
+17:20:42    - C:/Users/ferch/Documents/infoapp/backend/uploads/servicios/foto2.jpg | Existe en disco: SI
+17:20:42 ✅ TEST EXITOSO: La lógica de reemplazo funciona.

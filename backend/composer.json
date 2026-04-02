@@ -1,0 +1,8 @@
+{
+  "require": {
+    "phpoffice/phpspreadsheet": "^1.29",
+    "tecnickcom/tcpdf": "^6.10",
+    "spatie/browsershot": "^5.2",
+    "mpdf/mpdf": "^8.2"
+  }
+}

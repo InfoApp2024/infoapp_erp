@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informe Técnico</title>
+  <style>
+    /* ESTILOS BASE (Compatibles con TCPDF y Navegadores) */
+    body {
+      font-family: 'Helvetica', 'Arial', sans-serif;
+      font-size: 10pt;
+      line-height: 1.4;
+      color: #333;
+      background-color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* LAYOUT PRINCIPAL CON TABLAS */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      border-spacing: 0;
+      margin-bottom: 15px;
+    }
+
+    /* HEADER */
+    .header-table {
+      border-bottom: 2px solid #333;
+      margin-bottom: 20px;
+    }
+
+    .logo-cell {
+      width: 30%;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    .company-info-cell {
+      width: 70%;
+      text-align: right;
+      vertical-align: middle;
+    }
+
+    .company-info h1 {
+      margin: 0;
+      font-size: 18pt;
+      color: #000;
+      text-transform: uppercase;
+    }
+
+    .company-info p {
+      margin: 2px 0;
+      font-size: 10pt;
+      color: #555;
+    }
+
+    /* TÍTULOS DE SECCIÓN */
+    h2 {
+      font-size: 12pt;
+      color: #2c3e50;
+      border-bottom: 1px solid #bdc3c7;
+      padding-bottom: 5px;
+      margin-top: 15px;
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+
+    /* TABLAS DE DATOS */
+    .data-table th,
+    .data-table td {
+      border: 1px solid #ddd;
+      padding: 6px;
+      text-align: left;
+      font-size: 9pt;
+    }
+
+    .data-table th {
+      background-color: #f2f2f2;
+      font-weight: bold;
+      color: #333;
+    }
+
+    .data-table td {
+      background-color: #fff;
+    }
+
+    /* CAJAS DE TEXTO (Actividades, Descripción) */
+    .text-box {
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      padding: 10px;
+      margin-bottom: 15px;
+      text-align: justify;
+      min-height: 50px;
+    }
+
+    /* FOTOS */
+    .photos-container {
+      text-align: center;
+      width: 100%;
+    }
+
+    /* Estilo para los items de fotos generados por procesar_tags.php */
+    .photo-item {
+      display: inline-block;
+      width: 45%;
+      margin: 5px;
+      vertical-align: top;
+      text-align: center;
+      border: 1px solid #eee;
+      padding: 5px;
+      background: #fff;
+    }
+
+    .photo-item img {
+      max-width: 100%;
+      height: auto;
+      border: 1px solid #ccc;
+    }
+
+    .photo-caption {
+      font-size: 8pt;
+      color: #666;
+      margin-top: 5px;
+    }
+
+    /* FIRMAS */
+    .signatures-table {
+      margin-top: 30px;
+      page-break-inside: avoid;
+    }
+
+    .sig-box {
+      text-align: center;
+      padding: 10px;
+    }
+
+    .sig-line {
+      border-top: 1px solid #000;
+      width: 80%;
+      margin: 10px auto 5px auto;
+    }
+
+    .sig-name {
+      font-weight: bold;
+      font-size: 10pt;
+    }
+
+    .sig-role {
+      font-size: 9pt;
+      color: #666;
+    }
+
+    .sig-img {
+      max-height: 40px;
+      max-width: 100px;
+      margin-bottom: 5px;
+    }
+
+    /* Force signature image size in table cells */
+    .sig-box img {
+      max-width: 100px !important;
+      max-height: 40px !important;
+      width: 100px;
+      height: auto;
+    }
+
+    /* FOOTER */
+    .footer {
+      margin-top: 30px;
+      text-align: center;
+      font-size: 8pt;
+      color: #999;
+      border-top: 1px solid #eee;
+      padding-top: 10px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ENCABEZADO -->
+  <table class="header-table" cellpadding="5">
+    <tr>
+      <td class="logo-cell">
+        <!-- Logo de la empresa -->
+        <img src="{{branding_logo_url}}" style="max-height: 70px; width: auto;" alt="Logo" />
+      </td>
+      <td class="company-info-cell">
+        <div class="company-info">
+          <!-- Estos datos se pueden hacer dinámicos si se agregan los tags correspondientes -->
+          <h1>INFORME TÉCNICO</h1>
+          <p>NIT: 900.000.000-0</p>
+          <p>www.infoapp.com</p>
+        </div>
+      </td>
+    </tr>
+  </table>
+
+  <!-- INFORMACIÓN DEL SERVICIO -->
+  <h2>Información del Servicio</h2>
+  <table class="data-table" cellspacing="0" cellpadding="5">
+    <tr>
+      <th width="15%">Orden Interna</th>
+      <th width="20%">Cliente</th>
+      <th width="15%">Orden Cliente</th>
+      <th width="15%">Fecha</th>
+      <th width="15%">Ciudad</th>
+      <th width="10%">Horas</th>
+      <th width="10%">Km</th>
+    </tr>
+    <tr>
+      <td>{{o_servicio}}</td>
+      <td>{{cliente_nombre}}</td>
+      <td>{{orden_cliente}}</td>
+      <td>{{fecha_ingreso}}</td>
+      <td>{{cliente_ciudad}}</td>
+      <td>{{equipo_horometro}}</td>
+      <td>{{equipo_kilometraje}}</td>
+    </tr>
+  </table>
+
+  <!-- DETALLES DEL SERVICIO -->
+  <h2>Detalles del Servicio</h2>
+  <table class="data-table" cellspacing="0" cellpadding="5">
+    <tr>
+      <th width="20%">Tipo Mantenimiento</th>
+      <th width="25%">Responsable</th>
+      <th width="20%">Planta</th>
+      <th width="20%">Equipo</th>
+      <th width="15%">Placa/Serie</th>
+    </tr>
+    <tr>
+      <td>{{tipo_servicio}}</td>
+      <td>{{tecnico_asignado}}</td>
+      <td>{{cliente_planta}}</td>
+      <td>{{equipo_nombre}}</td>
+      <td>{{equipo_placa}}</td>
+    </tr>
+  </table>
+
+  <!-- INFORMACIÓN ADICIONAL -->
+  <h2>Información Adicional</h2>
+  <table class="data-table" cellspacing="0" cellpadding="5">
+    <tr>
+      <th width="25%">Fecha Entrega</th>
+      <th width="25%">Técnicos</th>
+      <th width="25%">Tiempo Actividad</th>
+      <th width="25%">Estado Final</th>
+    </tr>
+    <tr>
+      <td>{{fecha_terminacion}}</td>
+      <td>{{tecnicos_nombres}}</td>
+      <td>{{tiempo_actividad}}</td>
+      <td>{{estado_servicio}}</td>
+    </tr>
+  </table>
+
+  <!-- REPUESTOS (Tabla dinámica) -->
+  <h2>Repuestos Suministrados</h2>
+  <table class="data-table" cellspacing="0" cellpadding="5">
+    <tr>
+      <th width="40%">Nombre del Repuesto</th>
+      <th width="20%">Código</th>
+      <th width="20%">Cantidad</th>
+      <th width="20%">Tipo</th>
+    </tr>
+    <!-- Las filas se generan automáticamente con el tag {{repuestos_filas}} -->
+    {{repuestos_filas}}
+  </table>
+
+  <!-- ACTIVIDAD REALIZADA -->
+  <h2>Actividad Realizada</h2>
+  <div class="text-box">
+    {{descripcion_trabajo}}
+  </div>
+
+  <!-- REGISTRO FOTOGRÁFICO -->
+  <h2>Registro Fotográfico</h2>
+  <div class="photos-container">
+    {{tabla_fotos_comparativa}}
+  </div>
+
+  <!-- FIRMAS -->
+  <h2>Firmas</h2>
+  <table class="signatures-table" width="100%" cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <!-- Firma Cliente / Recibe -->
+      <td width="50%" align="center" valign="top">
+        <table width="90%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td height="60" align="center" valign="bottom"
+              style="height: 60px; vertical-align: bottom; padding-bottom: 5px;">
+              {{firma_cliente}}
+            </td>
+          </tr>
+          <tr>
+            <td style="border-top: 1px solid #000; height: 1px; font-size: 1px; line-height: 1px;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center" style="padding-top: 5px;">
+              <div class="sig-name">{{cliente_contacto}}</div>
+              <div class="sig-role">Recibido a Satisfacción</div>
+            </td>
+          </tr>
+        </table>
+      </td>
+
+      <!-- Firma Técnico / Realiza -->
+      <td width="50%" align="center" valign="top">
+        <table width="90%" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td height="60" align="center" valign="bottom"
+              style="height: 60px; vertical-align: bottom; padding-bottom: 5px;">
+              {{firma_tecnico}}
+            </td>
+          </tr>
+          <tr>
+            <td style="border-top: 1px solid #000; height: 1px; font-size: 1px; line-height: 1px;">&nbsp;</td>
+          </tr>
+          <tr>
+            <td align="center" style="padding-top: 5px;">
+              <div class="sig-name">{{tecnico_asignado}}</div>
+              <div class="sig-role">Técnico Responsable</div>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <p>© Todos los derechos reservados - Generado por InfoApp</p>
+  </div>
+
+</body>
+
+</html>

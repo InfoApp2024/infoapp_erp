@@ -1,0 +1,74 @@
+# .htaccess para /API_Infoapp/uploads/
+# ✅ VERSIÓN CORREGIDA SIN CONFLICTOS
+
+# ✅ Habilitar CORS (solo si mod_headers está disponible)
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type"
+</IfModule>
+
+# ✅ PERMITIR SOLO ARCHIVOS ESPECÍFICOS (sin conflictos)
+<FilesMatch "\.(jpg|jpeg|png|gif|svg|webp|xlsx|xls)$">
+    Order allow,deny
+    Allow from all
+</FilesMatch>
+
+# ✅ BLOQUEAR ARCHIVOS PELIGROSOS ESPECÍFICAMENTE
+<FilesMatch "\.(php|pl|py|jsp|asp|sh|cgi|exe|bat|cmd)$">
+    Order deny,allow
+    Deny from all
+</FilesMatch>
+
+# ✅ BLOQUEAR ARCHIVOS DE CONFIGURACIÓN
+<FilesMatch "\.(htaccess|htpasswd|ini|log|conf|sql|bak)$">
+    Order deny,allow
+    Deny from all
+</FilesMatch>
+
+# ✅ Configuración de tipos MIME para imágenes
+<IfModule mod_mime.c>
+    AddType image/jpeg .jpg .jpeg
+    AddType image/png .png
+    AddType image/gif .gif
+    AddType image/svg+xml .svg
+    AddType image/webp .webp
+    
+    # Configuración de tipos MIME para archivos Excel
+    AddType application/vnd.openxmlformats-officedocument.spreadsheetml.sheet .xlsx
+    AddType application/vnd.ms-excel .xls
+</IfModule>
+
+# ✅ Comprimir archivos si es posible
+<IfModule mod_deflate.c>
+    SetOutputFilter DEFLATE
+    # No comprimir imágenes binarias
+    SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
+    # No comprimir archivos ya comprimidos
+    SetEnvIfNoCase Request_URI \.(?:exe|t?gz|zip|bz2|sit|rar|xlsx|xls)$ no-gzip dont-vary
+</IfModule>
+
+# ✅ Cache de archivos
+<IfModule mod_expires.c>
+    ExpiresActive on
+    # Cache de imágenes por 1 mes
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType image/webp "access plus 1 month"
+    
+    # Cache de archivos Excel por 1 día
+    ExpiresByType application/vnd.openxmlformats-officedocument.spreadsheetml.sheet "access plus 1 day"
+    ExpiresByType application/vnd.ms-excel "access plus 1 day"
+</IfModule>
+
+# ✅ Permitir listado de directorio (para debugging, opcional)
+Options +Indexes
+
+# ✅ Configuración del índice de directorio
+<IfModule mod_autoindex.c>
+    IndexOptions FancyIndexing HTMLTable VersionSort FoldersFirst NameWidth=*
+    IndexIgnore .htaccess .htpasswd *.php
+</IfModule>

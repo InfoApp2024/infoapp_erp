@@ -1,0 +1,515 @@
+[2025-11-07 18:00:01] ========================================
+[2025-11-07 18:00:01] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-07 18:00:01] Usuario: die (ID: 12)
+[2025-11-07 18:00:01] 🔍 Servicio ID: 156
+[2025-11-07 18:00:01] ✅ Servicio verificado
+[2025-11-07 18:00:01] ✅ Detectado: usuario_ids
+[2025-11-07 18:00:01] 📋 IDs a asignar: [21,20,19]
+[2025-11-07 18:00:01] 👤 Responsable ID: 21
+[2025-11-07 18:00:01] 🔄 Iniciando transacción...
+[2025-11-07 18:00:01] 🗑️ Eliminando asignaciones previas
+[2025-11-07 18:00:01]    ✅ Eliminadas 0 asignaciones
+[2025-11-07 18:00:01] ✅ Insertando 3 nuevas asignaciones
+[2025-11-07 18:00:01]    ✓ Usuario 21 asignado
+[2025-11-07 18:00:01]    ✓ Usuario 20 asignado
+[2025-11-07 18:00:01]    ✓ Usuario 19 asignado
+[2025-11-07 18:00:01]    ✅ Insertadas 3 asignaciones
+[2025-11-07 18:00:01] 👤 Actualizando responsable_id en servicios...
+[2025-11-07 18:00:01]    ✅ responsable_id actualizado a 21
+[2025-11-07 18:00:01] ✅ Transacción confirmada
+[2025-11-07 18:00:01] 📋 Cargando usuarios asignados...
+[2025-11-07 18:00:01] ✅ 3 usuarios cargados
+[2025-11-07 18:00:01] 📤 Respuesta enviada con 3 usuarios y responsable_id=21
+[2025-11-07 18:00:01] ========================================
+
+[2025-11-09 11:43:57] ========================================
+[2025-11-09 11:43:57] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-09 11:43:57] Usuario: die (ID: 12)
+[2025-11-09 11:43:57] 🔍 Servicio ID: 154
+[2025-11-09 11:43:57] ✅ Servicio verificado
+[2025-11-09 11:43:57] ✅ Detectado: usuario_ids
+[2025-11-09 11:43:57] 📋 IDs a asignar: [17]
+[2025-11-09 11:43:57] 👤 Responsable ID: 17
+[2025-11-09 11:43:57] 🔄 Iniciando transacción...
+[2025-11-09 11:43:57] 🗑️ Eliminando asignaciones previas
+[2025-11-09 11:43:57]    ✅ Eliminadas 2 asignaciones
+[2025-11-09 11:43:57] ✅ Insertando 1 nuevas asignaciones
+[2025-11-09 11:43:57]    ✓ Usuario 17 asignado
+[2025-11-09 11:43:57]    ✅ Insertadas 1 asignaciones
+[2025-11-09 11:43:57] 👤 Actualizando responsable_id en servicios...
+[2025-11-09 11:43:57]    ✅ responsable_id actualizado a 17
+[2025-11-09 11:43:57] ✅ Transacción confirmada
+[2025-11-09 11:43:57] 📋 Cargando usuarios asignados...
+[2025-11-09 11:43:57] ✅ 1 usuarios cargados
+[2025-11-09 11:43:57] 📤 Respuesta enviada con 1 usuarios y responsable_id=17
+[2025-11-09 11:43:57] ========================================
+
+[2025-11-09 13:33:49] ========================================
+[2025-11-09 13:33:49] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-09 13:33:49] Usuario: die (ID: 12)
+[2025-11-09 13:33:49] 🔍 Servicio ID: 150
+[2025-11-09 13:33:49] ✅ Servicio verificado
+[2025-11-09 13:33:49] ✅ Detectado: usuario_ids
+[2025-11-09 13:33:49] 📋 IDs a asignar: [17]
+[2025-11-09 13:33:49] 👤 Responsable ID: 17
+[2025-11-09 13:33:49] 🔄 Iniciando transacción...
+[2025-11-09 13:33:49] 🗑️ Eliminando asignaciones previas
+[2025-11-09 13:33:49]    ✅ Eliminadas 0 asignaciones
+[2025-11-09 13:33:49] ✅ Insertando 1 nuevas asignaciones
+[2025-11-09 13:33:49]    ✓ Usuario 17 asignado
+[2025-11-09 13:33:49]    ✅ Insertadas 1 asignaciones
+[2025-11-09 13:33:49] 👤 Actualizando responsable_id en servicios...
+[2025-11-09 13:33:49]    ✅ responsable_id actualizado a 17
+[2025-11-09 13:33:49] ✅ Transacción confirmada
+[2025-11-09 13:33:49] 📋 Cargando usuarios asignados...
+[2025-11-09 13:33:49] ✅ 1 usuarios cargados
+[2025-11-09 13:33:49] 📤 Respuesta enviada con 1 usuarios y responsable_id=17
+[2025-11-09 13:33:49] ========================================
+
+[2025-11-10 18:48:56] ========================================
+[2025-11-10 18:48:56] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-10 18:48:56] Usuario: colaborador (ID: 21)
+[2025-11-10 18:48:56] 🔍 Servicio ID: 158
+[2025-11-10 18:48:56] ✅ Servicio verificado
+[2025-11-10 18:48:56] ✅ Detectado: staff_ids (legacy)
+[2025-11-10 18:48:56] 📋 IDs a asignar: [1]
+[2025-11-10 18:48:56] 👤 Responsable ID: null
+[2025-11-10 18:48:56] 🔄 Iniciando transacción...
+[2025-11-10 18:48:56] 🗑️ Eliminando asignaciones previas
+[2025-11-10 18:48:56]    ✅ Eliminadas 0 asignaciones
+[2025-11-10 18:48:56] ✅ Insertando 1 nuevas asignaciones
+[2025-11-10 18:48:56] ❌ Error en transacción: Uno o más usuarios no existen
+[2025-11-10 18:48:56] 🔴 Exception: Uno o más usuarios no existen
+[2025-11-10 18:48:56] ========================================
+
+[2025-11-10 18:49:02] ========================================
+[2025-11-10 18:49:02] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-10 18:49:02] Usuario: colaborador (ID: 21)
+[2025-11-10 18:49:02] 🔍 Servicio ID: 158
+[2025-11-10 18:49:02] ✅ Servicio verificado
+[2025-11-10 18:49:02] ✅ Detectado: staff_ids (legacy)
+[2025-11-10 18:49:02] 📋 IDs a asignar: [17]
+[2025-11-10 18:49:02] 👤 Responsable ID: null
+[2025-11-10 18:49:02] 🔄 Iniciando transacción...
+[2025-11-10 18:49:02] 🗑️ Eliminando asignaciones previas
+[2025-11-10 18:49:02]    ✅ Eliminadas 0 asignaciones
+[2025-11-10 18:49:02] ✅ Insertando 1 nuevas asignaciones
+[2025-11-10 18:49:02]    ✓ Usuario 17 asignado
+[2025-11-10 18:49:02]    ✅ Insertadas 1 asignaciones
+[2025-11-10 18:49:02] ℹ️ Sin responsable_id para actualizar
+[2025-11-10 18:49:02] ✅ Transacción confirmada
+[2025-11-10 18:49:02] 📋 Cargando usuarios asignados...
+[2025-11-10 18:49:02] ✅ 1 usuarios cargados
+[2025-11-10 18:49:02] 📤 Respuesta enviada con 1 usuarios y responsable_id=
+[2025-11-10 18:49:02] ========================================
+
+[2025-11-10 22:23:46] ========================================
+[2025-11-10 22:23:46] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-10 22:23:46] Usuario: colaborador (ID: 21)
+[2025-11-10 22:23:46] 🔍 Servicio ID: 157
+[2025-11-10 22:23:46] ✅ Servicio verificado
+[2025-11-10 22:23:46] ✅ Detectado: usuario_ids
+[2025-11-10 22:23:46] 📋 IDs a asignar: [20]
+[2025-11-10 22:23:46] 👤 Responsable ID: 20
+[2025-11-10 22:23:46] 🔄 Iniciando transacción...
+[2025-11-10 22:23:46] 🗑️ Eliminando asignaciones previas
+[2025-11-10 22:23:46]    ✅ Eliminadas 0 asignaciones
+[2025-11-10 22:23:46] ✅ Insertando 1 nuevas asignaciones
+[2025-11-10 22:23:46]    ✓ Usuario 20 asignado
+[2025-11-10 22:23:46]    ✅ Insertadas 1 asignaciones
+[2025-11-10 22:23:46] 👤 Actualizando responsable_id en servicios...
+[2025-11-10 22:23:46]    ✅ responsable_id actualizado a 20
+[2025-11-10 22:23:46] ✅ Transacción confirmada
+[2025-11-10 22:23:46] 📋 Cargando usuarios asignados...
+[2025-11-10 22:23:46] ✅ 1 usuarios cargados
+[2025-11-10 22:23:46] 📤 Respuesta enviada con 1 usuarios y responsable_id=20
+[2025-11-10 22:23:46] ========================================
+
+[2025-11-10 22:23:47] ========================================
+[2025-11-10 22:23:47] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-10 22:23:47] Usuario: colaborador (ID: 21)
+[2025-11-10 22:23:47] 🔍 Servicio ID: 158
+[2025-11-10 22:23:47] ✅ Servicio verificado
+[2025-11-10 22:23:47] ✅ Detectado: usuario_ids
+[2025-11-10 22:23:47] 📋 IDs a asignar: [21]
+[2025-11-10 22:23:47] 👤 Responsable ID: 21
+[2025-11-10 22:23:47] 🔄 Iniciando transacción...
+[2025-11-10 22:23:47] 🗑️ Eliminando asignaciones previas
+[2025-11-10 22:23:47]    ✅ Eliminadas 1 asignaciones
+[2025-11-10 22:23:47] ✅ Insertando 1 nuevas asignaciones
+[2025-11-10 22:23:47]    ✓ Usuario 21 asignado
+[2025-11-10 22:23:47]    ✅ Insertadas 1 asignaciones
+[2025-11-10 22:23:47] 👤 Actualizando responsable_id en servicios...
+[2025-11-10 22:23:47]    ✅ responsable_id actualizado a 21
+[2025-11-10 22:23:47] ✅ Transacción confirmada
+[2025-11-10 22:23:47] 📋 Cargando usuarios asignados...
+[2025-11-10 22:23:47] ✅ 1 usuarios cargados
+[2025-11-10 22:23:47] 📤 Respuesta enviada con 1 usuarios y responsable_id=21
+[2025-11-10 22:23:47] ========================================
+
+[2025-11-11 12:33:58] ========================================
+[2025-11-11 12:33:58] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-11 12:33:58] Usuario: colaborador (ID: 21)
+[2025-11-11 12:33:58] 🔍 Servicio ID: 159
+[2025-11-11 12:33:58] ✅ Servicio verificado
+[2025-11-11 12:33:58] ✅ Detectado: usuario_ids
+[2025-11-11 12:33:58] 📋 IDs a asignar: [21]
+[2025-11-11 12:33:58] 👤 Responsable ID: 21
+[2025-11-11 12:33:58] 🔄 Iniciando transacción...
+[2025-11-11 12:33:58] 🗑️ Eliminando asignaciones previas
+[2025-11-11 12:33:58]    ✅ Eliminadas 0 asignaciones
+[2025-11-11 12:33:58] ✅ Insertando 1 nuevas asignaciones
+[2025-11-11 12:33:58]    ✓ Usuario 21 asignado
+[2025-11-11 12:33:58]    ✅ Insertadas 1 asignaciones
+[2025-11-11 12:33:58] 👤 Actualizando responsable_id en servicios...
+[2025-11-11 12:33:58]    ✅ responsable_id actualizado a 21
+[2025-11-11 12:33:58] ✅ Transacción confirmada
+[2025-11-11 12:33:58] 📋 Cargando usuarios asignados...
+[2025-11-11 12:33:58] ✅ 1 usuarios cargados
+[2025-11-11 12:33:58] 📤 Respuesta enviada con 1 usuarios y responsable_id=21
+[2025-11-11 12:33:58] ========================================
+
+[2025-11-11 12:43:07] ========================================
+[2025-11-11 12:43:07] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-11 12:43:07] Usuario: colaborador (ID: 21)
+[2025-11-11 12:43:07] 🔍 Servicio ID: 160
+[2025-11-11 12:43:07] ✅ Servicio verificado
+[2025-11-11 12:43:07] ✅ Detectado: usuario_ids
+[2025-11-11 12:43:07] 📋 IDs a asignar: [15]
+[2025-11-11 12:43:07] 👤 Responsable ID: 15
+[2025-11-11 12:43:07] 🔄 Iniciando transacción...
+[2025-11-11 12:43:07] 🗑️ Eliminando asignaciones previas
+[2025-11-11 12:43:07]    ✅ Eliminadas 0 asignaciones
+[2025-11-11 12:43:07] ✅ Insertando 1 nuevas asignaciones
+[2025-11-11 12:43:07]    ✓ Usuario 15 asignado
+[2025-11-11 12:43:07]    ✅ Insertadas 1 asignaciones
+[2025-11-11 12:43:07] 👤 Actualizando responsable_id en servicios...
+[2025-11-11 12:43:07]    ✅ responsable_id actualizado a 15
+[2025-11-11 12:43:07] ✅ Transacción confirmada
+[2025-11-11 12:43:07] 📋 Cargando usuarios asignados...
+[2025-11-11 12:43:07] ✅ 1 usuarios cargados
+[2025-11-11 12:43:07] 📤 Respuesta enviada con 1 usuarios y responsable_id=15
+[2025-11-11 12:43:07] ========================================
+
+[2025-11-11 12:56:17] ========================================
+[2025-11-11 12:56:17] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-11 12:56:17] Usuario: colaborador (ID: 21)
+[2025-11-11 12:56:17] 🔍 Servicio ID: 160
+[2025-11-11 12:56:17] ✅ Servicio verificado
+[2025-11-11 12:56:17] ✅ Detectado: usuario_ids
+[2025-11-11 12:56:17] 📋 IDs a asignar: [20]
+[2025-11-11 12:56:17] 👤 Responsable ID: 20
+[2025-11-11 12:56:17] 🔄 Iniciando transacción...
+[2025-11-11 12:56:17] 🗑️ Eliminando asignaciones previas
+[2025-11-11 12:56:17]    ✅ Eliminadas 1 asignaciones
+[2025-11-11 12:56:17] ✅ Insertando 1 nuevas asignaciones
+[2025-11-11 12:56:17]    ✓ Usuario 20 asignado
+[2025-11-11 12:56:17]    ✅ Insertadas 1 asignaciones
+[2025-11-11 12:56:17] 👤 Actualizando responsable_id en servicios...
+[2025-11-11 12:56:17]    ✅ responsable_id actualizado a 20
+[2025-11-11 12:56:17] ✅ Transacción confirmada
+[2025-11-11 12:56:17] 📋 Cargando usuarios asignados...
+[2025-11-11 12:56:17] ✅ 1 usuarios cargados
+[2025-11-11 12:56:17] 📤 Respuesta enviada con 1 usuarios y responsable_id=20
+[2025-11-11 12:56:17] ========================================
+
+[2025-11-11 16:49:29] ========================================
+[2025-11-11 16:49:29] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-11 16:49:29] Usuario: colaborador (ID: 21)
+[2025-11-11 16:49:29] 🔍 Servicio ID: 161
+[2025-11-11 16:49:29] ✅ Servicio verificado
+[2025-11-11 16:49:29] ✅ Detectado: usuario_ids
+[2025-11-11 16:49:29] 📋 IDs a asignar: [20]
+[2025-11-11 16:49:29] 👤 Responsable ID: 20
+[2025-11-11 16:49:29] 🔄 Iniciando transacción...
+[2025-11-11 16:49:29] 🗑️ Eliminando asignaciones previas
+[2025-11-11 16:49:29]    ✅ Eliminadas 0 asignaciones
+[2025-11-11 16:49:29] ✅ Insertando 1 nuevas asignaciones
+[2025-11-11 16:49:29]    ✓ Usuario 20 asignado
+[2025-11-11 16:49:29]    ✅ Insertadas 1 asignaciones
+[2025-11-11 16:49:29] 👤 Actualizando responsable_id en servicios...
+[2025-11-11 16:49:29]    ✅ responsable_id actualizado a 20
+[2025-11-11 16:49:29] ✅ Transacción confirmada
+[2025-11-11 16:49:29] 📋 Cargando usuarios asignados...
+[2025-11-11 16:49:29] ✅ 1 usuarios cargados
+[2025-11-11 16:49:29] 📤 Respuesta enviada con 1 usuarios y responsable_id=20
+[2025-11-11 16:49:29] ========================================
+
+[2025-11-11 17:38:25] ========================================
+[2025-11-11 17:38:25] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-11 17:38:25] Usuario: colaborador (ID: 21)
+[2025-11-11 17:38:25] 🔍 Servicio ID: 162
+[2025-11-11 17:38:25] ✅ Servicio verificado
+[2025-11-11 17:38:25] ✅ Detectado: usuario_ids
+[2025-11-11 17:38:25] 📋 IDs a asignar: [20,21]
+[2025-11-11 17:38:25] 👤 Responsable ID: 20
+[2025-11-11 17:38:25] 🔄 Iniciando transacción...
+[2025-11-11 17:38:25] 🗑️ Eliminando asignaciones previas
+[2025-11-11 17:38:25]    ✅ Eliminadas 0 asignaciones
+[2025-11-11 17:38:25] ✅ Insertando 2 nuevas asignaciones
+[2025-11-11 17:38:25]    ✓ Usuario 20 asignado
+[2025-11-11 17:38:25]    ✓ Usuario 21 asignado
+[2025-11-11 17:38:25]    ✅ Insertadas 2 asignaciones
+[2025-11-11 17:38:25] 👤 Actualizando responsable_id en servicios...
+[2025-11-11 17:38:25]    ✅ responsable_id actualizado a 20
+[2025-11-11 17:38:25] ✅ Transacción confirmada
+[2025-11-11 17:38:25] 📋 Cargando usuarios asignados...
+[2025-11-11 17:38:25] ✅ 2 usuarios cargados
+[2025-11-11 17:38:25] 📤 Respuesta enviada con 2 usuarios y responsable_id=20
+[2025-11-11 17:38:25] ========================================
+
+[2025-11-11 17:54:16] ========================================
+[2025-11-11 17:54:16] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-11 17:54:16] Usuario: colaborador (ID: 21)
+[2025-11-11 17:54:16] 🔍 Servicio ID: 162
+[2025-11-11 17:54:16] ✅ Servicio verificado
+[2025-11-11 17:54:16] ✅ Detectado: usuario_ids
+[2025-11-11 17:54:16] 📋 IDs a asignar: [21,20,15]
+[2025-11-11 17:54:16] 👤 Responsable ID: 21
+[2025-11-11 17:54:16] 🔄 Iniciando transacción...
+[2025-11-11 17:54:16] 🗑️ Eliminando asignaciones previas
+[2025-11-11 17:54:16]    ✅ Eliminadas 2 asignaciones
+[2025-11-11 17:54:16] ✅ Insertando 3 nuevas asignaciones
+[2025-11-11 17:54:16]    ✓ Usuario 21 asignado
+[2025-11-11 17:54:16]    ✓ Usuario 20 asignado
+[2025-11-11 17:54:16]    ✓ Usuario 15 asignado
+[2025-11-11 17:54:16]    ✅ Insertadas 3 asignaciones
+[2025-11-11 17:54:16] 👤 Actualizando responsable_id en servicios...
+[2025-11-11 17:54:16]    ✅ responsable_id actualizado a 21
+[2025-11-11 17:54:16] ✅ Transacción confirmada
+[2025-11-11 17:54:16] 📋 Cargando usuarios asignados...
+[2025-11-11 17:54:16] ✅ 3 usuarios cargados
+[2025-11-11 17:54:16] 📤 Respuesta enviada con 3 usuarios y responsable_id=21
+[2025-11-11 17:54:16] ========================================
+
+[2025-11-11 20:16:14] ========================================
+[2025-11-11 20:16:14] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-11 20:16:14] Usuario: colaborador (ID: 21)
+[2025-11-11 20:16:14] 🔍 Servicio ID: 163
+[2025-11-11 20:16:14] ✅ Servicio verificado
+[2025-11-11 20:16:14] ✅ Detectado: usuario_ids
+[2025-11-11 20:16:14] 📋 IDs a asignar: [21]
+[2025-11-11 20:16:14] 👤 Responsable ID: 21
+[2025-11-11 20:16:14] 🔄 Iniciando transacción...
+[2025-11-11 20:16:14] 🗑️ Eliminando asignaciones previas
+[2025-11-11 20:16:14]    ✅ Eliminadas 0 asignaciones
+[2025-11-11 20:16:14] ✅ Insertando 1 nuevas asignaciones
+[2025-11-11 20:16:14]    ✓ Usuario 21 asignado
+[2025-11-11 20:16:14]    ✅ Insertadas 1 asignaciones
+[2025-11-11 20:16:14] 👤 Actualizando responsable_id en servicios...
+[2025-11-11 20:16:14]    ✅ responsable_id actualizado a 21
+[2025-11-11 20:16:14] ✅ Transacción confirmada
+[2025-11-11 20:16:14] 📋 Cargando usuarios asignados...
+[2025-11-11 20:16:14] ✅ 1 usuarios cargados
+[2025-11-11 20:16:14] 📤 Respuesta enviada con 1 usuarios y responsable_id=21
+[2025-11-11 20:16:14] ========================================
+
+[2025-11-17 14:02:03] ========================================
+[2025-11-17 14:02:03] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-17 14:02:03] Usuario: colaborador (ID: 21)
+[2025-11-17 14:02:03] 🔍 Servicio ID: 164
+[2025-11-17 14:02:03] ✅ Servicio verificado
+[2025-11-17 14:02:03] ✅ Detectado: usuario_ids
+[2025-11-17 14:02:03] 📋 IDs a asignar: [15,21]
+[2025-11-17 14:02:03] 👤 Responsable ID: 15
+[2025-11-17 14:02:03] 🔄 Iniciando transacción...
+[2025-11-17 14:02:03] 🗑️ Eliminando asignaciones previas
+[2025-11-17 14:02:03]    ✅ Eliminadas 0 asignaciones
+[2025-11-17 14:02:03] ✅ Insertando 2 nuevas asignaciones
+[2025-11-17 14:02:03]    ✓ Usuario 15 asignado
+[2025-11-17 14:02:03]    ✓ Usuario 21 asignado
+[2025-11-17 14:02:03]    ✅ Insertadas 2 asignaciones
+[2025-11-17 14:02:03] 👤 Actualizando responsable_id en servicios...
+[2025-11-17 14:02:03]    ✅ responsable_id actualizado a 15
+[2025-11-17 14:02:03] ✅ Transacción confirmada
+[2025-11-17 14:02:03] 📋 Cargando usuarios asignados...
+[2025-11-17 14:02:03] ✅ 2 usuarios cargados
+[2025-11-17 14:02:03] 📤 Respuesta enviada con 2 usuarios y responsable_id=15
+[2025-11-17 14:02:03] ========================================
+
+[2025-11-19 00:04:14] ========================================
+[2025-11-19 00:04:14] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-19 00:04:14] Usuario: colaborador (ID: 21)
+[2025-11-19 00:04:14] 🔍 Servicio ID: 165
+[2025-11-19 00:04:14] ✅ Servicio verificado
+[2025-11-19 00:04:14] ✅ Detectado: usuario_ids
+[2025-11-19 00:04:14] 📋 IDs a asignar: [15]
+[2025-11-19 00:04:14] 👤 Responsable ID: 15
+[2025-11-19 00:04:14] 🔄 Iniciando transacción...
+[2025-11-19 00:04:14] 🗑️ Eliminando asignaciones previas
+[2025-11-19 00:04:14]    ✅ Eliminadas 0 asignaciones
+[2025-11-19 00:04:14] ✅ Insertando 1 nuevas asignaciones
+[2025-11-19 00:04:14]    ✓ Usuario 15 asignado
+[2025-11-19 00:04:14]    ✅ Insertadas 1 asignaciones
+[2025-11-19 00:04:14] 👤 Actualizando responsable_id en servicios...
+[2025-11-19 00:04:14]    ✅ responsable_id actualizado a 15
+[2025-11-19 00:04:14] ✅ Transacción confirmada
+[2025-11-19 00:04:14] 📋 Cargando usuarios asignados...
+[2025-11-19 00:04:14] ✅ 1 usuarios cargados
+[2025-11-19 00:04:14] 📤 Respuesta enviada con 1 usuarios y responsable_id=15
+[2025-11-19 00:04:14] ========================================
+
+[2025-11-20 15:17:24] ========================================
+[2025-11-20 15:17:24] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-20 15:17:24] Usuario: colaborador (ID: 21)
+[2025-11-20 15:17:24] 🔍 Servicio ID: 166
+[2025-11-20 15:17:24] ✅ Servicio verificado
+[2025-11-20 15:17:24] ✅ Detectado: usuario_ids
+[2025-11-20 15:17:24] 📋 IDs a asignar: [15]
+[2025-11-20 15:17:24] 👤 Responsable ID: 15
+[2025-11-20 15:17:24] 🔄 Iniciando transacción...
+[2025-11-20 15:17:24] 🗑️ Eliminando asignaciones previas
+[2025-11-20 15:17:24]    ✅ Eliminadas 0 asignaciones
+[2025-11-20 15:17:24] ✅ Insertando 1 nuevas asignaciones
+[2025-11-20 15:17:24]    ✓ Usuario 15 asignado
+[2025-11-20 15:17:24]    ✅ Insertadas 1 asignaciones
+[2025-11-20 15:17:24] 👤 Actualizando responsable_id en servicios...
+[2025-11-20 15:17:24]    ✅ responsable_id actualizado a 15
+[2025-11-20 15:17:24] ✅ Transacción confirmada
+[2025-11-20 15:17:24] 📋 Cargando usuarios asignados...
+[2025-11-20 15:17:24] ✅ 1 usuarios cargados
+[2025-11-20 15:17:24] 📤 Respuesta enviada con 1 usuarios y responsable_id=15
+[2025-11-20 15:17:24] ========================================
+
+[2025-11-20 17:52:36] ========================================
+[2025-11-20 17:52:36] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-20 17:52:36] Usuario: MarcosSuarez (ID: 15)
+[2025-11-20 17:52:36] 🔍 Servicio ID: 21
+[2025-11-20 17:52:36] ✅ Servicio verificado
+[2025-11-20 17:52:36] ✅ Detectado: usuario_ids
+[2025-11-20 17:52:36] 📋 IDs a asignar: [21,15]
+[2025-11-20 17:52:36] 👤 Responsable ID: 21
+[2025-11-20 17:52:36] 🔄 Iniciando transacción...
+[2025-11-20 17:52:36] 🗑️ Eliminando asignaciones previas
+[2025-11-20 17:52:36]    ✅ Eliminadas 0 asignaciones
+[2025-11-20 17:52:36] ✅ Insertando 2 nuevas asignaciones
+[2025-11-20 17:52:36]    ✓ Usuario 21 asignado
+[2025-11-20 17:52:36]    ✓ Usuario 15 asignado
+[2025-11-20 17:52:36]    ✅ Insertadas 2 asignaciones
+[2025-11-20 17:52:36] 👤 Actualizando responsable_id en servicios...
+[2025-11-20 17:52:36]    ✅ responsable_id actualizado a 21
+[2025-11-20 17:52:36] ✅ Transacción confirmada
+[2025-11-20 17:52:36] 📋 Cargando usuarios asignados...
+[2025-11-20 17:52:36] ✅ 2 usuarios cargados
+[2025-11-20 17:52:36] 📤 Respuesta enviada con 2 usuarios y responsable_id=21
+[2025-11-20 17:52:36] ========================================
+
+[2025-11-20 19:28:32] ========================================
+[2025-11-20 19:28:32] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-20 19:28:32] Usuario: colaborador (ID: 21)
+[2025-11-20 19:28:32] 🔍 Servicio ID: 167
+[2025-11-20 19:28:32] ✅ Servicio verificado
+[2025-11-20 19:28:32] ✅ Detectado: usuario_ids
+[2025-11-20 19:28:32] 📋 IDs a asignar: [21]
+[2025-11-20 19:28:32] 👤 Responsable ID: 21
+[2025-11-20 19:28:32] 🔄 Iniciando transacción...
+[2025-11-20 19:28:32] 🗑️ Eliminando asignaciones previas
+[2025-11-20 19:28:32]    ✅ Eliminadas 0 asignaciones
+[2025-11-20 19:28:32] ✅ Insertando 1 nuevas asignaciones
+[2025-11-20 19:28:32]    ✓ Usuario 21 asignado
+[2025-11-20 19:28:32]    ✅ Insertadas 1 asignaciones
+[2025-11-20 19:28:32] 👤 Actualizando responsable_id en servicios...
+[2025-11-20 19:28:32]    ✅ responsable_id actualizado a 21
+[2025-11-20 19:28:32] ✅ Transacción confirmada
+[2025-11-20 19:28:32] 📋 Cargando usuarios asignados...
+[2025-11-20 19:28:32] ✅ 1 usuarios cargados
+[2025-11-20 19:28:32] 📤 Respuesta enviada con 1 usuarios y responsable_id=21
+[2025-11-20 19:28:32] ========================================
+
+[2025-11-24 03:46:50] ========================================
+[2025-11-24 03:46:50] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-24 03:46:50] Usuario: colaborador (ID: 21)
+[2025-11-24 03:46:50] 🔍 Servicio ID: 168
+[2025-11-24 03:46:50] ✅ Servicio verificado
+[2025-11-24 03:46:50] ✅ Detectado: usuario_ids
+[2025-11-24 03:46:50] 📋 IDs a asignar: [24,21,25]
+[2025-11-24 03:46:50] 👤 Responsable ID: 24
+[2025-11-24 03:46:50] 🔄 Iniciando transacción...
+[2025-11-24 03:46:50] 🗑️ Eliminando asignaciones previas
+[2025-11-24 03:46:50]    ✅ Eliminadas 0 asignaciones
+[2025-11-24 03:46:50] ✅ Insertando 3 nuevas asignaciones
+[2025-11-24 03:46:50]    ✓ Usuario 24 asignado
+[2025-11-24 03:46:50]    ✓ Usuario 21 asignado
+[2025-11-24 03:46:50] ❌ Error en transacción: Cannot add or update a child row: a foreign key constraint fails (`u342171239_InfoApp_Test`.`servicio_staff`, CONSTRAINT `servicio_staff_ibfk_2` FOREIGN KEY (`staff_id`) REFERENCES `staff` (`id`) ON DELETE CASCADE)
+[2025-11-24 03:46:50] 🔴 Exception: Cannot add or update a child row: a foreign key constraint fails (`u342171239_InfoApp_Test`.`servicio_staff`, CONSTRAINT `servicio_staff_ibfk_2` FOREIGN KEY (`staff_id`) REFERENCES `staff` (`id`) ON DELETE CASCADE)
+[2025-11-24 03:46:50] ========================================
+
+[2025-11-24 12:15:35] ========================================
+[2025-11-24 12:15:35] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2025-11-24 12:15:35] Usuario: colaborador (ID: 21)
+[2025-11-24 12:15:35] 🔍 Servicio ID: 169
+[2025-11-24 12:15:35] ✅ Servicio verificado
+[2025-11-24 12:15:35] ✅ Detectado: usuario_ids
+[2025-11-24 12:15:35] 📋 IDs a asignar: [26,21]
+[2025-11-24 12:15:35] 👤 Responsable ID: 26
+[2025-11-24 12:15:35] 🔄 Iniciando transacción...
+[2025-11-24 12:15:35] 🗑️ Eliminando asignaciones previas
+[2025-11-24 12:15:35]    ✅ Eliminadas 0 asignaciones
+[2025-11-24 12:15:35] ✅ Insertando 2 nuevas asignaciones
+[2025-11-24 12:15:35] ❌ Error en transacción: Cannot add or update a child row: a foreign key constraint fails (`u342171239_InfoApp_Test`.`servicio_staff`, CONSTRAINT `servicio_staff_ibfk_2` FOREIGN KEY (`staff_id`) REFERENCES `staff` (`id`) ON DELETE CASCADE)
+[2025-11-24 12:15:35] 🔴 Exception: Cannot add or update a child row: a foreign key constraint fails (`u342171239_InfoApp_Test`.`servicio_staff`, CONSTRAINT `servicio_staff_ibfk_2` FOREIGN KEY (`staff_id`) REFERENCES `staff` (`id`) ON DELETE CASCADE)
+[2025-11-24 12:15:35] ========================================
+
+[2026-01-08 02:44:16] ========================================
+[2026-01-08 02:44:16] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2026-01-08 02:44:16] Usuario: colaborador (ID: 21)
+[2026-01-08 02:44:16] 🔍 Servicio ID: 167
+[2026-01-08 02:44:16] ✅ Servicio verificado
+[2026-01-08 02:44:16] ✅ Detectado: usuario_ids
+[2026-01-08 02:44:16] 📋 IDs a asignar: [21,24]
+[2026-01-08 02:44:16] 👤 Responsable ID: 21
+[2026-01-08 02:44:16] 🔄 Iniciando transacción...
+[2026-01-08 02:44:16] 🗑️ Eliminando asignaciones previas
+[2026-01-08 02:44:16]    ✅ Eliminadas 1 asignaciones
+[2026-01-08 02:44:16] ✅ Insertando 2 nuevas asignaciones
+[2026-01-08 02:44:16]    ✓ Usuario 21 asignado
+[2026-01-08 02:44:16]    ✓ Usuario 24 asignado
+[2026-01-08 02:44:16]    ✅ Insertadas 2 asignaciones
+[2026-01-08 02:44:16] 👤 Actualizando responsable_id en servicios...
+[2026-01-08 02:44:16]    ✅ responsable_id actualizado a 21
+[2026-01-08 02:44:16] ✅ Transacción confirmada
+[2026-01-08 02:44:16] 📋 Cargando usuarios asignados...
+[2026-01-08 02:44:16] ✅ 2 usuarios cargados
+[2026-01-08 02:44:16] 📤 Respuesta enviada con 2 usuarios y responsable_id=21
+[2026-01-08 02:44:16] ========================================
+
+[2026-01-08 02:47:27] ========================================
+[2026-01-08 02:47:27] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2026-01-08 02:47:27] Usuario: colaborador (ID: 21)
+[2026-01-08 02:47:27] 🔍 Servicio ID: 170
+[2026-01-08 02:47:27] ✅ Servicio verificado
+[2026-01-08 02:47:27] ✅ Detectado: usuario_ids
+[2026-01-08 02:47:27] 📋 IDs a asignar: [24,26]
+[2026-01-08 02:47:27] 👤 Responsable ID: 24
+[2026-01-08 02:47:27] 🔄 Iniciando transacción...
+[2026-01-08 02:47:27] 🗑️ Eliminando asignaciones previas
+[2026-01-08 02:47:27]    ✅ Eliminadas 0 asignaciones
+[2026-01-08 02:47:27] ✅ Insertando 2 nuevas asignaciones
+[2026-01-08 02:47:27]    ✓ Usuario 24 asignado
+[2026-01-08 02:47:27] ❌ Error en transacción: Cannot add or update a child row: a foreign key constraint fails (`u342171239_InfoApp_Test`.`servicio_staff`, CONSTRAINT `servicio_staff_ibfk_2` FOREIGN KEY (`staff_id`) REFERENCES `staff` (`id`) ON DELETE CASCADE)
+[2026-01-08 02:47:27] 🔴 Exception: Cannot add or update a child row: a foreign key constraint fails (`u342171239_InfoApp_Test`.`servicio_staff`, CONSTRAINT `servicio_staff_ibfk_2` FOREIGN KEY (`staff_id`) REFERENCES `staff` (`id`) ON DELETE CASCADE)
+[2026-01-08 02:47:27] ========================================
+
+[2026-01-08 02:54:16] ========================================
+[2026-01-08 02:54:16] 🆕 ACTUALIZAR USUARIOS Y RESPONSABLE
+[2026-01-08 02:54:16] Usuario: colaborador (ID: 21)
+[2026-01-08 02:54:16] 🔍 Servicio ID: 170
+[2026-01-08 02:54:16] ✅ Servicio verificado
+[2026-01-08 02:54:16] ✅ Detectado: usuario_ids
+[2026-01-08 02:54:16] 📋 IDs a asignar: [15,21]
+[2026-01-08 02:54:16] 👤 Responsable ID: 15
+[2026-01-08 02:54:16] 🔄 Iniciando transacción...
+[2026-01-08 02:54:16] 🗑️ Eliminando asignaciones previas
+[2026-01-08 02:54:16]    ✅ Eliminadas 0 asignaciones
+[2026-01-08 02:54:16] ✅ Insertando 2 nuevas asignaciones
+[2026-01-08 02:54:16]    ✓ Usuario 15 asignado
+[2026-01-08 02:54:16]    ✓ Usuario 21 asignado
+[2026-01-08 02:54:16]    ✅ Insertadas 2 asignaciones
+[2026-01-08 02:54:16] 👤 Actualizando responsable_id en servicios...
+[2026-01-08 02:54:16]    ✅ responsable_id actualizado a 15
+[2026-01-08 02:54:16] ✅ Transacción confirmada
+[2026-01-08 02:54:16] 📋 Cargando usuarios asignados...
+[2026-01-08 02:54:16] ✅ 2 usuarios cargados
+[2026-01-08 02:54:16] 📤 Respuesta enviada con 2 usuarios y responsable_id=15
+[2026-01-08 02:54:16] ========================================
+

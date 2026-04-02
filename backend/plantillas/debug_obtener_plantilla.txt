@@ -1,0 +1,634 @@
+[2025-11-15 22:33:54][MEM: 0.36MB] ========================================
+[2025-11-15 22:33:54][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-15 22:33:54][MEM: 0.36MB] ========================================
+[2025-11-15 22:33:54][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-15 22:33:54][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-15 22:33:54][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=6
+[2025-11-15 22:33:54][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-15 22:33:54][MEM: 0.35MB] ========================================
+[2025-11-15 22:33:54][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-15 22:33:54][MEM: 0.35MB] ========================================
+[2025-11-15 22:33:54][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-15 22:33:54][MEM: 0.35MB] 📨 Método: GET
+[2025-11-15 22:33:54][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=6
+[2025-11-15 22:33:54][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-15 22:33:54][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-15 22:33:54][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-15 22:33:54][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-15 22:33:54][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-15 22:33:54][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-15 22:33:54][MEM: 0.39MB]    id: 6
+[2025-11-15 22:33:54][MEM: 0.39MB] ✅ id válido: 6
+[2025-11-15 22:33:54][MEM: 0.39MB] 🔍 Buscando plantilla ID: 6
+[2025-11-15 22:33:54][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla
+[2025-11-15 22:33:54][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-15 22:37:26][MEM: 0.35MB] ========================================
+[2025-11-15 22:37:26][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-15 22:37:26][MEM: 0.35MB] ========================================
+[2025-11-15 22:37:26][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-15 22:37:26][MEM: 0.35MB] 📨 Método: OPTIONS
+[2025-11-15 22:37:26][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=6
+[2025-11-15 22:37:26][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-15 22:37:26][MEM: 0.35MB] ========================================
+[2025-11-15 22:37:26][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-15 22:37:26][MEM: 0.35MB] ========================================
+[2025-11-15 22:37:26][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-15 22:37:26][MEM: 0.35MB] 📨 Método: GET
+[2025-11-15 22:37:26][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=6
+[2025-11-15 22:37:26][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-15 22:37:26][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-15 22:37:26][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-15 22:37:26][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-15 22:37:26][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-15 22:37:26][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-15 22:37:26][MEM: 0.39MB]    id: 6
+[2025-11-15 22:37:26][MEM: 0.39MB] ✅ id válido: 6
+[2025-11-15 22:37:26][MEM: 0.39MB] 🔍 Buscando plantilla ID: 6
+[2025-11-15 22:37:26][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla
+[2025-11-15 22:37:26][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-15 22:47:10][MEM: 0.36MB] ========================================
+[2025-11-15 22:47:10][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-15 22:47:10][MEM: 0.36MB] ========================================
+[2025-11-15 22:47:10][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-15 22:47:10][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-15 22:47:10][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-15 22:47:10][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-15 22:47:10][MEM: 0.35MB] ========================================
+[2025-11-15 22:47:10][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-15 22:47:10][MEM: 0.35MB] ========================================
+[2025-11-15 22:47:10][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-15 22:47:10][MEM: 0.35MB] 📨 Método: GET
+[2025-11-15 22:47:10][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-15 22:47:10][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-15 22:47:10][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-15 22:47:10][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-15 22:47:10][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-15 22:47:10][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-15 22:47:10][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-15 22:47:10][MEM: 0.39MB]    id: 7
+[2025-11-15 22:47:10][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-15 22:47:10][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-15 22:47:10][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-15 22:47:10][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-15 22:48:26][MEM: 0.35MB] ========================================
+[2025-11-15 22:48:26][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-15 22:48:26][MEM: 0.35MB] ========================================
+[2025-11-15 22:48:26][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-15 22:48:26][MEM: 0.35MB] 📨 Método: OPTIONS
+[2025-11-15 22:48:26][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-15 22:48:26][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-15 22:48:26][MEM: 0.35MB] ========================================
+[2025-11-15 22:48:26][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-15 22:48:26][MEM: 0.35MB] ========================================
+[2025-11-15 22:48:26][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-15 22:48:26][MEM: 0.35MB] 📨 Método: GET
+[2025-11-15 22:48:26][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-15 22:48:26][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-15 22:48:26][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-15 22:48:26][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-15 22:48:26][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-15 22:48:26][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-15 22:48:26][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-15 22:48:26][MEM: 0.39MB]    id: 7
+[2025-11-15 22:48:26][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-15 22:48:26][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-15 22:48:26][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-15 22:48:26][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-16 12:43:50][MEM: 0.36MB] ========================================
+[2025-11-16 12:43:50][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 12:43:50][MEM: 0.36MB] ========================================
+[2025-11-16 12:43:50][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-16 12:43:50][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-16 12:43:50][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 12:43:50][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-16 12:43:50][MEM: 0.35MB] ========================================
+[2025-11-16 12:43:50][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 12:43:50][MEM: 0.35MB] ========================================
+[2025-11-16 12:43:50][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 12:43:50][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 12:43:50][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 12:43:50][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 12:43:50][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 12:43:50][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-16 12:43:50][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-16 12:43:50][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-16 12:43:50][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-16 12:43:50][MEM: 0.39MB]    id: 7
+[2025-11-16 12:43:50][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-16 12:43:50][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-16 12:43:50][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-16 12:43:50][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-16 14:42:01][MEM: 0.36MB] ========================================
+[2025-11-16 14:42:01][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 14:42:01][MEM: 0.36MB] ========================================
+[2025-11-16 14:42:01][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-16 14:42:01][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-16 14:42:01][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 14:42:01][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-16 14:42:02][MEM: 0.35MB] ========================================
+[2025-11-16 14:42:02][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 14:42:02][MEM: 0.35MB] ========================================
+[2025-11-16 14:42:02][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 14:42:02][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 14:42:02][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 14:42:02][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 14:42:02][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 14:42:02][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-16 14:42:02][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-16 14:42:02][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-16 14:42:02][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-16 14:42:02][MEM: 0.39MB]    id: 7
+[2025-11-16 14:42:02][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-16 14:42:02][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-16 14:42:02][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-16 14:42:02][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-16 14:51:36][MEM: 0.35MB] ========================================
+[2025-11-16 14:51:36][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 14:51:36][MEM: 0.35MB] ========================================
+[2025-11-16 14:51:36][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 14:51:36][MEM: 0.35MB] 📨 Método: OPTIONS
+[2025-11-16 14:51:36][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 14:51:36][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 14:51:36][MEM: 0.35MB] ========================================
+[2025-11-16 14:51:36][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 14:51:36][MEM: 0.35MB] ========================================
+[2025-11-16 14:51:36][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 14:51:36][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 14:51:36][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 14:51:36][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 14:51:36][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 14:51:36][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-16 14:51:36][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-16 14:51:36][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-16 14:51:36][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-16 14:51:36][MEM: 0.39MB]    id: 7
+[2025-11-16 14:51:36][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-16 14:51:36][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-16 14:51:36][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-16 14:51:36][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-16 16:10:11][MEM: 0.36MB] ========================================
+[2025-11-16 16:10:11][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 16:10:11][MEM: 0.36MB] ========================================
+[2025-11-16 16:10:11][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-16 16:10:11][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-16 16:10:11][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 16:10:11][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-16 16:10:11][MEM: 0.35MB] ========================================
+[2025-11-16 16:10:11][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 16:10:11][MEM: 0.35MB] ========================================
+[2025-11-16 16:10:11][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 16:10:11][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 16:10:11][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 16:10:11][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 16:10:11][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 16:10:11][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-16 16:10:11][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-16 16:10:11][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-16 16:10:11][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-16 16:10:11][MEM: 0.39MB]    id: 7
+[2025-11-16 16:10:11][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-16 16:10:11][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-16 16:10:11][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-16 16:10:11][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-16 16:20:37][MEM: 0.35MB] ========================================
+[2025-11-16 16:20:37][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 16:20:37][MEM: 0.35MB] ========================================
+[2025-11-16 16:20:37][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 16:20:37][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 16:20:37][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 16:20:37][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 16:20:37][MEM: 0.36MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 16:20:37][MEM: 0.36MB] ✅ Acceso registrado
+[2025-11-16 16:20:37][MEM: 0.36MB] 📦 Requiriendo conexión...
+[2025-11-16 16:20:37][MEM: 0.4MB] ✅ conexion.php cargado
+[2025-11-16 16:20:37][MEM: 0.4MB] 📋 Parámetro recibido:
+[2025-11-16 16:20:37][MEM: 0.4MB]    id: 7
+[2025-11-16 16:20:37][MEM: 0.4MB] ✅ id válido: 7
+[2025-11-16 16:20:37][MEM: 0.4MB] 🔍 Buscando plantilla ID: 7
+[2025-11-16 16:20:37][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-16 16:20:37][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-16 16:21:05][MEM: 0.35MB] ========================================
+[2025-11-16 16:21:05][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 16:21:05][MEM: 0.35MB] ========================================
+[2025-11-16 16:21:05][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 16:21:05][MEM: 0.35MB] 📨 Método: OPTIONS
+[2025-11-16 16:21:05][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 16:21:05][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 16:21:05][MEM: 0.35MB] ========================================
+[2025-11-16 16:21:05][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 16:21:05][MEM: 0.35MB] ========================================
+[2025-11-16 16:21:05][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 16:21:05][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 16:21:05][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 16:21:05][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 16:21:05][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 16:21:05][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-16 16:21:05][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-16 16:21:05][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-16 16:21:05][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-16 16:21:05][MEM: 0.39MB]    id: 7
+[2025-11-16 16:21:05][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-16 16:21:05][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-16 16:21:05][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-16 16:21:05][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-16 16:28:27][MEM: 0.35MB] ========================================
+[2025-11-16 16:28:27][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 16:28:27][MEM: 0.35MB] ========================================
+[2025-11-16 16:28:27][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 16:28:27][MEM: 0.35MB] 📨 Método: OPTIONS
+[2025-11-16 16:28:27][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 16:28:27][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 16:28:27][MEM: 0.35MB] ========================================
+[2025-11-16 16:28:27][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 16:28:27][MEM: 0.35MB] ========================================
+[2025-11-16 16:28:27][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 16:28:27][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 16:28:27][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 16:28:27][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 16:28:27][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 16:28:27][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-16 16:28:27][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-16 16:28:27][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-16 16:28:27][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-16 16:28:27][MEM: 0.39MB]    id: 7
+[2025-11-16 16:28:27][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-16 16:28:27][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-16 16:28:27][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-16 16:28:27][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-16 16:35:14][MEM: 0.35MB] ========================================
+[2025-11-16 16:35:14][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 16:35:14][MEM: 0.35MB] ========================================
+[2025-11-16 16:35:14][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 16:35:14][MEM: 0.35MB] 📨 Método: OPTIONS
+[2025-11-16 16:35:14][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 16:35:14][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 16:35:14][MEM: 0.35MB] ========================================
+[2025-11-16 16:35:14][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 16:35:14][MEM: 0.35MB] ========================================
+[2025-11-16 16:35:14][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 16:35:14][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 16:35:14][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 16:35:14][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 16:35:14][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 16:35:14][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-16 16:35:14][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-16 16:35:14][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-16 16:35:14][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-16 16:35:14][MEM: 0.39MB]    id: 7
+[2025-11-16 16:35:14][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-16 16:35:14][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-16 16:35:14][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-16 16:35:14][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-16 20:44:19][MEM: 0.36MB] ========================================
+[2025-11-16 20:44:19][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 20:44:19][MEM: 0.36MB] ========================================
+[2025-11-16 20:44:19][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-16 20:44:19][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-16 20:44:19][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 20:44:19][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-16 20:44:19][MEM: 0.35MB] ========================================
+[2025-11-16 20:44:19][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 20:44:19][MEM: 0.35MB] ========================================
+[2025-11-16 20:44:19][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 20:44:19][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 20:44:19][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 20:44:19][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 20:44:19][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 20:44:19][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-16 20:44:19][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-16 20:44:19][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-16 20:44:19][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-16 20:44:19][MEM: 0.39MB]    id: 7
+[2025-11-16 20:44:19][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-16 20:44:19][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-16 20:44:19][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-16 20:44:19][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-16 22:10:08][MEM: 0.36MB] ========================================
+[2025-11-16 22:10:08][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 22:10:08][MEM: 0.36MB] ========================================
+[2025-11-16 22:10:08][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-16 22:10:08][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-16 22:10:08][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 22:10:08][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-16 22:10:08][MEM: 0.35MB] ========================================
+[2025-11-16 22:10:08][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 22:10:08][MEM: 0.35MB] ========================================
+[2025-11-16 22:10:08][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 22:10:08][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 22:10:08][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 22:10:08][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 22:10:08][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 22:10:08][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-16 22:10:08][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-16 22:10:08][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-16 22:10:08][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-16 22:10:08][MEM: 0.39MB]    id: 7
+[2025-11-16 22:10:08][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-16 22:10:08][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-16 22:10:08][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-16 22:10:08][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-16 23:38:25][MEM: 0.36MB] ========================================
+[2025-11-16 23:38:25][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 23:38:25][MEM: 0.36MB] ========================================
+[2025-11-16 23:38:25][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-16 23:38:25][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-16 23:38:25][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 23:38:25][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-16 23:38:25][MEM: 0.35MB] ========================================
+[2025-11-16 23:38:25][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-16 23:38:25][MEM: 0.35MB] ========================================
+[2025-11-16 23:38:25][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-16 23:38:25][MEM: 0.35MB] 📨 Método: GET
+[2025-11-16 23:38:25][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-16 23:38:25][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-16 23:38:25][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 23:38:25][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-16 23:38:25][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-16 23:38:25][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-16 23:38:25][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-16 23:38:25][MEM: 0.39MB]    id: 7
+[2025-11-16 23:38:25][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-16 23:38:25][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-16 23:38:25][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-16 23:38:25][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-17 00:12:40][MEM: 0.36MB] ========================================
+[2025-11-17 00:12:40][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 00:12:40][MEM: 0.36MB] ========================================
+[2025-11-17 00:12:40][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-17 00:12:40][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-17 00:12:40][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 00:12:40][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-17 00:12:40][MEM: 0.35MB] ========================================
+[2025-11-17 00:12:40][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 00:12:40][MEM: 0.35MB] ========================================
+[2025-11-17 00:12:40][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-17 00:12:40][MEM: 0.35MB] 📨 Método: GET
+[2025-11-17 00:12:40][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 00:12:40][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-17 00:12:40][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 00:12:40][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-17 00:12:40][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-17 00:12:40][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-17 00:12:40][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-17 00:12:40][MEM: 0.39MB]    id: 7
+[2025-11-17 00:12:40][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-17 00:12:40][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-17 00:12:40][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-17 00:12:40][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-17 16:47:00][MEM: 0.36MB] ========================================
+[2025-11-17 16:47:00][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 16:47:00][MEM: 0.36MB] ========================================
+[2025-11-17 16:47:00][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-17 16:47:00][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-17 16:47:00][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 16:47:00][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-17 16:47:00][MEM: 0.35MB] ========================================
+[2025-11-17 16:47:00][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 16:47:00][MEM: 0.35MB] ========================================
+[2025-11-17 16:47:00][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-17 16:47:00][MEM: 0.35MB] 📨 Método: GET
+[2025-11-17 16:47:00][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 16:47:00][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-17 16:47:00][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 16:47:00][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-17 16:47:00][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-17 16:47:00][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-17 16:47:00][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-17 16:47:00][MEM: 0.39MB]    id: 7
+[2025-11-17 16:47:00][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-17 16:47:00][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-17 16:47:00][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-17 16:47:00][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-17 17:56:34][MEM: 0.36MB] ========================================
+[2025-11-17 17:56:34][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 17:56:34][MEM: 0.36MB] ========================================
+[2025-11-17 17:56:34][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-17 17:56:34][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-17 17:56:34][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 17:56:34][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-17 17:56:34][MEM: 0.35MB] ========================================
+[2025-11-17 17:56:34][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 17:56:34][MEM: 0.35MB] ========================================
+[2025-11-17 17:56:34][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-17 17:56:34][MEM: 0.35MB] 📨 Método: GET
+[2025-11-17 17:56:34][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 17:56:34][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-17 17:56:34][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 17:56:34][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-17 17:56:34][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-17 17:56:34][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-17 17:56:34][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-17 17:56:34][MEM: 0.39MB]    id: 7
+[2025-11-17 17:56:34][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-17 17:56:34][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-17 17:56:34][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-17 17:56:34][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-17 18:01:51][MEM: 0.35MB] ========================================
+[2025-11-17 18:01:51][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 18:01:51][MEM: 0.35MB] ========================================
+[2025-11-17 18:01:51][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-17 18:01:51][MEM: 0.35MB] 📨 Método: OPTIONS
+[2025-11-17 18:01:51][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 18:01:51][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-17 18:01:51][MEM: 0.35MB] ========================================
+[2025-11-17 18:01:51][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 18:01:51][MEM: 0.35MB] ========================================
+[2025-11-17 18:01:51][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-17 18:01:51][MEM: 0.35MB] 📨 Método: GET
+[2025-11-17 18:01:51][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 18:01:51][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-17 18:01:51][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 18:01:51][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-17 18:01:51][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-17 18:01:51][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-17 18:01:51][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-17 18:01:51][MEM: 0.39MB]    id: 7
+[2025-11-17 18:01:51][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-17 18:01:51][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-17 18:01:51][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-17 18:01:51][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-17 18:24:48][MEM: 0.35MB] ========================================
+[2025-11-17 18:24:48][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 18:24:48][MEM: 0.35MB] ========================================
+[2025-11-17 18:24:48][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-17 18:24:48][MEM: 0.35MB] 📨 Método: GET
+[2025-11-17 18:24:48][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 18:24:48][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-17 18:24:48][MEM: 0.36MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 18:24:48][MEM: 0.36MB] ✅ Acceso registrado
+[2025-11-17 18:24:48][MEM: 0.36MB] 📦 Requiriendo conexión...
+[2025-11-17 18:24:48][MEM: 0.4MB] ✅ conexion.php cargado
+[2025-11-17 18:24:48][MEM: 0.4MB] 📋 Parámetro recibido:
+[2025-11-17 18:24:48][MEM: 0.4MB]    id: 7
+[2025-11-17 18:24:48][MEM: 0.4MB] ✅ id válido: 7
+[2025-11-17 18:24:48][MEM: 0.4MB] 🔍 Buscando plantilla ID: 7
+[2025-11-17 18:24:48][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-17 18:24:48][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-17 20:31:00][MEM: 0.36MB] ========================================
+[2025-11-17 20:31:00][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 20:31:00][MEM: 0.36MB] ========================================
+[2025-11-17 20:31:00][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-17 20:31:00][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-17 20:31:00][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 20:31:00][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-17 20:31:00][MEM: 0.35MB] ========================================
+[2025-11-17 20:31:00][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 20:31:00][MEM: 0.35MB] ========================================
+[2025-11-17 20:31:00][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-17 20:31:00][MEM: 0.35MB] 📨 Método: GET
+[2025-11-17 20:31:00][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 20:31:00][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-17 20:31:00][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 20:31:00][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-17 20:31:00][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-17 20:31:00][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-17 20:31:00][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-17 20:31:00][MEM: 0.39MB]    id: 7
+[2025-11-17 20:31:00][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-17 20:31:00][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-17 20:31:00][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-17 20:31:00][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-17 21:24:16][MEM: 0.36MB] ========================================
+[2025-11-17 21:24:16][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 21:24:16][MEM: 0.36MB] ========================================
+[2025-11-17 21:24:16][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-17 21:24:16][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-17 21:24:16][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 21:24:16][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-17 21:24:16][MEM: 0.35MB] ========================================
+[2025-11-17 21:24:16][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 21:24:16][MEM: 0.35MB] ========================================
+[2025-11-17 21:24:16][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-17 21:24:16][MEM: 0.35MB] 📨 Método: GET
+[2025-11-17 21:24:16][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 21:24:16][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-17 21:24:16][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 21:24:16][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-17 21:24:16][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-17 21:24:16][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-17 21:24:16][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-17 21:24:16][MEM: 0.39MB]    id: 7
+[2025-11-17 21:24:16][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-17 21:24:16][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-17 21:24:16][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-17 21:24:16][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-17 21:29:01][MEM: 0.35MB] ========================================
+[2025-11-17 21:29:01][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 21:29:01][MEM: 0.35MB] ========================================
+[2025-11-17 21:29:01][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-17 21:29:01][MEM: 0.35MB] 📨 Método: OPTIONS
+[2025-11-17 21:29:01][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 21:29:01][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-17 21:29:01][MEM: 0.35MB] ========================================
+[2025-11-17 21:29:01][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 21:29:01][MEM: 0.35MB] ========================================
+[2025-11-17 21:29:01][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-17 21:29:01][MEM: 0.35MB] 📨 Método: GET
+[2025-11-17 21:29:01][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 21:29:01][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-17 21:29:01][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 21:29:01][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-17 21:29:01][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-17 21:29:01][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-17 21:29:01][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-17 21:29:01][MEM: 0.39MB]    id: 7
+[2025-11-17 21:29:01][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-17 21:29:01][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-17 21:29:01][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-17 21:29:01][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-17 22:16:17][MEM: 0.36MB] ========================================
+[2025-11-17 22:16:17][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 22:16:17][MEM: 0.36MB] ========================================
+[2025-11-17 22:16:17][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-17 22:16:17][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-17 22:16:17][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 22:16:17][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-17 22:16:17][MEM: 0.35MB] ========================================
+[2025-11-17 22:16:17][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-17 22:16:17][MEM: 0.35MB] ========================================
+[2025-11-17 22:16:17][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-17 22:16:17][MEM: 0.35MB] 📨 Método: GET
+[2025-11-17 22:16:17][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-17 22:16:17][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-17 22:16:17][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 22:16:17][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-17 22:16:17][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-17 22:16:17][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-17 22:16:17][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-17 22:16:17][MEM: 0.39MB]    id: 7
+[2025-11-17 22:16:17][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-17 22:16:17][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-17 22:16:17][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-17 22:16:17][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-18 10:00:22][MEM: 0.36MB] ========================================
+[2025-11-18 10:00:22][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-18 10:00:22][MEM: 0.36MB] ========================================
+[2025-11-18 10:00:22][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 10:00:22][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-18 10:00:22][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-18 10:00:22][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 10:00:22][MEM: 0.35MB] ========================================
+[2025-11-18 10:00:22][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-18 10:00:22][MEM: 0.35MB] ========================================
+[2025-11-18 10:00:22][MEM: 0.35MB] 🌐 IP: 167.0.252.80
+[2025-11-18 10:00:22][MEM: 0.35MB] 📨 Método: GET
+[2025-11-18 10:00:22][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-18 10:00:22][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-18 10:00:22][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-18 10:00:22][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-18 10:00:22][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-18 10:00:22][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-18 10:00:22][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-18 10:00:22][MEM: 0.39MB]    id: 7
+[2025-11-18 10:00:22][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-18 10:00:22][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-18 10:00:22][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-18 10:00:22][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-18 13:30:09][MEM: 0.36MB] ========================================
+[2025-11-18 13:30:09][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-18 13:30:09][MEM: 0.36MB] ========================================
+[2025-11-18 13:30:09][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 13:30:09][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-18 13:30:09][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-18 13:30:09][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 13:30:10][MEM: 0.35MB] ========================================
+[2025-11-18 13:30:10][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-18 13:30:10][MEM: 0.35MB] ========================================
+[2025-11-18 13:30:10][MEM: 0.35MB] 🌐 IP: 167.0.252.80
+[2025-11-18 13:30:10][MEM: 0.35MB] 📨 Método: GET
+[2025-11-18 13:30:10][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-18 13:30:10][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-18 13:30:10][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-18 13:30:10][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-18 13:30:10][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-18 13:30:10][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-18 13:30:10][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-18 13:30:10][MEM: 0.39MB]    id: 7
+[2025-11-18 13:30:10][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-18 13:30:10][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-18 13:30:10][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-18 13:30:10][MEM: 0.42MB] 📤 Enviando respuesta exitosa...
+[2025-11-18 14:09:44][MEM: 0.36MB] ========================================
+[2025-11-18 14:09:44][MEM: 0.36MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-18 14:09:44][MEM: 0.36MB] ========================================
+[2025-11-18 14:09:44][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 14:09:44][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-18 14:09:44][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-18 14:09:44][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 14:09:44][MEM: 0.35MB] ========================================
+[2025-11-18 14:09:44][MEM: 0.35MB] 🆕 NUEVA REQUEST - GET /plantillas/obtener_plantilla
+[2025-11-18 14:09:44][MEM: 0.35MB] ========================================
+[2025-11-18 14:09:44][MEM: 0.35MB] 🌐 IP: 167.0.252.80
+[2025-11-18 14:09:44][MEM: 0.35MB] 📨 Método: GET
+[2025-11-18 14:09:44][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/obtener_plantilla.php?id=7
+[2025-11-18 14:09:44][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-18 14:09:44][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-18 14:09:44][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-18 14:09:44][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-18 14:09:44][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-18 14:09:44][MEM: 0.39MB] 📋 Parámetro recibido:
+[2025-11-18 14:09:44][MEM: 0.39MB]    id: 7
+[2025-11-18 14:09:44][MEM: 0.39MB] ✅ id válido: 7
+[2025-11-18 14:09:44][MEM: 0.39MB] 🔍 Buscando plantilla ID: 7
+[2025-11-18 14:09:44][MEM: 0.44MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-18 14:09:44][MEM: 0.42MB] 📤 Enviando respuesta exitosa...

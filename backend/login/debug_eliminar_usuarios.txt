@@ -1,0 +1,432 @@
+[2025-11-09 12:25:51] ========================================
+[2025-11-09 12:25:51] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-09 12:25:51] ========================================
+[2025-11-09 12:25:51] 👤 Usuario: die (ID: 12)
+[2025-11-09 12:25:51] 📨 Método: POST
+[2025-11-09 12:25:51] ✅ Método HTTP válido
+[2025-11-09 12:25:51] ✅ Permisos verificados
+[2025-11-09 12:25:51] 📥 Leyendo datos...
+[2025-11-09 12:25:51] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-09 12:25:51] 📥 Parseando como JSON...
+[2025-11-09 12:25:51] ✅ Datos recibidos
+[2025-11-09 12:25:51] 🔍 Eliminando usuario ID: 22
+[2025-11-09 12:25:51] ✓ Verificando que el usuario existe...
+[2025-11-09 12:25:51] ✅ Usuario encontrado: pepe
+[2025-11-09 12:25:51] 📋 Tipo de eliminación: desactivar
+[2025-11-09 12:25:51] 🔄 Ejecutando soft delete...
+[2025-11-09 12:25:51] ✅ Usuario desactivado
+[2025-11-09 12:25:51] ✅ Operación completada exitosamente
+[2025-11-17 13:37:55] ========================================
+[2025-11-17 13:37:55] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-17 13:37:55] ========================================
+[2025-11-17 13:37:55] 👤 Usuario: colaborador (ID: 21)
+[2025-11-17 13:37:55] 📨 Método: POST
+[2025-11-17 13:37:55] ✅ Método HTTP válido
+[2025-11-17 13:37:55] ✅ Permisos verificados
+[2025-11-17 13:37:55] 📥 Leyendo datos...
+[2025-11-17 13:37:55] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-17 13:37:55] 📥 Parseando como JSON...
+[2025-11-17 13:37:55] ✅ Datos recibidos
+[2025-11-17 13:37:55] 🔍 Eliminando usuario ID: 20
+[2025-11-17 13:37:55] ✓ Verificando que el usuario existe...
+[2025-11-17 13:37:55] ✅ Usuario encontrado: Usuario_de_prueba
+[2025-11-17 13:37:55] 📋 Tipo de eliminación: desactivar
+[2025-11-17 13:37:55] 🔄 Ejecutando soft delete...
+[2025-11-17 13:37:55] ✅ Usuario desactivado
+[2025-11-17 13:37:55] ✅ Operación completada exitosamente
+[2025-11-17 13:41:35] ========================================
+[2025-11-17 13:41:35] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-17 13:41:35] ========================================
+[2025-11-17 13:41:35] 👤 Usuario: colaborador (ID: 21)
+[2025-11-17 13:41:35] 📨 Método: POST
+[2025-11-17 13:41:35] ✅ Método HTTP válido
+[2025-11-17 13:41:35] ✅ Permisos verificados
+[2025-11-17 13:41:35] 📥 Leyendo datos...
+[2025-11-17 13:41:35] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-17 13:41:35] 📥 Parseando como JSON...
+[2025-11-17 13:41:35] ✅ Datos recibidos
+[2025-11-17 13:41:35] 🔍 Eliminando usuario ID: 20
+[2025-11-17 13:41:35] ✓ Verificando que el usuario existe...
+[2025-11-17 13:41:35] ✅ Usuario encontrado: Usuario_de_prueba
+[2025-11-17 13:41:35] 📋 Tipo de eliminación: desactivar
+[2025-11-17 13:41:35] 🔄 Ejecutando soft delete...
+[2025-11-17 13:41:35] ✅ Usuario desactivado
+[2025-11-17 13:41:35] ✅ Operación completada exitosamente
+[2025-11-17 13:45:08] ========================================
+[2025-11-17 13:45:08] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-17 13:45:08] ========================================
+[2025-11-17 13:45:08] 👤 Usuario: colaborador (ID: 21)
+[2025-11-17 13:45:08] 📨 Método: POST
+[2025-11-17 13:45:08] ✅ Método HTTP válido
+[2025-11-17 13:45:08] ✅ Permisos verificados
+[2025-11-17 13:45:08] 📥 Leyendo datos...
+[2025-11-17 13:45:08] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-17 13:45:08] 📥 Parseando como JSON...
+[2025-11-17 13:45:08] ✅ Datos recibidos
+[2025-11-17 13:45:08] 🔍 Eliminando usuario ID: 16
+[2025-11-17 13:45:08] ✓ Verificando que el usuario existe...
+[2025-11-17 13:45:08] ✅ Usuario encontrado: Usuario_de_pruebas
+[2025-11-17 13:45:08] 📋 Tipo de eliminación: desactivar
+[2025-11-17 13:45:08] 🔄 Ejecutando soft delete...
+[2025-11-17 13:45:08] ✅ Usuario desactivado
+[2025-11-17 13:45:08] ✅ Operación completada exitosamente
+[2025-11-17 13:46:47] ========================================
+[2025-11-17 13:46:47] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-17 13:46:47] ========================================
+[2025-11-17 13:46:47] 👤 Usuario: colaborador (ID: 21)
+[2025-11-17 13:46:47] 📨 Método: POST
+[2025-11-17 13:46:47] ✅ Método HTTP válido
+[2025-11-17 13:46:47] ✅ Permisos verificados
+[2025-11-17 13:46:47] 📥 Leyendo datos...
+[2025-11-17 13:46:47] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-17 13:46:47] 📥 Parseando como JSON...
+[2025-11-17 13:46:47] ✅ Datos recibidos
+[2025-11-17 13:46:47] 🔍 Eliminando usuario ID: 20
+[2025-11-17 13:46:47] ✓ Verificando que el usuario existe...
+[2025-11-17 13:46:47] ✅ Usuario encontrado: Usuario_de_prueba
+[2025-11-17 13:46:47] 📋 Tipo de eliminación: desactivar
+[2025-11-17 13:46:47] 🔄 Ejecutando soft delete...
+[2025-11-17 13:46:47] ✅ Usuario desactivado
+[2025-11-17 13:46:47] ✅ Operación completada exitosamente
+[2025-11-18 18:12:11] ========================================
+[2025-11-18 18:12:11] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-18 18:12:11] ========================================
+[2025-11-18 18:12:11] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-18 18:12:11] 📨 Método: POST
+[2025-11-18 18:12:11] ✅ Método HTTP válido
+[2025-11-18 18:12:11] ✅ Permisos verificados
+[2025-11-18 18:12:11] 📥 Leyendo datos...
+[2025-11-18 18:12:11] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-18 18:12:11] 📥 Parseando como JSON...
+[2025-11-18 18:12:11] ✅ Datos recibidos
+[2025-11-18 18:12:11] 🔍 Eliminando usuario ID: 20
+[2025-11-18 18:12:11] ✓ Verificando que el usuario existe...
+[2025-11-18 18:12:11] ✅ Usuario encontrado: Usuario_de_prueba
+[2025-11-18 18:12:11] 📋 Tipo de eliminación: desactivar
+[2025-11-18 18:12:11] 🔄 Ejecutando soft delete...
+[2025-11-18 18:12:11] ✅ Usuario desactivado
+[2025-11-18 18:12:11] ✅ Operación completada exitosamente
+[2025-11-18 18:12:33] ========================================
+[2025-11-18 18:12:33] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-18 18:12:33] ========================================
+[2025-11-18 18:12:33] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-18 18:12:33] 📨 Método: POST
+[2025-11-18 18:12:33] ✅ Método HTTP válido
+[2025-11-18 18:12:33] ✅ Permisos verificados
+[2025-11-18 18:12:33] 📥 Leyendo datos...
+[2025-11-18 18:12:33] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-18 18:12:33] 📥 Parseando como JSON...
+[2025-11-18 18:12:33] ✅ Datos recibidos
+[2025-11-18 18:12:33] 🔍 Eliminando usuario ID: 20
+[2025-11-18 18:12:33] ✓ Verificando que el usuario existe...
+[2025-11-18 18:12:33] ✅ Usuario encontrado: Usuario_de_prueba
+[2025-11-18 18:12:33] 📋 Tipo de eliminación: desactivar
+[2025-11-18 18:12:33] 🔄 Ejecutando soft delete...
+[2025-11-18 18:12:33] ✅ Usuario desactivado
+[2025-11-18 18:12:33] ✅ Operación completada exitosamente
+[2025-11-18 18:13:13] ========================================
+[2025-11-18 18:13:13] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-18 18:13:13] ========================================
+[2025-11-18 18:13:13] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-18 18:13:13] 📨 Método: POST
+[2025-11-18 18:13:13] ✅ Método HTTP válido
+[2025-11-18 18:13:13] ✅ Permisos verificados
+[2025-11-18 18:13:13] 📥 Leyendo datos...
+[2025-11-18 18:13:13] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-18 18:13:13] 📥 Parseando como JSON...
+[2025-11-18 18:13:13] ✅ Datos recibidos
+[2025-11-18 18:13:13] 🔍 Eliminando usuario ID: 20
+[2025-11-18 18:13:13] ✓ Verificando que el usuario existe...
+[2025-11-18 18:13:13] ✅ Usuario encontrado: Usuario_de_prueba
+[2025-11-18 18:13:13] 📋 Tipo de eliminación: desactivar
+[2025-11-18 18:13:13] 🔄 Ejecutando soft delete...
+[2025-11-18 18:13:13] ✅ Usuario desactivado
+[2025-11-18 18:13:13] ✅ Operación completada exitosamente
+[2025-11-18 18:24:08] ========================================
+[2025-11-18 18:24:08] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-18 18:24:08] ========================================
+[2025-11-18 18:24:08] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-18 18:24:08] 📨 Método: POST
+[2025-11-18 18:24:08] ✅ Método HTTP válido
+[2025-11-18 18:24:08] ✅ Permisos verificados
+[2025-11-18 18:24:08] 📥 Leyendo datos...
+[2025-11-18 18:24:08] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-18 18:24:08] 📥 Parseando como JSON...
+[2025-11-18 18:24:08] ✅ Datos recibidos
+[2025-11-18 18:24:08] 🔍 Eliminando usuario ID: 20
+[2025-11-18 18:24:08] ✓ Verificando que el usuario existe...
+[2025-11-18 18:24:08] ✅ Usuario encontrado: Usuario_de_prueba
+[2025-11-18 18:24:08] 📋 Tipo de eliminación: desactivar
+[2025-11-18 18:24:08] 🔄 Ejecutando soft delete...
+[2025-11-18 18:24:08] ✅ Usuario desactivado
+[2025-11-18 18:24:08] ✅ Operación completada exitosamente
+[2025-11-19 11:08:52] ========================================
+[2025-11-19 11:08:52] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-19 11:08:52] ========================================
+[2025-11-19 11:08:52] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-19 11:08:52] 📨 Método: POST
+[2025-11-19 11:08:52] ✅ Método HTTP válido
+[2025-11-19 11:08:52] ✅ Permisos verificados
+[2025-11-19 11:08:52] 📥 Leyendo datos...
+[2025-11-19 11:08:52] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-19 11:08:52] 📥 Parseando como JSON...
+[2025-11-19 11:08:52] ✅ Datos recibidos
+[2025-11-19 11:08:52] 🔍 Eliminando usuario ID: 16
+[2025-11-19 11:08:52] ✓ Verificando que el usuario existe...
+[2025-11-19 11:08:52] ✅ Usuario encontrado: Usuario_de_pruebas
+[2025-11-19 11:08:52] 📋 Tipo de eliminación: desactivar
+[2025-11-19 11:08:52] 🔄 Ejecutando soft delete...
+[2025-11-19 11:08:52] ✅ Usuario desactivado
+[2025-11-19 11:08:52] ✅ Operación completada exitosamente
+[2025-11-19 11:09:07] ========================================
+[2025-11-19 11:09:07] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-19 11:09:07] ========================================
+[2025-11-19 11:09:07] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-19 11:09:07] 📨 Método: POST
+[2025-11-19 11:09:07] ✅ Método HTTP válido
+[2025-11-19 11:09:07] ✅ Permisos verificados
+[2025-11-19 11:09:07] 📥 Leyendo datos...
+[2025-11-19 11:09:07] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-19 11:09:07] 📥 Parseando como JSON...
+[2025-11-19 11:09:07] ✅ Datos recibidos
+[2025-11-19 11:09:07] 🔍 Eliminando usuario ID: 20
+[2025-11-19 11:09:07] ✓ Verificando que el usuario existe...
+[2025-11-19 11:09:07] ✅ Usuario encontrado: Usuario_de_prueba
+[2025-11-19 11:09:07] 📋 Tipo de eliminación: desactivar
+[2025-11-19 11:09:07] 🔄 Ejecutando soft delete...
+[2025-11-19 11:09:07] ✅ Usuario desactivado
+[2025-11-19 11:09:07] ✅ Operación completada exitosamente
+[2025-11-19 11:10:24] ========================================
+[2025-11-19 11:10:24] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-19 11:10:24] ========================================
+[2025-11-19 11:10:24] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-19 11:10:24] 📨 Método: POST
+[2025-11-19 11:10:24] ✅ Método HTTP válido
+[2025-11-19 11:10:24] ✅ Permisos verificados
+[2025-11-19 11:10:24] 📥 Leyendo datos...
+[2025-11-19 11:10:24] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-19 11:10:24] 📥 Parseando como JSON...
+[2025-11-19 11:10:24] ✅ Datos recibidos
+[2025-11-19 11:10:24] 🔍 Eliminando usuario ID: 20
+[2025-11-19 11:10:24] ✓ Verificando que el usuario existe...
+[2025-11-19 11:10:24] ✅ Usuario encontrado: Usuario_de_prueba
+[2025-11-19 11:10:24] 📋 Tipo de eliminación: desactivar
+[2025-11-19 11:10:24] 🔄 Ejecutando soft delete...
+[2025-11-19 11:10:24] ✅ Usuario desactivado
+[2025-11-19 11:10:24] ✅ Operación completada exitosamente
+[2025-11-19 11:12:51] ========================================
+[2025-11-19 11:12:51] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-19 11:12:51] ========================================
+[2025-11-19 11:12:51] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-19 11:12:51] 📨 Método: POST
+[2025-11-19 11:12:51] ✅ Método HTTP válido
+[2025-11-19 11:12:51] ✅ Permisos verificados
+[2025-11-19 11:12:51] 📥 Leyendo datos...
+[2025-11-19 11:12:51] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-19 11:12:51] 📥 Parseando como JSON...
+[2025-11-19 11:12:51] ✅ Datos recibidos
+[2025-11-19 11:12:51] 🔍 Eliminando usuario ID: 20
+[2025-11-19 11:12:51] ✓ Verificando que el usuario existe...
+[2025-11-19 11:12:51] ✅ Usuario encontrado: Usuario_de_prueba
+[2025-11-19 11:12:51] 📋 Tipo de eliminación: desactivar
+[2025-11-19 11:12:51] 🔄 Ejecutando soft delete...
+[2025-11-19 11:12:51] ✅ Usuario desactivado
+[2025-11-19 11:12:51] ✅ Operación completada exitosamente
+[2025-11-19 11:14:27] ========================================
+[2025-11-19 11:14:27] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-19 11:14:27] ========================================
+[2025-11-19 11:14:27] 👤 Usuario: MarcosSuarez (ID: 15)
+[2025-11-19 11:14:27] 📨 Método: POST
+[2025-11-19 11:14:27] ✅ Método HTTP válido
+[2025-11-19 11:14:27] ✅ Permisos verificados
+[2025-11-19 11:14:27] 📥 Leyendo datos...
+[2025-11-19 11:14:27] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-19 11:14:27] 📥 Parseando como JSON...
+[2025-11-19 11:14:27] ✅ Datos recibidos
+[2025-11-19 11:14:27] 🔍 Eliminando usuario ID: 20
+[2025-11-19 11:14:27] ✓ Verificando que el usuario existe...
+[2025-11-19 11:14:27] ✅ Usuario encontrado: Usuario_de_prueba
+[2025-11-19 11:14:27] 📋 Tipo de eliminación: desactivar
+[2025-11-19 11:14:27] 🔄 Ejecutando soft delete...
+[2025-11-19 11:14:27] ✅ Usuario desactivado
+[2025-11-19 11:14:27] ✅ Operación completada exitosamente
+[2025-11-24 03:07:01] ========================================
+[2025-11-24 03:07:01] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-24 03:07:01] ========================================
+[2025-11-24 03:07:01] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:07:01] 📨 Método: POST
+[2025-11-24 03:07:01] ✅ Método HTTP válido
+[2025-11-24 03:07:01] ✅ Permisos verificados
+[2025-11-24 03:07:01] 📥 Leyendo datos...
+[2025-11-24 03:07:01] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:07:01] 📥 Parseando como JSON...
+[2025-11-24 03:07:01] ✅ Datos recibidos
+[2025-11-24 03:07:01] 🔍 Eliminando usuario ID: 22
+[2025-11-24 03:07:01] ✓ Verificando que el usuario existe...
+[2025-11-24 03:07:01] ✅ Usuario encontrado: pepe
+[2025-11-24 03:07:01] 📋 Tipo de eliminación: desactivar
+[2025-11-24 03:07:01] 🔄 Ejecutando soft delete...
+[2025-11-24 03:07:01] ✅ Usuario desactivado
+[2025-11-24 03:07:01] ✅ Operación completada exitosamente
+[2025-11-24 03:07:15] ========================================
+[2025-11-24 03:07:15] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-24 03:07:15] ========================================
+[2025-11-24 03:07:15] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:07:15] 📨 Método: POST
+[2025-11-24 03:07:15] ✅ Método HTTP válido
+[2025-11-24 03:07:15] ✅ Permisos verificados
+[2025-11-24 03:07:15] 📥 Leyendo datos...
+[2025-11-24 03:07:15] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:07:15] 📥 Parseando como JSON...
+[2025-11-24 03:07:15] ✅ Datos recibidos
+[2025-11-24 03:07:15] 🔍 Eliminando usuario ID: 19
+[2025-11-24 03:07:15] ✓ Verificando que el usuario existe...
+[2025-11-24 03:07:15] ✅ Usuario encontrado: duvan
+[2025-11-24 03:07:15] 📋 Tipo de eliminación: desactivar
+[2025-11-24 03:07:15] 🔄 Ejecutando soft delete...
+[2025-11-24 03:07:15] ✅ Usuario desactivado
+[2025-11-24 03:07:15] ✅ Operación completada exitosamente
+[2025-11-24 03:07:21] ========================================
+[2025-11-24 03:07:21] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-24 03:07:21] ========================================
+[2025-11-24 03:07:21] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:07:21] 📨 Método: POST
+[2025-11-24 03:07:21] ✅ Método HTTP válido
+[2025-11-24 03:07:21] ✅ Permisos verificados
+[2025-11-24 03:07:21] 📥 Leyendo datos...
+[2025-11-24 03:07:21] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:07:21] 📥 Parseando como JSON...
+[2025-11-24 03:07:21] ✅ Datos recibidos
+[2025-11-24 03:07:21] 🔍 Eliminando usuario ID: 18
+[2025-11-24 03:07:21] ✓ Verificando que el usuario existe...
+[2025-11-24 03:07:21] ✅ Usuario encontrado: Alexa.altamar
+[2025-11-24 03:07:21] 📋 Tipo de eliminación: desactivar
+[2025-11-24 03:07:21] 🔄 Ejecutando soft delete...
+[2025-11-24 03:07:21] ✅ Usuario desactivado
+[2025-11-24 03:07:21] ✅ Operación completada exitosamente
+[2025-11-24 03:09:48] ========================================
+[2025-11-24 03:09:48] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-24 03:09:48] ========================================
+[2025-11-24 03:09:48] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:09:48] 📨 Método: POST
+[2025-11-24 03:09:48] ✅ Método HTTP válido
+[2025-11-24 03:09:48] ✅ Permisos verificados
+[2025-11-24 03:09:48] 📥 Leyendo datos...
+[2025-11-24 03:09:48] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:09:48] 📥 Parseando como JSON...
+[2025-11-24 03:09:48] ✅ Datos recibidos
+[2025-11-24 03:09:48] 🔍 Eliminando usuario ID: 18
+[2025-11-24 03:09:48] ✓ Verificando que el usuario existe...
+[2025-11-24 03:09:48] ✅ Usuario encontrado: Alexa.altamar
+[2025-11-24 03:09:48] 📋 Tipo de eliminación: desactivar
+[2025-11-24 03:09:48] 🔄 Ejecutando soft delete...
+[2025-11-24 03:09:48] ✅ Usuario desactivado
+[2025-11-24 03:09:48] ✅ Operación completada exitosamente
+[2025-11-24 03:10:14] ========================================
+[2025-11-24 03:10:14] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-24 03:10:14] ========================================
+[2025-11-24 03:10:14] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:10:14] 📨 Método: POST
+[2025-11-24 03:10:14] ✅ Método HTTP válido
+[2025-11-24 03:10:14] ✅ Permisos verificados
+[2025-11-24 03:10:14] 📥 Leyendo datos...
+[2025-11-24 03:10:14] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:10:14] 📥 Parseando como JSON...
+[2025-11-24 03:10:14] ✅ Datos recibidos
+[2025-11-24 03:10:14] 🔍 Eliminando usuario ID: 17
+[2025-11-24 03:10:14] ✓ Verificando que el usuario existe...
+[2025-11-24 03:10:14] ✅ Usuario encontrado: alexa
+[2025-11-24 03:10:14] 📋 Tipo de eliminación: desactivar
+[2025-11-24 03:10:14] 🔄 Ejecutando soft delete...
+[2025-11-24 03:10:14] ✅ Usuario desactivado
+[2025-11-24 03:10:14] ✅ Operación completada exitosamente
+[2025-11-24 03:10:20] ========================================
+[2025-11-24 03:10:20] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-24 03:10:20] ========================================
+[2025-11-24 03:10:20] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:10:20] 📨 Método: POST
+[2025-11-24 03:10:20] ✅ Método HTTP válido
+[2025-11-24 03:10:20] ✅ Permisos verificados
+[2025-11-24 03:10:20] 📥 Leyendo datos...
+[2025-11-24 03:10:20] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:10:20] 📥 Parseando como JSON...
+[2025-11-24 03:10:20] ✅ Datos recibidos
+[2025-11-24 03:10:20] 🔍 Eliminando usuario ID: 16
+[2025-11-24 03:10:20] ✓ Verificando que el usuario existe...
+[2025-11-24 03:10:20] ✅ Usuario encontrado: Usuario_de_pruebas
+[2025-11-24 03:10:20] 📋 Tipo de eliminación: desactivar
+[2025-11-24 03:10:20] 🔄 Ejecutando soft delete...
+[2025-11-24 03:10:20] ✅ Usuario desactivado
+[2025-11-24 03:10:20] ✅ Operación completada exitosamente
+[2025-11-24 03:14:03] ========================================
+[2025-11-24 03:14:03] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-24 03:14:03] ========================================
+[2025-11-24 03:14:03] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:14:03] 📨 Método: POST
+[2025-11-24 03:14:03] ✅ Método HTTP válido
+[2025-11-24 03:14:03] ✅ Permisos verificados
+[2025-11-24 03:14:03] 📥 Leyendo datos...
+[2025-11-24 03:14:03] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:14:03] 📥 Parseando como JSON...
+[2025-11-24 03:14:03] ✅ Datos recibidos
+[2025-11-24 03:14:03] 🔍 Eliminando usuario ID: 22
+[2025-11-24 03:14:03] ✓ Verificando que el usuario existe...
+[2025-11-24 03:14:03] ✅ Usuario encontrado: pepe
+[2025-11-24 03:14:03] 📋 Tipo de eliminación: desactivar
+[2025-11-24 03:14:03] 🔄 Ejecutando soft delete...
+[2025-11-24 03:14:03] ✅ Usuario desactivado
+[2025-11-24 03:14:03] ✅ Operación completada exitosamente
+[2025-11-24 03:27:06] ========================================
+[2025-11-24 03:27:06] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-24 03:27:06] ========================================
+[2025-11-24 03:27:06] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:27:06] 📨 Método: POST
+[2025-11-24 03:27:06] ✅ Método HTTP válido
+[2025-11-24 03:27:06] ✅ Permisos verificados
+[2025-11-24 03:27:06] 📥 Leyendo datos...
+[2025-11-24 03:27:06] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:27:06] 📥 Parseando como JSON...
+[2025-11-24 03:27:06] ✅ Datos recibidos
+[2025-11-24 03:27:06] 🔍 Eliminando usuario ID: 22
+[2025-11-24 03:27:06] ✓ Verificando que el usuario existe...
+[2025-11-24 03:27:06] ✅ Usuario encontrado: pepe
+[2025-11-24 03:27:06] 📋 Tipo de eliminación: desactivar
+[2025-11-24 03:27:06] 🔄 Ejecutando soft delete...
+[2025-11-24 03:27:06] ✅ Usuario desactivado
+[2025-11-24 03:27:06] ✅ Operación completada exitosamente
+[2025-11-24 03:40:27] ========================================
+[2025-11-24 03:40:27] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-24 03:40:27] ========================================
+[2025-11-24 03:40:27] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 03:40:27] 📨 Método: POST
+[2025-11-24 03:40:27] ✅ Método HTTP válido
+[2025-11-24 03:40:27] ✅ Permisos verificados
+[2025-11-24 03:40:27] 📥 Leyendo datos...
+[2025-11-24 03:40:27] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 03:40:27] 📥 Parseando como JSON...
+[2025-11-24 03:40:27] ✅ Datos recibidos
+[2025-11-24 03:40:27] 🔍 Eliminando usuario ID: 14
+[2025-11-24 03:40:27] ✓ Verificando que el usuario existe...
+[2025-11-24 03:40:27] ✅ Usuario encontrado: Diego Suarez
+[2025-11-24 03:40:27] 📋 Tipo de eliminación: desactivar
+[2025-11-24 03:40:27] 🔄 Ejecutando soft delete...
+[2025-11-24 03:40:27] ✅ Usuario desactivado
+[2025-11-24 03:40:27] ✅ Operación completada exitosamente
+[2025-11-24 12:22:21] ========================================
+[2025-11-24 12:22:21] 🗑️  NUEVA REQUEST - ELIMINAR USUARIO
+[2025-11-24 12:22:21] ========================================
+[2025-11-24 12:22:21] 👤 Usuario: colaborador (ID: 21)
+[2025-11-24 12:22:21] 📨 Método: POST
+[2025-11-24 12:22:21] ✅ Método HTTP válido
+[2025-11-24 12:22:21] ✅ Permisos verificados
+[2025-11-24 12:22:21] 📥 Leyendo datos...
+[2025-11-24 12:22:21] 📋 Content-Type: application/json; charset=utf-8
+[2025-11-24 12:22:21] 📥 Parseando como JSON...
+[2025-11-24 12:22:21] ✅ Datos recibidos
+[2025-11-24 12:22:21] 🔍 Eliminando usuario ID: 16
+[2025-11-24 12:22:21] ✓ Verificando que el usuario existe...
+[2025-11-24 12:22:21] ✅ Usuario encontrado: Usuario_de_pruebas
+[2025-11-24 12:22:21] 📋 Tipo de eliminación: desactivar
+[2025-11-24 12:22:21] 🔄 Ejecutando soft delete...
+[2025-11-24 12:22:21] ✅ Usuario desactivado
+[2025-11-24 12:22:21] ✅ Operación completada exitosamente

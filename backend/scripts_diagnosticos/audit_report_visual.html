@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Auditoría Contable InfoApp - ID #3.3-TEST</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            padding: 40px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
+
+        h1 {
+            color: #5a2d82;
+            border-bottom: 2px solid #5a2d82;
+            padding-bottom: 10px;
+        }
+
+        .scenario {
+            margin-bottom: 50px;
+            padding: 20px;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+        }
+
+        .scenario-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #2c3e50;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .scenario-title span {
+            background: #5a2d82;
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 14px;
+            margin-right: 15px;
+        }
+
+        .config-box {
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+            font-size: 14px;
+            border-left: 4px solid #cbd5e1;
+        }
+
+        .accounting-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        .accounting-table th {
+            background: #5a2d82;
+            color: white;
+            text-align: left;
+            padding: 12px;
+            font-size: 13px;
+        }
+
+        .accounting-table td {
+            padding: 12px;
+            border-bottom: 1px solid #edf2f7;
+            font-size: 13px;
+        }
+
+        .amount {
+            text-align: right;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+
+        .total-row {
+            background: #f1f5f9;
+            font-weight: bold;
+        }
+
+        .tag-natural {
+            color: #0369a1;
+            font-weight: bold;
+        }
+
+        .tag-juridica {
+            color: #b91c1c;
+            font-weight: bold;
+        }
+
+        .success-badge {
+            background: #dcfce7;
+            color: #166534;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Auditoría Contable: Motor de Retenciones InfoApp</h1>
+        <p>Certificación de cumplimiento fiscal según reglas DIAN 2026.</p>
+
+        <!-- ESCENARIO A -->
+        <div class="scenario" id="scenario-a">
+            <div class="scenario-title"><span>Escenario A</span> El Cliente "Pequeño" (Persona Natural) <div
+                    class="success-badge" style="margin-left: 10px;">VALIDADO</div>
+            </div>
+            <div class="config-box">
+                <strong>Configuración:</strong> <span class="tag-natural">Natural</span> | No Responsable IVA (R-99-PN)
+                | Agente Retenedor: <strong>NO</strong><br>
+                <strong>Acción:</strong> Factura Servicios $2,000,000 + IVA ($380,000)
+            </div>
+            <table class="accounting-table">
+                <thead>
+                    <tr>
+                        <th>Cuenta PUC</th>
+                        <th>Nombre Cuenta</th>
+                        <th>Movimiento</th>
+                        <th class="amount">Valor (COP)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>130505</td>
+                        <td>Clientes Nacionales</td>
+                        <td>DEBITO</td>
+                        <td class="amount">$2,380,000</td>
+                    </tr>
+                    <tr>
+                        <td>413501</td>
+                        <td>Ingresos por Servicios</td>
+                        <td>CREDITO</td>
+                        <td class="amount">$2,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>240801</td>
+                        <td>IVA Generado (19%)</td>
+                        <td>CREDITO</td>
+                        <td class="amount">$380,000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="font-size: 12px; color: #64748b;">* Resultado esperado: Solo Ingreso, IVA y CxC. SIN retenciones.
+            </p>
+        </div>
+
+        <!-- ESCENARIO B -->
+        <div class="scenario" id="scenario-b">
+            <div class="scenario-title"><span>Escenario B</span> El Cliente "Gran Contribuyente" (Argos) <div
+                    class="success-badge" style="margin-left: 10px;">VALIDADO</div>
+            </div>
+            <div class="config-box">
+                <strong>Configuración:</strong> <span class="tag-juridica">Jurídica</span> | Responsable IVA (O-13) |
+                Agente Retenedor: <strong>SÍ</strong><br>
+                <strong>Acción:</strong> Factura Servicios $2,000,000 + IVA ($380,000)
+            </div>
+            <table class="accounting-table">
+                <thead>
+                    <tr>
+                        <th>Cuenta PUC</th>
+                        <th>Nombre Cuenta</th>
+                        <th>Movimiento</th>
+                        <th class="amount">Valor (COP)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>130505</td>
+                        <td>Clientes Nacionales</td>
+                        <td>DEBITO</td>
+                        <td class="amount">$2,243,000</td>
+                    </tr>
+                    <tr>
+                        <td>135515</td>
+                        <td>ReteFuente (4%)</td>
+                        <td>DEBITO</td>
+                        <td class="amount">$80,000</td>
+                    </tr>
+                    <tr>
+                        <td>135517</td>
+                        <td>ReteIVA (15% del IVA)</td>
+                        <td>DEBITO</td>
+                        <td class="amount">$57,000</td>
+                    </tr>
+                    <tr>
+                        <td>413501</td>
+                        <td>Ingresos por Servicios</td>
+                        <td>CREDITO</td>
+                        <td class="amount">$2,000,000</td>
+                    </tr>
+                    <tr>
+                        <td>240801</td>
+                        <td>IVA Generado (19%)</td>
+                        <td>CREDITO</td>
+                        <td class="amount">$380,000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="font-size: 12px; color: #64748b;">* Resultado esperado: Aplicación de ReteFuente (4%) y ReteIVA
+                (15% del IVA). CxC disminuida.</p>
+        </div>
+
+        <!-- ESCENARIO C -->
+        <div class="scenario" id="scenario-c">
+            <div class="scenario-title"><span>Escenario C</span> El "Tope de UVT" (Base Mínima) <div
+                    class="success-badge" style="margin-left: 10px;">VALIDADO</div>
+            </div>
+            <div class="config-box">
+                <strong>Configuración:</strong> <span class="tag-juridica">Jurídica</span> | Cliente del Escenario B |
+                <strong>Factura < 4 UVT</strong><br>
+                        <strong>Acción:</strong> Factura Servicios $100,000 + IVA ($19,000)
+            </div>
+            <table class="accounting-table">
+                <thead>
+                    <tr>
+                        <th>Cuenta PUC</th>
+                        <th>Nombre Cuenta</th>
+                        <th>Movimiento</th>
+                        <th class="amount">Valor (COP)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>130505</td>
+                        <td>Clientes Nacionales</td>
+                        <td>DEBITO</td>
+                        <td class="amount">$116,150</td>
+                    </tr>
+                    <tr>
+                        <td>135517</td>
+                        <td>ReteIVA (15% del IVA)</td>
+                        <td>DEBITO</td>
+                        <td class="amount">$2,850</td>
+                    </tr>
+                    <tr>
+                        <td>413501</td>
+                        <td>Ingresos por Servicios</td>
+                        <td>CREDITO</td>
+                        <td class="amount">$100,000</td>
+                    </tr>
+                    <tr>
+                        <td>240801</td>
+                        <td>IVA Generado (19%)</td>
+                        <td>CREDITO</td>
+                        <td class="amount">$19,000</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="font-size: 12px; color: #64748b;">* Resultado esperado: ReteFuente NO aplica (bajo tope). ReteIVA
+                aplica por ser Gran Contribuyente.</p>
+        </div>
+    </div>
+</body>
+
+</html>

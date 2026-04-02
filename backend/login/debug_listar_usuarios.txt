@@ -1,0 +1,216 @@
+[2025-11-06 02:25:21] ========================================
+[2025-11-06 02:25:21] 🆕 NUEVA REQUEST - LISTAR USUARIOS
+[2025-11-06 02:25:21] ========================================
+[2025-11-06 02:25:21] ========================================
+[2025-11-06 02:25:21] 🆕 NUEVA REQUEST - LISTAR USUARIOS
+[2025-11-06 02:25:21] ========================================
+[2025-11-06 02:25:21] 📦 Cargando auth_middleware...
+[2025-11-06 02:25:21] ✅ auth_middleware cargado
+[2025-11-06 02:25:21] 🔐 Validando autenticación...
+[2025-11-06 02:25:21] 👤 Usuario autenticado: die (ID: 12)
+[2025-11-06 02:25:21] 📋 Rol: administrador
+[2025-11-06 02:25:21] ✅ Acceso registrado
+[2025-11-06 02:25:21] ✅ Método GET validado
+[2025-11-06 02:25:21] 📦 Cargando conexión...
+[2025-11-06 02:25:21] ✅ Conexión cargada
+[2025-11-06 02:25:21] 📋 Parámetros recibidos:
+[2025-11-06 02:25:21]    id: null
+[2025-11-06 02:25:21]    page: 1
+[2025-11-06 02:25:21]    limit: 10
+[2025-11-06 02:25:21]    search: null
+[2025-11-06 02:25:21]    rol_filter: null
+[2025-11-06 02:25:21]    estado_filter: null
+[2025-11-06 02:25:21] 🔐 ¿Es admin/gerente/rh?: NO
+[2025-11-06 02:25:21] 📌 Usuario no-admin sin ID, usando su propio ID: 12
+[2025-11-06 02:25:21] 🔍 Buscando usuario con ID: 12
+[2025-11-06 02:25:21] ✅ Usuario encontrado: die
+[2025-11-06 02:25:21] ✅ Respuesta construida exitosamente
+[2025-11-06 02:25:40] ========================================
+[2025-11-06 02:25:40] 🆕 NUEVA REQUEST - LISTAR USUARIOS
+[2025-11-06 02:25:40] ========================================
+[2025-11-06 02:25:40] ========================================
+[2025-11-06 02:25:40] 🆕 NUEVA REQUEST - LISTAR USUARIOS
+[2025-11-06 02:25:40] ========================================
+[2025-11-06 02:25:40] 📦 Cargando auth_middleware...
+[2025-11-06 02:25:40] ✅ auth_middleware cargado
+[2025-11-06 02:25:40] 🔐 Validando autenticación...
+[2025-11-06 02:25:40] 👤 Usuario autenticado: die (ID: 12)
+[2025-11-06 02:25:40] 📋 Rol: administrador
+[2025-11-06 02:25:40] ✅ Acceso registrado
+[2025-11-06 02:25:40] ✅ Método GET validado
+[2025-11-06 02:25:40] 📦 Cargando conexión...
+[2025-11-06 02:25:40] ✅ Conexión cargada
+[2025-11-06 02:25:40] 📋 Parámetros recibidos:
+[2025-11-06 02:25:40]    id: null
+[2025-11-06 02:25:40]    page: 1
+[2025-11-06 02:25:40]    limit: 10
+[2025-11-06 02:25:40]    search: null
+[2025-11-06 02:25:40]    rol_filter: null
+[2025-11-06 02:25:40]    estado_filter: null
+[2025-11-06 02:25:40] 🔐 ¿Es admin/gerente/rh?: NO
+[2025-11-06 02:25:40] 📌 Usuario no-admin sin ID, usando su propio ID: 12
+[2025-11-06 02:25:40] 🔍 Buscando usuario con ID: 12
+[2025-11-06 02:25:40] ✅ Usuario encontrado: die
+[2025-11-06 02:25:40] ✅ Respuesta construida exitosamente
+[2025-11-06 02:28:45] ========================================
+[2025-11-06 02:28:45] 🆕 NUEVA REQUEST - LISTAR USUARIOS
+[2025-11-06 02:28:45] ========================================
+[2025-11-06 02:28:45] ========================================
+[2025-11-06 02:28:45] 🆕 NUEVA REQUEST - LISTAR USUARIOS
+[2025-11-06 02:28:45] ========================================
+[2025-11-06 02:28:45] 📦 Cargando auth_middleware...
+[2025-11-06 02:28:45] ✅ auth_middleware cargado
+[2025-11-06 02:28:45] 🔐 Validando autenticación...
+[2025-11-06 02:28:45] 👤 Usuario autenticado: die (ID: 12)
+[2025-11-06 02:28:45] 📋 Rol: administrador
+[2025-11-06 02:28:45] ✅ Acceso registrado
+[2025-11-06 02:28:45] ✅ Método GET validado
+[2025-11-06 02:28:45] 📦 Cargando conexión...
+[2025-11-06 02:28:45] ✅ Conexión cargada
+[2025-11-06 02:28:45] 📋 Parámetros recibidos:
+[2025-11-06 02:28:45]    id: null
+[2025-11-06 02:28:45]    page: 1
+[2025-11-06 02:28:45]    limit: 10
+[2025-11-06 02:28:45]    search: null
+[2025-11-06 02:28:45]    rol_filter: null
+[2025-11-06 02:28:45]    estado_filter: null
+[2025-11-06 02:28:45] 🔐 ¿Es admin/gerente/rh?: NO
+[2025-11-06 02:28:45] 📌 Usuario no-admin sin ID, usando su propio ID: 12
+[2025-11-06 02:28:45] 🔍 Buscando usuario con ID: 12
+[2025-11-06 02:28:45] ✅ Usuario encontrado: die
+[2025-11-06 02:28:45] ✅ Respuesta construida exitosamente
+[2025-11-06 02:29:00] ========================================
+[2025-11-06 02:29:00] 🆕 NUEVA REQUEST - LISTAR USUARIOS
+[2025-11-06 02:29:00] ========================================
+[2025-11-06 02:29:00] ========================================
+[2025-11-06 02:29:00] 🆕 NUEVA REQUEST - LISTAR USUARIOS
+[2025-11-06 02:29:00] ========================================
+[2025-11-06 02:29:00] 📦 Cargando auth_middleware...
+[2025-11-06 02:29:00] ✅ auth_middleware cargado
+[2025-11-06 02:29:00] 🔐 Validando autenticación...
+[2025-11-06 02:29:00] 👤 Usuario autenticado: die (ID: 12)
+[2025-11-06 02:29:00] 📋 Rol: administrador
+[2025-11-06 02:29:00] ✅ Acceso registrado
+[2025-11-06 02:29:00] ✅ Método GET validado
+[2025-11-06 02:29:00] 📦 Cargando conexión...
+[2025-11-06 02:29:00] ✅ Conexión cargada
+[2025-11-06 02:29:00] 📋 Parámetros recibidos:
+[2025-11-06 02:29:00]    id: null
+[2025-11-06 02:29:00]    page: 1
+[2025-11-06 02:29:00]    limit: 10
+[2025-11-06 02:29:00]    search: null
+[2025-11-06 02:29:00]    rol_filter: null
+[2025-11-06 02:29:00]    estado_filter: null
+[2025-11-06 02:29:00] 🔐 ¿Es admin/gerente/rh?: NO
+[2025-11-06 02:29:00] 📌 Usuario no-admin sin ID, usando su propio ID: 12
+[2025-11-06 02:29:00] 🔍 Buscando usuario con ID: 12
+[2025-11-06 02:29:00] ✅ Usuario encontrado: die
+[2025-11-06 02:29:00] ✅ Respuesta construida exitosamente
+[2025-11-06 02:30:19] ========================================
+[2025-11-06 02:30:19] 🆕 NUEVA REQUEST - LISTAR USUARIOS
+[2025-11-06 02:30:19] ========================================
+[2025-11-06 02:30:19] ========================================
+[2025-11-06 02:30:19] 🆕 NUEVA REQUEST - LISTAR USUARIOS
+[2025-11-06 02:30:19] ========================================
+[2025-11-06 02:30:19] 📦 Cargando auth_middleware...
+[2025-11-06 02:30:19] ✅ auth_middleware cargado
+[2025-11-06 02:30:19] 🔐 Validando autenticación...
+[2025-11-06 02:30:19] 👤 Usuario autenticado: die (ID: 12)
+[2025-11-06 02:30:19] 📋 Rol: administrador
+[2025-11-06 02:30:19] ✅ Acceso registrado
+[2025-11-06 02:30:19] ✅ Método GET validado
+[2025-11-06 02:30:19] 📦 Cargando conexión...
+[2025-11-06 02:30:19] ✅ Conexión cargada
+[2025-11-06 02:30:19] 📋 Parámetros recibidos:
+[2025-11-06 02:30:19]    id: null
+[2025-11-06 02:30:19]    page: 1
+[2025-11-06 02:30:19]    limit: 10
+[2025-11-06 02:30:19]    search: null
+[2025-11-06 02:30:19]    rol_filter: null
+[2025-11-06 02:30:19]    estado_filter: null
+[2025-11-06 02:30:19] 🔐 ¿Es admin/gerente/rh?: NO
+[2025-11-06 02:30:19] 📌 Usuario no-admin sin ID, usando su propio ID: 12
+[2025-11-06 02:30:19] 🔍 Buscando usuario con ID: 12
+[2025-11-06 02:30:19] ✅ Usuario encontrado: die
+[2025-11-06 02:30:19] ✅ Respuesta construida exitosamente
+[2025-11-06 02:30:31] ========================================
+[2025-11-06 02:30:31] 🆕 NUEVA REQUEST - LISTAR USUARIOS
+[2025-11-06 02:30:31] ========================================
+[2025-11-06 02:30:31] ========================================
+[2025-11-06 02:30:31] 🆕 NUEVA REQUEST - LISTAR USUARIOS
+[2025-11-06 02:30:31] ========================================
+[2025-11-06 02:30:31] 📦 Cargando auth_middleware...
+[2025-11-06 02:30:31] ✅ auth_middleware cargado
+[2025-11-06 02:30:31] 🔐 Validando autenticación...
+[2025-11-06 02:30:31] 👤 Usuario autenticado: die (ID: 12)
+[2025-11-06 02:30:31] 📋 Rol: administrador
+[2025-11-06 02:30:31] ✅ Acceso registrado
+[2025-11-06 02:30:31] ✅ Método GET validado
+[2025-11-06 02:30:31] 📦 Cargando conexión...
+[2025-11-06 02:30:31] ✅ Conexión cargada
+[2025-11-06 02:30:31] 📋 Parámetros recibidos:
+[2025-11-06 02:30:31]    id: null
+[2025-11-06 02:30:31]    page: 1
+[2025-11-06 02:30:31]    limit: 10
+[2025-11-06 02:30:31]    search: null
+[2025-11-06 02:30:31]    rol_filter: null
+[2025-11-06 02:30:31]    estado_filter: null
+[2025-11-06 02:30:31] 🔐 ¿Es admin/gerente/rh?: NO
+[2025-11-06 02:30:31] 📌 Usuario no-admin sin ID, usando su propio ID: 12
+[2025-11-06 02:30:31] 🔍 Buscando usuario con ID: 12
+[2025-11-06 02:30:31] ✅ Usuario encontrado: die
+[2025-11-06 02:30:31] ✅ Respuesta construida exitosamente
+[2025-11-06 02:31:13] ========================================
+[2025-11-06 02:31:13] 🆕 NUEVA REQUEST - LISTAR USUARIOS
+[2025-11-06 02:31:13] ========================================
+[2025-11-06 02:31:13] ========================================
+[2025-11-06 02:31:13] 🆕 NUEVA REQUEST - LISTAR USUARIOS
+[2025-11-06 02:31:13] ========================================
+[2025-11-06 02:31:13] 📦 Cargando auth_middleware...
+[2025-11-06 02:31:13] ✅ auth_middleware cargado
+[2025-11-06 02:31:13] 🔐 Validando autenticación...
+[2025-11-06 02:31:13] 👤 Usuario autenticado: die (ID: 12)
+[2025-11-06 02:31:13] 📋 Rol: administrador
+[2025-11-06 02:31:13] ✅ Acceso registrado
+[2025-11-06 02:31:13] ✅ Método GET validado
+[2025-11-06 02:31:13] 📦 Cargando conexión...
+[2025-11-06 02:31:13] ✅ Conexión cargada
+[2025-11-06 02:31:13] 📋 Parámetros recibidos:
+[2025-11-06 02:31:13]    id: null
+[2025-11-06 02:31:13]    page: 1
+[2025-11-06 02:31:13]    limit: 10
+[2025-11-06 02:31:13]    search: null
+[2025-11-06 02:31:13]    rol_filter: null
+[2025-11-06 02:31:13]    estado_filter: null
+[2025-11-06 02:31:13] 🔐 ¿Es admin/gerente/rh?: NO
+[2025-11-06 02:31:13] 📌 Usuario no-admin sin ID, usando su propio ID: 12
+[2025-11-06 02:31:13] 🔍 Buscando usuario con ID: 12
+[2025-11-06 02:31:13] ✅ Usuario encontrado: die
+[2025-11-06 02:31:13] ✅ Respuesta construida exitosamente
+[2025-11-06 02:31:32] ========================================
+[2025-11-06 02:31:32] 🆕 NUEVA REQUEST - LISTAR USUARIOS
+[2025-11-06 02:31:32] ========================================
+[2025-11-06 02:31:32] ========================================
+[2025-11-06 02:31:32] 🆕 NUEVA REQUEST - LISTAR USUARIOS
+[2025-11-06 02:31:32] ========================================
+[2025-11-06 02:31:32] 📦 Cargando auth_middleware...
+[2025-11-06 02:31:32] ✅ auth_middleware cargado
+[2025-11-06 02:31:32] 🔐 Validando autenticación...
+[2025-11-06 02:31:32] 👤 Usuario autenticado: die (ID: 12)
+[2025-11-06 02:31:32] 📋 Rol: administrador
+[2025-11-06 02:31:32] ✅ Acceso registrado
+[2025-11-06 02:31:32] ✅ Método GET validado
+[2025-11-06 02:31:32] 📦 Cargando conexión...
+[2025-11-06 02:31:32] ✅ Conexión cargada
+[2025-11-06 02:31:32] 📋 Parámetros recibidos:
+[2025-11-06 02:31:32]    id: null
+[2025-11-06 02:31:32]    page: 1
+[2025-11-06 02:31:32]    limit: 10
+[2025-11-06 02:31:32]    search: null
+[2025-11-06 02:31:32]    rol_filter: null
+[2025-11-06 02:31:32]    estado_filter: null
+[2025-11-06 02:31:32] 🔐 ¿Es admin/gerente/rh?: NO
+[2025-11-06 02:31:32] 📌 Usuario no-admin sin ID, usando su propio ID: 12
+[2025-11-06 02:31:32] 🔍 Buscando usuario con ID: 12
+[2025-11-06 02:31:32] ✅ Usuario encontrado: die
+[2025-11-06 02:31:32] ✅ Respuesta construida exitosamente

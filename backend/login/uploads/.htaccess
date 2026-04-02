@@ -1,0 +1,50 @@
+# .htaccess para /API_Infoapp/login/uploads/
+# Copia de configuración para permitir CORS y servir imágenes estáticas
+
+# ✅ Habilitar CORS (solo si mod_headers está disponible)
+<IfModule mod_headers.c>
+    Header set Access-Control-Allow-Origin "*"
+    Header set Access-Control-Allow-Methods "GET, OPTIONS"
+    Header set Access-Control-Allow-Headers "Content-Type"
+</IfModule>
+
+# ✅ PERMITIR SOLO ARCHIVOS ESPECÍFICOS (sin conflictos)
+<FilesMatch "\.(jpg|jpeg|png|gif|svg|webp|xlsx|xls)$">
+    Order allow,deny
+    Allow from all
+</FilesMatch>
+
+# ✅ BLOQUEAR ARCHIVOS PELIGROSOS ESPECÍFICAMENTE
+<FilesMatch "\.(php|pl|py|jsp|asp|sh|cgi|exe|bat|cmd)$">
+    Order deny,allow
+    Deny from all
+</FilesMatch>
+
+# ✅ BLOQUEAR ARCHIVOS DE CONFIGURACIÓN
+<FilesMatch "\.(htaccess|htpasswd|ini|log|conf|sql|bak)$">
+    Order deny,allow
+    Deny from all
+</FilesMatch>
+
+# ✅ Configuración de tipos MIME para imágenes
+<IfModule mod_mime.c>
+    AddType image/jpeg .jpg .jpeg
+    AddType image/png .png
+    AddType image/gif .gif
+    AddType image/svg+xml .svg
+    AddType image/webp .webp
+</IfModule>
+
+# ✅ Cache de archivos
+<IfModule mod_expires.c>
+    ExpiresActive on
+    ExpiresByType image/jpg "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType image/gif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/svg+xml "access plus 1 month"
+    ExpiresByType image/webp "access plus 1 month"
+</IfModule>
+
+# ✅ Permitir listado de directorio (para debugging, opcional)
+Options +Indexes

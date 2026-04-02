@@ -1,0 +1,136 @@
+[2025-11-18 13:51:17][MEM: 0.37MB] ========================================
+[2025-11-18 13:51:17][MEM: 0.37MB] 🆕 NUEVA REQUEST - POST /plantillas/validar_tags
+[2025-11-18 13:51:17][MEM: 0.37MB] ========================================
+[2025-11-18 13:51:17][MEM: 0.37MB] 🌐 IP: 167.0.252.80
+[2025-11-18 13:51:17][MEM: 0.37MB] 📨 Método: OPTIONS
+[2025-11-18 13:51:17][MEM: 0.37MB] 🔗 URI: /API_Infoapp/plantillas/validar_tags.php
+[2025-11-18 13:51:17][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-11-18 13:51:17][MEM: 0.36MB] ========================================
+[2025-11-18 13:51:17][MEM: 0.36MB] 🆕 NUEVA REQUEST - POST /plantillas/validar_tags
+[2025-11-18 13:51:17][MEM: 0.36MB] ========================================
+[2025-11-18 13:51:17][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 13:51:17][MEM: 0.36MB] 📨 Método: POST
+[2025-11-18 13:51:17][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/validar_tags.php
+[2025-11-18 13:51:17][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 13:51:17][MEM: 0.37MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-18 13:51:17][MEM: 0.37MB] ✅ Acceso registrado
+[2025-11-18 13:51:17][MEM: 0.37MB] 📦 Requiriendo conexión...
+[2025-11-18 13:51:17][MEM: 0.41MB] ✅ conexion.php cargado
+[2025-11-18 13:51:17][MEM: 0.42MB] 📥 Raw input length: 9769
+[2025-11-18 13:51:17][MEM: 0.43MB] ✅ JSON decodificado correctamente
+[2025-11-18 13:51:17][MEM: 0.43MB] 📋 Parámetro recibido:
+[2025-11-18 13:51:17][MEM: 0.43MB]    contenido_html length: 9380
+[2025-11-18 13:51:17][MEM: 0.43MB] ✅ contenido_html válido
+[2025-11-18 13:51:17][MEM: 0.43MB] 🔍 Extrayendo tags del HTML...
+[2025-11-18 13:51:17][MEM: 0.43MB] ✅ Tags encontrados: 18
+[2025-11-18 13:51:17][MEM: 0.43MB]    Tags: usuario_nombre_cliente, usuario_nit, branding_logo_url, o_servicio, cliente_nombre, fecha_registro, equipo_ciudad, repuestos_lista, actividad_id, tipo_mantenimiento, tecnico_asignado, equipo_nombre, equipo_placa, fotos_antes_todas, fotos_despues_todas, firma_funcionario_nombre, firma_cliente, firma_staff_imagen
+[2025-11-18 13:51:17][MEM: 0.43MB] 📋 Obteniendo tags válidos del sistema...
+[2025-11-18 13:51:17][MEM: 0.43MB] 📊 SECCIÓN: SERVICIOS
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ o_servicio
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ fecha_registro
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ fecha_ingreso
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ orden_cliente
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ autorizado_por
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ tipo_mantenimiento
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ centro_costo
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ nombre_emp
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ placa
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ estado
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ actividad_id
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ suministraron_repuestos
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ anular_servicio
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ fecha_finalizacion
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ razon
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ fecha_actualizacion
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ responsable_id
+[2025-11-18 13:51:17][MEM: 0.45MB]    ✅ Total tags de servicios: 21
+[2025-11-18 13:51:17][MEM: 0.45MB]    ➕ actividad_nombre (JOIN actividades_estandar.actividad)
+[2025-11-18 13:51:17][MEM: 0.45MB] 📊 SECCIÓN: EQUIPOS
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ equipo_nombre
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ equipo_modelo
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ equipo_marca
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ equipo_placa
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ equipo_codigo
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ equipo_ciudad
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ equipo_planta
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ equipo_linea_prod
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ equipo_nombre_empresa
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ equipo_estado_id
+[2025-11-18 13:51:17][MEM: 0.47MB]    ✅ Total tags de equipos: 13
+[2025-11-18 13:51:17][MEM: 0.47MB] 📊 SECCIÓN: CLIENTE
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ cliente_nombre
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ cliente_ciudad
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ cliente_planta
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ cliente_codigo
+[2025-11-18 13:51:17][MEM: 0.47MB]    ✅ Total tags de cliente: 4
+[2025-11-18 13:51:17][MEM: 0.47MB] 📊 SECCIÓN: USUARIOS
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ usuario_nombre_cliente
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ usuario_nit
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ usuario_correo
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ usuario_nombre_user
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ usuario_telefono
+[2025-11-18 13:51:17][MEM: 0.47MB]    ✅ Total tags de usuarios: 5
+[2025-11-18 13:51:17][MEM: 0.47MB] 📊 SECCIÓN: BRANDING
+[2025-11-18 13:51:17][MEM: 0.47MB]    ➕ branding_logo_url
+[2025-11-18 13:51:17][MEM: 0.47MB]    ✅ Total tags de branding: 1
+[2025-11-18 13:51:17][MEM: 0.47MB] 📊 SECCIÓN: CAMPOS ADICIONALES
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ campo_texto_corto1 (de: Texto corto1)
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ campo_adjuntar_evidencias (de: Adjuntar evidencias)
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ campo_fecha (de: Fecha)
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ campo_hora (de: Hora)
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ campo_decimal (de: Decimal)
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ campo_moneda (de: Moneda)
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ campo_entero (de: Entero)
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ campo_link (de: Link)
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ campo_imagen (de: Imagen)
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ campo_archivo (de: Archivo)
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ campo_actividad_realizada (de: Actividad realizada )
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ Total campos adicionales procesados: 11
+[2025-11-18 13:51:17][MEM: 0.51MB] 📊 SECCIÓN: ESPECIALES (FOTOS)
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ foto_antes
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ foto_despues
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ fotos_todas
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ repuestos_lista
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ Total tags de fotos/repuestos: 4
+[2025-11-18 13:51:17][MEM: 0.51MB] 📊 SECCIÓN: FIRMAS
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ firma_usuario_id
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ firma_usuario_nombre
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ firma_usuario_imagen
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ firma_nota_entrega
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ firma_funcionario_id
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ firma_funcionario_nombre
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ firma_funcionario_imagen
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ firma_nota_recepcion
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ firma_fecha_creacion
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ firma_tecnico
+[2025-11-18 13:51:17][MEM: 0.51MB]    ➕ firma_cliente
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ Total tags de firmas: 11
+[2025-11-18 13:51:17][MEM: 0.51MB] ========================================
+[2025-11-18 13:51:17][MEM: 0.51MB] ✅ TOTAL TAGS VÁLIDOS DEL SISTEMA: 64
+[2025-11-18 13:51:17][MEM: 0.51MB] ========================================
+[2025-11-18 13:51:17][MEM: 0.51MB] 🔍 Validando tags encontrados...
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ {{usuario_nombre_cliente}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ {{usuario_nit}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ {{branding_logo_url}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ {{o_servicio}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ {{cliente_nombre}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ {{fecha_registro}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ {{equipo_ciudad}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ {{repuestos_lista}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ {{actividad_id}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ {{tipo_mantenimiento}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ❌ {{tecnico_asignado}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ {{equipo_nombre}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ {{equipo_placa}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ❌ {{fotos_antes_todas}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ❌ {{fotos_despues_todas}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ {{firma_funcionario_nombre}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ✅ {{firma_cliente}}
+[2025-11-18 13:51:17][MEM: 0.51MB]    ❌ {{firma_staff_imagen}}
+[2025-11-18 13:51:17][MEM: 0.51MB] ========================================
+[2025-11-18 13:51:17][MEM: 0.51MB] 📊 RESULTADO DE VALIDACIÓN:
+[2025-11-18 13:51:17][MEM: 0.51MB]    Tags válidos encontrados: 14
+[2025-11-18 13:51:17][MEM: 0.51MB]    Tags inválidos encontrados: 4
+[2025-11-18 13:51:17][MEM: 0.51MB]    Estado: ❌ INVÁLIDO
+[2025-11-18 13:51:17][MEM: 0.51MB] ========================================
+[2025-11-18 13:51:17][MEM: 0.51MB] 📤 Enviando respuesta exitosa...

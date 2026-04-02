@@ -1,0 +1,285 @@
+[2025-11-01 13:54:23][MEM: 0.36MB] ========================================
+[2025-11-01 13:54:23][MEM: 0.36MB] 🆕 NUEVA REQUEST INICIADA - CREAR EQUIPO
+[2025-11-01 13:54:23][MEM: 0.36MB] ========================================
+[2025-11-01 13:54:23][MEM: 0.36MB] 🌐 IP: 167.0.196.53
+[2025-11-01 13:54:23][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-01 13:54:23][MEM: 0.36MB] 🔗 URI: /API_Infoapp/equipo/crear_equipo.php
+[2025-11-01 13:54:23][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-01 13:54:23][MEM: 0.35MB] ========================================
+[2025-11-01 13:54:23][MEM: 0.35MB] 🆕 NUEVA REQUEST INICIADA - CREAR EQUIPO
+[2025-11-01 13:54:23][MEM: 0.35MB] ========================================
+[2025-11-01 13:54:23][MEM: 0.35MB] 🌐 IP: 167.0.196.53
+[2025-11-01 13:54:23][MEM: 0.35MB] 📨 Método: POST
+[2025-11-01 13:54:23][MEM: 0.35MB] 🔗 URI: /API_Infoapp/equipo/crear_equipo.php
+[2025-11-01 13:54:23][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-01 13:54:23][MEM: 0.35MB] 👤 Usuario autenticado: die (ID: 12)
+[2025-11-01 13:54:23][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-01 13:54:23][MEM: 0.35MB] 📦 Requiriendo conexión...
+[2025-11-01 13:54:23][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-01 13:54:23][MEM: 0.4MB] 📥 Raw input length: 131
+[2025-11-01 13:54:23][MEM: 0.4MB] 📥 Raw input: {"id":null,"nombre":"Creando","marca":"Creando","modelo":"Creando","placa":"Creando","nombre_empresa":"InfoApp","ciudad":"Creando"}
+[2025-11-01 13:54:23][MEM: 0.4MB] ✅ JSON decodificado correctamente
+[2025-11-01 13:54:23][MEM: 0.4MB] 📋 Variables extraídas:
+[2025-11-01 13:54:23][MEM: 0.4MB]    nombre: Creando
+[2025-11-01 13:54:23][MEM: 0.4MB]    modelo: Creando
+[2025-11-01 13:54:23][MEM: 0.4MB]    marca: Creando
+[2025-11-01 13:54:23][MEM: 0.4MB]    placa: Creando
+[2025-11-01 13:54:23][MEM: 0.4MB]    codigo: NULL
+[2025-11-01 13:54:23][MEM: 0.4MB]    ciudad: Creando
+[2025-11-01 13:54:23][MEM: 0.4MB]    planta: NULL
+[2025-11-01 13:54:23][MEM: 0.4MB]    linea_prod: NULL
+[2025-11-01 13:54:23][MEM: 0.4MB]    nombre_empresa: InfoApp
+[2025-11-01 13:54:23][MEM: 0.4MB]    usuario_id: 12
+[2025-11-01 13:54:23][MEM: 0.4MB]    usuario_nombre: die
+[2025-11-01 13:54:23][MEM: 0.4MB] ✅ Validación de campos requeridos OK
+[2025-11-01 13:54:23][MEM: 0.4MB] 🔍 Valores normalizados:
+[2025-11-01 13:54:23][MEM: 0.4MB]    nombre: 'Creando'
+[2025-11-01 13:54:23][MEM: 0.4MB]    placa: 'Creando'
+[2025-11-01 13:54:23][MEM: 0.4MB]    nombre_empresa: 'InfoApp'
+[2025-11-01 13:54:23][MEM: 0.4MB] 🔍 Verificando si existe la placa: Creando
+[2025-11-01 13:54:23][MEM: 0.43MB] ✅ Placa disponible
+[2025-11-01 13:54:23][MEM: 0.43MB] 📝 SQL preparado
+[2025-11-01 13:54:23][MEM: 0.43MB] 🔧 Preparando statement...
+[2025-11-01 13:54:23][MEM: 0.42MB] ✅ Statement preparado correctamente
+[2025-11-01 13:54:23][MEM: 0.42MB] 🔗 Binding params con tipo: ssssssssss (10 params)
+[2025-11-01 13:54:23][MEM: 0.42MB]    Parámetros a bindear:
+[2025-11-01 13:54:23][MEM: 0.42MB]    1. nombre: Creando
+[2025-11-01 13:54:23][MEM: 0.42MB]    2. modelo: Creando
+[2025-11-01 13:54:23][MEM: 0.42MB]    3. marca: Creando
+[2025-11-01 13:54:23][MEM: 0.42MB]    4. placa: Creando
+[2025-11-01 13:54:23][MEM: 0.42MB]    5. codigo: NULL
+[2025-11-01 13:54:23][MEM: 0.42MB]    6. ciudad: Creando
+[2025-11-01 13:54:23][MEM: 0.42MB]    7. planta: NULL
+[2025-11-01 13:54:23][MEM: 0.42MB]    8. linea_prod: NULL
+[2025-11-01 13:54:23][MEM: 0.42MB]    9. nombre_empresa: InfoApp
+[2025-11-01 13:54:23][MEM: 0.42MB]   10. usuario_registro: die
+[2025-11-01 13:54:23][MEM: 0.42MB] 🔗 bind_param resultado: TRUE
+[2025-11-01 13:54:23][MEM: 0.42MB] ✅ Bind exitoso
+[2025-11-01 13:54:23][MEM: 0.42MB] ▶️ Ejecutando INSERT...
+[2025-11-01 13:54:23][MEM: 0.42MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-01 13:54:23][MEM: 0.42MB] 🆔 Equipo creado con ID: 135
+[2025-11-01 13:54:23][MEM: 0.42MB] 🔍 Verificando equipo creado...
+[2025-11-01 13:54:23][MEM: 0.46MB] ✅ Equipo verificado:
+[2025-11-01 13:54:23][MEM: 0.46MB]    ID: 135
+[2025-11-01 13:54:23][MEM: 0.46MB]    Nombre: Creando
+[2025-11-01 13:54:23][MEM: 0.46MB]    Placa: Creando
+[2025-11-01 13:54:23][MEM: 0.46MB]    Empresa: InfoApp
+[2025-11-01 13:54:23][MEM: 0.43MB] 📤 Preparando respuesta JSON...
+[2025-11-01 13:54:23][MEM: 0.44MB] 📤 Respuesta preparada (size: 328 bytes)
+[2025-11-01 13:54:23][MEM: 0.44MB] 📤 Enviando respuesta JSON...
+[2025-11-01 13:58:57] ========================================
+[2025-11-01 13:58:57] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-01 13:58:57] ========================================
+[2025-11-01 13:58:58] ========================================
+[2025-11-01 13:58:58] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-01 13:58:58] ========================================
+[2025-11-01 13:58:58] 👤 Usuario autenticado: die
+[2025-11-01 13:58:58] 📥 Input recibido: {"id":null,"nombre":"Creando","marca":"Creando","modelo":"Creando","placa":"Creando","nombre_empresa":"InfoApp","ciudad":"Creando"}
+[2025-11-01 13:58:58] ✅ Validación OK - Nombre: Creando, Placa: Creando
+[2025-11-01 13:58:58] ❌ ERROR: Ya existe un equipo activo con esa placa
+[2025-11-01 13:59:14] ========================================
+[2025-11-01 13:59:14] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-01 13:59:14] ========================================
+[2025-11-01 13:59:14] ========================================
+[2025-11-01 13:59:14] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-01 13:59:14] ========================================
+[2025-11-01 13:59:14] 👤 Usuario autenticado: die
+[2025-11-01 13:59:14] 📥 Input recibido: {"id":null,"nombre":"Creando","marca":"Creando","modelo":"Creando","placa":"Creando1","nombre_empresa":"InfoApp","ciudad":"Creando"}
+[2025-11-01 13:59:14] ✅ Validación OK - Nombre: Creando, Placa: Creando1
+[2025-11-01 13:59:14] ✅ Equipo creado con ID: 136
+[2025-11-01 14:00:53] ========================================
+[2025-11-01 14:00:53] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-01 14:00:53] ========================================
+[2025-11-01 14:00:53] ========================================
+[2025-11-01 14:00:53] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-01 14:00:53] ========================================
+[2025-11-01 14:00:53] 👤 Usuario autenticado: die
+[2025-11-01 14:00:53] 📥 Input recibido: {"id":null,"nombre":"Creando","marca":"Creando","modelo":"Creando","placa":"Creando1","nombre_empresa":"InfoApp","ciudad":"Creando"}
+[2025-11-01 14:00:53] ✅ Validación OK - Nombre: Creando, Placa: Creando1
+[2025-11-01 14:00:53] ❌ ERROR: Ya existe un equipo activo con esa placa
+[2025-11-01 14:01:18] ========================================
+[2025-11-01 14:01:18] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-01 14:01:18] ========================================
+[2025-11-01 14:01:18] ========================================
+[2025-11-01 14:01:18] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-01 14:01:18] ========================================
+[2025-11-01 14:01:18] 👤 Usuario autenticado: die
+[2025-11-01 14:01:18] 📥 Input recibido: {"id":null,"nombre":"Creando","marca":"Creando","modelo":"Creando","placa":"Creando2","nombre_empresa":"InfoApp","ciudad":"Creando"}
+[2025-11-01 14:01:18] ✅ Validación OK - Nombre: Creando, Placa: Creando2
+[2025-11-01 14:01:18] ✅ Equipo creado con ID: 137
+[2025-11-01 14:15:17] ========================================
+[2025-11-01 14:15:17] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-01 14:15:17] ========================================
+[2025-11-01 14:15:17] ========================================
+[2025-11-01 14:15:17] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-01 14:15:17] ========================================
+[2025-11-01 14:15:17] 👤 Usuario autenticado: die
+[2025-11-01 14:15:17] 📥 Input recibido: {"id":null,"nombre":"Creando","marca":"Creando","modelo":"Creando","placa":"Creando3","nombre_empresa":"InfoApp","ciudad":"Creando"}
+[2025-11-01 14:15:17] ✅ Validación OK - Nombre: Creando, Placa: Creando3
+[2025-11-01 14:15:17] ✅ Equipo creado con ID: 138
+[2025-11-01 14:29:47] ========================================
+[2025-11-01 14:29:47] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-01 14:29:47] ========================================
+[2025-11-01 14:29:47] ========================================
+[2025-11-01 14:29:47] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-01 14:29:47] ========================================
+[2025-11-01 14:29:47] 👤 Usuario autenticado: die
+[2025-11-01 14:29:47] 📥 Input recibido: {"id":null,"nombre":"Prueba 321","marca":"Prueba 321","modelo":"Prueba 321","placa":"Prueba 321","nombre_empresa":"Prueba 321","ciudad":"Prueba 321"}
+[2025-11-01 14:29:47] ✅ Validación OK - Nombre: Prueba 321, Placa: Prueba 321
+[2025-11-01 14:29:47] ✅ Equipo creado con ID: 139
+[2025-11-01 16:45:51] ========================================
+[2025-11-01 16:45:51] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-01 16:45:51] ========================================
+[2025-11-01 16:45:51] ========================================
+[2025-11-01 16:45:51] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-01 16:45:51] ========================================
+[2025-11-01 16:45:51] 👤 Usuario autenticado: die
+[2025-11-01 16:45:51] 📥 Input recibido: {"id":null,"nombre":"Equipo Adicional 1","marca":"Equipo Adicional 1","modelo":"Equipo Adicional 1","placa":"123-Equipo Adicional 1","nombre_empresa":"Equipo Adicional 1","ciudad":"Equipo Adicional 1","activo":0,"estado_id":null,"estado_nombre":null,"estado_color":null}
+[2025-11-01 16:45:51] ✅ Validación OK - Nombre: Equipo Adicional 1, Placa: 123-Equipo Adicional 1
+[2025-11-01 16:45:51] ✅ Equipo creado con ID: 140
+[2025-11-02 13:49:39] ========================================
+[2025-11-02 13:49:39] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 13:49:39] ========================================
+[2025-11-02 13:49:39] ========================================
+[2025-11-02 13:49:39] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 13:49:39] ========================================
+[2025-11-02 13:49:39] 👤 Usuario autenticado: die
+[2025-11-02 13:49:39] 📥 Input recibido: {"id":null,"nombre":"Prueba Creando Equi","marca":"Prueba Creando Equi","modelo":"Prueba Creando Equi","placa":"123-Prueba Creando Equi","nombre_empresa":"Prueba Creando Equi","ciudad":"Prueba Creando Equi","activo":0,"estado_id":null,"estado_nombre":null,"estado_color":null}
+[2025-11-02 13:49:39] ✅ Validación OK - Nombre: Prueba Creando Equi, Placa: 123-Prueba Creando Equi
+[2025-11-02 13:49:39] ⚙️ estado_id no proporcionado, buscando estado inicial...
+[2025-11-02 13:49:39] ❌ ERROR: Table 'u342171239_InfoApp_Test.estados' doesn't exist
+[2025-11-02 14:08:19] ========================================
+[2025-11-02 14:08:19] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:08:19] ========================================
+[2025-11-02 14:08:19] ========================================
+[2025-11-02 14:08:19] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:08:19] ========================================
+[2025-11-02 14:08:19] 👤 Usuario autenticado: die
+[2025-11-02 14:08:19] 📥 Input recibido: {"id":null,"nombre":"Prueba Creando Equi","marca":"Prueba Creando Equi","modelo":"Prueba Creando Equi","placa":"123-Prueba Creando Equi","nombre_empresa":"Prueba Creando Equi","ciudad":"Prueba Creando Equi","activo":0,"estado_id":null,"estado_nombre":null,"estado_color":null}
+[2025-11-02 14:08:19] ✅ Validación OK - Nombre: Prueba Creando Equi, Placa: 123-Prueba Creando Equi
+[2025-11-02 14:08:19] ⚙️ estado_id no proporcionado, buscando estado inicial...
+[2025-11-02 14:08:19] ❌ ERROR: Table 'u342171239_InfoApp_Test.estados' doesn't exist
+[2025-11-02 14:08:25] ========================================
+[2025-11-02 14:08:25] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:08:25] ========================================
+[2025-11-02 14:21:33] ========================================
+[2025-11-02 14:21:33] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:21:33] ========================================
+[2025-11-02 14:21:33] ========================================
+[2025-11-02 14:21:33] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:21:33] ========================================
+[2025-11-02 14:21:33] 👤 Usuario autenticado: die
+[2025-11-02 14:21:33] 📥 Input recibido: {"id":null,"nombre":"Prueba Creando Equi","marca":"Prueba Creando Equi","modelo":"Prueba Creando Equi","placa":"123-Prueba Creando Equi","nombre_empresa":"Prueba Creando Equi","ciudad":"Prueba Creando Equi","activo":0,"estado_id":null,"estado_nombre":null,"estado_color":null}
+[2025-11-02 14:21:33] ✅ Validación OK - Nombre: Prueba Creando Equi, Placa: 123-Prueba Creando Equi
+[2025-11-02 14:21:33] ⚙️ estado_id no proporcionado, buscando estado inicial...
+[2025-11-02 14:21:33] ❌ ERROR: Table 'u342171239_InfoApp_Test.estados' doesn't exist
+[2025-11-02 14:22:05] ========================================
+[2025-11-02 14:22:05] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:22:05] ========================================
+[2025-11-02 14:22:25] ========================================
+[2025-11-02 14:22:25] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:22:25] ========================================
+[2025-11-02 14:24:10] ========================================
+[2025-11-02 14:24:10] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:24:10] ========================================
+[2025-11-02 14:24:10] ========================================
+[2025-11-02 14:24:10] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:24:10] ========================================
+[2025-11-02 14:24:10] 👤 Usuario autenticado: die
+[2025-11-02 14:24:10] 📥 Input recibido: {"id":null,"nombre":"Prueba Creando Equi","marca":"Prueba Creando Equi","modelo":"Prueba Creando Equi","placa":"123-Prueba Creando Equi","nombre_empresa":"Prueba Creando Equi","ciudad":"Prueba Creando Equi","activo":0,"estado_id":null,"estado_nombre":null,"estado_color":null}
+[2025-11-02 14:24:10] ✅ Validación OK - Nombre: Prueba Creando Equi, Placa: 123-Prueba Creando Equi
+[2025-11-02 14:24:10] ⚠️ estado_id no proporcionado, asignando NULL
+[2025-11-02 14:24:10] ✅ Equipo creado con ID: 141
+[2025-11-02 14:44:47] ========================================
+[2025-11-02 14:44:47] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:44:47] ========================================
+[2025-11-02 14:44:47] ========================================
+[2025-11-02 14:44:47] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:44:47] ========================================
+[2025-11-02 14:44:47] 👤 Usuario autenticado: die
+[2025-11-02 14:44:47] 📥 Input recibido: nombre=Equipo+Estado&marca=Equipo+Estado&modelo=Equipo+Estado&placa=Equipo+Estado&nombre_empresa=Equipo+Estado&ciudad=Equipo+Estado&estado_id=14&estado_nombre=Registrado
+[2025-11-02 14:44:47] ❌ ERROR: Error decodificando JSON: Syntax error
+[2025-11-02 14:45:21] ========================================
+[2025-11-02 14:45:21] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:45:21] ========================================
+[2025-11-02 14:52:39] ========================================
+[2025-11-02 14:52:39] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:52:39] ========================================
+[2025-11-02 14:52:39] ========================================
+[2025-11-02 14:52:39] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:52:39] ========================================
+[2025-11-02 14:52:39] 👤 Usuario autenticado: die
+[2025-11-02 14:52:39] 📥 Input recibido: nombre=Equipo+Estado&marca=Equipo+Estado&modelo=Equipo+Estado&placa=Equipo+Estado&nombre_empresa=Equipo+Estado&ciudad=Equipo+Estado&estado_id=14&estado_nombre=Registrado
+[2025-11-02 14:52:39] ❌ ERROR: Error decodificando JSON: Syntax error
+[2025-11-02 14:53:19] ========================================
+[2025-11-02 14:53:19] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:53:19] ========================================
+[2025-11-02 14:53:19] ========================================
+[2025-11-02 14:53:19] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:53:19] ========================================
+[2025-11-02 14:53:19] 👤 Usuario autenticado: die
+[2025-11-02 14:53:19] 📥 Input recibido: nombre=Equipo+Estado&marca=Equipo+Estado&modelo=Equipo+Estado&placa=Equipo+Estado&nombre_empresa=Equipo+Estado&ciudad=Equipo+Estado&estado_id=14&estado_nombre=Registrado
+[2025-11-02 14:53:19] ❌ ERROR: Error decodificando JSON: Syntax error
+[2025-11-02 14:53:29] ========================================
+[2025-11-02 14:53:29] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:53:29] ========================================
+[2025-11-02 14:53:29] ========================================
+[2025-11-02 14:53:29] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:53:29] ========================================
+[2025-11-02 14:53:29] 👤 Usuario autenticado: die
+[2025-11-02 14:53:29] 📥 Input recibido: nombre=Equipo+Estado&marca=Equipo+Estado&modelo=Equipo+Estado&placa=Equipo+Estado&nombre_empresa=Equipo+Estado&ciudad=Equipo+Estado&estado_id=14&estado_nombre=Registrado
+[2025-11-02 14:53:29] ❌ ERROR: Error decodificando JSON: Syntax error
+[2025-11-02 14:55:59] ========================================
+[2025-11-02 14:55:59] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:55:59] ========================================
+[2025-11-02 14:55:59] ========================================
+[2025-11-02 14:55:59] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-02 14:55:59] ========================================
+[2025-11-02 14:55:59] 👤 Usuario autenticado: die
+[2025-11-02 14:55:59] 📥 Input recibido: {"id":null,"nombre":"Equipo Estado","marca":"Equipo Estado","modelo":"Equipo Estado","placa":"Equipo Estado","nombre_empresa":"Equipo Estado","ciudad":"Equipo Estado","activo":0,"estado_id":14,"estado_nombre":"Registrado","estado_color":null}
+[2025-11-02 14:55:59] ✅ Validación OK - Nombre: Equipo Estado, Placa: Equipo Estado
+[2025-11-02 14:55:59] ✅ estado_id 14 validado correctamente
+[2025-11-02 14:55:59] ✅ Equipo creado con ID: 142
+[2025-11-06 01:00:28] ========================================
+[2025-11-06 01:00:28] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-06 01:00:28] ========================================
+[2025-11-06 01:00:28] 👤 Usuario autenticado: die
+[2025-11-06 01:00:28] 📥 Input recibido: {"nombre":"Transportador Prueba 1","marca":"xxx","modelo":"xxx","placa":"xx","codigo":"123456","nombre_empresa":"Argos","ciudad":"Medellin","planta":"Sabaneta","linea_prod":"Concretos","estado_id":14,"estado_nombre":"Registrado"}
+[2025-11-06 01:00:28] ✅ Validación OK - Nombre: Transportador Prueba 1, Placa: xx
+[2025-11-06 01:00:28] ✅ estado_id 14 validado correctamente
+[2025-11-06 01:00:28] ✅ Equipo creado con ID: 144
+[2025-11-17 13:56:58] ========================================
+[2025-11-17 13:56:58] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-17 13:56:58] ========================================
+[2025-11-17 13:56:58] 👤 Usuario autenticado: colaborador
+[2025-11-17 13:56:58] 📥 Input recibido: {"nombre":"TOLVA ALIMENTADORA","marca":"","modelo":"","placa":"TVA-001","codigo":"TVA-001","nombre_empresa":"SOCIEDAD PORTUARIA","ciudad":"BARRANQUILLA","planta":"","linea_prod":"PATIO CARBON","estado_id":14,"estado_nombre":"Registrado"}
+[2025-11-17 13:56:58] ✅ Validación OK - Nombre: TOLVA ALIMENTADORA, Placa: TVA-001
+[2025-11-17 13:56:58] ✅ estado_id 14 validado correctamente
+[2025-11-17 13:56:58] ✅ Equipo creado con ID: 145
+[2025-11-17 20:22:14] ========================================
+[2025-11-17 20:22:14] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-17 20:22:14] ========================================
+[2025-11-17 20:22:14] ========================================
+[2025-11-17 20:22:14] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-17 20:22:14] ========================================
+[2025-11-17 20:22:14] 👤 Usuario autenticado: colaborador
+[2025-11-17 20:22:14] 📥 Input recibido: {"nombre":"MIXER","marca":"INTERNATIONAL","modelo":"2025","placa":"XXX-000","codigo":"mx-01","nombre_empresa":"cemex","ciudad":"pereira","planta":"planta pereira","linea_prod":"Concretos","estado_id":14,"estado_nombre":"Registrado"}
+[2025-11-17 20:22:14] ✅ Validación OK - Nombre: MIXER, Placa: XXX-000
+[2025-11-17 20:22:14] ✅ estado_id 14 validado correctamente
+[2025-11-17 20:22:14] ✅ Equipo creado con ID: 146
+[2025-11-24 03:45:10] ========================================
+[2025-11-24 03:45:10] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-24 03:45:10] ========================================
+[2025-11-24 03:45:10] 👤 Usuario autenticado: colaborador
+[2025-11-24 03:45:10] 📥 Input recibido: {"nombre":"EQUIPO 123456","marca":"ASUS","modelo":"2025","placa":"123456","codigo":"E-123","nombre_empresa":"Argos","ciudad":"BARRANQUILLA","planta":"Casa","linea_prod":"dev","estado_id":14,"estado_nombre":"Registrado"}
+[2025-11-24 03:45:10] ✅ Validación OK - Nombre: EQUIPO 123456, Placa: 123456
+[2025-11-24 03:45:10] ✅ estado_id 14 validado correctamente
+[2025-11-24 03:45:10] ✅ Equipo creado con ID: 147
+[2025-11-24 12:12:17] ========================================
+[2025-11-24 12:12:17] 🆕 NUEVA REQUEST - CREAR EQUIPO
+[2025-11-24 12:12:17] ========================================
+[2025-11-24 12:12:17] 👤 Usuario autenticado: colaborador
+[2025-11-24 12:12:17] 📥 Input recibido: {"nombre":"PRUEBA PROYECTO","marca":"PROYECTO","modelo":"2025","placa":"N/A","codigo":"P123","nombre_empresa":"MATERIA PROYECTO","ciudad":"BARRANQUILLA","planta":"CUL","linea_prod":"INGENENIERIA DE SISTEMAS","estado_id":14,"estado_nombre":"Registrado"}
+[2025-11-24 12:12:17] ✅ Validación OK - Nombre: PRUEBA PROYECTO, Placa: N/A
+[2025-11-24 12:12:17] ✅ estado_id 14 validado correctamente
+[2025-11-24 12:12:17] ✅ Equipo creado con ID: 148

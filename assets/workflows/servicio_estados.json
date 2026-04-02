@@ -1,0 +1,27 @@
+{
+  "allowUnconfiguredTransitions": true,
+  "estados": [
+    { "id": "registrado", "nombre": "Registrado", "colorHex": "#1976D2" },
+    { "id": "en_conocimiento", "nombre": "En Conocimiento", "colorHex": "#FB8C00" },
+    { "id": "en_progreso", "nombre": "En Progreso", "colorHex": "#E57373" },
+    { "id": "caso_perdido", "nombre": "Caso Perdido", "colorHex": "#C8E6C9" },
+    { "id": "solicitud_info", "nombre": "Solicitud de Información", "colorHex": "#64B5F6" },
+    { "id": "caso_rechazado", "nombre": "Caso Rechazado", "colorHex": "#B0BEC5" },
+    { "id": "solucionado", "nombre": "Solucionado", "colorHex": "#4DB6AC" },
+    { "id": "resultado_valoracion", "nombre": "Resultado Valoración", "colorHex": "#BA68C8" },
+    { "id": "encuesta", "nombre": "Encuesta", "colorHex": "#E0E0E0" },
+    { "id": "finalizado", "nombre": "Finalizado", "colorHex": "#616161" }
+  ],
+  "transiciones": [
+    { "from": "registrado", "to": "en_conocimiento" },
+    { "from": "en_conocimiento", "to": "en_progreso" },
+    { "from": "en_progreso", "to": "solicitud_info" },
+    { "from": "solicitud_info", "to": "en_progreso" },
+    { "from": "en_progreso", "to": "solucionado" },
+    { "from": "solucionado", "to": "resultado_valoracion" },
+    { "from": "resultado_valoracion", "to": "encuesta" },
+    { "from": "encuesta", "to": "finalizado" },
+    { "from": "en_progreso", "to": "caso_perdido" },
+    { "from": "solicitud_info", "to": "caso_rechazado" }
+  ]
+}

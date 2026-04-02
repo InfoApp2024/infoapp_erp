@@ -1,0 +1,525 @@
+[2025-11-15 22:50:03][MEM: 0.36MB] ========================================
+[2025-11-15 22:50:03][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-15 22:50:03][MEM: 0.36MB] ========================================
+[2025-11-15 22:50:03][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-15 22:50:03][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-15 22:50:03][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-15 22:50:03][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-15 22:50:04][MEM: 0.36MB] ========================================
+[2025-11-15 22:50:04][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-15 22:50:04][MEM: 0.36MB] ========================================
+[2025-11-15 22:50:04][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-15 22:50:04][MEM: 0.36MB] 📨 Método: POST
+[2025-11-15 22:50:04][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-15 22:50:04][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-15 22:50:04][MEM: 0.36MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-15 22:50:04][MEM: 0.36MB] ✅ Acceso registrado
+[2025-11-15 22:50:04][MEM: 0.36MB] 📦 Requiriendo conexión...
+[2025-11-15 22:50:04][MEM: 0.4MB] ✅ conexion.php cargado
+[2025-11-15 22:50:04][MEM: 0.41MB] 📥 Raw input length: 7790
+[2025-11-15 22:50:04][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-15 22:50:04][MEM: 0.42MB] 📋 Parámetros recibidos:
+[2025-11-15 22:50:04][MEM: 0.42MB]    id: 7
+[2025-11-15 22:50:04][MEM: 0.42MB]    nombre: Plantilla General
+[2025-11-15 22:50:04][MEM: 0.42MB]    cliente_id: NULL
+[2025-11-15 22:50:04][MEM: 0.42MB]    es_general: 1
+[2025-11-15 22:50:04][MEM: 0.42MB]    contenido_html length: 7413
+[2025-11-15 22:50:04][MEM: 0.42MB] ✅ id válido: 7
+[2025-11-15 22:50:04][MEM: 0.42MB] 🔍 Verificando si plantilla existe: 7
+[2025-11-15 22:50:04][MEM: 0.46MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-15 22:50:04][MEM: 0.44MB]    → Actualizará nombre
+[2025-11-15 22:50:04][MEM: 0.44MB]    → Actualizará es_general
+[2025-11-15 22:50:04][MEM: 0.44MB]    → Forzando cliente_id = NULL (es general)
+[2025-11-15 22:50:04][MEM: 0.44MB]    → Actualizará contenido_html
+[2025-11-15 22:50:04][MEM: 0.44MB] 📝 SQL: UPDATE plantillas SET nombre = ?, es_general = ?, cliente_id = NULL, contenido_html = ?, fecha_actualizacion = NOW() WHERE id = ?
+[2025-11-15 22:50:04][MEM: 0.44MB] 🔗 Types: sisi
+[2025-11-15 22:50:04][MEM: 0.44MB] ▶️ Ejecutando UPDATE...
+[2025-11-15 22:50:04][MEM: 0.44MB] ✅ UPDATE EXITOSO
+[2025-11-15 22:50:04][MEM: 0.49MB] 📤 Enviando respuesta exitosa...
+[2025-11-15 23:07:41][MEM: 0.36MB] ========================================
+[2025-11-15 23:07:41][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-15 23:07:41][MEM: 0.36MB] ========================================
+[2025-11-15 23:07:41][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-15 23:07:41][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-15 23:07:41][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-15 23:07:41][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-15 23:07:41][MEM: 0.36MB] ========================================
+[2025-11-15 23:07:41][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-15 23:07:41][MEM: 0.36MB] ========================================
+[2025-11-15 23:07:41][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-15 23:07:41][MEM: 0.36MB] 📨 Método: POST
+[2025-11-15 23:07:41][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-15 23:07:41][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-15 23:07:41][MEM: 0.36MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-15 23:07:41][MEM: 0.36MB] ✅ Acceso registrado
+[2025-11-15 23:07:41][MEM: 0.36MB] 📦 Requiriendo conexión...
+[2025-11-15 23:07:41][MEM: 0.4MB] ✅ conexion.php cargado
+[2025-11-15 23:07:41][MEM: 0.41MB] 📥 Raw input length: 8065
+[2025-11-15 23:07:41][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-15 23:07:41][MEM: 0.42MB] 📋 Parámetros recibidos:
+[2025-11-15 23:07:41][MEM: 0.42MB]    id: 7
+[2025-11-15 23:07:41][MEM: 0.42MB]    nombre: Plantilla General
+[2025-11-15 23:07:41][MEM: 0.42MB]    cliente_id: NULL
+[2025-11-15 23:07:41][MEM: 0.42MB]    es_general: 1
+[2025-11-15 23:07:41][MEM: 0.42MB]    contenido_html length: 7673
+[2025-11-15 23:07:41][MEM: 0.42MB] ✅ id válido: 7
+[2025-11-15 23:07:41][MEM: 0.42MB] 🔍 Verificando si plantilla existe: 7
+[2025-11-15 23:07:41][MEM: 0.46MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-15 23:07:41][MEM: 0.44MB]    → Actualizará nombre
+[2025-11-15 23:07:41][MEM: 0.44MB]    → Actualizará es_general
+[2025-11-15 23:07:41][MEM: 0.44MB]    → Forzando cliente_id = NULL (es general)
+[2025-11-15 23:07:41][MEM: 0.44MB]    → Actualizará contenido_html
+[2025-11-15 23:07:41][MEM: 0.44MB] 📝 SQL: UPDATE plantillas SET nombre = ?, es_general = ?, cliente_id = NULL, contenido_html = ?, fecha_actualizacion = NOW() WHERE id = ?
+[2025-11-15 23:07:41][MEM: 0.44MB] 🔗 Types: sisi
+[2025-11-15 23:07:41][MEM: 0.44MB] ▶️ Ejecutando UPDATE...
+[2025-11-15 23:07:41][MEM: 0.44MB] ✅ UPDATE EXITOSO
+[2025-11-15 23:07:41][MEM: 0.49MB] 📤 Enviando respuesta exitosa...
+[2025-11-15 23:12:21][MEM: 0.35MB] ========================================
+[2025-11-15 23:12:21][MEM: 0.35MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-15 23:12:21][MEM: 0.35MB] ========================================
+[2025-11-15 23:12:21][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-15 23:12:21][MEM: 0.35MB] 📨 Método: OPTIONS
+[2025-11-15 23:12:21][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-15 23:12:21][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-15 23:12:22][MEM: 0.36MB] ========================================
+[2025-11-15 23:12:22][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-15 23:12:22][MEM: 0.36MB] ========================================
+[2025-11-15 23:12:22][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-15 23:12:22][MEM: 0.36MB] 📨 Método: POST
+[2025-11-15 23:12:22][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-15 23:12:22][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-15 23:12:22][MEM: 0.36MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-15 23:12:22][MEM: 0.36MB] ✅ Acceso registrado
+[2025-11-15 23:12:22][MEM: 0.36MB] 📦 Requiriendo conexión...
+[2025-11-15 23:12:22][MEM: 0.4MB] ✅ conexion.php cargado
+[2025-11-15 23:12:22][MEM: 0.41MB] 📥 Raw input length: 8101
+[2025-11-15 23:12:22][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-15 23:12:22][MEM: 0.42MB] 📋 Parámetros recibidos:
+[2025-11-15 23:12:22][MEM: 0.42MB]    id: 7
+[2025-11-15 23:12:22][MEM: 0.42MB]    nombre: Plantilla General
+[2025-11-15 23:12:22][MEM: 0.42MB]    cliente_id: NULL
+[2025-11-15 23:12:22][MEM: 0.42MB]    es_general: 1
+[2025-11-15 23:12:22][MEM: 0.42MB]    contenido_html length: 7707
+[2025-11-15 23:12:22][MEM: 0.42MB] ✅ id válido: 7
+[2025-11-15 23:12:22][MEM: 0.42MB] 🔍 Verificando si plantilla existe: 7
+[2025-11-15 23:12:22][MEM: 0.46MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-15 23:12:22][MEM: 0.44MB]    → Actualizará nombre
+[2025-11-15 23:12:22][MEM: 0.44MB]    → Actualizará es_general
+[2025-11-15 23:12:22][MEM: 0.44MB]    → Forzando cliente_id = NULL (es general)
+[2025-11-15 23:12:22][MEM: 0.44MB]    → Actualizará contenido_html
+[2025-11-15 23:12:22][MEM: 0.44MB] 📝 SQL: UPDATE plantillas SET nombre = ?, es_general = ?, cliente_id = NULL, contenido_html = ?, fecha_actualizacion = NOW() WHERE id = ?
+[2025-11-15 23:12:22][MEM: 0.44MB] 🔗 Types: sisi
+[2025-11-15 23:12:22][MEM: 0.44MB] ▶️ Ejecutando UPDATE...
+[2025-11-15 23:12:22][MEM: 0.44MB] ✅ UPDATE EXITOSO
+[2025-11-15 23:12:22][MEM: 0.49MB] 📤 Enviando respuesta exitosa...
+[2025-11-15 23:30:15][MEM: 0.36MB] ========================================
+[2025-11-15 23:30:15][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-15 23:30:15][MEM: 0.36MB] ========================================
+[2025-11-15 23:30:15][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-15 23:30:15][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-15 23:30:15][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-15 23:30:15][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-15 23:30:15][MEM: 0.36MB] ========================================
+[2025-11-15 23:30:15][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-15 23:30:15][MEM: 0.36MB] ========================================
+[2025-11-15 23:30:15][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-15 23:30:15][MEM: 0.36MB] 📨 Método: POST
+[2025-11-15 23:30:15][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-15 23:30:15][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-15 23:30:15][MEM: 0.36MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-15 23:30:15][MEM: 0.36MB] ✅ Acceso registrado
+[2025-11-15 23:30:15][MEM: 0.36MB] 📦 Requiriendo conexión...
+[2025-11-15 23:30:15][MEM: 0.4MB] ✅ conexion.php cargado
+[2025-11-15 23:30:15][MEM: 0.41MB] 📥 Raw input length: 8135
+[2025-11-15 23:30:15][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-15 23:30:15][MEM: 0.42MB] 📋 Parámetros recibidos:
+[2025-11-15 23:30:15][MEM: 0.42MB]    id: 7
+[2025-11-15 23:30:15][MEM: 0.42MB]    nombre: Plantilla General
+[2025-11-15 23:30:15][MEM: 0.42MB]    cliente_id: NULL
+[2025-11-15 23:30:15][MEM: 0.42MB]    es_general: 1
+[2025-11-15 23:30:15][MEM: 0.42MB]    contenido_html length: 7741
+[2025-11-15 23:30:15][MEM: 0.42MB] ✅ id válido: 7
+[2025-11-15 23:30:15][MEM: 0.42MB] 🔍 Verificando si plantilla existe: 7
+[2025-11-15 23:30:15][MEM: 0.46MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-15 23:30:15][MEM: 0.44MB]    → Actualizará nombre
+[2025-11-15 23:30:15][MEM: 0.44MB]    → Actualizará es_general
+[2025-11-15 23:30:15][MEM: 0.44MB]    → Forzando cliente_id = NULL (es general)
+[2025-11-15 23:30:15][MEM: 0.44MB]    → Actualizará contenido_html
+[2025-11-15 23:30:15][MEM: 0.44MB] 📝 SQL: UPDATE plantillas SET nombre = ?, es_general = ?, cliente_id = NULL, contenido_html = ?, fecha_actualizacion = NOW() WHERE id = ?
+[2025-11-15 23:30:15][MEM: 0.44MB] 🔗 Types: sisi
+[2025-11-15 23:30:15][MEM: 0.44MB] ▶️ Ejecutando UPDATE...
+[2025-11-15 23:30:15][MEM: 0.44MB] ✅ UPDATE EXITOSO
+[2025-11-15 23:30:15][MEM: 0.49MB] 📤 Enviando respuesta exitosa...
+[2025-11-15 23:37:48][MEM: 0.36MB] ========================================
+[2025-11-15 23:37:48][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-15 23:37:48][MEM: 0.36MB] ========================================
+[2025-11-15 23:37:48][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-15 23:37:48][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-15 23:37:48][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-15 23:37:48][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-15 23:37:48][MEM: 0.36MB] ========================================
+[2025-11-15 23:37:48][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-15 23:37:48][MEM: 0.36MB] ========================================
+[2025-11-15 23:37:48][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-15 23:37:48][MEM: 0.36MB] 📨 Método: POST
+[2025-11-15 23:37:48][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-15 23:37:48][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-15 23:37:48][MEM: 0.36MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-15 23:37:48][MEM: 0.36MB] ✅ Acceso registrado
+[2025-11-15 23:37:48][MEM: 0.36MB] 📦 Requiriendo conexión...
+[2025-11-15 23:37:48][MEM: 0.4MB] ✅ conexion.php cargado
+[2025-11-15 23:37:48][MEM: 0.41MB] 📥 Raw input length: 8146
+[2025-11-15 23:37:48][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-15 23:37:48][MEM: 0.42MB] 📋 Parámetros recibidos:
+[2025-11-15 23:37:48][MEM: 0.42MB]    id: 7
+[2025-11-15 23:37:48][MEM: 0.42MB]    nombre: Plantilla General
+[2025-11-15 23:37:48][MEM: 0.42MB]    cliente_id: NULL
+[2025-11-15 23:37:48][MEM: 0.42MB]    es_general: 1
+[2025-11-15 23:37:48][MEM: 0.42MB]    contenido_html length: 7752
+[2025-11-15 23:37:48][MEM: 0.42MB] ✅ id válido: 7
+[2025-11-15 23:37:48][MEM: 0.42MB] 🔍 Verificando si plantilla existe: 7
+[2025-11-15 23:37:48][MEM: 0.46MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-15 23:37:48][MEM: 0.44MB]    → Actualizará nombre
+[2025-11-15 23:37:48][MEM: 0.44MB]    → Actualizará es_general
+[2025-11-15 23:37:48][MEM: 0.44MB]    → Forzando cliente_id = NULL (es general)
+[2025-11-15 23:37:48][MEM: 0.44MB]    → Actualizará contenido_html
+[2025-11-15 23:37:48][MEM: 0.44MB] 📝 SQL: UPDATE plantillas SET nombre = ?, es_general = ?, cliente_id = NULL, contenido_html = ?, fecha_actualizacion = NOW() WHERE id = ?
+[2025-11-15 23:37:48][MEM: 0.44MB] 🔗 Types: sisi
+[2025-11-15 23:37:48][MEM: 0.44MB] ▶️ Ejecutando UPDATE...
+[2025-11-15 23:37:48][MEM: 0.44MB] ✅ UPDATE EXITOSO
+[2025-11-15 23:37:48][MEM: 0.49MB] 📤 Enviando respuesta exitosa...
+[2025-11-16 16:11:49][MEM: 0.36MB] ========================================
+[2025-11-16 16:11:49][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-16 16:11:49][MEM: 0.36MB] ========================================
+[2025-11-16 16:11:49][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-16 16:11:49][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-16 16:11:49][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-16 16:11:49][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-16 16:11:49][MEM: 0.36MB] ========================================
+[2025-11-16 16:11:49][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-16 16:11:49][MEM: 0.36MB] ========================================
+[2025-11-16 16:11:49][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-16 16:11:49][MEM: 0.36MB] 📨 Método: POST
+[2025-11-16 16:11:49][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-16 16:11:49][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-16 16:11:49][MEM: 0.36MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 16:11:49][MEM: 0.36MB] ✅ Acceso registrado
+[2025-11-16 16:11:49][MEM: 0.36MB] 📦 Requiriendo conexión...
+[2025-11-16 16:11:49][MEM: 0.4MB] ✅ conexion.php cargado
+[2025-11-16 16:11:49][MEM: 0.41MB] 📥 Raw input length: 8103
+[2025-11-16 16:11:49][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-16 16:11:49][MEM: 0.42MB] 📋 Parámetros recibidos:
+[2025-11-16 16:11:49][MEM: 0.42MB]    id: 7
+[2025-11-16 16:11:49][MEM: 0.42MB]    nombre: Plantilla General
+[2025-11-16 16:11:49][MEM: 0.42MB]    cliente_id: NULL
+[2025-11-16 16:11:49][MEM: 0.42MB]    es_general: 1
+[2025-11-16 16:11:49][MEM: 0.42MB]    contenido_html length: 7715
+[2025-11-16 16:11:49][MEM: 0.42MB] ✅ id válido: 7
+[2025-11-16 16:11:49][MEM: 0.42MB] 🔍 Verificando si plantilla existe: 7
+[2025-11-16 16:11:49][MEM: 0.46MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-16 16:11:49][MEM: 0.44MB]    → Actualizará nombre
+[2025-11-16 16:11:49][MEM: 0.44MB]    → Actualizará es_general
+[2025-11-16 16:11:49][MEM: 0.44MB]    → Forzando cliente_id = NULL (es general)
+[2025-11-16 16:11:49][MEM: 0.44MB]    → Actualizará contenido_html
+[2025-11-16 16:11:49][MEM: 0.44MB] 📝 SQL: UPDATE plantillas SET nombre = ?, es_general = ?, cliente_id = NULL, contenido_html = ?, fecha_actualizacion = NOW() WHERE id = ?
+[2025-11-16 16:11:49][MEM: 0.44MB] 🔗 Types: sisi
+[2025-11-16 16:11:49][MEM: 0.44MB] ▶️ Ejecutando UPDATE...
+[2025-11-16 16:11:49][MEM: 0.44MB] ✅ UPDATE EXITOSO
+[2025-11-16 16:11:49][MEM: 0.49MB] 📤 Enviando respuesta exitosa...
+[2025-11-16 16:11:50][MEM: 0.36MB] ========================================
+[2025-11-16 16:11:50][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-16 16:11:50][MEM: 0.36MB] ========================================
+[2025-11-16 16:11:50][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-16 16:11:50][MEM: 0.36MB] 📨 Método: POST
+[2025-11-16 16:11:50][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-16 16:11:50][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-16 16:11:50][MEM: 0.36MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-16 16:11:50][MEM: 0.36MB] ✅ Acceso registrado
+[2025-11-16 16:11:50][MEM: 0.36MB] 📦 Requiriendo conexión...
+[2025-11-16 16:11:50][MEM: 0.4MB] ✅ conexion.php cargado
+[2025-11-16 16:11:50][MEM: 0.41MB] 📥 Raw input length: 8103
+[2025-11-16 16:11:50][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-16 16:11:50][MEM: 0.42MB] 📋 Parámetros recibidos:
+[2025-11-16 16:11:50][MEM: 0.42MB]    id: 7
+[2025-11-16 16:11:50][MEM: 0.42MB]    nombre: Plantilla General
+[2025-11-16 16:11:50][MEM: 0.42MB]    cliente_id: NULL
+[2025-11-16 16:11:50][MEM: 0.42MB]    es_general: 1
+[2025-11-16 16:11:50][MEM: 0.42MB]    contenido_html length: 7715
+[2025-11-16 16:11:50][MEM: 0.42MB] ✅ id válido: 7
+[2025-11-16 16:11:50][MEM: 0.42MB] 🔍 Verificando si plantilla existe: 7
+[2025-11-16 16:11:50][MEM: 0.46MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-16 16:11:50][MEM: 0.44MB]    → Actualizará nombre
+[2025-11-16 16:11:50][MEM: 0.44MB]    → Actualizará es_general
+[2025-11-16 16:11:50][MEM: 0.44MB]    → Forzando cliente_id = NULL (es general)
+[2025-11-16 16:11:50][MEM: 0.44MB]    → Actualizará contenido_html
+[2025-11-16 16:11:50][MEM: 0.44MB] 📝 SQL: UPDATE plantillas SET nombre = ?, es_general = ?, cliente_id = NULL, contenido_html = ?, fecha_actualizacion = NOW() WHERE id = ?
+[2025-11-16 16:11:50][MEM: 0.44MB] 🔗 Types: sisi
+[2025-11-16 16:11:50][MEM: 0.44MB] ▶️ Ejecutando UPDATE...
+[2025-11-16 16:11:50][MEM: 0.44MB] ✅ UPDATE EXITOSO
+[2025-11-16 16:11:50][MEM: 0.49MB] 📤 Enviando respuesta exitosa...
+[2025-11-17 22:19:08][MEM: 0.36MB] ========================================
+[2025-11-17 22:19:08][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-17 22:19:08][MEM: 0.36MB] ========================================
+[2025-11-17 22:19:08][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-17 22:19:08][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-17 22:19:08][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-17 22:19:08][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-17 22:19:08][MEM: 0.36MB] ========================================
+[2025-11-17 22:19:08][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-17 22:19:08][MEM: 0.36MB] ========================================
+[2025-11-17 22:19:08][MEM: 0.36MB] 🌐 IP: 167.0.221.145
+[2025-11-17 22:19:08][MEM: 0.36MB] 📨 Método: POST
+[2025-11-17 22:19:08][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-17 22:19:08][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-17 22:19:08][MEM: 0.37MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 22:19:08][MEM: 0.37MB] ✅ Acceso registrado
+[2025-11-17 22:19:08][MEM: 0.37MB] 📦 Requiriendo conexión...
+[2025-11-17 22:19:08][MEM: 0.41MB] ✅ conexion.php cargado
+[2025-11-17 22:19:08][MEM: 0.42MB] 📥 Raw input length: 8283
+[2025-11-17 22:19:08][MEM: 0.43MB] ✅ JSON decodificado correctamente
+[2025-11-17 22:19:08][MEM: 0.43MB] 📋 Parámetros recibidos:
+[2025-11-17 22:19:08][MEM: 0.43MB]    id: 7
+[2025-11-17 22:19:08][MEM: 0.43MB]    nombre: Plantilla General
+[2025-11-17 22:19:08][MEM: 0.43MB]    cliente_id: NULL
+[2025-11-17 22:19:08][MEM: 0.43MB]    es_general: 1
+[2025-11-17 22:19:08][MEM: 0.43MB]    contenido_html length: 7883
+[2025-11-17 22:19:08][MEM: 0.43MB] ✅ id válido: 7
+[2025-11-17 22:19:08][MEM: 0.43MB] 🔍 Verificando si plantilla existe: 7
+[2025-11-17 22:19:08][MEM: 0.46MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-17 22:19:08][MEM: 0.44MB]    → Actualizará nombre
+[2025-11-17 22:19:08][MEM: 0.44MB]    → Actualizará es_general
+[2025-11-17 22:19:08][MEM: 0.44MB]    → Forzando cliente_id = NULL (es general)
+[2025-11-17 22:19:08][MEM: 0.44MB]    → Actualizará contenido_html
+[2025-11-17 22:19:08][MEM: 0.44MB] 📝 SQL: UPDATE plantillas SET nombre = ?, es_general = ?, cliente_id = NULL, contenido_html = ?, fecha_actualizacion = NOW() WHERE id = ?
+[2025-11-17 22:19:08][MEM: 0.44MB] 🔗 Types: sisi
+[2025-11-17 22:19:08][MEM: 0.45MB] ▶️ Ejecutando UPDATE...
+[2025-11-17 22:19:08][MEM: 0.45MB] ✅ UPDATE EXITOSO
+[2025-11-17 22:19:08][MEM: 0.49MB] 📤 Enviando respuesta exitosa...
+[2025-11-18 10:27:46][MEM: 0.36MB] ========================================
+[2025-11-18 10:27:46][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-18 10:27:46][MEM: 0.36MB] ========================================
+[2025-11-18 10:27:46][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 10:27:46][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-18 10:27:46][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-18 10:27:46][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 10:27:46][MEM: 0.36MB] ========================================
+[2025-11-18 10:27:46][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-18 10:27:46][MEM: 0.36MB] ========================================
+[2025-11-18 10:27:46][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 10:27:46][MEM: 0.36MB] 📨 Método: POST
+[2025-11-18 10:27:46][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-18 10:27:46][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 10:27:46][MEM: 0.37MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-18 10:27:46][MEM: 0.37MB] ✅ Acceso registrado
+[2025-11-18 10:27:46][MEM: 0.37MB] 📦 Requiriendo conexión...
+[2025-11-18 10:27:46][MEM: 0.41MB] ✅ conexion.php cargado
+[2025-11-18 10:27:46][MEM: 0.42MB] 📥 Raw input length: 8654
+[2025-11-18 10:27:46][MEM: 0.43MB] ✅ JSON decodificado correctamente
+[2025-11-18 10:27:46][MEM: 0.43MB] 📋 Parámetros recibidos:
+[2025-11-18 10:27:46][MEM: 0.43MB]    id: 7
+[2025-11-18 10:27:46][MEM: 0.43MB]    nombre: Plantilla General
+[2025-11-18 10:27:46][MEM: 0.43MB]    cliente_id: NULL
+[2025-11-18 10:27:46][MEM: 0.43MB]    es_general: 1
+[2025-11-18 10:27:46][MEM: 0.43MB]    contenido_html length: 8239
+[2025-11-18 10:27:46][MEM: 0.43MB] ✅ id válido: 7
+[2025-11-18 10:27:46][MEM: 0.43MB] 🔍 Verificando si plantilla existe: 7
+[2025-11-18 10:27:46][MEM: 0.47MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-18 10:27:46][MEM: 0.45MB]    → Actualizará nombre
+[2025-11-18 10:27:46][MEM: 0.45MB]    → Actualizará es_general
+[2025-11-18 10:27:46][MEM: 0.45MB]    → Forzando cliente_id = NULL (es general)
+[2025-11-18 10:27:46][MEM: 0.45MB]    → Actualizará contenido_html
+[2025-11-18 10:27:46][MEM: 0.45MB] 📝 SQL: UPDATE plantillas SET nombre = ?, es_general = ?, cliente_id = NULL, contenido_html = ?, fecha_actualizacion = NOW() WHERE id = ?
+[2025-11-18 10:27:46][MEM: 0.45MB] 🔗 Types: sisi
+[2025-11-18 10:27:46][MEM: 0.45MB] ▶️ Ejecutando UPDATE...
+[2025-11-18 10:27:46][MEM: 0.45MB] ✅ UPDATE EXITOSO
+[2025-11-18 10:27:46][MEM: 0.5MB] 📤 Enviando respuesta exitosa...
+[2025-11-18 10:30:22][MEM: 0.35MB] ========================================
+[2025-11-18 10:30:22][MEM: 0.35MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-18 10:30:22][MEM: 0.35MB] ========================================
+[2025-11-18 10:30:22][MEM: 0.35MB] 🌐 IP: 167.0.252.80
+[2025-11-18 10:30:22][MEM: 0.35MB] 📨 Método: OPTIONS
+[2025-11-18 10:30:22][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-18 10:30:22][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-18 10:30:23][MEM: 0.36MB] ========================================
+[2025-11-18 10:30:23][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-18 10:30:23][MEM: 0.36MB] ========================================
+[2025-11-18 10:30:23][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 10:30:23][MEM: 0.36MB] 📨 Método: POST
+[2025-11-18 10:30:23][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-18 10:30:23][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 10:30:23][MEM: 0.37MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-18 10:30:23][MEM: 0.37MB] ✅ Acceso registrado
+[2025-11-18 10:30:23][MEM: 0.37MB] 📦 Requiriendo conexión...
+[2025-11-18 10:30:23][MEM: 0.41MB] ✅ conexion.php cargado
+[2025-11-18 10:30:23][MEM: 0.42MB] 📥 Raw input length: 8679
+[2025-11-18 10:30:23][MEM: 0.43MB] ✅ JSON decodificado correctamente
+[2025-11-18 10:30:23][MEM: 0.43MB] 📋 Parámetros recibidos:
+[2025-11-18 10:30:23][MEM: 0.43MB]    id: 7
+[2025-11-18 10:30:23][MEM: 0.43MB]    nombre: Plantilla General
+[2025-11-18 10:30:23][MEM: 0.43MB]    cliente_id: NULL
+[2025-11-18 10:30:23][MEM: 0.43MB]    es_general: 1
+[2025-11-18 10:30:23][MEM: 0.43MB]    contenido_html length: 8263
+[2025-11-18 10:30:23][MEM: 0.43MB] ✅ id válido: 7
+[2025-11-18 10:30:23][MEM: 0.43MB] 🔍 Verificando si plantilla existe: 7
+[2025-11-18 10:30:23][MEM: 0.47MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-18 10:30:23][MEM: 0.45MB]    → Actualizará nombre
+[2025-11-18 10:30:23][MEM: 0.45MB]    → Actualizará es_general
+[2025-11-18 10:30:23][MEM: 0.45MB]    → Forzando cliente_id = NULL (es general)
+[2025-11-18 10:30:23][MEM: 0.45MB]    → Actualizará contenido_html
+[2025-11-18 10:30:23][MEM: 0.45MB] 📝 SQL: UPDATE plantillas SET nombre = ?, es_general = ?, cliente_id = NULL, contenido_html = ?, fecha_actualizacion = NOW() WHERE id = ?
+[2025-11-18 10:30:23][MEM: 0.45MB] 🔗 Types: sisi
+[2025-11-18 10:30:23][MEM: 0.45MB] ▶️ Ejecutando UPDATE...
+[2025-11-18 10:30:23][MEM: 0.45MB] ✅ UPDATE EXITOSO
+[2025-11-18 10:30:23][MEM: 0.5MB] 📤 Enviando respuesta exitosa...
+[2025-11-18 10:47:09][MEM: 0.36MB] ========================================
+[2025-11-18 10:47:09][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-18 10:47:09][MEM: 0.36MB] ========================================
+[2025-11-18 10:47:09][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 10:47:09][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-18 10:47:09][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-18 10:47:09][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 10:47:09][MEM: 0.36MB] ========================================
+[2025-11-18 10:47:09][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-18 10:47:09][MEM: 0.36MB] ========================================
+[2025-11-18 10:47:09][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 10:47:09][MEM: 0.36MB] 📨 Método: POST
+[2025-11-18 10:47:09][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-18 10:47:09][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 10:47:09][MEM: 0.37MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-18 10:47:09][MEM: 0.37MB] ✅ Acceso registrado
+[2025-11-18 10:47:09][MEM: 0.37MB] 📦 Requiriendo conexión...
+[2025-11-18 10:47:09][MEM: 0.41MB] ✅ conexion.php cargado
+[2025-11-18 10:47:09][MEM: 0.42MB] 📥 Raw input length: 8846
+[2025-11-18 10:47:09][MEM: 0.43MB] ✅ JSON decodificado correctamente
+[2025-11-18 10:47:09][MEM: 0.43MB] 📋 Parámetros recibidos:
+[2025-11-18 10:47:09][MEM: 0.43MB]    id: 7
+[2025-11-18 10:47:09][MEM: 0.43MB]    nombre: Plantilla General
+[2025-11-18 10:47:09][MEM: 0.43MB]    cliente_id: NULL
+[2025-11-18 10:47:09][MEM: 0.43MB]    es_general: 1
+[2025-11-18 10:47:09][MEM: 0.43MB]    contenido_html length: 8424
+[2025-11-18 10:47:09][MEM: 0.43MB] ✅ id válido: 7
+[2025-11-18 10:47:09][MEM: 0.43MB] 🔍 Verificando si plantilla existe: 7
+[2025-11-18 10:47:09][MEM: 0.47MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-18 10:47:09][MEM: 0.45MB]    → Actualizará nombre
+[2025-11-18 10:47:09][MEM: 0.45MB]    → Actualizará es_general
+[2025-11-18 10:47:09][MEM: 0.45MB]    → Forzando cliente_id = NULL (es general)
+[2025-11-18 10:47:09][MEM: 0.45MB]    → Actualizará contenido_html
+[2025-11-18 10:47:09][MEM: 0.45MB] 📝 SQL: UPDATE plantillas SET nombre = ?, es_general = ?, cliente_id = NULL, contenido_html = ?, fecha_actualizacion = NOW() WHERE id = ?
+[2025-11-18 10:47:09][MEM: 0.45MB] 🔗 Types: sisi
+[2025-11-18 10:47:09][MEM: 0.45MB] ▶️ Ejecutando UPDATE...
+[2025-11-18 10:47:09][MEM: 0.45MB] ✅ UPDATE EXITOSO
+[2025-11-18 10:47:09][MEM: 0.5MB] 📤 Enviando respuesta exitosa...
+[2025-11-18 10:55:27][MEM: 0.36MB] ========================================
+[2025-11-18 10:55:27][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-18 10:55:27][MEM: 0.36MB] ========================================
+[2025-11-18 10:55:27][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 10:55:27][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-18 10:55:27][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-18 10:55:27][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 10:55:27][MEM: 0.36MB] ========================================
+[2025-11-18 10:55:27][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-18 10:55:27][MEM: 0.36MB] ========================================
+[2025-11-18 10:55:27][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 10:55:27][MEM: 0.36MB] 📨 Método: POST
+[2025-11-18 10:55:27][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-18 10:55:27][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 10:55:27][MEM: 0.37MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-18 10:55:27][MEM: 0.37MB] ✅ Acceso registrado
+[2025-11-18 10:55:27][MEM: 0.37MB] 📦 Requiriendo conexión...
+[2025-11-18 10:55:27][MEM: 0.41MB] ✅ conexion.php cargado
+[2025-11-18 10:55:27][MEM: 0.42MB] 📥 Raw input length: 9218
+[2025-11-18 10:55:27][MEM: 0.43MB] ✅ JSON decodificado correctamente
+[2025-11-18 10:55:27][MEM: 0.43MB] 📋 Parámetros recibidos:
+[2025-11-18 10:55:27][MEM: 0.43MB]    id: 7
+[2025-11-18 10:55:27][MEM: 0.43MB]    nombre: Plantilla General
+[2025-11-18 10:55:27][MEM: 0.43MB]    cliente_id: NULL
+[2025-11-18 10:55:27][MEM: 0.43MB]    es_general: 1
+[2025-11-18 10:55:27][MEM: 0.43MB]    contenido_html length: 8781
+[2025-11-18 10:55:27][MEM: 0.43MB] ✅ id válido: 7
+[2025-11-18 10:55:27][MEM: 0.43MB] 🔍 Verificando si plantilla existe: 7
+[2025-11-18 10:55:27][MEM: 0.47MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-18 10:55:27][MEM: 0.45MB]    → Actualizará nombre
+[2025-11-18 10:55:27][MEM: 0.45MB]    → Actualizará es_general
+[2025-11-18 10:55:27][MEM: 0.45MB]    → Forzando cliente_id = NULL (es general)
+[2025-11-18 10:55:27][MEM: 0.45MB]    → Actualizará contenido_html
+[2025-11-18 10:55:27][MEM: 0.45MB] 📝 SQL: UPDATE plantillas SET nombre = ?, es_general = ?, cliente_id = NULL, contenido_html = ?, fecha_actualizacion = NOW() WHERE id = ?
+[2025-11-18 10:55:27][MEM: 0.45MB] 🔗 Types: sisi
+[2025-11-18 10:55:27][MEM: 0.45MB] ▶️ Ejecutando UPDATE...
+[2025-11-18 10:55:27][MEM: 0.45MB] ✅ UPDATE EXITOSO
+[2025-11-18 10:55:27][MEM: 0.5MB] 📤 Enviando respuesta exitosa...
+[2025-11-18 10:57:27][MEM: 0.35MB] ========================================
+[2025-11-18 10:57:27][MEM: 0.35MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-18 10:57:27][MEM: 0.35MB] ========================================
+[2025-11-18 10:57:27][MEM: 0.35MB] 🌐 IP: 167.0.252.80
+[2025-11-18 10:57:27][MEM: 0.35MB] 📨 Método: OPTIONS
+[2025-11-18 10:57:27][MEM: 0.35MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-18 10:57:27][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-18 10:57:27][MEM: 0.36MB] ========================================
+[2025-11-18 10:57:27][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-18 10:57:27][MEM: 0.36MB] ========================================
+[2025-11-18 10:57:27][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 10:57:27][MEM: 0.36MB] 📨 Método: POST
+[2025-11-18 10:57:27][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-18 10:57:27][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 10:57:27][MEM: 0.37MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-18 10:57:27][MEM: 0.37MB] ✅ Acceso registrado
+[2025-11-18 10:57:27][MEM: 0.37MB] 📦 Requiriendo conexión...
+[2025-11-18 10:57:27][MEM: 0.41MB] ✅ conexion.php cargado
+[2025-11-18 10:57:27][MEM: 0.42MB] 📥 Raw input length: 9838
+[2025-11-18 10:57:27][MEM: 0.43MB] ✅ JSON decodificado correctamente
+[2025-11-18 10:57:27][MEM: 0.43MB] 📋 Parámetros recibidos:
+[2025-11-18 10:57:27][MEM: 0.43MB]    id: 7
+[2025-11-18 10:57:27][MEM: 0.43MB]    nombre: Plantilla General
+[2025-11-18 10:57:27][MEM: 0.43MB]    cliente_id: NULL
+[2025-11-18 10:57:27][MEM: 0.43MB]    es_general: 1
+[2025-11-18 10:57:27][MEM: 0.43MB]    contenido_html length: 9380
+[2025-11-18 10:57:27][MEM: 0.43MB] ✅ id válido: 7
+[2025-11-18 10:57:27][MEM: 0.43MB] 🔍 Verificando si plantilla existe: 7
+[2025-11-18 10:57:27][MEM: 0.47MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-18 10:57:27][MEM: 0.45MB]    → Actualizará nombre
+[2025-11-18 10:57:27][MEM: 0.45MB]    → Actualizará es_general
+[2025-11-18 10:57:27][MEM: 0.45MB]    → Forzando cliente_id = NULL (es general)
+[2025-11-18 10:57:27][MEM: 0.45MB]    → Actualizará contenido_html
+[2025-11-18 10:57:27][MEM: 0.45MB] 📝 SQL: UPDATE plantillas SET nombre = ?, es_general = ?, cliente_id = NULL, contenido_html = ?, fecha_actualizacion = NOW() WHERE id = ?
+[2025-11-18 10:57:27][MEM: 0.45MB] 🔗 Types: sisi
+[2025-11-18 10:57:27][MEM: 0.45MB] ▶️ Ejecutando UPDATE...
+[2025-11-18 10:57:27][MEM: 0.45MB] ✅ UPDATE EXITOSO
+[2025-11-18 10:57:27][MEM: 0.5MB] 📤 Enviando respuesta exitosa...
+[2025-11-18 14:03:11][MEM: 0.36MB] ========================================
+[2025-11-18 14:03:11][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-18 14:03:11][MEM: 0.36MB] ========================================
+[2025-11-18 14:03:11][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 14:03:11][MEM: 0.36MB] 📨 Método: OPTIONS
+[2025-11-18 14:03:11][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-18 14:03:11][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 14:03:11][MEM: 0.36MB] ========================================
+[2025-11-18 14:03:11][MEM: 0.36MB] 🆕 NUEVA REQUEST - PUT /plantillas/actualizar_plantilla
+[2025-11-18 14:03:11][MEM: 0.36MB] ========================================
+[2025-11-18 14:03:11][MEM: 0.36MB] 🌐 IP: 167.0.252.80
+[2025-11-18 14:03:11][MEM: 0.36MB] 📨 Método: POST
+[2025-11-18 14:03:11][MEM: 0.36MB] 🔗 URI: /API_Infoapp/plantillas/actualizar_plantilla.php
+[2025-11-18 14:03:11][MEM: 0.36MB] ✅ auth_middleware cargado
+[2025-11-18 14:03:11][MEM: 0.37MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-18 14:03:11][MEM: 0.37MB] ✅ Acceso registrado
+[2025-11-18 14:03:11][MEM: 0.37MB] 📦 Requiriendo conexión...
+[2025-11-18 14:03:11][MEM: 0.41MB] ✅ conexion.php cargado
+[2025-11-18 14:03:11][MEM: 0.42MB] 📥 Raw input length: 9841
+[2025-11-18 14:03:11][MEM: 0.43MB] ✅ JSON decodificado correctamente
+[2025-11-18 14:03:11][MEM: 0.43MB] 📋 Parámetros recibidos:
+[2025-11-18 14:03:11][MEM: 0.43MB]    id: 7
+[2025-11-18 14:03:11][MEM: 0.43MB]    nombre: Plantilla General
+[2025-11-18 14:03:11][MEM: 0.43MB]    cliente_id: NULL
+[2025-11-18 14:03:11][MEM: 0.43MB]    es_general: 1
+[2025-11-18 14:03:11][MEM: 0.43MB]    contenido_html length: 9383
+[2025-11-18 14:03:11][MEM: 0.43MB] ✅ id válido: 7
+[2025-11-18 14:03:11][MEM: 0.43MB] 🔍 Verificando si plantilla existe: 7
+[2025-11-18 14:03:11][MEM: 0.47MB] ✅ Plantilla encontrada: Plantilla General
+[2025-11-18 14:03:11][MEM: 0.45MB]    → Actualizará nombre
+[2025-11-18 14:03:11][MEM: 0.45MB]    → Actualizará es_general
+[2025-11-18 14:03:11][MEM: 0.45MB]    → Forzando cliente_id = NULL (es general)
+[2025-11-18 14:03:11][MEM: 0.45MB]    → Actualizará contenido_html
+[2025-11-18 14:03:11][MEM: 0.45MB] 📝 SQL: UPDATE plantillas SET nombre = ?, es_general = ?, cliente_id = NULL, contenido_html = ?, fecha_actualizacion = NOW() WHERE id = ?
+[2025-11-18 14:03:11][MEM: 0.45MB] 🔗 Types: sisi
+[2025-11-18 14:03:11][MEM: 0.45MB] ▶️ Ejecutando UPDATE...
+[2025-11-18 14:03:11][MEM: 0.45MB] ✅ UPDATE EXITOSO
+[2025-11-18 14:03:11][MEM: 0.5MB] 📤 Enviando respuesta exitosa...

@@ -1,0 +1,380 @@
+﻿Resolving dependencies...
+Downloading packages...
+  archive 3.6.1 (4.0.7 available)
+  characters 1.4.0 (1.4.1 available)
+  cross_file 0.3.5+1 (0.3.5+2 available)
+  dbus 0.7.11 (0.7.12 available)
+  dio 5.9.0 (5.9.1 available)
+  file_picker 10.3.8 (10.3.10 available)
+  flutter_inappwebview_internal_annotations 1.2.0 (1.3.0 available)
+  flutter_markdown 0.7.7+1 (discontinued replaced by flutter_markdown_plus)
+  google_fonts 8.0.0 (8.0.1 available)
+  image 4.3.0 (4.7.2 available)
+  image_picker_android 0.8.13+10 (0.8.13+13 available)
+  image_picker_ios 0.8.13+3 (0.8.13+6 available)
+  json_annotation 4.9.0 (4.10.0 available)
+  lints 6.0.0 (6.1.0 available)
+  matcher 0.12.17 (0.12.18 available)
+  material_color_utilities 0.11.1 (0.13.0 available)
+  meta 1.17.0 (1.18.1 available)
+  mgrs_dart 2.0.0 (3.0.0 available)
+  path_provider_foundation 2.5.1 (2.6.0 available)
+  proj4dart 2.1.0 (3.0.0 available)
+  shared_preferences_android 2.4.18 (2.4.20 available)
+  source_span 1.10.1 (1.10.2 available)
+  test_api 0.7.7 (0.7.9 available)
+  unicode 0.3.1 (1.1.9 available)
+  url_launcher_ios 6.3.6 (6.4.0 available)
+  url_launcher_web 2.4.1 (2.4.2 available)
+  vector_graphics_compiler 1.1.19 (1.1.20 available)
+  webview_flutter 4.13.0 (4.13.1 available)
+  webview_flutter_wkwebview 3.23.5 (3.23.6 available)
+Got dependencies!
+1 package is discontinued.
+28 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing servicios...                                          
+
+warning - The value of the local variable 'servicio' isn't used - lib\pages\servicios\controllers\servicios_controller.dart:231:15 - unused_local_variable
+warning - Dead code - lib\pages\servicios\controllers\servicios_controller.dart:275:9 - dead_code
+warning - The value of the local variable 'servicio' isn't used - lib\pages\servicios\controllers\servicios_controller.dart:586:13 - unused_local_variable
+warning - Unused import: '../../staff/services/staff_services.dart' - lib\pages\servicios\forms\servicio_create_page.dart:40:8 - unused_import
+warning - Unused import: '../../staff/domain/staff_domain.dart' - lib\pages\servicios\forms\servicio_create_page.dart:41:8 - unused_import
+warning - Duplicate import - lib\pages\servicios\forms\servicio_create_page.dart:43:8 - duplicate_import
+warning - Unused import: '../models/cliente_model.dart' - lib\pages\servicios\forms\servicio_create_page.dart:52:8 - unused_import
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\forms\servicio_create_page.dart:353:23 - use_build_context_synchronously
+warning - The value of the local variable 'encontrada' isn't used - lib\pages\servicios\forms\servicio_create_page.dart:470:12 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_create_page.dart:943:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_create_page.dart:947:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_create_page.dart:1045:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_create_page.dart:1074:54 - deprecated_member_use
+warning - The declaration '_parseColor' isn't referenced - lib\pages\servicios\forms\servicio_create_page.dart:1209:9 - unused_element
+warning - Duplicate import - lib\pages\servicios\forms\servicio_detail_page.dart:27:8 - duplicate_import
+warning - Unused import: 'package:provider/provider.dart' - lib\pages\servicios\forms\servicio_detail_page.dart:53:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:410:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:600:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:605:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:646:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:649:51 - deprecated_member_use
+   info - Statements in an if should be enclosed in a block - lib\pages\servicios\forms\servicio_detail_page.dart:826:11 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\pages\servicios\forms\servicio_detail_page.dart:911:17 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\pages\servicios\forms\servicio_detail_page.dart:921:17 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\pages\servicios\forms\servicio_detail_page.dart:932:15 - curly_braces_in_flow_control_structures
+   info - Statements in an if should be enclosed in a block - lib\pages\servicios\forms\servicio_detail_page.dart:1048:9 - curly_braces_in_flow_control_structures
+warning - The declaration '_descargarPdfSimple' isn't referenced - lib\pages\servicios\forms\servicio_detail_page.dart:1079:16 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:1178:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:1376:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:1384:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:1395:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:1424:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:1443:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:1453:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:1456:62 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:1547:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:1549:62 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:1578:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:1581:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:1759:64 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:2033:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_detail_page.dart:2041:42 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\pages\servicios\forms\servicio_edit_page.dart:734:25 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\pages\servicios\forms\servicio_edit_page.dart:753:25 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\pages\servicios\forms\servicio_edit_page.dart:1083:25 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\pages\servicios\forms\servicio_edit_page.dart:2787:29 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\servicios\forms\servicio_edit_page.dart:2791:31 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\servicios\forms\servicio_edit_page.dart:2806:31 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\servicios\forms\servicio_edit_page.dart:2810:29 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\servicios\forms\servicio_edit_page.dart:2814:33 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\servicios\forms\servicio_edit_page.dart:2817:31 - avoid_print
+   info - Dangling library doc comment - lib\pages\servicios\forms\servicio_form.dart:1:1 - dangling_library_doc_comments
+   info - The import of 'package:flutter/services.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\pages\servicios\forms\servicio_form.dart:16:8 - unnecessary_import
+warning - Unused import: 'package:infoapp/core/enums/modulo_enum.dart' - lib\pages\servicios\forms\servicio_form.dart:19:8 - unused_import
+warning - Unused import: 'package:infoapp/pages/servicios/workflow/estado_workflow_service.dart' - lib\pages\servicios\forms\servicio_form.dart:20:8 - unused_import
+warning - Unused import: 'package:infoapp/pages/servicios/models/cliente_model.dart' - lib\pages\servicios\forms\servicio_form.dart:37:8 - unused_import
+   info - The import of 'package:flutter/foundation.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\pages\servicios\forms\servicio_form.dart:45:8 - unnecessary_import
+warning - Unused import: 'package:infoapp/utils/connectivity_service.dart' - lib\pages\servicios\forms\servicio_form.dart:46:8 - unused_import
+warning - Unused import: 'package:infoapp/pages/firmas/controllers/firmas_controller.dart' - lib\pages\servicios\forms\servicio_form.dart:47:8 - unused_import
+warning - Unused import: 'package:infoapp/pages/firmas/pages/firma_captura_screen.dart' - lib\pages\servicios\forms\servicio_form.dart:48:8 - unused_import
+warning - The value of the field '_suministraronRepuestos' isn't used - lib\pages\servicios\forms\servicio_form.dart:205:8 - unused_field
+warning - The value of the field '_camposAdicionalesLoaded' isn't used - lib\pages\servicios\forms\servicio_form.dart:207:8 - unused_field
+warning - The value of the field '_estadoInicial' isn't used - lib\pages\servicios\forms\servicio_form.dart:216:16 - unused_field
+warning - The value of the field '_cantidadFotos' isn't used - lib\pages\servicios\forms\servicio_form.dart:236:7 - unused_field
+warning - The declaration '_mostrarModalFotos' isn't referenced - lib\pages\servicios\forms\servicio_form.dart:258:16 - unused_element
+warning - The declaration '_solicitarRazonAnulacion' isn't referenced - lib\pages\servicios\forms\servicio_form.dart:278:19 - unused_element
+warning - The declaration '_validarCamposRequeridos' isn't referenced - lib\pages\servicios\forms\servicio_form.dart:512:8 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_form.dart:823:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\servicio_form.dart:948:47 - deprecated_member_use
+   info - Don't invoke 'print' in production code - lib\pages\servicios\forms\servicio_form.dart:1225:20 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\servicios\forms\servicio_form.dart:1226:20 - avoid_print
+   info - Don't invoke 'print' in production code - lib\pages\servicios\forms\servicio_form.dart:1242:15 - avoid_print
+warning - The value of the field '_error' isn't used - lib\pages\servicios\forms\widgets\campo_autorizado_por.dart:36:11 - unused_field
+warning - The declaration '_handleExpandClick' isn't referenced - lib\pages\servicios\forms\widgets\campo_autorizado_por.dart:320:8 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\campo_centro_costo.dart:398:26 - deprecated_member_use
+warning - The value of the field '_error' isn't used - lib\pages\servicios\forms\widgets\campo_equipo.dart:36:11 - unused_field
+warning - The declaration '_mostrarError' isn't referenced - lib\pages\servicios\forms\widgets\campo_equipo.dart:216:8 - unused_element
+warning - The declaration '_buildCampoBusqueda' isn't referenced - lib\pages\servicios\forms\widgets\campo_equipo.dart:289:10 - unused_element
+warning - The declaration '_buildContadorResultados' isn't referenced - lib\pages\servicios\forms\widgets\campo_equipo.dart:324:10 - unused_element
+warning - The declaration '_buildDropdownEquipos' isn't referenced - lib\pages\servicios\forms\widgets\campo_equipo.dart:352:10 - unused_element
+warning - The declaration '_buildItemEquipo' isn't referenced - lib\pages\servicios\forms\widgets\campo_equipo.dart:398:10 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\campo_numero_servicio.dart:29:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\campo_numero_servicio.dart:31:72 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\campo_numero_servicio.dart:95:65 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\campo_numero_servicio.dart:140:62 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\campo_tipo_mantenimiento.dart:455:65 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\campo_tipo_mantenimiento.dart:518:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\campo_tipo_mantenimiento.dart:520:66 - deprecated_member_use
+warning - Unused import: 'package:infoapp/core/branding/theme_provider.dart' - lib\pages\servicios\forms\widgets\campos_adicionales.dart:3:8 - unused_import
+   info - The variable name '_seleccionarFechaHora_fecha' isn't a lowerCamelCase identifier - lib\pages\servicios\forms\widgets\campos_adicionales.dart:524:16 - non_constant_identifier_names
+   info - The variable name '_seleccionarFechaHora_hora' isn't a lowerCamelCase identifier - lib\pages\servicios\forms\widgets\campos_adicionales.dart:547:16 - non_constant_identifier_names
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\forms\widgets\campos_adicionales.dart:1121:30 - use_build_context_synchronously
+warning - The declaration '_getIconoTipoArchivo' isn't referenced - lib\pages\servicios\forms\widgets\campos_adicionales.dart:1699:12 - unused_element
+warning - The declaration '_getIconoTipoCampo' isn't referenced - lib\pages\servicios\forms\widgets\campos_adicionales.dart:1721:12 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\campos_adicionales.dart:1797:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\campos_adicionales.dart:1800:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\campos_adicionales.dart:1837:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\campos_adicionales.dart:1849:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\fotos_servicio_widget.dart:103:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\fotos_servicio_widget.dart:105:78 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\fotos_servicio_widget.dart:642:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\fotos_servicio_widget.dart:646:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\fotos_servicio_widget.dart:663:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\fotos_servicio_widget.dart:691:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\fotos_servicio_widget.dart:707:45 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\fotos_servicio_widget.dart:797:63 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\fotos_servicio_widget.dart:799:82 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\fotos_servicio_widget.dart:867:30 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\fotos_servicio_widget.dart:869:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\fotos_servicio_widget.dart:950:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\fotos_servicio_widget.dart:1092:38 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\fotos_servicio_widget.dart:1116:41 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\forms\widgets\funcionarios_crud_modal.dart:429:25 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\forms\widgets\funcionarios_crud_modal.dart:450:25 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\forms\widgets\funcionarios_crud_modal.dart:641:83 - deprecated_member_use
+   info - Unnecessary 'this.' qualifier - lib\pages\servicios\models\equipo_model.dart:87:31 - unnecessary_this
+   info - Dangling library doc comment - lib\pages\servicios\models\estado_base_enum.dart:1:1 - dangling_library_doc_comments
+   info - Dangling library doc comment - lib\pages\servicios\pages\servicios_list_page.dart:1:1 - dangling_library_doc_comments
+warning - Unused import: '../forms/servicio_edit_page.dart' - lib\pages\servicios\pages\servicios_list_page.dart:30:8 - unused_import
+warning - Duplicate import - lib\pages\servicios\pages\servicios_list_page.dart:56:8 - duplicate_import
+warning - The value of the field '_todosLosEstados' isn't used - lib\pages\servicios\pages\servicios_list_page.dart:92:21 - unused_field
+warning - The declaration '_sincronizarAhora' isn't referenced - lib\pages\servicios\pages\servicios_list_page.dart:207:16 - unused_element
+warning - The value of the local variable 'campo' isn't used - lib\pages\servicios\pages\servicios_list_page.dart:481:18 - unused_local_variable
+warning - This default clause is covered by the previous cases - lib\pages\servicios\pages\servicios_list_page.dart:603:7 - unreachable_switch_default
+warning - The declaration '_descargarPorFechas' isn't referenced - lib\pages\servicios\pages\servicios_list_page.dart:634:16 - unused_element
+warning - The declaration '_esModuloServicios' isn't referenced - lib\pages\servicios\pages\servicios_list_page.dart:898:8 - unused_element
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\pages\servicios_list_page.dart:1392:7 - use_build_context_synchronously
+warning - The declaration '_mostrarNotificacionTiempoReal' isn't referenced - lib\pages\servicios\pages\servicios_list_page.dart:1694:8 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\pages\servicios_list_page.dart:1829:40 - deprecated_member_use
+warning - The declaration '_buildIndicadorWebSocket' isn't referenced - lib\pages\servicios\pages\servicios_list_page.dart:1844:10 - unused_element
+   info - Statements in an if should be enclosed in a block - lib\pages\servicios\services\actividades_api_service.dart:258:51 - curly_braces_in_flow_control_structures
+warning - The value of the field '_headers' isn't used - lib\pages\servicios\services\branding_api_service.dart:11:36 - unused_field
+warning - Unnecessary cast - lib\pages\servicios\services\campos_adicionales_api_service.dart:35:56 - unnecessary_cast
+warning - Unnecessary cast - lib\pages\servicios\services\campos_adicionales_api_service.dart:36:39 - unnecessary_cast
+warning - Unnecessary cast - lib\pages\servicios\services\campos_adicionales_api_service.dart:37:37 - unnecessary_cast
+warning - Unnecessary cast - lib\pages\servicios\services\campos_adicionales_api_service.dart:38:40 - unnecessary_cast
+warning - Unnecessary cast - lib\pages\servicios\services\campos_adicionales_api_service.dart:39:35 - unnecessary_cast
+warning - Unnecessary cast - lib\pages\servicios\services\campos_adicionales_api_service.dart:40:41 - unnecessary_cast
+warning - Unnecessary cast - lib\pages\servicios\services\campos_adicionales_api_service.dart:41:33 - unnecessary_cast
+warning - Unused import: 'package:infoapp/utils/connectivity_service.dart' - lib\pages\servicios\services\fotos_service.dart:8:8 - unused_import
+warning - Unused import: 'servicios_sync_queue.dart' - lib\pages\servicios\services\fotos_service.dart:9:8 - unused_import
+warning - The value of the local variable 'foto' isn't used - lib\pages\servicios\services\fotos_service.dart:64:20 - unused_local_variable
+warning - Unused import: '../../inventory/services/inventory_api_service.dart' - lib\pages\servicios\services\servicio_repuestos_api_service.dart:27:8 - unused_import
+warning - The value of the field '_headers' isn't used - lib\pages\servicios\services\servicio_repuestos_api_service.dart:42:36 - unused_field
+warning - The value of the local variable 'resumen' isn't used - lib\pages\servicios\services\servicio_repuestos_api_service.dart:288:17 - unused_local_variable
+   info - Dangling library doc comment - lib\pages\servicios\services\servicios_api_service.dart:1:1 - dangling_library_doc_comments
+warning - The value of the field '_cacheEstados' isn't used - lib\pages\servicios\services\servicios_api_service.dart:182:42 - unused_field
+warning - The value of the field '_tsEstados' isn't used - lib\pages\servicios\services\servicios_api_service.dart:183:33 - unused_field
+warning - The value of the local variable 'campo' isn't used - lib\pages\servicios\services\servicios_api_service.dart:682:20 - unused_local_variable
+warning - The value of the local variable 'error' isn't used - lib\pages\servicios\services\servicios_api_service.dart:1753:22 - unused_local_variable
+   info - The local variable '_ttlEquipos' starts with an underscore - lib\pages\servicios\services\servicios_api_service.dart:1847:22 - no_leading_underscores_for_local_identifiers
+warning - The value of the local variable 'prefs' isn't used - lib\pages\servicios\services\servicios_api_service.dart:2070:13 - unused_local_variable
+warning - The value of the local variable 'stopwatch' isn't used - lib\pages\servicios\services\servicios_api_service.dart:2098:13 - unused_local_variable
+warning - The value of the local variable 'result' isn't used - lib\pages\servicios\services\servicios_api_service.dart:2157:15 - unused_local_variable
+   info - 'Table.fromTextArray' is deprecated and shouldn't be used. Use TableHelper.fromTextArray() instead - lib\pages\servicios\services\servicios_export_service.dart:276:15 - deprecated_member_use
+   info - Dangling library doc comment - lib\pages\servicios\servicio_edit_hub.dart:1:1 - dangling_library_doc_comments
+warning - Unused import: 'package:intl/intl.dart' - lib\pages\servicios\servicio_edit_hub.dart:14:8 - unused_import
+warning - Unused import: 'package:infoapp/pages/servicios/models/estado_model.dart' - lib\pages\servicios\servicio_edit_hub.dart:20:8 - unused_import
+warning - Unused import: 'package:infoapp/pages/servicios/workflow/estado_workflow_service.dart' - lib\pages\servicios\servicio_edit_hub.dart:25:8 - unused_import
+warning - Unused import: 'package:infoapp/features/auth/domain/permission_store.dart' - lib\pages\servicios\servicio_edit_hub.dart:34:8 - unused_import
+warning - Unused import: 'package:infoapp/pages/servicios/services/servicios_sync_queue.dart' - lib\pages\servicios\servicio_edit_hub.dart:36:8 - unused_import
+warning - Unused import: 'package:infoapp/core/utils/servicios_cache.dart' - lib\pages\servicios\servicio_edit_hub.dart:37:8 - unused_import
+warning - The value of the field '_isLoading' isn't used - lib\pages\servicios\servicio_edit_hub.dart:62:8 - unused_field
+   info - The private field _isAnulling could be 'final' - lib\pages\servicios\servicio_edit_hub.dart:64:8 - prefer_final_fields
+warning - The value of the field '_isOnline' isn't used - lib\pages\servicios\servicio_edit_hub.dart:83:8 - unused_field
+   info - Don't invoke 'print' in production code - lib\pages\servicios\servicio_edit_hub.dart:126:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\servicio_edit_hub.dart:144:29 - use_build_context_synchronously
+   info - Don't invoke 'print' in production code - lib\pages\servicios\servicio_edit_hub.dart:160:7 - avoid_print
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\servicio_edit_hub.dart:207:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\servicio_edit_hub.dart:237:30 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\servicio_edit_hub.dart:309:32 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\servicio_edit_hub.dart:480:35 - deprecated_member_use
+   info - Dangling library doc comment - lib\pages\servicios\validators\transicion_validator.dart:1:1 - dangling_library_doc_comments
+warning - Unused import: '../../inspecciones/models/sistema_model.dart' - lib\pages\servicios\widgets\actividad_crud_modal.dart:8:8 - unused_import
+   info - 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre - lib\pages\servicios\widgets\actividad_crud_modal.dart:124:21 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\actividad_import_modal.dart:77:55 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\widgets\actividad_import_modal.dart:209:17 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\widgets\actividad_import_modal.dart:213:11 - use_build_context_synchronously
+   info - Unnecessary use of multiple underscores - lib\pages\servicios\widgets\actividad_import_modal.dart:289:41 - unnecessary_underscores
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\widgets\actividad_import_modal.dart:362:41 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\actividad_import_modal.dart:436:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\actividad_import_modal.dart:598:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\actividad_import_modal.dart:635:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\actividad_import_modal.dart:637:66 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\widgets\actividad_import_modal.dart:872:28 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\actividad_selector_widget.dart:141:65 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\actividad_selector_widget.dart:167:46 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\actividad_selector_widget.dart:193:46 - deprecated_member_use
+warning - The value of the field '_keyOrdenColumnas' isn't used - lib\pages\servicios\widgets\column_config_modal.dart:58:23 - unused_field
+warning - The value of the local variable 'verification' isn't used - lib\pages\servicios\widgets\column_config_modal.dart:276:13 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\column_config_modal.dart:421:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\column_config_modal.dart:444:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\column_config_modal.dart:561:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\column_config_modal.dart:564:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\column_config_modal.dart:624:22 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\column_config_modal.dart:626:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\column_config_modal.dart:667:30 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\column_config_modal.dart:722:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\column_config_modal.dart:727:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\column_config_modal.dart:760:29 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\column_config_modal.dart:761:60 - deprecated_member_use
+warning - The declaration 'cargarConfiguracionGuardada' isn't referenced - lib\pages\servicios\widgets\column_config_modal.dart:985:31 - unused_element
+   info - Empty catch block - lib\pages\servicios\widgets\column_config_modal.dart:993:17 - empty_catches
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\widgets\inventory_selection_modal.dart:649:11 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\widgets\inventory_selection_modal.dart:659:9 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\inventory_selection_modal.dart:1003:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\inventory_selection_modal.dart:1278:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\inventory_selection_modal.dart:1320:61 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\inventory_selection_modal.dart:1502:43 - deprecated_member_use
+   info - Parameter 'key' could be a super parameter - lib\pages\servicios\widgets\notas_modal.dart:12:9 - use_super_parameters
+   info - Invalid use of a private type in a public API - lib\pages\servicios\widgets\notas_modal.dart:20:3 - library_private_types_in_public_api
+   info - The local variable '_controller' starts with an underscore - lib\pages\servicios\widgets\notas_modal.dart:60:11 - no_leading_underscores_for_local_identifiers
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\pages\servicios\widgets\notas_modal.dart:95:37 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\pages\servicios\widgets\notas_modal.dart:99:25 - use_build_context_synchronously
+   info - The local variable '_controller' starts with an underscore - lib\pages\servicios\widgets\notas_modal.dart:126:11 - no_leading_underscores_for_local_identifiers
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\pages\servicios\widgets\notas_modal.dart:161:37 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check - lib\pages\servicios\widgets\notas_modal.dart:165:25 - use_build_context_synchronously
+warning - The value of the local variable 'isMobile' isn't used - lib\pages\servicios\widgets\seccion_operaciones.dart:36:11 - unused_local_variable
+   info - Unnecessary use of multiple underscores - lib\pages\servicios\widgets\seccion_operaciones.dart:114:39 - unnecessary_underscores
+warning - The value of the local variable 'theme' isn't used - lib\pages\servicios\widgets\seccion_operaciones.dart:259:11 - unused_local_variable
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_filtros.dart:47:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_filtros.dart:64:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_filtros.dart:98:32 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_filtros.dart:118:30 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_filtros.dart:321:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_filtros.dart:322:50 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_filtros.dart:326:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_filtros.dart:327:52 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_filtros.dart:383:23 - deprecated_member_use
+warning - Unused import: 'package:provider/provider.dart' - lib\pages\servicios\widgets\servicios_filtros_modal.dart:2:8 - unused_import
+warning - Unused import: 'package:infoapp/core/branding/theme_provider.dart' - lib\pages\servicios\widgets\servicios_filtros_modal.dart:3:8 - unused_import
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_filtros_modal.dart:132:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_filtros_modal.dart:142:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_filtros_modal.dart:171:47 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_filtros_modal.dart:209:37 - deprecated_member_use
+warning - Unused import: 'package:provider/provider.dart' - lib\pages\servicios\widgets\servicios_header.dart:3:8 - unused_import
+warning - Unused import: 'package:infoapp/core/branding/theme_provider.dart' - lib\pages\servicios\widgets\servicios_header.dart:4:8 - unused_import
+warning - Unused import: 'package:infoapp/pages/servicios/services/servicios_api_service.dart' - lib\pages\servicios\widgets\servicios_page_nueva.dart:3:8 - unused_import
+warning - Unused import: 'package:infoapp/utils/connectivity_service.dart' - lib\pages\servicios\widgets\servicios_page_nueva.dart:8:8 - unused_import
+warning - Unused import: 'package:infoapp/core/utils/servicios_cache.dart' - lib\pages\servicios\widgets\servicios_page_nueva.dart:9:8 - unused_import
+  error - The named parameter 'refresh' isn't defined - lib\pages\servicios\widgets\servicios_page_nueva.dart:34:84 - undefined_named_parameter
+warning - The declaration '_mostrarError' isn't referenced - lib\pages\servicios\widgets\servicios_page_nueva.dart:53:8 - unused_element
+warning - The declaration '_mostrarMensajeExito' isn't referenced - lib\pages\servicios\widgets\servicios_page_nueva.dart:77:8 - unused_element
+warning - Duplicate import - lib\pages\servicios\widgets\servicios_tabla.dart:22:8 - duplicate_import
+warning - Unused import: 'column_config_modal.dart' - lib\pages\servicios\widgets\servicios_tabla.dart:30:8 - unused_import
+warning - Unused import: 'actividad_selector_widget.dart' - lib\pages\servicios\widgets\servicios_tabla.dart:31:8 - unused_import
+warning - Unused import: '../services/actividades_service.dart' - lib\pages\servicios\widgets\servicios_tabla.dart:32:8 - unused_import
+warning - Unused import: '../services/servicios_export_service.dart' - lib\pages\servicios\widgets\servicios_tabla.dart:36:8 - unused_import
+warning - Unused import: 'package:shared_preferences/shared_preferences.dart' - lib\pages\servicios\widgets\servicios_tabla.dart:37:8 - unused_import
+warning - Unused import: 'dart:convert' - lib\pages\servicios\widgets\servicios_tabla.dart:38:8 - unused_import
+warning - The value of the field '_isLoadingCamposAdicionales' isn't used - lib\pages\servicios\widgets\servicios_tabla.dart:116:8 - unused_field
+warning - The value of the field '_cacheGlobalCampos' isn't used - lib\pages\servicios\widgets\servicios_tabla.dart:123:55 - unused_field
+warning - The value of the field '_cacheConfiguraciones' isn't used - lib\pages\servicios\widgets\servicios_tabla.dart:124:42 - unused_field
+warning - The value of the field '_ultimaActualizacionCache' isn't used - lib\pages\servicios\widgets\servicios_tabla.dart:125:20 - unused_field
+warning - The value of the field '_duracionCache' isn't used - lib\pages\servicios\widgets\servicios_tabla.dart:126:25 - unused_field
+warning - The value of the field '_cacheValoresServicios' isn't used - lib\pages\servicios\widgets\servicios_tabla.dart:132:3 - unused_field
+warning - The value of the field '_keyColumnasVisibles' isn't used - lib\pages\servicios\widgets\servicios_tabla.dart:139:23 - unused_field
+warning - The value of the field '_keyOrdenColumnas' isn't used - lib\pages\servicios\widgets\servicios_tabla.dart:140:23 - unused_field
+warning - The declaration '_calcularAnchosAdaptativos' isn't referenced - lib\pages\servicios\widgets\servicios_tabla.dart:149:16 - unused_element
+warning - The declaration '_buildScrollableTable' isn't referenced - lib\pages\servicios\widgets\servicios_tabla.dart:185:10 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:241:54 - deprecated_member_use
+warning - The declaration '_cargarCamposAdicionales' isn't referenced - lib\pages\servicios\widgets\servicios_tabla.dart:484:16 - unused_element
+warning - The declaration '_cargarConfiguracionGuardada' isn't referenced - lib\pages\servicios\widgets\servicios_tabla.dart:500:16 - unused_element
+warning - The value of the local variable 'anchoTotal' isn't used - lib\pages\servicios\widgets\servicios_tabla.dart:638:11 - unused_local_variable
+warning - The declaration '_getBolitaOpacity' isn't referenced - lib\pages\servicios\widgets\servicios_tabla.dart:1003:10 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:1024:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:1100:54 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:1190:56 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:1203:43 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:1262:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:1269:57 - deprecated_member_use
+warning - The declaration '_buildColumns' isn't referenced - lib\pages\servicios\widgets\servicios_tabla.dart:1306:20 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:1360:49 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:1375:49 - deprecated_member_use
+warning - The declaration '_buildRows' isn't referenced - lib\pages\servicios\widgets\servicios_tabla.dart:1448:17 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:1456:56 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:1516:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:1519:62 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:1709:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:1714:43 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\widgets\servicios_tabla.dart:1813:35 - use_build_context_synchronously
+warning - The declaration '_getPlaceholderValue' isn't referenced - lib\pages\servicios\widgets\servicios_tabla.dart:1954:10 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:2083:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:2086:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:2134:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:2136:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:2190:60 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:2193:62 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:2286:58 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:2289:60 - deprecated_member_use
+warning - The declaration '_getFileName' isn't referenced - lib\pages\servicios\widgets\servicios_tabla.dart:2496:10 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:2543:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:2550:62 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:2575:51 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:2578:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\servicios_tabla.dart:2689:57 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\pages\servicios\widgets\servicios_tabla.dart:2718:35 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\staff_picker_modal.dart:136:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\staff_picker_modal.dart:235:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\staff_selection_modal.dart:228:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\staff_selection_modal.dart:369:59 - deprecated_member_use
+warning - The value of the local variable 'theme' isn't used - lib\pages\servicios\widgets\umw\umw_flow_tab.dart:22:11 - unused_local_variable
+warning - The declaration '_buildActionCard' isn't referenced - lib\pages\servicios\widgets\umw\umw_flow_tab.dart:116:10 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\umw\umw_flow_tab.dart:137:42 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\umw\umw_flow_tab.dart:149:35 - deprecated_member_use
+warning - The declaration '_buildEmptyState' isn't referenced - lib\pages\servicios\widgets\umw\umw_flow_tab.dart:212:11 - unused_element
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\umw\umw_header.dart:36:39 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\umw\umw_header.dart:40:37 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\umw\umw_header.dart:73:27 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\umw\umw_header.dart:118:33 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\umw\umw_header.dart:141:29 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\umw\umw_header.dart:143:41 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\umw\umw_header.dart:155:40 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\umw\umw_header.dart:212:25 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\umw\umw_resources_tab.dart:78:59 - deprecated_member_use
+   info - Unnecessary use of multiple underscores - lib\pages\servicios\widgets\umw\umw_resources_tab.dart:95:39 - unnecessary_underscores
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\umw\umw_resources_tab.dart:101:59 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\umw\umw_resources_tab.dart:112:60 - deprecated_member_use
+   info - Unnecessary use of multiple underscores - lib\pages\servicios\widgets\umw\umw_resources_tab.dart:187:39 - unnecessary_underscores
+warning - Unused import: 'package:phosphor_flutter/phosphor_flutter.dart' - lib\pages\servicios\widgets\umw\umw_tasks_tab.dart:8:8 - unused_import
+warning - The left operand can't be null, so the right operand is never executed - lib\pages\servicios\widgets\user_picker_modal.dart:63:33 - dead_null_aware_expression
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\user_picker_modal.dart:250:57 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\user_picker_modal.dart:272:59 - deprecated_member_use
+warning - Unused import: 'package:phosphor_flutter/phosphor_flutter.dart' - lib\pages\servicios\widgets\user_selection_modal.dart:7:8 - unused_import
+warning - The left operand can't be null, so the right operand is never executed - lib\pages\servicios\widgets\user_selection_modal.dart:89:33 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\pages\servicios\widgets\user_selection_modal.dart:95:27 - dead_null_aware_expression
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\user_selection_modal.dart:377:63 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\pages\servicios\widgets\user_selection_modal.dart:425:22 - deprecated_member_use
+warning - The declaration '_config' isn't referenced - lib\pages\servicios\workflow\estado_workflow_service.dart:25:20 - unused_element
+warning - The declaration '_map' isn't referenced - lib\pages\servicios\workflow\estado_workflow_service.dart:26:32 - unused_element
+warning - The declaration '_loading' isn't referenced - lib\pages\servicios\workflow\estado_workflow_service.dart:27:12 - unused_element
+
+flutter : 331 issues found. (ran in 41.1s)
+En línea: 1 Carácter: 1
++ flutter analyze lib/pages/servicios 
+--no-fatal-infos --no-fatal-warni ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (331  
+   issues found. (ran in 41.1s):String) [], Remo  
+  teException
+    + FullyQualifiedErrorId : NativeCommandError
+ 

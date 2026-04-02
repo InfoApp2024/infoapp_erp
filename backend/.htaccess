@@ -1,0 +1,9 @@
+RewriteEngine On
+
+# Permitir Authorization Header
+RewriteCond %{HTTP:Authorization} .
+RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+# Si usas subcarpetas, ajusta RewriteBase
+# RewriteBase /API_Infoapp/
+

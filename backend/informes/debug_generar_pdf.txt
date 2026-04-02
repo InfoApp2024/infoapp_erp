@@ -1,0 +1,157 @@
+
+2025-11-17 18:24:35 🆕 INICIANDO
+2025-11-17 18:24:35 ✅ Constantes definidas
+2025-11-17 18:24:35 📦 Require auth
+2025-11-17 18:24:35 ✅ Auth cargado
+2025-11-17 18:24:35 👤 Usuario: colaborador
+2025-11-17 18:24:35 📦 Require conexion
+2025-11-17 18:24:35 ✅ Conexion cargada
+2025-11-17 18:24:35 📦 Require autoload
+2025-11-17 18:24:35 ✅ Autoload cargado
+2025-11-17 18:24:35 📦 Require obtener_datos_servicio
+2025-11-17 18:24:35 ✅ obtener_datos_servicio cargado
+2025-11-17 18:24:35 📦 Require procesar_tags
+2025-11-17 18:24:35 ✅ procesar_tags cargado
+2025-11-17 18:24:35 📋 Servicio ID: 162
+2025-11-17 18:24:35 🔍 Obteniendo datos del servicio ID: 162
+2025-11-17 18:24:35 📋 Obteniendo datos básicos del servicio...
+2025-11-17 18:24:35 ✅ Servicio obtenido: #1146
+2025-11-17 18:24:35 📋 Obteniendo datos del equipo ID: 131
+2025-11-17 18:24:35 ✅ Equipo obtenido: EQUIPO PRUEBA
+2025-11-17 18:24:35 ✅ Cliente obtenido: INFOAPP
+2025-11-17 18:24:35 📋 Obteniendo campos adicionales...
+2025-11-17 18:24:35 ✅ Campos adicionales obtenidos: 3
+2025-11-17 18:24:35 📋 Obteniendo fotos...
+2025-11-17 18:24:35 ✅ Fotos obtenidas: 6
+2025-11-17 18:24:35 📋 Obteniendo personal asignado...
+2025-11-17 18:24:35 ✅ Personal obtenido: 3
+2025-11-17 18:24:35 📋 Obteniendo repuestos...
+2025-11-17 18:24:35 ✅ Repuestos obtenidos: 4
+2025-11-17 18:24:35 📋 Obteniendo firmas...
+2025-11-17 18:24:35 ✅ Firmas obtenidas
+2025-11-17 18:24:35 📋 Obteniendo datos del usuario creador ID: 21
+2025-11-17 18:24:35    🔍 Buscando usuario ID: 21
+2025-11-17 18:24:35    ✅ Usuario obtenido: colaborador
+2025-11-17 18:24:35 ✅ Todos los datos del servicio obtenidos correctamente
+2025-11-17 18:24:35 ✅ Datos del servicio obtenidos
+2025-11-17 18:24:35 ✅ Plantilla encontrada
+2025-11-17 18:24:35 📝 Procesando tags...
+2025-11-17 18:24:35 🔄 Iniciando procesamiento de tags...
+2025-11-17 18:24:35 📋 Procesando tags de servicio...
+2025-11-17 18:24:35    ✓ Tag reemplazado: {{o_servicio}} → 1146
+2025-11-17 18:24:35    ✓ Tag reemplazado: {{fecha_registro}} → 11/11/2025 17:38
+2025-11-17 18:24:35    ✓ Tag reemplazado: {{tipo_mantenimiento}} → correctivo
+2025-11-17 18:24:35    ✓ Tag reemplazado: {{actividad_id}} → 44
+2025-11-17 18:24:35 📋 Procesando tags de equipo...
+2025-11-17 18:24:35    ✓ Tag reemplazado: {{equipo_nombre}} → EQUIPO PRUEBA
+2025-11-17 18:24:35    ✓ Tag reemplazado: {{equipo_placa}} → 4321
+2025-11-17 18:24:35    ✓ Tag reemplazado: {{equipo_ciudad}} → BARRANQUILLA
+2025-11-17 18:24:35 📋 Procesando tags de cliente...
+2025-11-17 18:24:35    ✓ Tag reemplazado: {{cliente_nombre}} → INFOAPP
+2025-11-17 18:24:35 📋 Procesando tags de campos adicionales...
+2025-11-17 18:24:35 📋 Procesando tags de fotos...
+2025-11-17 18:24:35    📸 Fotos antes: 3
+2025-11-17 18:24:35    📸 Fotos después: 3
+2025-11-17 18:24:35    ✓ Tag reemplazado: {{fotos_antes_todas}} (3 fotos)
+2025-11-17 18:24:35    ✓ Tag reemplazado: {{fotos_despues_todas}} (3 fotos)
+2025-11-17 18:24:35 📋 Procesando tags de personal...
+2025-11-17 18:24:35    👤 Personal encontrado: 3
+2025-11-17 18:24:35    ✓ Tag reemplazado: {{tecnico_asignado}} → Natalia Carolina Ospina Restrepo
+2025-11-17 18:24:35 📋 Procesando tags de repuestos...
+2025-11-17 18:24:35    📦 Repuestos encontrados: 4
+2025-11-17 18:24:35    ✓ Tag reemplazado: {{repuestos_lista}}
+2025-11-17 18:24:35 📋 Procesando tags de firmas...
+2025-11-17 18:24:35    ✓ Tag reemplazado: {{firma_staff_imagen}}
+2025-11-17 18:24:35    ✓ Tag reemplazado: {{firma_cliente}} (alias)
+2025-11-17 18:24:35    ✓ Tag reemplazado: {{firma_staff_nombre}}
+2025-11-17 18:24:35    ✓ Tag reemplazado: {{firma_funcionario_nombre}}
+2025-11-17 18:24:35 ✅ Procesamiento completado. Tags reemplazados: 16
+2025-11-17 18:24:35 ✅ Tags procesados
+2025-11-17 18:24:35 ✅ Logo inyectado
+2025-11-17 18:24:35 ✅ Firmas inyectadas
+2025-11-17 18:24:35 ✅ URLs absolutizadas
+2025-11-17 18:24:35 📄 Generando PDF...
+2025-11-17 18:24:35 📝 Escribiendo HTML a PDF...
+
+2025-11-17 19:41:36 🆕 INICIANDO
+2025-11-17 19:41:36 ✅ Constantes definidas
+2025-11-17 19:41:36 📦 Require auth
+2025-11-17 19:41:36 ✅ Auth cargado
+2025-11-17 19:41:36 👤 Usuario: colaborador
+2025-11-17 19:41:36 📦 Require conexion
+2025-11-17 19:41:36 ✅ Conexion cargada
+2025-11-17 19:41:36 📦 Require autoload
+2025-11-17 19:41:36 ✅ Autoload cargado
+2025-11-17 19:41:36 📦 Require obtener_datos_servicio
+2025-11-17 19:41:36 ✅ obtener_datos_servicio cargado
+2025-11-17 19:41:36 📦 Require procesar_tags
+2025-11-17 19:41:36 ✅ procesar_tags cargado
+2025-11-17 19:41:36 📋 Servicio ID: 164
+2025-11-17 19:41:36 🔍 Obteniendo datos del servicio ID: 164
+2025-11-17 19:41:36 📋 Obteniendo datos básicos del servicio...
+2025-11-17 19:41:36 ✅ Servicio obtenido: #1148
+2025-11-17 19:41:36 📋 Obteniendo datos del equipo ID: 145
+2025-11-17 19:41:36 ✅ Equipo obtenido: TOLVA ALIMENTADORA
+2025-11-17 19:41:36 ✅ Cliente obtenido: SOCIEDAD PORTUARIA
+2025-11-17 19:41:36 📋 Obteniendo campos adicionales...
+2025-11-17 19:41:36 ✅ Campos adicionales obtenidos: 7
+2025-11-17 19:41:36 📋 Obteniendo fotos...
+2025-11-17 19:41:36 ✅ Fotos obtenidas: 4
+2025-11-17 19:41:36 📋 Obteniendo personal asignado...
+2025-11-17 19:41:36 ✅ Personal obtenido: 2
+2025-11-17 19:41:36 📋 Obteniendo repuestos...
+2025-11-17 19:41:36 ✅ Repuestos obtenidos: 1
+2025-11-17 19:41:36 📋 Obteniendo firmas...
+2025-11-17 19:41:36 ✅ Firmas obtenidas
+2025-11-17 19:41:36 📋 Obteniendo datos del usuario creador ID: 21
+2025-11-17 19:41:36    🔍 Buscando usuario ID: 21
+2025-11-17 19:41:36    ✅ Usuario obtenido: colaborador
+2025-11-17 19:41:36 ✅ Todos los datos del servicio obtenidos correctamente
+2025-11-17 19:41:36 ✅ Datos del servicio obtenidos
+2025-11-17 19:41:36 ✅ Plantilla encontrada
+2025-11-17 19:41:36 📝 Procesando tags...
+2025-11-17 19:41:36 🔄 Iniciando procesamiento de tags...
+2025-11-17 19:41:36 📋 Procesando tags de servicio...
+2025-11-17 19:41:36    ✓ Tag reemplazado: {{o_servicio}} → 1148
+2025-11-17 19:41:36    ✓ Tag reemplazado: {{fecha_registro}} → 17/11/2025 14:02
+2025-11-17 19:41:36    ✓ Tag reemplazado: {{tipo_mantenimiento}} → correctivo
+2025-11-17 19:41:36    ✓ Tag reemplazado: {{actividad_id}} → 53
+2025-11-17 19:41:36 📋 Procesando tags de equipo...
+2025-11-17 19:41:36    ✓ Tag reemplazado: {{equipo_nombre}} → TOLVA ALIMENTADORA
+2025-11-17 19:41:36    ✓ Tag reemplazado: {{equipo_placa}} → TVA-001
+2025-11-17 19:41:36    ✓ Tag reemplazado: {{equipo_ciudad}} → BARRANQUILLA
+2025-11-17 19:41:36 📋 Procesando tags de cliente...
+2025-11-17 19:41:36    ✓ Tag reemplazado: {{cliente_nombre}} → SOCIEDAD PORTUARIA
+2025-11-17 19:41:36 📋 Procesando tags de campos adicionales...
+2025-11-17 19:41:36 📋 Procesando tags de fotos...
+2025-11-17 19:41:36    📸 Fotos antes: 2
+2025-11-17 19:41:36    📸 Fotos después: 2
+2025-11-17 19:41:36    ✓ Tag reemplazado: {{fotos_antes_todas}} (2 fotos)
+2025-11-17 19:41:36    ✓ Tag reemplazado: {{fotos_despues_todas}} (2 fotos)
+2025-11-17 19:41:36 📋 Procesando tags de personal...
+2025-11-17 19:41:36    👤 Personal encontrado: 2
+2025-11-17 19:41:36    ✓ Tag reemplazado: {{tecnico_asignado}} → Natalia Carolina Ospina Restrepo
+2025-11-17 19:41:36 📋 Procesando tags de repuestos...
+2025-11-17 19:41:36    📦 Repuestos encontrados: 1
+2025-11-17 19:41:36    ✓ Tag reemplazado: {{repuestos_lista}}
+2025-11-17 19:41:36 📋 Procesando tags de firmas...
+2025-11-17 19:41:36    ✓ Tag reemplazado: {{firma_staff_imagen}}
+2025-11-17 19:41:36    ✓ Tag reemplazado: {{firma_cliente}} (alias)
+2025-11-17 19:41:36    ✓ Tag reemplazado: {{firma_staff_nombre}}
+2025-11-17 19:41:36    ✓ Tag reemplazado: {{firma_funcionario_nombre}}
+2025-11-17 19:41:36 ✅ Procesamiento completado. Tags reemplazados: 16
+2025-11-17 19:41:36 ✅ Tags procesados
+2025-11-17 19:41:36 ✅ Logo inyectado
+2025-11-17 19:41:36 ✅ Firmas inyectadas
+2025-11-17 19:41:36 ✅ URLs absolutizadas
+2025-11-17 19:41:36 📄 Generando PDF...
+2025-11-17 19:41:36 📝 Escribiendo HTML a PDF...
+
+2026-01-18 13:50:08 🆕 INICIANDO
+2026-01-18 13:50:08 ✅ Constantes definidas
+2026-01-18 13:50:08 📦 Require auth
+2026-01-18 13:50:08 ❌ ERROR: Failed opening required '../login/auth_middleware.php' (include_path='C:\xampp\php\PEAR')
+2026-01-18 13:50:08    Archivo: C:\Users\ferch\Documents\infoapp\backend\informes\generar_pdf.php
+2026-01-18 13:50:08    Línea: 24
+2026-01-18 13:50:08 🏁 FIN
+

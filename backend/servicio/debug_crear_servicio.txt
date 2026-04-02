@@ -1,0 +1,2899 @@
+[2025-10-07 00:54:12][MEM: 0.37MB] ========================================
+[2025-10-07 00:54:12][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-10-07 00:54:12][MEM: 0.37MB] ========================================
+[2025-10-07 00:54:12][MEM: 0.37MB] 🌐 IP: 186.98.209.199
+[2025-10-07 00:54:12][MEM: 0.37MB] 📨 Método: POST
+[2025-10-07 00:54:12][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-10-07 00:54:12][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-10-07 00:54:12][MEM: 0.38MB] 👤 Usuario autenticado: die (ID: 12)
+[2025-10-07 00:54:12][MEM: 0.38MB] ✅ Acceso registrado
+[2025-10-07 00:54:12][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-10-07 00:54:12][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-10-07 00:54:12][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-10-07 00:54:12][MEM: 0.42MB] 📥 Raw input length: 194
+[2025-10-07 00:54:12][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-10-06T19:53:55.089","orden_cliente":"283819","autorizado_por":14,"tipo_mantenimiento":"correctivo","centro_costo":"planta","id_equipo":10,"estado_id":10,"actividad_id":46}
+[2025-10-07 00:54:12][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-10-07 00:54:12][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-10-07 00:54:12][MEM: 0.42MB]    fecha_ingreso: 2025-10-06T19:53:55.089
+[2025-10-07 00:54:12][MEM: 0.42MB]    orden_cliente: 283819
+[2025-10-07 00:54:12][MEM: 0.42MB]    autorizado_por: 14
+[2025-10-07 00:54:12][MEM: 0.42MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-10-07 00:54:12][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-10-07 00:54:12][MEM: 0.42MB]    centro_costo: planta
+[2025-10-07 00:54:12][MEM: 0.42MB]    id_equipo: 10
+[2025-10-07 00:54:12][MEM: 0.42MB]    estado_id: 10
+[2025-10-07 00:54:12][MEM: 0.42MB]    actividad_id: 46
+[2025-10-07 00:54:12][MEM: 0.42MB]    usuario_id: 12
+[2025-10-07 00:54:12][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-10-07 00:54:12][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-10-07 00:54:12][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-10-07 00:54:12][MEM: 0.42MB]    Tipo: string
+[2025-10-07 00:54:12][MEM: 0.42MB]    Longitud: 10
+[2025-10-07 00:54:12][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-10-07 00:54:12][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-10-07 00:54:12][MEM: 0.42MB]    Longitud: 10
+[2025-10-07 00:54:12][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-10-07 00:54:12][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-10-07 00:54:12][MEM: 0.42MB]    Longitud: 10
+[2025-10-07 00:54:12][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-10-07 00:54:12][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-10-07 00:54:12][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-10-07 00:54:12][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-10-07 00:54:12][MEM: 0.42MB]    autorizado_por: 14 (integer)
+[2025-10-07 00:54:12][MEM: 0.42MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-10-07 00:54:12][MEM: 0.42MB]    id_equipo: 10 (integer)
+[2025-10-07 00:54:12][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-10-07 00:54:12][MEM: 0.42MB]    actividad_id: 46 (integer)
+[2025-10-07 00:54:12][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-10-07 00:54:12][MEM: 0.45MB] ✅ Número calculado: 1125 (anterior: 1124)
+[2025-10-07 00:54:12][MEM: 0.45MB] 🔍 Buscando equipo ID: 10
+[2025-10-07 00:54:12][MEM: 0.45MB] ✅ Equipo encontrado:
+[2025-10-07 00:54:12][MEM: 0.45MB]    nombre_empresa: ARGOS
+[2025-10-07 00:54:12][MEM: 0.45MB]    placa: P3
+[2025-10-07 00:54:12][MEM: 0.45MB] 🔍 Validando funcionario ID: 14
+[2025-10-07 00:54:12][MEM: 0.45MB] ✅ Funcionario validado
+[2025-10-07 00:54:12][MEM: 0.45MB] 📅 Fecha formateada: 2025-10-06 19:53:55
+[2025-10-07 00:54:12][MEM: 0.45MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-10-07 00:54:12][MEM: 0.45MB] 🔧 Preparando statement...
+[2025-10-07 00:54:12][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-10-07 00:54:12][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-10-07 00:54:12][MEM: 0.44MB]    Parámetros a bindear:
+[2025-10-07 00:54:12][MEM: 0.44MB]    1. o_servicio (i): 1125
+[2025-10-07 00:54:12][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-10-06 19:53:55
+[2025-10-07 00:54:12][MEM: 0.44MB]    3. orden_cliente (s): 283819
+[2025-10-07 00:54:12][MEM: 0.44MB]    4. autorizado_por (i): 14
+[2025-10-07 00:54:12][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-10-07 00:54:12][MEM: 0.44MB]    6. centro_costo (s): planta
+[2025-10-07 00:54:12][MEM: 0.44MB]    7. id_equipo (i): 10
+[2025-10-07 00:54:12][MEM: 0.44MB]    8. nombre_empresa (s): ARGOS
+[2025-10-07 00:54:12][MEM: 0.44MB]    9. placa (s): P3
+[2025-10-07 00:54:12][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-10-07 00:54:12][MEM: 0.44MB]   11. actividad_id (i): 46
+[2025-10-07 00:54:12][MEM: 0.44MB]   12. usuario_creador (i): 12
+[2025-10-07 00:54:12][MEM: 0.44MB]   13. usuario_ultima_act (i): 12
+[2025-10-07 00:54:12][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-10-07 00:54:12][MEM: 0.44MB] ✅ Bind exitoso
+[2025-10-07 00:54:12][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-10-07 00:54:12][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-10-07 00:54:12][MEM: 0.44MB] 🆔 Servicio creado con ID: 141
+[2025-10-07 00:54:12][MEM: 0.44MB] 🔢 Número de servicio: 1125
+[2025-10-07 00:54:12][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-10-07 00:54:12][MEM: 0.48MB]    📤 Valor que enviamos: 'correctivo'
+[2025-10-07 00:54:12][MEM: 0.48MB]    📥 Valor final en BD: '0'
+[2025-10-07 00:54:12][MEM: 0.48MB]    📏 Longitud final: 1
+[2025-10-07 00:54:12][MEM: 0.48MB]    🔢 Valor HEX final: 30
+[2025-10-07 00:54:12][MEM: 0.48MB]    ✔️  ¿Son iguales?: NO ❌
+[2025-10-07 00:54:12][MEM: 0.46MB] 📡 Intentando WebSocket...
+[2025-10-07 00:54:12][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-10-07 00:54:12][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-10-07 00:54:12][MEM: 0.46MB] 📤 Respuesta preparada (size: 364 bytes)
+[2025-10-07 00:54:12][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-10-07 00:56:53][MEM: 0.37MB] ========================================
+[2025-10-07 00:56:53][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-10-07 00:56:53][MEM: 0.37MB] ========================================
+[2025-10-07 00:56:53][MEM: 0.37MB] 🌐 IP: 186.98.209.199
+[2025-10-07 00:56:53][MEM: 0.37MB] 📨 Método: POST
+[2025-10-07 00:56:53][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-10-07 00:56:53][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-10-07 00:56:53][MEM: 0.38MB] 👤 Usuario autenticado: die (ID: 12)
+[2025-10-07 00:56:53][MEM: 0.38MB] ✅ Acceso registrado
+[2025-10-07 00:56:53][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-10-07 00:56:53][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-10-07 00:56:53][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-10-07 00:56:53][MEM: 0.42MB] 📥 Raw input length: 193
+[2025-10-07 00:56:53][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-10-06T19:56:50.892","orden_cliente":"817282","autorizado_por":17,"tipo_mantenimiento":"correctivo","centro_costo":"planta","id_equipo":10,"estado_id":10,"actividad_id":1}
+[2025-10-07 00:56:53][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-10-07 00:56:53][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-10-07 00:56:53][MEM: 0.42MB]    fecha_ingreso: 2025-10-06T19:56:50.892
+[2025-10-07 00:56:53][MEM: 0.42MB]    orden_cliente: 817282
+[2025-10-07 00:56:53][MEM: 0.42MB]    autorizado_por: 17
+[2025-10-07 00:56:53][MEM: 0.42MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-10-07 00:56:53][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-10-07 00:56:53][MEM: 0.42MB]    centro_costo: planta
+[2025-10-07 00:56:53][MEM: 0.42MB]    id_equipo: 10
+[2025-10-07 00:56:53][MEM: 0.42MB]    estado_id: 10
+[2025-10-07 00:56:53][MEM: 0.42MB]    actividad_id: 1
+[2025-10-07 00:56:53][MEM: 0.42MB]    usuario_id: 12
+[2025-10-07 00:56:53][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-10-07 00:56:53][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-10-07 00:56:53][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-10-07 00:56:53][MEM: 0.42MB]    Tipo: string
+[2025-10-07 00:56:53][MEM: 0.42MB]    Longitud: 10
+[2025-10-07 00:56:53][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-10-07 00:56:53][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-10-07 00:56:53][MEM: 0.42MB]    Longitud: 10
+[2025-10-07 00:56:53][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-10-07 00:56:53][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-10-07 00:56:53][MEM: 0.42MB]    Longitud: 10
+[2025-10-07 00:56:53][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-10-07 00:56:53][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-10-07 00:56:53][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-10-07 00:56:53][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-10-07 00:56:53][MEM: 0.42MB]    autorizado_por: 17 (integer)
+[2025-10-07 00:56:53][MEM: 0.42MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-10-07 00:56:53][MEM: 0.42MB]    id_equipo: 10 (integer)
+[2025-10-07 00:56:53][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-10-07 00:56:53][MEM: 0.42MB]    actividad_id: 1 (integer)
+[2025-10-07 00:56:53][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-10-07 00:56:53][MEM: 0.45MB] ✅ Número calculado: 1126 (anterior: 1125)
+[2025-10-07 00:56:53][MEM: 0.45MB] 🔍 Buscando equipo ID: 10
+[2025-10-07 00:56:53][MEM: 0.45MB] ✅ Equipo encontrado:
+[2025-10-07 00:56:53][MEM: 0.45MB]    nombre_empresa: ARGOS
+[2025-10-07 00:56:53][MEM: 0.45MB]    placa: P3
+[2025-10-07 00:56:53][MEM: 0.45MB] 🔍 Validando funcionario ID: 17
+[2025-10-07 00:56:53][MEM: 0.45MB] ✅ Funcionario validado
+[2025-10-07 00:56:53][MEM: 0.45MB] 📅 Fecha formateada: 2025-10-06 19:56:50
+[2025-10-07 00:56:53][MEM: 0.45MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-10-07 00:56:53][MEM: 0.45MB] 🔧 Preparando statement...
+[2025-10-07 00:56:53][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-10-07 00:56:53][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-10-07 00:56:53][MEM: 0.44MB]    Parámetros a bindear:
+[2025-10-07 00:56:53][MEM: 0.44MB]    1. o_servicio (i): 1126
+[2025-10-07 00:56:53][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-10-06 19:56:50
+[2025-10-07 00:56:53][MEM: 0.44MB]    3. orden_cliente (s): 817282
+[2025-10-07 00:56:53][MEM: 0.44MB]    4. autorizado_por (i): 17
+[2025-10-07 00:56:53][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-10-07 00:56:53][MEM: 0.44MB]    6. centro_costo (s): planta
+[2025-10-07 00:56:53][MEM: 0.44MB]    7. id_equipo (i): 10
+[2025-10-07 00:56:53][MEM: 0.44MB]    8. nombre_empresa (s): ARGOS
+[2025-10-07 00:56:53][MEM: 0.44MB]    9. placa (s): P3
+[2025-10-07 00:56:53][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-10-07 00:56:53][MEM: 0.44MB]   11. actividad_id (i): 1
+[2025-10-07 00:56:53][MEM: 0.44MB]   12. usuario_creador (i): 12
+[2025-10-07 00:56:53][MEM: 0.44MB]   13. usuario_ultima_act (i): 12
+[2025-10-07 00:56:53][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-10-07 00:56:53][MEM: 0.44MB] ✅ Bind exitoso
+[2025-10-07 00:56:53][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-10-07 00:56:53][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-10-07 00:56:53][MEM: 0.44MB] 🆔 Servicio creado con ID: 142
+[2025-10-07 00:56:53][MEM: 0.44MB] 🔢 Número de servicio: 1126
+[2025-10-07 00:56:53][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-10-07 00:56:53][MEM: 0.44MB] ✅ FIX aplicado exitosamente
+[2025-10-07 00:56:53][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-10-07 00:56:53][MEM: 0.48MB]    📤 Valor que enviamos: 'correctivo'
+[2025-10-07 00:56:53][MEM: 0.48MB]    📥 Valor final en BD: 'correctivo'
+[2025-10-07 00:56:53][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-10-07 00:56:53][MEM: 0.48MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-10-07 00:56:53][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-10-07 00:56:53][MEM: 0.46MB] 📡 Intentando WebSocket...
+[2025-10-07 00:56:53][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-10-07 00:56:53][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-10-07 00:56:53][MEM: 0.46MB] 📤 Respuesta preparada (size: 363 bytes)
+[2025-10-07 00:56:53][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-10-07 00:57:57][MEM: 0.37MB] ========================================
+[2025-10-07 00:57:57][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-10-07 00:57:57][MEM: 0.37MB] ========================================
+[2025-10-07 00:57:57][MEM: 0.37MB] 🌐 IP: 186.98.209.199
+[2025-10-07 00:57:57][MEM: 0.37MB] 📨 Método: OPTIONS
+[2025-10-07 00:57:57][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-10-07 00:57:57][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-10-07 00:57:57][MEM: 0.35MB] ========================================
+[2025-10-07 00:57:57][MEM: 0.35MB] 🆕 NUEVA REQUEST INICIADA
+[2025-10-07 00:57:57][MEM: 0.35MB] ========================================
+[2025-10-07 00:57:57][MEM: 0.35MB] 🌐 IP: 186.98.209.199
+[2025-10-07 00:57:57][MEM: 0.35MB] 📨 Método: POST
+[2025-10-07 00:57:57][MEM: 0.35MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-10-07 00:57:57][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-10-07 00:57:57][MEM: 0.35MB] 👤 Usuario autenticado: die (ID: 12)
+[2025-10-07 00:57:57][MEM: 0.35MB] ✅ Acceso registrado
+[2025-10-07 00:57:57][MEM: 0.35MB] 📦 Requiriendo conexión y WebSocket...
+[2025-10-07 00:57:57][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-10-07 00:57:57][MEM: 0.39MB] ✅ WebSocketNotifier.php cargado
+[2025-10-07 00:57:57][MEM: 0.4MB] 📥 Raw input length: 194
+[2025-10-07 00:57:57][MEM: 0.4MB] 📥 Raw input: {"fecha_ingreso":"2025-10-06T19:57:32.980","orden_cliente":"t3535325","autorizado_por":15,"tipo_mantenimiento":"preventivo","centro_costo":"planta","id_equipo":5,"estado_id":10,"actividad_id":1}
+[2025-10-07 00:57:57][MEM: 0.4MB] ✅ JSON decodificado correctamente
+[2025-10-07 00:57:57][MEM: 0.4MB] 📋 Variables extraídas:
+[2025-10-07 00:57:57][MEM: 0.4MB]    fecha_ingreso: 2025-10-06T19:57:32.980
+[2025-10-07 00:57:57][MEM: 0.4MB]    orden_cliente: t3535325
+[2025-10-07 00:57:57][MEM: 0.4MB]    autorizado_por: 15
+[2025-10-07 00:57:57][MEM: 0.4MB]    tipo_mantenimiento RAW: 'preventivo'
+[2025-10-07 00:57:57][MEM: 0.4MB]    tipo_mantenimiento tipo: string
+[2025-10-07 00:57:57][MEM: 0.4MB]    centro_costo: planta
+[2025-10-07 00:57:57][MEM: 0.4MB]    id_equipo: 5
+[2025-10-07 00:57:57][MEM: 0.4MB]    estado_id: 10
+[2025-10-07 00:57:57][MEM: 0.4MB]    actividad_id: 1
+[2025-10-07 00:57:57][MEM: 0.4MB]    usuario_id: 12
+[2025-10-07 00:57:57][MEM: 0.4MB] ✅ Validación de campos requeridos OK
+[2025-10-07 00:57:57][MEM: 0.4MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-10-07 00:57:57][MEM: 0.4MB]    Valor: 'preventivo'
+[2025-10-07 00:57:57][MEM: 0.4MB]    Tipo: string
+[2025-10-07 00:57:57][MEM: 0.4MB]    Longitud: 10
+[2025-10-07 00:57:57][MEM: 0.4MB] 🔍 DESPUÉS de trim():
+[2025-10-07 00:57:57][MEM: 0.4MB]    Valor: 'preventivo'
+[2025-10-07 00:57:57][MEM: 0.4MB]    Longitud: 10
+[2025-10-07 00:57:57][MEM: 0.4MB] 🔍 DESPUÉS de strtolower():
+[2025-10-07 00:57:57][MEM: 0.4MB]    Valor: 'preventivo'
+[2025-10-07 00:57:57][MEM: 0.4MB]    Longitud: 10
+[2025-10-07 00:57:57][MEM: 0.4MB] ✅ tipo_mantenimiento normalizado correctamente: 'preventivo'
+[2025-10-07 00:57:57][MEM: 0.4MB] 🔢 Convirtiendo tipos numéricos...
+[2025-10-07 00:57:57][MEM: 0.4MB] 🔢 Tipos forzados:
+[2025-10-07 00:57:57][MEM: 0.4MB]    o_servicio: 0 (integer)
+[2025-10-07 00:57:57][MEM: 0.4MB]    autorizado_por: 15 (integer)
+[2025-10-07 00:57:57][MEM: 0.4MB]    tipo_mantenimiento: 'preventivo' (string)
+[2025-10-07 00:57:57][MEM: 0.4MB]    id_equipo: 5 (integer)
+[2025-10-07 00:57:57][MEM: 0.4MB]    estado_id: 10 (integer)
+[2025-10-07 00:57:57][MEM: 0.4MB]    actividad_id: 1 (integer)
+[2025-10-07 00:57:57][MEM: 0.4MB] 🔢 Calculando número de servicio automático...
+[2025-10-07 00:57:57][MEM: 0.43MB] ✅ Número calculado: 1127 (anterior: 1126)
+[2025-10-07 00:57:57][MEM: 0.43MB] 🔍 Buscando equipo ID: 5
+[2025-10-07 00:57:57][MEM: 0.43MB] ✅ Equipo encontrado:
+[2025-10-07 00:57:57][MEM: 0.43MB]    nombre_empresa: Argos
+[2025-10-07 00:57:57][MEM: 0.43MB]    placa: ABC-123
+[2025-10-07 00:57:57][MEM: 0.43MB] 🔍 Validando funcionario ID: 15
+[2025-10-07 00:57:57][MEM: 0.43MB] ✅ Funcionario validado
+[2025-10-07 00:57:57][MEM: 0.43MB] 📅 Fecha formateada: 2025-10-06 19:57:32
+[2025-10-07 00:57:57][MEM: 0.43MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-10-07 00:57:57][MEM: 0.43MB] 🔧 Preparando statement...
+[2025-10-07 00:57:57][MEM: 0.42MB] ✅ Statement preparado correctamente
+[2025-10-07 00:57:57][MEM: 0.42MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-10-07 00:57:57][MEM: 0.42MB]    Parámetros a bindear:
+[2025-10-07 00:57:57][MEM: 0.42MB]    1. o_servicio (i): 1127
+[2025-10-07 00:57:57][MEM: 0.42MB]    2. fecha_ingreso (s): 2025-10-06 19:57:32
+[2025-10-07 00:57:57][MEM: 0.42MB]    3. orden_cliente (s): t3535325
+[2025-10-07 00:57:57][MEM: 0.42MB]    4. autorizado_por (i): 15
+[2025-10-07 00:57:57][MEM: 0.42MB]    5. tipo_mantenimiento (s): 'preventivo' [CRÍTICO]
+[2025-10-07 00:57:57][MEM: 0.42MB]    6. centro_costo (s): planta
+[2025-10-07 00:57:57][MEM: 0.42MB]    7. id_equipo (i): 5
+[2025-10-07 00:57:57][MEM: 0.42MB]    8. nombre_empresa (s): Argos
+[2025-10-07 00:57:57][MEM: 0.42MB]    9. placa (s): ABC-123
+[2025-10-07 00:57:57][MEM: 0.42MB]   10. estado_id (i): 10
+[2025-10-07 00:57:57][MEM: 0.42MB]   11. actividad_id (i): 1
+[2025-10-07 00:57:57][MEM: 0.42MB]   12. usuario_creador (i): 12
+[2025-10-07 00:57:57][MEM: 0.42MB]   13. usuario_ultima_act (i): 12
+[2025-10-07 00:57:57][MEM: 0.42MB] 🔗 bind_param resultado: TRUE
+[2025-10-07 00:57:57][MEM: 0.42MB] ✅ Bind exitoso
+[2025-10-07 00:57:57][MEM: 0.42MB] ▶️ Ejecutando INSERT...
+[2025-10-07 00:57:57][MEM: 0.42MB] ✅✅✅ INSERT EXITOSO!
+[2025-10-07 00:57:57][MEM: 0.42MB] 🆔 Servicio creado con ID: 143
+[2025-10-07 00:57:57][MEM: 0.42MB] 🔢 Número de servicio: 1127
+[2025-10-07 00:57:57][MEM: 0.42MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-10-07 00:57:57][MEM: 0.42MB] ✅ FIX aplicado exitosamente
+[2025-10-07 00:57:57][MEM: 0.42MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-10-07 00:57:57][MEM: 0.46MB]    📤 Valor que enviamos: 'preventivo'
+[2025-10-07 00:57:57][MEM: 0.46MB]    📥 Valor final en BD: 'preventivo'
+[2025-10-07 00:57:57][MEM: 0.46MB]    📏 Longitud final: 10
+[2025-10-07 00:57:57][MEM: 0.46MB]    🔢 Valor HEX final: 70726576656E7469766F
+[2025-10-07 00:57:57][MEM: 0.46MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-10-07 00:57:57][MEM: 0.44MB] 📡 Intentando WebSocket...
+[2025-10-07 00:57:57][MEM: 0.44MB] ✅ WebSocket notificado
+[2025-10-07 00:57:57][MEM: 0.44MB] 📤 Preparando respuesta JSON...
+[2025-10-07 00:57:57][MEM: 0.44MB] 📤 Respuesta preparada (size: 364 bytes)
+[2025-10-07 00:57:57][MEM: 0.44MB] 📤 Enviando respuesta JSON...
+[2025-10-08 03:42:08][MEM: 0.37MB] ========================================
+[2025-10-08 03:42:08][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-10-08 03:42:08][MEM: 0.37MB] ========================================
+[2025-10-08 03:42:08][MEM: 0.37MB] 🌐 IP: 179.19.197.14
+[2025-10-08 03:42:08][MEM: 0.37MB] 📨 Método: POST
+[2025-10-08 03:42:08][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-10-08 03:42:08][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-10-08 03:42:08][MEM: 0.38MB] 👤 Usuario autenticado: die (ID: 12)
+[2025-10-08 03:42:08][MEM: 0.38MB] ✅ Acceso registrado
+[2025-10-08 03:42:08][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-10-08 03:42:08][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-10-08 03:42:08][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-10-08 03:42:08][MEM: 0.42MB] 📥 Raw input length: 194
+[2025-10-08 03:42:08][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-10-07T22:41:27.475","orden_cliente":"PENDIENTE","autorizado_por":3,"tipo_mantenimiento":"preventivo","centro_costo":"taller","id_equipo":5,"estado_id":10,"actividad_id":8}
+[2025-10-08 03:42:08][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-10-08 03:42:08][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-10-08 03:42:08][MEM: 0.42MB]    fecha_ingreso: 2025-10-07T22:41:27.475
+[2025-10-08 03:42:08][MEM: 0.42MB]    orden_cliente: PENDIENTE
+[2025-10-08 03:42:08][MEM: 0.42MB]    autorizado_por: 3
+[2025-10-08 03:42:08][MEM: 0.42MB]    tipo_mantenimiento RAW: 'preventivo'
+[2025-10-08 03:42:08][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-10-08 03:42:08][MEM: 0.42MB]    centro_costo: taller
+[2025-10-08 03:42:08][MEM: 0.42MB]    id_equipo: 5
+[2025-10-08 03:42:08][MEM: 0.42MB]    estado_id: 10
+[2025-10-08 03:42:08][MEM: 0.42MB]    actividad_id: 8
+[2025-10-08 03:42:08][MEM: 0.42MB]    usuario_id: 12
+[2025-10-08 03:42:08][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-10-08 03:42:08][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-10-08 03:42:08][MEM: 0.42MB]    Valor: 'preventivo'
+[2025-10-08 03:42:08][MEM: 0.42MB]    Tipo: string
+[2025-10-08 03:42:08][MEM: 0.42MB]    Longitud: 10
+[2025-10-08 03:42:08][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-10-08 03:42:08][MEM: 0.42MB]    Valor: 'preventivo'
+[2025-10-08 03:42:08][MEM: 0.42MB]    Longitud: 10
+[2025-10-08 03:42:08][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-10-08 03:42:08][MEM: 0.42MB]    Valor: 'preventivo'
+[2025-10-08 03:42:08][MEM: 0.42MB]    Longitud: 10
+[2025-10-08 03:42:08][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'preventivo'
+[2025-10-08 03:42:08][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-10-08 03:42:08][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-10-08 03:42:08][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-10-08 03:42:08][MEM: 0.42MB]    autorizado_por: 3 (integer)
+[2025-10-08 03:42:08][MEM: 0.42MB]    tipo_mantenimiento: 'preventivo' (string)
+[2025-10-08 03:42:08][MEM: 0.42MB]    id_equipo: 5 (integer)
+[2025-10-08 03:42:08][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-10-08 03:42:08][MEM: 0.42MB]    actividad_id: 8 (integer)
+[2025-10-08 03:42:08][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-10-08 03:42:08][MEM: 0.45MB] ✅ Número calculado: 1128 (anterior: 1127)
+[2025-10-08 03:42:08][MEM: 0.45MB] 🔍 Buscando equipo ID: 5
+[2025-10-08 03:42:08][MEM: 0.45MB] ✅ Equipo encontrado:
+[2025-10-08 03:42:08][MEM: 0.45MB]    nombre_empresa: Argos
+[2025-10-08 03:42:08][MEM: 0.45MB]    placa: ABC-123
+[2025-10-08 03:42:08][MEM: 0.45MB] 🔍 Validando funcionario ID: 3
+[2025-10-08 03:42:08][MEM: 0.45MB] ✅ Funcionario validado
+[2025-10-08 03:42:08][MEM: 0.45MB] 📅 Fecha formateada: 2025-10-07 22:41:27
+[2025-10-08 03:42:08][MEM: 0.45MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-10-08 03:42:08][MEM: 0.45MB] 🔧 Preparando statement...
+[2025-10-08 03:42:08][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-10-08 03:42:08][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-10-08 03:42:08][MEM: 0.44MB]    Parámetros a bindear:
+[2025-10-08 03:42:08][MEM: 0.44MB]    1. o_servicio (i): 1128
+[2025-10-08 03:42:08][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-10-07 22:41:27
+[2025-10-08 03:42:08][MEM: 0.44MB]    3. orden_cliente (s): PENDIENTE
+[2025-10-08 03:42:08][MEM: 0.44MB]    4. autorizado_por (i): 3
+[2025-10-08 03:42:08][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'preventivo' [CRÍTICO]
+[2025-10-08 03:42:08][MEM: 0.44MB]    6. centro_costo (s): taller
+[2025-10-08 03:42:08][MEM: 0.44MB]    7. id_equipo (i): 5
+[2025-10-08 03:42:08][MEM: 0.44MB]    8. nombre_empresa (s): Argos
+[2025-10-08 03:42:08][MEM: 0.44MB]    9. placa (s): ABC-123
+[2025-10-08 03:42:08][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-10-08 03:42:08][MEM: 0.44MB]   11. actividad_id (i): 8
+[2025-10-08 03:42:08][MEM: 0.44MB]   12. usuario_creador (i): 12
+[2025-10-08 03:42:08][MEM: 0.44MB]   13. usuario_ultima_act (i): 12
+[2025-10-08 03:42:08][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-10-08 03:42:08][MEM: 0.44MB] ✅ Bind exitoso
+[2025-10-08 03:42:08][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-10-08 03:42:08][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-10-08 03:42:08][MEM: 0.44MB] 🆔 Servicio creado con ID: 144
+[2025-10-08 03:42:08][MEM: 0.44MB] 🔢 Número de servicio: 1128
+[2025-10-08 03:42:08][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-10-08 03:42:08][MEM: 0.44MB] ✅ FIX aplicado exitosamente
+[2025-10-08 03:42:08][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-10-08 03:42:09][MEM: 0.48MB]    📤 Valor que enviamos: 'preventivo'
+[2025-10-08 03:42:09][MEM: 0.48MB]    📥 Valor final en BD: 'preventivo'
+[2025-10-08 03:42:09][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-10-08 03:42:09][MEM: 0.48MB]    🔢 Valor HEX final: 70726576656E7469766F
+[2025-10-08 03:42:09][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-10-08 03:42:09][MEM: 0.46MB] 📡 Intentando WebSocket...
+[2025-10-08 03:42:09][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-10-08 03:42:09][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-10-08 03:42:09][MEM: 0.46MB] 📤 Respuesta preparada (size: 364 bytes)
+[2025-10-08 03:42:09][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-10-08 15:54:17][MEM: 0.37MB] ========================================
+[2025-10-08 15:54:17][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-10-08 15:54:17][MEM: 0.37MB] ========================================
+[2025-10-08 15:54:17][MEM: 0.37MB] 🌐 IP: 186.98.209.199
+[2025-10-08 15:54:17][MEM: 0.37MB] 📨 Método: POST
+[2025-10-08 15:54:17][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-10-08 15:54:17][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-10-08 15:54:17][MEM: 0.37MB] 👤 Usuario autenticado: die (ID: 12)
+[2025-10-08 15:54:17][MEM: 0.37MB] ✅ Acceso registrado
+[2025-10-08 15:54:17][MEM: 0.37MB] 📦 Requiriendo conexión y WebSocket...
+[2025-10-08 15:54:17][MEM: 0.41MB] ✅ conexion.php cargado
+[2025-10-08 15:54:17][MEM: 0.41MB] ✅ WebSocketNotifier.php cargado
+[2025-10-08 15:54:17][MEM: 0.41MB] 📥 Raw input length: 199
+[2025-10-08 15:54:17][MEM: 0.41MB] 📥 Raw input: {"fecha_ingreso":"2025-10-08T10:51:32.803204","orden_cliente":"PENDIENTE","autorizado_por":17,"tipo_mantenimiento":"preventivo","centro_costo":"taller","id_equipo":8,"estado_id":10,"actividad_id":51}
+[2025-10-08 15:54:17][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-10-08 15:54:17][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-10-08 15:54:17][MEM: 0.42MB]    fecha_ingreso: 2025-10-08T10:51:32.803204
+[2025-10-08 15:54:17][MEM: 0.42MB]    orden_cliente: PENDIENTE
+[2025-10-08 15:54:17][MEM: 0.42MB]    autorizado_por: 17
+[2025-10-08 15:54:17][MEM: 0.42MB]    tipo_mantenimiento RAW: 'preventivo'
+[2025-10-08 15:54:17][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-10-08 15:54:17][MEM: 0.42MB]    centro_costo: taller
+[2025-10-08 15:54:17][MEM: 0.42MB]    id_equipo: 8
+[2025-10-08 15:54:17][MEM: 0.42MB]    estado_id: 10
+[2025-10-08 15:54:17][MEM: 0.42MB]    actividad_id: 51
+[2025-10-08 15:54:17][MEM: 0.42MB]    usuario_id: 12
+[2025-10-08 15:54:17][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-10-08 15:54:17][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-10-08 15:54:17][MEM: 0.42MB]    Valor: 'preventivo'
+[2025-10-08 15:54:17][MEM: 0.42MB]    Tipo: string
+[2025-10-08 15:54:17][MEM: 0.42MB]    Longitud: 10
+[2025-10-08 15:54:17][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-10-08 15:54:17][MEM: 0.42MB]    Valor: 'preventivo'
+[2025-10-08 15:54:17][MEM: 0.42MB]    Longitud: 10
+[2025-10-08 15:54:17][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-10-08 15:54:17][MEM: 0.42MB]    Valor: 'preventivo'
+[2025-10-08 15:54:17][MEM: 0.42MB]    Longitud: 10
+[2025-10-08 15:54:17][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'preventivo'
+[2025-10-08 15:54:17][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-10-08 15:54:17][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-10-08 15:54:17][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-10-08 15:54:17][MEM: 0.42MB]    autorizado_por: 17 (integer)
+[2025-10-08 15:54:17][MEM: 0.42MB]    tipo_mantenimiento: 'preventivo' (string)
+[2025-10-08 15:54:17][MEM: 0.42MB]    id_equipo: 8 (integer)
+[2025-10-08 15:54:17][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-10-08 15:54:17][MEM: 0.42MB]    actividad_id: 51 (integer)
+[2025-10-08 15:54:17][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-10-08 15:54:17][MEM: 0.45MB] ✅ Número calculado: 1129 (anterior: 1128)
+[2025-10-08 15:54:17][MEM: 0.45MB] 🔍 Buscando equipo ID: 8
+[2025-10-08 15:54:17][MEM: 0.45MB] ✅ Equipo encontrado:
+[2025-10-08 15:54:17][MEM: 0.45MB]    nombre_empresa: ARGOS
+[2025-10-08 15:54:17][MEM: 0.45MB]    placa: P1
+[2025-10-08 15:54:17][MEM: 0.45MB] 🔍 Validando funcionario ID: 17
+[2025-10-08 15:54:17][MEM: 0.45MB] ✅ Funcionario validado
+[2025-10-08 15:54:17][MEM: 0.45MB] 📅 Fecha formateada: 2025-10-08 10:51:32
+[2025-10-08 15:54:17][MEM: 0.45MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-10-08 15:54:17][MEM: 0.45MB] 🔧 Preparando statement...
+[2025-10-08 15:54:17][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-10-08 15:54:17][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-10-08 15:54:17][MEM: 0.44MB]    Parámetros a bindear:
+[2025-10-08 15:54:17][MEM: 0.44MB]    1. o_servicio (i): 1129
+[2025-10-08 15:54:17][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-10-08 10:51:32
+[2025-10-08 15:54:17][MEM: 0.44MB]    3. orden_cliente (s): PENDIENTE
+[2025-10-08 15:54:17][MEM: 0.44MB]    4. autorizado_por (i): 17
+[2025-10-08 15:54:17][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'preventivo' [CRÍTICO]
+[2025-10-08 15:54:17][MEM: 0.44MB]    6. centro_costo (s): taller
+[2025-10-08 15:54:17][MEM: 0.44MB]    7. id_equipo (i): 8
+[2025-10-08 15:54:17][MEM: 0.44MB]    8. nombre_empresa (s): ARGOS
+[2025-10-08 15:54:17][MEM: 0.44MB]    9. placa (s): P1
+[2025-10-08 15:54:17][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-10-08 15:54:17][MEM: 0.44MB]   11. actividad_id (i): 51
+[2025-10-08 15:54:17][MEM: 0.44MB]   12. usuario_creador (i): 12
+[2025-10-08 15:54:17][MEM: 0.44MB]   13. usuario_ultima_act (i): 12
+[2025-10-08 15:54:17][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-10-08 15:54:17][MEM: 0.44MB] ✅ Bind exitoso
+[2025-10-08 15:54:17][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-10-08 15:54:17][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-10-08 15:54:17][MEM: 0.44MB] 🆔 Servicio creado con ID: 145
+[2025-10-08 15:54:17][MEM: 0.44MB] 🔢 Número de servicio: 1129
+[2025-10-08 15:54:17][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-10-08 15:54:17][MEM: 0.44MB] ✅ FIX aplicado exitosamente
+[2025-10-08 15:54:17][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-10-08 15:54:17][MEM: 0.48MB]    📤 Valor que enviamos: 'preventivo'
+[2025-10-08 15:54:17][MEM: 0.48MB]    📥 Valor final en BD: 'preventivo'
+[2025-10-08 15:54:17][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-10-08 15:54:17][MEM: 0.48MB]    🔢 Valor HEX final: 70726576656E7469766F
+[2025-10-08 15:54:17][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-10-08 15:54:17][MEM: 0.45MB] 📡 Intentando WebSocket...
+[2025-10-08 15:54:17][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-10-08 15:54:17][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-10-08 15:54:17][MEM: 0.46MB] 📤 Respuesta preparada (size: 366 bytes)
+[2025-10-08 15:54:17][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-10-08 18:08:40][MEM: 0.37MB] ========================================
+[2025-10-08 18:08:40][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-10-08 18:08:40][MEM: 0.37MB] ========================================
+[2025-10-08 18:08:40][MEM: 0.37MB] 🌐 IP: 186.98.209.199
+[2025-10-08 18:08:40][MEM: 0.37MB] 📨 Método: POST
+[2025-10-08 18:08:40][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-10-08 18:08:40][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-10-08 18:08:40][MEM: 0.37MB] 👤 Usuario autenticado: die (ID: 12)
+[2025-10-08 18:08:40][MEM: 0.37MB] ✅ Acceso registrado
+[2025-10-08 18:08:40][MEM: 0.37MB] 📦 Requiriendo conexión y WebSocket...
+[2025-10-08 18:08:40][MEM: 0.41MB] ✅ conexion.php cargado
+[2025-10-08 18:08:40][MEM: 0.41MB] ✅ WebSocketNotifier.php cargado
+[2025-10-08 18:08:40][MEM: 0.41MB] 📥 Raw input length: 196
+[2025-10-08 18:08:40][MEM: 0.41MB] 📥 Raw input: {"fecha_ingreso":"2025-10-08T13:08:01.178469","orden_cliente":"123455","autorizado_por":14,"tipo_mantenimiento":"correctivo","centro_costo":"planta","id_equipo":5,"estado_id":10,"actividad_id":50}
+[2025-10-08 18:08:40][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-10-08 18:08:40][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-10-08 18:08:40][MEM: 0.42MB]    fecha_ingreso: 2025-10-08T13:08:01.178469
+[2025-10-08 18:08:40][MEM: 0.42MB]    orden_cliente: 123455
+[2025-10-08 18:08:40][MEM: 0.42MB]    autorizado_por: 14
+[2025-10-08 18:08:40][MEM: 0.42MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-10-08 18:08:40][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-10-08 18:08:40][MEM: 0.42MB]    centro_costo: planta
+[2025-10-08 18:08:40][MEM: 0.42MB]    id_equipo: 5
+[2025-10-08 18:08:40][MEM: 0.42MB]    estado_id: 10
+[2025-10-08 18:08:40][MEM: 0.42MB]    actividad_id: 50
+[2025-10-08 18:08:40][MEM: 0.42MB]    usuario_id: 12
+[2025-10-08 18:08:40][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-10-08 18:08:40][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-10-08 18:08:40][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-10-08 18:08:40][MEM: 0.42MB]    Tipo: string
+[2025-10-08 18:08:40][MEM: 0.42MB]    Longitud: 10
+[2025-10-08 18:08:40][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-10-08 18:08:40][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-10-08 18:08:40][MEM: 0.42MB]    Longitud: 10
+[2025-10-08 18:08:40][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-10-08 18:08:40][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-10-08 18:08:40][MEM: 0.42MB]    Longitud: 10
+[2025-10-08 18:08:40][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-10-08 18:08:40][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-10-08 18:08:40][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-10-08 18:08:40][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-10-08 18:08:40][MEM: 0.42MB]    autorizado_por: 14 (integer)
+[2025-10-08 18:08:40][MEM: 0.42MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-10-08 18:08:40][MEM: 0.42MB]    id_equipo: 5 (integer)
+[2025-10-08 18:08:40][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-10-08 18:08:40][MEM: 0.42MB]    actividad_id: 50 (integer)
+[2025-10-08 18:08:40][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-10-08 18:08:40][MEM: 0.45MB] ✅ Número calculado: 1130 (anterior: 1129)
+[2025-10-08 18:08:40][MEM: 0.45MB] 🔍 Buscando equipo ID: 5
+[2025-10-08 18:08:40][MEM: 0.45MB] ✅ Equipo encontrado:
+[2025-10-08 18:08:40][MEM: 0.45MB]    nombre_empresa: Argos
+[2025-10-08 18:08:40][MEM: 0.45MB]    placa: ABC-123
+[2025-10-08 18:08:40][MEM: 0.45MB] 🔍 Validando funcionario ID: 14
+[2025-10-08 18:08:40][MEM: 0.45MB] ✅ Funcionario validado
+[2025-10-08 18:08:40][MEM: 0.45MB] 📅 Fecha formateada: 2025-10-08 13:08:01
+[2025-10-08 18:08:40][MEM: 0.45MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-10-08 18:08:40][MEM: 0.45MB] 🔧 Preparando statement...
+[2025-10-08 18:08:40][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-10-08 18:08:40][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-10-08 18:08:40][MEM: 0.44MB]    Parámetros a bindear:
+[2025-10-08 18:08:40][MEM: 0.44MB]    1. o_servicio (i): 1130
+[2025-10-08 18:08:40][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-10-08 13:08:01
+[2025-10-08 18:08:40][MEM: 0.44MB]    3. orden_cliente (s): 123455
+[2025-10-08 18:08:40][MEM: 0.44MB]    4. autorizado_por (i): 14
+[2025-10-08 18:08:40][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-10-08 18:08:40][MEM: 0.44MB]    6. centro_costo (s): planta
+[2025-10-08 18:08:40][MEM: 0.44MB]    7. id_equipo (i): 5
+[2025-10-08 18:08:40][MEM: 0.44MB]    8. nombre_empresa (s): Argos
+[2025-10-08 18:08:40][MEM: 0.44MB]    9. placa (s): ABC-123
+[2025-10-08 18:08:40][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-10-08 18:08:40][MEM: 0.44MB]   11. actividad_id (i): 50
+[2025-10-08 18:08:40][MEM: 0.44MB]   12. usuario_creador (i): 12
+[2025-10-08 18:08:40][MEM: 0.44MB]   13. usuario_ultima_act (i): 12
+[2025-10-08 18:08:40][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-10-08 18:08:40][MEM: 0.44MB] ✅ Bind exitoso
+[2025-10-08 18:08:40][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-10-08 18:08:40][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-10-08 18:08:40][MEM: 0.44MB] 🆔 Servicio creado con ID: 146
+[2025-10-08 18:08:40][MEM: 0.44MB] 🔢 Número de servicio: 1130
+[2025-10-08 18:08:40][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-10-08 18:08:40][MEM: 0.44MB] ✅ FIX aplicado exitosamente
+[2025-10-08 18:08:40][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-10-08 18:08:40][MEM: 0.48MB]    📤 Valor que enviamos: 'correctivo'
+[2025-10-08 18:08:40][MEM: 0.48MB]    📥 Valor final en BD: 'correctivo'
+[2025-10-08 18:08:40][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-10-08 18:08:40][MEM: 0.48MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-10-08 18:08:40][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-10-08 18:08:40][MEM: 0.45MB] 📡 Intentando WebSocket...
+[2025-10-08 18:08:40][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-10-08 18:08:40][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-10-08 18:08:40][MEM: 0.46MB] 📤 Respuesta preparada (size: 363 bytes)
+[2025-10-08 18:08:40][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-10-08 18:11:41][MEM: 0.35MB] ========================================
+[2025-10-08 18:11:41][MEM: 0.35MB] 🆕 NUEVA REQUEST INICIADA
+[2025-10-08 18:11:41][MEM: 0.35MB] ========================================
+[2025-10-08 18:11:41][MEM: 0.35MB] 🌐 IP: 186.98.209.199
+[2025-10-08 18:11:41][MEM: 0.35MB] 📨 Método: POST
+[2025-10-08 18:11:41][MEM: 0.35MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-10-08 18:11:41][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-10-08 18:11:41][MEM: 0.35MB] 👤 Usuario autenticado: die (ID: 12)
+[2025-10-08 18:11:41][MEM: 0.35MB] ✅ Acceso registrado
+[2025-10-08 18:11:41][MEM: 0.35MB] 📦 Requiriendo conexión y WebSocket...
+[2025-10-08 18:11:41][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-10-08 18:11:41][MEM: 0.39MB] ✅ WebSocketNotifier.php cargado
+[2025-10-08 18:11:41][MEM: 0.39MB] 📥 Raw input length: 196
+[2025-10-08 18:11:41][MEM: 0.39MB] 📥 Raw input: {"fecha_ingreso":"2025-10-08T13:11:27.709832","orden_cliente":"123455","autorizado_por":14,"tipo_mantenimiento":"correctivo","centro_costo":"planta","id_equipo":5,"estado_id":10,"actividad_id":44}
+[2025-10-08 18:11:41][MEM: 0.39MB] ✅ JSON decodificado correctamente
+[2025-10-08 18:11:41][MEM: 0.39MB] 📋 Variables extraídas:
+[2025-10-08 18:11:41][MEM: 0.39MB]    fecha_ingreso: 2025-10-08T13:11:27.709832
+[2025-10-08 18:11:41][MEM: 0.39MB]    orden_cliente: 123455
+[2025-10-08 18:11:41][MEM: 0.39MB]    autorizado_por: 14
+[2025-10-08 18:11:41][MEM: 0.39MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-10-08 18:11:41][MEM: 0.39MB]    tipo_mantenimiento tipo: string
+[2025-10-08 18:11:41][MEM: 0.39MB]    centro_costo: planta
+[2025-10-08 18:11:41][MEM: 0.39MB]    id_equipo: 5
+[2025-10-08 18:11:41][MEM: 0.39MB]    estado_id: 10
+[2025-10-08 18:11:41][MEM: 0.39MB]    actividad_id: 44
+[2025-10-08 18:11:41][MEM: 0.39MB]    usuario_id: 12
+[2025-10-08 18:11:41][MEM: 0.39MB] ✅ Validación de campos requeridos OK
+[2025-10-08 18:11:41][MEM: 0.39MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-10-08 18:11:41][MEM: 0.39MB]    Valor: 'correctivo'
+[2025-10-08 18:11:41][MEM: 0.39MB]    Tipo: string
+[2025-10-08 18:11:41][MEM: 0.39MB]    Longitud: 10
+[2025-10-08 18:11:41][MEM: 0.39MB] 🔍 DESPUÉS de trim():
+[2025-10-08 18:11:41][MEM: 0.39MB]    Valor: 'correctivo'
+[2025-10-08 18:11:41][MEM: 0.39MB]    Longitud: 10
+[2025-10-08 18:11:41][MEM: 0.39MB] 🔍 DESPUÉS de strtolower():
+[2025-10-08 18:11:41][MEM: 0.39MB]    Valor: 'correctivo'
+[2025-10-08 18:11:41][MEM: 0.39MB]    Longitud: 10
+[2025-10-08 18:11:41][MEM: 0.39MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-10-08 18:11:41][MEM: 0.39MB] 🔢 Convirtiendo tipos numéricos...
+[2025-10-08 18:11:41][MEM: 0.39MB] 🔢 Tipos forzados:
+[2025-10-08 18:11:41][MEM: 0.39MB]    o_servicio: 0 (integer)
+[2025-10-08 18:11:41][MEM: 0.39MB]    autorizado_por: 14 (integer)
+[2025-10-08 18:11:41][MEM: 0.39MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-10-08 18:11:41][MEM: 0.39MB]    id_equipo: 5 (integer)
+[2025-10-08 18:11:41][MEM: 0.39MB]    estado_id: 10 (integer)
+[2025-10-08 18:11:41][MEM: 0.39MB]    actividad_id: 44 (integer)
+[2025-10-08 18:11:41][MEM: 0.39MB] 🔢 Calculando número de servicio automático...
+[2025-10-08 18:11:41][MEM: 0.43MB] ✅ Número calculado: 1131 (anterior: 1130)
+[2025-10-08 18:11:41][MEM: 0.43MB] 🔍 Buscando equipo ID: 5
+[2025-10-08 18:11:41][MEM: 0.43MB] ✅ Equipo encontrado:
+[2025-10-08 18:11:41][MEM: 0.43MB]    nombre_empresa: Argos
+[2025-10-08 18:11:41][MEM: 0.43MB]    placa: ABC-123
+[2025-10-08 18:11:41][MEM: 0.43MB] 🔍 Validando funcionario ID: 14
+[2025-10-08 18:11:41][MEM: 0.43MB] ✅ Funcionario validado
+[2025-10-08 18:11:41][MEM: 0.43MB] 📅 Fecha formateada: 2025-10-08 13:11:27
+[2025-10-08 18:11:41][MEM: 0.43MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-10-08 18:11:41][MEM: 0.43MB] 🔧 Preparando statement...
+[2025-10-08 18:11:41][MEM: 0.42MB] ✅ Statement preparado correctamente
+[2025-10-08 18:11:41][MEM: 0.42MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-10-08 18:11:41][MEM: 0.42MB]    Parámetros a bindear:
+[2025-10-08 18:11:41][MEM: 0.42MB]    1. o_servicio (i): 1131
+[2025-10-08 18:11:41][MEM: 0.42MB]    2. fecha_ingreso (s): 2025-10-08 13:11:27
+[2025-10-08 18:11:41][MEM: 0.42MB]    3. orden_cliente (s): 123455
+[2025-10-08 18:11:41][MEM: 0.42MB]    4. autorizado_por (i): 14
+[2025-10-08 18:11:41][MEM: 0.42MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-10-08 18:11:41][MEM: 0.42MB]    6. centro_costo (s): planta
+[2025-10-08 18:11:41][MEM: 0.42MB]    7. id_equipo (i): 5
+[2025-10-08 18:11:41][MEM: 0.42MB]    8. nombre_empresa (s): Argos
+[2025-10-08 18:11:41][MEM: 0.42MB]    9. placa (s): ABC-123
+[2025-10-08 18:11:41][MEM: 0.42MB]   10. estado_id (i): 10
+[2025-10-08 18:11:41][MEM: 0.42MB]   11. actividad_id (i): 44
+[2025-10-08 18:11:41][MEM: 0.42MB]   12. usuario_creador (i): 12
+[2025-10-08 18:11:41][MEM: 0.42MB]   13. usuario_ultima_act (i): 12
+[2025-10-08 18:11:41][MEM: 0.42MB] 🔗 bind_param resultado: TRUE
+[2025-10-08 18:11:41][MEM: 0.42MB] ✅ Bind exitoso
+[2025-10-08 18:11:41][MEM: 0.42MB] ▶️ Ejecutando INSERT...
+[2025-10-08 18:11:41][MEM: 0.42MB] ✅✅✅ INSERT EXITOSO!
+[2025-10-08 18:11:41][MEM: 0.42MB] 🆔 Servicio creado con ID: 147
+[2025-10-08 18:11:41][MEM: 0.42MB] 🔢 Número de servicio: 1131
+[2025-10-08 18:11:41][MEM: 0.42MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-10-08 18:11:41][MEM: 0.42MB] ✅ FIX aplicado exitosamente
+[2025-10-08 18:11:41][MEM: 0.42MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-10-08 18:11:41][MEM: 0.45MB]    📤 Valor que enviamos: 'correctivo'
+[2025-10-08 18:11:41][MEM: 0.45MB]    📥 Valor final en BD: 'correctivo'
+[2025-10-08 18:11:41][MEM: 0.45MB]    📏 Longitud final: 10
+[2025-10-08 18:11:41][MEM: 0.45MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-10-08 18:11:41][MEM: 0.45MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-10-08 18:11:41][MEM: 0.43MB] 📡 Intentando WebSocket...
+[2025-10-08 18:11:41][MEM: 0.44MB] ✅ WebSocket notificado
+[2025-10-08 18:11:41][MEM: 0.44MB] 📤 Preparando respuesta JSON...
+[2025-10-08 18:11:41][MEM: 0.44MB] 📤 Respuesta preparada (size: 363 bytes)
+[2025-10-08 18:11:41][MEM: 0.44MB] 📤 Enviando respuesta JSON...
+[2025-10-12 04:43:31][MEM: 0.37MB] ========================================
+[2025-10-12 04:43:31][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-10-12 04:43:31][MEM: 0.37MB] ========================================
+[2025-10-12 04:43:31][MEM: 0.37MB] 🌐 IP: 152.204.167.121
+[2025-10-12 04:43:31][MEM: 0.37MB] 📨 Método: POST
+[2025-10-12 04:43:31][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-10-12 04:43:31][MEM: 0.38MB] ✅ auth_middleware cargado
+[2025-10-12 04:43:31][MEM: 0.38MB] 👤 Usuario autenticado: die (ID: 12)
+[2025-10-12 04:43:31][MEM: 0.38MB] ✅ Acceso registrado
+[2025-10-12 04:43:31][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-10-12 04:43:31][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-10-12 04:43:31][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-10-12 04:43:31][MEM: 0.42MB] 📥 Raw input length: 197
+[2025-10-12 04:43:31][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-10-11T23:42:31.437","orden_cliente":"12372828","autorizado_por":11,"tipo_mantenimiento":"preventivo","centro_costo":"planta","id_equipo":108,"estado_id":10,"actividad_id":50}
+[2025-10-12 04:43:31][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-10-12 04:43:31][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-10-12 04:43:31][MEM: 0.42MB]    fecha_ingreso: 2025-10-11T23:42:31.437
+[2025-10-12 04:43:31][MEM: 0.42MB]    orden_cliente: 12372828
+[2025-10-12 04:43:31][MEM: 0.42MB]    autorizado_por: 11
+[2025-10-12 04:43:31][MEM: 0.42MB]    tipo_mantenimiento RAW: 'preventivo'
+[2025-10-12 04:43:31][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-10-12 04:43:31][MEM: 0.42MB]    centro_costo: planta
+[2025-10-12 04:43:31][MEM: 0.42MB]    id_equipo: 108
+[2025-10-12 04:43:31][MEM: 0.42MB]    estado_id: 10
+[2025-10-12 04:43:31][MEM: 0.42MB]    actividad_id: 50
+[2025-10-12 04:43:31][MEM: 0.42MB]    usuario_id: 12
+[2025-10-12 04:43:31][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-10-12 04:43:31][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-10-12 04:43:31][MEM: 0.42MB]    Valor: 'preventivo'
+[2025-10-12 04:43:31][MEM: 0.42MB]    Tipo: string
+[2025-10-12 04:43:31][MEM: 0.42MB]    Longitud: 10
+[2025-10-12 04:43:31][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-10-12 04:43:31][MEM: 0.42MB]    Valor: 'preventivo'
+[2025-10-12 04:43:31][MEM: 0.42MB]    Longitud: 10
+[2025-10-12 04:43:31][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-10-12 04:43:31][MEM: 0.42MB]    Valor: 'preventivo'
+[2025-10-12 04:43:31][MEM: 0.42MB]    Longitud: 10
+[2025-10-12 04:43:31][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'preventivo'
+[2025-10-12 04:43:31][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-10-12 04:43:31][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-10-12 04:43:31][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-10-12 04:43:31][MEM: 0.42MB]    autorizado_por: 11 (integer)
+[2025-10-12 04:43:31][MEM: 0.42MB]    tipo_mantenimiento: 'preventivo' (string)
+[2025-10-12 04:43:31][MEM: 0.42MB]    id_equipo: 108 (integer)
+[2025-10-12 04:43:31][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-10-12 04:43:31][MEM: 0.42MB]    actividad_id: 50 (integer)
+[2025-10-12 04:43:31][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-10-12 04:43:31][MEM: 0.45MB] ✅ Número calculado: 1132 (anterior: 1131)
+[2025-10-12 04:43:31][MEM: 0.45MB] 🔍 Buscando equipo ID: 108
+[2025-10-12 04:43:31][MEM: 0.46MB] ✅ Equipo encontrado:
+[2025-10-12 04:43:31][MEM: 0.46MB]    nombre_empresa: E101
+[2025-10-12 04:43:31][MEM: 0.46MB]    placa: P101
+[2025-10-12 04:43:31][MEM: 0.46MB] 🔍 Validando funcionario ID: 11
+[2025-10-12 04:43:31][MEM: 0.46MB] ✅ Funcionario validado
+[2025-10-12 04:43:31][MEM: 0.46MB] 📅 Fecha formateada: 2025-10-11 23:42:31
+[2025-10-12 04:43:31][MEM: 0.46MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-10-12 04:43:31][MEM: 0.46MB] 🔧 Preparando statement...
+[2025-10-12 04:43:31][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-10-12 04:43:31][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-10-12 04:43:31][MEM: 0.44MB]    Parámetros a bindear:
+[2025-10-12 04:43:31][MEM: 0.44MB]    1. o_servicio (i): 1132
+[2025-10-12 04:43:31][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-10-11 23:42:31
+[2025-10-12 04:43:31][MEM: 0.44MB]    3. orden_cliente (s): 12372828
+[2025-10-12 04:43:31][MEM: 0.44MB]    4. autorizado_por (i): 11
+[2025-10-12 04:43:31][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'preventivo' [CRÍTICO]
+[2025-10-12 04:43:31][MEM: 0.44MB]    6. centro_costo (s): planta
+[2025-10-12 04:43:31][MEM: 0.44MB]    7. id_equipo (i): 108
+[2025-10-12 04:43:31][MEM: 0.44MB]    8. nombre_empresa (s): E101
+[2025-10-12 04:43:31][MEM: 0.44MB]    9. placa (s): P101
+[2025-10-12 04:43:31][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-10-12 04:43:31][MEM: 0.44MB]   11. actividad_id (i): 50
+[2025-10-12 04:43:31][MEM: 0.44MB]   12. usuario_creador (i): 12
+[2025-10-12 04:43:31][MEM: 0.44MB]   13. usuario_ultima_act (i): 12
+[2025-10-12 04:43:31][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-10-12 04:43:31][MEM: 0.44MB] ✅ Bind exitoso
+[2025-10-12 04:43:31][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-10-12 04:43:31][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-10-12 04:43:31][MEM: 0.44MB] 🆔 Servicio creado con ID: 148
+[2025-10-12 04:43:31][MEM: 0.44MB] 🔢 Número de servicio: 1132
+[2025-10-12 04:43:31][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-10-12 04:43:31][MEM: 0.45MB] ✅ FIX aplicado exitosamente
+[2025-10-12 04:43:31][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-10-12 04:43:31][MEM: 0.48MB]    📤 Valor que enviamos: 'preventivo'
+[2025-10-12 04:43:31][MEM: 0.48MB]    📥 Valor final en BD: 'preventivo'
+[2025-10-12 04:43:31][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-10-12 04:43:31][MEM: 0.48MB]    🔢 Valor HEX final: 70726576656E7469766F
+[2025-10-12 04:43:31][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-10-12 04:43:31][MEM: 0.46MB] 📡 Intentando WebSocket...
+[2025-10-12 04:43:31][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-10-12 04:43:31][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-10-12 04:43:31][MEM: 0.46MB] 📤 Respuesta preparada (size: 367 bytes)
+[2025-10-12 04:43:31][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-10-12 04:46:05][MEM: 0.35MB] ========================================
+[2025-10-12 04:46:05][MEM: 0.35MB] 🆕 NUEVA REQUEST INICIADA
+[2025-10-12 04:46:05][MEM: 0.35MB] ========================================
+[2025-10-12 04:46:05][MEM: 0.35MB] 🌐 IP: 152.204.167.121
+[2025-10-12 04:46:05][MEM: 0.35MB] 📨 Método: POST
+[2025-10-12 04:46:05][MEM: 0.35MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-10-12 04:46:05][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-10-12 04:46:05][MEM: 0.36MB] 👤 Usuario autenticado: die (ID: 12)
+[2025-10-12 04:46:05][MEM: 0.36MB] ✅ Acceso registrado
+[2025-10-12 04:46:05][MEM: 0.36MB] 📦 Requiriendo conexión y WebSocket...
+[2025-10-12 04:46:05][MEM: 0.4MB] ✅ conexion.php cargado
+[2025-10-12 04:46:05][MEM: 0.4MB] ✅ WebSocketNotifier.php cargado
+[2025-10-12 04:46:05][MEM: 0.4MB] 📥 Raw input length: 190
+[2025-10-12 04:46:05][MEM: 0.4MB] 📥 Raw input: {"fecha_ingreso":"2025-10-11T23:45:11.281","orden_cliente":"321","autorizado_por":14,"tipo_mantenimiento":"correctivo","centro_costo":"taller","id_equipo":9,"estado_id":10,"actividad_id":44}
+[2025-10-12 04:46:05][MEM: 0.4MB] ✅ JSON decodificado correctamente
+[2025-10-12 04:46:05][MEM: 0.4MB] 📋 Variables extraídas:
+[2025-10-12 04:46:05][MEM: 0.4MB]    fecha_ingreso: 2025-10-11T23:45:11.281
+[2025-10-12 04:46:05][MEM: 0.4MB]    orden_cliente: 321
+[2025-10-12 04:46:05][MEM: 0.4MB]    autorizado_por: 14
+[2025-10-12 04:46:05][MEM: 0.4MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-10-12 04:46:05][MEM: 0.4MB]    tipo_mantenimiento tipo: string
+[2025-10-12 04:46:05][MEM: 0.4MB]    centro_costo: taller
+[2025-10-12 04:46:05][MEM: 0.4MB]    id_equipo: 9
+[2025-10-12 04:46:05][MEM: 0.4MB]    estado_id: 10
+[2025-10-12 04:46:05][MEM: 0.4MB]    actividad_id: 44
+[2025-10-12 04:46:05][MEM: 0.4MB]    usuario_id: 12
+[2025-10-12 04:46:05][MEM: 0.4MB] ✅ Validación de campos requeridos OK
+[2025-10-12 04:46:05][MEM: 0.4MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-10-12 04:46:05][MEM: 0.4MB]    Valor: 'correctivo'
+[2025-10-12 04:46:05][MEM: 0.4MB]    Tipo: string
+[2025-10-12 04:46:05][MEM: 0.4MB]    Longitud: 10
+[2025-10-12 04:46:05][MEM: 0.4MB] 🔍 DESPUÉS de trim():
+[2025-10-12 04:46:05][MEM: 0.4MB]    Valor: 'correctivo'
+[2025-10-12 04:46:05][MEM: 0.4MB]    Longitud: 10
+[2025-10-12 04:46:05][MEM: 0.4MB] 🔍 DESPUÉS de strtolower():
+[2025-10-12 04:46:05][MEM: 0.4MB]    Valor: 'correctivo'
+[2025-10-12 04:46:05][MEM: 0.4MB]    Longitud: 10
+[2025-10-12 04:46:05][MEM: 0.4MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-10-12 04:46:05][MEM: 0.4MB] 🔢 Convirtiendo tipos numéricos...
+[2025-10-12 04:46:05][MEM: 0.4MB] 🔢 Tipos forzados:
+[2025-10-12 04:46:05][MEM: 0.4MB]    o_servicio: 0 (integer)
+[2025-10-12 04:46:05][MEM: 0.4MB]    autorizado_por: 14 (integer)
+[2025-10-12 04:46:05][MEM: 0.4MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-10-12 04:46:05][MEM: 0.4MB]    id_equipo: 9 (integer)
+[2025-10-12 04:46:05][MEM: 0.4MB]    estado_id: 10 (integer)
+[2025-10-12 04:46:05][MEM: 0.4MB]    actividad_id: 44 (integer)
+[2025-10-12 04:46:05][MEM: 0.4MB] 🔢 Calculando número de servicio automático...
+[2025-10-12 04:46:05][MEM: 0.43MB] ✅ Número calculado: 1133 (anterior: 1132)
+[2025-10-12 04:46:05][MEM: 0.43MB] 🔍 Buscando equipo ID: 9
+[2025-10-12 04:46:05][MEM: 0.43MB] ✅ Equipo encontrado:
+[2025-10-12 04:46:05][MEM: 0.43MB]    nombre_empresa: ARGOS
+[2025-10-12 04:46:05][MEM: 0.43MB]    placa: P2
+[2025-10-12 04:46:05][MEM: 0.43MB] 🔍 Validando funcionario ID: 14
+[2025-10-12 04:46:05][MEM: 0.43MB] ✅ Funcionario validado
+[2025-10-12 04:46:05][MEM: 0.43MB] 📅 Fecha formateada: 2025-10-11 23:45:11
+[2025-10-12 04:46:05][MEM: 0.43MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-10-12 04:46:05][MEM: 0.43MB] 🔧 Preparando statement...
+[2025-10-12 04:46:05][MEM: 0.42MB] ✅ Statement preparado correctamente
+[2025-10-12 04:46:05][MEM: 0.42MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-10-12 04:46:05][MEM: 0.42MB]    Parámetros a bindear:
+[2025-10-12 04:46:05][MEM: 0.42MB]    1. o_servicio (i): 1133
+[2025-10-12 04:46:05][MEM: 0.42MB]    2. fecha_ingreso (s): 2025-10-11 23:45:11
+[2025-10-12 04:46:05][MEM: 0.42MB]    3. orden_cliente (s): 321
+[2025-10-12 04:46:05][MEM: 0.42MB]    4. autorizado_por (i): 14
+[2025-10-12 04:46:05][MEM: 0.42MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-10-12 04:46:05][MEM: 0.42MB]    6. centro_costo (s): taller
+[2025-10-12 04:46:05][MEM: 0.42MB]    7. id_equipo (i): 9
+[2025-10-12 04:46:05][MEM: 0.42MB]    8. nombre_empresa (s): ARGOS
+[2025-10-12 04:46:05][MEM: 0.42MB]    9. placa (s): P2
+[2025-10-12 04:46:05][MEM: 0.42MB]   10. estado_id (i): 10
+[2025-10-12 04:46:05][MEM: 0.42MB]   11. actividad_id (i): 44
+[2025-10-12 04:46:05][MEM: 0.42MB]   12. usuario_creador (i): 12
+[2025-10-12 04:46:05][MEM: 0.42MB]   13. usuario_ultima_act (i): 12
+[2025-10-12 04:46:05][MEM: 0.42MB] 🔗 bind_param resultado: TRUE
+[2025-10-12 04:46:05][MEM: 0.42MB] ✅ Bind exitoso
+[2025-10-12 04:46:05][MEM: 0.42MB] ▶️ Ejecutando INSERT...
+[2025-10-12 04:46:05][MEM: 0.35MB] ========================================
+[2025-10-12 04:46:05][MEM: 0.42MB] ✅✅✅ INSERT EXITOSO!
+[2025-10-12 04:46:05][MEM: 0.42MB] 🆔 Servicio creado con ID: 149
+[2025-10-12 04:46:05][MEM: 0.35MB] 🆕 NUEVA REQUEST INICIADA
+[2025-10-12 04:46:05][MEM: 0.42MB] 🔢 Número de servicio: 1133
+[2025-10-12 04:46:05][MEM: 0.35MB] ========================================
+[2025-10-12 04:46:05][MEM: 0.35MB] 🌐 IP: 152.204.167.121
+[2025-10-12 04:46:05][MEM: 0.42MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-10-12 04:46:05][MEM: 0.35MB] 📨 Método: POST
+[2025-10-12 04:46:05][MEM: 0.35MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-10-12 04:46:05][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-10-12 04:46:05][MEM: 0.35MB] 👤 Usuario autenticado: die (ID: 12)
+[2025-10-12 04:46:05][MEM: 0.42MB] ✅ FIX aplicado exitosamente
+[2025-10-12 04:46:05][MEM: 0.35MB] ✅ Acceso registrado
+[2025-10-12 04:46:05][MEM: 0.35MB] 📦 Requiriendo conexión y WebSocket...
+[2025-10-12 04:46:05][MEM: 0.42MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-10-12 04:46:05][MEM: 0.46MB]    📤 Valor que enviamos: 'correctivo'
+[2025-10-12 04:46:05][MEM: 0.46MB]    📥 Valor final en BD: 'correctivo'
+[2025-10-12 04:46:05][MEM: 0.46MB]    📏 Longitud final: 10
+[2025-10-12 04:46:05][MEM: 0.46MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-10-12 04:46:05][MEM: 0.46MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-10-12 04:46:05][MEM: 0.44MB] 📡 Intentando WebSocket...
+[2025-10-12 04:46:05][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-10-12 04:46:05][MEM: 0.39MB] ✅ WebSocketNotifier.php cargado
+[2025-10-12 04:46:05][MEM: 0.39MB] 📥 Raw input length: 192
+[2025-10-12 04:46:05][MEM: 0.39MB] 📥 Raw input: {"fecha_ingreso":"2025-10-11T23:45:08.638516","orden_cliente":"123","autorizado_por":14,"tipo_mantenimiento":"preventivo","centro_costo":"planta","id_equipo":8,"estado_id":10,"actividad_id":3}
+[2025-10-12 04:46:05][MEM: 0.39MB] ✅ JSON decodificado correctamente
+[2025-10-12 04:46:05][MEM: 0.39MB] 📋 Variables extraídas:
+[2025-10-12 04:46:05][MEM: 0.39MB]    fecha_ingreso: 2025-10-11T23:45:08.638516
+[2025-10-12 04:46:05][MEM: 0.39MB]    orden_cliente: 123
+[2025-10-12 04:46:05][MEM: 0.39MB]    autorizado_por: 14
+[2025-10-12 04:46:05][MEM: 0.39MB]    tipo_mantenimiento RAW: 'preventivo'
+[2025-10-12 04:46:05][MEM: 0.39MB]    tipo_mantenimiento tipo: string
+[2025-10-12 04:46:05][MEM: 0.39MB]    centro_costo: planta
+[2025-10-12 04:46:05][MEM: 0.39MB]    id_equipo: 8
+[2025-10-12 04:46:05][MEM: 0.39MB]    estado_id: 10
+[2025-10-12 04:46:05][MEM: 0.39MB]    actividad_id: 3
+[2025-10-12 04:46:05][MEM: 0.39MB]    usuario_id: 12
+[2025-10-12 04:46:05][MEM: 0.39MB] ✅ Validación de campos requeridos OK
+[2025-10-12 04:46:05][MEM: 0.39MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-10-12 04:46:05][MEM: 0.39MB]    Valor: 'preventivo'
+[2025-10-12 04:46:05][MEM: 0.39MB]    Tipo: string
+[2025-10-12 04:46:05][MEM: 0.39MB]    Longitud: 10
+[2025-10-12 04:46:05][MEM: 0.39MB] 🔍 DESPUÉS de trim():
+[2025-10-12 04:46:05][MEM: 0.39MB]    Valor: 'preventivo'
+[2025-10-12 04:46:05][MEM: 0.39MB]    Longitud: 10
+[2025-10-12 04:46:05][MEM: 0.39MB] 🔍 DESPUÉS de strtolower():
+[2025-10-12 04:46:05][MEM: 0.44MB] ✅ WebSocket notificado
+[2025-10-12 04:46:05][MEM: 0.39MB]    Valor: 'preventivo'
+[2025-10-12 04:46:05][MEM: 0.44MB] 📤 Preparando respuesta JSON...
+[2025-10-12 04:46:05][MEM: 0.39MB]    Longitud: 10
+[2025-10-12 04:46:05][MEM: 0.44MB] 📤 Respuesta preparada (size: 360 bytes)
+[2025-10-12 04:46:05][MEM: 0.39MB] ✅ tipo_mantenimiento normalizado correctamente: 'preventivo'
+[2025-10-12 04:46:05][MEM: 0.44MB] 📤 Enviando respuesta JSON...
+[2025-10-12 04:46:05][MEM: 0.39MB] 🔢 Convirtiendo tipos numéricos...
+[2025-10-12 04:46:05][MEM: 0.39MB] 🔢 Tipos forzados:
+[2025-10-12 04:46:05][MEM: 0.39MB]    o_servicio: 0 (integer)
+[2025-10-12 04:46:05][MEM: 0.39MB]    autorizado_por: 14 (integer)
+[2025-10-12 04:46:05][MEM: 0.39MB]    tipo_mantenimiento: 'preventivo' (string)
+[2025-10-12 04:46:05][MEM: 0.39MB]    id_equipo: 8 (integer)
+[2025-10-12 04:46:05][MEM: 0.39MB]    estado_id: 10 (integer)
+[2025-10-12 04:46:05][MEM: 0.39MB]    actividad_id: 3 (integer)
+[2025-10-12 04:46:05][MEM: 0.39MB] 🔢 Calculando número de servicio automático...
+[2025-10-12 04:46:05][MEM: 0.43MB] ✅ Número calculado: 1134 (anterior: 1133)
+[2025-10-12 04:46:05][MEM: 0.43MB] 🔍 Buscando equipo ID: 8
+[2025-10-12 04:46:05][MEM: 0.43MB] ✅ Equipo encontrado:
+[2025-10-12 04:46:05][MEM: 0.43MB]    nombre_empresa: ARGOS
+[2025-10-12 04:46:05][MEM: 0.43MB]    placa: P1
+[2025-10-12 04:46:05][MEM: 0.43MB] 🔍 Validando funcionario ID: 14
+[2025-10-12 04:46:05][MEM: 0.43MB] ✅ Funcionario validado
+[2025-10-12 04:46:05][MEM: 0.43MB] 📅 Fecha formateada: 2025-10-11 23:45:08
+[2025-10-12 04:46:05][MEM: 0.43MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-10-12 04:46:05][MEM: 0.43MB] 🔧 Preparando statement...
+[2025-10-12 04:46:05][MEM: 0.42MB] ✅ Statement preparado correctamente
+[2025-10-12 04:46:05][MEM: 0.42MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-10-12 04:46:05][MEM: 0.42MB]    Parámetros a bindear:
+[2025-10-12 04:46:05][MEM: 0.42MB]    1. o_servicio (i): 1134
+[2025-10-12 04:46:05][MEM: 0.42MB]    2. fecha_ingreso (s): 2025-10-11 23:45:08
+[2025-10-12 04:46:05][MEM: 0.42MB]    3. orden_cliente (s): 123
+[2025-10-12 04:46:05][MEM: 0.42MB]    4. autorizado_por (i): 14
+[2025-10-12 04:46:05][MEM: 0.42MB]    5. tipo_mantenimiento (s): 'preventivo' [CRÍTICO]
+[2025-10-12 04:46:05][MEM: 0.42MB]    6. centro_costo (s): planta
+[2025-10-12 04:46:05][MEM: 0.42MB]    7. id_equipo (i): 8
+[2025-10-12 04:46:05][MEM: 0.42MB]    8. nombre_empresa (s): ARGOS
+[2025-10-12 04:46:05][MEM: 0.42MB]    9. placa (s): P1
+[2025-10-12 04:46:05][MEM: 0.42MB]   10. estado_id (i): 10
+[2025-10-12 04:46:05][MEM: 0.42MB]   11. actividad_id (i): 3
+[2025-10-12 04:46:05][MEM: 0.42MB]   12. usuario_creador (i): 12
+[2025-10-12 04:46:05][MEM: 0.42MB]   13. usuario_ultima_act (i): 12
+[2025-10-12 04:46:05][MEM: 0.42MB] 🔗 bind_param resultado: TRUE
+[2025-10-12 04:46:05][MEM: 0.42MB] ✅ Bind exitoso
+[2025-10-12 04:46:05][MEM: 0.42MB] ▶️ Ejecutando INSERT...
+[2025-10-12 04:46:05][MEM: 0.42MB] ✅✅✅ INSERT EXITOSO!
+[2025-10-12 04:46:05][MEM: 0.42MB] 🆔 Servicio creado con ID: 150
+[2025-10-12 04:46:05][MEM: 0.42MB] 🔢 Número de servicio: 1134
+[2025-10-12 04:46:05][MEM: 0.42MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-10-12 04:46:05][MEM: 0.42MB] ✅ FIX aplicado exitosamente
+[2025-10-12 04:46:05][MEM: 0.42MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-10-12 04:46:05][MEM: 0.45MB]    📤 Valor que enviamos: 'preventivo'
+[2025-10-12 04:46:05][MEM: 0.45MB]    📥 Valor final en BD: 'preventivo'
+[2025-10-12 04:46:05][MEM: 0.45MB]    📏 Longitud final: 10
+[2025-10-12 04:46:05][MEM: 0.45MB]    🔢 Valor HEX final: 70726576656E7469766F
+[2025-10-12 04:46:05][MEM: 0.45MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-10-12 04:46:05][MEM: 0.43MB] 📡 Intentando WebSocket...
+[2025-10-12 04:46:05][MEM: 0.44MB] ✅ WebSocket notificado
+[2025-10-12 04:46:05][MEM: 0.44MB] 📤 Preparando respuesta JSON...
+[2025-10-12 04:46:05][MEM: 0.44MB] 📤 Respuesta preparada (size: 359 bytes)
+[2025-10-12 04:46:05][MEM: 0.44MB] 📤 Enviando respuesta JSON...
+[2025-10-12 19:55:23][MEM: 0.37MB] ========================================
+[2025-10-12 19:55:23][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-10-12 19:55:23][MEM: 0.37MB] ========================================
+[2025-10-12 19:55:23][MEM: 0.37MB] 🌐 IP: 191.156.249.124
+[2025-10-12 19:55:23][MEM: 0.37MB] 📨 Método: POST
+[2025-10-12 19:55:23][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-10-12 19:55:23][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-10-12 19:55:23][MEM: 0.38MB] 👤 Usuario autenticado: Usuario_de_pruebas (ID: 16)
+[2025-10-12 19:55:23][MEM: 0.38MB] ✅ Acceso registrado
+[2025-10-12 19:55:23][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-10-12 19:55:23][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-10-12 19:55:23][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-10-12 19:55:23][MEM: 0.42MB] 📥 Raw input length: 192
+[2025-10-12 19:55:23][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-10-12T14:53:01.924","orden_cliente":"123456","autorizado_por":20,"tipo_mantenimiento":"correctivo","centro_costo":"taller","id_equipo":5,"estado_id":10,"actividad_id":1}
+[2025-10-12 19:55:23][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-10-12 19:55:23][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-10-12 19:55:23][MEM: 0.42MB]    fecha_ingreso: 2025-10-12T14:53:01.924
+[2025-10-12 19:55:23][MEM: 0.42MB]    orden_cliente: 123456
+[2025-10-12 19:55:23][MEM: 0.42MB]    autorizado_por: 20
+[2025-10-12 19:55:23][MEM: 0.42MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-10-12 19:55:23][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-10-12 19:55:23][MEM: 0.42MB]    centro_costo: taller
+[2025-10-12 19:55:23][MEM: 0.42MB]    id_equipo: 5
+[2025-10-12 19:55:23][MEM: 0.42MB]    estado_id: 10
+[2025-10-12 19:55:23][MEM: 0.42MB]    actividad_id: 1
+[2025-10-12 19:55:23][MEM: 0.42MB]    usuario_id: 16
+[2025-10-12 19:55:23][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-10-12 19:55:23][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-10-12 19:55:23][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-10-12 19:55:23][MEM: 0.42MB]    Tipo: string
+[2025-10-12 19:55:23][MEM: 0.42MB]    Longitud: 10
+[2025-10-12 19:55:23][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-10-12 19:55:23][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-10-12 19:55:23][MEM: 0.42MB]    Longitud: 10
+[2025-10-12 19:55:23][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-10-12 19:55:23][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-10-12 19:55:23][MEM: 0.42MB]    Longitud: 10
+[2025-10-12 19:55:23][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-10-12 19:55:23][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-10-12 19:55:23][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-10-12 19:55:23][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-10-12 19:55:23][MEM: 0.42MB]    autorizado_por: 20 (integer)
+[2025-10-12 19:55:23][MEM: 0.42MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-10-12 19:55:23][MEM: 0.42MB]    id_equipo: 5 (integer)
+[2025-10-12 19:55:23][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-10-12 19:55:23][MEM: 0.42MB]    actividad_id: 1 (integer)
+[2025-10-12 19:55:23][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-10-12 19:55:23][MEM: 0.45MB] ✅ Número calculado: 1135 (anterior: 1134)
+[2025-10-12 19:55:23][MEM: 0.45MB] 🔍 Buscando equipo ID: 5
+[2025-10-12 19:55:23][MEM: 0.45MB] ✅ Equipo encontrado:
+[2025-10-12 19:55:23][MEM: 0.45MB]    nombre_empresa: Argos
+[2025-10-12 19:55:23][MEM: 0.45MB]    placa: ABC-123
+[2025-10-12 19:55:23][MEM: 0.45MB] 🔍 Validando funcionario ID: 20
+[2025-10-12 19:55:23][MEM: 0.45MB] ✅ Funcionario validado
+[2025-10-12 19:55:23][MEM: 0.46MB] 📅 Fecha formateada: 2025-10-12 14:53:01
+[2025-10-12 19:55:23][MEM: 0.46MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-10-12 19:55:23][MEM: 0.46MB] 🔧 Preparando statement...
+[2025-10-12 19:55:23][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-10-12 19:55:23][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-10-12 19:55:23][MEM: 0.44MB]    Parámetros a bindear:
+[2025-10-12 19:55:23][MEM: 0.44MB]    1. o_servicio (i): 1135
+[2025-10-12 19:55:23][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-10-12 14:53:01
+[2025-10-12 19:55:23][MEM: 0.44MB]    3. orden_cliente (s): 123456
+[2025-10-12 19:55:23][MEM: 0.44MB]    4. autorizado_por (i): 20
+[2025-10-12 19:55:23][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-10-12 19:55:23][MEM: 0.44MB]    6. centro_costo (s): taller
+[2025-10-12 19:55:23][MEM: 0.44MB]    7. id_equipo (i): 5
+[2025-10-12 19:55:23][MEM: 0.44MB]    8. nombre_empresa (s): Argos
+[2025-10-12 19:55:23][MEM: 0.44MB]    9. placa (s): ABC-123
+[2025-10-12 19:55:23][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-10-12 19:55:23][MEM: 0.44MB]   11. actividad_id (i): 1
+[2025-10-12 19:55:23][MEM: 0.44MB]   12. usuario_creador (i): 16
+[2025-10-12 19:55:23][MEM: 0.44MB]   13. usuario_ultima_act (i): 16
+[2025-10-12 19:55:23][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-10-12 19:55:23][MEM: 0.44MB] ✅ Bind exitoso
+[2025-10-12 19:55:23][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-10-12 19:55:23][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-10-12 19:55:23][MEM: 0.44MB] 🆔 Servicio creado con ID: 151
+[2025-10-12 19:55:23][MEM: 0.44MB] 🔢 Número de servicio: 1135
+[2025-10-12 19:55:23][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-10-12 19:55:23][MEM: 0.45MB] ✅ FIX aplicado exitosamente
+[2025-10-12 19:55:23][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-10-12 19:55:23][MEM: 0.48MB]    📤 Valor que enviamos: 'correctivo'
+[2025-10-12 19:55:23][MEM: 0.48MB]    📥 Valor final en BD: 'correctivo'
+[2025-10-12 19:55:23][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-10-12 19:55:23][MEM: 0.48MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-10-12 19:55:23][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-10-12 19:55:23][MEM: 0.46MB] 📡 Intentando WebSocket...
+[2025-10-12 19:55:23][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-10-12 19:55:23][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-10-12 19:55:23][MEM: 0.46MB] 📤 Respuesta preparada (size: 362 bytes)
+[2025-10-12 19:55:23][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-10-14 02:09:36][MEM: 0.37MB] ========================================
+[2025-10-14 02:09:36][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-10-14 02:09:36][MEM: 0.37MB] ========================================
+[2025-10-14 02:09:36][MEM: 0.37MB] 🌐 IP: 190.130.83.253
+[2025-10-14 02:09:36][MEM: 0.37MB] 📨 Método: POST
+[2025-10-14 02:09:36][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-10-14 02:09:36][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-10-14 02:09:36][MEM: 0.38MB] 👤 Usuario autenticado: Usuario_de_prueba (ID: 20)
+[2025-10-14 02:09:36][MEM: 0.38MB] ✅ Acceso registrado
+[2025-10-14 02:09:36][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-10-14 02:09:36][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-10-14 02:09:36][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-10-14 02:09:36][MEM: 0.42MB] 📥 Raw input length: 194
+[2025-10-14 02:09:36][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-10-13T21:07:52.501","orden_cliente":"123456","autorizado_por":20,"tipo_mantenimiento":"electronico","centro_costo":"taller","id_equipo":12,"estado_id":10,"actividad_id":7}
+[2025-10-14 02:09:36][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-10-14 02:09:36][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-10-14 02:09:36][MEM: 0.42MB]    fecha_ingreso: 2025-10-13T21:07:52.501
+[2025-10-14 02:09:36][MEM: 0.42MB]    orden_cliente: 123456
+[2025-10-14 02:09:36][MEM: 0.42MB]    autorizado_por: 20
+[2025-10-14 02:09:36][MEM: 0.42MB]    tipo_mantenimiento RAW: 'electronico'
+[2025-10-14 02:09:36][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-10-14 02:09:36][MEM: 0.42MB]    centro_costo: taller
+[2025-10-14 02:09:36][MEM: 0.42MB]    id_equipo: 12
+[2025-10-14 02:09:36][MEM: 0.42MB]    estado_id: 10
+[2025-10-14 02:09:36][MEM: 0.42MB]    actividad_id: 7
+[2025-10-14 02:09:36][MEM: 0.42MB]    usuario_id: 20
+[2025-10-14 02:09:36][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-10-14 02:09:36][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-10-14 02:09:36][MEM: 0.42MB]    Valor: 'electronico'
+[2025-10-14 02:09:36][MEM: 0.42MB]    Tipo: string
+[2025-10-14 02:09:36][MEM: 0.42MB]    Longitud: 11
+[2025-10-14 02:09:36][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-10-14 02:09:36][MEM: 0.42MB]    Valor: 'electronico'
+[2025-10-14 02:09:36][MEM: 0.42MB]    Longitud: 11
+[2025-10-14 02:09:36][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-10-14 02:09:36][MEM: 0.42MB]    Valor: 'electronico'
+[2025-10-14 02:09:36][MEM: 0.42MB]    Longitud: 11
+[2025-10-14 02:09:36][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'electronico'
+[2025-10-14 02:09:36][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-10-14 02:09:36][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-10-14 02:09:36][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-10-14 02:09:36][MEM: 0.42MB]    autorizado_por: 20 (integer)
+[2025-10-14 02:09:36][MEM: 0.42MB]    tipo_mantenimiento: 'electronico' (string)
+[2025-10-14 02:09:36][MEM: 0.42MB]    id_equipo: 12 (integer)
+[2025-10-14 02:09:36][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-10-14 02:09:36][MEM: 0.42MB]    actividad_id: 7 (integer)
+[2025-10-14 02:09:36][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-10-14 02:09:36][MEM: 0.45MB] ✅ Número calculado: 1136 (anterior: 1135)
+[2025-10-14 02:09:36][MEM: 0.45MB] 🔍 Buscando equipo ID: 12
+[2025-10-14 02:09:36][MEM: 0.45MB] ✅ Equipo encontrado:
+[2025-10-14 02:09:36][MEM: 0.45MB]    nombre_empresa: ARGOS
+[2025-10-14 02:09:36][MEM: 0.45MB]    placa: P5
+[2025-10-14 02:09:36][MEM: 0.45MB] 🔍 Validando funcionario ID: 20
+[2025-10-14 02:09:36][MEM: 0.45MB] ✅ Funcionario validado
+[2025-10-14 02:09:36][MEM: 0.46MB] 📅 Fecha formateada: 2025-10-13 21:07:52
+[2025-10-14 02:09:36][MEM: 0.46MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-10-14 02:09:36][MEM: 0.46MB] 🔧 Preparando statement...
+[2025-10-14 02:09:36][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-10-14 02:09:36][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-10-14 02:09:36][MEM: 0.44MB]    Parámetros a bindear:
+[2025-10-14 02:09:36][MEM: 0.44MB]    1. o_servicio (i): 1136
+[2025-10-14 02:09:36][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-10-13 21:07:52
+[2025-10-14 02:09:36][MEM: 0.44MB]    3. orden_cliente (s): 123456
+[2025-10-14 02:09:36][MEM: 0.44MB]    4. autorizado_por (i): 20
+[2025-10-14 02:09:36][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'electronico' [CRÍTICO]
+[2025-10-14 02:09:36][MEM: 0.44MB]    6. centro_costo (s): taller
+[2025-10-14 02:09:36][MEM: 0.44MB]    7. id_equipo (i): 12
+[2025-10-14 02:09:36][MEM: 0.44MB]    8. nombre_empresa (s): ARGOS
+[2025-10-14 02:09:36][MEM: 0.44MB]    9. placa (s): P5
+[2025-10-14 02:09:36][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-10-14 02:09:36][MEM: 0.44MB]   11. actividad_id (i): 7
+[2025-10-14 02:09:36][MEM: 0.44MB]   12. usuario_creador (i): 20
+[2025-10-14 02:09:36][MEM: 0.44MB]   13. usuario_ultima_act (i): 20
+[2025-10-14 02:09:36][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-10-14 02:09:36][MEM: 0.44MB] ✅ Bind exitoso
+[2025-10-14 02:09:36][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-10-14 02:09:36][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-10-14 02:09:36][MEM: 0.44MB] 🆔 Servicio creado con ID: 152
+[2025-10-14 02:09:36][MEM: 0.44MB] 🔢 Número de servicio: 1136
+[2025-10-14 02:09:36][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-10-14 02:09:36][MEM: 0.45MB] ✅ FIX aplicado exitosamente
+[2025-10-14 02:09:36][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-10-14 02:09:36][MEM: 0.48MB]    📤 Valor que enviamos: 'electronico'
+[2025-10-14 02:09:36][MEM: 0.48MB]    📥 Valor final en BD: 'electronico'
+[2025-10-14 02:09:36][MEM: 0.48MB]    📏 Longitud final: 11
+[2025-10-14 02:09:36][MEM: 0.48MB]    🔢 Valor HEX final: 656C656374726F6E69636F
+[2025-10-14 02:09:36][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-10-14 02:09:36][MEM: 0.46MB] 📡 Intentando WebSocket...
+[2025-10-14 02:09:36][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-10-14 02:09:36][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-10-14 02:09:36][MEM: 0.46MB] 📤 Respuesta preparada (size: 364 bytes)
+[2025-10-14 02:09:36][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-11-04 04:53:49][MEM: 0.37MB] ========================================
+[2025-11-04 04:53:49][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-04 04:53:49][MEM: 0.37MB] ========================================
+[2025-11-04 04:53:49][MEM: 0.37MB] 🌐 IP: 167.0.221.145
+[2025-11-04 04:53:49][MEM: 0.37MB] 📨 Método: POST
+[2025-11-04 04:53:49][MEM: 0.38MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-04 04:53:49][MEM: 0.38MB] ✅ auth_middleware cargado
+[2025-11-04 04:53:49][MEM: 0.38MB] 👤 Usuario autenticado: die (ID: 12)
+[2025-11-04 04:53:49][MEM: 0.38MB] ✅ Acceso registrado
+[2025-11-04 04:53:49][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-04 04:53:49][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-11-04 04:53:49][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-11-04 04:53:49][MEM: 0.42MB] 📥 Raw input length: 195
+[2025-11-04 04:53:49][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-11-03T00:00:00.000","orden_cliente":"1234473","autorizado_por":7,"tipo_mantenimiento":"correctivo","centro_costo":"planta","id_equipo":143,"estado_id":10,"actividad_id":52}
+[2025-11-04 04:53:49][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-04 04:53:49][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-11-04 04:53:49][MEM: 0.42MB]    fecha_ingreso: 2025-11-03T00:00:00.000
+[2025-11-04 04:53:49][MEM: 0.42MB]    orden_cliente: 1234473
+[2025-11-04 04:53:49][MEM: 0.42MB]    autorizado_por: 7
+[2025-11-04 04:53:49][MEM: 0.42MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-11-04 04:53:49][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-11-04 04:53:49][MEM: 0.42MB]    centro_costo: planta
+[2025-11-04 04:53:49][MEM: 0.42MB]    id_equipo: 143
+[2025-11-04 04:53:49][MEM: 0.42MB]    estado_id: 10
+[2025-11-04 04:53:49][MEM: 0.42MB]    actividad_id: 52
+[2025-11-04 04:53:49][MEM: 0.42MB]    usuario_id: 12
+[2025-11-04 04:53:49][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-11-04 04:53:49][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-04 04:53:49][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-04 04:53:49][MEM: 0.42MB]    Tipo: string
+[2025-11-04 04:53:49][MEM: 0.42MB]    Longitud: 10
+[2025-11-04 04:53:49][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-11-04 04:53:49][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-04 04:53:49][MEM: 0.42MB]    Longitud: 10
+[2025-11-04 04:53:49][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-11-04 04:53:49][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-04 04:53:49][MEM: 0.42MB]    Longitud: 10
+[2025-11-04 04:53:49][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-11-04 04:53:49][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-04 04:53:49][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-11-04 04:53:49][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-11-04 04:53:49][MEM: 0.42MB]    autorizado_por: 7 (integer)
+[2025-11-04 04:53:49][MEM: 0.42MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-11-04 04:53:49][MEM: 0.42MB]    id_equipo: 143 (integer)
+[2025-11-04 04:53:49][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-11-04 04:53:49][MEM: 0.42MB]    actividad_id: 52 (integer)
+[2025-11-04 04:53:49][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-11-04 04:53:49][MEM: 0.46MB] ✅ Número calculado: 1137 (anterior: 1136)
+[2025-11-04 04:53:49][MEM: 0.46MB] 🔍 Buscando equipo ID: 143
+[2025-11-04 04:53:49][MEM: 0.46MB] ✅ Equipo encontrado:
+[2025-11-04 04:53:49][MEM: 0.46MB]    nombre_empresa: infoapp
+[2025-11-04 04:53:49][MEM: 0.46MB]    placa: 123456789
+[2025-11-04 04:53:49][MEM: 0.46MB] 🔍 Validando funcionario ID: 7
+[2025-11-04 04:53:49][MEM: 0.46MB] ✅ Funcionario validado
+[2025-11-04 04:53:49][MEM: 0.46MB] 📅 Fecha formateada: 2025-11-03 00:00:00
+[2025-11-04 04:53:49][MEM: 0.46MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-04 04:53:49][MEM: 0.46MB] 🔧 Preparando statement...
+[2025-11-04 04:53:49][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-11-04 04:53:49][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-04 04:53:49][MEM: 0.44MB]    Parámetros a bindear:
+[2025-11-04 04:53:49][MEM: 0.44MB]    1. o_servicio (i): 1137
+[2025-11-04 04:53:49][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-11-03 00:00:00
+[2025-11-04 04:53:49][MEM: 0.44MB]    3. orden_cliente (s): 1234473
+[2025-11-04 04:53:49][MEM: 0.44MB]    4. autorizado_por (i): 7
+[2025-11-04 04:53:49][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-11-04 04:53:49][MEM: 0.44MB]    6. centro_costo (s): planta
+[2025-11-04 04:53:49][MEM: 0.44MB]    7. id_equipo (i): 143
+[2025-11-04 04:53:49][MEM: 0.44MB]    8. nombre_empresa (s): infoapp
+[2025-11-04 04:53:49][MEM: 0.44MB]    9. placa (s): 123456789
+[2025-11-04 04:53:49][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-11-04 04:53:49][MEM: 0.44MB]   11. actividad_id (i): 52
+[2025-11-04 04:53:49][MEM: 0.44MB]   12. usuario_creador (i): 12
+[2025-11-04 04:53:49][MEM: 0.44MB]   13. usuario_ultima_act (i): 12
+[2025-11-04 04:53:49][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-11-04 04:53:49][MEM: 0.44MB] ✅ Bind exitoso
+[2025-11-04 04:53:49][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-11-04 04:53:49][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-04 04:53:49][MEM: 0.44MB] 🆔 Servicio creado con ID: 153
+[2025-11-04 04:53:49][MEM: 0.44MB] 🔢 Número de servicio: 1137
+[2025-11-04 04:53:49][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-04 04:53:49][MEM: 0.45MB] ✅ FIX aplicado exitosamente
+[2025-11-04 04:53:49][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-04 04:53:49][MEM: 0.48MB]    📤 Valor que enviamos: 'correctivo'
+[2025-11-04 04:53:49][MEM: 0.48MB]    📥 Valor final en BD: 'correctivo'
+[2025-11-04 04:53:49][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-11-04 04:53:49][MEM: 0.48MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-11-04 04:53:49][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-04 04:53:49][MEM: 0.46MB] 📡 Intentando WebSocket...
+[2025-11-04 04:53:49][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-11-04 04:53:49][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-11-04 04:53:49][MEM: 0.46MB] 📤 Respuesta preparada (size: 365 bytes)
+[2025-11-04 04:53:49][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-11-06 01:03:49][MEM: 0.38MB] ========================================
+[2025-11-06 01:03:49][MEM: 0.38MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-06 01:03:49][MEM: 0.38MB] ========================================
+[2025-11-06 01:03:49][MEM: 0.38MB] 🌐 IP: 167.0.221.145
+[2025-11-06 01:03:49][MEM: 0.38MB] 📨 Método: POST
+[2025-11-06 01:03:49][MEM: 0.38MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-06 01:03:49][MEM: 0.38MB] ✅ auth_middleware cargado
+[2025-11-06 01:03:49][MEM: 0.38MB] 👤 Usuario autenticado: die (ID: 12)
+[2025-11-06 01:03:49][MEM: 0.38MB] ✅ Acceso registrado
+[2025-11-06 01:03:49][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-06 01:03:49][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-11-06 01:03:49][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-11-06 01:03:49][MEM: 0.42MB] 📥 Raw input length: 197
+[2025-11-06 01:03:49][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-11-05T20:02:39.379","orden_cliente":"PENDIENTE","autorizado_por":19,"tipo_mantenimiento":"correctivo","centro_costo":"planta","id_equipo":144,"estado_id":10,"actividad_id":3}
+[2025-11-06 01:03:49][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-06 01:03:49][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-11-06 01:03:49][MEM: 0.42MB]    fecha_ingreso: 2025-11-05T20:02:39.379
+[2025-11-06 01:03:49][MEM: 0.42MB]    orden_cliente: PENDIENTE
+[2025-11-06 01:03:49][MEM: 0.42MB]    autorizado_por: 19
+[2025-11-06 01:03:49][MEM: 0.42MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-11-06 01:03:49][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-11-06 01:03:49][MEM: 0.42MB]    centro_costo: planta
+[2025-11-06 01:03:49][MEM: 0.42MB]    id_equipo: 144
+[2025-11-06 01:03:49][MEM: 0.42MB]    estado_id: 10
+[2025-11-06 01:03:49][MEM: 0.42MB]    actividad_id: 3
+[2025-11-06 01:03:49][MEM: 0.42MB]    usuario_id: 12
+[2025-11-06 01:03:49][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-11-06 01:03:49][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-06 01:03:49][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-06 01:03:49][MEM: 0.42MB]    Tipo: string
+[2025-11-06 01:03:49][MEM: 0.42MB]    Longitud: 10
+[2025-11-06 01:03:49][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-11-06 01:03:49][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-06 01:03:49][MEM: 0.42MB]    Longitud: 10
+[2025-11-06 01:03:49][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-11-06 01:03:49][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-06 01:03:49][MEM: 0.42MB]    Longitud: 10
+[2025-11-06 01:03:49][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-11-06 01:03:49][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-06 01:03:49][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-11-06 01:03:49][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-11-06 01:03:49][MEM: 0.42MB]    autorizado_por: 19 (integer)
+[2025-11-06 01:03:49][MEM: 0.42MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-11-06 01:03:49][MEM: 0.42MB]    id_equipo: 144 (integer)
+[2025-11-06 01:03:49][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-11-06 01:03:49][MEM: 0.42MB]    actividad_id: 3 (integer)
+[2025-11-06 01:03:49][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-11-06 01:03:49][MEM: 0.46MB] ✅ Número calculado: 1138 (anterior: 1137)
+[2025-11-06 01:03:49][MEM: 0.46MB] 🔍 Buscando equipo ID: 144
+[2025-11-06 01:03:49][MEM: 0.46MB] ✅ Equipo encontrado:
+[2025-11-06 01:03:49][MEM: 0.46MB]    nombre_empresa: Argos
+[2025-11-06 01:03:49][MEM: 0.46MB]    placa: xx
+[2025-11-06 01:03:49][MEM: 0.46MB] 🔍 Validando funcionario ID: 19
+[2025-11-06 01:03:49][MEM: 0.46MB] ✅ Funcionario validado
+[2025-11-06 01:03:49][MEM: 0.46MB] 📅 Fecha formateada: 2025-11-05 20:02:39
+[2025-11-06 01:03:49][MEM: 0.46MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-06 01:03:49][MEM: 0.46MB] 🔧 Preparando statement...
+[2025-11-06 01:03:49][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-11-06 01:03:49][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-06 01:03:49][MEM: 0.44MB]    Parámetros a bindear:
+[2025-11-06 01:03:49][MEM: 0.44MB]    1. o_servicio (i): 1138
+[2025-11-06 01:03:49][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-11-05 20:02:39
+[2025-11-06 01:03:49][MEM: 0.44MB]    3. orden_cliente (s): PENDIENTE
+[2025-11-06 01:03:49][MEM: 0.44MB]    4. autorizado_por (i): 19
+[2025-11-06 01:03:49][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-11-06 01:03:49][MEM: 0.44MB]    6. centro_costo (s): planta
+[2025-11-06 01:03:49][MEM: 0.44MB]    7. id_equipo (i): 144
+[2025-11-06 01:03:49][MEM: 0.44MB]    8. nombre_empresa (s): Argos
+[2025-11-06 01:03:49][MEM: 0.44MB]    9. placa (s): xx
+[2025-11-06 01:03:49][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-11-06 01:03:49][MEM: 0.44MB]   11. actividad_id (i): 3
+[2025-11-06 01:03:49][MEM: 0.44MB]   12. usuario_creador (i): 12
+[2025-11-06 01:03:49][MEM: 0.44MB]   13. usuario_ultima_act (i): 12
+[2025-11-06 01:03:49][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-11-06 01:03:49][MEM: 0.44MB] ✅ Bind exitoso
+[2025-11-06 01:03:49][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-11-06 01:03:49][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-06 01:03:49][MEM: 0.44MB] 🆔 Servicio creado con ID: 154
+[2025-11-06 01:03:49][MEM: 0.44MB] 🔢 Número de servicio: 1138
+[2025-11-06 01:03:49][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-06 01:03:49][MEM: 0.45MB] ✅ FIX aplicado exitosamente
+[2025-11-06 01:03:49][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-06 01:03:49][MEM: 0.48MB]    📤 Valor que enviamos: 'correctivo'
+[2025-11-06 01:03:49][MEM: 0.48MB]    📥 Valor final en BD: 'correctivo'
+[2025-11-06 01:03:49][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-11-06 01:03:49][MEM: 0.48MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-11-06 01:03:49][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-06 01:03:49][MEM: 0.46MB] 📡 Intentando WebSocket...
+[2025-11-06 01:03:49][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-11-06 01:03:49][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-11-06 01:03:49][MEM: 0.46MB] 📤 Respuesta preparada (size: 367 bytes)
+[2025-11-06 01:03:49][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-11-07 12:44:37][MEM: 0.37MB] ========================================
+[2025-11-07 12:44:37][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-07 12:44:37][MEM: 0.37MB] ========================================
+[2025-11-07 12:44:37][MEM: 0.37MB] 🌐 IP: 167.0.221.145
+[2025-11-07 12:44:37][MEM: 0.37MB] 📨 Método: OPTIONS
+[2025-11-07 12:44:37][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-07 12:44:37][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-11-07 12:44:37][MEM: 0.35MB] ========================================
+[2025-11-07 12:44:37][MEM: 0.35MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-07 12:44:37][MEM: 0.35MB] ========================================
+[2025-11-07 12:44:37][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-07 12:44:37][MEM: 0.35MB] 📨 Método: POST
+[2025-11-07 12:44:37][MEM: 0.35MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-07 12:44:37][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-07 12:44:37][MEM: 0.35MB] 👤 Usuario autenticado: die (ID: 12)
+[2025-11-07 12:44:37][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-07 12:44:37][MEM: 0.35MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-07 12:44:37][MEM: 0.4MB] ✅ conexion.php cargado
+[2025-11-07 12:44:37][MEM: 0.4MB] ✅ WebSocketNotifier.php cargado
+[2025-11-07 12:44:37][MEM: 0.4MB] 📥 Raw input length: 191
+[2025-11-07 12:44:37][MEM: 0.4MB] 📥 Raw input: {"fecha_ingreso":"2025-11-07T07:34:47.465","orden_cliente":"1234","autorizado_por":4,"tipo_mantenimiento":"correctivo","centro_costo":"planta","id_equipo":144,"estado_id":10,"actividad_id":3}
+[2025-11-07 12:44:37][MEM: 0.4MB] ✅ JSON decodificado correctamente
+[2025-11-07 12:44:37][MEM: 0.4MB] 📋 Variables extraídas:
+[2025-11-07 12:44:37][MEM: 0.4MB]    fecha_ingreso: 2025-11-07T07:34:47.465
+[2025-11-07 12:44:37][MEM: 0.4MB]    orden_cliente: 1234
+[2025-11-07 12:44:37][MEM: 0.4MB]    autorizado_por: 4
+[2025-11-07 12:44:37][MEM: 0.4MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-11-07 12:44:37][MEM: 0.4MB]    tipo_mantenimiento tipo: string
+[2025-11-07 12:44:37][MEM: 0.4MB]    centro_costo: planta
+[2025-11-07 12:44:37][MEM: 0.4MB]    id_equipo: 144
+[2025-11-07 12:44:37][MEM: 0.4MB]    estado_id: 10
+[2025-11-07 12:44:37][MEM: 0.4MB]    actividad_id: 3
+[2025-11-07 12:44:37][MEM: 0.4MB]    usuario_id: 12
+[2025-11-07 12:44:37][MEM: 0.4MB] ✅ Validación de campos requeridos OK
+[2025-11-07 12:44:37][MEM: 0.4MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-07 12:44:37][MEM: 0.4MB]    Valor: 'correctivo'
+[2025-11-07 12:44:37][MEM: 0.4MB]    Tipo: string
+[2025-11-07 12:44:37][MEM: 0.4MB]    Longitud: 10
+[2025-11-07 12:44:37][MEM: 0.4MB] 🔍 DESPUÉS de trim():
+[2025-11-07 12:44:37][MEM: 0.4MB]    Valor: 'correctivo'
+[2025-11-07 12:44:37][MEM: 0.4MB]    Longitud: 10
+[2025-11-07 12:44:37][MEM: 0.4MB] 🔍 DESPUÉS de strtolower():
+[2025-11-07 12:44:37][MEM: 0.4MB]    Valor: 'correctivo'
+[2025-11-07 12:44:37][MEM: 0.4MB]    Longitud: 10
+[2025-11-07 12:44:37][MEM: 0.4MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-11-07 12:44:37][MEM: 0.4MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-07 12:44:37][MEM: 0.4MB] 🔢 Tipos forzados:
+[2025-11-07 12:44:37][MEM: 0.4MB]    o_servicio: 0 (integer)
+[2025-11-07 12:44:37][MEM: 0.4MB]    autorizado_por: 4 (integer)
+[2025-11-07 12:44:37][MEM: 0.4MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-11-07 12:44:37][MEM: 0.4MB]    id_equipo: 144 (integer)
+[2025-11-07 12:44:37][MEM: 0.4MB]    estado_id: 10 (integer)
+[2025-11-07 12:44:37][MEM: 0.4MB]    actividad_id: 3 (integer)
+[2025-11-07 12:44:37][MEM: 0.4MB] 🔢 Calculando número de servicio automático...
+[2025-11-07 12:44:37][MEM: 0.43MB] ✅ Número calculado: 1139 (anterior: 1138)
+[2025-11-07 12:44:37][MEM: 0.43MB] 🔍 Buscando equipo ID: 144
+[2025-11-07 12:44:37][MEM: 0.43MB] ✅ Equipo encontrado:
+[2025-11-07 12:44:37][MEM: 0.43MB]    nombre_empresa: Argos
+[2025-11-07 12:44:37][MEM: 0.43MB]    placa: xx
+[2025-11-07 12:44:37][MEM: 0.43MB] 🔍 Validando funcionario ID: 4
+[2025-11-07 12:44:37][MEM: 0.43MB] ✅ Funcionario validado
+[2025-11-07 12:44:37][MEM: 0.43MB] 📅 Fecha formateada: 2025-11-07 07:34:47
+[2025-11-07 12:44:37][MEM: 0.43MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-07 12:44:37][MEM: 0.43MB] 🔧 Preparando statement...
+[2025-11-07 12:44:37][MEM: 0.42MB] ✅ Statement preparado correctamente
+[2025-11-07 12:44:37][MEM: 0.42MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-07 12:44:37][MEM: 0.42MB]    Parámetros a bindear:
+[2025-11-07 12:44:37][MEM: 0.42MB]    1. o_servicio (i): 1139
+[2025-11-07 12:44:37][MEM: 0.42MB]    2. fecha_ingreso (s): 2025-11-07 07:34:47
+[2025-11-07 12:44:37][MEM: 0.42MB]    3. orden_cliente (s): 1234
+[2025-11-07 12:44:37][MEM: 0.42MB]    4. autorizado_por (i): 4
+[2025-11-07 12:44:37][MEM: 0.42MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-11-07 12:44:37][MEM: 0.42MB]    6. centro_costo (s): planta
+[2025-11-07 12:44:37][MEM: 0.42MB]    7. id_equipo (i): 144
+[2025-11-07 12:44:37][MEM: 0.42MB]    8. nombre_empresa (s): Argos
+[2025-11-07 12:44:37][MEM: 0.42MB]    9. placa (s): xx
+[2025-11-07 12:44:37][MEM: 0.42MB]   10. estado_id (i): 10
+[2025-11-07 12:44:37][MEM: 0.42MB]   11. actividad_id (i): 3
+[2025-11-07 12:44:37][MEM: 0.42MB]   12. usuario_creador (i): 12
+[2025-11-07 12:44:37][MEM: 0.42MB]   13. usuario_ultima_act (i): 12
+[2025-11-07 12:44:37][MEM: 0.42MB] 🔗 bind_param resultado: TRUE
+[2025-11-07 12:44:37][MEM: 0.42MB] ✅ Bind exitoso
+[2025-11-07 12:44:37][MEM: 0.42MB] ▶️ Ejecutando INSERT...
+[2025-11-07 12:44:37][MEM: 0.42MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-07 12:44:37][MEM: 0.42MB] 🆔 Servicio creado con ID: 155
+[2025-11-07 12:44:37][MEM: 0.42MB] 🔢 Número de servicio: 1139
+[2025-11-07 12:44:37][MEM: 0.42MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-07 12:44:37][MEM: 0.42MB] ✅ FIX aplicado exitosamente
+[2025-11-07 12:44:37][MEM: 0.42MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-07 12:44:37][MEM: 0.46MB]    📤 Valor que enviamos: 'correctivo'
+[2025-11-07 12:44:37][MEM: 0.46MB]    📥 Valor final en BD: 'correctivo'
+[2025-11-07 12:44:37][MEM: 0.46MB]    📏 Longitud final: 10
+[2025-11-07 12:44:37][MEM: 0.46MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-11-07 12:44:37][MEM: 0.46MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-07 12:44:37][MEM: 0.44MB] 📡 Intentando WebSocket...
+[2025-11-07 12:44:37][MEM: 0.44MB] ✅ WebSocket notificado
+[2025-11-07 12:44:37][MEM: 0.44MB] 📤 Preparando respuesta JSON...
+[2025-11-07 12:44:37][MEM: 0.44MB] 📤 Respuesta preparada (size: 361 bytes)
+[2025-11-07 12:44:37][MEM: 0.44MB] 📤 Enviando respuesta JSON...
+[2025-11-07 18:00:00][MEM: 0.37MB] ========================================
+[2025-11-07 18:00:00][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-07 18:00:00][MEM: 0.37MB] ========================================
+[2025-11-07 18:00:00][MEM: 0.37MB] 🌐 IP: 167.0.221.145
+[2025-11-07 18:00:00][MEM: 0.37MB] 📨 Método: OPTIONS
+[2025-11-07 18:00:00][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-07 18:00:00][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-11-07 18:00:01][MEM: 0.35MB] ========================================
+[2025-11-07 18:00:01][MEM: 0.35MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-07 18:00:01][MEM: 0.35MB] ========================================
+[2025-11-07 18:00:01][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-07 18:00:01][MEM: 0.35MB] 📨 Método: POST
+[2025-11-07 18:00:01][MEM: 0.35MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-07 18:00:01][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-07 18:00:01][MEM: 0.35MB] 👤 Usuario autenticado: die (ID: 12)
+[2025-11-07 18:00:01][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-07 18:00:01][MEM: 0.35MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-07 18:00:01][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-07 18:00:01][MEM: 0.4MB] ✅ WebSocketNotifier.php cargado
+[2025-11-07 18:00:01][MEM: 0.4MB] 📥 Raw input length: 194
+[2025-11-07 18:00:01][MEM: 0.4MB] 📥 Raw input: {"fecha_ingreso":"2025-11-07T12:59:20.896","orden_cliente":"344234","autorizado_por":4,"tipo_mantenimiento":"correctivo","centro_costo":"planta","id_equipo":144,"estado_id":10,"actividad_id":46}
+[2025-11-07 18:00:01][MEM: 0.4MB] ✅ JSON decodificado correctamente
+[2025-11-07 18:00:01][MEM: 0.4MB] 📋 Variables extraídas:
+[2025-11-07 18:00:01][MEM: 0.4MB]    fecha_ingreso: 2025-11-07T12:59:20.896
+[2025-11-07 18:00:01][MEM: 0.4MB]    orden_cliente: 344234
+[2025-11-07 18:00:01][MEM: 0.4MB]    autorizado_por: 4
+[2025-11-07 18:00:01][MEM: 0.4MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-11-07 18:00:01][MEM: 0.4MB]    tipo_mantenimiento tipo: string
+[2025-11-07 18:00:01][MEM: 0.4MB]    centro_costo: planta
+[2025-11-07 18:00:01][MEM: 0.4MB]    id_equipo: 144
+[2025-11-07 18:00:01][MEM: 0.4MB]    estado_id: 10
+[2025-11-07 18:00:01][MEM: 0.4MB]    actividad_id: 46
+[2025-11-07 18:00:01][MEM: 0.4MB]    usuario_id: 12
+[2025-11-07 18:00:01][MEM: 0.4MB] ✅ Validación de campos requeridos OK
+[2025-11-07 18:00:01][MEM: 0.4MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-07 18:00:01][MEM: 0.4MB]    Valor: 'correctivo'
+[2025-11-07 18:00:01][MEM: 0.4MB]    Tipo: string
+[2025-11-07 18:00:01][MEM: 0.4MB]    Longitud: 10
+[2025-11-07 18:00:01][MEM: 0.4MB] 🔍 DESPUÉS de trim():
+[2025-11-07 18:00:01][MEM: 0.4MB]    Valor: 'correctivo'
+[2025-11-07 18:00:01][MEM: 0.4MB]    Longitud: 10
+[2025-11-07 18:00:01][MEM: 0.4MB] 🔍 DESPUÉS de strtolower():
+[2025-11-07 18:00:01][MEM: 0.4MB]    Valor: 'correctivo'
+[2025-11-07 18:00:01][MEM: 0.4MB]    Longitud: 10
+[2025-11-07 18:00:01][MEM: 0.4MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-11-07 18:00:01][MEM: 0.4MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-07 18:00:01][MEM: 0.4MB] 🔢 Tipos forzados:
+[2025-11-07 18:00:01][MEM: 0.4MB]    o_servicio: 0 (integer)
+[2025-11-07 18:00:01][MEM: 0.4MB]    autorizado_por: 4 (integer)
+[2025-11-07 18:00:01][MEM: 0.4MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-11-07 18:00:01][MEM: 0.4MB]    id_equipo: 144 (integer)
+[2025-11-07 18:00:01][MEM: 0.4MB]    estado_id: 10 (integer)
+[2025-11-07 18:00:01][MEM: 0.4MB]    actividad_id: 46 (integer)
+[2025-11-07 18:00:01][MEM: 0.4MB] 🔢 Calculando número de servicio automático...
+[2025-11-07 18:00:01][MEM: 0.43MB] ✅ Número calculado: 1140 (anterior: 1139)
+[2025-11-07 18:00:01][MEM: 0.43MB] 🔍 Buscando equipo ID: 144
+[2025-11-07 18:00:01][MEM: 0.43MB] ✅ Equipo encontrado:
+[2025-11-07 18:00:01][MEM: 0.43MB]    nombre_empresa: Argos
+[2025-11-07 18:00:01][MEM: 0.43MB]    placa: xx
+[2025-11-07 18:00:01][MEM: 0.43MB] 🔍 Validando funcionario ID: 4
+[2025-11-07 18:00:01][MEM: 0.43MB] ✅ Funcionario validado
+[2025-11-07 18:00:01][MEM: 0.43MB] 📅 Fecha formateada: 2025-11-07 12:59:20
+[2025-11-07 18:00:01][MEM: 0.43MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-07 18:00:01][MEM: 0.43MB] 🔧 Preparando statement...
+[2025-11-07 18:00:01][MEM: 0.42MB] ✅ Statement preparado correctamente
+[2025-11-07 18:00:01][MEM: 0.42MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-07 18:00:01][MEM: 0.42MB]    Parámetros a bindear:
+[2025-11-07 18:00:01][MEM: 0.42MB]    1. o_servicio (i): 1140
+[2025-11-07 18:00:01][MEM: 0.42MB]    2. fecha_ingreso (s): 2025-11-07 12:59:20
+[2025-11-07 18:00:01][MEM: 0.42MB]    3. orden_cliente (s): 344234
+[2025-11-07 18:00:01][MEM: 0.42MB]    4. autorizado_por (i): 4
+[2025-11-07 18:00:01][MEM: 0.42MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-11-07 18:00:01][MEM: 0.42MB]    6. centro_costo (s): planta
+[2025-11-07 18:00:01][MEM: 0.42MB]    7. id_equipo (i): 144
+[2025-11-07 18:00:01][MEM: 0.42MB]    8. nombre_empresa (s): Argos
+[2025-11-07 18:00:01][MEM: 0.42MB]    9. placa (s): xx
+[2025-11-07 18:00:01][MEM: 0.42MB]   10. estado_id (i): 10
+[2025-11-07 18:00:01][MEM: 0.42MB]   11. actividad_id (i): 46
+[2025-11-07 18:00:01][MEM: 0.42MB]   12. usuario_creador (i): 12
+[2025-11-07 18:00:01][MEM: 0.42MB]   13. usuario_ultima_act (i): 12
+[2025-11-07 18:00:01][MEM: 0.42MB] 🔗 bind_param resultado: TRUE
+[2025-11-07 18:00:01][MEM: 0.42MB] ✅ Bind exitoso
+[2025-11-07 18:00:01][MEM: 0.42MB] ▶️ Ejecutando INSERT...
+[2025-11-07 18:00:01][MEM: 0.42MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-07 18:00:01][MEM: 0.42MB] 🆔 Servicio creado con ID: 156
+[2025-11-07 18:00:01][MEM: 0.42MB] 🔢 Número de servicio: 1140
+[2025-11-07 18:00:01][MEM: 0.42MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-07 18:00:01][MEM: 0.42MB] ✅ FIX aplicado exitosamente
+[2025-11-07 18:00:01][MEM: 0.42MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-07 18:00:01][MEM: 0.46MB]    📤 Valor que enviamos: 'correctivo'
+[2025-11-07 18:00:01][MEM: 0.46MB]    📥 Valor final en BD: 'correctivo'
+[2025-11-07 18:00:01][MEM: 0.46MB]    📏 Longitud final: 10
+[2025-11-07 18:00:01][MEM: 0.46MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-11-07 18:00:01][MEM: 0.46MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-07 18:00:01][MEM: 0.44MB] 📡 Intentando WebSocket...
+[2025-11-07 18:00:01][MEM: 0.44MB] ✅ WebSocket notificado
+[2025-11-07 18:00:01][MEM: 0.44MB] 📤 Preparando respuesta JSON...
+[2025-11-07 18:00:01][MEM: 0.44MB] 📤 Respuesta preparada (size: 364 bytes)
+[2025-11-07 18:00:01][MEM: 0.44MB] 📤 Enviando respuesta JSON...
+[2025-11-10 11:02:26][MEM: 0.37MB] ========================================
+[2025-11-10 11:02:26][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-10 11:02:26][MEM: 0.37MB] ========================================
+[2025-11-10 11:02:26][MEM: 0.37MB] 🌐 IP: 167.0.221.145
+[2025-11-10 11:02:26][MEM: 0.37MB] 📨 Método: POST
+[2025-11-10 11:02:26][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-10 11:02:26][MEM: 0.38MB] ✅ auth_middleware cargado
+[2025-11-10 11:02:26][MEM: 0.38MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-10 11:02:26][MEM: 0.38MB] ✅ Acceso registrado
+[2025-11-10 11:02:26][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-10 11:02:26][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-11-10 11:02:26][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-11-10 11:02:26][MEM: 0.42MB] 📥 Raw input length: 195
+[2025-11-10 11:02:26][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-11-10T06:01:50.478","orden_cliente":"1224473","autorizado_por":17,"tipo_mantenimiento":"correctivo","centro_costo":"taller","id_equipo":144,"estado_id":10,"actividad_id":1}
+[2025-11-10 11:02:26][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-10 11:02:26][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-11-10 11:02:26][MEM: 0.42MB]    fecha_ingreso: 2025-11-10T06:01:50.478
+[2025-11-10 11:02:26][MEM: 0.42MB]    orden_cliente: 1224473
+[2025-11-10 11:02:26][MEM: 0.42MB]    autorizado_por: 17
+[2025-11-10 11:02:26][MEM: 0.42MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-11-10 11:02:26][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-11-10 11:02:26][MEM: 0.42MB]    centro_costo: taller
+[2025-11-10 11:02:26][MEM: 0.42MB]    id_equipo: 144
+[2025-11-10 11:02:26][MEM: 0.42MB]    estado_id: 10
+[2025-11-10 11:02:26][MEM: 0.42MB]    actividad_id: 1
+[2025-11-10 11:02:26][MEM: 0.42MB]    usuario_id: 21
+[2025-11-10 11:02:26][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-11-10 11:02:26][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-10 11:02:26][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-10 11:02:26][MEM: 0.42MB]    Tipo: string
+[2025-11-10 11:02:26][MEM: 0.42MB]    Longitud: 10
+[2025-11-10 11:02:26][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-11-10 11:02:26][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-10 11:02:26][MEM: 0.42MB]    Longitud: 10
+[2025-11-10 11:02:26][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-11-10 11:02:26][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-10 11:02:26][MEM: 0.42MB]    Longitud: 10
+[2025-11-10 11:02:26][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-11-10 11:02:26][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-10 11:02:26][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-11-10 11:02:26][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-11-10 11:02:26][MEM: 0.42MB]    autorizado_por: 17 (integer)
+[2025-11-10 11:02:26][MEM: 0.42MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-11-10 11:02:26][MEM: 0.42MB]    id_equipo: 144 (integer)
+[2025-11-10 11:02:26][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-11-10 11:02:26][MEM: 0.42MB]    actividad_id: 1 (integer)
+[2025-11-10 11:02:26][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-11-10 11:02:26][MEM: 0.46MB] ✅ Número calculado: 1141 (anterior: 1140)
+[2025-11-10 11:02:26][MEM: 0.46MB] 🔍 Buscando equipo ID: 144
+[2025-11-10 11:02:26][MEM: 0.46MB] ✅ Equipo encontrado:
+[2025-11-10 11:02:26][MEM: 0.46MB]    nombre_empresa: Argos
+[2025-11-10 11:02:26][MEM: 0.46MB]    placa: xx
+[2025-11-10 11:02:26][MEM: 0.46MB] 🔍 Validando funcionario ID: 17
+[2025-11-10 11:02:26][MEM: 0.46MB] ✅ Funcionario validado
+[2025-11-10 11:02:26][MEM: 0.46MB] 📅 Fecha formateada: 2025-11-10 06:01:50
+[2025-11-10 11:02:26][MEM: 0.46MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-10 11:02:26][MEM: 0.46MB] 🔧 Preparando statement...
+[2025-11-10 11:02:26][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-11-10 11:02:26][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-10 11:02:26][MEM: 0.44MB]    Parámetros a bindear:
+[2025-11-10 11:02:26][MEM: 0.44MB]    1. o_servicio (i): 1141
+[2025-11-10 11:02:26][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-11-10 06:01:50
+[2025-11-10 11:02:26][MEM: 0.44MB]    3. orden_cliente (s): 1224473
+[2025-11-10 11:02:26][MEM: 0.44MB]    4. autorizado_por (i): 17
+[2025-11-10 11:02:26][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-11-10 11:02:26][MEM: 0.44MB]    6. centro_costo (s): taller
+[2025-11-10 11:02:26][MEM: 0.44MB]    7. id_equipo (i): 144
+[2025-11-10 11:02:26][MEM: 0.44MB]    8. nombre_empresa (s): Argos
+[2025-11-10 11:02:26][MEM: 0.44MB]    9. placa (s): xx
+[2025-11-10 11:02:26][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-11-10 11:02:26][MEM: 0.44MB]   11. actividad_id (i): 1
+[2025-11-10 11:02:26][MEM: 0.44MB]   12. usuario_creador (i): 21
+[2025-11-10 11:02:26][MEM: 0.44MB]   13. usuario_ultima_act (i): 21
+[2025-11-10 11:02:26][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-11-10 11:02:26][MEM: 0.44MB] ✅ Bind exitoso
+[2025-11-10 11:02:26][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-11-10 11:02:26][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-10 11:02:26][MEM: 0.44MB] 🆔 Servicio creado con ID: 157
+[2025-11-10 11:02:26][MEM: 0.44MB] 🔢 Número de servicio: 1141
+[2025-11-10 11:02:26][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-10 11:02:26][MEM: 0.45MB] ✅ FIX aplicado exitosamente
+[2025-11-10 11:02:26][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-10 11:02:26][MEM: 0.48MB]    📤 Valor que enviamos: 'correctivo'
+[2025-11-10 11:02:26][MEM: 0.48MB]    📥 Valor final en BD: 'correctivo'
+[2025-11-10 11:02:26][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-11-10 11:02:26][MEM: 0.48MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-11-10 11:02:26][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-10 11:02:26][MEM: 0.46MB] 📡 Intentando WebSocket...
+[2025-11-10 11:02:26][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-11-10 11:02:26][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-11-10 11:02:26][MEM: 0.46MB] 📤 Respuesta preparada (size: 365 bytes)
+[2025-11-10 11:02:26][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-11-10 18:47:56][MEM: 0.37MB] ========================================
+[2025-11-10 18:47:56][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-10 18:47:56][MEM: 0.37MB] ========================================
+[2025-11-10 18:47:56][MEM: 0.37MB] 🌐 IP: 191.156.253.118
+[2025-11-10 18:47:56][MEM: 0.37MB] 📨 Método: POST
+[2025-11-10 18:47:56][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-10 18:47:56][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-11-10 18:47:56][MEM: 0.38MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-10 18:47:56][MEM: 0.38MB] ✅ Acceso registrado
+[2025-11-10 18:47:56][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-10 18:47:56][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-11-10 18:47:56][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-11-10 18:47:56][MEM: 0.42MB] 📥 Raw input length: 190
+[2025-11-10 18:47:56][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-11-10T13:47:14.532","orden_cliente":"12345","autorizado_por":17,"tipo_mantenimiento":"actual","centro_costo":"taller","id_equipo":143,"estado_id":10,"actividad_id":44}
+[2025-11-10 18:47:56][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-10 18:47:56][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-11-10 18:47:56][MEM: 0.42MB]    fecha_ingreso: 2025-11-10T13:47:14.532
+[2025-11-10 18:47:56][MEM: 0.42MB]    orden_cliente: 12345
+[2025-11-10 18:47:56][MEM: 0.42MB]    autorizado_por: 17
+[2025-11-10 18:47:56][MEM: 0.42MB]    tipo_mantenimiento RAW: 'actual'
+[2025-11-10 18:47:56][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-11-10 18:47:56][MEM: 0.42MB]    centro_costo: taller
+[2025-11-10 18:47:56][MEM: 0.42MB]    id_equipo: 143
+[2025-11-10 18:47:56][MEM: 0.42MB]    estado_id: 10
+[2025-11-10 18:47:56][MEM: 0.42MB]    actividad_id: 44
+[2025-11-10 18:47:56][MEM: 0.42MB]    usuario_id: 21
+[2025-11-10 18:47:56][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-11-10 18:47:56][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-10 18:47:56][MEM: 0.42MB]    Valor: 'actual'
+[2025-11-10 18:47:56][MEM: 0.42MB]    Tipo: string
+[2025-11-10 18:47:56][MEM: 0.42MB]    Longitud: 6
+[2025-11-10 18:47:56][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-11-10 18:47:56][MEM: 0.42MB]    Valor: 'actual'
+[2025-11-10 18:47:56][MEM: 0.42MB]    Longitud: 6
+[2025-11-10 18:47:56][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-11-10 18:47:56][MEM: 0.42MB]    Valor: 'actual'
+[2025-11-10 18:47:56][MEM: 0.42MB]    Longitud: 6
+[2025-11-10 18:47:56][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'actual'
+[2025-11-10 18:47:56][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-10 18:47:56][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-11-10 18:47:56][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-11-10 18:47:56][MEM: 0.42MB]    autorizado_por: 17 (integer)
+[2025-11-10 18:47:56][MEM: 0.42MB]    tipo_mantenimiento: 'actual' (string)
+[2025-11-10 18:47:56][MEM: 0.42MB]    id_equipo: 143 (integer)
+[2025-11-10 18:47:56][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-11-10 18:47:56][MEM: 0.42MB]    actividad_id: 44 (integer)
+[2025-11-10 18:47:56][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-11-10 18:47:56][MEM: 0.45MB] ✅ Número calculado: 1142 (anterior: 1141)
+[2025-11-10 18:47:56][MEM: 0.45MB] 🔍 Buscando equipo ID: 143
+[2025-11-10 18:47:56][MEM: 0.45MB] ✅ Equipo encontrado:
+[2025-11-10 18:47:56][MEM: 0.45MB]    nombre_empresa: infoapp
+[2025-11-10 18:47:56][MEM: 0.45MB]    placa: 123456789
+[2025-11-10 18:47:56][MEM: 0.45MB] 🔍 Validando funcionario ID: 17
+[2025-11-10 18:47:56][MEM: 0.45MB] ✅ Funcionario validado
+[2025-11-10 18:47:56][MEM: 0.46MB] 📅 Fecha formateada: 2025-11-10 13:47:14
+[2025-11-10 18:47:56][MEM: 0.46MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-10 18:47:56][MEM: 0.46MB] 🔧 Preparando statement...
+[2025-11-10 18:47:56][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-11-10 18:47:56][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-10 18:47:56][MEM: 0.44MB]    Parámetros a bindear:
+[2025-11-10 18:47:56][MEM: 0.44MB]    1. o_servicio (i): 1142
+[2025-11-10 18:47:56][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-11-10 13:47:14
+[2025-11-10 18:47:56][MEM: 0.44MB]    3. orden_cliente (s): 12345
+[2025-11-10 18:47:56][MEM: 0.44MB]    4. autorizado_por (i): 17
+[2025-11-10 18:47:56][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'actual' [CRÍTICO]
+[2025-11-10 18:47:56][MEM: 0.44MB]    6. centro_costo (s): taller
+[2025-11-10 18:47:56][MEM: 0.44MB]    7. id_equipo (i): 143
+[2025-11-10 18:47:56][MEM: 0.44MB]    8. nombre_empresa (s): infoapp
+[2025-11-10 18:47:56][MEM: 0.44MB]    9. placa (s): 123456789
+[2025-11-10 18:47:56][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-11-10 18:47:56][MEM: 0.44MB]   11. actividad_id (i): 44
+[2025-11-10 18:47:56][MEM: 0.44MB]   12. usuario_creador (i): 21
+[2025-11-10 18:47:56][MEM: 0.44MB]   13. usuario_ultima_act (i): 21
+[2025-11-10 18:47:56][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-11-10 18:47:56][MEM: 0.44MB] ✅ Bind exitoso
+[2025-11-10 18:47:56][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-11-10 18:47:56][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-10 18:47:56][MEM: 0.44MB] 🆔 Servicio creado con ID: 158
+[2025-11-10 18:47:56][MEM: 0.44MB] 🔢 Número de servicio: 1142
+[2025-11-10 18:47:56][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-10 18:47:56][MEM: 0.45MB] ✅ FIX aplicado exitosamente
+[2025-11-10 18:47:56][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-10 18:47:56][MEM: 0.48MB]    📤 Valor que enviamos: 'actual'
+[2025-11-10 18:47:56][MEM: 0.48MB]    📥 Valor final en BD: 'actual'
+[2025-11-10 18:47:56][MEM: 0.48MB]    📏 Longitud final: 6
+[2025-11-10 18:47:56][MEM: 0.48MB]    🔢 Valor HEX final: 61637475616C
+[2025-11-10 18:47:56][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-10 18:47:56][MEM: 0.46MB] 📡 Intentando WebSocket...
+[2025-11-10 18:47:56][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-11-10 18:47:56][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-11-10 18:47:56][MEM: 0.46MB] 📤 Respuesta preparada (size: 360 bytes)
+[2025-11-10 18:47:56][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-11-10 22:23:46][MEM: 0.37MB] ========================================
+[2025-11-10 22:23:46][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-10 22:23:46][MEM: 0.37MB] ========================================
+[2025-11-10 22:23:46][MEM: 0.37MB] 🌐 IP: 179.19.170.181
+[2025-11-10 22:23:46][MEM: 0.37MB] 📨 Método: POST
+[2025-11-10 22:23:46][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-10 22:23:46][MEM: 0.38MB] ✅ auth_middleware cargado
+[2025-11-10 22:23:46][MEM: 0.38MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-10 22:23:46][MEM: 0.38MB] ✅ Acceso registrado
+[2025-11-10 22:23:46][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-10 22:23:46][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-11-10 22:23:46][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-11-10 22:23:46][MEM: 0.42MB] 📥 Raw input length: 185
+[2025-11-10 22:23:46][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-11-10T06:03:02.185","orden_cliente":"827281","autorizado_por":19,"tipo_mantenimiento":"preventivo","centro_costo":"producción","id_equipo":143,"actividad_id":51}
+[2025-11-10 22:23:46][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-10 22:23:46][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-11-10 22:23:46][MEM: 0.42MB]    fecha_ingreso: 2025-11-10T06:03:02.185
+[2025-11-10 22:23:46][MEM: 0.42MB]    orden_cliente: 827281
+[2025-11-10 22:23:46][MEM: 0.42MB]    autorizado_por: 19
+[2025-11-10 22:23:46][MEM: 0.42MB]    tipo_mantenimiento RAW: 'preventivo'
+[2025-11-10 22:23:46][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-11-10 22:23:46][MEM: 0.42MB]    centro_costo: producción
+[2025-11-10 22:23:46][MEM: 0.42MB]    id_equipo: 143
+[2025-11-10 22:23:46][MEM: 0.42MB]    estado_id: NULL
+[2025-11-10 22:23:46][MEM: 0.42MB]    actividad_id: 51
+[2025-11-10 22:23:46][MEM: 0.42MB]    usuario_id: 21
+[2025-11-10 22:23:46][MEM: 0.42MB] ❌ Faltan campos: estado_id
+[2025-11-10 22:23:46][MEM: 0.42MB] 🔴🔴🔴 EXCEPTION CAPTURADA 🔴🔴🔴
+[2025-11-10 22:23:46][MEM: 0.42MB] ❌ Mensaje: Campos faltantes: estado_id
+[2025-11-10 22:23:46][MEM: 0.42MB] 📁 Archivo: /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/servicio/crear_servicio.php
+[2025-11-10 22:23:46][MEM: 0.42MB] 📍 Línea: 107
+[2025-11-10 22:23:46][MEM: 0.42MB] 📚 Trace: #0 {main}
+[2025-11-10 22:23:46][MEM: 0.42MB] 📤 Enviando error response...
+[2025-11-11 10:06:53][MEM: 0.37MB] ========================================
+[2025-11-11 10:06:53][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-11 10:06:53][MEM: 0.37MB] ========================================
+[2025-11-11 10:06:53][MEM: 0.37MB] 🌐 IP: 167.0.221.145
+[2025-11-11 10:06:53][MEM: 0.37MB] 📨 Método: POST
+[2025-11-11 10:06:53][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-11 10:06:53][MEM: 0.38MB] ✅ auth_middleware cargado
+[2025-11-11 10:06:53][MEM: 0.38MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-11 10:06:53][MEM: 0.38MB] ✅ Acceso registrado
+[2025-11-11 10:06:53][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-11 10:06:53][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-11-11 10:06:53][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-11-11 10:06:53][MEM: 0.42MB] 📥 Raw input length: 185
+[2025-11-11 10:06:53][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-11-10T06:03:02.185","orden_cliente":"827281","autorizado_por":19,"tipo_mantenimiento":"preventivo","centro_costo":"producción","id_equipo":143,"actividad_id":51}
+[2025-11-11 10:06:53][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-11 10:06:53][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-11-11 10:06:53][MEM: 0.42MB]    fecha_ingreso: 2025-11-10T06:03:02.185
+[2025-11-11 10:06:53][MEM: 0.42MB]    orden_cliente: 827281
+[2025-11-11 10:06:53][MEM: 0.42MB]    autorizado_por: 19
+[2025-11-11 10:06:53][MEM: 0.42MB]    tipo_mantenimiento RAW: 'preventivo'
+[2025-11-11 10:06:53][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-11-11 10:06:53][MEM: 0.42MB]    centro_costo: producción
+[2025-11-11 10:06:53][MEM: 0.42MB]    id_equipo: 143
+[2025-11-11 10:06:53][MEM: 0.42MB]    estado_id: NULL
+[2025-11-11 10:06:53][MEM: 0.42MB]    actividad_id: 51
+[2025-11-11 10:06:53][MEM: 0.42MB]    usuario_id: 21
+[2025-11-11 10:06:53][MEM: 0.42MB] ❌ Faltan campos: estado_id
+[2025-11-11 10:06:53][MEM: 0.42MB] 🔴🔴🔴 EXCEPTION CAPTURADA 🔴🔴🔴
+[2025-11-11 10:06:53][MEM: 0.42MB] ❌ Mensaje: Campos faltantes: estado_id
+[2025-11-11 10:06:53][MEM: 0.42MB] 📁 Archivo: /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/servicio/crear_servicio.php
+[2025-11-11 10:06:53][MEM: 0.42MB] 📍 Línea: 107
+[2025-11-11 10:06:53][MEM: 0.42MB] 📚 Trace: #0 {main}
+[2025-11-11 10:06:53][MEM: 0.42MB] 📤 Enviando error response...
+[2025-11-11 12:33:57][MEM: 0.37MB] ========================================
+[2025-11-11 12:33:57][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-11 12:33:57][MEM: 0.37MB] ========================================
+[2025-11-11 12:33:57][MEM: 0.37MB] 🌐 IP: 167.0.221.145
+[2025-11-11 12:33:57][MEM: 0.37MB] 📨 Método: OPTIONS
+[2025-11-11 12:33:57][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-11 12:33:57][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-11-11 12:33:57][MEM: 0.35MB] ========================================
+[2025-11-11 12:33:57][MEM: 0.35MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-11 12:33:57][MEM: 0.35MB] ========================================
+[2025-11-11 12:33:57][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-11 12:33:57][MEM: 0.35MB] 📨 Método: POST
+[2025-11-11 12:33:57][MEM: 0.35MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-11 12:33:57][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-11 12:33:57][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-11 12:33:57][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-11 12:33:57][MEM: 0.35MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-11 12:33:57][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-11 12:33:57][MEM: 0.4MB] ✅ WebSocketNotifier.php cargado
+[2025-11-11 12:33:57][MEM: 0.4MB] 📥 Raw input length: 194
+[2025-11-11 12:33:57][MEM: 0.4MB] 📥 Raw input: {"fecha_ingreso":"2025-11-11T07:31:53.223","orden_cliente":"123455","autorizado_por":4,"tipo_mantenimiento":"correctivo","centro_costo":"planta","id_equipo":131,"estado_id":10,"actividad_id":51}
+[2025-11-11 12:33:57][MEM: 0.4MB] ✅ JSON decodificado correctamente
+[2025-11-11 12:33:57][MEM: 0.4MB] 📋 Variables extraídas:
+[2025-11-11 12:33:57][MEM: 0.4MB]    fecha_ingreso: 2025-11-11T07:31:53.223
+[2025-11-11 12:33:57][MEM: 0.4MB]    orden_cliente: 123455
+[2025-11-11 12:33:57][MEM: 0.4MB]    autorizado_por: 4
+[2025-11-11 12:33:57][MEM: 0.4MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-11-11 12:33:57][MEM: 0.4MB]    tipo_mantenimiento tipo: string
+[2025-11-11 12:33:57][MEM: 0.4MB]    centro_costo: planta
+[2025-11-11 12:33:57][MEM: 0.4MB]    id_equipo: 131
+[2025-11-11 12:33:57][MEM: 0.4MB]    estado_id: 10
+[2025-11-11 12:33:57][MEM: 0.4MB]    actividad_id: 51
+[2025-11-11 12:33:57][MEM: 0.4MB]    usuario_id: 21
+[2025-11-11 12:33:57][MEM: 0.4MB] ✅ Validación de campos requeridos OK
+[2025-11-11 12:33:57][MEM: 0.4MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-11 12:33:57][MEM: 0.4MB]    Valor: 'correctivo'
+[2025-11-11 12:33:57][MEM: 0.4MB]    Tipo: string
+[2025-11-11 12:33:57][MEM: 0.4MB]    Longitud: 10
+[2025-11-11 12:33:57][MEM: 0.4MB] 🔍 DESPUÉS de trim():
+[2025-11-11 12:33:57][MEM: 0.4MB]    Valor: 'correctivo'
+[2025-11-11 12:33:57][MEM: 0.4MB]    Longitud: 10
+[2025-11-11 12:33:57][MEM: 0.4MB] 🔍 DESPUÉS de strtolower():
+[2025-11-11 12:33:57][MEM: 0.4MB]    Valor: 'correctivo'
+[2025-11-11 12:33:57][MEM: 0.4MB]    Longitud: 10
+[2025-11-11 12:33:57][MEM: 0.4MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-11-11 12:33:57][MEM: 0.4MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-11 12:33:57][MEM: 0.4MB] 🔢 Tipos forzados:
+[2025-11-11 12:33:57][MEM: 0.4MB]    o_servicio: 0 (integer)
+[2025-11-11 12:33:57][MEM: 0.4MB]    autorizado_por: 4 (integer)
+[2025-11-11 12:33:57][MEM: 0.4MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-11-11 12:33:57][MEM: 0.4MB]    id_equipo: 131 (integer)
+[2025-11-11 12:33:57][MEM: 0.4MB]    estado_id: 10 (integer)
+[2025-11-11 12:33:57][MEM: 0.4MB]    actividad_id: 51 (integer)
+[2025-11-11 12:33:57][MEM: 0.4MB] 🔢 Calculando número de servicio automático...
+[2025-11-11 12:33:57][MEM: 0.43MB] ✅ Número calculado: 1143 (anterior: 1142)
+[2025-11-11 12:33:57][MEM: 0.43MB] 🔍 Buscando equipo ID: 131
+[2025-11-11 12:33:57][MEM: 0.43MB] ✅ Equipo encontrado:
+[2025-11-11 12:33:57][MEM: 0.43MB]    nombre_empresa: INFOAPP
+[2025-11-11 12:33:57][MEM: 0.43MB]    placa: 4321
+[2025-11-11 12:33:57][MEM: 0.43MB] 🔍 Validando funcionario ID: 4
+[2025-11-11 12:33:57][MEM: 0.43MB] ✅ Funcionario validado
+[2025-11-11 12:33:57][MEM: 0.43MB] 📅 Fecha formateada: 2025-11-11 07:31:53
+[2025-11-11 12:33:57][MEM: 0.43MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-11 12:33:57][MEM: 0.43MB] 🔧 Preparando statement...
+[2025-11-11 12:33:57][MEM: 0.42MB] ✅ Statement preparado correctamente
+[2025-11-11 12:33:57][MEM: 0.42MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-11 12:33:57][MEM: 0.42MB]    Parámetros a bindear:
+[2025-11-11 12:33:57][MEM: 0.42MB]    1. o_servicio (i): 1143
+[2025-11-11 12:33:57][MEM: 0.42MB]    2. fecha_ingreso (s): 2025-11-11 07:31:53
+[2025-11-11 12:33:57][MEM: 0.42MB]    3. orden_cliente (s): 123455
+[2025-11-11 12:33:57][MEM: 0.42MB]    4. autorizado_por (i): 4
+[2025-11-11 12:33:57][MEM: 0.42MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-11-11 12:33:57][MEM: 0.42MB]    6. centro_costo (s): planta
+[2025-11-11 12:33:57][MEM: 0.42MB]    7. id_equipo (i): 131
+[2025-11-11 12:33:57][MEM: 0.42MB]    8. nombre_empresa (s): INFOAPP
+[2025-11-11 12:33:57][MEM: 0.42MB]    9. placa (s): 4321
+[2025-11-11 12:33:57][MEM: 0.42MB]   10. estado_id (i): 10
+[2025-11-11 12:33:57][MEM: 0.42MB]   11. actividad_id (i): 51
+[2025-11-11 12:33:57][MEM: 0.42MB]   12. usuario_creador (i): 21
+[2025-11-11 12:33:57][MEM: 0.42MB]   13. usuario_ultima_act (i): 21
+[2025-11-11 12:33:57][MEM: 0.42MB] 🔗 bind_param resultado: TRUE
+[2025-11-11 12:33:57][MEM: 0.42MB] ✅ Bind exitoso
+[2025-11-11 12:33:57][MEM: 0.42MB] ▶️ Ejecutando INSERT...
+[2025-11-11 12:33:57][MEM: 0.42MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-11 12:33:57][MEM: 0.42MB] 🆔 Servicio creado con ID: 159
+[2025-11-11 12:33:57][MEM: 0.42MB] 🔢 Número de servicio: 1143
+[2025-11-11 12:33:57][MEM: 0.42MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-11 12:33:57][MEM: 0.42MB] ✅ FIX aplicado exitosamente
+[2025-11-11 12:33:57][MEM: 0.42MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-11 12:33:57][MEM: 0.46MB]    📤 Valor que enviamos: 'correctivo'
+[2025-11-11 12:33:57][MEM: 0.46MB]    📥 Valor final en BD: 'correctivo'
+[2025-11-11 12:33:57][MEM: 0.46MB]    📏 Longitud final: 10
+[2025-11-11 12:33:57][MEM: 0.46MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-11-11 12:33:57][MEM: 0.46MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-11 12:33:57][MEM: 0.44MB] 📡 Intentando WebSocket...
+[2025-11-11 12:33:57][MEM: 0.44MB] ✅ WebSocket notificado
+[2025-11-11 12:33:57][MEM: 0.44MB] 📤 Preparando respuesta JSON...
+[2025-11-11 12:33:57][MEM: 0.44MB] 📤 Respuesta preparada (size: 364 bytes)
+[2025-11-11 12:33:57][MEM: 0.44MB] 📤 Enviando respuesta JSON...
+[2025-11-11 12:43:07][MEM: 0.35MB] ========================================
+[2025-11-11 12:43:07][MEM: 0.35MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-11 12:43:07][MEM: 0.35MB] ========================================
+[2025-11-11 12:43:07][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-11 12:43:07][MEM: 0.35MB] 📨 Método: OPTIONS
+[2025-11-11 12:43:07][MEM: 0.35MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-11 12:43:07][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-11 12:43:07][MEM: 0.35MB] ========================================
+[2025-11-11 12:43:07][MEM: 0.35MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-11 12:43:07][MEM: 0.35MB] ========================================
+[2025-11-11 12:43:07][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-11 12:43:07][MEM: 0.35MB] 📨 Método: POST
+[2025-11-11 12:43:07][MEM: 0.35MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-11 12:43:07][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-11 12:43:07][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-11 12:43:07][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-11 12:43:07][MEM: 0.35MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-11 12:43:07][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-11 12:43:07][MEM: 0.39MB] ✅ WebSocketNotifier.php cargado
+[2025-11-11 12:43:07][MEM: 0.4MB] 📥 Raw input length: 191
+[2025-11-11 12:43:07][MEM: 0.4MB] 📥 Raw input: {"fecha_ingreso":"2025-11-11T07:41:59.123","orden_cliente":"PENDIENTE","autorizado_por":4,"tipo_mantenimiento":"cloud","centro_costo":"planta","id_equipo":144,"estado_id":10,"actividad_id":3}
+[2025-11-11 12:43:07][MEM: 0.4MB] ✅ JSON decodificado correctamente
+[2025-11-11 12:43:07][MEM: 0.4MB] 📋 Variables extraídas:
+[2025-11-11 12:43:07][MEM: 0.4MB]    fecha_ingreso: 2025-11-11T07:41:59.123
+[2025-11-11 12:43:07][MEM: 0.4MB]    orden_cliente: PENDIENTE
+[2025-11-11 12:43:07][MEM: 0.4MB]    autorizado_por: 4
+[2025-11-11 12:43:07][MEM: 0.4MB]    tipo_mantenimiento RAW: 'cloud'
+[2025-11-11 12:43:07][MEM: 0.4MB]    tipo_mantenimiento tipo: string
+[2025-11-11 12:43:07][MEM: 0.4MB]    centro_costo: planta
+[2025-11-11 12:43:07][MEM: 0.4MB]    id_equipo: 144
+[2025-11-11 12:43:07][MEM: 0.4MB]    estado_id: 10
+[2025-11-11 12:43:07][MEM: 0.4MB]    actividad_id: 3
+[2025-11-11 12:43:07][MEM: 0.4MB]    usuario_id: 21
+[2025-11-11 12:43:07][MEM: 0.4MB] ✅ Validación de campos requeridos OK
+[2025-11-11 12:43:07][MEM: 0.4MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-11 12:43:07][MEM: 0.4MB]    Valor: 'cloud'
+[2025-11-11 12:43:07][MEM: 0.4MB]    Tipo: string
+[2025-11-11 12:43:07][MEM: 0.4MB]    Longitud: 5
+[2025-11-11 12:43:07][MEM: 0.4MB] 🔍 DESPUÉS de trim():
+[2025-11-11 12:43:07][MEM: 0.4MB]    Valor: 'cloud'
+[2025-11-11 12:43:07][MEM: 0.4MB]    Longitud: 5
+[2025-11-11 12:43:07][MEM: 0.4MB] 🔍 DESPUÉS de strtolower():
+[2025-11-11 12:43:07][MEM: 0.4MB]    Valor: 'cloud'
+[2025-11-11 12:43:07][MEM: 0.4MB]    Longitud: 5
+[2025-11-11 12:43:07][MEM: 0.4MB] ✅ tipo_mantenimiento normalizado correctamente: 'cloud'
+[2025-11-11 12:43:07][MEM: 0.4MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-11 12:43:07][MEM: 0.4MB] 🔢 Tipos forzados:
+[2025-11-11 12:43:07][MEM: 0.4MB]    o_servicio: 0 (integer)
+[2025-11-11 12:43:07][MEM: 0.4MB]    autorizado_por: 4 (integer)
+[2025-11-11 12:43:07][MEM: 0.4MB]    tipo_mantenimiento: 'cloud' (string)
+[2025-11-11 12:43:07][MEM: 0.4MB]    id_equipo: 144 (integer)
+[2025-11-11 12:43:07][MEM: 0.4MB]    estado_id: 10 (integer)
+[2025-11-11 12:43:07][MEM: 0.4MB]    actividad_id: 3 (integer)
+[2025-11-11 12:43:07][MEM: 0.4MB] 🔢 Calculando número de servicio automático...
+[2025-11-11 12:43:07][MEM: 0.43MB] ✅ Número calculado: 1144 (anterior: 1143)
+[2025-11-11 12:43:07][MEM: 0.43MB] 🔍 Buscando equipo ID: 144
+[2025-11-11 12:43:07][MEM: 0.43MB] ✅ Equipo encontrado:
+[2025-11-11 12:43:07][MEM: 0.43MB]    nombre_empresa: Argos
+[2025-11-11 12:43:07][MEM: 0.43MB]    placa: xx
+[2025-11-11 12:43:07][MEM: 0.43MB] 🔍 Validando funcionario ID: 4
+[2025-11-11 12:43:07][MEM: 0.43MB] ✅ Funcionario validado
+[2025-11-11 12:43:07][MEM: 0.43MB] 📅 Fecha formateada: 2025-11-11 07:41:59
+[2025-11-11 12:43:07][MEM: 0.43MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-11 12:43:07][MEM: 0.43MB] 🔧 Preparando statement...
+[2025-11-11 12:43:07][MEM: 0.42MB] ✅ Statement preparado correctamente
+[2025-11-11 12:43:07][MEM: 0.42MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-11 12:43:07][MEM: 0.42MB]    Parámetros a bindear:
+[2025-11-11 12:43:07][MEM: 0.42MB]    1. o_servicio (i): 1144
+[2025-11-11 12:43:07][MEM: 0.42MB]    2. fecha_ingreso (s): 2025-11-11 07:41:59
+[2025-11-11 12:43:07][MEM: 0.42MB]    3. orden_cliente (s): PENDIENTE
+[2025-11-11 12:43:07][MEM: 0.42MB]    4. autorizado_por (i): 4
+[2025-11-11 12:43:07][MEM: 0.42MB]    5. tipo_mantenimiento (s): 'cloud' [CRÍTICO]
+[2025-11-11 12:43:07][MEM: 0.42MB]    6. centro_costo (s): planta
+[2025-11-11 12:43:07][MEM: 0.42MB]    7. id_equipo (i): 144
+[2025-11-11 12:43:07][MEM: 0.42MB]    8. nombre_empresa (s): Argos
+[2025-11-11 12:43:07][MEM: 0.42MB]    9. placa (s): xx
+[2025-11-11 12:43:07][MEM: 0.42MB]   10. estado_id (i): 10
+[2025-11-11 12:43:07][MEM: 0.42MB]   11. actividad_id (i): 3
+[2025-11-11 12:43:07][MEM: 0.42MB]   12. usuario_creador (i): 21
+[2025-11-11 12:43:07][MEM: 0.42MB]   13. usuario_ultima_act (i): 21
+[2025-11-11 12:43:07][MEM: 0.42MB] 🔗 bind_param resultado: TRUE
+[2025-11-11 12:43:07][MEM: 0.42MB] ✅ Bind exitoso
+[2025-11-11 12:43:07][MEM: 0.42MB] ▶️ Ejecutando INSERT...
+[2025-11-11 12:43:07][MEM: 0.42MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-11 12:43:07][MEM: 0.42MB] 🆔 Servicio creado con ID: 160
+[2025-11-11 12:43:07][MEM: 0.42MB] 🔢 Número de servicio: 1144
+[2025-11-11 12:43:07][MEM: 0.42MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-11 12:43:07][MEM: 0.42MB] ✅ FIX aplicado exitosamente
+[2025-11-11 12:43:07][MEM: 0.42MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-11 12:43:07][MEM: 0.46MB]    📤 Valor que enviamos: 'cloud'
+[2025-11-11 12:43:07][MEM: 0.46MB]    📥 Valor final en BD: 'cloud'
+[2025-11-11 12:43:07][MEM: 0.46MB]    📏 Longitud final: 5
+[2025-11-11 12:43:07][MEM: 0.46MB]    🔢 Valor HEX final: 636C6F7564
+[2025-11-11 12:43:07][MEM: 0.46MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-11 12:43:07][MEM: 0.44MB] 📡 Intentando WebSocket...
+[2025-11-11 12:43:07][MEM: 0.44MB] ✅ WebSocket notificado
+[2025-11-11 12:43:07][MEM: 0.44MB] 📤 Preparando respuesta JSON...
+[2025-11-11 12:43:07][MEM: 0.44MB] 📤 Respuesta preparada (size: 361 bytes)
+[2025-11-11 12:43:07][MEM: 0.44MB] 📤 Enviando respuesta JSON...
+[2025-11-11 16:49:29][MEM: 0.37MB] ========================================
+[2025-11-11 16:49:29][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-11 16:49:29][MEM: 0.37MB] ========================================
+[2025-11-11 16:49:29][MEM: 0.37MB] 🌐 IP: 167.0.221.145
+[2025-11-11 16:49:29][MEM: 0.37MB] 📨 Método: POST
+[2025-11-11 16:49:29][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-11 16:49:29][MEM: 0.38MB] ✅ auth_middleware cargado
+[2025-11-11 16:49:29][MEM: 0.38MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-11 16:49:29][MEM: 0.38MB] ✅ Acceso registrado
+[2025-11-11 16:49:29][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-11 16:49:29][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-11-11 16:49:29][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-11-11 16:49:29][MEM: 0.42MB] 📥 Raw input length: 195
+[2025-11-11 16:49:29][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-11-11T11:48:42.433","orden_cliente":"122471","autorizado_por":17,"tipo_mantenimiento":"correctivo","centro_costo":"planta","id_equipo":131,"estado_id":10,"actividad_id":44}
+[2025-11-11 16:49:29][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-11 16:49:29][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-11-11 16:49:29][MEM: 0.42MB]    fecha_ingreso: 2025-11-11T11:48:42.433
+[2025-11-11 16:49:29][MEM: 0.42MB]    orden_cliente: 122471
+[2025-11-11 16:49:29][MEM: 0.42MB]    autorizado_por: 17
+[2025-11-11 16:49:29][MEM: 0.42MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-11-11 16:49:29][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-11-11 16:49:29][MEM: 0.42MB]    centro_costo: planta
+[2025-11-11 16:49:29][MEM: 0.42MB]    id_equipo: 131
+[2025-11-11 16:49:29][MEM: 0.42MB]    estado_id: 10
+[2025-11-11 16:49:29][MEM: 0.42MB]    actividad_id: 44
+[2025-11-11 16:49:29][MEM: 0.42MB]    usuario_id: 21
+[2025-11-11 16:49:29][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-11-11 16:49:29][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-11 16:49:29][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-11 16:49:29][MEM: 0.42MB]    Tipo: string
+[2025-11-11 16:49:29][MEM: 0.42MB]    Longitud: 10
+[2025-11-11 16:49:29][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-11-11 16:49:29][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-11 16:49:29][MEM: 0.42MB]    Longitud: 10
+[2025-11-11 16:49:29][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-11-11 16:49:29][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-11 16:49:29][MEM: 0.42MB]    Longitud: 10
+[2025-11-11 16:49:29][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-11-11 16:49:29][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-11 16:49:29][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-11-11 16:49:29][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-11-11 16:49:29][MEM: 0.42MB]    autorizado_por: 17 (integer)
+[2025-11-11 16:49:29][MEM: 0.42MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-11-11 16:49:29][MEM: 0.42MB]    id_equipo: 131 (integer)
+[2025-11-11 16:49:29][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-11-11 16:49:29][MEM: 0.42MB]    actividad_id: 44 (integer)
+[2025-11-11 16:49:29][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-11-11 16:49:29][MEM: 0.46MB] ✅ Número calculado: 1145 (anterior: 1144)
+[2025-11-11 16:49:29][MEM: 0.46MB] 🔍 Buscando equipo ID: 131
+[2025-11-11 16:49:29][MEM: 0.46MB] ✅ Equipo encontrado:
+[2025-11-11 16:49:29][MEM: 0.46MB]    nombre_empresa: INFOAPP
+[2025-11-11 16:49:29][MEM: 0.46MB]    placa: 4321
+[2025-11-11 16:49:29][MEM: 0.46MB] 🔍 Validando funcionario ID: 17
+[2025-11-11 16:49:29][MEM: 0.46MB] ✅ Funcionario validado
+[2025-11-11 16:49:29][MEM: 0.46MB] 📅 Fecha formateada: 2025-11-11 11:48:42
+[2025-11-11 16:49:29][MEM: 0.46MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-11 16:49:29][MEM: 0.46MB] 🔧 Preparando statement...
+[2025-11-11 16:49:29][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-11-11 16:49:29][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-11 16:49:29][MEM: 0.44MB]    Parámetros a bindear:
+[2025-11-11 16:49:29][MEM: 0.44MB]    1. o_servicio (i): 1145
+[2025-11-11 16:49:29][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-11-11 11:48:42
+[2025-11-11 16:49:29][MEM: 0.44MB]    3. orden_cliente (s): 122471
+[2025-11-11 16:49:29][MEM: 0.44MB]    4. autorizado_por (i): 17
+[2025-11-11 16:49:29][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-11-11 16:49:29][MEM: 0.44MB]    6. centro_costo (s): planta
+[2025-11-11 16:49:29][MEM: 0.44MB]    7. id_equipo (i): 131
+[2025-11-11 16:49:29][MEM: 0.44MB]    8. nombre_empresa (s): INFOAPP
+[2025-11-11 16:49:29][MEM: 0.44MB]    9. placa (s): 4321
+[2025-11-11 16:49:29][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-11-11 16:49:29][MEM: 0.44MB]   11. actividad_id (i): 44
+[2025-11-11 16:49:29][MEM: 0.44MB]   12. usuario_creador (i): 21
+[2025-11-11 16:49:29][MEM: 0.44MB]   13. usuario_ultima_act (i): 21
+[2025-11-11 16:49:29][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-11-11 16:49:29][MEM: 0.44MB] ✅ Bind exitoso
+[2025-11-11 16:49:29][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-11-11 16:49:29][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-11 16:49:29][MEM: 0.44MB] 🆔 Servicio creado con ID: 161
+[2025-11-11 16:49:29][MEM: 0.44MB] 🔢 Número de servicio: 1145
+[2025-11-11 16:49:29][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-11 16:49:29][MEM: 0.45MB] ✅ FIX aplicado exitosamente
+[2025-11-11 16:49:29][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-11 16:49:29][MEM: 0.48MB]    📤 Valor que enviamos: 'correctivo'
+[2025-11-11 16:49:29][MEM: 0.48MB]    📥 Valor final en BD: 'correctivo'
+[2025-11-11 16:49:29][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-11-11 16:49:29][MEM: 0.48MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-11-11 16:49:29][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-11 16:49:29][MEM: 0.46MB] 📡 Intentando WebSocket...
+[2025-11-11 16:49:29][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-11-11 16:49:29][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-11-11 16:49:29][MEM: 0.46MB] 📤 Respuesta preparada (size: 365 bytes)
+[2025-11-11 16:49:29][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-11-11 17:38:25][MEM: 0.37MB] ========================================
+[2025-11-11 17:38:25][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-11 17:38:25][MEM: 0.37MB] ========================================
+[2025-11-11 17:38:25][MEM: 0.37MB] 🌐 IP: 167.0.221.145
+[2025-11-11 17:38:25][MEM: 0.37MB] 📨 Método: POST
+[2025-11-11 17:38:25][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-11 17:38:25][MEM: 0.38MB] ✅ auth_middleware cargado
+[2025-11-11 17:38:25][MEM: 0.38MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-11 17:38:25][MEM: 0.38MB] ✅ Acceso registrado
+[2025-11-11 17:38:25][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-11 17:38:25][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-11-11 17:38:25][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-11-11 17:38:25][MEM: 0.42MB] 📥 Raw input length: 194
+[2025-11-11 17:38:25][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-11-11T12:37:26.141","orden_cliente":"12618","autorizado_por":14,"tipo_mantenimiento":"correctivo","centro_costo":"taller","id_equipo":131,"estado_id":10,"actividad_id":44}
+[2025-11-11 17:38:25][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-11 17:38:25][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-11-11 17:38:25][MEM: 0.42MB]    fecha_ingreso: 2025-11-11T12:37:26.141
+[2025-11-11 17:38:25][MEM: 0.42MB]    orden_cliente: 12618
+[2025-11-11 17:38:25][MEM: 0.42MB]    autorizado_por: 14
+[2025-11-11 17:38:25][MEM: 0.42MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-11-11 17:38:25][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-11-11 17:38:25][MEM: 0.42MB]    centro_costo: taller
+[2025-11-11 17:38:25][MEM: 0.42MB]    id_equipo: 131
+[2025-11-11 17:38:25][MEM: 0.42MB]    estado_id: 10
+[2025-11-11 17:38:25][MEM: 0.42MB]    actividad_id: 44
+[2025-11-11 17:38:25][MEM: 0.42MB]    usuario_id: 21
+[2025-11-11 17:38:25][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-11-11 17:38:25][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-11 17:38:25][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-11 17:38:25][MEM: 0.42MB]    Tipo: string
+[2025-11-11 17:38:25][MEM: 0.42MB]    Longitud: 10
+[2025-11-11 17:38:25][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-11-11 17:38:25][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-11 17:38:25][MEM: 0.42MB]    Longitud: 10
+[2025-11-11 17:38:25][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-11-11 17:38:25][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-11 17:38:25][MEM: 0.42MB]    Longitud: 10
+[2025-11-11 17:38:25][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-11-11 17:38:25][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-11 17:38:25][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-11-11 17:38:25][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-11-11 17:38:25][MEM: 0.42MB]    autorizado_por: 14 (integer)
+[2025-11-11 17:38:25][MEM: 0.42MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-11-11 17:38:25][MEM: 0.42MB]    id_equipo: 131 (integer)
+[2025-11-11 17:38:25][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-11-11 17:38:25][MEM: 0.42MB]    actividad_id: 44 (integer)
+[2025-11-11 17:38:25][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-11-11 17:38:25][MEM: 0.46MB] ✅ Número calculado: 1146 (anterior: 1145)
+[2025-11-11 17:38:25][MEM: 0.46MB] 🔍 Buscando equipo ID: 131
+[2025-11-11 17:38:25][MEM: 0.46MB] ✅ Equipo encontrado:
+[2025-11-11 17:38:25][MEM: 0.46MB]    nombre_empresa: INFOAPP
+[2025-11-11 17:38:25][MEM: 0.46MB]    placa: 4321
+[2025-11-11 17:38:25][MEM: 0.46MB] 🔍 Validando funcionario ID: 14
+[2025-11-11 17:38:25][MEM: 0.46MB] ✅ Funcionario validado
+[2025-11-11 17:38:25][MEM: 0.46MB] 📅 Fecha formateada: 2025-11-11 12:37:26
+[2025-11-11 17:38:25][MEM: 0.46MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-11 17:38:25][MEM: 0.46MB] 🔧 Preparando statement...
+[2025-11-11 17:38:25][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-11-11 17:38:25][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-11 17:38:25][MEM: 0.44MB]    Parámetros a bindear:
+[2025-11-11 17:38:25][MEM: 0.44MB]    1. o_servicio (i): 1146
+[2025-11-11 17:38:25][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-11-11 12:37:26
+[2025-11-11 17:38:25][MEM: 0.44MB]    3. orden_cliente (s): 12618
+[2025-11-11 17:38:25][MEM: 0.44MB]    4. autorizado_por (i): 14
+[2025-11-11 17:38:25][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-11-11 17:38:25][MEM: 0.44MB]    6. centro_costo (s): taller
+[2025-11-11 17:38:25][MEM: 0.44MB]    7. id_equipo (i): 131
+[2025-11-11 17:38:25][MEM: 0.44MB]    8. nombre_empresa (s): INFOAPP
+[2025-11-11 17:38:25][MEM: 0.44MB]    9. placa (s): 4321
+[2025-11-11 17:38:25][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-11-11 17:38:25][MEM: 0.44MB]   11. actividad_id (i): 44
+[2025-11-11 17:38:25][MEM: 0.44MB]   12. usuario_creador (i): 21
+[2025-11-11 17:38:25][MEM: 0.44MB]   13. usuario_ultima_act (i): 21
+[2025-11-11 17:38:25][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-11-11 17:38:25][MEM: 0.44MB] ✅ Bind exitoso
+[2025-11-11 17:38:25][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-11-11 17:38:25][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-11 17:38:25][MEM: 0.44MB] 🆔 Servicio creado con ID: 162
+[2025-11-11 17:38:25][MEM: 0.44MB] 🔢 Número de servicio: 1146
+[2025-11-11 17:38:25][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-11 17:38:25][MEM: 0.45MB] ✅ FIX aplicado exitosamente
+[2025-11-11 17:38:25][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-11 17:38:25][MEM: 0.48MB]    📤 Valor que enviamos: 'correctivo'
+[2025-11-11 17:38:25][MEM: 0.48MB]    📥 Valor final en BD: 'correctivo'
+[2025-11-11 17:38:25][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-11-11 17:38:25][MEM: 0.48MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-11-11 17:38:25][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-11 17:38:25][MEM: 0.46MB] 📡 Intentando WebSocket...
+[2025-11-11 17:38:25][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-11-11 17:38:25][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-11-11 17:38:25][MEM: 0.46MB] 📤 Respuesta preparada (size: 364 bytes)
+[2025-11-11 17:38:25][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-11-11 18:02:41][MEM: 0.37MB] ========================================
+[2025-11-11 18:02:41][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-11 18:02:41][MEM: 0.37MB] ========================================
+[2025-11-11 18:02:41][MEM: 0.37MB] 🌐 IP: 167.0.221.145
+[2025-11-11 18:02:41][MEM: 0.37MB] 📨 Método: POST
+[2025-11-11 18:02:41][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-11 18:02:41][MEM: 0.38MB] ✅ auth_middleware cargado
+[2025-11-11 18:02:41][MEM: 0.38MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-11 18:02:41][MEM: 0.38MB] ✅ Acceso registrado
+[2025-11-11 18:02:41][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-11 18:02:41][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-11-11 18:02:41][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-11-11 18:02:41][MEM: 0.42MB] 📥 Raw input length: 185
+[2025-11-11 18:02:41][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-11-10T06:03:02.185","orden_cliente":"827281","autorizado_por":19,"tipo_mantenimiento":"preventivo","centro_costo":"producción","id_equipo":143,"actividad_id":51}
+[2025-11-11 18:02:41][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-11 18:02:41][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-11-11 18:02:41][MEM: 0.42MB]    fecha_ingreso: 2025-11-10T06:03:02.185
+[2025-11-11 18:02:41][MEM: 0.42MB]    orden_cliente: 827281
+[2025-11-11 18:02:41][MEM: 0.42MB]    autorizado_por: 19
+[2025-11-11 18:02:41][MEM: 0.42MB]    tipo_mantenimiento RAW: 'preventivo'
+[2025-11-11 18:02:41][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-11-11 18:02:41][MEM: 0.42MB]    centro_costo: producción
+[2025-11-11 18:02:41][MEM: 0.42MB]    id_equipo: 143
+[2025-11-11 18:02:41][MEM: 0.42MB]    estado_id: NULL
+[2025-11-11 18:02:41][MEM: 0.42MB]    actividad_id: 51
+[2025-11-11 18:02:41][MEM: 0.42MB]    usuario_id: 21
+[2025-11-11 18:02:41][MEM: 0.42MB] ❌ Faltan campos: estado_id
+[2025-11-11 18:02:41][MEM: 0.42MB] 🔴🔴🔴 EXCEPTION CAPTURADA 🔴🔴🔴
+[2025-11-11 18:02:41][MEM: 0.42MB] ❌ Mensaje: Campos faltantes: estado_id
+[2025-11-11 18:02:41][MEM: 0.42MB] 📁 Archivo: /home/u342171239/domains/novatechdevelopment.com/public_html/migracion-infoapp/API_Infoapp/servicio/crear_servicio.php
+[2025-11-11 18:02:41][MEM: 0.42MB] 📍 Línea: 107
+[2025-11-11 18:02:41][MEM: 0.42MB] 📚 Trace: #0 {main}
+[2025-11-11 18:02:41][MEM: 0.42MB] 📤 Enviando error response...
+[2025-11-11 20:16:14][MEM: 0.37MB] ========================================
+[2025-11-11 20:16:14][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-11 20:16:14][MEM: 0.37MB] ========================================
+[2025-11-11 20:16:14][MEM: 0.37MB] 🌐 IP: 167.0.221.145
+[2025-11-11 20:16:14][MEM: 0.37MB] 📨 Método: OPTIONS
+[2025-11-11 20:16:14][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-11 20:16:14][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-11-11 20:16:14][MEM: 0.35MB] ========================================
+[2025-11-11 20:16:14][MEM: 0.35MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-11 20:16:14][MEM: 0.35MB] ========================================
+[2025-11-11 20:16:14][MEM: 0.35MB] 🌐 IP: 167.0.221.145
+[2025-11-11 20:16:14][MEM: 0.35MB] 📨 Método: POST
+[2025-11-11 20:16:14][MEM: 0.35MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-11 20:16:14][MEM: 0.35MB] ✅ auth_middleware cargado
+[2025-11-11 20:16:14][MEM: 0.35MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-11 20:16:14][MEM: 0.35MB] ✅ Acceso registrado
+[2025-11-11 20:16:14][MEM: 0.35MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-11 20:16:14][MEM: 0.39MB] ✅ conexion.php cargado
+[2025-11-11 20:16:14][MEM: 0.4MB] ✅ WebSocketNotifier.php cargado
+[2025-11-11 20:16:14][MEM: 0.4MB] 📥 Raw input length: 193
+[2025-11-11 20:16:14][MEM: 0.4MB] 📥 Raw input: {"fecha_ingreso":"2025-11-11T15:15:43.125","orden_cliente":"2133","autorizado_por":19,"tipo_mantenimiento":"correctivo","centro_costo":"taller","id_equipo":144,"estado_id":10,"actividad_id":46}
+[2025-11-11 20:16:14][MEM: 0.4MB] ✅ JSON decodificado correctamente
+[2025-11-11 20:16:14][MEM: 0.4MB] 📋 Variables extraídas:
+[2025-11-11 20:16:14][MEM: 0.4MB]    fecha_ingreso: 2025-11-11T15:15:43.125
+[2025-11-11 20:16:14][MEM: 0.4MB]    orden_cliente: 2133
+[2025-11-11 20:16:14][MEM: 0.4MB]    autorizado_por: 19
+[2025-11-11 20:16:14][MEM: 0.4MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-11-11 20:16:14][MEM: 0.4MB]    tipo_mantenimiento tipo: string
+[2025-11-11 20:16:14][MEM: 0.4MB]    centro_costo: taller
+[2025-11-11 20:16:14][MEM: 0.4MB]    id_equipo: 144
+[2025-11-11 20:16:14][MEM: 0.4MB]    estado_id: 10
+[2025-11-11 20:16:14][MEM: 0.4MB]    actividad_id: 46
+[2025-11-11 20:16:14][MEM: 0.4MB]    usuario_id: 21
+[2025-11-11 20:16:14][MEM: 0.4MB] ✅ Validación de campos requeridos OK
+[2025-11-11 20:16:14][MEM: 0.4MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-11 20:16:14][MEM: 0.4MB]    Valor: 'correctivo'
+[2025-11-11 20:16:14][MEM: 0.4MB]    Tipo: string
+[2025-11-11 20:16:14][MEM: 0.4MB]    Longitud: 10
+[2025-11-11 20:16:14][MEM: 0.4MB] 🔍 DESPUÉS de trim():
+[2025-11-11 20:16:14][MEM: 0.4MB]    Valor: 'correctivo'
+[2025-11-11 20:16:14][MEM: 0.4MB]    Longitud: 10
+[2025-11-11 20:16:14][MEM: 0.4MB] 🔍 DESPUÉS de strtolower():
+[2025-11-11 20:16:14][MEM: 0.4MB]    Valor: 'correctivo'
+[2025-11-11 20:16:14][MEM: 0.4MB]    Longitud: 10
+[2025-11-11 20:16:14][MEM: 0.4MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-11-11 20:16:14][MEM: 0.4MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-11 20:16:14][MEM: 0.4MB] 🔢 Tipos forzados:
+[2025-11-11 20:16:14][MEM: 0.4MB]    o_servicio: 0 (integer)
+[2025-11-11 20:16:14][MEM: 0.4MB]    autorizado_por: 19 (integer)
+[2025-11-11 20:16:14][MEM: 0.4MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-11-11 20:16:14][MEM: 0.4MB]    id_equipo: 144 (integer)
+[2025-11-11 20:16:14][MEM: 0.4MB]    estado_id: 10 (integer)
+[2025-11-11 20:16:14][MEM: 0.4MB]    actividad_id: 46 (integer)
+[2025-11-11 20:16:14][MEM: 0.4MB] 🔢 Calculando número de servicio automático...
+[2025-11-11 20:16:14][MEM: 0.43MB] ✅ Número calculado: 1147 (anterior: 1146)
+[2025-11-11 20:16:14][MEM: 0.43MB] 🔍 Buscando equipo ID: 144
+[2025-11-11 20:16:14][MEM: 0.43MB] ✅ Equipo encontrado:
+[2025-11-11 20:16:14][MEM: 0.43MB]    nombre_empresa: Argos
+[2025-11-11 20:16:14][MEM: 0.43MB]    placa: xx
+[2025-11-11 20:16:14][MEM: 0.43MB] 🔍 Validando funcionario ID: 19
+[2025-11-11 20:16:14][MEM: 0.43MB] ✅ Funcionario validado
+[2025-11-11 20:16:14][MEM: 0.43MB] 📅 Fecha formateada: 2025-11-11 15:15:43
+[2025-11-11 20:16:14][MEM: 0.43MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-11 20:16:14][MEM: 0.43MB] 🔧 Preparando statement...
+[2025-11-11 20:16:14][MEM: 0.42MB] ✅ Statement preparado correctamente
+[2025-11-11 20:16:14][MEM: 0.42MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-11 20:16:14][MEM: 0.42MB]    Parámetros a bindear:
+[2025-11-11 20:16:14][MEM: 0.42MB]    1. o_servicio (i): 1147
+[2025-11-11 20:16:14][MEM: 0.42MB]    2. fecha_ingreso (s): 2025-11-11 15:15:43
+[2025-11-11 20:16:14][MEM: 0.42MB]    3. orden_cliente (s): 2133
+[2025-11-11 20:16:14][MEM: 0.42MB]    4. autorizado_por (i): 19
+[2025-11-11 20:16:14][MEM: 0.42MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-11-11 20:16:14][MEM: 0.42MB]    6. centro_costo (s): taller
+[2025-11-11 20:16:14][MEM: 0.42MB]    7. id_equipo (i): 144
+[2025-11-11 20:16:14][MEM: 0.42MB]    8. nombre_empresa (s): Argos
+[2025-11-11 20:16:14][MEM: 0.42MB]    9. placa (s): xx
+[2025-11-11 20:16:14][MEM: 0.42MB]   10. estado_id (i): 10
+[2025-11-11 20:16:14][MEM: 0.42MB]   11. actividad_id (i): 46
+[2025-11-11 20:16:14][MEM: 0.42MB]   12. usuario_creador (i): 21
+[2025-11-11 20:16:14][MEM: 0.42MB]   13. usuario_ultima_act (i): 21
+[2025-11-11 20:16:14][MEM: 0.42MB] 🔗 bind_param resultado: TRUE
+[2025-11-11 20:16:14][MEM: 0.42MB] ✅ Bind exitoso
+[2025-11-11 20:16:14][MEM: 0.42MB] ▶️ Ejecutando INSERT...
+[2025-11-11 20:16:14][MEM: 0.42MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-11 20:16:14][MEM: 0.42MB] 🆔 Servicio creado con ID: 163
+[2025-11-11 20:16:14][MEM: 0.42MB] 🔢 Número de servicio: 1147
+[2025-11-11 20:16:14][MEM: 0.42MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-11 20:16:14][MEM: 0.42MB] ✅ FIX aplicado exitosamente
+[2025-11-11 20:16:14][MEM: 0.42MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-11 20:16:14][MEM: 0.46MB]    📤 Valor que enviamos: 'correctivo'
+[2025-11-11 20:16:14][MEM: 0.46MB]    📥 Valor final en BD: 'correctivo'
+[2025-11-11 20:16:14][MEM: 0.46MB]    📏 Longitud final: 10
+[2025-11-11 20:16:14][MEM: 0.46MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-11-11 20:16:14][MEM: 0.46MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-11 20:16:14][MEM: 0.44MB] 📡 Intentando WebSocket...
+[2025-11-11 20:16:14][MEM: 0.44MB] ✅ WebSocket notificado
+[2025-11-11 20:16:14][MEM: 0.44MB] 📤 Preparando respuesta JSON...
+[2025-11-11 20:16:14][MEM: 0.44MB] 📤 Respuesta preparada (size: 363 bytes)
+[2025-11-11 20:16:14][MEM: 0.44MB] 📤 Enviando respuesta JSON...
+[2025-11-17 14:02:03][MEM: 0.37MB] ========================================
+[2025-11-17 14:02:03][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-17 14:02:03][MEM: 0.37MB] ========================================
+[2025-11-17 14:02:03][MEM: 0.37MB] 🌐 IP: 181.235.94.136
+[2025-11-17 14:02:03][MEM: 0.38MB] 📨 Método: POST
+[2025-11-17 14:02:03][MEM: 0.38MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-17 14:02:03][MEM: 0.38MB] ✅ auth_middleware cargado
+[2025-11-17 14:02:03][MEM: 0.38MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-17 14:02:03][MEM: 0.38MB] ✅ Acceso registrado
+[2025-11-17 14:02:03][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-17 14:02:03][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-11-17 14:02:03][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-11-17 14:02:03][MEM: 0.42MB] 📥 Raw input length: 195
+[2025-11-17 14:02:03][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-11-17T08:57:11.723","orden_cliente":"123456","autorizado_por":15,"tipo_mantenimiento":"correctivo","centro_costo":"taller","id_equipo":145,"estado_id":10,"actividad_id":53}
+[2025-11-17 14:02:03][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-17 14:02:03][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-11-17 14:02:03][MEM: 0.42MB]    fecha_ingreso: 2025-11-17T08:57:11.723
+[2025-11-17 14:02:03][MEM: 0.42MB]    orden_cliente: 123456
+[2025-11-17 14:02:03][MEM: 0.42MB]    autorizado_por: 15
+[2025-11-17 14:02:03][MEM: 0.42MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-11-17 14:02:03][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-11-17 14:02:03][MEM: 0.42MB]    centro_costo: taller
+[2025-11-17 14:02:03][MEM: 0.42MB]    id_equipo: 145
+[2025-11-17 14:02:03][MEM: 0.42MB]    estado_id: 10
+[2025-11-17 14:02:03][MEM: 0.42MB]    actividad_id: 53
+[2025-11-17 14:02:03][MEM: 0.42MB]    usuario_id: 21
+[2025-11-17 14:02:03][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-11-17 14:02:03][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-17 14:02:03][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-17 14:02:03][MEM: 0.42MB]    Tipo: string
+[2025-11-17 14:02:03][MEM: 0.42MB]    Longitud: 10
+[2025-11-17 14:02:03][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-11-17 14:02:03][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-17 14:02:03][MEM: 0.42MB]    Longitud: 10
+[2025-11-17 14:02:03][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-11-17 14:02:03][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-17 14:02:03][MEM: 0.42MB]    Longitud: 10
+[2025-11-17 14:02:03][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-11-17 14:02:03][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-17 14:02:03][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-11-17 14:02:03][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-11-17 14:02:03][MEM: 0.42MB]    autorizado_por: 15 (integer)
+[2025-11-17 14:02:03][MEM: 0.42MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-11-17 14:02:03][MEM: 0.42MB]    id_equipo: 145 (integer)
+[2025-11-17 14:02:03][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-11-17 14:02:03][MEM: 0.42MB]    actividad_id: 53 (integer)
+[2025-11-17 14:02:03][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-11-17 14:02:03][MEM: 0.46MB] ✅ Número calculado: 1148 (anterior: 1147)
+[2025-11-17 14:02:03][MEM: 0.46MB] 🔍 Buscando equipo ID: 145
+[2025-11-17 14:02:03][MEM: 0.46MB] ✅ Equipo encontrado:
+[2025-11-17 14:02:03][MEM: 0.46MB]    nombre_empresa: SOCIEDAD PORTUARIA
+[2025-11-17 14:02:03][MEM: 0.46MB]    placa: TVA-001
+[2025-11-17 14:02:03][MEM: 0.46MB] 🔍 Validando funcionario ID: 15
+[2025-11-17 14:02:03][MEM: 0.46MB] ✅ Funcionario validado
+[2025-11-17 14:02:03][MEM: 0.46MB] 📅 Fecha formateada: 2025-11-17 08:57:11
+[2025-11-17 14:02:03][MEM: 0.46MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-17 14:02:03][MEM: 0.46MB] 🔧 Preparando statement...
+[2025-11-17 14:02:03][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-11-17 14:02:03][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-17 14:02:03][MEM: 0.44MB]    Parámetros a bindear:
+[2025-11-17 14:02:03][MEM: 0.44MB]    1. o_servicio (i): 1148
+[2025-11-17 14:02:03][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-11-17 08:57:11
+[2025-11-17 14:02:03][MEM: 0.44MB]    3. orden_cliente (s): 123456
+[2025-11-17 14:02:03][MEM: 0.44MB]    4. autorizado_por (i): 15
+[2025-11-17 14:02:03][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-11-17 14:02:03][MEM: 0.44MB]    6. centro_costo (s): taller
+[2025-11-17 14:02:03][MEM: 0.44MB]    7. id_equipo (i): 145
+[2025-11-17 14:02:03][MEM: 0.44MB]    8. nombre_empresa (s): SOCIEDAD PORTUARIA
+[2025-11-17 14:02:03][MEM: 0.44MB]    9. placa (s): TVA-001
+[2025-11-17 14:02:03][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-11-17 14:02:03][MEM: 0.44MB]   11. actividad_id (i): 53
+[2025-11-17 14:02:03][MEM: 0.44MB]   12. usuario_creador (i): 21
+[2025-11-17 14:02:03][MEM: 0.44MB]   13. usuario_ultima_act (i): 21
+[2025-11-17 14:02:03][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-11-17 14:02:03][MEM: 0.44MB] ✅ Bind exitoso
+[2025-11-17 14:02:03][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-11-17 14:02:03][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-17 14:02:03][MEM: 0.44MB] 🆔 Servicio creado con ID: 164
+[2025-11-17 14:02:03][MEM: 0.44MB] 🔢 Número de servicio: 1148
+[2025-11-17 14:02:03][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-17 14:02:03][MEM: 0.45MB] ✅ FIX aplicado exitosamente
+[2025-11-17 14:02:03][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-17 14:02:03][MEM: 0.48MB]    📤 Valor que enviamos: 'correctivo'
+[2025-11-17 14:02:03][MEM: 0.48MB]    📥 Valor final en BD: 'correctivo'
+[2025-11-17 14:02:03][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-11-17 14:02:03][MEM: 0.48MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-11-17 14:02:03][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-17 14:02:03][MEM: 0.46MB] 📡 Intentando WebSocket...
+[2025-11-17 14:02:03][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-11-17 14:02:03][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-11-17 14:02:03][MEM: 0.46MB] 📤 Respuesta preparada (size: 365 bytes)
+[2025-11-17 14:02:03][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-11-19 00:04:13][MEM: 0.37MB] ========================================
+[2025-11-19 00:04:13][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-19 00:04:13][MEM: 0.37MB] ========================================
+[2025-11-19 00:04:13][MEM: 0.37MB] 🌐 IP: 167.0.252.80
+[2025-11-19 00:04:13][MEM: 0.37MB] 📨 Método: POST
+[2025-11-19 00:04:13][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-19 00:04:13][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-11-19 00:04:13][MEM: 0.37MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-19 00:04:13][MEM: 0.37MB] ✅ Acceso registrado
+[2025-11-19 00:04:13][MEM: 0.37MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-19 00:04:13][MEM: 0.41MB] ✅ conexion.php cargado
+[2025-11-19 00:04:13][MEM: 0.41MB] ✅ WebSocketNotifier.php cargado
+[2025-11-19 00:04:13][MEM: 0.41MB] 📥 Raw input length: 196
+[2025-11-19 00:04:13][MEM: 0.41MB] 📥 Raw input: {"fecha_ingreso":"2025-11-18T19:03:37.691901","orden_cliente":"1233","autorizado_por":15,"tipo_mantenimiento":"correctivo","centro_costo":"taller","id_equipo":145,"estado_id":10,"actividad_id":44}
+[2025-11-19 00:04:13][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-19 00:04:13][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-11-19 00:04:13][MEM: 0.42MB]    fecha_ingreso: 2025-11-18T19:03:37.691901
+[2025-11-19 00:04:13][MEM: 0.42MB]    orden_cliente: 1233
+[2025-11-19 00:04:13][MEM: 0.42MB]    autorizado_por: 15
+[2025-11-19 00:04:13][MEM: 0.42MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-11-19 00:04:13][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-11-19 00:04:13][MEM: 0.42MB]    centro_costo: taller
+[2025-11-19 00:04:13][MEM: 0.42MB]    id_equipo: 145
+[2025-11-19 00:04:13][MEM: 0.42MB]    estado_id: 10
+[2025-11-19 00:04:13][MEM: 0.42MB]    actividad_id: 44
+[2025-11-19 00:04:13][MEM: 0.42MB]    usuario_id: 21
+[2025-11-19 00:04:13][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-11-19 00:04:13][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-19 00:04:13][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-19 00:04:13][MEM: 0.42MB]    Tipo: string
+[2025-11-19 00:04:13][MEM: 0.42MB]    Longitud: 10
+[2025-11-19 00:04:13][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-11-19 00:04:13][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-19 00:04:13][MEM: 0.42MB]    Longitud: 10
+[2025-11-19 00:04:13][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-11-19 00:04:13][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-19 00:04:13][MEM: 0.42MB]    Longitud: 10
+[2025-11-19 00:04:13][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-11-19 00:04:13][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-19 00:04:13][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-11-19 00:04:13][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-11-19 00:04:13][MEM: 0.42MB]    autorizado_por: 15 (integer)
+[2025-11-19 00:04:13][MEM: 0.42MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-11-19 00:04:13][MEM: 0.42MB]    id_equipo: 145 (integer)
+[2025-11-19 00:04:13][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-11-19 00:04:13][MEM: 0.42MB]    actividad_id: 44 (integer)
+[2025-11-19 00:04:13][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-11-19 00:04:13][MEM: 0.45MB] ✅ Número calculado: 1149 (anterior: 1148)
+[2025-11-19 00:04:13][MEM: 0.45MB] 🔍 Buscando equipo ID: 145
+[2025-11-19 00:04:13][MEM: 0.45MB] ✅ Equipo encontrado:
+[2025-11-19 00:04:13][MEM: 0.45MB]    nombre_empresa: SOCIEDAD PORTUARIA
+[2025-11-19 00:04:13][MEM: 0.45MB]    placa: TVA-001
+[2025-11-19 00:04:13][MEM: 0.45MB] 🔍 Validando funcionario ID: 15
+[2025-11-19 00:04:13][MEM: 0.45MB] ✅ Funcionario validado
+[2025-11-19 00:04:13][MEM: 0.45MB] 📅 Fecha formateada: 2025-11-18 19:03:37
+[2025-11-19 00:04:13][MEM: 0.45MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-19 00:04:13][MEM: 0.45MB] 🔧 Preparando statement...
+[2025-11-19 00:04:13][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-11-19 00:04:13][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-19 00:04:13][MEM: 0.44MB]    Parámetros a bindear:
+[2025-11-19 00:04:13][MEM: 0.44MB]    1. o_servicio (i): 1149
+[2025-11-19 00:04:13][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-11-18 19:03:37
+[2025-11-19 00:04:13][MEM: 0.44MB]    3. orden_cliente (s): 1233
+[2025-11-19 00:04:13][MEM: 0.44MB]    4. autorizado_por (i): 15
+[2025-11-19 00:04:13][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-11-19 00:04:13][MEM: 0.44MB]    6. centro_costo (s): taller
+[2025-11-19 00:04:13][MEM: 0.44MB]    7. id_equipo (i): 145
+[2025-11-19 00:04:13][MEM: 0.44MB]    8. nombre_empresa (s): SOCIEDAD PORTUARIA
+[2025-11-19 00:04:13][MEM: 0.44MB]    9. placa (s): TVA-001
+[2025-11-19 00:04:13][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-11-19 00:04:13][MEM: 0.44MB]   11. actividad_id (i): 44
+[2025-11-19 00:04:13][MEM: 0.44MB]   12. usuario_creador (i): 21
+[2025-11-19 00:04:13][MEM: 0.44MB]   13. usuario_ultima_act (i): 21
+[2025-11-19 00:04:13][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-11-19 00:04:13][MEM: 0.44MB] ✅ Bind exitoso
+[2025-11-19 00:04:13][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-11-19 00:04:13][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-19 00:04:13][MEM: 0.44MB] 🆔 Servicio creado con ID: 165
+[2025-11-19 00:04:13][MEM: 0.44MB] 🔢 Número de servicio: 1149
+[2025-11-19 00:04:13][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-19 00:04:13][MEM: 0.44MB] ✅ FIX aplicado exitosamente
+[2025-11-19 00:04:13][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-19 00:04:13][MEM: 0.48MB]    📤 Valor que enviamos: 'correctivo'
+[2025-11-19 00:04:13][MEM: 0.48MB]    📥 Valor final en BD: 'correctivo'
+[2025-11-19 00:04:13][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-11-19 00:04:13][MEM: 0.48MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-11-19 00:04:13][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-19 00:04:13][MEM: 0.45MB] 📡 Intentando WebSocket...
+[2025-11-19 00:04:13][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-11-19 00:04:13][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-11-19 00:04:13][MEM: 0.46MB] 📤 Respuesta preparada (size: 363 bytes)
+[2025-11-19 00:04:13][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-11-20 15:17:22][MEM: 0.37MB] ========================================
+[2025-11-20 15:17:22][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-20 15:17:22][MEM: 0.37MB] ========================================
+[2025-11-20 15:17:22][MEM: 0.37MB] 🌐 IP: 179.19.208.32
+[2025-11-20 15:17:22][MEM: 0.37MB] 📨 Método: POST
+[2025-11-20 15:17:22][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-20 15:17:22][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-11-20 15:17:22][MEM: 0.37MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-20 15:17:22][MEM: 0.37MB] ✅ Acceso registrado
+[2025-11-20 15:17:22][MEM: 0.37MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-20 15:17:22][MEM: 0.41MB] ✅ conexion.php cargado
+[2025-11-20 15:17:22][MEM: 0.41MB] ✅ WebSocketNotifier.php cargado
+[2025-11-20 15:17:22][MEM: 0.41MB] 📥 Raw input length: 194
+[2025-11-20 15:17:22][MEM: 0.41MB] 📥 Raw input: {"fecha_ingreso":"2025-11-19T00:00:00.000","orden_cliente":"137382","autorizado_por":14,"tipo_mantenimiento":"preventivo","centro_costo":"planta","id_equipo":146,"estado_id":10,"actividad_id":9}
+[2025-11-20 15:17:22][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-20 15:17:22][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-11-20 15:17:22][MEM: 0.42MB]    fecha_ingreso: 2025-11-19T00:00:00.000
+[2025-11-20 15:17:22][MEM: 0.42MB]    orden_cliente: 137382
+[2025-11-20 15:17:22][MEM: 0.42MB]    autorizado_por: 14
+[2025-11-20 15:17:22][MEM: 0.42MB]    tipo_mantenimiento RAW: 'preventivo'
+[2025-11-20 15:17:22][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-11-20 15:17:22][MEM: 0.42MB]    centro_costo: planta
+[2025-11-20 15:17:22][MEM: 0.42MB]    id_equipo: 146
+[2025-11-20 15:17:22][MEM: 0.42MB]    estado_id: 10
+[2025-11-20 15:17:22][MEM: 0.42MB]    actividad_id: 9
+[2025-11-20 15:17:22][MEM: 0.42MB]    usuario_id: 21
+[2025-11-20 15:17:22][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-11-20 15:17:22][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-20 15:17:22][MEM: 0.42MB]    Valor: 'preventivo'
+[2025-11-20 15:17:22][MEM: 0.42MB]    Tipo: string
+[2025-11-20 15:17:22][MEM: 0.42MB]    Longitud: 10
+[2025-11-20 15:17:22][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-11-20 15:17:22][MEM: 0.42MB]    Valor: 'preventivo'
+[2025-11-20 15:17:22][MEM: 0.42MB]    Longitud: 10
+[2025-11-20 15:17:22][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-11-20 15:17:22][MEM: 0.42MB]    Valor: 'preventivo'
+[2025-11-20 15:17:22][MEM: 0.42MB]    Longitud: 10
+[2025-11-20 15:17:22][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'preventivo'
+[2025-11-20 15:17:22][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-20 15:17:22][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-11-20 15:17:22][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-11-20 15:17:22][MEM: 0.42MB]    autorizado_por: 14 (integer)
+[2025-11-20 15:17:22][MEM: 0.42MB]    tipo_mantenimiento: 'preventivo' (string)
+[2025-11-20 15:17:22][MEM: 0.42MB]    id_equipo: 146 (integer)
+[2025-11-20 15:17:22][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-11-20 15:17:22][MEM: 0.42MB]    actividad_id: 9 (integer)
+[2025-11-20 15:17:22][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-11-20 15:17:22][MEM: 0.45MB] ✅ Número calculado: 1150 (anterior: 1149)
+[2025-11-20 15:17:22][MEM: 0.45MB] 🔍 Buscando equipo ID: 146
+[2025-11-20 15:17:22][MEM: 0.45MB] ✅ Equipo encontrado:
+[2025-11-20 15:17:22][MEM: 0.45MB]    nombre_empresa: cemex
+[2025-11-20 15:17:22][MEM: 0.45MB]    placa: XXX-000
+[2025-11-20 15:17:22][MEM: 0.45MB] 🔍 Validando funcionario ID: 14
+[2025-11-20 15:17:22][MEM: 0.45MB] ✅ Funcionario validado
+[2025-11-20 15:17:22][MEM: 0.45MB] 📅 Fecha formateada: 2025-11-19 00:00:00
+[2025-11-20 15:17:22][MEM: 0.45MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-20 15:17:22][MEM: 0.45MB] 🔧 Preparando statement...
+[2025-11-20 15:17:22][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-11-20 15:17:22][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-20 15:17:22][MEM: 0.44MB]    Parámetros a bindear:
+[2025-11-20 15:17:22][MEM: 0.44MB]    1. o_servicio (i): 1150
+[2025-11-20 15:17:22][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-11-19 00:00:00
+[2025-11-20 15:17:22][MEM: 0.44MB]    3. orden_cliente (s): 137382
+[2025-11-20 15:17:22][MEM: 0.44MB]    4. autorizado_por (i): 14
+[2025-11-20 15:17:22][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'preventivo' [CRÍTICO]
+[2025-11-20 15:17:22][MEM: 0.44MB]    6. centro_costo (s): planta
+[2025-11-20 15:17:22][MEM: 0.44MB]    7. id_equipo (i): 146
+[2025-11-20 15:17:22][MEM: 0.44MB]    8. nombre_empresa (s): cemex
+[2025-11-20 15:17:22][MEM: 0.44MB]    9. placa (s): XXX-000
+[2025-11-20 15:17:22][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-11-20 15:17:22][MEM: 0.44MB]   11. actividad_id (i): 9
+[2025-11-20 15:17:22][MEM: 0.44MB]   12. usuario_creador (i): 21
+[2025-11-20 15:17:22][MEM: 0.44MB]   13. usuario_ultima_act (i): 21
+[2025-11-20 15:17:22][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-11-20 15:17:22][MEM: 0.44MB] ✅ Bind exitoso
+[2025-11-20 15:17:22][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-11-20 15:17:22][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-20 15:17:22][MEM: 0.44MB] 🆔 Servicio creado con ID: 166
+[2025-11-20 15:17:22][MEM: 0.44MB] 🔢 Número de servicio: 1150
+[2025-11-20 15:17:22][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-20 15:17:22][MEM: 0.44MB] ✅ FIX aplicado exitosamente
+[2025-11-20 15:17:22][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-20 15:17:22][MEM: 0.48MB]    📤 Valor que enviamos: 'preventivo'
+[2025-11-20 15:17:22][MEM: 0.48MB]    📥 Valor final en BD: 'preventivo'
+[2025-11-20 15:17:22][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-11-20 15:17:22][MEM: 0.48MB]    🔢 Valor HEX final: 70726576656E7469766F
+[2025-11-20 15:17:22][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-20 15:17:22][MEM: 0.45MB] 📡 Intentando WebSocket...
+[2025-11-20 15:17:22][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-11-20 15:17:22][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-11-20 15:17:22][MEM: 0.46MB] 📤 Respuesta preparada (size: 364 bytes)
+[2025-11-20 15:17:22][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-11-20 19:28:31][MEM: 0.37MB] ========================================
+[2025-11-20 19:28:31][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-20 19:28:31][MEM: 0.37MB] ========================================
+[2025-11-20 19:28:31][MEM: 0.37MB] 🌐 IP: 167.0.209.94
+[2025-11-20 19:28:31][MEM: 0.37MB] 📨 Método: POST
+[2025-11-20 19:28:31][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-20 19:28:31][MEM: 0.37MB] ✅ auth_middleware cargado
+[2025-11-20 19:28:31][MEM: 0.37MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-20 19:28:31][MEM: 0.37MB] ✅ Acceso registrado
+[2025-11-20 19:28:31][MEM: 0.37MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-20 19:28:31][MEM: 0.41MB] ✅ conexion.php cargado
+[2025-11-20 19:28:31][MEM: 0.41MB] ✅ WebSocketNotifier.php cargado
+[2025-11-20 19:28:31][MEM: 0.41MB] 📥 Raw input length: 197
+[2025-11-20 19:28:31][MEM: 0.41MB] 📥 Raw input: {"fecha_ingreso":"2025-11-20T14:28:00.180321","orden_cliente":"837372","autorizado_por":4,"tipo_mantenimiento":"correctivo","centro_costo":"taller","id_equipo":143,"estado_id":10,"actividad_id":51}
+[2025-11-20 19:28:31][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-20 19:28:31][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-11-20 19:28:31][MEM: 0.42MB]    fecha_ingreso: 2025-11-20T14:28:00.180321
+[2025-11-20 19:28:31][MEM: 0.42MB]    orden_cliente: 837372
+[2025-11-20 19:28:31][MEM: 0.42MB]    autorizado_por: 4
+[2025-11-20 19:28:31][MEM: 0.42MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-11-20 19:28:31][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-11-20 19:28:31][MEM: 0.42MB]    centro_costo: taller
+[2025-11-20 19:28:31][MEM: 0.42MB]    id_equipo: 143
+[2025-11-20 19:28:31][MEM: 0.42MB]    estado_id: 10
+[2025-11-20 19:28:31][MEM: 0.42MB]    actividad_id: 51
+[2025-11-20 19:28:31][MEM: 0.42MB]    usuario_id: 21
+[2025-11-20 19:28:31][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-11-20 19:28:31][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-20 19:28:31][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-20 19:28:31][MEM: 0.42MB]    Tipo: string
+[2025-11-20 19:28:31][MEM: 0.42MB]    Longitud: 10
+[2025-11-20 19:28:31][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-11-20 19:28:31][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-20 19:28:31][MEM: 0.42MB]    Longitud: 10
+[2025-11-20 19:28:31][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-11-20 19:28:31][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-20 19:28:31][MEM: 0.42MB]    Longitud: 10
+[2025-11-20 19:28:31][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-11-20 19:28:31][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-20 19:28:31][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-11-20 19:28:31][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-11-20 19:28:31][MEM: 0.42MB]    autorizado_por: 4 (integer)
+[2025-11-20 19:28:31][MEM: 0.42MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-11-20 19:28:31][MEM: 0.42MB]    id_equipo: 143 (integer)
+[2025-11-20 19:28:31][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-11-20 19:28:31][MEM: 0.42MB]    actividad_id: 51 (integer)
+[2025-11-20 19:28:31][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-11-20 19:28:31][MEM: 0.45MB] ✅ Número calculado: 1151 (anterior: 1150)
+[2025-11-20 19:28:31][MEM: 0.45MB] 🔍 Buscando equipo ID: 143
+[2025-11-20 19:28:31][MEM: 0.45MB] ✅ Equipo encontrado:
+[2025-11-20 19:28:31][MEM: 0.45MB]    nombre_empresa: infoapp
+[2025-11-20 19:28:31][MEM: 0.45MB]    placa: 123456789
+[2025-11-20 19:28:31][MEM: 0.45MB] 🔍 Validando funcionario ID: 4
+[2025-11-20 19:28:31][MEM: 0.45MB] ✅ Funcionario validado
+[2025-11-20 19:28:31][MEM: 0.45MB] 📅 Fecha formateada: 2025-11-20 14:28:00
+[2025-11-20 19:28:31][MEM: 0.45MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-20 19:28:31][MEM: 0.45MB] 🔧 Preparando statement...
+[2025-11-20 19:28:31][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-11-20 19:28:31][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-20 19:28:31][MEM: 0.44MB]    Parámetros a bindear:
+[2025-11-20 19:28:31][MEM: 0.44MB]    1. o_servicio (i): 1151
+[2025-11-20 19:28:31][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-11-20 14:28:00
+[2025-11-20 19:28:31][MEM: 0.44MB]    3. orden_cliente (s): 837372
+[2025-11-20 19:28:31][MEM: 0.44MB]    4. autorizado_por (i): 4
+[2025-11-20 19:28:31][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-11-20 19:28:31][MEM: 0.44MB]    6. centro_costo (s): taller
+[2025-11-20 19:28:31][MEM: 0.44MB]    7. id_equipo (i): 143
+[2025-11-20 19:28:31][MEM: 0.44MB]    8. nombre_empresa (s): infoapp
+[2025-11-20 19:28:31][MEM: 0.44MB]    9. placa (s): 123456789
+[2025-11-20 19:28:31][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-11-20 19:28:31][MEM: 0.44MB]   11. actividad_id (i): 51
+[2025-11-20 19:28:31][MEM: 0.44MB]   12. usuario_creador (i): 21
+[2025-11-20 19:28:31][MEM: 0.44MB]   13. usuario_ultima_act (i): 21
+[2025-11-20 19:28:31][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-11-20 19:28:31][MEM: 0.44MB] ✅ Bind exitoso
+[2025-11-20 19:28:31][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-11-20 19:28:31][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-20 19:28:31][MEM: 0.44MB] 🆔 Servicio creado con ID: 167
+[2025-11-20 19:28:31][MEM: 0.44MB] 🔢 Número de servicio: 1151
+[2025-11-20 19:28:31][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-20 19:28:31][MEM: 0.44MB] ✅ FIX aplicado exitosamente
+[2025-11-20 19:28:31][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-20 19:28:31][MEM: 0.48MB]    📤 Valor que enviamos: 'correctivo'
+[2025-11-20 19:28:31][MEM: 0.48MB]    📥 Valor final en BD: 'correctivo'
+[2025-11-20 19:28:31][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-11-20 19:28:31][MEM: 0.48MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-11-20 19:28:31][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-20 19:28:31][MEM: 0.45MB] 📡 Intentando WebSocket...
+[2025-11-20 19:28:31][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-11-20 19:28:31][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-11-20 19:28:31][MEM: 0.46MB] 📤 Respuesta preparada (size: 364 bytes)
+[2025-11-20 19:28:31][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-11-24 03:46:49][MEM: 0.38MB] ========================================
+[2025-11-24 03:46:49][MEM: 0.38MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-24 03:46:49][MEM: 0.38MB] ========================================
+[2025-11-24 03:46:49][MEM: 0.38MB] 🌐 IP: 181.236.112.66
+[2025-11-24 03:46:49][MEM: 0.38MB] 📨 Método: POST
+[2025-11-24 03:46:49][MEM: 0.38MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-24 03:46:49][MEM: 0.38MB] ✅ auth_middleware cargado
+[2025-11-24 03:46:49][MEM: 0.38MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-24 03:46:49][MEM: 0.38MB] ✅ Acceso registrado
+[2025-11-24 03:46:49][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-24 03:46:49][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-11-24 03:46:49][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-11-24 03:46:49][MEM: 0.42MB] 📥 Raw input length: 197
+[2025-11-24 03:46:49][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-11-23T22:45:24.864","orden_cliente":"535435356","autorizado_por":14,"tipo_mantenimiento":"correctivo","centro_costo":"taller","id_equipo":147,"estado_id":10,"actividad_id":3}
+[2025-11-24 03:46:49][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-24 03:46:49][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-11-24 03:46:49][MEM: 0.42MB]    fecha_ingreso: 2025-11-23T22:45:24.864
+[2025-11-24 03:46:49][MEM: 0.42MB]    orden_cliente: 535435356
+[2025-11-24 03:46:49][MEM: 0.42MB]    autorizado_por: 14
+[2025-11-24 03:46:49][MEM: 0.42MB]    tipo_mantenimiento RAW: 'correctivo'
+[2025-11-24 03:46:49][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-11-24 03:46:49][MEM: 0.42MB]    centro_costo: taller
+[2025-11-24 03:46:49][MEM: 0.42MB]    id_equipo: 147
+[2025-11-24 03:46:49][MEM: 0.42MB]    estado_id: 10
+[2025-11-24 03:46:49][MEM: 0.42MB]    actividad_id: 3
+[2025-11-24 03:46:49][MEM: 0.42MB]    usuario_id: 21
+[2025-11-24 03:46:49][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-11-24 03:46:49][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-24 03:46:49][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-24 03:46:49][MEM: 0.42MB]    Tipo: string
+[2025-11-24 03:46:49][MEM: 0.42MB]    Longitud: 10
+[2025-11-24 03:46:49][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-11-24 03:46:49][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-24 03:46:49][MEM: 0.42MB]    Longitud: 10
+[2025-11-24 03:46:49][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-11-24 03:46:49][MEM: 0.42MB]    Valor: 'correctivo'
+[2025-11-24 03:46:49][MEM: 0.42MB]    Longitud: 10
+[2025-11-24 03:46:49][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'correctivo'
+[2025-11-24 03:46:49][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-24 03:46:49][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-11-24 03:46:49][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-11-24 03:46:49][MEM: 0.42MB]    autorizado_por: 14 (integer)
+[2025-11-24 03:46:49][MEM: 0.42MB]    tipo_mantenimiento: 'correctivo' (string)
+[2025-11-24 03:46:49][MEM: 0.42MB]    id_equipo: 147 (integer)
+[2025-11-24 03:46:49][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-11-24 03:46:49][MEM: 0.42MB]    actividad_id: 3 (integer)
+[2025-11-24 03:46:49][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-11-24 03:46:49][MEM: 0.46MB] ✅ Número calculado: 1152 (anterior: 1151)
+[2025-11-24 03:46:49][MEM: 0.46MB] 🔍 Buscando equipo ID: 147
+[2025-11-24 03:46:49][MEM: 0.46MB] ✅ Equipo encontrado:
+[2025-11-24 03:46:49][MEM: 0.46MB]    nombre_empresa: Argos
+[2025-11-24 03:46:49][MEM: 0.46MB]    placa: 123456
+[2025-11-24 03:46:49][MEM: 0.46MB] 🔍 Validando funcionario ID: 14
+[2025-11-24 03:46:49][MEM: 0.46MB] ✅ Funcionario validado
+[2025-11-24 03:46:49][MEM: 0.46MB] 📅 Fecha formateada: 2025-11-23 22:45:24
+[2025-11-24 03:46:49][MEM: 0.46MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-24 03:46:49][MEM: 0.46MB] 🔧 Preparando statement...
+[2025-11-24 03:46:49][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-11-24 03:46:49][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-24 03:46:49][MEM: 0.44MB]    Parámetros a bindear:
+[2025-11-24 03:46:49][MEM: 0.44MB]    1. o_servicio (i): 1152
+[2025-11-24 03:46:49][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-11-23 22:45:24
+[2025-11-24 03:46:49][MEM: 0.44MB]    3. orden_cliente (s): 535435356
+[2025-11-24 03:46:49][MEM: 0.44MB]    4. autorizado_por (i): 14
+[2025-11-24 03:46:49][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'correctivo' [CRÍTICO]
+[2025-11-24 03:46:49][MEM: 0.44MB]    6. centro_costo (s): taller
+[2025-11-24 03:46:49][MEM: 0.44MB]    7. id_equipo (i): 147
+[2025-11-24 03:46:49][MEM: 0.44MB]    8. nombre_empresa (s): Argos
+[2025-11-24 03:46:49][MEM: 0.44MB]    9. placa (s): 123456
+[2025-11-24 03:46:49][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-11-24 03:46:49][MEM: 0.44MB]   11. actividad_id (i): 3
+[2025-11-24 03:46:49][MEM: 0.44MB]   12. usuario_creador (i): 21
+[2025-11-24 03:46:49][MEM: 0.44MB]   13. usuario_ultima_act (i): 21
+[2025-11-24 03:46:49][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-11-24 03:46:49][MEM: 0.44MB] ✅ Bind exitoso
+[2025-11-24 03:46:49][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-11-24 03:46:49][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-24 03:46:49][MEM: 0.44MB] 🆔 Servicio creado con ID: 168
+[2025-11-24 03:46:49][MEM: 0.44MB] 🔢 Número de servicio: 1152
+[2025-11-24 03:46:49][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-24 03:46:49][MEM: 0.45MB] ✅ FIX aplicado exitosamente
+[2025-11-24 03:46:49][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-24 03:46:49][MEM: 0.48MB]    📤 Valor que enviamos: 'correctivo'
+[2025-11-24 03:46:49][MEM: 0.48MB]    📥 Valor final en BD: 'correctivo'
+[2025-11-24 03:46:49][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-11-24 03:46:49][MEM: 0.48MB]    🔢 Valor HEX final: 636F727265637469766F
+[2025-11-24 03:46:49][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-24 03:46:49][MEM: 0.46MB] 📡 Intentando WebSocket...
+[2025-11-24 03:46:49][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-11-24 03:46:49][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-11-24 03:46:49][MEM: 0.46MB] 📤 Respuesta preparada (size: 367 bytes)
+[2025-11-24 03:46:49][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2025-11-24 12:15:34][MEM: 0.38MB] ========================================
+[2025-11-24 12:15:34][MEM: 0.38MB] 🆕 NUEVA REQUEST INICIADA
+[2025-11-24 12:15:34][MEM: 0.38MB] ========================================
+[2025-11-24 12:15:34][MEM: 0.38MB] 🌐 IP: 181.236.112.66
+[2025-11-24 12:15:34][MEM: 0.38MB] 📨 Método: POST
+[2025-11-24 12:15:34][MEM: 0.38MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2025-11-24 12:15:34][MEM: 0.38MB] ✅ auth_middleware cargado
+[2025-11-24 12:15:34][MEM: 0.38MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2025-11-24 12:15:34][MEM: 0.38MB] ✅ Acceso registrado
+[2025-11-24 12:15:34][MEM: 0.38MB] 📦 Requiriendo conexión y WebSocket...
+[2025-11-24 12:15:34][MEM: 0.42MB] ✅ conexion.php cargado
+[2025-11-24 12:15:34][MEM: 0.42MB] ✅ WebSocketNotifier.php cargado
+[2025-11-24 12:15:34][MEM: 0.42MB] 📥 Raw input length: 195
+[2025-11-24 12:15:34][MEM: 0.42MB] 📥 Raw input: {"fecha_ingreso":"2025-11-24T00:00:00.000","orden_cliente":"1234565","autorizado_por":14,"tipo_mantenimiento":"preventivo","centro_costo":"taller","id_equipo":148,"estado_id":10,"actividad_id":8}
+[2025-11-24 12:15:34][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2025-11-24 12:15:34][MEM: 0.42MB] 📋 Variables extraídas:
+[2025-11-24 12:15:34][MEM: 0.42MB]    fecha_ingreso: 2025-11-24T00:00:00.000
+[2025-11-24 12:15:34][MEM: 0.42MB]    orden_cliente: 1234565
+[2025-11-24 12:15:34][MEM: 0.42MB]    autorizado_por: 14
+[2025-11-24 12:15:34][MEM: 0.42MB]    tipo_mantenimiento RAW: 'preventivo'
+[2025-11-24 12:15:34][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2025-11-24 12:15:34][MEM: 0.42MB]    centro_costo: taller
+[2025-11-24 12:15:34][MEM: 0.42MB]    id_equipo: 148
+[2025-11-24 12:15:34][MEM: 0.42MB]    estado_id: 10
+[2025-11-24 12:15:34][MEM: 0.42MB]    actividad_id: 8
+[2025-11-24 12:15:34][MEM: 0.42MB]    usuario_id: 21
+[2025-11-24 12:15:34][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2025-11-24 12:15:34][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2025-11-24 12:15:34][MEM: 0.42MB]    Valor: 'preventivo'
+[2025-11-24 12:15:34][MEM: 0.42MB]    Tipo: string
+[2025-11-24 12:15:34][MEM: 0.42MB]    Longitud: 10
+[2025-11-24 12:15:34][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2025-11-24 12:15:34][MEM: 0.42MB]    Valor: 'preventivo'
+[2025-11-24 12:15:34][MEM: 0.42MB]    Longitud: 10
+[2025-11-24 12:15:34][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2025-11-24 12:15:34][MEM: 0.42MB]    Valor: 'preventivo'
+[2025-11-24 12:15:34][MEM: 0.42MB]    Longitud: 10
+[2025-11-24 12:15:34][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'preventivo'
+[2025-11-24 12:15:34][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2025-11-24 12:15:34][MEM: 0.42MB] 🔢 Tipos forzados:
+[2025-11-24 12:15:34][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2025-11-24 12:15:34][MEM: 0.42MB]    autorizado_por: 14 (integer)
+[2025-11-24 12:15:34][MEM: 0.42MB]    tipo_mantenimiento: 'preventivo' (string)
+[2025-11-24 12:15:34][MEM: 0.42MB]    id_equipo: 148 (integer)
+[2025-11-24 12:15:34][MEM: 0.42MB]    estado_id: 10 (integer)
+[2025-11-24 12:15:34][MEM: 0.42MB]    actividad_id: 8 (integer)
+[2025-11-24 12:15:34][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2025-11-24 12:15:34][MEM: 0.46MB] ✅ Número calculado: 1153 (anterior: 1152)
+[2025-11-24 12:15:34][MEM: 0.46MB] 🔍 Buscando equipo ID: 148
+[2025-11-24 12:15:34][MEM: 0.46MB] ✅ Equipo encontrado:
+[2025-11-24 12:15:34][MEM: 0.46MB]    nombre_empresa: MATERIA PROYECTO
+[2025-11-24 12:15:34][MEM: 0.46MB]    placa: N/A
+[2025-11-24 12:15:34][MEM: 0.46MB] 🔍 Validando funcionario ID: 14
+[2025-11-24 12:15:34][MEM: 0.46MB] ✅ Funcionario validado
+[2025-11-24 12:15:34][MEM: 0.46MB] 📅 Fecha formateada: 2025-11-24 00:00:00
+[2025-11-24 12:15:34][MEM: 0.46MB] 📝 SQL preparado (longitud: 467 chars)
+[2025-11-24 12:15:34][MEM: 0.46MB] 🔧 Preparando statement...
+[2025-11-24 12:15:34][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2025-11-24 12:15:34][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2025-11-24 12:15:34][MEM: 0.44MB]    Parámetros a bindear:
+[2025-11-24 12:15:34][MEM: 0.44MB]    1. o_servicio (i): 1153
+[2025-11-24 12:15:34][MEM: 0.44MB]    2. fecha_ingreso (s): 2025-11-24 00:00:00
+[2025-11-24 12:15:34][MEM: 0.44MB]    3. orden_cliente (s): 1234565
+[2025-11-24 12:15:34][MEM: 0.44MB]    4. autorizado_por (i): 14
+[2025-11-24 12:15:34][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'preventivo' [CRÍTICO]
+[2025-11-24 12:15:34][MEM: 0.44MB]    6. centro_costo (s): taller
+[2025-11-24 12:15:34][MEM: 0.44MB]    7. id_equipo (i): 148
+[2025-11-24 12:15:34][MEM: 0.44MB]    8. nombre_empresa (s): MATERIA PROYECTO
+[2025-11-24 12:15:34][MEM: 0.44MB]    9. placa (s): N/A
+[2025-11-24 12:15:34][MEM: 0.44MB]   10. estado_id (i): 10
+[2025-11-24 12:15:34][MEM: 0.44MB]   11. actividad_id (i): 8
+[2025-11-24 12:15:34][MEM: 0.44MB]   12. usuario_creador (i): 21
+[2025-11-24 12:15:34][MEM: 0.44MB]   13. usuario_ultima_act (i): 21
+[2025-11-24 12:15:34][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2025-11-24 12:15:34][MEM: 0.44MB] ✅ Bind exitoso
+[2025-11-24 12:15:34][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2025-11-24 12:15:34][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2025-11-24 12:15:34][MEM: 0.44MB] 🆔 Servicio creado con ID: 169
+[2025-11-24 12:15:34][MEM: 0.44MB] 🔢 Número de servicio: 1153
+[2025-11-24 12:15:34][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2025-11-24 12:15:34][MEM: 0.45MB] ✅ FIX aplicado exitosamente
+[2025-11-24 12:15:34][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2025-11-24 12:15:34][MEM: 0.48MB]    📤 Valor que enviamos: 'preventivo'
+[2025-11-24 12:15:34][MEM: 0.48MB]    📥 Valor final en BD: 'preventivo'
+[2025-11-24 12:15:34][MEM: 0.48MB]    📏 Longitud final: 10
+[2025-11-24 12:15:34][MEM: 0.48MB]    🔢 Valor HEX final: 70726576656E7469766F
+[2025-11-24 12:15:34][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2025-11-24 12:15:34][MEM: 0.46MB] 📡 Intentando WebSocket...
+[2025-11-24 12:15:34][MEM: 0.46MB] ✅ WebSocket notificado
+[2025-11-24 12:15:34][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2025-11-24 12:15:34][MEM: 0.46MB] 📤 Respuesta preparada (size: 365 bytes)
+[2025-11-24 12:15:34][MEM: 0.46MB] 📤 Enviando respuesta JSON...
+[2026-01-08 02:47:26][MEM: 0.37MB] ========================================
+[2026-01-08 02:47:26][MEM: 0.37MB] 🆕 NUEVA REQUEST INICIADA
+[2026-01-08 02:47:26][MEM: 0.37MB] ========================================
+[2026-01-08 02:47:26][MEM: 0.37MB] 🌐 IP: 181.236.101.252
+[2026-01-08 02:47:26][MEM: 0.37MB] 📨 Método: POST
+[2026-01-08 02:47:26][MEM: 0.37MB] 🔗 URI: /API_Infoapp/servicio/crear_servicio.php
+[2026-01-08 02:47:26][MEM: 0.37MB] ✅ auth_middleware cargado
+[2026-01-08 02:47:26][MEM: 0.37MB] 👤 Usuario autenticado: colaborador (ID: 21)
+[2026-01-08 02:47:26][MEM: 0.37MB] ✅ Acceso registrado
+[2026-01-08 02:47:26][MEM: 0.37MB] 📦 Requiriendo conexión y WebSocket...
+[2026-01-08 02:47:26][MEM: 0.41MB] ✅ conexion.php cargado
+[2026-01-08 02:47:26][MEM: 0.41MB] ✅ WebSocketNotifier.php cargado
+[2026-01-08 02:47:26][MEM: 0.41MB] 📥 Raw input length: 201
+[2026-01-08 02:47:26][MEM: 0.41MB] 📥 Raw input: {"fecha_ingreso":"2026-01-07T21:46:28.117820","orden_cliente":"PENDIENTE","autorizado_por":20,"tipo_mantenimiento":"preventivo","centro_costo":"taller","id_equipo":146,"estado_id":10,"actividad_id":52}
+[2026-01-08 02:47:26][MEM: 0.42MB] ✅ JSON decodificado correctamente
+[2026-01-08 02:47:26][MEM: 0.42MB] 📋 Variables extraídas:
+[2026-01-08 02:47:26][MEM: 0.42MB]    fecha_ingreso: 2026-01-07T21:46:28.117820
+[2026-01-08 02:47:26][MEM: 0.42MB]    orden_cliente: PENDIENTE
+[2026-01-08 02:47:26][MEM: 0.42MB]    autorizado_por: 20
+[2026-01-08 02:47:26][MEM: 0.42MB]    tipo_mantenimiento RAW: 'preventivo'
+[2026-01-08 02:47:26][MEM: 0.42MB]    tipo_mantenimiento tipo: string
+[2026-01-08 02:47:26][MEM: 0.42MB]    centro_costo: taller
+[2026-01-08 02:47:26][MEM: 0.42MB]    id_equipo: 146
+[2026-01-08 02:47:26][MEM: 0.42MB]    estado_id: 10
+[2026-01-08 02:47:26][MEM: 0.42MB]    actividad_id: 52
+[2026-01-08 02:47:26][MEM: 0.42MB]    usuario_id: 21
+[2026-01-08 02:47:26][MEM: 0.42MB] ✅ Validación de campos requeridos OK
+[2026-01-08 02:47:26][MEM: 0.42MB] 🔍 ANTES de normalizar tipo_mantenimiento:
+[2026-01-08 02:47:26][MEM: 0.42MB]    Valor: 'preventivo'
+[2026-01-08 02:47:26][MEM: 0.42MB]    Tipo: string
+[2026-01-08 02:47:26][MEM: 0.42MB]    Longitud: 10
+[2026-01-08 02:47:26][MEM: 0.42MB] 🔍 DESPUÉS de trim():
+[2026-01-08 02:47:26][MEM: 0.42MB]    Valor: 'preventivo'
+[2026-01-08 02:47:26][MEM: 0.42MB]    Longitud: 10
+[2026-01-08 02:47:26][MEM: 0.42MB] 🔍 DESPUÉS de strtolower():
+[2026-01-08 02:47:26][MEM: 0.42MB]    Valor: 'preventivo'
+[2026-01-08 02:47:26][MEM: 0.42MB]    Longitud: 10
+[2026-01-08 02:47:26][MEM: 0.42MB] ✅ tipo_mantenimiento normalizado correctamente: 'preventivo'
+[2026-01-08 02:47:26][MEM: 0.42MB] 🔢 Convirtiendo tipos numéricos...
+[2026-01-08 02:47:26][MEM: 0.42MB] 🔢 Tipos forzados:
+[2026-01-08 02:47:26][MEM: 0.42MB]    o_servicio: 0 (integer)
+[2026-01-08 02:47:26][MEM: 0.42MB]    autorizado_por: 20 (integer)
+[2026-01-08 02:47:26][MEM: 0.42MB]    tipo_mantenimiento: 'preventivo' (string)
+[2026-01-08 02:47:26][MEM: 0.42MB]    id_equipo: 146 (integer)
+[2026-01-08 02:47:26][MEM: 0.42MB]    estado_id: 10 (integer)
+[2026-01-08 02:47:26][MEM: 0.42MB]    actividad_id: 52 (integer)
+[2026-01-08 02:47:26][MEM: 0.42MB] 🔢 Calculando número de servicio automático...
+[2026-01-08 02:47:26][MEM: 0.45MB] ✅ Número calculado: 1154 (anterior: 1153)
+[2026-01-08 02:47:26][MEM: 0.45MB] 🔍 Buscando equipo ID: 146
+[2026-01-08 02:47:26][MEM: 0.45MB] ✅ Equipo encontrado:
+[2026-01-08 02:47:26][MEM: 0.45MB]    nombre_empresa: cemex
+[2026-01-08 02:47:26][MEM: 0.45MB]    placa: XXX-000
+[2026-01-08 02:47:26][MEM: 0.45MB] 🔍 Validando funcionario ID: 20
+[2026-01-08 02:47:26][MEM: 0.45MB] ✅ Funcionario validado
+[2026-01-08 02:47:26][MEM: 0.45MB] 📅 Fecha formateada: 2026-01-07 21:46:28
+[2026-01-08 02:47:26][MEM: 0.45MB] 📝 SQL preparado (longitud: 467 chars)
+[2026-01-08 02:47:26][MEM: 0.45MB] 🔧 Preparando statement...
+[2026-01-08 02:47:26][MEM: 0.44MB] ✅ Statement preparado correctamente
+[2026-01-08 02:47:26][MEM: 0.44MB] 🔗 Binding params con tipo: issiisssiiiii (13 params)
+[2026-01-08 02:47:26][MEM: 0.44MB]    Parámetros a bindear:
+[2026-01-08 02:47:26][MEM: 0.44MB]    1. o_servicio (i): 1154
+[2026-01-08 02:47:26][MEM: 0.44MB]    2. fecha_ingreso (s): 2026-01-07 21:46:28
+[2026-01-08 02:47:26][MEM: 0.44MB]    3. orden_cliente (s): PENDIENTE
+[2026-01-08 02:47:26][MEM: 0.44MB]    4. autorizado_por (i): 20
+[2026-01-08 02:47:26][MEM: 0.44MB]    5. tipo_mantenimiento (s): 'preventivo' [CRÍTICO]
+[2026-01-08 02:47:26][MEM: 0.44MB]    6. centro_costo (s): taller
+[2026-01-08 02:47:26][MEM: 0.44MB]    7. id_equipo (i): 146
+[2026-01-08 02:47:26][MEM: 0.44MB]    8. nombre_empresa (s): cemex
+[2026-01-08 02:47:26][MEM: 0.44MB]    9. placa (s): XXX-000
+[2026-01-08 02:47:26][MEM: 0.44MB]   10. estado_id (i): 10
+[2026-01-08 02:47:26][MEM: 0.44MB]   11. actividad_id (i): 52
+[2026-01-08 02:47:26][MEM: 0.44MB]   12. usuario_creador (i): 21
+[2026-01-08 02:47:26][MEM: 0.44MB]   13. usuario_ultima_act (i): 21
+[2026-01-08 02:47:26][MEM: 0.44MB] 🔗 bind_param resultado: TRUE
+[2026-01-08 02:47:26][MEM: 0.44MB] ✅ Bind exitoso
+[2026-01-08 02:47:26][MEM: 0.44MB] ▶️ Ejecutando INSERT...
+[2026-01-08 02:47:26][MEM: 0.44MB] ✅✅✅ INSERT EXITOSO!
+[2026-01-08 02:47:26][MEM: 0.44MB] 🆔 Servicio creado con ID: 170
+[2026-01-08 02:47:26][MEM: 0.44MB] 🔢 Número de servicio: 1154
+[2026-01-08 02:47:26][MEM: 0.44MB] 🔧 Aplicando FIX: Forzando tipo_mantenimiento correcto...
+[2026-01-08 02:47:26][MEM: 0.44MB] ✅ FIX aplicado exitosamente
+[2026-01-08 02:47:26][MEM: 0.44MB] 🔍🔍🔍 VERIFICACIÓN POST-FIX:
+[2026-01-08 02:47:26][MEM: 0.48MB]    📤 Valor que enviamos: 'preventivo'
+[2026-01-08 02:47:26][MEM: 0.48MB]    📥 Valor final en BD: 'preventivo'
+[2026-01-08 02:47:26][MEM: 0.48MB]    📏 Longitud final: 10
+[2026-01-08 02:47:26][MEM: 0.48MB]    🔢 Valor HEX final: 70726576656E7469766F
+[2026-01-08 02:47:26][MEM: 0.48MB]    ✔️  ¿Son iguales?: SÍ ✅
+[2026-01-08 02:47:26][MEM: 0.45MB] 📡 Intentando WebSocket...
+[2026-01-08 02:47:26][MEM: 0.46MB] ✅ WebSocket notificado
+[2026-01-08 02:47:26][MEM: 0.46MB] 📤 Preparando respuesta JSON...
+[2026-01-08 02:47:26][MEM: 0.46MB] 📤 Respuesta preparada (size: 368 bytes)
+[2026-01-08 02:47:26][MEM: 0.46MB] 📤 Enviando respuesta JSON...

@@ -1,0 +1,19 @@
+{
+  "allowUnconfiguredTransitions": true,
+  "estados": [
+    { "id": "activo", "nombre": "Activo", "colorHex": "#4CAF50" },
+    { "id": "mantenimiento", "nombre": "En Mantenimiento", "colorHex": "#FB8C00" },
+    { "id": "prestamo", "nombre": "En Préstamo", "colorHex": "#64B5F6" },
+    { "id": "inactivo", "nombre": "Inactivo", "colorHex": "#9E9E9E" },
+    { "id": "baja", "nombre": "De Baja", "colorHex": "#E57373" }
+  ],
+  "transiciones": [
+    { "from": "activo", "to": "mantenimiento" },
+    { "from": "activo", "to": "prestamo" },
+    { "from": "mantenimiento", "to": "activo" },
+    { "from": "prestamo", "to": "activo" },
+    { "from": "activo", "to": "inactivo" },
+    { "from": "inactivo", "to": "activo" },
+    { "from": "inactivo", "to": "baja" }
+  ]
+}
