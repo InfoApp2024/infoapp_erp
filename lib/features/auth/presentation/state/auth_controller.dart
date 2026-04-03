@@ -91,17 +91,14 @@ class AuthController extends ChangeNotifier {
 
       final result = jsonDecode(successResponse.body);
       if (result['success'] != true) {
-        // Check if the error is due to inactive client
         final String errorMessage = result['message']?.toString().toLowerCase() ?? '';
         final String debugMessage = result['debug']?.toString().toLowerCase() ?? '';
         
         if (errorMessage.contains('cliente inactivo') || 
-            errorMessage.contains('inactivo') ||
-            debugMessage.contains('cliente inactivo') ||
-            debugMessage.contains('inactivo')) {
+            debugMessage.contains('cliente inactivo')) {
           throw Exception('El servicio actualmente est\u00e1 fuera de servicio, contacte al administrador');
         }
-        throw Exception('Datos incorrectos');
+        throw Exception(result['message'] ?? 'Usuario o contraseña no válidos');
       }
 
       if (result['token'] == null) {

@@ -102,7 +102,7 @@ try {
     $resultado = $stmt->get_result();
 
     if ($resultado->num_rows !== 1) {
-        handleError("Usuario no encontrado", "No existe usuario con ese nombre o está inactivo");
+        handleError("Usuario o contraseña no válidos");
     }
 
     $usuario = $resultado->fetch_assoc();
@@ -137,7 +137,7 @@ try {
     }
 
     if (!password_verify($contrasena, $usuario['CONTRASEÑA'])) {
-        handleError("Contraseña incorrecta", "Las credenciales no son válidas");
+        handleError("Usuario o contraseña no válidos");
     }
 
     $rol = $usuario['TIPO_ROL'];
